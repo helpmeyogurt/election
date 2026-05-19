@@ -12,7 +12,6 @@ HEADERS = {
     "Referer": "https://info.nec.go.kr/",
 }
 
-# 요청하신 시도 명칭 그대로 반영
 CITIES = [
     {"CODE": 1100, "NAME": "서울특별시"},
     {"CODE": 2600, "NAME": "부산광역시"},
@@ -33,50 +32,26 @@ CITIES = [
     {"CODE": 4900, "NAME": "제주특별자치도"},
 ]
 
-# 정당 컬러 매핑 가이드
 PARTY_COLORS = {
-    "더불어민주당": "#152484",
-    "국민의힘": "#E61E2B",
-    "더불어민주연합": "#152484",
-    "국민의미래": "#E61E2B",
-    "녹색정의당": "#007C36",
-    "새로운미래": "#46bbbd",
-    "개혁신당": "#FF7920",
-    "진보당": "#D6001C",
-    "자유통일당": "#E24A49",
-    "조국혁신당": "#004099",
-    "기본소득당": "#00D2C3",
-    "무소속": "#8b8b8b",
-    "국민의당": "#EA5504",
-    "미래통합당": "#EF426F",
-    "미래한국당": "#EF426F",
-    "더불어시민당": "#006CB7",
-    "정의당": "#ffca05",
-    "열린민주당": "#003E98",
-    "소나무당": "#1A246B",
-    "우리공화당": "#009944",
-    "한국국민당": "#013588",
-    "새진보연합": "#00d2c3",
-    "없음": "#8b8b8b",
+    "더불어민주당": "#152484", "국민의힘": "#E61E2B", "더불어민주연합": "#152484", "국민의미래": "#E61E2B",
+    "녹색정의당": "#007C36", "새로운미래": "#46bbbd", "개혁신당": "#FF7920", "진보당": "#D6001C",
+    "자유통일당": "#E24A49", "조국혁신당": "#004099", "기본소득당": "#00D2C3", "무소속": "#8b8b8b",
+    "국민의당": "#EA5504", "미래통합당": "#EF426F", "미래한국당": "#EF426F", "더불어시민당": "#006CB7",
+    "정의당": "#ffca05", "열린민주당": "#003E98", "소나무당": "#1A246B", "우리공화당": "#009944",
+    "한국국민당": "#013588", "새진보연합": "#00d2c3", "없음": "#8b8b8b"
 }
 
-
 def get_party_color(party_name):
-    """정당명에 맞는 색상을 반환합니다."""
     cleaned_name = party_name.strip() if party_name else ""
     return PARTY_COLORS.get(cleaned_name, "#8b8b8b")
 
-
 def parse_raw_data(raw_json, city_code, city_name):
-    """선관위 원본 JSON 데이터를 요청하신 포맷으로 정제합니다."""
     refined_list = []
-
     raw_items = raw_json.get("jsonResult", {}).get("data", [])
     if not raw_items:
         raw_items = raw_json if isinstance(raw_json, list) else [raw_json]
 
     for item in raw_items:
-        # 기본 정보 매핑 (전달받은 정식 시도 명칭을 SDNAME 기본값으로 활용)
         refined_item = {
             "SDID": int(city_code),
             "SDNAME": item.get("SDNAME", city_name),
@@ -91,7 +66,6 @@ def parse_raw_data(raw_json, city_code, city_name):
             "data": [],
         }
 
-        # 후보자 데이터 파싱 및 조립 (최대 15명 동적 추적)
         hubo_count = 0
         for i in range(1, 16):
             suffix = f"{i:02d}"
@@ -102,7 +76,6 @@ def parse_raw_data(raw_json, city_code, city_name):
 
             if not hubo_name:
                 break
-
             hubo_count += 1
 
             try:
@@ -110,16 +83,12 @@ def parse_raw_data(raw_json, city_code, city_name):
             except (ValueError, AttributeError):
                 val = 0
 
-            # data 내부 리스트 구조 채우기
-            refined_item["data"].append(
-                {
-                    "value": val,
-                    "name": hubo_name,
-                    "itemStyle": {"color": get_party_color(party_name)},
-                }
-            )
+            refined_item["data"].append({
+                "value": val,
+                "name": hubo_name,
+                "itemStyle": {"color": get_party_color(party_name)},
+            })
 
-            # 상위 레벨 후보 정보 복사
             refined_item[f"HUBO{suffix}"] = hubo_name
             refined_item[f"JD{suffix}"] = party_name
             refined_item[f"DUGSU{suffix}"] = dugsu_str
@@ -128,9 +97,7 @@ def parse_raw_data(raw_json, city_code, city_name):
         refined_item["HUBOSU"] = str(hubo_count)
         refined_list.append(refined_item)
 
-    # 지정하신 "서울특별시", "부산광역시" 등의 명칭이 그대로 키값(Key)이 됩니다.
     return {city_name: refined_list}
-
 
 def main():
     output_dir = os.path.join("data", "jibang", "8")
@@ -145,44 +112,39 @@ def main():
         print(f"[{name_str}] 데이터 요청 중 (코드: {code_str})...")
 
         payload = {
-            "electionId": "0000000000",
-            "electionType": "4",
-            "sgDivMenuId": "VCCP09",
-            "electionName": "20220601",
-            "electionCode": "3",
-            "electionCodeId": "3",
-            "electionNameSgType": "1",
-            "cityCode": code_str,
-            "oldElectionType": "1",
+            "electionId": "0000000000", "electionType": "4", "sgDivMenuId": "VCCP09",
+            "electionName": "20220601", "electionCode": "3", "electionCodeId": "3",
+            "electionNameSgType": "1", "cityCode": code_str, "oldElectionType": "1",
             "statementId": "VCCP09_#3",
         }
 
         try:
-            response = requests.post(URL, headers=HEADERS, data=payload)
+            # timeout=10 추가 (선관위가 응답 안 주면 10초 뒤 강제 중단 및 다음 지역으로 패스)
+            response = requests.post(URL, headers=HEADERS, data=payload, timeout=10)
             response.raise_for_status()
             raw_json = response.json()
 
-            # 1. 원본 데이터 저장 (예: ori_1100.json)
-            ori_path = os.path.join(output_dir, f"ori_{code_str}.json")
-            with open(ori_path, "w", encoding="utf-8") as f:
+            # 1. 원본 저장
+            with open(os.path.join(output_dir, f"ori_{code_str}.json"), "w", encoding="utf-8") as f:
                 json.dump(raw_json, f, ensure_ascii=False, indent=4)
 
-            # 2. 정제 데이터 처리 및 저장 (예: 1100.json)
+            # 2. 정제 저장
             refined_json = parse_raw_data(raw_json, code_str, name_str)
-            refined_path = os.path.join(output_dir, f"{code_str}.json")
-            with open(refined_path, "w", encoding="utf-8") as f:
+            with open(os.path.join(output_dir, f"{code_str}.json"), "w", encoding="utf-8") as f:
                 json.dump(refined_json, f, ensure_ascii=False, indent=4)
 
             print(f"🟢 [{name_str}] 저장 완료")
 
+        except requests.exceptions.Timeout:
+            print(f"🔴 [{name_str}] 요청 타임아웃 제한 시간(10초)을 초과하여 다음 지역으로 넘어갑니다.")
         except Exception as e:
             print(f"🔴 [{name_str}] 처리 중 오류 발생: {e}")
 
-        # 딜레이 부하 방지 (1초 쉬기)
-        time.sleep(1)
+        # 안전 구동을 위해 대기 시간을 5초로 크게 늘림 (선관위 부하 방지)
+        print("안전 조치를 위해 5초간 대기합니다...")
+        time.sleep(5)
 
-    print("모든 작업이 완료되었습니다.")
-
+    print("모든 작업 시도가 완료되었습니다.")
 
 if __name__ == "__main__":
     main()
