@@ -5,11 +5,17 @@ import requests
 
 URL = "https://info.nec.go.kr/m/electioninfo/electionInfo_report.json"
 
+# 안드로이드 모바일 크롬 브라우저 기준으로 헤더 전면 개편
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
     "Accept": "application/json, text/javascript, */*; q=0.01",
+    "Accept-Language": "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7",
+    "Accept-Encoding": "gzip, deflate, br",
     "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
-    "Referer": "https://info.nec.go.kr/",
+    "X-Requested-With": "XMLHttpRequest",
+    "Origin": "https://info.nec.go.kr",
+    "Referer": "https://info.nec.go.kr/m/main.xhtml", # 모바일 메인 주소 레퍼러
+    "Connection": "keep-alive"
 }
 
 CITIES = [
