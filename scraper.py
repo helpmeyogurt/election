@@ -142,13 +142,13 @@ def main():
             print(f"🟢 [{name_str}] 저장 완료")
 
         except requests.exceptions.Timeout:
-            print(f"🔴 [{name_str}] 요청 타임아웃 제한 시간(10초)을 초과하여 다음 지역으로 넘어갑니다.")
+            print(f"🔴 [{name_str}] 요청 타임아웃 제한 시간(60초)을 초과하여 다음 지역으로 넘어갑니다.")
         except Exception as e:
             print(f"🔴 [{name_str}] 처리 중 오류 발생: {e}")
 
         # 안전 구동을 위해 대기 시간을 5초로 크게 늘림 (선관위 부하 방지)
-        print("안전 조치를 위해 30초간 대기합니다...")
-        time.sleep(30)
+        print("안전 조치를 위해 60초간 대기합니다...")
+        time.sleep(60)
 
     print("모든 작업 시도가 완료되었습니다.")
 
