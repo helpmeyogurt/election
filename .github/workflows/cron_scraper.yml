@@ -24,7 +24,7 @@ jobs:
         pip install requests
 
     - name: Run Scraper
-      run: python -u scraper.py
+      run: python -u sido_sgg_jang.py
 
     - name: Commit and Push changes
       run: |
