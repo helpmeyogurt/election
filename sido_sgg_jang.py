@@ -107,7 +107,7 @@ def main():
             print(f"🔴 [{name_str}] 총 {MAX_RETRIES}회 재시도했으나 최종 실패했습니다. 다음 시도로 넘어갑니다.")
 
         # 🚨 [수정 반영] 성공 여부와 상관없이 다음 시도로 넘어가기 전 5~10초 사이의 랜덤 지연시간 부여
-        random_delay = random.uniform(5.0, 10.0)
+        random_delay = random.uniform(30.0, 50.0)
         print(f"⏱️ 보호 대기: {random_delay:.2f}초 동안 다음 요청을 멈춥니다.\n")
         time.sleep(random_delay)
 
