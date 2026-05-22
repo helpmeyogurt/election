@@ -24,13 +24,13 @@ CITIES = [
 # 💡 자바스크립트 지도의 visualMap(pieces) 순서와 100% 일치하도록 정당 인덱스 정의
 # 1: 민주당, 2: 국민의힘, 4: 새로운미래, 5: 개혁신당, 7: 진보당, 6: 무소속/기타 등
 PARTY_MAP_INDEX = {
-    "더불어민주당": 1, "더불어민주연합": 1,
+    "더불어민주당": 1, "더불어민주연합": 1, "더불어시민당": 1,
     "국민의힘": 2, "국민의미래": 2, "미래통합당": 2,
-    "새로운미래": 4,
-    "개혁신당": 5,
-    "진보당": 7,
-    "무소속": 6,
-    "정의당": 3, "녹색정의당": 3
+    "정의당": 3, "녹색정의당": 3,
+    "조국혁신당": 4,
+    "진보당": 5,
+    "개혁신당": 6,
+    "무소속": 9
 }
 
 def uncomma(value_str):
@@ -135,8 +135,8 @@ def add_sgg_data_processor(raw_json, city_code, city_name):
             sggdata["value"] = 9  # 경합지역 색상 번호 권장
             sggdata["DUGYULCHA"] = "0.00"
         else:
-            # 매핑 사전에 정당이 없으면 무소속/기타 번호(6번)를 기본값으로 사용
-            sggdata["value"] = PARTY_MAP_INDEX.get(win_jd, 6)
+            # 매핑 사전에 정당이 없으면 무소속/기타 번호(9번)를 기본값으로 사용
+            sggdata["value"] = PARTY_MAP_INDEX.get(win_jd, 9)
             sggdata["DUGYULCHA"] = f"{(win_dugyul - sec_dugyul):.2f}"
 
         sggdata["DUGSUCHA"] = comma(win_dugsu - sec_dugsu)
