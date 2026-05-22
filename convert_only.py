@@ -1,7 +1,6 @@
 import json
 import os
 
-# 시도 정보 테이블
 CITIES = [
     {"CODE": 1100, "NAME": "서울특별시"},
     {"CODE": 2600, "NAME": "부산광역시"},
@@ -22,24 +21,28 @@ CITIES = [
     {"CODE": 4900, "NAME": "제주특별자치도"},
 ]
 
-# 정당 색상 사전
-PARTY_COLORS = {
-    "더불어민주당": "#152484", "국민의힘": "#E61E2B", "더불어민주연합": "#152484", "국민의미래": "#E61E2B",
-    "녹색정의당": "#007C36", "새로운미래": "#46bbbd", "개혁신당": "#FF7920", "진보당": "#D6001C",
-    "자유통일당": "#E24A49", "조국혁신당": "#004099", "기본소득당": "#00D2C3", "무소속": "#8b8b8b",
-    "국민의당": "#EA5504", "미래통합당": "#EF426F", "미래한국당": "#EF426F", "더불어시민당": "#006CB7",
-    "정의당": "#ffca05", "열린민주당": "#003E98", "소나무당": "#1A246B", "우리공화당": "#009944",
-    "한국국민당": "#013588", "새진보연합": "#00d2c3", "없음": "#8b8b8b"
+# 💡 자바스크립트 지도의 visualMap(pieces) 순서와 100% 일치하도록 정당 인덱스 정의
+# 1: 민주당, 2: 국민의힘, 4: 새로운미래, 5: 개혁신당, 7: 진보당, 6: 무소속/기타 등
+PARTY_MAP_INDEX = {
+    "더불어민주당": 1, "더불어민주연합": 1,
+    "국민의힘": 2, "국민의미래": 2, "미래통합당": 2,
+    "새로운미래": 4,
+    "개혁신당": 5,
+    "진보당": 7,
+    "무소속": 6,
+    "정의당": 3, "녹색정의당": 3
 }
 
-def get_party_color(party_name):
-    cleaned_name = party_name.strip() if party_name else ""
-    return PARTY_COLORS.get(cleaned_name, "#8b8b8b")
+def uncomma(value_str):
+    if not value_str: return 0
+    try: return int(str(value_str).replace(",", ""))
+    except ValueError: return 0
+
+def comma(value_int):
+    return f"{value_int:,}"
 
 def find_raw_items(data):
-    """원본 JSON 데이터에서 실제 선거 결과 리스트가 들어있는 위치를 유연하게 탐색합니다."""
-    if isinstance(data, list):
-        return data
+    if isinstance(data, list): return data
     if isinstance(data, dict):
         for key in ["data", "jsonResult", "result", "list"]:
             if key in data:
@@ -54,8 +57,7 @@ def find_raw_items(data):
                 if res: return res
     return []
 
-def parse_raw_data(raw_json, city_code, city_name):
-    """로컬 원본 데이터를 정제 포맷으로 가공합니다."""
+def add_sgg_data_processor(raw_json, city_code, city_name):
     refined_list = []
     raw_items = find_raw_items(raw_json)
     
@@ -63,8 +65,12 @@ def parse_raw_data(raw_json, city_code, city_name):
         return None
 
     for item in raw_items:
-        refined_item = {
-            "SDID": int(city_code),
+        sunsu_val = uncomma(item.get("SUNSU", "0"))
+        tusu_val = uncomma(item.get("TUSU", "0"))
+        tuyul_val = f"{(tusu_val / sunsu_val * 100):.1f}" if sunsu_val > 0 else "0.0"
+        
+        sggdata = {
+            "SDID": int(item.get("SDID", city_code)),
             "SDNAME": item.get("SDNAME", city_name),
             "WIWID": int(item.get("WIWID", 0)),
             "WIWNAME": item.get("WIWNAME", "합계"),
@@ -74,51 +80,82 @@ def parse_raw_data(raw_json, city_code, city_name):
             "MUTUSU": item.get("MUTUSU", "0"),
             "GIGWON": item.get("GIGWON", "0"),
             "HUBOSU": item.get("HUBOSU", "0"),
-            "data": [],
+            "TUYUL": tuyul_val,
+            "name": int(item.get("WIWID", 0)), 
+            "nametxt": item.get("WIWNAME", "합계"),
+            "data": []
         }
 
-        hubo_count = 0
-        for i in range(1, 16):
-            suffix = f"{i:02d}"
-            hubo_name = item.get(f"HUBO{suffix}") or item.get(f"hubo{suffix}")
-            party_name = item.get(f"JD{suffix}") or item.get(f"jd{suffix}")
-            dugsu_str = item.get(f"DUGSU{suffix}") or item.get(f"dugsu{suffix}")
-            dugyul = item.get(f"DUGYUL{suffix}") or item.get(f"dugyul{suffix}")
+        win_num, win_dugsu, win_dugyul, win_hubo, win_jd = 0, 0, 0.0, "", ""
+        sec_num, sec_dugsu, sec_dugyul, sec_hubo, sec_jd = 0, 0, 0.0, "", ""
 
-            if not hubo_name:
-                break
-                
-            hubo_count += 1
+        for k in range(1, 20):
+            suffix = f"{k:02d}"
+            hubo_name = item.get(f"HUBO{suffix}")
+            party_name = item.get(f"JD{suffix}")
+            dugsu_str = item.get(f"DUGSU{suffix}")
+            dugyul_str = item.get(f"DUGYUL{suffix}")
 
-            try:
-                val = int(str(dugsu_str).replace(",", ""))
-            except (ValueError, AttributeError):
-                val = 0
+            if not hubo_name: break
 
-            refined_item["data"].append({
-                "value": val,
+            current_dugsu = uncomma(dugsu_str)
+            current_dugyul = float(dugyul_str) if dugyul_str else 0.0
+
+            if k == 1:
+                win_num, win_dugsu, win_dugyul, win_hubo, win_jd = k, current_dugsu, current_dugyul, hubo_name, party_name
+                sec_dugsu = 0
+            elif current_dugsu > win_dugsu:
+                sec_num, sec_dugsu, sec_dugyul, sec_hubo, sec_jd = win_num, win_dugsu, win_dugyul, win_hubo, win_jd
+                win_num, win_dugsu, win_dugyul, win_hubo, win_jd = k, current_dugsu, current_dugyul, hubo_name, party_name
+            elif current_dugsu > sec_dugsu:
+                sec_num, sec_dugsu, sec_dugyul, sec_hubo, sec_jd = k, current_dugsu, current_dugyul, hubo_name, party_name
+
+            sggdata["data"].append({
+                "value": current_dugsu,
                 "name": hubo_name,
-                "itemStyle": {"color": get_party_color(party_name)},
+                "party": party_name,
+                "percentage": current_dugyul
             })
 
-            refined_item[f"HUBO{suffix}"] = hubo_name
-            refined_item[f"JD{suffix}"] = party_name
-            refined_item[f"DUGSU{suffix}"] = dugsu_str
-            refined_item[f"DUGYUL{suffix}"] = dugyul
+        sggdata["WINNUM"] = win_num
+        sggdata["WINDUGSU"] = comma(win_dugsu)
+        sggdata["WINDUGYUL"] = f"{win_dugyul:.2f}"
+        sggdata["WINHUBO"] = win_hubo
+        sggdata["WINJD"] = win_jd
 
-        refined_item["HUBOSU"] = str(hubo_count)
-        refined_list.append(refined_item)
+        sggdata["SECNUM"] = sec_num
+        sggdata["SECDUGSU"] = comma(sec_dugsu)
+        sggdata["SECDUGYUL"] = f"{sec_dugyul:.2f}"
+        sggdata["SECHUBO"] = sec_hubo
+        sggdata["SECJD"] = sec_jd
+
+        # 🚨 [수정 적용] 구역 색칠을 위해 value 항목에 '승리한 정당의 매핑 번호' 주입
+        # 만약 1, 2등 표수가 완전히 똑같다면 경합(9번 색상) 처리 혹은 0 처리
+        if win_dugsu == sec_dugsu:
+            sggdata["value"] = 9  # 경합지역 색상 번호 권장
+            sggdata["DUGYULCHA"] = "0.00"
+        else:
+            # 매핑 사전에 정당이 없으면 무소속/기타 번호(6번)를 기본값으로 사용
+            sggdata["value"] = PARTY_MAP_INDEX.get(win_jd, 6)
+            sggdata["DUGYULCHA"] = f"{(win_dugyul - sec_dugyul):.2f}"
+
+        sggdata["DUGSUCHA"] = comma(win_dugsu - sec_dugsu)
+
+        for m in range(1, 20):
+            suf = f"{m:02d}"
+            if item.get(f"HUBO{suf}"):
+                sggdata[f"HUBO{suf}"] = item.get(f"HUBO{suf}")
+                sggdata[f"JD{suf}"] = item.get(f"JD{suf}")
+                sggdata[f"DUGSU{suf}"] = item.get(f"DUGSU{suf}")
+                sggdata[f"DUGYUL{suf}"] = item.get(f"DUGYUL{suf}")
+
+        refined_list.append(sggdata)
 
     return {city_name: refined_list}
 
 def main():
     target_dir = os.path.join("data", "jibang", "8")
-    
-    if not os.path.exists(target_dir):
-        print(f"❌ '{target_dir}' 폴더를 찾을 수 없습니다. 원본 파일이 있는지 확인해 주세요.")
-        return
-
-    print("🔄 로컬 저장된 원본 파일을 기반으로 '데이터 변환 작업'만 시작합니다.")
+    if not os.path.exists(target_dir): return
 
     for city in CITIES:
         code_str = str(city["CODE"])
@@ -127,27 +164,18 @@ def main():
         ori_file_path = os.path.join(target_dir, f"ori_{code_str}.json")
         refined_file_path = os.path.join(target_dir, f"{code_str}.json")
 
-        # 기존 로컬에 받아둔 원본 파일이 존재하는지 체크
         if os.path.exists(ori_file_path):
             try:
                 with open(ori_file_path, "r", encoding="utf-8") as f:
                     raw_json = json.load(f)
 
-                refined_json = parse_raw_data(raw_json, code_str, name_str)
-                
+                refined_json = add_sgg_data_processor(raw_json, code_str, name_str)
                 if refined_json is not None:
                     with open(refined_file_path, "w", encoding="utf-8") as f:
                         json.dump(refined_json, f, ensure_ascii=False, indent=4)
-                    print(f"🟢 [{name_str}] 변환 성공 -> {code_str}.json 완료")
-                else:
-                    print(f"⚠️ [{name_str}] 원본 파일 내부에서 선거 데이터 리스트 위치를 찾지 못했습니다.")
-
+                    print(f"🟢 [{name_str}] 정당 코드 기준 value 반영 완료")
             except Exception as e:
-                print(f"🔴 [{name_str}] 변환 중 에러 발생: {e}")
-        else:
-            print(f"⚪ [{name_str}] 원본 파일({f'ori_{code_str}.json'})이 폴더에 없어 패스합니다.")
-
-    print("✨ 모든 파일 변환 프로세스가 끝났습니다.")
+                print(f"🔴 [{name_str}] 에러: {e}")
 
 if __name__ == "__main__":
     main()
