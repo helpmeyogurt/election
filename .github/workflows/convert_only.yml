@@ -1,0 +1,35 @@
+name: Election Data Convert Only
+
+on:
+  workflow_dispatch:
+    # 깃허브 웹사이트에서 수동으로 실행 버튼을 만들어주는 옵션입니다.
+
+jobs:
+  convert_data:
+    runs-on: ubuntu-latest
+
+    steps:
+    # 1. 저장소에 올라가 있는 소스코드와 ori_*.json 파일들을 가져옵니다.
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    # 2. 파이썬 환경 세팅 (변환 작업은 requests 라이브러리도 필요 없습니다.)
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+
+    # 3. 변환 전용 스크립트 실행 (로그 실시간 출력을 위해 -u 옵션 사용)
+    - name: Run Converter
+      run: python -u convert_only.py
+
+    # 4. 새로 생성되거나 변경된 정제 JSON 파일들만 깃허브 저장소에 push합니다.
+    - name: Commit and Push changes
+      run: |
+        git config --global user.name "GitHub Actions Bot"
+        git config --global user.email "actions@github.com"
+        
+        # 정제된 json 결과물 파일들만 지정해서 스테이징합니다.
+        git add data/jibang/8/[0-9]*.json
+        
+        git diff --quiet && git diff --staged --quiet || (git commit -m "chore: 로컬 원본 기반 JSON 데이터 재정제 완료 [skip ci]" && git push)
