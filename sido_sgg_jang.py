@@ -1,16 +1,22 @@
 import json
 import os
-import random  # 🚨 랜덤 지연 생성을 위해 추가
+import random
 import time
 import requests
+import sys
 
 URL = "https://info.nec.go.kr/m/electioninfo/electionInfo_report.json"
 
 # 🚨 가공하고자 하는 선거 종류 코드 (3: 시도지사, 4: 시군구청장)
 ELEC_CODE = "3"
 
-# 🚨 실패 시 최대 재시도 횟수 지정 (무한 루프 방지용)
+# 🚨 실패 시 최대 재시도 횟수 지정
 MAX_RETRIES = 3
+
+# 🚨 [수정 반영] 보호 대기 시간 범위 설정 (초 단위)
+# 현재 자꾸 발생하는 에러와 선관위 차단을 피하기 위해 30~50초로 세팅해 두었습니다.
+MIN_DELAY = 30.0
+MAX_DELAY = 45.0
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
@@ -46,13 +52,12 @@ CITIES = [
 
 def main():
     elec_code = ELEC_CODE
-    
     output_dir = os.path.join("data", "jibang", "8")
     os.makedirs(output_dir, exist_ok=True)
 
     elec_name = "시도지사" if elec_code == "3" else "시군구청장"
     print(f"🔄 총 {len(CITIES)}개 시도의 [{elec_name}(코드:{elec_code})] 원본 크롤링을 시작합니다.")
-    print(f"⏱️ 각 시도별 요청 간격 대기 시간: 5초 ~ 10초 무작위(Random) 적용")
+    print(f"⏱️ 안전 모드: {MIN_DELAY}초 ~ {MAX_DELAY}초 무작위(Random) 긴 대기 시간 적용")
 
     for city in CITIES:
         code_str = str(city["CODE"])
@@ -71,15 +76,13 @@ def main():
             "statementId": f"VCCP09_#{elec_code}", 
         }
 
-        # 🚨 [재시도 메커니즘 탑재] 성공할 때까지 루프 수행 (최대 3회)
         success = False
         attempt = 1
 
         while not success and attempt <= MAX_RETRIES:
-            print(f"📡 [{name_str}] 원본 요청 중... (시도 {attempt}/{MAX_RETRIES}회 자) [코드: {code_str}]")
+            print(f"📡 [{name_str}] 원본 요청 중... (시도 {attempt}/{MAX_RETRIES}회차)")
 
             try:
-                # 타임아웃을 15초로 설정하여 장시간 대기 차단
                 response = requests.post(URL, headers=HEADERS, data=payload, timeout=15)
                 response.raise_for_status()
                 raw_json = response.json()
@@ -91,27 +94,29 @@ def main():
                     json.dump(raw_json, f, ensure_ascii=False, indent=4)
 
                 print(f"🟢 [{name_str}] 다운로드 성공 -> {file_name}")
-                success = True  # 성공 플래그를 True로 바꾸어 while 루프 탈출
+                success = True 
 
-            except requests.exceptions.Timeout:
-                print(f"⚠️ [{name_str}] 요청 타임아웃 제한 시간 초과. 잠시 후 다시 시도합니다.")
-                attempt += 1
-                time.sleep(10)  # 서버가 끈끈할 수 있으므로 에러 시에는 10초 고정 대기 후 재시도
             except Exception as e:
-                print(f"⚠️ [{name_str}] 데이터 수집 실패 에러: {e}. 잠시 후 다시 시도합니다.")
+                print(f"⚠️ [{name_str}] 에러 발생: {e}. 20초 대기 후 다시 시도합니다.")
                 attempt += 1
-                time.sleep(10)
+                time.sleep(20)
 
-        # 만약 최대 재시도 횟수를 넘겨서 실패한 경우 로그에 기록
         if not success:
-            print(f"🔴 [{name_str}] 총 {MAX_RETRIES}회 재시도했으나 최종 실패했습니다. 다음 시도로 넘어갑니다.")
+            print(f"🔴 [{name_str}] 최종 실패. 다음 시도로 넘어갑니다.")
 
-        # 🚨 [수정 반영] 성공 여부와 상관없이 다음 시도로 넘어가기 전 5~10초 사이의 랜덤 지연시간 부여
-        random_delay = random.uniform(30.0, 50.0)
-        print(f"⏱️ 보호 대기: {random_delay:.2f}초 동안 다음 요청을 멈춥니다.\n")
-        time.sleep(random_delay)
+        # 🚨 [수정 반영] 최상단에서 지정한 MIN_DELAY와 MAX_DELAY 범위를 기준으로 주기를 난수 생성합니다.
+        random_delay = random.uniform(MIN_DELAY, MAX_DELAY)
+        print(f"⏱️ 서버 보호를 위해 {random_delay:.2f}초간 대기합니다 (생존 신호 송신 중): ", end="")
+        sys.stdout.flush()
 
-    print(f"✨ 모든 시도의 원본 API JSON 백업 작업 프로세스가 완료되었습니다.")
+        seconds_to_sleep = int(random_delay)
+        for _ in range(seconds_to_sleep):
+            time.sleep(1)
+            print(".", end="")
+            sys.stdout.flush()
+        print(" [대기 종료]\n")
+
+    print(f"✨ 모든 작업이 안전하게 완료되었습니다.")
 
 if __name__ == "__main__":
     main()
