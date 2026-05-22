@@ -11,22 +11,36 @@
             "MUTUSU": "25,016",
             "GIGWON": "786,779",
             "HUBOSU": "2",
+            "TUYUL": "48.6",
+            "name": 0,
+            "nametxt": "합계",
             "data": [
                 {
                     "value": 591510,
                     "name": "김관영",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 82.11
                 },
                 {
                     "value": 128828,
                     "name": "조배숙",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 17.88
                 }
             ],
+            "WINNUM": 1,
+            "WINDUGSU": "591,510",
+            "WINDUGYUL": "82.11",
+            "WINHUBO": "김관영",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "128,828",
+            "SECDUGYUL": "17.88",
+            "SECHUBO": "조배숙",
+            "SECJD": "국민의힘",
+            "value": 1,
+            "DUGYULCHA": "64.23",
+            "DUGSUCHA": "462,682",
             "HUBO01": "김관영",
             "JD01": "더불어민주당",
             "DUGSU01": "591,510",
@@ -47,22 +61,36 @@
             "MUTUSU": "2,427",
             "GIGWON": "186,195",
             "HUBOSU": "2",
+            "TUYUL": "40.2",
+            "name": 4501,
+            "nametxt": "전주시완산구",
             "data": [
                 {
                     "value": 99377,
                     "name": "김관영",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 80.86
                 },
                 {
                     "value": 23509,
                     "name": "조배숙",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 19.13
                 }
             ],
+            "WINNUM": 1,
+            "WINDUGSU": "99,377",
+            "WINDUGYUL": "80.86",
+            "WINHUBO": "김관영",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "23,509",
+            "SECDUGYUL": "19.13",
+            "SECHUBO": "조배숙",
+            "SECJD": "국민의힘",
+            "value": 1,
+            "DUGYULCHA": "61.73",
+            "DUGSUCHA": "75,868",
             "HUBO01": "김관영",
             "JD01": "더불어민주당",
             "DUGSU01": "99,377",
@@ -83,22 +111,36 @@
             "MUTUSU": "1,820",
             "GIGWON": "141,996",
             "HUBOSU": "2",
+            "TUYUL": "40.6",
+            "name": 4502,
+            "nametxt": "전주시덕진구",
             "data": [
                 {
                     "value": 75741,
                     "name": "김관영",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 79.62
                 },
                 {
                     "value": 19377,
                     "name": "조배숙",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 20.37
                 }
             ],
+            "WINNUM": 1,
+            "WINDUGSU": "75,741",
+            "WINDUGYUL": "79.62",
+            "WINHUBO": "김관영",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "19,377",
+            "SECDUGYUL": "20.37",
+            "SECHUBO": "조배숙",
+            "SECJD": "국민의힘",
+            "value": 1,
+            "DUGYULCHA": "59.25",
+            "DUGSUCHA": "56,364",
             "HUBO01": "김관영",
             "JD01": "더불어민주당",
             "DUGSU01": "75,741",
@@ -119,22 +161,36 @@
             "MUTUSU": "2,013",
             "GIGWON": "137,801",
             "HUBOSU": "2",
+            "TUYUL": "38.7",
+            "name": 4503,
+            "nametxt": "군산시",
             "data": [
                 {
                     "value": 73109,
                     "name": "김관영",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 85.89
                 },
                 {
                     "value": 12003,
                     "name": "조배숙",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 14.1
                 }
             ],
+            "WINNUM": 1,
+            "WINDUGSU": "73,109",
+            "WINDUGYUL": "85.89",
+            "WINHUBO": "김관영",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "12,003",
+            "SECDUGYUL": "14.10",
+            "SECHUBO": "조배숙",
+            "SECJD": "국민의힘",
+            "value": 1,
+            "DUGYULCHA": "71.79",
+            "DUGSUCHA": "61,106",
             "HUBO01": "김관영",
             "JD01": "더불어민주당",
             "DUGSU01": "73,109",
@@ -155,22 +211,36 @@
             "MUTUSU": "3,429",
             "GIGWON": "131,832",
             "HUBOSU": "2",
+            "TUYUL": "44.9",
+            "name": 4505,
+            "nametxt": "익산시",
             "data": [
                 {
                     "value": 83134,
                     "name": "김관영",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 80.07
                 },
                 {
                     "value": 20682,
                     "name": "조배숙",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 19.92
                 }
             ],
+            "WINNUM": 1,
+            "WINDUGSU": "83,134",
+            "WINDUGYUL": "80.07",
+            "WINHUBO": "김관영",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "20,682",
+            "SECDUGYUL": "19.92",
+            "SECHUBO": "조배숙",
+            "SECJD": "국민의힘",
+            "value": 1,
+            "DUGYULCHA": "60.15",
+            "DUGSUCHA": "62,452",
             "HUBO01": "김관영",
             "JD01": "더불어민주당",
             "DUGSU01": "83,134",
@@ -191,22 +261,36 @@
             "MUTUSU": "2,297",
             "GIGWON": "39,024",
             "HUBOSU": "2",
+            "TUYUL": "58.2",
+            "name": 4507,
+            "nametxt": "정읍시",
             "data": [
                 {
                     "value": 44026,
                     "name": "김관영",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 84.68
                 },
                 {
                     "value": 7960,
                     "name": "조배숙",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 15.31
                 }
             ],
+            "WINNUM": 1,
+            "WINDUGSU": "44,026",
+            "WINDUGYUL": "84.68",
+            "WINHUBO": "김관영",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "7,960",
+            "SECDUGYUL": "15.31",
+            "SECHUBO": "조배숙",
+            "SECJD": "국민의힘",
+            "value": 1,
+            "DUGYULCHA": "69.37",
+            "DUGSUCHA": "36,066",
             "HUBO01": "김관영",
             "JD01": "더불어민주당",
             "DUGSU01": "44,026",
@@ -227,22 +311,36 @@
             "MUTUSU": "1,993",
             "GIGWON": "24,491",
             "HUBOSU": "2",
+            "TUYUL": "64.5",
+            "name": 4508,
+            "nametxt": "남원시",
             "data": [
                 {
                     "value": 35477,
                     "name": "김관영",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 83.43
                 },
                 {
                     "value": 7046,
                     "name": "조배숙",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 16.56
                 }
             ],
+            "WINNUM": 1,
+            "WINDUGSU": "35,477",
+            "WINDUGYUL": "83.43",
+            "WINHUBO": "김관영",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "7,046",
+            "SECDUGYUL": "16.56",
+            "SECHUBO": "조배숙",
+            "SECJD": "국민의힘",
+            "value": 1,
+            "DUGYULCHA": "66.87",
+            "DUGSUCHA": "28,431",
             "HUBO01": "김관영",
             "JD01": "더불어민주당",
             "DUGSU01": "35,477",
@@ -263,22 +361,36 @@
             "MUTUSU": "1,789",
             "GIGWON": "29,690",
             "HUBOSU": "2",
+            "TUYUL": "59.0",
+            "name": 4509,
+            "nametxt": "김제시",
             "data": [
                 {
                     "value": 33765,
                     "name": "김관영",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 82.59
                 },
                 {
                     "value": 7114,
                     "name": "조배숙",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 17.4
                 }
             ],
+            "WINNUM": 1,
+            "WINDUGSU": "33,765",
+            "WINDUGYUL": "82.59",
+            "WINHUBO": "김관영",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "7,114",
+            "SECDUGYUL": "17.40",
+            "SECHUBO": "조배숙",
+            "SECJD": "국민의힘",
+            "value": 1,
+            "DUGYULCHA": "65.19",
+            "DUGSUCHA": "26,651",
             "HUBO01": "김관영",
             "JD01": "더불어민주당",
             "DUGSU01": "33,765",
@@ -299,22 +411,36 @@
             "MUTUSU": "1,691",
             "GIGWON": "36,876",
             "HUBOSU": "2",
+            "TUYUL": "52.9",
+            "name": 4510,
+            "nametxt": "완주군",
             "data": [
                 {
                     "value": 32573,
                     "name": "김관영",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 82.01
                 },
                 {
                     "value": 7144,
                     "name": "조배숙",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 17.98
                 }
             ],
+            "WINNUM": 1,
+            "WINDUGSU": "32,573",
+            "WINDUGYUL": "82.01",
+            "WINHUBO": "김관영",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "7,144",
+            "SECDUGYUL": "17.98",
+            "SECHUBO": "조배숙",
+            "SECJD": "국민의힘",
+            "value": 1,
+            "DUGYULCHA": "64.03",
+            "DUGSUCHA": "25,429",
             "HUBO01": "김관영",
             "JD01": "더불어민주당",
             "DUGSU01": "32,573",
@@ -335,22 +461,36 @@
             "MUTUSU": "758",
             "GIGWON": "6,018",
             "HUBOSU": "2",
+            "TUYUL": "73.4",
+            "name": 4511,
+            "nametxt": "진안군",
             "data": [
                 {
                     "value": 13062,
                     "name": "김관영",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 82.36
                 },
                 {
                     "value": 2796,
                     "name": "조배숙",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 17.63
                 }
             ],
+            "WINNUM": 1,
+            "WINDUGSU": "13,062",
+            "WINDUGYUL": "82.36",
+            "WINHUBO": "김관영",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "2,796",
+            "SECDUGYUL": "17.63",
+            "SECHUBO": "조배숙",
+            "SECJD": "국민의힘",
+            "value": 1,
+            "DUGYULCHA": "64.73",
+            "DUGSUCHA": "10,266",
             "HUBO01": "김관영",
             "JD01": "더불어민주당",
             "DUGSU01": "13,062",
@@ -371,22 +511,36 @@
             "MUTUSU": "916",
             "GIGWON": "5,011",
             "HUBOSU": "2",
+            "TUYUL": "76.5",
+            "name": 4512,
+            "nametxt": "무주군",
             "data": [
                 {
                     "value": 11971,
                     "name": "김관영",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 77.97
                 },
                 {
                     "value": 3381,
                     "name": "조배숙",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 22.02
                 }
             ],
+            "WINNUM": 1,
+            "WINDUGSU": "11,971",
+            "WINDUGYUL": "77.97",
+            "WINHUBO": "김관영",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "3,381",
+            "SECDUGYUL": "22.02",
+            "SECHUBO": "조배숙",
+            "SECJD": "국민의힘",
+            "value": 1,
+            "DUGYULCHA": "55.95",
+            "DUGSUCHA": "8,590",
             "HUBO01": "김관영",
             "JD01": "더불어민주당",
             "DUGSU01": "11,971",
@@ -407,22 +561,36 @@
             "MUTUSU": "767",
             "GIGWON": "4,790",
             "HUBOSU": "2",
+            "TUYUL": "75.3",
+            "name": 4513,
+            "nametxt": "장수군",
             "data": [
                 {
                     "value": 11607,
                     "name": "김관영",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 83.96
                 },
                 {
                     "value": 2216,
                     "name": "조배숙",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 16.03
                 }
             ],
+            "WINNUM": 1,
+            "WINDUGSU": "11,607",
+            "WINDUGYUL": "83.96",
+            "WINHUBO": "김관영",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "2,216",
+            "SECDUGYUL": "16.03",
+            "SECHUBO": "조배숙",
+            "SECJD": "국민의힘",
+            "value": 1,
+            "DUGYULCHA": "67.93",
+            "DUGSUCHA": "9,391",
             "HUBO01": "김관영",
             "JD01": "더불어민주당",
             "DUGSU01": "11,607",
@@ -443,22 +611,36 @@
             "MUTUSU": "923",
             "GIGWON": "6,710",
             "HUBOSU": "2",
+            "TUYUL": "72.4",
+            "name": 4514,
+            "nametxt": "임실군",
             "data": [
                 {
                     "value": 13689,
                     "name": "김관영",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 81.9
                 },
                 {
                     "value": 3024,
                     "name": "조배숙",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 18.09
                 }
             ],
+            "WINNUM": 1,
+            "WINDUGSU": "13,689",
+            "WINDUGYUL": "81.90",
+            "WINHUBO": "김관영",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "3,024",
+            "SECDUGYUL": "18.09",
+            "SECHUBO": "조배숙",
+            "SECJD": "국민의힘",
+            "value": 1,
+            "DUGYULCHA": "63.81",
+            "DUGSUCHA": "10,665",
             "HUBO01": "김관영",
             "JD01": "더불어민주당",
             "DUGSU01": "13,689",
@@ -479,22 +661,36 @@
             "MUTUSU": "1,099",
             "GIGWON": "5,304",
             "HUBOSU": "2",
+            "TUYUL": "77.8",
+            "name": 4515,
+            "nametxt": "순창군",
             "data": [
                 {
                     "value": 14230,
                     "name": "김관영",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 81.33
                 },
                 {
                     "value": 3265,
                     "name": "조배숙",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 18.66
                 }
             ],
+            "WINNUM": 1,
+            "WINDUGSU": "14,230",
+            "WINDUGYUL": "81.33",
+            "WINHUBO": "김관영",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "3,265",
+            "SECDUGYUL": "18.66",
+            "SECHUBO": "조배숙",
+            "SECJD": "국민의힘",
+            "value": 1,
+            "DUGYULCHA": "62.67",
+            "DUGSUCHA": "10,965",
             "HUBO01": "김관영",
             "JD01": "더불어민주당",
             "DUGSU01": "14,230",
@@ -515,22 +711,36 @@
             "MUTUSU": "1,916",
             "GIGWON": "12,919",
             "HUBOSU": "2",
+            "TUYUL": "72.8",
+            "name": 4516,
+            "nametxt": "고창군",
             "data": [
                 {
                     "value": 27811,
                     "name": "김관영",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 84.92
                 },
                 {
                     "value": 4935,
                     "name": "조배숙",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 15.07
                 }
             ],
+            "WINNUM": 1,
+            "WINDUGSU": "27,811",
+            "WINDUGYUL": "84.92",
+            "WINHUBO": "김관영",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "4,935",
+            "SECDUGYUL": "15.07",
+            "SECHUBO": "조배숙",
+            "SECJD": "국민의힘",
+            "value": 1,
+            "DUGYULCHA": "69.85",
+            "DUGSUCHA": "22,876",
             "HUBO01": "김관영",
             "JD01": "더불어민주당",
             "DUGSU01": "27,811",
@@ -551,22 +761,36 @@
             "MUTUSU": "1,178",
             "GIGWON": "18,122",
             "HUBOSU": "2",
+            "TUYUL": "60.3",
+            "name": 4517,
+            "nametxt": "부안군",
             "data": [
                 {
                     "value": 21938,
                     "name": "김관영",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 83.37
                 },
                 {
                     "value": 4376,
                     "name": "조배숙",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 16.62
                 }
             ],
+            "WINNUM": 1,
+            "WINDUGSU": "21,938",
+            "WINDUGYUL": "83.37",
+            "WINHUBO": "김관영",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "4,376",
+            "SECDUGYUL": "16.62",
+            "SECHUBO": "조배숙",
+            "SECJD": "국민의힘",
+            "value": 1,
+            "DUGYULCHA": "66.75",
+            "DUGSUCHA": "17,562",
             "HUBO01": "김관영",
             "JD01": "더불어민주당",
             "DUGSU01": "21,938",

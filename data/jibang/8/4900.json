@@ -11,36 +11,48 @@
             "MUTUSU": "4,349",
             "GIGWON": "264,945",
             "HUBOSU": "4",
+            "TUYUL": "53.1",
+            "name": 0,
+            "nametxt": "합계",
             "data": [
                 {
                     "value": 163116,
                     "name": "오영훈",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 55.14
                 },
                 {
                     "value": 116786,
                     "name": "허향진",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 39.48
                 },
                 {
                     "value": 5750,
                     "name": "부순정",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "녹색당",
+                    "percentage": 1.94
                 },
                 {
                     "value": 10138,
                     "name": "박찬식",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 3.42
                 }
             ],
+            "WINNUM": 1,
+            "WINDUGSU": "163,116",
+            "WINDUGYUL": "55.14",
+            "WINHUBO": "오영훈",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "116,786",
+            "SECDUGYUL": "39.48",
+            "SECHUBO": "허향진",
+            "SECJD": "국민의힘",
+            "value": 1,
+            "DUGYULCHA": "15.66",
+            "DUGSUCHA": "46,330",
             "HUBO01": "오영훈",
             "JD01": "더불어민주당",
             "DUGSU01": "163,116",
@@ -69,36 +81,48 @@
             "MUTUSU": "2,851",
             "GIGWON": "192,691",
             "HUBOSU": "4",
+            "TUYUL": "52.9",
+            "name": 4901,
+            "nametxt": "제주시",
             "data": [
                 {
                     "value": 118762,
                     "name": "오영훈",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 55.6
                 },
                 {
                     "value": 83539,
                     "name": "허향진",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 39.11
                 },
                 {
                     "value": 4389,
                     "name": "부순정",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "녹색당",
+                    "percentage": 2.05
                 },
                 {
                     "value": 6878,
                     "name": "박찬식",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 3.22
                 }
             ],
+            "WINNUM": 1,
+            "WINDUGSU": "118,762",
+            "WINDUGYUL": "55.60",
+            "WINHUBO": "오영훈",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "83,539",
+            "SECDUGYUL": "39.11",
+            "SECHUBO": "허향진",
+            "SECJD": "국민의힘",
+            "value": 1,
+            "DUGYULCHA": "16.49",
+            "DUGSUCHA": "35,223",
             "HUBO01": "오영훈",
             "JD01": "더불어민주당",
             "DUGSU01": "118,762",
@@ -127,36 +151,48 @@
             "MUTUSU": "1,498",
             "GIGWON": "72,254",
             "HUBOSU": "4",
+            "TUYUL": "53.7",
+            "name": 4902,
+            "nametxt": "서귀포시",
             "data": [
                 {
                     "value": 44354,
                     "name": "오영훈",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 53.94
                 },
                 {
                     "value": 33247,
                     "name": "허향진",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 40.43
                 },
                 {
                     "value": 1361,
                     "name": "부순정",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "녹색당",
+                    "percentage": 1.65
                 },
                 {
                     "value": 3260,
                     "name": "박찬식",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 3.96
                 }
             ],
+            "WINNUM": 1,
+            "WINDUGSU": "44,354",
+            "WINDUGYUL": "53.94",
+            "WINHUBO": "오영훈",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "33,247",
+            "SECDUGYUL": "40.43",
+            "SECHUBO": "허향진",
+            "SECJD": "국민의힘",
+            "value": 1,
+            "DUGYULCHA": "13.51",
+            "DUGSUCHA": "11,107",
             "HUBO01": "오영훈",
             "JD01": "더불어민주당",
             "DUGSU01": "44,354",

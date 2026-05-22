@@ -11,22 +11,36 @@
             "MUTUSU": "1,341",
             "GIGWON": "142,508",
             "HUBOSU": "2",
+            "TUYUL": "51.2",
+            "name": 0,
+            "nametxt": "합계",
             "data": [
                 {
                     "value": 69995,
                     "name": "이춘희",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 47.16
                 },
                 {
                     "value": 78415,
                     "name": "최민호",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 52.83
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "78,415",
+            "WINDUGYUL": "52.83",
+            "WINHUBO": "최민호",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "69,995",
+            "SECDUGYUL": "47.16",
+            "SECHUBO": "이춘희",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "5.67",
+            "DUGSUCHA": "8,420",
             "HUBO01": "이춘희",
             "JD01": "더불어민주당",
             "DUGSU01": "69,995",
@@ -47,22 +61,36 @@
             "MUTUSU": "1,341",
             "GIGWON": "142,508",
             "HUBOSU": "2",
+            "TUYUL": "51.2",
+            "name": 5101,
+            "nametxt": "세종특별자치시",
             "data": [
                 {
                     "value": 69995,
                     "name": "이춘희",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 47.16
                 },
                 {
                     "value": 78415,
                     "name": "최민호",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 52.83
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "78,415",
+            "WINDUGYUL": "52.83",
+            "WINHUBO": "최민호",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "69,995",
+            "SECDUGYUL": "47.16",
+            "SECHUBO": "이춘희",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "5.67",
+            "DUGSUCHA": "8,420",
             "HUBO01": "이춘희",
             "JD01": "더불어민주당",
             "DUGSU01": "69,995",

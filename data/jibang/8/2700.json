@@ -11,36 +11,48 @@
             "MUTUSU": "13,107",
             "GIGWON": "1,161,438",
             "HUBOSU": "4",
+            "TUYUL": "43.2",
+            "name": 0,
+            "nametxt": "합계",
             "data": [
                 {
                     "value": 156429,
                     "name": "서재헌",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 17.97
                 },
                 {
                     "value": 685159,
                     "name": "홍준표",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 78.75
                 },
                 {
                     "value": 20904,
                     "name": "한민정",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 2.4
                 },
                 {
                     "value": 7542,
                     "name": "신원호",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.86
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "685,159",
+            "WINDUGYUL": "78.75",
+            "WINHUBO": "홍준표",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "156,429",
+            "SECDUGYUL": "17.97",
+            "SECHUBO": "서재헌",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "60.78",
+            "DUGSUCHA": "528,730",
             "HUBO01": "서재헌",
             "JD01": "더불어민주당",
             "DUGSU01": "156,429",
@@ -69,36 +81,48 @@
             "MUTUSU": "421",
             "GIGWON": "39,289",
             "HUBOSU": "4",
+            "TUYUL": "42.9",
+            "name": 2701,
+            "nametxt": "중구",
             "data": [
                 {
                     "value": 5610,
                     "name": "서재헌",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 19.26
                 },
                 {
                     "value": 22491,
                     "name": "홍준표",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 77.24
                 },
                 {
                     "value": 746,
                     "name": "한민정",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 2.56
                 },
                 {
                     "value": 268,
                     "name": "신원호",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.92
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "22,491",
+            "WINDUGYUL": "77.24",
+            "WINHUBO": "홍준표",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "5,610",
+            "SECDUGYUL": "19.26",
+            "SECHUBO": "서재헌",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "57.98",
+            "DUGSUCHA": "16,881",
             "HUBO01": "서재헌",
             "JD01": "더불어민주당",
             "DUGSU01": "5,610",
@@ -127,36 +151,48 @@
             "MUTUSU": "2,058",
             "GIGWON": "166,066",
             "HUBOSU": "4",
+            "TUYUL": "44.1",
+            "name": 2702,
+            "nametxt": "동구",
             "data": [
                 {
                     "value": 24745,
                     "name": "서재헌",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 19.18
                 },
                 {
                     "value": 100305,
                     "name": "홍준표",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 77.78
                 },
                 {
                     "value": 2851,
                     "name": "한민정",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 2.21
                 },
                 {
                     "value": 1048,
                     "name": "신원호",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.81
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "100,305",
+            "WINDUGYUL": "77.78",
+            "WINHUBO": "홍준표",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "24,745",
+            "SECDUGYUL": "19.18",
+            "SECHUBO": "서재헌",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "58.60",
+            "DUGSUCHA": "75,560",
             "HUBO01": "서재헌",
             "JD01": "더불어민주당",
             "DUGSU01": "24,745",
@@ -185,36 +221,48 @@
             "MUTUSU": "1,283",
             "GIGWON": "81,796",
             "HUBOSU": "4",
+            "TUYUL": "44.8",
+            "name": 2703,
+            "nametxt": "서구",
             "data": [
                 {
                     "value": 8993,
                     "name": "서재헌",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 13.8
                 },
                 {
                     "value": 54059,
                     "name": "홍준표",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 82.96
                 },
                 {
                     "value": 1484,
                     "name": "한민정",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 2.27
                 },
                 {
                     "value": 623,
                     "name": "신원호",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.95
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "54,059",
+            "WINDUGYUL": "82.96",
+            "WINHUBO": "홍준표",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "8,993",
+            "SECDUGYUL": "13.80",
+            "SECHUBO": "서재헌",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "69.16",
+            "DUGSUCHA": "45,066",
             "HUBO01": "서재헌",
             "JD01": "더불어민주당",
             "DUGSU01": "8,993",
@@ -243,36 +291,48 @@
             "MUTUSU": "901",
             "GIGWON": "74,367",
             "HUBOSU": "4",
+            "TUYUL": "42.4",
+            "name": 2704,
+            "nametxt": "남구",
             "data": [
                 {
                     "value": 8593,
                     "name": "서재헌",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 15.97
                 },
                 {
                     "value": 43386,
                     "name": "홍준표",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 80.66
                 },
                 {
                     "value": 1252,
                     "name": "한민정",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 2.32
                 },
                 {
                     "value": 554,
                     "name": "신원호",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 1.03
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "43,386",
+            "WINDUGYUL": "80.66",
+            "WINHUBO": "홍준표",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "8,593",
+            "SECDUGYUL": "15.97",
+            "SECHUBO": "서재헌",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "64.69",
+            "DUGSUCHA": "34,793",
             "HUBO01": "서재헌",
             "JD01": "더불어민주당",
             "DUGSU01": "8,593",
@@ -301,36 +361,48 @@
             "MUTUSU": "2,295",
             "GIGWON": "212,990",
             "HUBOSU": "4",
+            "TUYUL": "43.0",
+            "name": 2705,
+            "nametxt": "북구",
             "data": [
                 {
                     "value": 28966,
                     "name": "서재헌",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 18.31
                 },
                 {
                     "value": 123952,
                     "name": "홍준표",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 78.38
                 },
                 {
                     "value": 3864,
                     "name": "한민정",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 2.44
                 },
                 {
                     "value": 1356,
                     "name": "신원호",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.85
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "123,952",
+            "WINDUGYUL": "78.38",
+            "WINHUBO": "홍준표",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "28,966",
+            "SECDUGYUL": "18.31",
+            "SECHUBO": "서재헌",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "60.07",
+            "DUGSUCHA": "94,986",
             "HUBO01": "서재헌",
             "JD01": "더불어민주당",
             "DUGSU01": "28,966",
@@ -359,36 +431,48 @@
             "MUTUSU": "2,522",
             "GIGWON": "191,535",
             "HUBOSU": "4",
+            "TUYUL": "45.1",
+            "name": 2706,
+            "nametxt": "수성구",
             "data": [
                 {
                     "value": 29601,
                     "name": "서재헌",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 19.09
                 },
                 {
                     "value": 120189,
                     "name": "홍준표",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 77.54
                 },
                 {
                     "value": 3896,
                     "name": "한민정",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 2.51
                 },
                 {
                     "value": 1305,
                     "name": "신원호",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.84
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "120,189",
+            "WINDUGYUL": "77.54",
+            "WINHUBO": "홍준표",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "29,601",
+            "SECDUGYUL": "19.09",
+            "SECHUBO": "서재헌",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "58.45",
+            "DUGSUCHA": "90,588",
             "HUBO01": "서재헌",
             "JD01": "더불어민주당",
             "DUGSU01": "29,601",
@@ -417,36 +501,48 @@
             "MUTUSU": "2,341",
             "GIGWON": "272,148",
             "HUBOSU": "4",
+            "TUYUL": "41.4",
+            "name": 2707,
+            "nametxt": "달서구",
             "data": [
                 {
                     "value": 34133,
                     "name": "서재헌",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 17.97
                 },
                 {
                     "value": 149512,
                     "name": "홍준표",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 78.75
                 },
                 {
                     "value": 4674,
                     "name": "한민정",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 2.46
                 },
                 {
                     "value": 1531,
                     "name": "신원호",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.8
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "149,512",
+            "WINDUGYUL": "78.75",
+            "WINHUBO": "홍준표",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "34,133",
+            "SECDUGYUL": "17.97",
+            "SECHUBO": "서재헌",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "60.78",
+            "DUGSUCHA": "115,379",
             "HUBO01": "서재헌",
             "JD01": "더불어민주당",
             "DUGSU01": "34,133",
@@ -475,36 +571,48 @@
             "MUTUSU": "1,286",
             "GIGWON": "123,247",
             "HUBOSU": "4",
+            "TUYUL": "42.6",
+            "name": 2708,
+            "nametxt": "달성군",
             "data": [
                 {
                     "value": 15788,
                     "name": "서재헌",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 17.53
                 },
                 {
                     "value": 71265,
                     "name": "홍준표",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 79.14
                 },
                 {
                     "value": 2137,
                     "name": "한민정",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 2.37
                 },
                 {
                     "value": 857,
                     "name": "신원호",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.95
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "71,265",
+            "WINDUGYUL": "79.14",
+            "WINHUBO": "홍준표",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "15,788",
+            "SECDUGYUL": "17.53",
+            "SECHUBO": "서재헌",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "61.61",
+            "DUGSUCHA": "55,477",
             "HUBO01": "서재헌",
             "JD01": "더불어민주당",
             "DUGSU01": "15,788",

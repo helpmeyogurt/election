@@ -11,22 +11,36 @@
             "MUTUSU": "5,873",
             "GIGWON": "449,323",
             "HUBOSU": "2",
+            "TUYUL": "52.3",
+            "name": 0,
+            "nametxt": "합계",
             "data": [
                 {
                     "value": 195430,
                     "name": "송철호",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 40.21
                 },
                 {
                     "value": 290563,
                     "name": "김두겸",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 59.78
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "290,563",
+            "WINDUGYUL": "59.78",
+            "WINHUBO": "김두겸",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "195,430",
+            "SECDUGYUL": "40.21",
+            "SECHUBO": "송철호",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "19.57",
+            "DUGSUCHA": "95,133",
             "HUBO01": "송철호",
             "JD01": "더불어민주당",
             "DUGSU01": "195,430",
@@ -47,22 +61,36 @@
             "MUTUSU": "1,065",
             "GIGWON": "82,664",
             "HUBOSU": "2",
+            "TUYUL": "54.3",
+            "name": 3101,
+            "nametxt": "중구",
             "data": [
                 {
                     "value": 36596,
                     "name": "송철호",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 37.6
                 },
                 {
                     "value": 60730,
                     "name": "김두겸",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 62.39
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "60,730",
+            "WINDUGYUL": "62.39",
+            "WINHUBO": "김두겸",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "36,596",
+            "SECDUGYUL": "37.60",
+            "SECHUBO": "송철호",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "24.79",
+            "DUGSUCHA": "24,134",
             "HUBO01": "송철호",
             "JD01": "더불어민주당",
             "DUGSU01": "36,596",
@@ -83,22 +111,36 @@
             "MUTUSU": "1,353",
             "GIGWON": "133,165",
             "HUBOSU": "2",
+            "TUYUL": "50.3",
+            "name": 3102,
+            "nametxt": "남구",
             "data": [
                 {
                     "value": 48425,
                     "name": "송철호",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 36.29
                 },
                 {
                     "value": 84987,
                     "name": "김두겸",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 63.7
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "84,987",
+            "WINDUGYUL": "63.70",
+            "WINHUBO": "김두겸",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "48,425",
+            "SECDUGYUL": "36.29",
+            "SECHUBO": "송철호",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "27.41",
+            "DUGSUCHA": "36,562",
             "HUBO01": "송철호",
             "JD01": "더불어민주당",
             "DUGSU01": "48,425",
@@ -119,22 +161,36 @@
             "MUTUSU": "1,050",
             "GIGWON": "56,536",
             "HUBOSU": "2",
+            "TUYUL": "55.6",
+            "name": 3103,
+            "nametxt": "동구",
             "data": [
                 {
                     "value": 32032,
                     "name": "송철호",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 45.9
                 },
                 {
                     "value": 37751,
                     "name": "김두겸",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 54.09
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "37,751",
+            "WINDUGYUL": "54.09",
+            "WINHUBO": "김두겸",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "32,032",
+            "SECDUGYUL": "45.90",
+            "SECHUBO": "송철호",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "8.19",
+            "DUGSUCHA": "5,719",
             "HUBO01": "송철호",
             "JD01": "더불어민주당",
             "DUGSU01": "32,032",
@@ -155,22 +211,36 @@
             "MUTUSU": "1,020",
             "GIGWON": "87,282",
             "HUBOSU": "2",
+            "TUYUL": "50.3",
+            "name": 3104,
+            "nametxt": "북구",
             "data": [
                 {
                     "value": 41248,
                     "name": "송철호",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 47.15
                 },
                 {
                     "value": 46234,
                     "name": "김두겸",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 52.84
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "46,234",
+            "WINDUGYUL": "52.84",
+            "WINHUBO": "김두겸",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "41,248",
+            "SECDUGYUL": "47.15",
+            "SECHUBO": "송철호",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "5.69",
+            "DUGSUCHA": "4,986",
             "HUBO01": "송철호",
             "JD01": "더불어민주당",
             "DUGSU01": "41,248",
@@ -191,22 +261,36 @@
             "MUTUSU": "1,385",
             "GIGWON": "89,676",
             "HUBOSU": "2",
+            "TUYUL": "52.6",
+            "name": 3105,
+            "nametxt": "울주군",
             "data": [
                 {
                     "value": 37129,
                     "name": "송철호",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 37.89
                 },
                 {
                     "value": 60861,
                     "name": "김두겸",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 62.1
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "60,861",
+            "WINDUGYUL": "62.10",
+            "WINHUBO": "김두겸",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "37,129",
+            "SECDUGYUL": "37.89",
+            "SECHUBO": "송철호",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "24.21",
+            "DUGSUCHA": "23,732",
             "HUBO01": "송철호",
             "JD01": "더불어민주당",
             "DUGSU01": "37,129",

@@ -11,50 +11,60 @@
             "MUTUSU": "57,822",
             "GIGWON": "5,676,575",
             "HUBOSU": "6",
+            "TUYUL": "50.6",
+            "name": 0,
+            "nametxt": "합계",
             "data": [
                 {
                     "value": 2827593,
                     "name": "김동연",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 49.06
                 },
                 {
                     "value": 2818680,
                     "name": "김은혜",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 48.91
                 },
                 {
                     "value": 38525,
                     "name": "황순식",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 0.66
                 },
                 {
                     "value": 9314,
                     "name": "서태성",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.16
                 },
                 {
                     "value": 13939,
                     "name": "송영주",
-                    "itemStyle": {
-                        "color": "#D6001C"
-                    }
+                    "party": "진보당",
+                    "percentage": 0.24
                 },
                 {
                     "value": 54758,
                     "name": "강용석",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 0.95
                 }
             ],
+            "WINNUM": 1,
+            "WINDUGSU": "2,827,593",
+            "WINDUGYUL": "49.06",
+            "WINHUBO": "김동연",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "2,818,680",
+            "SECDUGYUL": "48.91",
+            "SECHUBO": "김은혜",
+            "SECJD": "국민의힘",
+            "value": 1,
+            "DUGYULCHA": "0.15",
+            "DUGSUCHA": "8,913",
             "HUBO01": "김동연",
             "JD01": "더불어민주당",
             "DUGSU01": "2,827,593",
@@ -91,50 +101,60 @@
             "MUTUSU": "1,034",
             "GIGWON": "93,112",
             "HUBOSU": "6",
+            "TUYUL": "53.3",
+            "name": 4101,
+            "nametxt": "수원시장안구",
             "data": [
                 {
                     "value": 53333,
                     "name": "김동연",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 50.76
                 },
                 {
                     "value": 49817,
                     "name": "김은혜",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 47.41
                 },
                 {
                     "value": 627,
                     "name": "황순식",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 0.59
                 },
                 {
                     "value": 153,
                     "name": "서태성",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.14
                 },
                 {
                     "value": 259,
                     "name": "송영주",
-                    "itemStyle": {
-                        "color": "#D6001C"
-                    }
+                    "party": "진보당",
+                    "percentage": 0.24
                 },
                 {
                     "value": 869,
                     "name": "강용석",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 0.82
                 }
             ],
+            "WINNUM": 1,
+            "WINDUGSU": "53,333",
+            "WINDUGYUL": "50.76",
+            "WINHUBO": "김동연",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "49,817",
+            "SECDUGYUL": "47.41",
+            "SECHUBO": "김은혜",
+            "SECJD": "국민의힘",
+            "value": 1,
+            "DUGYULCHA": "3.35",
+            "DUGSUCHA": "3,516",
             "HUBO01": "김동연",
             "JD01": "더불어민주당",
             "DUGSU01": "53,333",
@@ -171,50 +191,60 @@
             "MUTUSU": "1,602",
             "GIGWON": "178,551",
             "HUBOSU": "6",
+            "TUYUL": "49.3",
+            "name": 4102,
+            "nametxt": "수원시권선구",
             "data": [
                 {
                     "value": 88562,
                     "name": "김동연",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 51.41
                 },
                 {
                     "value": 80304,
                     "name": "김은혜",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 46.61
                 },
                 {
                     "value": 1090,
                     "name": "황순식",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 0.63
                 },
                 {
                     "value": 312,
                     "name": "서태성",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.18
                 },
                 {
                     "value": 406,
                     "name": "송영주",
-                    "itemStyle": {
-                        "color": "#D6001C"
-                    }
+                    "party": "진보당",
+                    "percentage": 0.23
                 },
                 {
                     "value": 1580,
                     "name": "강용석",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 0.91
                 }
             ],
+            "WINNUM": 1,
+            "WINDUGSU": "88,562",
+            "WINDUGYUL": "51.41",
+            "WINHUBO": "김동연",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "80,304",
+            "SECDUGYUL": "46.61",
+            "SECHUBO": "김은혜",
+            "SECJD": "국민의힘",
+            "value": 1,
+            "DUGYULCHA": "4.80",
+            "DUGSUCHA": "8,258",
             "HUBO01": "김동연",
             "JD01": "더불어민주당",
             "DUGSU01": "88,562",
@@ -251,50 +281,60 @@
             "MUTUSU": "858",
             "GIGWON": "84,803",
             "HUBOSU": "6",
+            "TUYUL": "48.3",
+            "name": 4103,
+            "nametxt": "수원시팔달구",
             "data": [
                 {
                     "value": 37937,
                     "name": "김동연",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 48.37
                 },
                 {
                     "value": 38931,
                     "name": "김은혜",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 49.64
                 },
                 {
                     "value": 488,
                     "name": "황순식",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 0.62
                 },
                 {
                     "value": 169,
                     "name": "서태성",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.21
                 },
                 {
                     "value": 176,
                     "name": "송영주",
-                    "itemStyle": {
-                        "color": "#D6001C"
-                    }
+                    "party": "진보당",
+                    "percentage": 0.22
                 },
                 {
                     "value": 724,
                     "name": "강용석",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 0.92
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "38,931",
+            "WINDUGYUL": "49.64",
+            "WINHUBO": "김은혜",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "37,937",
+            "SECDUGYUL": "48.37",
+            "SECHUBO": "김동연",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "1.27",
+            "DUGSUCHA": "994",
             "HUBO01": "김동연",
             "JD01": "더불어민주당",
             "DUGSU01": "37,937",
@@ -331,50 +371,60 @@
             "MUTUSU": "1,039",
             "GIGWON": "136,300",
             "HUBOSU": "6",
+            "TUYUL": "54.1",
+            "name": 4104,
+            "nametxt": "수원시영통구",
             "data": [
                 {
                     "value": 81109,
                     "name": "김동연",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 50.84
                 },
                 {
                     "value": 75184,
                     "name": "김은혜",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 47.13
                 },
                 {
                     "value": 1142,
                     "name": "황순식",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 0.71
                 },
                 {
                     "value": 212,
                     "name": "서태성",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.13
                 },
                 {
                     "value": 223,
                     "name": "송영주",
-                    "itemStyle": {
-                        "color": "#D6001C"
-                    }
+                    "party": "진보당",
+                    "percentage": 0.13
                 },
                 {
                     "value": 1647,
                     "name": "강용석",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 1.03
                 }
             ],
+            "WINNUM": 1,
+            "WINDUGSU": "81,109",
+            "WINDUGYUL": "50.84",
+            "WINHUBO": "김동연",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "75,184",
+            "SECDUGYUL": "47.13",
+            "SECHUBO": "김은혜",
+            "SECJD": "국민의힘",
+            "value": 1,
+            "DUGYULCHA": "3.71",
+            "DUGSUCHA": "5,925",
             "HUBO01": "김동연",
             "JD01": "더불어민주당",
             "DUGSU01": "81,109",
@@ -411,50 +461,60 @@
             "MUTUSU": "1,232",
             "GIGWON": "101,985",
             "HUBOSU": "6",
+            "TUYUL": "51.2",
+            "name": 4105,
+            "nametxt": "성남시수정구",
             "data": [
                 {
                     "value": 53684,
                     "name": "김동연",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 50.79
                 },
                 {
                     "value": 49669,
                     "name": "김은혜",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 46.99
                 },
                 {
                     "value": 630,
                     "name": "황순식",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 0.59
                 },
                 {
                     "value": 250,
                     "name": "서태성",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.23
                 },
                 {
                     "value": 493,
                     "name": "송영주",
-                    "itemStyle": {
-                        "color": "#D6001C"
-                    }
+                    "party": "진보당",
+                    "percentage": 0.46
                 },
                 {
                     "value": 964,
                     "name": "강용석",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 0.91
                 }
             ],
+            "WINNUM": 1,
+            "WINDUGSU": "53,684",
+            "WINDUGYUL": "50.79",
+            "WINHUBO": "김동연",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "49,669",
+            "SECDUGYUL": "46.99",
+            "SECHUBO": "김은혜",
+            "SECJD": "국민의힘",
+            "value": 1,
+            "DUGYULCHA": "3.80",
+            "DUGSUCHA": "4,015",
             "HUBO01": "김동연",
             "JD01": "더불어민주당",
             "DUGSU01": "53,684",
@@ -491,50 +551,60 @@
             "MUTUSU": "1,118",
             "GIGWON": "90,991",
             "HUBOSU": "6",
+            "TUYUL": "50.9",
+            "name": 4106,
+            "nametxt": "성남시중원구",
             "data": [
                 {
                     "value": 49268,
                     "name": "김동연",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 52.77
                 },
                 {
                     "value": 41860,
                     "name": "김은혜",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 44.83
                 },
                 {
                     "value": 623,
                     "name": "황순식",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 0.66
                 },
                 {
                     "value": 212,
                     "name": "서태성",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.22
                 },
                 {
                     "value": 576,
                     "name": "송영주",
-                    "itemStyle": {
-                        "color": "#D6001C"
-                    }
+                    "party": "진보당",
+                    "percentage": 0.61
                 },
                 {
                     "value": 820,
                     "name": "강용석",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 0.87
                 }
             ],
+            "WINNUM": 1,
+            "WINDUGSU": "49,268",
+            "WINDUGYUL": "52.77",
+            "WINHUBO": "김동연",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "41,860",
+            "SECDUGYUL": "44.83",
+            "SECHUBO": "김은혜",
+            "SECJD": "국민의힘",
+            "value": 1,
+            "DUGYULCHA": "7.94",
+            "DUGSUCHA": "7,408",
             "HUBO01": "김동연",
             "JD01": "더불어민주당",
             "DUGSU01": "49,268",
@@ -571,50 +641,60 @@
             "MUTUSU": "1,402",
             "GIGWON": "153,450",
             "HUBOSU": "6",
+            "TUYUL": "62.0",
+            "name": 4107,
+            "nametxt": "성남시분당구",
             "data": [
                 {
                     "value": 104254,
                     "name": "김동연",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 41.82
                 },
                 {
                     "value": 140622,
                     "name": "김은혜",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 56.41
                 },
                 {
                     "value": 1266,
                     "name": "황순식",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 0.5
                 },
                 {
                     "value": 197,
                     "name": "서태성",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.07
                 },
                 {
                     "value": 265,
                     "name": "송영주",
-                    "itemStyle": {
-                        "color": "#D6001C"
-                    }
+                    "party": "진보당",
+                    "percentage": 0.1
                 },
                 {
                     "value": 2677,
                     "name": "강용석",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 1.07
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "140,622",
+            "WINDUGYUL": "56.41",
+            "WINHUBO": "김은혜",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "104,254",
+            "SECDUGYUL": "41.82",
+            "SECHUBO": "김동연",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "14.59",
+            "DUGSUCHA": "36,368",
             "HUBO01": "김동연",
             "JD01": "더불어민주당",
             "DUGSU01": "104,254",
@@ -651,50 +731,60 @@
             "MUTUSU": "1,894",
             "GIGWON": "212,261",
             "HUBOSU": "6",
+            "TUYUL": "47.0",
+            "name": 4108,
+            "nametxt": "의정부시",
             "data": [
                 {
                     "value": 92465,
                     "name": "김동연",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 49.7
                 },
                 {
                     "value": 89731,
                     "name": "김은혜",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 48.23
                 },
                 {
                     "value": 1241,
                     "name": "황순식",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 0.66
                 },
                 {
                     "value": 259,
                     "name": "서태성",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.13
                 },
                 {
                     "value": 584,
                     "name": "송영주",
-                    "itemStyle": {
-                        "color": "#D6001C"
-                    }
+                    "party": "진보당",
+                    "percentage": 0.31
                 },
                 {
                     "value": 1742,
                     "name": "강용석",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 0.93
                 }
             ],
+            "WINNUM": 1,
+            "WINDUGSU": "92,465",
+            "WINDUGYUL": "49.70",
+            "WINHUBO": "김동연",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "89,731",
+            "SECDUGYUL": "48.23",
+            "SECHUBO": "김은혜",
+            "SECJD": "국민의힘",
+            "value": 1,
+            "DUGYULCHA": "1.47",
+            "DUGSUCHA": "2,734",
             "HUBO01": "김동연",
             "JD01": "더불어민주당",
             "DUGSU01": "92,465",
@@ -731,50 +821,60 @@
             "MUTUSU": "1,177",
             "GIGWON": "97,886",
             "HUBOSU": "6",
+            "TUYUL": "53.2",
+            "name": 4109,
+            "nametxt": "안양시만안구",
             "data": [
                 {
                     "value": 54630,
                     "name": "김동연",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 49.72
                 },
                 {
                     "value": 53271,
                     "name": "김은혜",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 48.48
                 },
                 {
                     "value": 712,
                     "name": "황순식",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 0.64
                 },
                 {
                     "value": 157,
                     "name": "서태성",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.14
                 },
                 {
                     "value": 199,
                     "name": "송영주",
-                    "itemStyle": {
-                        "color": "#D6001C"
-                    }
+                    "party": "진보당",
+                    "percentage": 0.18
                 },
                 {
                     "value": 904,
                     "name": "강용석",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 0.82
                 }
             ],
+            "WINNUM": 1,
+            "WINDUGSU": "54,630",
+            "WINDUGYUL": "49.72",
+            "WINHUBO": "김동연",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "53,271",
+            "SECDUGYUL": "48.48",
+            "SECHUBO": "김은혜",
+            "SECJD": "국민의힘",
+            "value": 1,
+            "DUGYULCHA": "1.24",
+            "DUGSUCHA": "1,359",
             "HUBO01": "김동연",
             "JD01": "더불어민주당",
             "DUGSU01": "54,630",
@@ -811,50 +911,60 @@
             "MUTUSU": "1,177",
             "GIGWON": "109,243",
             "HUBOSU": "6",
+            "TUYUL": "58.8",
+            "name": 4110,
+            "nametxt": "안양시동안구",
             "data": [
                 {
                     "value": 77230,
                     "name": "김동연",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 49.92
                 },
                 {
                     "value": 74669,
                     "name": "김은혜",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 48.27
                 },
                 {
                     "value": 1001,
                     "name": "황순식",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 0.64
                 },
                 {
                     "value": 163,
                     "name": "서태성",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.1
                 },
                 {
                     "value": 186,
                     "name": "송영주",
-                    "itemStyle": {
-                        "color": "#D6001C"
-                    }
+                    "party": "진보당",
+                    "percentage": 0.12
                 },
                 {
                     "value": 1432,
                     "name": "강용석",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 0.92
                 }
             ],
+            "WINNUM": 1,
+            "WINDUGSU": "77,230",
+            "WINDUGYUL": "49.92",
+            "WINHUBO": "김동연",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "74,669",
+            "SECDUGYUL": "48.27",
+            "SECHUBO": "김은혜",
+            "SECJD": "국민의힘",
+            "value": 1,
+            "DUGYULCHA": "1.65",
+            "DUGSUCHA": "2,561",
             "HUBO01": "김동연",
             "JD01": "더불어민주당",
             "DUGSU01": "77,230",
@@ -891,50 +1001,60 @@
             "MUTUSU": "3,499",
             "GIGWON": "355,472",
             "HUBOSU": "6",
+            "TUYUL": "49.4",
+            "name": 4145,
+            "nametxt": "부천시",
             "data": [
                 {
                     "value": 182163,
                     "name": "김동연",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 52.95
                 },
                 {
                     "value": 154942,
                     "name": "김은혜",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 45.04
                 },
                 {
                     "value": 2733,
                     "name": "황순식",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 0.79
                 },
                 {
                     "value": 626,
                     "name": "서태성",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.18
                 },
                 {
                     "value": 713,
                     "name": "송영주",
-                    "itemStyle": {
-                        "color": "#D6001C"
-                    }
+                    "party": "진보당",
+                    "percentage": 0.2
                 },
                 {
                     "value": 2826,
                     "name": "강용석",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 0.82
                 }
             ],
+            "WINNUM": 1,
+            "WINDUGSU": "182,163",
+            "WINDUGYUL": "52.95",
+            "WINHUBO": "김동연",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "154,942",
+            "SECDUGYUL": "45.04",
+            "SECHUBO": "김은혜",
+            "SECJD": "국민의힘",
+            "value": 1,
+            "DUGYULCHA": "7.91",
+            "DUGSUCHA": "27,221",
             "HUBO01": "김동연",
             "JD01": "더불어민주당",
             "DUGSU01": "182,163",
@@ -971,50 +1091,60 @@
             "MUTUSU": "1,399",
             "GIGWON": "107,621",
             "HUBOSU": "6",
+            "TUYUL": "56.5",
+            "name": 4114,
+            "nametxt": "광명시",
             "data": [
                 {
                     "value": 72415,
                     "name": "김동연",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 52.39
                 },
                 {
                     "value": 63270,
                     "name": "김은혜",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 45.77
                 },
                 {
                     "value": 893,
                     "name": "황순식",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 0.64
                 },
                 {
                     "value": 249,
                     "name": "서태성",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.18
                 },
                 {
                     "value": 278,
                     "name": "송영주",
-                    "itemStyle": {
-                        "color": "#D6001C"
-                    }
+                    "party": "진보당",
+                    "percentage": 0.2
                 },
                 {
                     "value": 1108,
                     "name": "강용석",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 0.8
                 }
             ],
+            "WINNUM": 1,
+            "WINDUGSU": "72,415",
+            "WINDUGYUL": "52.39",
+            "WINHUBO": "김동연",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "63,270",
+            "SECDUGYUL": "45.77",
+            "SECHUBO": "김은혜",
+            "SECJD": "국민의힘",
+            "value": 1,
+            "DUGYULCHA": "6.62",
+            "DUGSUCHA": "9,145",
             "HUBO01": "김동연",
             "JD01": "더불어민주당",
             "DUGSU01": "72,415",
@@ -1051,50 +1181,60 @@
             "MUTUSU": "2,385",
             "GIGWON": "270,138",
             "HUBOSU": "6",
+            "TUYUL": "43.5",
+            "name": 4115,
+            "nametxt": "평택시",
             "data": [
                 {
                     "value": 96908,
                     "name": "김동연",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 47.08
                 },
                 {
                     "value": 104256,
                     "name": "김은혜",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 50.65
                 },
                 {
                     "value": 1329,
                     "name": "황순식",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 0.64
                 },
                 {
                     "value": 393,
                     "name": "서태성",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.19
                 },
                 {
                     "value": 716,
                     "name": "송영주",
-                    "itemStyle": {
-                        "color": "#D6001C"
-                    }
+                    "party": "진보당",
+                    "percentage": 0.34
                 },
                 {
                     "value": 2231,
                     "name": "강용석",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 1.08
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "104,256",
+            "WINDUGYUL": "50.65",
+            "WINHUBO": "김은혜",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "96,908",
+            "SECDUGYUL": "47.08",
+            "SECHUBO": "김동연",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "3.57",
+            "DUGSUCHA": "7,348",
             "HUBO01": "김동연",
             "JD01": "더불어민주당",
             "DUGSU01": "96,908",
@@ -1131,50 +1271,60 @@
             "MUTUSU": "1,152",
             "GIGWON": "102,576",
             "HUBOSU": "6",
+            "TUYUL": "48.1",
+            "name": 4116,
+            "nametxt": "양주시",
             "data": [
                 {
                     "value": 45206,
                     "name": "김동연",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 48.07
                 },
                 {
                     "value": 46797,
                     "name": "김은혜",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 49.77
                 },
                 {
                     "value": 598,
                     "name": "황순식",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 0.63
                 },
                 {
                     "value": 158,
                     "name": "서태성",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.16
                 },
                 {
                     "value": 344,
                     "name": "송영주",
-                    "itemStyle": {
-                        "color": "#D6001C"
-                    }
+                    "party": "진보당",
+                    "percentage": 0.36
                 },
                 {
                     "value": 920,
                     "name": "강용석",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 0.97
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "46,797",
+            "WINDUGYUL": "49.77",
+            "WINHUBO": "김은혜",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "45,206",
+            "SECDUGYUL": "48.07",
+            "SECHUBO": "김동연",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "1.70",
+            "DUGSUCHA": "1,591",
             "HUBO01": "김동연",
             "JD01": "더불어민주당",
             "DUGSU01": "45,206",
@@ -1211,50 +1361,60 @@
             "MUTUSU": "650",
             "GIGWON": "41,324",
             "HUBOSU": "6",
+            "TUYUL": "49.0",
+            "name": 4117,
+            "nametxt": "동두천시",
             "data": [
                 {
                     "value": 17338,
                     "name": "김동연",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 44.34
                 },
                 {
                     "value": 20853,
                     "name": "김은혜",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 53.33
                 },
                 {
                     "value": 220,
                     "name": "황순식",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 0.56
                 },
                 {
                     "value": 98,
                     "name": "서태성",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.25
                 },
                 {
                     "value": 197,
                     "name": "송영주",
-                    "itemStyle": {
-                        "color": "#D6001C"
-                    }
+                    "party": "진보당",
+                    "percentage": 0.5
                 },
                 {
                     "value": 394,
                     "name": "강용석",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 1.0
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "20,853",
+            "WINDUGYUL": "53.33",
+            "WINHUBO": "김은혜",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "17,338",
+            "SECDUGYUL": "44.34",
+            "SECHUBO": "김동연",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "8.99",
+            "DUGSUCHA": "3,515",
             "HUBO01": "김동연",
             "JD01": "더불어민주당",
             "DUGSU01": "17,338",
@@ -1291,50 +1451,60 @@
             "MUTUSU": "1,469",
             "GIGWON": "166,422",
             "HUBOSU": "6",
+            "TUYUL": "45.5",
+            "name": 4118,
+            "nametxt": "안산시상록구",
             "data": [
                 {
                     "value": 72030,
                     "name": "김동연",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 52.38
                 },
                 {
                     "value": 62496,
                     "name": "김은혜",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 45.45
                 },
                 {
                     "value": 963,
                     "name": "황순식",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 0.7
                 },
                 {
                     "value": 296,
                     "name": "서태성",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.21
                 },
                 {
                     "value": 425,
                     "name": "송영주",
-                    "itemStyle": {
-                        "color": "#D6001C"
-                    }
+                    "party": "진보당",
+                    "percentage": 0.3
                 },
                 {
                     "value": 1289,
                     "name": "강용석",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 0.93
                 }
             ],
+            "WINNUM": 1,
+            "WINDUGSU": "72,030",
+            "WINDUGYUL": "52.38",
+            "WINHUBO": "김동연",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "62,496",
+            "SECDUGYUL": "45.45",
+            "SECHUBO": "김은혜",
+            "SECJD": "국민의힘",
+            "value": 1,
+            "DUGYULCHA": "6.93",
+            "DUGSUCHA": "9,534",
             "HUBO01": "김동연",
             "JD01": "더불어민주당",
             "DUGSU01": "72,030",
@@ -1371,50 +1541,60 @@
             "MUTUSU": "1,338",
             "GIGWON": "144,608",
             "HUBOSU": "6",
+            "TUYUL": "45.7",
+            "name": 4119,
+            "nametxt": "안산시단원구",
             "data": [
                 {
                     "value": 61954,
                     "name": "김동연",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 51.5
                 },
                 {
                     "value": 55679,
                     "name": "김은혜",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 46.28
                 },
                 {
                     "value": 865,
                     "name": "황순식",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 0.71
                 },
                 {
                     "value": 261,
                     "name": "서태성",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.21
                 },
                 {
                     "value": 434,
                     "name": "송영주",
-                    "itemStyle": {
-                        "color": "#D6001C"
-                    }
+                    "party": "진보당",
+                    "percentage": 0.36
                 },
                 {
                     "value": 1090,
                     "name": "강용석",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 0.9
                 }
             ],
+            "WINNUM": 1,
+            "WINDUGSU": "61,954",
+            "WINDUGYUL": "51.50",
+            "WINHUBO": "김동연",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "55,679",
+            "SECDUGYUL": "46.28",
+            "SECHUBO": "김은혜",
+            "SECJD": "국민의힘",
+            "value": 1,
+            "DUGYULCHA": "5.22",
+            "DUGSUCHA": "6,275",
             "HUBO01": "김동연",
             "JD01": "더불어민주당",
             "DUGSU01": "61,954",
@@ -1451,50 +1631,60 @@
             "MUTUSU": "2,133",
             "GIGWON": "220,685",
             "HUBOSU": "6",
+            "TUYUL": "52.2",
+            "name": 4120,
+            "nametxt": "고양시덕양구",
             "data": [
                 {
                     "value": 121343,
                     "name": "김동연",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 50.78
                 },
                 {
                     "value": 111350,
                     "name": "김은혜",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 46.59
                 },
                 {
                     "value": 2948,
                     "name": "황순식",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 1.23
                 },
                 {
                     "value": 347,
                     "name": "서태성",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.14
                 },
                 {
                     "value": 914,
                     "name": "송영주",
-                    "itemStyle": {
-                        "color": "#D6001C"
-                    }
+                    "party": "진보당",
+                    "percentage": 0.38
                 },
                 {
                     "value": 2055,
                     "name": "강용석",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 0.85
                 }
             ],
+            "WINNUM": 1,
+            "WINDUGSU": "121,343",
+            "WINDUGYUL": "50.78",
+            "WINHUBO": "김동연",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "111,350",
+            "SECDUGYUL": "46.59",
+            "SECHUBO": "김은혜",
+            "SECJD": "국민의힘",
+            "value": 1,
+            "DUGYULCHA": "4.19",
+            "DUGSUCHA": "9,993",
             "HUBO01": "김동연",
             "JD01": "더불어민주당",
             "DUGSU01": "121,343",
@@ -1531,50 +1721,60 @@
             "MUTUSU": "875",
             "GIGWON": "111,755",
             "HUBOSU": "6",
+            "TUYUL": "51.2",
+            "name": 4121,
+            "nametxt": "고양시일산동구",
             "data": [
                 {
                     "value": 55015,
                     "name": "김동연",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 47.26
                 },
                 {
                     "value": 58884,
                     "name": "김은혜",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 50.59
                 },
                 {
                     "value": 756,
                     "name": "황순식",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 0.64
                 },
                 {
                     "value": 148,
                     "name": "서태성",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.12
                 },
                 {
                     "value": 226,
                     "name": "송영주",
-                    "itemStyle": {
-                        "color": "#D6001C"
-                    }
+                    "party": "진보당",
+                    "percentage": 0.19
                 },
                 {
                     "value": 1365,
                     "name": "강용석",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 1.17
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "58,884",
+            "WINDUGYUL": "50.59",
+            "WINHUBO": "김은혜",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "55,015",
+            "SECDUGYUL": "47.26",
+            "SECHUBO": "김동연",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "3.33",
+            "DUGSUCHA": "3,869",
             "HUBO01": "김동연",
             "JD01": "더불어민주당",
             "DUGSU01": "55,015",
@@ -1611,50 +1811,60 @@
             "MUTUSU": "1,012",
             "GIGWON": "108,839",
             "HUBOSU": "6",
+            "TUYUL": "53.5",
+            "name": 4122,
+            "nametxt": "고양시일산서구",
             "data": [
                 {
                     "value": 61038,
                     "name": "김동연",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 49.2
                 },
                 {
                     "value": 60788,
                     "name": "김은혜",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 49.0
                 },
                 {
                     "value": 755,
                     "name": "황순식",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 0.6
                 },
                 {
                     "value": 139,
                     "name": "서태성",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.11
                 },
                 {
                     "value": 172,
                     "name": "송영주",
-                    "itemStyle": {
-                        "color": "#D6001C"
-                    }
+                    "party": "진보당",
+                    "percentage": 0.13
                 },
                 {
                     "value": 1148,
                     "name": "강용석",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 0.92
                 }
             ],
+            "WINNUM": 1,
+            "WINDUGSU": "61,038",
+            "WINDUGYUL": "49.20",
+            "WINHUBO": "김동연",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "60,788",
+            "SECDUGYUL": "49.00",
+            "SECHUBO": "김은혜",
+            "SECJD": "국민의힘",
+            "value": 1,
+            "DUGYULCHA": "0.20",
+            "DUGSUCHA": "250",
             "HUBO01": "김동연",
             "JD01": "더불어민주당",
             "DUGSU01": "61,038",
@@ -1691,50 +1901,60 @@
             "MUTUSU": "335",
             "GIGWON": "22,552",
             "HUBOSU": "6",
+            "TUYUL": "65.4",
+            "name": 4123,
+            "nametxt": "과천시",
             "data": [
                 {
                     "value": 18126,
                     "name": "김동연",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 42.81
                 },
                 {
                     "value": 23042,
                     "name": "김은혜",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 54.43
                 },
                 {
                     "value": 539,
                     "name": "황순식",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 1.27
                 },
                 {
                     "value": 47,
                     "name": "서태성",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.11
                 },
                 {
                     "value": 49,
                     "name": "송영주",
-                    "itemStyle": {
-                        "color": "#D6001C"
-                    }
+                    "party": "진보당",
+                    "percentage": 0.11
                 },
                 {
                     "value": 530,
                     "name": "강용석",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 1.25
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "23,042",
+            "WINDUGYUL": "54.43",
+            "WINHUBO": "김은혜",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "18,126",
+            "SECDUGYUL": "42.81",
+            "SECHUBO": "김동연",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "11.62",
+            "DUGSUCHA": "4,916",
             "HUBO01": "김동연",
             "JD01": "더불어민주당",
             "DUGSU01": "18,126",
@@ -1771,50 +1991,60 @@
             "MUTUSU": "763",
             "GIGWON": "58,353",
             "HUBOSU": "6",
+            "TUYUL": "58.0",
+            "name": 4124,
+            "nametxt": "의왕시",
             "data": [
                 {
                     "value": 39383,
                     "name": "김동연",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 49.34
                 },
                 {
                     "value": 38873,
                     "name": "김은혜",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 48.7
                 },
                 {
                     "value": 547,
                     "name": "황순식",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 0.68
                 },
                 {
                     "value": 137,
                     "name": "서태성",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.17
                 },
                 {
                     "value": 131,
                     "name": "송영주",
-                    "itemStyle": {
-                        "color": "#D6001C"
-                    }
+                    "party": "진보당",
+                    "percentage": 0.16
                 },
                 {
                     "value": 741,
                     "name": "강용석",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 0.92
                 }
             ],
+            "WINNUM": 1,
+            "WINDUGSU": "39,383",
+            "WINDUGYUL": "49.34",
+            "WINHUBO": "김동연",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "38,873",
+            "SECDUGYUL": "48.70",
+            "SECHUBO": "김은혜",
+            "SECJD": "국민의힘",
+            "value": 1,
+            "DUGYULCHA": "0.64",
+            "DUGSUCHA": "510",
             "HUBO01": "김동연",
             "JD01": "더불어민주당",
             "DUGSU01": "39,383",
@@ -1851,50 +2081,60 @@
             "MUTUSU": "939",
             "GIGWON": "75,854",
             "HUBOSU": "6",
+            "TUYUL": "53.8",
+            "name": 4125,
+            "nametxt": "구리시",
             "data": [
                 {
                     "value": 42564,
                     "name": "김동연",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 48.78
                 },
                 {
                     "value": 43098,
                     "name": "김은혜",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 49.39
                 },
                 {
                     "value": 527,
                     "name": "황순식",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 0.6
                 },
                 {
                     "value": 118,
                     "name": "서태성",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.13
                 },
                 {
                     "value": 181,
                     "name": "송영주",
-                    "itemStyle": {
-                        "color": "#D6001C"
-                    }
+                    "party": "진보당",
+                    "percentage": 0.2
                 },
                 {
                     "value": 764,
                     "name": "강용석",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 0.87
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "43,098",
+            "WINDUGYUL": "49.39",
+            "WINHUBO": "김은혜",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "42,564",
+            "SECDUGYUL": "48.78",
+            "SECHUBO": "김동연",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "0.61",
+            "DUGSUCHA": "534",
             "HUBO01": "김동연",
             "JD01": "더불어민주당",
             "DUGSU01": "42,564",
@@ -1931,50 +2171,60 @@
             "MUTUSU": "3,120",
             "GIGWON": "310,924",
             "HUBOSU": "6",
+            "TUYUL": "49.1",
+            "name": 4126,
+            "nametxt": "남양주시",
             "data": [
                 {
                     "value": 147630,
                     "name": "김동연",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 49.83
                 },
                 {
                     "value": 143096,
                     "name": "김은혜",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 48.3
                 },
                 {
                     "value": 1826,
                     "name": "황순식",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 0.61
                 },
                 {
                     "value": 418,
                     "name": "서태성",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.14
                 },
                 {
                     "value": 531,
                     "name": "송영주",
-                    "itemStyle": {
-                        "color": "#D6001C"
-                    }
+                    "party": "진보당",
+                    "percentage": 0.17
                 },
                 {
                     "value": 2715,
                     "name": "강용석",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 0.91
                 }
             ],
+            "WINNUM": 1,
+            "WINDUGSU": "147,630",
+            "WINDUGYUL": "49.83",
+            "WINHUBO": "김동연",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "143,096",
+            "SECDUGYUL": "48.30",
+            "SECHUBO": "김은혜",
+            "SECJD": "국민의힘",
+            "value": 1,
+            "DUGYULCHA": "1.53",
+            "DUGSUCHA": "4,534",
             "HUBO01": "김동연",
             "JD01": "더불어민주당",
             "DUGSU01": "147,630",
@@ -2011,50 +2261,60 @@
             "MUTUSU": "931",
             "GIGWON": "107,144",
             "HUBOSU": "6",
+            "TUYUL": "43.7",
+            "name": 4127,
+            "nametxt": "오산시",
             "data": [
                 {
                     "value": 42038,
                     "name": "김동연",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 51.07
                 },
                 {
                     "value": 38577,
                     "name": "김은혜",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 46.87
                 },
                 {
                     "value": 571,
                     "name": "황순식",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 0.69
                 },
                 {
                     "value": 138,
                     "name": "서태성",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.16
                 },
                 {
                     "value": 194,
                     "name": "송영주",
-                    "itemStyle": {
-                        "color": "#D6001C"
-                    }
+                    "party": "진보당",
+                    "percentage": 0.23
                 },
                 {
                     "value": 782,
                     "name": "강용석",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 0.95
                 }
             ],
+            "WINNUM": 1,
+            "WINDUGSU": "42,038",
+            "WINDUGYUL": "51.07",
+            "WINHUBO": "김동연",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "38,577",
+            "SECDUGYUL": "46.87",
+            "SECHUBO": "김은혜",
+            "SECJD": "국민의힘",
+            "value": 1,
+            "DUGYULCHA": "4.20",
+            "DUGSUCHA": "3,461",
             "HUBO01": "김동연",
             "JD01": "더불어민주당",
             "DUGSU01": "42,038",
@@ -2091,50 +2351,60 @@
             "MUTUSU": "2,833",
             "GIGWON": "374,486",
             "HUBOSU": "6",
+            "TUYUL": "47.3",
+            "name": 4128,
+            "nametxt": "화성시",
             "data": [
                 {
                     "value": 173747,
                     "name": "김동연",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 52.03
                 },
                 {
                     "value": 153636,
                     "name": "김은혜",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 46.01
                 },
                 {
                     "value": 2028,
                     "name": "황순식",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 0.6
                 },
                 {
                     "value": 550,
                     "name": "서태성",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.16
                 },
                 {
                     "value": 782,
                     "name": "송영주",
-                    "itemStyle": {
-                        "color": "#D6001C"
-                    }
+                    "party": "진보당",
+                    "percentage": 0.23
                 },
                 {
                     "value": 3167,
                     "name": "강용석",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 0.94
                 }
             ],
+            "WINNUM": 1,
+            "WINDUGSU": "173,747",
+            "WINDUGYUL": "52.03",
+            "WINHUBO": "김동연",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "153,636",
+            "SECDUGYUL": "46.01",
+            "SECHUBO": "김은혜",
+            "SECJD": "국민의힘",
+            "value": 1,
+            "DUGYULCHA": "6.02",
+            "DUGSUCHA": "20,111",
             "HUBO01": "김동연",
             "JD01": "더불어민주당",
             "DUGSU01": "173,747",
@@ -2171,50 +2441,60 @@
             "MUTUSU": "1,819",
             "GIGWON": "236,213",
             "HUBOSU": "6",
+            "TUYUL": "45.2",
+            "name": 4129,
+            "nametxt": "시흥시",
             "data": [
                 {
                     "value": 104762,
                     "name": "김동연",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 54.19
                 },
                 {
                     "value": 84897,
                     "name": "김은혜",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 43.91
                 },
                 {
                     "value": 1348,
                     "name": "황순식",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 0.69
                 },
                 {
                     "value": 301,
                     "name": "서태성",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.15
                 },
                 {
                     "value": 422,
                     "name": "송영주",
-                    "itemStyle": {
-                        "color": "#D6001C"
-                    }
+                    "party": "진보당",
+                    "percentage": 0.21
                 },
                 {
                     "value": 1590,
                     "name": "강용석",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 0.82
                 }
             ],
+            "WINNUM": 1,
+            "WINDUGSU": "104,762",
+            "WINDUGYUL": "54.19",
+            "WINHUBO": "김동연",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "84,897",
+            "SECDUGYUL": "43.91",
+            "SECHUBO": "김은혜",
+            "SECJD": "국민의힘",
+            "value": 1,
+            "DUGYULCHA": "10.28",
+            "DUGSUCHA": "19,865",
             "HUBO01": "김동연",
             "JD01": "더불어민주당",
             "DUGSU01": "104,762",
@@ -2251,50 +2531,60 @@
             "MUTUSU": "1,165",
             "GIGWON": "102,929",
             "HUBOSU": "6",
+            "TUYUL": "55.5",
+            "name": 4130,
+            "nametxt": "군포시",
             "data": [
                 {
                     "value": 65647,
                     "name": "김동연",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 51.65
                 },
                 {
                     "value": 58979,
                     "name": "김은혜",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 46.4
                 },
                 {
                     "value": 866,
                     "name": "황순식",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 0.68
                 },
                 {
                     "value": 187,
                     "name": "서태성",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.14
                 },
                 {
                     "value": 228,
                     "name": "송영주",
-                    "itemStyle": {
-                        "color": "#D6001C"
-                    }
+                    "party": "진보당",
+                    "percentage": 0.17
                 },
                 {
                     "value": 1191,
                     "name": "강용석",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 0.93
                 }
             ],
+            "WINNUM": 1,
+            "WINDUGSU": "65,647",
+            "WINDUGYUL": "51.65",
+            "WINHUBO": "김동연",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "58,979",
+            "SECDUGYUL": "46.40",
+            "SECHUBO": "김은혜",
+            "SECJD": "국민의힘",
+            "value": 1,
+            "DUGYULCHA": "5.25",
+            "DUGSUCHA": "6,668",
             "HUBO01": "김동연",
             "JD01": "더불어민주당",
             "DUGSU01": "65,647",
@@ -2331,50 +2621,60 @@
             "MUTUSU": "1,152",
             "GIGWON": "127,109",
             "HUBOSU": "6",
+            "TUYUL": "52.4",
+            "name": 4131,
+            "nametxt": "하남시",
             "data": [
                 {
                     "value": 66362,
                     "name": "김동연",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 47.88
                 },
                 {
                     "value": 69943,
                     "name": "김은혜",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 50.46
                 },
                 {
                     "value": 695,
                     "name": "황순식",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 0.5
                 },
                 {
                     "value": 148,
                     "name": "서태성",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.1
                 },
                 {
                     "value": 215,
                     "name": "송영주",
-                    "itemStyle": {
-                        "color": "#D6001C"
-                    }
+                    "party": "진보당",
+                    "percentage": 0.15
                 },
                 {
                     "value": 1232,
                     "name": "강용석",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 0.88
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "69,943",
+            "WINDUGYUL": "50.46",
+            "WINHUBO": "김은혜",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "66,362",
+            "SECDUGYUL": "47.88",
+            "SECHUBO": "김동연",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "2.58",
+            "DUGSUCHA": "3,581",
             "HUBO01": "김동연",
             "JD01": "더불어민주당",
             "DUGSU01": "66,362",
@@ -2411,50 +2711,60 @@
             "MUTUSU": "2,179",
             "GIGWON": "216,600",
             "HUBOSU": "6",
+            "TUYUL": "46.4",
+            "name": 4132,
+            "nametxt": "파주시",
             "data": [
                 {
                     "value": 93171,
                     "name": "김동연",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 50.37
                 },
                 {
                     "value": 87769,
                     "name": "김은혜",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 47.45
                 },
                 {
                     "value": 1378,
                     "name": "황순식",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 0.74
                 },
                 {
                     "value": 324,
                     "name": "서태성",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.17
                 },
                 {
                     "value": 507,
                     "name": "송영주",
-                    "itemStyle": {
-                        "color": "#D6001C"
-                    }
+                    "party": "진보당",
+                    "percentage": 0.27
                 },
                 {
                     "value": 1801,
                     "name": "강용석",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 0.97
                 }
             ],
+            "WINNUM": 1,
+            "WINDUGSU": "93,171",
+            "WINDUGYUL": "50.37",
+            "WINHUBO": "김동연",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "87,769",
+            "SECDUGYUL": "47.45",
+            "SECHUBO": "김은혜",
+            "SECJD": "국민의힘",
+            "value": 1,
+            "DUGYULCHA": "2.92",
+            "DUGSUCHA": "5,402",
             "HUBO01": "김동연",
             "JD01": "더불어민주당",
             "DUGSU01": "93,171",
@@ -2491,50 +2801,60 @@
             "MUTUSU": "920",
             "GIGWON": "47,667",
             "HUBOSU": "6",
+            "TUYUL": "51.5",
+            "name": 4133,
+            "nametxt": "여주시",
             "data": [
                 {
                     "value": 18598,
                     "name": "김동연",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 37.38
                 },
                 {
                     "value": 30015,
                     "name": "김은혜",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 60.33
                 },
                 {
                     "value": 330,
                     "name": "황순식",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 0.66
                 },
                 {
                     "value": 111,
                     "name": "서태성",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.22
                 },
                 {
                     "value": 173,
                     "name": "송영주",
-                    "itemStyle": {
-                        "color": "#D6001C"
-                    }
+                    "party": "진보당",
+                    "percentage": 0.34
                 },
                 {
                     "value": 519,
                     "name": "강용석",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 1.04
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "30,015",
+            "WINDUGYUL": "60.33",
+            "WINHUBO": "김은혜",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "18,598",
+            "SECDUGYUL": "37.38",
+            "SECHUBO": "김동연",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "22.95",
+            "DUGSUCHA": "11,417",
             "HUBO01": "김동연",
             "JD01": "더불어민주당",
             "DUGSU01": "18,598",
@@ -2571,50 +2891,60 @@
             "MUTUSU": "1,389",
             "GIGWON": "99,825",
             "HUBOSU": "6",
+            "TUYUL": "47.1",
+            "name": 4134,
+            "nametxt": "이천시",
             "data": [
                 {
                     "value": 37422,
                     "name": "김동연",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 42.84
                 },
                 {
                     "value": 47937,
                     "name": "김은혜",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 54.87
                 },
                 {
                     "value": 540,
                     "name": "황순식",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 0.61
                 },
                 {
                     "value": 194,
                     "name": "서태성",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.22
                 },
                 {
                     "value": 314,
                     "name": "송영주",
-                    "itemStyle": {
-                        "color": "#D6001C"
-                    }
+                    "party": "진보당",
+                    "percentage": 0.35
                 },
                 {
                     "value": 942,
                     "name": "강용석",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 1.07
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "47,937",
+            "WINDUGYUL": "54.87",
+            "WINHUBO": "김은혜",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "37,422",
+            "SECDUGYUL": "42.84",
+            "SECHUBO": "김동연",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "12.03",
+            "DUGSUCHA": "10,515",
             "HUBO01": "김동연",
             "JD01": "더불어민주당",
             "DUGSU01": "37,422",
@@ -2651,50 +2981,60 @@
             "MUTUSU": "1,276",
             "GIGWON": "117,608",
             "HUBOSU": "6",
+            "TUYUL": "47.2",
+            "name": 4135,
+            "nametxt": "용인시처인구",
             "data": [
                 {
                     "value": 47234,
                     "name": "김동연",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 45.47
                 },
                 {
                     "value": 54483,
                     "name": "김은혜",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 52.45
                 },
                 {
                     "value": 632,
                     "name": "황순식",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 0.6
                 },
                 {
                     "value": 188,
                     "name": "서태성",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.18
                 },
                 {
                     "value": 308,
                     "name": "송영주",
-                    "itemStyle": {
-                        "color": "#D6001C"
-                    }
+                    "party": "진보당",
+                    "percentage": 0.29
                 },
                 {
                     "value": 1014,
                     "name": "강용석",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 0.97
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "54,483",
+            "WINDUGYUL": "52.45",
+            "WINHUBO": "김은혜",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "47,234",
+            "SECDUGYUL": "45.47",
+            "SECHUBO": "김동연",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "6.98",
+            "DUGSUCHA": "7,249",
             "HUBO01": "김동연",
             "JD01": "더불어민주당",
             "DUGSU01": "47,234",
@@ -2731,50 +3071,60 @@
             "MUTUSU": "751",
             "GIGWON": "96,074",
             "HUBOSU": "6",
+            "TUYUL": "58.6",
+            "name": 4136,
+            "nametxt": "용인시수지구",
             "data": [
                 {
                     "value": 61235,
                     "name": "김동연",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 45.3
                 },
                 {
                     "value": 71578,
                     "name": "김은혜",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 52.95
                 },
                 {
                     "value": 654,
                     "name": "황순식",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 0.48
                 },
                 {
                     "value": 100,
                     "name": "서태성",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.07
                 },
                 {
                     "value": 114,
                     "name": "송영주",
-                    "itemStyle": {
-                        "color": "#D6001C"
-                    }
+                    "party": "진보당",
+                    "percentage": 0.08
                 },
                 {
                     "value": 1477,
                     "name": "강용석",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 1.09
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "71,578",
+            "WINDUGYUL": "52.95",
+            "WINHUBO": "김은혜",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "61,235",
+            "SECDUGYUL": "45.30",
+            "SECHUBO": "김동연",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "7.65",
+            "DUGSUCHA": "10,343",
             "HUBO01": "김동연",
             "JD01": "더불어민주당",
             "DUGSU01": "61,235",
@@ -2811,50 +3161,60 @@
             "MUTUSU": "1,624",
             "GIGWON": "193,553",
             "HUBOSU": "6",
+            "TUYUL": "55.5",
+            "name": 4137,
+            "nametxt": "용인시기흥구",
             "data": [
                 {
                     "value": 118199,
                     "name": "김동연",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 49.32
                 },
                 {
                     "value": 117246,
                     "name": "김은혜",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 48.92
                 },
                 {
                     "value": 1295,
                     "name": "황순식",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 0.54
                 },
                 {
                     "value": 238,
                     "name": "서태성",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.09
                 },
                 {
                     "value": 322,
                     "name": "송영주",
-                    "itemStyle": {
-                        "color": "#D6001C"
-                    }
+                    "party": "진보당",
+                    "percentage": 0.13
                 },
                 {
                     "value": 2342,
                     "name": "강용석",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 0.97
                 }
             ],
+            "WINNUM": 1,
+            "WINDUGSU": "118,199",
+            "WINDUGYUL": "49.32",
+            "WINHUBO": "김동연",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "117,246",
+            "SECDUGYUL": "48.92",
+            "SECHUBO": "김은혜",
+            "SECJD": "국민의힘",
+            "value": 1,
+            "DUGYULCHA": "0.40",
+            "DUGSUCHA": "953",
             "HUBO01": "김동연",
             "JD01": "더불어민주당",
             "DUGSU01": "118,199",
@@ -2891,50 +3251,60 @@
             "MUTUSU": "1,196",
             "GIGWON": "81,754",
             "HUBOSU": "6",
+            "TUYUL": "50.0",
+            "name": 4138,
+            "nametxt": "안성시",
             "data": [
                 {
                     "value": 36515,
                     "name": "김동연",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 45.32
                 },
                 {
                     "value": 42168,
                     "name": "김은혜",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 52.33
                 },
                 {
                     "value": 657,
                     "name": "황순식",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 0.81
                 },
                 {
                     "value": 131,
                     "name": "서태성",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.16
                 },
                 {
                     "value": 271,
                     "name": "송영주",
-                    "itemStyle": {
-                        "color": "#D6001C"
-                    }
+                    "party": "진보당",
+                    "percentage": 0.33
                 },
                 {
                     "value": 826,
                     "name": "강용석",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 1.02
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "42,168",
+            "WINDUGYUL": "52.33",
+            "WINHUBO": "김은혜",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "36,515",
+            "SECDUGYUL": "45.32",
+            "SECHUBO": "김동연",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "7.01",
+            "DUGSUCHA": "5,653",
             "HUBO01": "김동연",
             "JD01": "더불어민주당",
             "DUGSU01": "36,515",
@@ -2971,50 +3341,60 @@
             "MUTUSU": "1,629",
             "GIGWON": "196,739",
             "HUBOSU": "6",
+            "TUYUL": "49.9",
+            "name": 4139,
+            "nametxt": "김포시",
             "data": [
                 {
                     "value": 92596,
                     "name": "김동연",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 47.67
                 },
                 {
                     "value": 98054,
                     "name": "김은혜",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 50.48
                 },
                 {
                     "value": 1136,
                     "name": "황순식",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 0.58
                 },
                 {
                     "value": 265,
                     "name": "서태성",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.13
                 },
                 {
                     "value": 383,
                     "name": "송영주",
-                    "itemStyle": {
-                        "color": "#D6001C"
-                    }
+                    "party": "진보당",
+                    "percentage": 0.19
                 },
                 {
                     "value": 1802,
                     "name": "강용석",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 0.92
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "98,054",
+            "WINDUGYUL": "50.48",
+            "WINHUBO": "김은혜",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "92,596",
+            "SECDUGYUL": "47.67",
+            "SECHUBO": "김동연",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "2.81",
+            "DUGSUCHA": "5,458",
             "HUBO01": "김동연",
             "JD01": "더불어민주당",
             "DUGSU01": "92,596",
@@ -3051,50 +3431,60 @@
             "MUTUSU": "1,348",
             "GIGWON": "177,506",
             "HUBOSU": "6",
+            "TUYUL": "46.2",
+            "name": 4140,
+            "nametxt": "광주시",
             "data": [
                 {
                     "value": 72344,
                     "name": "김동연",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 47.97
                 },
                 {
                     "value": 75812,
                     "name": "김은혜",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 50.27
                 },
                 {
                     "value": 755,
                     "name": "황순식",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 0.5
                 },
                 {
                     "value": 168,
                     "name": "서태성",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.11
                 },
                 {
                     "value": 408,
                     "name": "송영주",
-                    "itemStyle": {
-                        "color": "#D6001C"
-                    }
+                    "party": "진보당",
+                    "percentage": 0.27
                 },
                 {
                     "value": 1310,
                     "name": "강용석",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 0.86
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "75,812",
+            "WINDUGYUL": "50.27",
+            "WINHUBO": "김은혜",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "72,344",
+            "SECDUGYUL": "47.97",
+            "SECHUBO": "김동연",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "2.30",
+            "DUGSUCHA": "3,468",
             "HUBO01": "김동연",
             "JD01": "더불어민주당",
             "DUGSU01": "72,344",
@@ -3131,50 +3521,60 @@
             "MUTUSU": "1,449",
             "GIGWON": "64,203",
             "HUBOSU": "6",
+            "TUYUL": "51.4",
+            "name": 4141,
+            "nametxt": "포천시",
             "data": [
                 {
                     "value": 27683,
                     "name": "김동연",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 41.73
                 },
                 {
                     "value": 36951,
                     "name": "김은혜",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 55.7
                 },
                 {
                     "value": 444,
                     "name": "황순식",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 0.66
                 },
                 {
                     "value": 238,
                     "name": "서태성",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.35
                 },
                 {
                     "value": 247,
                     "name": "송영주",
-                    "itemStyle": {
-                        "color": "#D6001C"
-                    }
+                    "party": "진보당",
+                    "percentage": 0.37
                 },
                 {
                     "value": 765,
                     "name": "강용석",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 1.15
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "36,951",
+            "WINDUGYUL": "55.70",
+            "WINHUBO": "김은혜",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "27,683",
+            "SECDUGYUL": "41.73",
+            "SECHUBO": "김동연",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "13.97",
+            "DUGSUCHA": "9,268",
             "HUBO01": "김동연",
             "JD01": "더불어민주당",
             "DUGSU01": "27,683",
@@ -3211,50 +3611,60 @@
             "MUTUSU": "611",
             "GIGWON": "15,098",
             "HUBOSU": "6",
+            "TUYUL": "60.2",
+            "name": 4142,
+            "nametxt": "연천군",
             "data": [
                 {
                     "value": 8541,
                     "name": "김동연",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 38.49
                 },
                 {
                     "value": 12886,
                     "name": "김은혜",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 58.07
                 },
                 {
                     "value": 155,
                     "name": "황순식",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 0.69
                 },
                 {
                     "value": 148,
                     "name": "서태성",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.66
                 },
                 {
                     "value": 92,
                     "name": "송영주",
-                    "itemStyle": {
-                        "color": "#D6001C"
-                    }
+                    "party": "진보당",
+                    "percentage": 0.41
                 },
                 {
                     "value": 367,
                     "name": "강용석",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 1.65
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "12,886",
+            "WINDUGYUL": "58.07",
+            "WINHUBO": "김은혜",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "8,541",
+            "SECDUGYUL": "38.49",
+            "SECHUBO": "김동연",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "19.58",
+            "DUGSUCHA": "4,345",
             "HUBO01": "김동연",
             "JD01": "더불어민주당",
             "DUGSU01": "8,541",
@@ -3291,50 +3701,60 @@
             "MUTUSU": "1,028",
             "GIGWON": "43,736",
             "HUBOSU": "6",
+            "TUYUL": "59.2",
+            "name": 4143,
+            "nametxt": "양평군",
             "data": [
                 {
                     "value": 24692,
                     "name": "김동연",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 39.56
                 },
                 {
                     "value": 36357,
                     "name": "김은혜",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 58.26
                 },
                 {
                     "value": 475,
                     "name": "황순식",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 0.76
                 },
                 {
                     "value": 108,
                     "name": "서태성",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.17
                 },
                 {
                     "value": 135,
                     "name": "송영주",
-                    "itemStyle": {
-                        "color": "#D6001C"
-                    }
+                    "party": "진보당",
+                    "percentage": 0.21
                 },
                 {
                     "value": 634,
                     "name": "강용석",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 1.01
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "36,357",
+            "WINDUGYUL": "58.26",
+            "WINHUBO": "김은혜",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "24,692",
+            "SECDUGYUL": "39.56",
+            "SECHUBO": "김동연",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "18.70",
+            "DUGSUCHA": "11,665",
             "HUBO01": "김동연",
             "JD01": "더불어민주당",
             "DUGSU01": "24,692",
@@ -3371,50 +3791,60 @@
             "MUTUSU": "920",
             "GIGWON": "22,626",
             "HUBOSU": "6",
+            "TUYUL": "59.4",
+            "name": 4144,
+            "nametxt": "가평군",
             "data": [
                 {
                     "value": 11222,
                     "name": "김동연",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 34.8
                 },
                 {
                     "value": 19910,
                     "name": "김은혜",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 61.74
                 },
                 {
                     "value": 247,
                     "name": "황순식",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 0.76
                 },
                 {
                     "value": 258,
                     "name": "서태성",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.8
                 },
                 {
                     "value": 146,
                     "name": "송영주",
-                    "itemStyle": {
-                        "color": "#D6001C"
-                    }
+                    "party": "진보당",
+                    "percentage": 0.45
                 },
                 {
                     "value": 462,
                     "name": "강용석",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 1.43
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "19,910",
+            "WINDUGYUL": "61.74",
+            "WINHUBO": "김은혜",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "11,222",
+            "SECDUGYUL": "34.80",
+            "SECHUBO": "김동연",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "26.94",
+            "DUGSUCHA": "8,688",
             "HUBO01": "김동연",
             "JD01": "더불어민주당",
             "DUGSU01": "11,222",

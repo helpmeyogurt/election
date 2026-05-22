@@ -11,29 +11,42 @@
             "MUTUSU": "17,959",
             "GIGWON": "1,484,638",
             "HUBOSU": "3",
+            "TUYUL": "49.1",
+            "name": 0,
+            "nametxt": "합계",
             "data": [
                 {
                     "value": 455901,
                     "name": "변성완",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 32.23
                 },
                 {
                     "value": 938601,
                     "name": "박형준",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 66.36
                 },
                 {
                     "value": 19733,
                     "name": "김영진",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 1.39
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "938,601",
+            "WINDUGYUL": "66.36",
+            "WINHUBO": "박형준",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "455,901",
+            "SECDUGYUL": "32.23",
+            "SECHUBO": "변성완",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "34.13",
+            "DUGSUCHA": "482,700",
             "HUBO01": "변성완",
             "JD01": "더불어민주당",
             "DUGSU01": "455,901",
@@ -58,29 +71,42 @@
             "MUTUSU": "303",
             "GIGWON": "19,109",
             "HUBOSU": "3",
+            "TUYUL": "50.0",
+            "name": 2601,
+            "nametxt": "중구",
             "data": [
                 {
                     "value": 5730,
                     "name": "변성완",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 30.43
                 },
                 {
                     "value": 12826,
                     "name": "박형준",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 68.13
                 },
                 {
                     "value": 268,
                     "name": "김영진",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 1.42
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "12,826",
+            "WINDUGYUL": "68.13",
+            "WINHUBO": "박형준",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "5,730",
+            "SECDUGYUL": "30.43",
+            "SECHUBO": "변성완",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "37.70",
+            "DUGSUCHA": "7,096",
             "HUBO01": "변성완",
             "JD01": "더불어민주당",
             "DUGSU01": "5,730",
@@ -105,29 +131,42 @@
             "MUTUSU": "819",
             "GIGWON": "46,373",
             "HUBOSU": "3",
+            "TUYUL": "50.4",
+            "name": 2602,
+            "nametxt": "서구",
             "data": [
                 {
                     "value": 13898,
                     "name": "변성완",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 30.06
                 },
                 {
                     "value": 31635,
                     "name": "박형준",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 68.42
                 },
                 {
                     "value": 701,
                     "name": "김영진",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 1.51
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "31,635",
+            "WINDUGYUL": "68.42",
+            "WINHUBO": "박형준",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "13,898",
+            "SECDUGYUL": "30.06",
+            "SECHUBO": "변성완",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "38.36",
+            "DUGSUCHA": "17,737",
             "HUBO01": "변성완",
             "JD01": "더불어민주당",
             "DUGSU01": "13,898",
@@ -152,29 +191,42 @@
             "MUTUSU": "760",
             "GIGWON": "40,037",
             "HUBOSU": "3",
+            "TUYUL": "50.5",
+            "name": 2603,
+            "nametxt": "동구",
             "data": [
                 {
                     "value": 12337,
                     "name": "변성완",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 30.78
                 },
                 {
                     "value": 27173,
                     "name": "박형준",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 67.81
                 },
                 {
                     "value": 562,
                     "name": "김영진",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 1.4
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "27,173",
+            "WINDUGYUL": "67.81",
+            "WINHUBO": "박형준",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "12,337",
+            "SECDUGYUL": "30.78",
+            "SECHUBO": "변성완",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "37.03",
+            "DUGSUCHA": "14,836",
             "HUBO01": "변성완",
             "JD01": "더불어민주당",
             "DUGSU01": "12,337",
@@ -199,29 +251,42 @@
             "MUTUSU": "932",
             "GIGWON": "49,164",
             "HUBOSU": "3",
+            "TUYUL": "50.5",
+            "name": 2604,
+            "nametxt": "영도구",
             "data": [
                 {
                     "value": 17359,
                     "name": "변성완",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 35.21
                 },
                 {
                     "value": 31130,
                     "name": "박형준",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 63.14
                 },
                 {
                     "value": 810,
                     "name": "김영진",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 1.64
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "31,130",
+            "WINDUGYUL": "63.14",
+            "WINHUBO": "박형준",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "17,359",
+            "SECDUGYUL": "35.21",
+            "SECHUBO": "변성완",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "27.93",
+            "DUGSUCHA": "13,771",
             "HUBO01": "변성완",
             "JD01": "더불어민주당",
             "DUGSU01": "17,359",
@@ -246,29 +311,42 @@
             "MUTUSU": "1,737",
             "GIGWON": "163,934",
             "HUBOSU": "3",
+            "TUYUL": "47.6",
+            "name": 2605,
+            "nametxt": "부산진구",
             "data": [
                 {
                     "value": 48015,
                     "name": "변성완",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 32.58
                 },
                 {
                     "value": 97155,
                     "name": "박형준",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 65.93
                 },
                 {
                     "value": 2184,
                     "name": "김영진",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 1.48
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "97,155",
+            "WINDUGYUL": "65.93",
+            "WINHUBO": "박형준",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "48,015",
+            "SECDUGYUL": "32.58",
+            "SECHUBO": "변성완",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "33.35",
+            "DUGSUCHA": "49,140",
             "HUBO01": "변성완",
             "JD01": "더불어민주당",
             "DUGSU01": "48,015",
@@ -293,29 +371,42 @@
             "MUTUSU": "1,157",
             "GIGWON": "117,244",
             "HUBOSU": "3",
+            "TUYUL": "49.9",
+            "name": 2606,
+            "nametxt": "동래구",
             "data": [
                 {
                     "value": 36349,
                     "name": "변성완",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 31.43
                 },
                 {
                     "value": 77751,
                     "name": "박형준",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 67.23
                 },
                 {
                     "value": 1533,
                     "name": "김영진",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 1.32
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "77,751",
+            "WINDUGYUL": "67.23",
+            "WINHUBO": "박형준",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "36,349",
+            "SECDUGYUL": "31.43",
+            "SECHUBO": "변성완",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "35.80",
+            "DUGSUCHA": "41,402",
             "HUBO01": "변성완",
             "JD01": "더불어민주당",
             "DUGSU01": "36,349",
@@ -340,29 +431,42 @@
             "MUTUSU": "1,497",
             "GIGWON": "108,512",
             "HUBOSU": "3",
+            "TUYUL": "52.2",
+            "name": 2607,
+            "nametxt": "남구",
             "data": [
                 {
                     "value": 38576,
                     "name": "변성완",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 32.96
                 },
                 {
                     "value": 76951,
                     "name": "박형준",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 65.76
                 },
                 {
                     "value": 1483,
                     "name": "김영진",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 1.26
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "76,951",
+            "WINDUGYUL": "65.76",
+            "WINHUBO": "박형준",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "38,576",
+            "SECDUGYUL": "32.96",
+            "SECHUBO": "변성완",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "32.80",
+            "DUGSUCHA": "38,375",
             "HUBO01": "변성완",
             "JD01": "더불어민주당",
             "DUGSU01": "38,576",
@@ -387,29 +491,42 @@
             "MUTUSU": "1,394",
             "GIGWON": "119,803",
             "HUBOSU": "3",
+            "TUYUL": "51.3",
+            "name": 2608,
+            "nametxt": "북구",
             "data": [
                 {
                     "value": 42927,
                     "name": "변성완",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 34.45
                 },
                 {
                     "value": 80065,
                     "name": "박형준",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 64.26
                 },
                 {
                     "value": 1598,
                     "name": "김영진",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 1.28
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "80,065",
+            "WINDUGYUL": "64.26",
+            "WINHUBO": "박형준",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "42,927",
+            "SECDUGYUL": "34.45",
+            "SECHUBO": "변성완",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "29.81",
+            "DUGSUCHA": "37,138",
             "HUBO01": "변성완",
             "JD01": "더불어민주당",
             "DUGSU01": "42,927",
@@ -434,29 +551,42 @@
             "MUTUSU": "1,747",
             "GIGWON": "173,184",
             "HUBOSU": "3",
+            "TUYUL": "48.8",
+            "name": 2609,
+            "nametxt": "해운대구",
             "data": [
                 {
                     "value": 50629,
                     "name": "변성완",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 31.05
                 },
                 {
                     "value": 110375,
                     "name": "박형준",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 67.7
                 },
                 {
                     "value": 2023,
                     "name": "김영진",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 1.24
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "110,375",
+            "WINDUGYUL": "67.70",
+            "WINHUBO": "박형준",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "50,629",
+            "SECDUGYUL": "31.05",
+            "SECHUBO": "변성완",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "36.65",
+            "DUGSUCHA": "59,746",
             "HUBO01": "변성완",
             "JD01": "더불어민주당",
             "DUGSU01": "50,629",
@@ -481,29 +611,42 @@
             "MUTUSU": "931",
             "GIGWON": "79,603",
             "HUBOSU": "3",
+            "TUYUL": "44.7",
+            "name": 2610,
+            "nametxt": "기장군",
             "data": [
                 {
                     "value": 20721,
                     "name": "변성완",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 32.71
                 },
                 {
                     "value": 41534,
                     "name": "박형준",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 65.57
                 },
                 {
                     "value": 1082,
                     "name": "김영진",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 1.7
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "41,534",
+            "WINDUGYUL": "65.57",
+            "WINHUBO": "박형준",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "20,721",
+            "SECDUGYUL": "32.71",
+            "SECHUBO": "변성완",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "32.86",
+            "DUGSUCHA": "20,813",
             "HUBO01": "변성완",
             "JD01": "더불어민주당",
             "DUGSU01": "20,721",
@@ -528,29 +671,42 @@
             "MUTUSU": "1,749",
             "GIGWON": "142,337",
             "HUBOSU": "3",
+            "TUYUL": "47.1",
+            "name": 2611,
+            "nametxt": "사하구",
             "data": [
                 {
                     "value": 41288,
                     "name": "변성완",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 33.08
                 },
                 {
                     "value": 81782,
                     "name": "박형준",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 65.54
                 },
                 {
                     "value": 1707,
                     "name": "김영진",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 1.36
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "81,782",
+            "WINDUGYUL": "65.54",
+            "WINHUBO": "박형준",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "41,288",
+            "SECDUGYUL": "33.08",
+            "SECHUBO": "변성완",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "32.46",
+            "DUGSUCHA": "40,494",
             "HUBO01": "변성완",
             "JD01": "더불어민주당",
             "DUGSU01": "41,288",
@@ -575,29 +731,42 @@
             "MUTUSU": "1,371",
             "GIGWON": "97,574",
             "HUBOSU": "3",
+            "TUYUL": "51.3",
+            "name": 2612,
+            "nametxt": "금정구",
             "data": [
                 {
                     "value": 30978,
                     "name": "변성완",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 30.52
                 },
                 {
                     "value": 68919,
                     "name": "박형준",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 67.9
                 },
                 {
                     "value": 1603,
                     "name": "김영진",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 1.57
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "68,919",
+            "WINDUGYUL": "67.90",
+            "WINHUBO": "박형준",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "30,978",
+            "SECDUGYUL": "30.52",
+            "SECHUBO": "변성완",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "37.38",
+            "DUGSUCHA": "37,941",
             "HUBO01": "변성완",
             "JD01": "더불어민주당",
             "DUGSU01": "30,978",
@@ -622,29 +791,42 @@
             "MUTUSU": "565",
             "GIGWON": "61,367",
             "HUBOSU": "3",
+            "TUYUL": "45.6",
+            "name": 2613,
+            "nametxt": "강서구",
             "data": [
                 {
                     "value": 17528,
                     "name": "변성완",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 34.41
                 },
                 {
                     "value": 32740,
                     "name": "박형준",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 64.28
                 },
                 {
                     "value": 659,
                     "name": "김영진",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 1.29
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "32,740",
+            "WINDUGYUL": "64.28",
+            "WINHUBO": "박형준",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "17,528",
+            "SECDUGYUL": "34.41",
+            "SECHUBO": "변성완",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "29.87",
+            "DUGSUCHA": "15,212",
             "HUBO01": "변성완",
             "JD01": "더불어민주당",
             "DUGSU01": "17,528",
@@ -669,29 +851,42 @@
             "MUTUSU": "894",
             "GIGWON": "88,109",
             "HUBOSU": "3",
+            "TUYUL": "51.1",
+            "name": 2614,
+            "nametxt": "연제구",
             "data": [
                 {
                     "value": 29400,
                     "name": "변성완",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 32.24
                 },
                 {
                     "value": 60491,
                     "name": "박형준",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 66.34
                 },
                 {
                     "value": 1279,
                     "name": "김영진",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 1.4
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "60,491",
+            "WINDUGYUL": "66.34",
+            "WINHUBO": "박형준",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "29,400",
+            "SECDUGYUL": "32.24",
+            "SECHUBO": "변성완",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "34.10",
+            "DUGSUCHA": "31,091",
             "HUBO01": "변성완",
             "JD01": "더불어민주당",
             "DUGSU01": "29,400",
@@ -716,29 +911,42 @@
             "MUTUSU": "799",
             "GIGWON": "81,334",
             "HUBOSU": "3",
+            "TUYUL": "47.9",
+            "name": 2615,
+            "nametxt": "수영구",
             "data": [
                 {
                     "value": 21760,
                     "name": "변성완",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 29.36
                 },
                 {
                     "value": 51378,
                     "name": "박형준",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 69.32
                 },
                 {
                     "value": 976,
                     "name": "김영진",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 1.31
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "51,378",
+            "WINDUGYUL": "69.32",
+            "WINHUBO": "박형준",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "21,760",
+            "SECDUGYUL": "29.36",
+            "SECHUBO": "변성완",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "39.96",
+            "DUGSUCHA": "29,618",
             "HUBO01": "변성완",
             "JD01": "더불어민주당",
             "DUGSU01": "21,760",
@@ -763,29 +971,42 @@
             "MUTUSU": "1,304",
             "GIGWON": "96,954",
             "HUBOSU": "3",
+            "TUYUL": "47.5",
+            "name": 2616,
+            "nametxt": "사상구",
             "data": [
                 {
                     "value": 28406,
                     "name": "변성완",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 32.88
                 },
                 {
                     "value": 56696,
                     "name": "박형준",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 65.64
                 },
                 {
                     "value": 1265,
                     "name": "김영진",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 1.46
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "56,696",
+            "WINDUGYUL": "65.64",
+            "WINHUBO": "박형준",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "28,406",
+            "SECDUGYUL": "32.88",
+            "SECHUBO": "변성완",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "32.76",
+            "DUGSUCHA": "28,290",
             "HUBO01": "변성완",
             "JD01": "더불어민주당",
             "DUGSU01": "28,406",

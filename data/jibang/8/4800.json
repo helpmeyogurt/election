@@ -11,36 +11,48 @@
             "MUTUSU": "31,072",
             "GIGWON": "1,306,887",
             "HUBOSU": "4",
+            "TUYUL": "53.4",
+            "name": 0,
+            "nametxt": "합계",
             "data": [
                 {
                     "value": 431569,
                     "name": "양문석",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 29.43
                 },
                 {
                     "value": 963473,
                     "name": "박완수",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 65.7
                 },
                 {
                     "value": 58933,
                     "name": "여영국",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 4.01
                 },
                 {
                     "value": 12353,
                     "name": "최진석",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "통일한국당",
+                    "percentage": 0.84
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "963,473",
+            "WINDUGYUL": "65.70",
+            "WINHUBO": "박완수",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "431,569",
+            "SECDUGYUL": "29.43",
+            "SECHUBO": "양문석",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "36.27",
+            "DUGSUCHA": "531,904",
             "HUBO01": "양문석",
             "JD01": "더불어민주당",
             "DUGSU01": "431,569",
@@ -69,36 +81,48 @@
             "MUTUSU": "1,155",
             "GIGWON": "90,360",
             "HUBOSU": "4",
+            "TUYUL": "51.2",
+            "name": 4821,
+            "nametxt": "창원시의창구",
             "data": [
                 {
                     "value": 23944,
                     "name": "양문석",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 25.56
                 },
                 {
                     "value": 64989,
                     "name": "박완수",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 69.38
                 },
                 {
                     "value": 4366,
                     "name": "여영국",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 4.66
                 },
                 {
                     "value": 370,
                     "name": "최진석",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "통일한국당",
+                    "percentage": 0.39
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "64,989",
+            "WINDUGYUL": "69.38",
+            "WINHUBO": "박완수",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "23,944",
+            "SECDUGYUL": "25.56",
+            "SECHUBO": "양문석",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "43.82",
+            "DUGSUCHA": "41,045",
             "HUBO01": "양문석",
             "JD01": "더불어민주당",
             "DUGSU01": "23,944",
@@ -127,36 +151,48 @@
             "MUTUSU": "1,011",
             "GIGWON": "99,986",
             "HUBOSU": "4",
+            "TUYUL": "53.0",
+            "name": 4822,
+            "nametxt": "창원시성산구",
             "data": [
                 {
                     "value": 29902,
                     "name": "양문석",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 26.74
                 },
                 {
                     "value": 67977,
                     "name": "박완수",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 60.79
                 },
                 {
                     "value": 13523,
                     "name": "여영국",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 12.09
                 },
                 {
                     "value": 412,
                     "name": "최진석",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "통일한국당",
+                    "percentage": 0.36
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "67,977",
+            "WINDUGYUL": "60.79",
+            "WINHUBO": "박완수",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "29,902",
+            "SECDUGYUL": "26.74",
+            "SECHUBO": "양문석",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "34.05",
+            "DUGSUCHA": "38,075",
             "HUBO01": "양문석",
             "JD01": "더불어민주당",
             "DUGSU01": "29,902",
@@ -185,36 +221,48 @@
             "MUTUSU": "1,264",
             "GIGWON": "72,926",
             "HUBOSU": "4",
+            "TUYUL": "53.5",
+            "name": 4823,
+            "nametxt": "창원시마산합포구",
             "data": [
                 {
                     "value": 19970,
                     "name": "양문석",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 24.15
                 },
                 {
                     "value": 59943,
                     "name": "박완수",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 72.51
                 },
                 {
                     "value": 2417,
                     "name": "여영국",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 2.92
                 },
                 {
                     "value": 330,
                     "name": "최진석",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "통일한국당",
+                    "percentage": 0.39
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "59,943",
+            "WINDUGYUL": "72.51",
+            "WINHUBO": "박완수",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "19,970",
+            "SECDUGYUL": "24.15",
+            "SECHUBO": "양문석",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "48.36",
+            "DUGSUCHA": "39,973",
             "HUBO01": "양문석",
             "JD01": "더불어민주당",
             "DUGSU01": "19,970",
@@ -243,36 +291,48 @@
             "MUTUSU": "1,233",
             "GIGWON": "74,386",
             "HUBOSU": "4",
+            "TUYUL": "53.5",
+            "name": 4824,
+            "nametxt": "창원시마산회원구",
             "data": [
                 {
                     "value": 22063,
                     "name": "양문석",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 26.15
                 },
                 {
                     "value": 59376,
                     "name": "박완수",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 70.38
                 },
                 {
                     "value": 2601,
                     "name": "여영국",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 3.08
                 },
                 {
                     "value": 324,
                     "name": "최진석",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "통일한국당",
+                    "percentage": 0.38
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "59,376",
+            "WINDUGYUL": "70.38",
+            "WINHUBO": "박완수",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "22,063",
+            "SECDUGYUL": "26.15",
+            "SECHUBO": "양문석",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "44.23",
+            "DUGSUCHA": "37,313",
             "HUBO01": "양문석",
             "JD01": "더불어민주당",
             "DUGSU01": "22,063",
@@ -301,36 +361,48 @@
             "MUTUSU": "1,150",
             "GIGWON": "84,520",
             "HUBOSU": "4",
+            "TUYUL": "47.1",
+            "name": 4825,
+            "nametxt": "창원시진해구",
             "data": [
                 {
                     "value": 22186,
                     "name": "양문석",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 29.95
                 },
                 {
                     "value": 48889,
                     "name": "박완수",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 66.01
                 },
                 {
                     "value": 2687,
                     "name": "여영국",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 3.62
                 },
                 {
                     "value": 298,
                     "name": "최진석",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "통일한국당",
+                    "percentage": 0.4
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "48,889",
+            "WINDUGYUL": "66.01",
+            "WINHUBO": "박완수",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "22,186",
+            "SECDUGYUL": "29.95",
+            "SECHUBO": "양문석",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "36.06",
+            "DUGSUCHA": "26,703",
             "HUBO01": "양문석",
             "JD01": "더불어민주당",
             "DUGSU01": "22,186",
@@ -359,36 +431,48 @@
             "MUTUSU": "2,631",
             "GIGWON": "136,983",
             "HUBOSU": "4",
+            "TUYUL": "53.1",
+            "name": 4803,
+            "nametxt": "진주시",
             "data": [
                 {
                     "value": 42182,
                     "name": "양문석",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 27.65
                 },
                 {
                     "value": 104561,
                     "name": "박완수",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 68.54
                 },
                 {
                     "value": 4812,
                     "name": "여영국",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 3.15
                 },
                 {
                     "value": 999,
                     "name": "최진석",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "통일한국당",
+                    "percentage": 0.65
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "104,561",
+            "WINDUGYUL": "68.54",
+            "WINHUBO": "박완수",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "42,182",
+            "SECDUGYUL": "27.65",
+            "SECHUBO": "양문석",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "40.89",
+            "DUGSUCHA": "62,379",
             "HUBO01": "양문석",
             "JD01": "더불어민주당",
             "DUGSU01": "42,182",
@@ -417,36 +501,48 @@
             "MUTUSU": "1,223",
             "GIGWON": "44,820",
             "HUBOSU": "4",
+            "TUYUL": "57.7",
+            "name": 4805,
+            "nametxt": "통영시",
             "data": [
                 {
                     "value": 18160,
                     "name": "양문석",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 30.25
                 },
                 {
                     "value": 40307,
                     "name": "박완수",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 67.15
                 },
                 {
                     "value": 1081,
                     "name": "여영국",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 1.8
                 },
                 {
                     "value": 473,
                     "name": "최진석",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "통일한국당",
+                    "percentage": 0.78
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "40,307",
+            "WINDUGYUL": "67.15",
+            "WINHUBO": "박완수",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "18,160",
+            "SECDUGYUL": "30.25",
+            "SECHUBO": "양문석",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "36.90",
+            "DUGSUCHA": "22,147",
             "HUBO01": "양문석",
             "JD01": "더불어민주당",
             "DUGSU01": "18,160",
@@ -475,36 +571,48 @@
             "MUTUSU": "988",
             "GIGWON": "14,439",
             "HUBOSU": "4",
+            "TUYUL": "67.7",
+            "name": 4806,
+            "nametxt": "고성군",
             "data": [
                 {
                     "value": 7918,
                     "name": "양문석",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 27.0
                 },
                 {
                     "value": 20130,
                     "name": "박완수",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 68.66
                 },
                 {
                     "value": 889,
                     "name": "여영국",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 3.03
                 },
                 {
                     "value": 381,
                     "name": "최진석",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "통일한국당",
+                    "percentage": 1.29
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "20,130",
+            "WINDUGYUL": "68.66",
+            "WINHUBO": "박완수",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "7,918",
+            "SECDUGYUL": "27.00",
+            "SECHUBO": "양문석",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "41.66",
+            "DUGSUCHA": "12,212",
             "HUBO01": "양문석",
             "JD01": "더불어민주당",
             "DUGSU01": "7,918",
@@ -533,36 +641,48 @@
             "MUTUSU": "1,513",
             "GIGWON": "38,412",
             "HUBOSU": "4",
+            "TUYUL": "59.1",
+            "name": 4807,
+            "nametxt": "사천시",
             "data": [
                 {
                     "value": 12887,
                     "name": "양문석",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 23.85
                 },
                 {
                     "value": 38414,
                     "name": "박완수",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 71.1
                 },
                 {
                     "value": 1917,
                     "name": "여영국",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 3.54
                 },
                 {
                     "value": 803,
                     "name": "최진석",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "통일한국당",
+                    "percentage": 1.48
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "38,414",
+            "WINDUGYUL": "71.10",
+            "WINHUBO": "박완수",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "12,887",
+            "SECDUGYUL": "23.85",
+            "SECHUBO": "양문석",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "47.25",
+            "DUGSUCHA": "25,527",
             "HUBO01": "양문석",
             "JD01": "더불어민주당",
             "DUGSU01": "12,887",
@@ -591,36 +711,48 @@
             "MUTUSU": "2,608",
             "GIGWON": "241,085",
             "HUBOSU": "4",
+            "TUYUL": "45.8",
+            "name": 4808,
+            "nametxt": "김해시",
             "data": [
                 {
                     "value": 78054,
                     "name": "양문석",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 38.87
                 },
                 {
                     "value": 115747,
                     "name": "박완수",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 57.64
                 },
                 {
                     "value": 6166,
                     "name": "여영국",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 3.07
                 },
                 {
                     "value": 824,
                     "name": "최진석",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "통일한국당",
+                    "percentage": 0.41
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "115,747",
+            "WINDUGYUL": "57.64",
+            "WINHUBO": "박완수",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "78,054",
+            "SECDUGYUL": "38.87",
+            "SECHUBO": "양문석",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "18.77",
+            "DUGSUCHA": "37,693",
             "HUBO01": "양문석",
             "JD01": "더불어민주당",
             "DUGSU01": "78,054",
@@ -649,36 +781,48 @@
             "MUTUSU": "1,332",
             "GIGWON": "41,855",
             "HUBOSU": "4",
+            "TUYUL": "54.7",
+            "name": 4809,
+            "nametxt": "밀양시",
             "data": [
                 {
                     "value": 11458,
                     "name": "양문석",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 23.27
                 },
                 {
                     "value": 35657,
                     "name": "박완수",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 72.42
                 },
                 {
                     "value": 1622,
                     "name": "여영국",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 3.29
                 },
                 {
                     "value": 495,
                     "name": "최진석",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "통일한국당",
+                    "percentage": 1.0
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "35,657",
+            "WINDUGYUL": "72.42",
+            "WINHUBO": "박완수",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "11,458",
+            "SECDUGYUL": "23.27",
+            "SECHUBO": "양문석",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "49.15",
+            "DUGSUCHA": "24,199",
             "HUBO01": "양문석",
             "JD01": "더불어민주당",
             "DUGSU01": "11,458",
@@ -707,36 +851,48 @@
             "MUTUSU": "1,883",
             "GIGWON": "94,077",
             "HUBOSU": "4",
+            "TUYUL": "51.3",
+            "name": 4810,
+            "nametxt": "거제시",
             "data": [
                 {
                     "value": 36740,
                     "name": "양문석",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 37.71
                 },
                 {
                     "value": 56119,
                     "name": "박완수",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 57.61
                 },
                 {
                     "value": 4011,
                     "name": "여영국",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 4.11
                 },
                 {
                     "value": 539,
                     "name": "최진석",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "통일한국당",
+                    "percentage": 0.55
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "56,119",
+            "WINDUGYUL": "57.61",
+            "WINHUBO": "박완수",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "36,740",
+            "SECDUGYUL": "37.71",
+            "SECHUBO": "양문석",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "19.90",
+            "DUGSUCHA": "19,379",
             "HUBO01": "양문석",
             "JD01": "더불어민주당",
             "DUGSU01": "36,740",
@@ -765,36 +921,48 @@
             "MUTUSU": "1,005",
             "GIGWON": "6,062",
             "HUBOSU": "4",
+            "TUYUL": "75.0",
+            "name": 4811,
+            "nametxt": "의령군",
             "data": [
                 {
                     "value": 3504,
                     "name": "양문석",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 20.34
                 },
                 {
                     "value": 12348,
                     "name": "박완수",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 71.69
                 },
                 {
                     "value": 773,
                     "name": "여영국",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 4.48
                 },
                 {
                     "value": 599,
                     "name": "최진석",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "통일한국당",
+                    "percentage": 3.47
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "12,348",
+            "WINDUGYUL": "71.69",
+            "WINHUBO": "박완수",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "3,504",
+            "SECDUGYUL": "20.34",
+            "SECHUBO": "양문석",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "51.35",
+            "DUGSUCHA": "8,844",
             "HUBO01": "양문석",
             "JD01": "더불어민주당",
             "DUGSU01": "3,504",
@@ -823,36 +991,48 @@
             "MUTUSU": "976",
             "GIGWON": "22,049",
             "HUBOSU": "4",
+            "TUYUL": "59.3",
+            "name": 4812,
+            "nametxt": "함안군",
             "data": [
                 {
                     "value": 7689,
                     "name": "양문석",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 24.72
                 },
                 {
                     "value": 21759,
                     "name": "박완수",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 69.96
                 },
                 {
                     "value": 1194,
                     "name": "여영국",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 3.83
                 },
                 {
                     "value": 458,
                     "name": "최진석",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "통일한국당",
+                    "percentage": 1.47
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "21,759",
+            "WINDUGYUL": "69.96",
+            "WINHUBO": "박완수",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "7,689",
+            "SECDUGYUL": "24.72",
+            "SECHUBO": "양문석",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "45.24",
+            "DUGSUCHA": "14,070",
             "HUBO01": "양문석",
             "JD01": "더불어민주당",
             "DUGSU01": "7,689",
@@ -881,36 +1061,48 @@
             "MUTUSU": "1,234",
             "GIGWON": "19,225",
             "HUBOSU": "4",
+            "TUYUL": "64.1",
+            "name": 4813,
+            "nametxt": "창녕군",
             "data": [
                 {
                     "value": 6416,
                     "name": "양문석",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 19.35
                 },
                 {
                     "value": 24896,
                     "name": "박완수",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 75.08
                 },
                 {
                     "value": 1120,
                     "name": "여영국",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 3.37
                 },
                 {
                     "value": 725,
                     "name": "최진석",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "통일한국당",
+                    "percentage": 2.18
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "24,896",
+            "WINDUGYUL": "75.08",
+            "WINHUBO": "박완수",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "6,416",
+            "SECDUGYUL": "19.35",
+            "SECHUBO": "양문석",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "55.73",
+            "DUGSUCHA": "18,480",
             "HUBO01": "양문석",
             "JD01": "더불어민주당",
             "DUGSU01": "6,416",
@@ -939,36 +1131,48 @@
             "MUTUSU": "2,099",
             "GIGWON": "156,010",
             "HUBOSU": "4",
+            "TUYUL": "47.0",
+            "name": 4814,
+            "nametxt": "양산시",
             "data": [
                 {
                     "value": 48969,
                     "name": "양문석",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 35.92
                 },
                 {
                     "value": 83209,
                     "name": "박완수",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 61.04
                 },
                 {
                     "value": 3400,
                     "name": "여영국",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 2.49
                 },
                 {
                     "value": 724,
                     "name": "최진석",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "통일한국당",
+                    "percentage": 0.53
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "83,209",
+            "WINDUGYUL": "61.04",
+            "WINHUBO": "박완수",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "48,969",
+            "SECDUGYUL": "35.92",
+            "SECHUBO": "양문석",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "25.12",
+            "DUGSUCHA": "34,240",
             "HUBO01": "양문석",
             "JD01": "더불어민주당",
             "DUGSU01": "48,969",
@@ -997,36 +1201,48 @@
             "MUTUSU": "1,345",
             "GIGWON": "10,315",
             "HUBOSU": "4",
+            "TUYUL": "73.8",
+            "name": 4815,
+            "nametxt": "하동군",
             "data": [
                 {
                     "value": 8093,
                     "name": "양문석",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 29.14
                 },
                 {
                     "value": 17699,
                     "name": "박완수",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 63.73
                 },
                 {
                     "value": 1234,
                     "name": "여영국",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 4.44
                 },
                 {
                     "value": 742,
                     "name": "최진석",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "통일한국당",
+                    "percentage": 2.67
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "17,699",
+            "WINDUGYUL": "63.73",
+            "WINHUBO": "박완수",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "8,093",
+            "SECDUGYUL": "29.14",
+            "SECHUBO": "양문석",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "34.59",
+            "DUGSUCHA": "9,606",
             "HUBO01": "양문석",
             "JD01": "더불어민주당",
             "DUGSU01": "8,093",
@@ -1055,36 +1271,48 @@
             "MUTUSU": "1,227",
             "GIGWON": "11,320",
             "HUBOSU": "4",
+            "TUYUL": "70.6",
+            "name": 4816,
+            "nametxt": "남해군",
             "data": [
                 {
                     "value": 8287,
                     "name": "양문석",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 31.88
                 },
                 {
                     "value": 16516,
                     "name": "박완수",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 63.54
                 },
                 {
                     "value": 936,
                     "name": "여영국",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 3.6
                 },
                 {
                     "value": 252,
                     "name": "최진석",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "통일한국당",
+                    "percentage": 0.96
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "16,516",
+            "WINDUGYUL": "63.54",
+            "WINHUBO": "박완수",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "8,287",
+            "SECDUGYUL": "31.88",
+            "SECHUBO": "양문석",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "31.66",
+            "DUGSUCHA": "8,229",
             "HUBO01": "양문석",
             "JD01": "더불어민주당",
             "DUGSU01": "8,287",
@@ -1113,36 +1341,48 @@
             "MUTUSU": "1,387",
             "GIGWON": "8,379",
             "HUBOSU": "4",
+            "TUYUL": "75.6",
+            "name": 4817,
+            "nametxt": "함양군",
             "data": [
                 {
                     "value": 6152,
                     "name": "양문석",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 24.97
                 },
                 {
                     "value": 16584,
                     "name": "박완수",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 67.32
                 },
                 {
                     "value": 1082,
                     "name": "여영국",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 4.39
                 },
                 {
                     "value": 815,
                     "name": "최진석",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "통일한국당",
+                    "percentage": 3.3
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "16,584",
+            "WINDUGYUL": "67.32",
+            "WINHUBO": "박완수",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "6,152",
+            "SECDUGYUL": "24.97",
+            "SECHUBO": "양문석",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "42.35",
+            "DUGSUCHA": "10,432",
             "HUBO01": "양문석",
             "JD01": "더불어민주당",
             "DUGSU01": "6,152",
@@ -1171,36 +1411,48 @@
             "MUTUSU": "926",
             "GIGWON": "9,561",
             "HUBOSU": "4",
+            "TUYUL": "69.6",
+            "name": 4818,
+            "nametxt": "산청군",
             "data": [
                 {
                     "value": 4982,
                     "name": "양문석",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 23.72
                 },
                 {
                     "value": 14644,
                     "name": "박완수",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 69.73
                 },
                 {
                     "value": 1018,
                     "name": "여영국",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 4.84
                 },
                 {
                     "value": 357,
                     "name": "최진석",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "통일한국당",
+                    "percentage": 1.69
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "14,644",
+            "WINDUGYUL": "69.73",
+            "WINHUBO": "박완수",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "4,982",
+            "SECDUGYUL": "23.72",
+            "SECHUBO": "양문석",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "46.01",
+            "DUGSUCHA": "9,662",
             "HUBO01": "양문석",
             "JD01": "더불어민주당",
             "DUGSU01": "4,982",
@@ -1229,36 +1481,48 @@
             "MUTUSU": "1,451",
             "GIGWON": "18,045",
             "HUBOSU": "4",
+            "TUYUL": "65.8",
+            "name": 4819,
+            "nametxt": "거창군",
             "data": [
                 {
                     "value": 7534,
                     "name": "양문석",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 22.61
                 },
                 {
                     "value": 23781,
                     "name": "박완수",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 71.39
                 },
                 {
                     "value": 1177,
                     "name": "여영국",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 3.53
                 },
                 {
                     "value": 815,
                     "name": "최진석",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "통일한국당",
+                    "percentage": 2.44
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "23,781",
+            "WINDUGYUL": "71.39",
+            "WINHUBO": "박완수",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "7,534",
+            "SECDUGYUL": "22.61",
+            "SECHUBO": "양문석",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "48.78",
+            "DUGSUCHA": "16,247",
             "HUBO01": "양문석",
             "JD01": "더불어민주당",
             "DUGSU01": "7,534",
@@ -1287,36 +1551,48 @@
             "MUTUSU": "1,431",
             "GIGWON": "12,072",
             "HUBOSU": "4",
+            "TUYUL": "69.4",
+            "name": 4820,
+            "nametxt": "합천군",
             "data": [
                 {
                     "value": 4479,
                     "name": "양문석",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 17.27
                 },
                 {
                     "value": 19928,
                     "name": "박완수",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 76.84
                 },
                 {
                     "value": 907,
                     "name": "여영국",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 3.49
                 },
                 {
                     "value": 618,
                     "name": "최진석",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "통일한국당",
+                    "percentage": 2.38
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "19,928",
+            "WINDUGYUL": "76.84",
+            "WINHUBO": "박완수",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "4,479",
+            "SECDUGYUL": "17.27",
+            "SECHUBO": "양문석",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "59.57",
+            "DUGSUCHA": "15,449",
             "HUBO01": "양문석",
             "JD01": "더불어민주당",
             "DUGSU01": "4,479",

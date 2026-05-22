@@ -11,43 +11,54 @@
             "MUTUSU": "38,242",
             "GIGWON": "3,923,178",
             "HUBOSU": "5",
+            "TUYUL": "53.2",
+            "name": 0,
+            "nametxt": "합계",
             "data": [
                 {
                     "value": 1733183,
                     "name": "송영길",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 39.23
                 },
                 {
                     "value": 2608277,
                     "name": "오세훈",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 59.05
                 },
                 {
                     "value": 53840,
                     "name": "권수정",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 1.21
                 },
                 {
                     "value": 12619,
                     "name": "신지혜",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.28
                 },
                 {
                     "value": 9000,
                     "name": "김광종",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 0.2
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "2,608,277",
+            "WINDUGYUL": "59.05",
+            "WINHUBO": "오세훈",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "1,733,183",
+            "SECDUGYUL": "39.23",
+            "SECHUBO": "송영길",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "19.82",
+            "DUGSUCHA": "875,094",
             "HUBO01": "송영길",
             "JD01": "더불어민주당",
             "DUGSU01": "1,733,183",
@@ -80,43 +91,54 @@
             "MUTUSU": "641",
             "GIGWON": "59,159",
             "HUBOSU": "5",
+            "TUYUL": "54.4",
+            "name": 1101,
+            "nametxt": "종로구",
             "data": [
                 {
                     "value": 28327,
                     "name": "송영길",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 40.45
                 },
                 {
                     "value": 40145,
                     "name": "오세훈",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 57.33
                 },
                 {
                     "value": 1151,
                     "name": "권수정",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 1.64
                 },
                 {
                     "value": 226,
                     "name": "신지혜",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.32
                 },
                 {
                     "value": 167,
                     "name": "김광종",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 0.23
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "40,145",
+            "WINDUGYUL": "57.33",
+            "WINHUBO": "오세훈",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "28,327",
+            "SECDUGYUL": "40.45",
+            "SECHUBO": "송영길",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "16.88",
+            "DUGSUCHA": "11,818",
             "HUBO01": "송영길",
             "JD01": "더불어민주당",
             "DUGSU01": "28,327",
@@ -149,43 +171,54 @@
             "MUTUSU": "678",
             "GIGWON": "51,716",
             "HUBOSU": "5",
+            "TUYUL": "53.8",
+            "name": 1102,
+            "nametxt": "중구",
             "data": [
                 {
                     "value": 23811,
                     "name": "송영길",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 39.92
                 },
                 {
                     "value": 34866,
                     "name": "오세훈",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 58.45
                 },
                 {
                     "value": 696,
                     "name": "권수정",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 1.16
                 },
                 {
                     "value": 147,
                     "name": "신지혜",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.24
                 },
                 {
                     "value": 125,
                     "name": "김광종",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 0.2
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "34,866",
+            "WINDUGYUL": "58.45",
+            "WINHUBO": "오세훈",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "23,811",
+            "SECDUGYUL": "39.92",
+            "SECHUBO": "송영길",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "18.53",
+            "DUGSUCHA": "11,055",
             "HUBO01": "송영길",
             "JD01": "더불어민주당",
             "DUGSU01": "23,811",
@@ -218,43 +251,54 @@
             "MUTUSU": "719",
             "GIGWON": "94,274",
             "HUBOSU": "5",
+            "TUYUL": "52.6",
+            "name": 1103,
+            "nametxt": "용산구",
             "data": [
                 {
                     "value": 34614,
                     "name": "송영길",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 33.26
                 },
                 {
                     "value": 67579,
                     "name": "오세훈",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 64.93
                 },
                 {
                     "value": 1354,
                     "name": "권수정",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 1.3
                 },
                 {
                     "value": 329,
                     "name": "신지혜",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.31
                 },
                 {
                     "value": 192,
                     "name": "김광종",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 0.18
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "67,579",
+            "WINDUGYUL": "64.93",
+            "WINHUBO": "오세훈",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "34,614",
+            "SECDUGYUL": "33.26",
+            "SECHUBO": "송영길",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "31.67",
+            "DUGSUCHA": "32,965",
             "HUBO01": "송영길",
             "JD01": "더불어민주당",
             "DUGSU01": "34,614",
@@ -287,43 +331,54 @@
             "MUTUSU": "1,312",
             "GIGWON": "112,229",
             "HUBOSU": "5",
+            "TUYUL": "55.5",
+            "name": 1104,
+            "nametxt": "성동구",
             "data": [
                 {
                     "value": 51996,
                     "name": "송영길",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 37.55
                 },
                 {
                     "value": 84320,
                     "name": "오세훈",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 60.9
                 },
                 {
                     "value": 1510,
                     "name": "권수정",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 1.09
                 },
                 {
                     "value": 350,
                     "name": "신지혜",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.25
                 },
                 {
                     "value": 273,
                     "name": "김광종",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 0.19
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "84,320",
+            "WINDUGYUL": "60.90",
+            "WINHUBO": "오세훈",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "51,996",
+            "SECDUGYUL": "37.55",
+            "SECHUBO": "송영길",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "23.35",
+            "DUGSUCHA": "32,324",
             "HUBO01": "송영길",
             "JD01": "더불어민주당",
             "DUGSU01": "51,996",
@@ -356,43 +411,54 @@
             "MUTUSU": "1,399",
             "GIGWON": "148,457",
             "HUBOSU": "5",
+            "TUYUL": "51.4",
+            "name": 1105,
+            "nametxt": "광진구",
             "data": [
                 {
                     "value": 62217,
                     "name": "송영길",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 39.98
                 },
                 {
                     "value": 90734,
                     "name": "오세훈",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 58.31
                 },
                 {
                     "value": 1845,
                     "name": "권수정",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 1.18
                 },
                 {
                     "value": 500,
                     "name": "신지혜",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.32
                 },
                 {
                     "value": 310,
                     "name": "김광종",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 0.19
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "90,734",
+            "WINDUGYUL": "58.31",
+            "WINHUBO": "오세훈",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "62,217",
+            "SECDUGYUL": "39.98",
+            "SECHUBO": "송영길",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "18.33",
+            "DUGSUCHA": "28,517",
             "HUBO01": "송영길",
             "JD01": "더불어민주당",
             "DUGSU01": "62,217",
@@ -425,43 +491,54 @@
             "MUTUSU": "1,525",
             "GIGWON": "145,060",
             "HUBOSU": "5",
+            "TUYUL": "52.0",
+            "name": 1106,
+            "nametxt": "동대문구",
             "data": [
                 {
                     "value": 63157,
                     "name": "송영길",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 40.63
                 },
                 {
                     "value": 89470,
                     "name": "오세훈",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 57.55
                 },
                 {
                     "value": 2011,
                     "name": "권수정",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 1.29
                 },
                 {
                     "value": 461,
                     "name": "신지혜",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.29
                 },
                 {
                     "value": 340,
                     "name": "김광종",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 0.21
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "89,470",
+            "WINDUGYUL": "57.55",
+            "WINHUBO": "오세훈",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "63,157",
+            "SECDUGYUL": "40.63",
+            "SECHUBO": "송영길",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "16.92",
+            "DUGSUCHA": "26,313",
             "HUBO01": "송영길",
             "JD01": "더불어민주당",
             "DUGSU01": "63,157",
@@ -494,43 +571,54 @@
             "MUTUSU": "1,926",
             "GIGWON": "171,061",
             "HUBOSU": "5",
+            "TUYUL": "51.0",
+            "name": 1107,
+            "nametxt": "중랑구",
             "data": [
                 {
                     "value": 76660,
                     "name": "송영길",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 43.61
                 },
                 {
                     "value": 96447,
                     "name": "오세훈",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 54.86
                 },
                 {
                     "value": 1870,
                     "name": "권수정",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 1.06
                 },
                 {
                     "value": 437,
                     "name": "신지혜",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.24
                 },
                 {
                     "value": 361,
                     "name": "김광종",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 0.2
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "96,447",
+            "WINDUGYUL": "54.86",
+            "WINHUBO": "오세훈",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "76,660",
+            "SECDUGYUL": "43.61",
+            "SECHUBO": "송영길",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "11.25",
+            "DUGSUCHA": "19,787",
             "HUBO01": "송영길",
             "JD01": "더불어민주당",
             "DUGSU01": "76,660",
@@ -563,43 +651,54 @@
             "MUTUSU": "1,738",
             "GIGWON": "176,888",
             "HUBOSU": "5",
+            "TUYUL": "53.3",
+            "name": 1108,
+            "nametxt": "성북구",
             "data": [
                 {
                     "value": 85825,
                     "name": "송영길",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 42.8
                 },
                 {
                     "value": 110962,
                     "name": "오세훈",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 55.34
                 },
                 {
                     "value": 2698,
                     "name": "권수정",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 1.34
                 },
                 {
                     "value": 599,
                     "name": "신지혜",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.29
                 },
                 {
                     "value": 413,
                     "name": "김광종",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 0.2
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "110,962",
+            "WINDUGYUL": "55.34",
+            "WINHUBO": "오세훈",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "85,825",
+            "SECDUGYUL": "42.80",
+            "SECHUBO": "송영길",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "12.54",
+            "DUGSUCHA": "25,137",
             "HUBO01": "송영길",
             "JD01": "더불어민주당",
             "DUGSU01": "85,825",
@@ -632,43 +731,54 @@
             "MUTUSU": "1,465",
             "GIGWON": "134,740",
             "HUBOSU": "5",
+            "TUYUL": "49.7",
+            "name": 1109,
+            "nametxt": "강북구",
             "data": [
                 {
                     "value": 58962,
                     "name": "송영길",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 44.69
                 },
                 {
                     "value": 70747,
                     "name": "오세훈",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 53.62
                 },
                 {
                     "value": 1515,
                     "name": "권수정",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 1.14
                 },
                 {
                     "value": 396,
                     "name": "신지혜",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.3
                 },
                 {
                     "value": 305,
                     "name": "김광종",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 0.23
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "70,747",
+            "WINDUGYUL": "53.62",
+            "WINHUBO": "오세훈",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "58,962",
+            "SECDUGYUL": "44.69",
+            "SECHUBO": "송영길",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "8.93",
+            "DUGSUCHA": "11,785",
             "HUBO01": "송영길",
             "JD01": "더불어민주당",
             "DUGSU01": "58,962",
@@ -701,43 +811,54 @@
             "MUTUSU": "1,417",
             "GIGWON": "132,334",
             "HUBOSU": "5",
+            "TUYUL": "52.9",
+            "name": 1110,
+            "nametxt": "도봉구",
             "data": [
                 {
                     "value": 61946,
                     "name": "송영길",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 42.09
                 },
                 {
                     "value": 83072,
                     "name": "오세훈",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 56.44
                 },
                 {
                     "value": 1457,
                     "name": "권수정",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 0.99
                 },
                 {
                     "value": 397,
                     "name": "신지혜",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.26
                 },
                 {
                     "value": 290,
                     "name": "김광종",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 0.19
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "83,072",
+            "WINDUGYUL": "56.44",
+            "WINHUBO": "오세훈",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "61,946",
+            "SECDUGYUL": "42.09",
+            "SECHUBO": "송영길",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "14.35",
+            "DUGSUCHA": "21,126",
             "HUBO01": "송영길",
             "JD01": "더불어민주당",
             "DUGSU01": "61,946",
@@ -770,43 +891,54 @@
             "MUTUSU": "2,485",
             "GIGWON": "196,596",
             "HUBOSU": "5",
+            "TUYUL": "55.5",
+            "name": 1111,
+            "nametxt": "노원구",
             "data": [
                 {
                     "value": 102771,
                     "name": "송영길",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 42.35
                 },
                 {
                     "value": 135812,
                     "name": "오세훈",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 55.96
                 },
                 {
                     "value": 2992,
                     "name": "권수정",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 1.23
                 },
                 {
                     "value": 625,
                     "name": "신지혜",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.25
                 },
                 {
                     "value": 467,
                     "name": "김광종",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 0.19
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "135,812",
+            "WINDUGYUL": "55.96",
+            "WINHUBO": "오세훈",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "102,771",
+            "SECDUGYUL": "42.35",
+            "SECHUBO": "송영길",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "13.61",
+            "DUGSUCHA": "33,041",
             "HUBO01": "송영길",
             "JD01": "더불어민주당",
             "DUGSU01": "102,771",
@@ -839,43 +971,54 @@
             "MUTUSU": "2,142",
             "GIGWON": "202,419",
             "HUBOSU": "5",
+            "TUYUL": "51.6",
+            "name": 1112,
+            "nametxt": "은평구",
             "data": [
                 {
                     "value": 95155,
                     "name": "송영길",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 44.5
                 },
                 {
                     "value": 114391,
                     "name": "오세훈",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 53.49
                 },
                 {
                     "value": 3059,
                     "name": "권수정",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 1.43
                 },
                 {
                     "value": 749,
                     "name": "신지혜",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.35
                 },
                 {
                     "value": 472,
                     "name": "김광종",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 0.22
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "114,391",
+            "WINDUGYUL": "53.49",
+            "WINHUBO": "오세훈",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "95,155",
+            "SECDUGYUL": "44.50",
+            "SECHUBO": "송영길",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "8.99",
+            "DUGSUCHA": "19,236",
             "HUBO01": "송영길",
             "JD01": "더불어민주당",
             "DUGSU01": "95,155",
@@ -908,43 +1051,54 @@
             "MUTUSU": "1,275",
             "GIGWON": "124,748",
             "HUBOSU": "5",
+            "TUYUL": "54.1",
+            "name": 1113,
+            "nametxt": "서대문구",
             "data": [
                 {
                     "value": 61182,
                     "name": "송영길",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 41.99
                 },
                 {
                     "value": 81312,
                     "name": "오세훈",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 55.8
                 },
                 {
                     "value": 2307,
                     "name": "권수정",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 1.58
                 },
                 {
                     "value": 608,
                     "name": "신지혜",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.41
                 },
                 {
                     "value": 286,
                     "name": "김광종",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 0.19
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "81,312",
+            "WINDUGYUL": "55.80",
+            "WINHUBO": "오세훈",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "61,182",
+            "SECDUGYUL": "41.99",
+            "SECHUBO": "송영길",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "13.81",
+            "DUGSUCHA": "20,130",
             "HUBO01": "송영길",
             "JD01": "더불어민주당",
             "DUGSU01": "61,182",
@@ -977,43 +1131,54 @@
             "MUTUSU": "1,310",
             "GIGWON": "149,505",
             "HUBOSU": "5",
+            "TUYUL": "53.9",
+            "name": 1114,
+            "nametxt": "마포구",
             "data": [
                 {
                     "value": 70936,
                     "name": "송영길",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 40.83
                 },
                 {
                     "value": 98271,
                     "name": "오세훈",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 56.57
                 },
                 {
                     "value": 3456,
                     "name": "권수정",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 1.98
                 },
                 {
                     "value": 753,
                     "name": "신지혜",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.43
                 },
                 {
                     "value": 297,
                     "name": "김광종",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 0.17
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "98,271",
+            "WINDUGYUL": "56.57",
+            "WINHUBO": "오세훈",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "70,936",
+            "SECDUGYUL": "40.83",
+            "SECHUBO": "송영길",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "15.74",
+            "DUGSUCHA": "27,335",
             "HUBO01": "송영길",
             "JD01": "더불어민주당",
             "DUGSU01": "70,936",
@@ -1046,43 +1211,54 @@
             "MUTUSU": "1,374",
             "GIGWON": "168,750",
             "HUBOSU": "5",
+            "TUYUL": "55.4",
+            "name": 1115,
+            "nametxt": "양천구",
             "data": [
                 {
                     "value": 82777,
                     "name": "송영길",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 39.73
                 },
                 {
                     "value": 122449,
                     "name": "오세훈",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 58.77
                 },
                 {
                     "value": 2150,
                     "name": "권수정",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 1.03
                 },
                 {
                     "value": 501,
                     "name": "신지혜",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.24
                 },
                 {
                     "value": 443,
                     "name": "김광종",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 0.21
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "122,449",
+            "WINDUGYUL": "58.77",
+            "WINHUBO": "오세훈",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "82,777",
+            "SECDUGYUL": "39.73",
+            "SECHUBO": "송영길",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "19.04",
+            "DUGSUCHA": "39,672",
             "HUBO01": "송영길",
             "JD01": "더불어민주당",
             "DUGSU01": "82,777",
@@ -1115,43 +1291,54 @@
             "MUTUSU": "2,217",
             "GIGWON": "243,659",
             "HUBOSU": "5",
+            "TUYUL": "51.7",
+            "name": 1116,
+            "nametxt": "강서구",
             "data": [
                 {
                     "value": 108938,
                     "name": "송영길",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 42.1
                 },
                 {
                     "value": 145128,
                     "name": "오세훈",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 56.09
                 },
                 {
                     "value": 3350,
                     "name": "권수정",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 1.29
                 },
                 {
                     "value": 723,
                     "name": "신지혜",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.27
                 },
                 {
                     "value": 591,
                     "name": "김광종",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 0.22
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "145,128",
+            "WINDUGYUL": "56.09",
+            "WINHUBO": "오세훈",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "108,938",
+            "SECDUGYUL": "42.10",
+            "SECHUBO": "송영길",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "13.99",
+            "DUGSUCHA": "36,190",
             "HUBO01": "송영길",
             "JD01": "더불어민주당",
             "DUGSU01": "108,938",
@@ -1184,43 +1371,54 @@
             "MUTUSU": "1,914",
             "GIGWON": "165,603",
             "HUBOSU": "5",
+            "TUYUL": "53.2",
+            "name": 1117,
+            "nametxt": "구로구",
             "data": [
                 {
                     "value": 78250,
                     "name": "송영길",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 42.02
                 },
                 {
                     "value": 104643,
                     "name": "오세훈",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 56.2
                 },
                 {
                     "value": 2319,
                     "name": "권수정",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 1.24
                 },
                 {
                     "value": 553,
                     "name": "신지혜",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.29
                 },
                 {
                     "value": 415,
                     "name": "김광종",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 0.22
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "104,643",
+            "WINDUGYUL": "56.20",
+            "WINHUBO": "오세훈",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "78,250",
+            "SECDUGYUL": "42.02",
+            "SECHUBO": "송영길",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "14.18",
+            "DUGSUCHA": "26,393",
             "HUBO01": "송영길",
             "JD01": "더불어민주당",
             "DUGSU01": "78,250",
@@ -1253,43 +1451,54 @@
             "MUTUSU": "1,152",
             "GIGWON": "107,046",
             "HUBOSU": "5",
+            "TUYUL": "49.7",
+            "name": 1118,
+            "nametxt": "금천구",
             "data": [
                 {
                     "value": 46314,
                     "name": "송영길",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 44.24
                 },
                 {
                     "value": 56374,
                     "name": "오세훈",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 53.85
                 },
                 {
                     "value": 1364,
                     "name": "권수정",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 1.3
                 },
                 {
                     "value": 320,
                     "name": "신지혜",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.3
                 },
                 {
                     "value": 309,
                     "name": "김광종",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 0.29
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "56,374",
+            "WINDUGYUL": "53.85",
+            "WINHUBO": "오세훈",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "46,314",
+            "SECDUGYUL": "44.24",
+            "SECHUBO": "송영길",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "9.61",
+            "DUGSUCHA": "10,060",
             "HUBO01": "송영길",
             "JD01": "더불어민주당",
             "DUGSU01": "46,314",
@@ -1322,43 +1531,54 @@
             "MUTUSU": "1,459",
             "GIGWON": "158,915",
             "HUBOSU": "5",
+            "TUYUL": "53.3",
+            "name": 1119,
+            "nametxt": "영등포구",
             "data": [
                 {
                     "value": 68663,
                     "name": "송영길",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 38.22
                 },
                 {
                     "value": 107910,
                     "name": "오세훈",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 60.06
                 },
                 {
                     "value": 2185,
                     "name": "권수정",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 1.21
                 },
                 {
                     "value": 541,
                     "name": "신지혜",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.3
                 },
                 {
                     "value": 344,
                     "name": "김광종",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 0.19
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "107,910",
+            "WINDUGYUL": "60.06",
+            "WINHUBO": "오세훈",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "68,663",
+            "SECDUGYUL": "38.22",
+            "SECHUBO": "송영길",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "21.84",
+            "DUGSUCHA": "39,247",
             "HUBO01": "송영길",
             "JD01": "더불어민주당",
             "DUGSU01": "68,663",
@@ -1391,43 +1611,54 @@
             "MUTUSU": "1,337",
             "GIGWON": "156,897",
             "HUBOSU": "5",
+            "TUYUL": "54.4",
+            "name": 1120,
+            "nametxt": "동작구",
             "data": [
                 {
                     "value": 74678,
                     "name": "송영길",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 40.13
                 },
                 {
                     "value": 108122,
                     "name": "오세훈",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 58.11
                 },
                 {
                     "value": 2345,
                     "name": "권수정",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 1.26
                 },
                 {
                     "value": 548,
                     "name": "신지혜",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.29
                 },
                 {
                     "value": 353,
                     "name": "김광종",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 0.18
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "108,122",
+            "WINDUGYUL": "58.11",
+            "WINHUBO": "오세훈",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "74,678",
+            "SECDUGYUL": "40.13",
+            "SECHUBO": "송영길",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "17.98",
+            "DUGSUCHA": "33,444",
             "HUBO01": "송영길",
             "JD01": "더불어민주당",
             "DUGSU01": "74,678",
@@ -1460,43 +1691,54 @@
             "MUTUSU": "2,408",
             "GIGWON": "223,379",
             "HUBOSU": "5",
+            "TUYUL": "50.4",
+            "name": 1121,
+            "nametxt": "관악구",
             "data": [
                 {
                     "value": 100445,
                     "name": "송영길",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 44.76
                 },
                 {
                     "value": 119009,
                     "name": "오세훈",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 53.03
                 },
                 {
                     "value": 3545,
                     "name": "권수정",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 1.57
                 },
                 {
                     "value": 815,
                     "name": "신지혜",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.36
                 },
                 {
                     "value": 579,
                     "name": "김광종",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 0.25
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "119,009",
+            "WINDUGYUL": "53.03",
+            "WINHUBO": "오세훈",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "100,445",
+            "SECDUGYUL": "44.76",
+            "SECHUBO": "송영길",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "8.27",
+            "DUGSUCHA": "18,564",
             "HUBO01": "송영길",
             "JD01": "더불어민주당",
             "DUGSU01": "100,445",
@@ -1529,43 +1771,54 @@
             "MUTUSU": "958",
             "GIGWON": "150,727",
             "HUBOSU": "5",
+            "TUYUL": "56.0",
+            "name": 1122,
+            "nametxt": "서초구",
             "data": [
                 {
                     "value": 50545,
                     "name": "송영길",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 26.47
                 },
                 {
                     "value": 138050,
                     "name": "오세훈",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 72.31
                 },
                 {
                     "value": 1668,
                     "name": "권수정",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 0.87
                 },
                 {
                     "value": 395,
                     "name": "신지혜",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.2
                 },
                 {
                     "value": 246,
                     "name": "김광종",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 0.12
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "138,050",
+            "WINDUGYUL": "72.31",
+            "WINHUBO": "오세훈",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "50,545",
+            "SECDUGYUL": "26.47",
+            "SECHUBO": "송영길",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "45.84",
+            "DUGSUCHA": "87,505",
             "HUBO01": "송영길",
             "JD01": "더불어민주당",
             "DUGSU01": "50,545",
@@ -1598,43 +1851,54 @@
             "MUTUSU": "1,410",
             "GIGWON": "209,346",
             "HUBOSU": "5",
+            "TUYUL": "53.6",
+            "name": 1123,
+            "nametxt": "강남구",
             "data": [
                 {
                     "value": 58734,
                     "name": "송영길",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 24.45
                 },
                 {
                     "value": 178621,
                     "name": "오세훈",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 74.38
                 },
                 {
                     "value": 1828,
                     "name": "권수정",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 0.76
                 },
                 {
                     "value": 463,
                     "name": "신지혜",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.19
                 },
                 {
                     "value": 493,
                     "name": "김광종",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 0.2
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "178,621",
+            "WINDUGYUL": "74.38",
+            "WINHUBO": "오세훈",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "58,734",
+            "SECDUGYUL": "24.45",
+            "SECHUBO": "송영길",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "49.93",
+            "DUGSUCHA": "119,887",
             "HUBO01": "송영길",
             "JD01": "더불어민주당",
             "DUGSU01": "58,734",
@@ -1667,43 +1931,54 @@
             "MUTUSU": "2,280",
             "GIGWON": "256,210",
             "HUBOSU": "5",
+            "TUYUL": "55.0",
+            "name": 1124,
+            "nametxt": "송파구",
             "data": [
                 {
                     "value": 105890,
                     "name": "송영길",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 34.04
                 },
                 {
                     "value": 201217,
                     "name": "오세훈",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 64.69
                 },
                 {
                     "value": 2839,
                     "name": "권수정",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 0.91
                 },
                 {
                     "value": 621,
                     "name": "신지혜",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.19
                 },
                 {
                     "value": 450,
                     "name": "김광종",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 0.14
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "201,217",
+            "WINDUGYUL": "64.69",
+            "WINHUBO": "오세훈",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "105,890",
+            "SECDUGYUL": "34.04",
+            "SECHUBO": "송영길",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "30.65",
+            "DUGSUCHA": "95,327",
             "HUBO01": "송영길",
             "JD01": "더불어민주당",
             "DUGSU01": "105,890",
@@ -1736,43 +2011,54 @@
             "MUTUSU": "1,701",
             "GIGWON": "183,460",
             "HUBOSU": "5",
+            "TUYUL": "53.9",
+            "name": 1125,
+            "nametxt": "강동구",
             "data": [
                 {
                     "value": 80390,
                     "name": "송영길",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 37.85
                 },
                 {
                     "value": 128626,
                     "name": "오세훈",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 60.56
                 },
                 {
                     "value": 2326,
                     "name": "권수정",
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
+                    "party": "정의당",
+                    "percentage": 1.09
                 },
                 {
                     "value": 562,
                     "name": "신지혜",
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
+                    "party": "기본소득당",
+                    "percentage": 0.26
                 },
                 {
                     "value": 479,
                     "name": "김광종",
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
+                    "party": "무소속",
+                    "percentage": 0.22
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "128,626",
+            "WINDUGYUL": "60.56",
+            "WINHUBO": "오세훈",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "80,390",
+            "SECDUGYUL": "37.85",
+            "SECHUBO": "송영길",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "22.71",
+            "DUGSUCHA": "48,236",
             "HUBO01": "송영길",
             "JD01": "더불어민주당",
             "DUGSU01": "80,390",

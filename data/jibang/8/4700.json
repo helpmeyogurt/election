@@ -11,22 +11,36 @@
             "MUTUSU": "34,145",
             "GIGWON": "1,074,112",
             "HUBOSU": "2",
+            "TUYUL": "52.7",
+            "name": 0,
+            "nametxt": "합계",
             "data": [
                 {
                     "value": 255775,
                     "name": "임미애",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 22.04
                 },
                 {
                     "value": 904675,
                     "name": "이철우",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 77.95
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "904,675",
+            "WINDUGYUL": "77.95",
+            "WINHUBO": "이철우",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "255,775",
+            "SECDUGYUL": "22.04",
+            "SECHUBO": "임미애",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "55.91",
+            "DUGSUCHA": "648,900",
             "HUBO01": "임미애",
             "JD01": "더불어민주당",
             "DUGSU01": "255,775",
@@ -47,22 +61,36 @@
             "MUTUSU": "1,852",
             "GIGWON": "125,174",
             "HUBOSU": "2",
+            "TUYUL": "45.8",
+            "name": 4701,
+            "nametxt": "포항시북구",
             "data": [
                 {
                     "value": 23150,
                     "name": "임미애",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 22.27
                 },
                 {
                     "value": 80784,
                     "name": "이철우",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 77.72
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "80,784",
+            "WINDUGYUL": "77.72",
+            "WINHUBO": "이철우",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "23,150",
+            "SECDUGYUL": "22.27",
+            "SECHUBO": "임미애",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "55.45",
+            "DUGSUCHA": "57,634",
             "HUBO01": "임미애",
             "JD01": "더불어민주당",
             "DUGSU01": "23,150",
@@ -83,22 +111,36 @@
             "MUTUSU": "2,102",
             "GIGWON": "106,293",
             "HUBOSU": "2",
+            "TUYUL": "46.0",
+            "name": 4702,
+            "nametxt": "포항시남구",
             "data": [
                 {
                     "value": 20195,
                     "name": "임미애",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 22.86
                 },
                 {
                     "value": 68137,
                     "name": "이철우",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 77.13
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "68,137",
+            "WINDUGYUL": "77.13",
+            "WINHUBO": "이철우",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "20,195",
+            "SECDUGYUL": "22.86",
+            "SECHUBO": "임미애",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "54.27",
+            "DUGSUCHA": "47,942",
             "HUBO01": "임미애",
             "JD01": "더불어민주당",
             "DUGSU01": "20,195",
@@ -119,22 +161,36 @@
             "MUTUSU": "308",
             "GIGWON": "1,544",
             "HUBOSU": "2",
+            "TUYUL": "81.5",
+            "name": 4703,
+            "nametxt": "울릉군",
             "data": [
                 {
                     "value": 1217,
                     "name": "임미애",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 18.76
                 },
                 {
                     "value": 5270,
                     "name": "이철우",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 81.23
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "5,270",
+            "WINDUGYUL": "81.23",
+            "WINHUBO": "이철우",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "1,217",
+            "SECDUGYUL": "18.76",
+            "SECHUBO": "임미애",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "62.47",
+            "DUGSUCHA": "4,053",
             "HUBO01": "임미애",
             "JD01": "더불어민주당",
             "DUGSU01": "1,217",
@@ -155,22 +211,36 @@
             "MUTUSU": "2,775",
             "GIGWON": "110,843",
             "HUBOSU": "2",
+            "TUYUL": "49.7",
+            "name": 4704,
+            "nametxt": "경주시",
             "data": [
                 {
                     "value": 22875,
                     "name": "임미애",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 21.4
                 },
                 {
                     "value": 83997,
                     "name": "이철우",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 78.59
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "83,997",
+            "WINDUGYUL": "78.59",
+            "WINHUBO": "이철우",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "22,875",
+            "SECDUGYUL": "21.40",
+            "SECHUBO": "임미애",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "57.19",
+            "DUGSUCHA": "61,122",
             "HUBO01": "임미애",
             "JD01": "더불어민주당",
             "DUGSU01": "22,875",
@@ -191,22 +261,36 @@
             "MUTUSU": "1,586",
             "GIGWON": "53,194",
             "HUBOSU": "2",
+            "TUYUL": "55.8",
+            "name": 4705,
+            "nametxt": "김천시",
             "data": [
                 {
                     "value": 13915,
                     "name": "임미애",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 21.18
                 },
                 {
                     "value": 51776,
                     "name": "이철우",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 78.81
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "51,776",
+            "WINDUGYUL": "78.81",
+            "WINHUBO": "이철우",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "13,915",
+            "SECDUGYUL": "21.18",
+            "SECHUBO": "임미애",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "57.63",
+            "DUGSUCHA": "37,861",
             "HUBO01": "임미애",
             "JD01": "더불어민주당",
             "DUGSU01": "13,915",
@@ -227,22 +311,36 @@
             "MUTUSU": "2,140",
             "GIGWON": "61,322",
             "HUBOSU": "2",
+            "TUYUL": "54.9",
+            "name": 4706,
+            "nametxt": "안동시",
             "data": [
                 {
                     "value": 20435,
                     "name": "임미애",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 28.22
                 },
                 {
                     "value": 51965,
                     "name": "이철우",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 71.77
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "51,965",
+            "WINDUGYUL": "71.77",
+            "WINHUBO": "이철우",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "20,435",
+            "SECDUGYUL": "28.22",
+            "SECHUBO": "임미애",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "43.55",
+            "DUGSUCHA": "31,530",
             "HUBO01": "임미애",
             "JD01": "더불어민주당",
             "DUGSU01": "20,435",
@@ -263,22 +361,36 @@
             "MUTUSU": "1,917",
             "GIGWON": "192,963",
             "HUBOSU": "2",
+            "TUYUL": "42.8",
+            "name": 4707,
+            "nametxt": "구미시",
             "data": [
                 {
                     "value": 34597,
                     "name": "임미애",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 24.25
                 },
                 {
                     "value": 108033,
                     "name": "이철우",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 75.74
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "108,033",
+            "WINDUGYUL": "75.74",
+            "WINHUBO": "이철우",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "34,597",
+            "SECDUGYUL": "24.25",
+            "SECHUBO": "임미애",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "51.49",
+            "DUGSUCHA": "73,436",
             "HUBO01": "임미애",
             "JD01": "더불어민주당",
             "DUGSU01": "34,597",
@@ -299,22 +411,36 @@
             "MUTUSU": "1,872",
             "GIGWON": "32,764",
             "HUBOSU": "2",
+            "TUYUL": "63.2",
+            "name": 4708,
+            "nametxt": "영주시",
             "data": [
                 {
                     "value": 12783,
                     "name": "임미애",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 23.48
                 },
                 {
                     "value": 41642,
                     "name": "이철우",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 76.51
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "41,642",
+            "WINDUGYUL": "76.51",
+            "WINHUBO": "이철우",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "12,783",
+            "SECDUGYUL": "23.48",
+            "SECHUBO": "임미애",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "53.03",
+            "DUGSUCHA": "28,859",
             "HUBO01": "임미애",
             "JD01": "더불어민주당",
             "DUGSU01": "12,783",
@@ -335,22 +461,36 @@
             "MUTUSU": "1,862",
             "GIGWON": "39,225",
             "HUBOSU": "2",
+            "TUYUL": "56.9",
+            "name": 4709,
+            "nametxt": "영천시",
             "data": [
                 {
                     "value": 9328,
                     "name": "임미애",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 18.71
                 },
                 {
                     "value": 40517,
                     "name": "이철우",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 81.28
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "40,517",
+            "WINDUGYUL": "81.28",
+            "WINHUBO": "이철우",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "9,328",
+            "SECDUGYUL": "18.71",
+            "SECHUBO": "임미애",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "62.57",
+            "DUGSUCHA": "31,189",
             "HUBO01": "임미애",
             "JD01": "더불어민주당",
             "DUGSU01": "9,328",
@@ -371,22 +511,36 @@
             "MUTUSU": "2,115",
             "GIGWON": "30,613",
             "HUBOSU": "2",
+            "TUYUL": "64.0",
+            "name": 4710,
+            "nametxt": "상주시",
             "data": [
                 {
                     "value": 9992,
                     "name": "임미애",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 19.12
                 },
                 {
                     "value": 42260,
                     "name": "이철우",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 80.87
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "42,260",
+            "WINDUGYUL": "80.87",
+            "WINHUBO": "이철우",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "9,992",
+            "SECDUGYUL": "19.12",
+            "SECHUBO": "임미애",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "61.75",
+            "DUGSUCHA": "32,268",
             "HUBO01": "임미애",
             "JD01": "더불어민주당",
             "DUGSU01": "9,992",
@@ -407,22 +561,36 @@
             "MUTUSU": "1,370",
             "GIGWON": "23,776",
             "HUBOSU": "2",
+            "TUYUL": "62.9",
+            "name": 4711,
+            "nametxt": "문경시",
             "data": [
                 {
                     "value": 7318,
                     "name": "임미애",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 18.75
                 },
                 {
                     "value": 31696,
                     "name": "이철우",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 81.24
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "31,696",
+            "WINDUGYUL": "81.24",
+            "WINHUBO": "이철우",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "7,318",
+            "SECDUGYUL": "18.75",
+            "SECHUBO": "임미애",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "62.49",
+            "DUGSUCHA": "24,378",
             "HUBO01": "임미애",
             "JD01": "더불어민주당",
             "DUGSU01": "7,318",
@@ -443,22 +611,36 @@
             "MUTUSU": "975",
             "GIGWON": "18,065",
             "HUBOSU": "2",
+            "TUYUL": "62.0",
+            "name": 4712,
+            "nametxt": "예천군",
             "data": [
                 {
                     "value": 8371,
                     "name": "임미애",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 29.35
                 },
                 {
                     "value": 20150,
                     "name": "이철우",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 70.64
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "20,150",
+            "WINDUGYUL": "70.64",
+            "WINHUBO": "이철우",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "8,371",
+            "SECDUGYUL": "29.35",
+            "SECHUBO": "임미애",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "41.29",
+            "DUGSUCHA": "11,779",
             "HUBO01": "임미애",
             "JD01": "더불어민주당",
             "DUGSU01": "8,371",
@@ -479,22 +661,36 @@
             "MUTUSU": "2,224",
             "GIGWON": "130,620",
             "HUBOSU": "2",
+            "TUYUL": "43.4",
+            "name": 4713,
+            "nametxt": "경산시",
             "data": [
                 {
                     "value": 20784,
                     "name": "임미애",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 21.24
                 },
                 {
                     "value": 77048,
                     "name": "이철우",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 78.75
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "77,048",
+            "WINDUGYUL": "78.75",
+            "WINHUBO": "이철우",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "20,784",
+            "SECDUGYUL": "21.24",
+            "SECHUBO": "임미애",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "57.51",
+            "DUGSUCHA": "56,264",
             "HUBO01": "임미애",
             "JD01": "더불어민주당",
             "DUGSU01": "20,784",
@@ -515,22 +711,36 @@
             "MUTUSU": "1,148",
             "GIGWON": "11,258",
             "HUBOSU": "2",
+            "TUYUL": "70.8",
+            "name": 4714,
+            "nametxt": "청도군",
             "data": [
                 {
                     "value": 4559,
                     "name": "임미애",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 17.42
                 },
                 {
                     "value": 21609,
                     "name": "이철우",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 82.57
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "21,609",
+            "WINDUGYUL": "82.57",
+            "WINHUBO": "이철우",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "4,559",
+            "SECDUGYUL": "17.42",
+            "SECHUBO": "임미애",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "65.15",
+            "DUGSUCHA": "17,050",
             "HUBO01": "임미애",
             "JD01": "더불어민주당",
             "DUGSU01": "4,559",
@@ -551,22 +761,36 @@
             "MUTUSU": "682",
             "GIGWON": "10,337",
             "HUBOSU": "2",
+            "TUYUL": "62.8",
+            "name": 4715,
+            "nametxt": "고령군",
             "data": [
                 {
                     "value": 3009,
                     "name": "임미애",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 17.97
                 },
                 {
                     "value": 13729,
                     "name": "이철우",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 82.02
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "13,729",
+            "WINDUGYUL": "82.02",
+            "WINHUBO": "이철우",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "3,009",
+            "SECDUGYUL": "17.97",
+            "SECHUBO": "임미애",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "64.05",
+            "DUGSUCHA": "10,720",
             "HUBO01": "임미애",
             "JD01": "더불어민주당",
             "DUGSU01": "3,009",
@@ -587,22 +811,36 @@
             "MUTUSU": "1,023",
             "GIGWON": "12,814",
             "HUBOSU": "2",
+            "TUYUL": "67.5",
+            "name": 4716,
+            "nametxt": "성주군",
             "data": [
                 {
                     "value": 4585,
                     "name": "임미애",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 17.9
                 },
                 {
                     "value": 21029,
                     "name": "이철우",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 82.09
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "21,029",
+            "WINDUGYUL": "82.09",
+            "WINHUBO": "이철우",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "4,585",
+            "SECDUGYUL": "17.90",
+            "SECHUBO": "임미애",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "64.19",
+            "DUGSUCHA": "16,444",
             "HUBO01": "임미애",
             "JD01": "더불어민주당",
             "DUGSU01": "4,585",
@@ -623,22 +861,36 @@
             "MUTUSU": "960",
             "GIGWON": "54,103",
             "HUBOSU": "2",
+            "TUYUL": "43.7",
+            "name": 4717,
+            "nametxt": "칠곡군",
             "data": [
                 {
                     "value": 9340,
                     "name": "임미애",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 22.77
                 },
                 {
                     "value": 31678,
                     "name": "이철우",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 77.22
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "31,678",
+            "WINDUGYUL": "77.22",
+            "WINHUBO": "이철우",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "9,340",
+            "SECDUGYUL": "22.77",
+            "SECHUBO": "임미애",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "54.45",
+            "DUGSUCHA": "22,338",
             "HUBO01": "임미애",
             "JD01": "더불어민주당",
             "DUGSU01": "9,340",
@@ -659,22 +911,36 @@
             "MUTUSU": "1,291",
             "GIGWON": "4,209",
             "HUBOSU": "2",
+            "TUYUL": "80.9",
+            "name": 4718,
+            "nametxt": "군위군",
             "data": [
                 {
                     "value": 3398,
                     "name": "임미애",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 20.52
                 },
                 {
                     "value": 13156,
                     "name": "이철우",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 79.47
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "13,156",
+            "WINDUGYUL": "79.47",
+            "WINHUBO": "이철우",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "3,398",
+            "SECDUGYUL": "20.52",
+            "SECHUBO": "임미애",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "58.95",
+            "DUGSUCHA": "9,758",
             "HUBO01": "임미애",
             "JD01": "더불어민주당",
             "DUGSU01": "3,398",
@@ -695,22 +961,36 @@
             "MUTUSU": "1,733",
             "GIGWON": "12,240",
             "HUBOSU": "2",
+            "TUYUL": "74.1",
+            "name": 4719,
+            "nametxt": "의성군",
             "data": [
                 {
                     "value": 7326,
                     "name": "임미애",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 22.06
                 },
                 {
                     "value": 25869,
                     "name": "이철우",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 77.93
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "25,869",
+            "WINDUGYUL": "77.93",
+            "WINHUBO": "이철우",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "7,326",
+            "SECDUGYUL": "22.06",
+            "SECHUBO": "임미애",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "55.87",
+            "DUGSUCHA": "18,543",
             "HUBO01": "임미애",
             "JD01": "더불어민주당",
             "DUGSU01": "7,326",
@@ -731,22 +1011,36 @@
             "MUTUSU": "655",
             "GIGWON": "5,944",
             "HUBOSU": "2",
+            "TUYUL": "73.9",
+            "name": 4720,
+            "nametxt": "청송군",
             "data": [
                 {
                     "value": 3509,
                     "name": "임미애",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 21.67
                 },
                 {
                     "value": 12682,
                     "name": "이철우",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 78.32
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "12,682",
+            "WINDUGYUL": "78.32",
+            "WINHUBO": "이철우",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "3,509",
+            "SECDUGYUL": "21.67",
+            "SECHUBO": "임미애",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "56.65",
+            "DUGSUCHA": "9,173",
             "HUBO01": "임미애",
             "JD01": "더불어민주당",
             "DUGSU01": "3,509",
@@ -767,22 +1061,36 @@
             "MUTUSU": "575",
             "GIGWON": "3,388",
             "HUBOSU": "2",
+            "TUYUL": "77.3",
+            "name": 4721,
+            "nametxt": "영양군",
             "data": [
                 {
                     "value": 2394,
                     "name": "임미애",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 21.84
                 },
                 {
                     "value": 8563,
                     "name": "이철우",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 78.15
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "8,563",
+            "WINDUGYUL": "78.15",
+            "WINHUBO": "이철우",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "2,394",
+            "SECDUGYUL": "21.84",
+            "SECHUBO": "임미애",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "56.31",
+            "DUGSUCHA": "6,169",
             "HUBO01": "임미애",
             "JD01": "더불어민주당",
             "DUGSU01": "2,394",
@@ -803,22 +1111,36 @@
             "MUTUSU": "858",
             "GIGWON": "10,561",
             "HUBOSU": "2",
+            "TUYUL": "67.1",
+            "name": 4722,
+            "nametxt": "영덕군",
             "data": [
                 {
                     "value": 3501,
                     "name": "임미애",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 16.9
                 },
                 {
                     "value": 17204,
                     "name": "이철우",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 83.09
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "17,204",
+            "WINDUGYUL": "83.09",
+            "WINHUBO": "이철우",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "3,501",
+            "SECDUGYUL": "16.90",
+            "SECHUBO": "임미애",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "66.19",
+            "DUGSUCHA": "13,703",
             "HUBO01": "임미애",
             "JD01": "더불어민주당",
             "DUGSU01": "3,501",
@@ -839,22 +1161,36 @@
             "MUTUSU": "741",
             "GIGWON": "9,113",
             "HUBOSU": "2",
+            "TUYUL": "67.4",
+            "name": 4723,
+            "nametxt": "봉화군",
             "data": [
                 {
                     "value": 4024,
                     "name": "임미애",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 22.18
                 },
                 {
                     "value": 14118,
                     "name": "이철우",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 77.81
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "14,118",
+            "WINDUGYUL": "77.81",
+            "WINHUBO": "이철우",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "4,024",
+            "SECDUGYUL": "22.18",
+            "SECHUBO": "임미애",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "55.63",
+            "DUGSUCHA": "10,094",
             "HUBO01": "임미애",
             "JD01": "더불어민주당",
             "DUGSU01": "4,024",
@@ -875,22 +1211,36 @@
             "MUTUSU": "1,381",
             "GIGWON": "13,749",
             "HUBOSU": "2",
+            "TUYUL": "67.3",
+            "name": 4724,
+            "nametxt": "울진군",
             "data": [
                 {
                     "value": 5170,
                     "name": "임미애",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 19.19
                 },
                 {
                     "value": 21763,
                     "name": "이철우",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 80.8
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "21,763",
+            "WINDUGYUL": "80.80",
+            "WINHUBO": "이철우",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "5,170",
+            "SECDUGYUL": "19.19",
+            "SECHUBO": "임미애",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "61.61",
+            "DUGSUCHA": "16,593",
             "HUBO01": "임미애",
             "JD01": "더불어민주당",
             "DUGSU01": "5,170",

@@ -11,22 +11,36 @@
             "MUTUSU": "15,271",
             "GIGWON": "563,582",
             "HUBOSU": "2",
+            "TUYUL": "57.8",
+            "name": 0,
+            "nametxt": "합계",
             "data": [
                 {
                     "value": 347766,
                     "name": "이광재",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 45.92
                 },
                 {
                     "value": 409461,
                     "name": "김진태",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 54.07
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "409,461",
+            "WINDUGYUL": "54.07",
+            "WINHUBO": "김진태",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "347,766",
+            "SECDUGYUL": "45.92",
+            "SECHUBO": "이광재",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "8.15",
+            "DUGSUCHA": "61,695",
             "HUBO01": "이광재",
             "JD01": "더불어민주당",
             "DUGSU01": "347,766",
@@ -47,22 +61,36 @@
             "MUTUSU": "1,925",
             "GIGWON": "106,641",
             "HUBOSU": "2",
+            "TUYUL": "56.4",
+            "name": 4201,
+            "nametxt": "춘천시",
             "data": [
                 {
                     "value": 63714,
                     "name": "이광재",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 46.9
                 },
                 {
                     "value": 72126,
                     "name": "김진태",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 53.09
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "72,126",
+            "WINDUGYUL": "53.09",
+            "WINHUBO": "김진태",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "63,714",
+            "SECDUGYUL": "46.90",
+            "SECHUBO": "이광재",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "6.19",
+            "DUGSUCHA": "8,412",
             "HUBO01": "이광재",
             "JD01": "더불어민주당",
             "DUGSU01": "63,714",
@@ -83,22 +111,36 @@
             "MUTUSU": "2,399",
             "GIGWON": "146,522",
             "HUBOSU": "2",
+            "TUYUL": "51.8",
+            "name": 4202,
+            "nametxt": "원주시",
             "data": [
                 {
                     "value": 77841,
                     "name": "이광재",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 50.17
                 },
                 {
                     "value": 77298,
                     "name": "김진태",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 49.82
                 }
             ],
+            "WINNUM": 1,
+            "WINDUGSU": "77,841",
+            "WINDUGYUL": "50.17",
+            "WINHUBO": "이광재",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "77,298",
+            "SECDUGYUL": "49.82",
+            "SECHUBO": "김진태",
+            "SECJD": "국민의힘",
+            "value": 1,
+            "DUGYULCHA": "0.35",
+            "DUGSUCHA": "543",
             "HUBO01": "이광재",
             "JD01": "더불어민주당",
             "DUGSU01": "77,841",
@@ -119,22 +161,36 @@
             "MUTUSU": "1,606",
             "GIGWON": "83,860",
             "HUBOSU": "2",
+            "TUYUL": "54.9",
+            "name": 4203,
+            "nametxt": "강릉시",
             "data": [
                 {
                     "value": 42113,
                     "name": "이광재",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 41.97
                 },
                 {
                     "value": 58225,
                     "name": "김진태",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 58.02
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "58,225",
+            "WINDUGYUL": "58.02",
+            "WINHUBO": "김진태",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "42,113",
+            "SECDUGYUL": "41.97",
+            "SECHUBO": "이광재",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "16.05",
+            "DUGSUCHA": "16,112",
             "HUBO01": "이광재",
             "JD01": "더불어민주당",
             "DUGSU01": "42,113",
@@ -155,22 +211,36 @@
             "MUTUSU": "817",
             "GIGWON": "34,839",
             "HUBOSU": "2",
+            "TUYUL": "54.7",
+            "name": 4204,
+            "nametxt": "동해시",
             "data": [
                 {
                     "value": 17499,
                     "name": "이광재",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 42.44
                 },
                 {
                     "value": 23731,
                     "name": "김진태",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 57.55
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "23,731",
+            "WINDUGYUL": "57.55",
+            "WINHUBO": "김진태",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "17,499",
+            "SECDUGYUL": "42.44",
+            "SECHUBO": "이광재",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "15.11",
+            "DUGSUCHA": "6,232",
             "HUBO01": "이광재",
             "JD01": "더불어민주당",
             "DUGSU01": "17,499",
@@ -191,22 +261,36 @@
             "MUTUSU": "923",
             "GIGWON": "19,474",
             "HUBOSU": "2",
+            "TUYUL": "65.8",
+            "name": 4205,
+            "nametxt": "삼척시",
             "data": [
                 {
                     "value": 15807,
                     "name": "이광재",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 43.15
                 },
                 {
                     "value": 20819,
                     "name": "김진태",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 56.84
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "20,819",
+            "WINDUGYUL": "56.84",
+            "WINHUBO": "김진태",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "15,807",
+            "SECDUGYUL": "43.15",
+            "SECHUBO": "이광재",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "13.69",
+            "DUGSUCHA": "5,012",
             "HUBO01": "이광재",
             "JD01": "더불어민주당",
             "DUGSU01": "15,807",
@@ -227,22 +311,36 @@
             "MUTUSU": "528",
             "GIGWON": "12,698",
             "HUBOSU": "2",
+            "TUYUL": "64.0",
+            "name": 4206,
+            "nametxt": "태백시",
             "data": [
                 {
                     "value": 10288,
                     "name": "이광재",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 46.74
                 },
                 {
                     "value": 11722,
                     "name": "김진태",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 53.25
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "11,722",
+            "WINDUGYUL": "53.25",
+            "WINHUBO": "김진태",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "10,288",
+            "SECDUGYUL": "46.74",
+            "SECHUBO": "이광재",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "6.51",
+            "DUGSUCHA": "1,434",
             "HUBO01": "이광재",
             "JD01": "더불어민주당",
             "DUGSU01": "10,288",
@@ -263,22 +361,36 @@
             "MUTUSU": "745",
             "GIGWON": "9,919",
             "HUBOSU": "2",
+            "TUYUL": "69.0",
+            "name": 4207,
+            "nametxt": "정선군",
             "data": [
                 {
                     "value": 10570,
                     "name": "이광재",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 49.53
                 },
                 {
                     "value": 10767,
                     "name": "김진태",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 50.46
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "10,767",
+            "WINDUGYUL": "50.46",
+            "WINHUBO": "김진태",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "10,570",
+            "SECDUGYUL": "49.53",
+            "SECHUBO": "이광재",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "0.93",
+            "DUGSUCHA": "197",
             "HUBO01": "이광재",
             "JD01": "더불어민주당",
             "DUGSU01": "10,570",
@@ -299,22 +411,36 @@
             "MUTUSU": "704",
             "GIGWON": "34,527",
             "HUBOSU": "2",
+            "TUYUL": "51.8",
+            "name": 4208,
+            "nametxt": "속초시",
             "data": [
                 {
                     "value": 16266,
                     "name": "이광재",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 44.69
                 },
                 {
                     "value": 20124,
                     "name": "김진태",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 55.3
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "20,124",
+            "WINDUGYUL": "55.30",
+            "WINHUBO": "김진태",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "16,266",
+            "SECDUGYUL": "44.69",
+            "SECHUBO": "이광재",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "10.61",
+            "DUGSUCHA": "3,858",
             "HUBO01": "이광재",
             "JD01": "더불어민주당",
             "DUGSU01": "16,266",
@@ -335,22 +461,36 @@
             "MUTUSU": "588",
             "GIGWON": "8,000",
             "HUBOSU": "2",
+            "TUYUL": "67.7",
+            "name": 4209,
+            "nametxt": "고성군",
             "data": [
                 {
                     "value": 7164,
                     "name": "이광재",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 44.25
                 },
                 {
                     "value": 9024,
                     "name": "김진태",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 55.74
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "9,024",
+            "WINDUGYUL": "55.74",
+            "WINHUBO": "김진태",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "7,164",
+            "SECDUGYUL": "44.25",
+            "SECHUBO": "이광재",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "11.49",
+            "DUGSUCHA": "1,860",
             "HUBO01": "이광재",
             "JD01": "더불어민주당",
             "DUGSU01": "7,164",
@@ -371,22 +511,36 @@
             "MUTUSU": "477",
             "GIGWON": "8,688",
             "HUBOSU": "2",
+            "TUYUL": "65.7",
+            "name": 4210,
+            "nametxt": "양양군",
             "data": [
                 {
                     "value": 6749,
                     "name": "이광재",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 41.67
                 },
                 {
                     "value": 9445,
                     "name": "김진태",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 58.32
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "9,445",
+            "WINDUGYUL": "58.32",
+            "WINHUBO": "김진태",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "6,749",
+            "SECDUGYUL": "41.67",
+            "SECHUBO": "이광재",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "16.65",
+            "DUGSUCHA": "2,696",
             "HUBO01": "이광재",
             "JD01": "더불어민주당",
             "DUGSU01": "6,749",
@@ -407,22 +561,36 @@
             "MUTUSU": "707",
             "GIGWON": "9,399",
             "HUBOSU": "2",
+            "TUYUL": "66.4",
+            "name": 4211,
+            "nametxt": "인제군",
             "data": [
                 {
                     "value": 8612,
                     "name": "이광재",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 48.29
                 },
                 {
                     "value": 9221,
                     "name": "김진태",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 51.7
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "9,221",
+            "WINDUGYUL": "51.70",
+            "WINHUBO": "김진태",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "8,612",
+            "SECDUGYUL": "48.29",
+            "SECHUBO": "이광재",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "3.41",
+            "DUGSUCHA": "609",
             "HUBO01": "이광재",
             "JD01": "더불어민주당",
             "DUGSU01": "8,612",
@@ -443,22 +611,36 @@
             "MUTUSU": "738",
             "GIGWON": "23,803",
             "HUBOSU": "2",
+            "TUYUL": "60.8",
+            "name": 4212,
+            "nametxt": "홍천군",
             "data": [
                 {
                     "value": 15698,
                     "name": "이광재",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 43.36
                 },
                 {
                     "value": 20504,
                     "name": "김진태",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 56.63
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "20,504",
+            "WINDUGYUL": "56.63",
+            "WINHUBO": "김진태",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "15,698",
+            "SECDUGYUL": "43.36",
+            "SECHUBO": "이광재",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "13.27",
+            "DUGSUCHA": "4,806",
             "HUBO01": "이광재",
             "JD01": "더불어민주당",
             "DUGSU01": "15,698",
@@ -479,22 +661,36 @@
             "MUTUSU": "588",
             "GIGWON": "14,027",
             "HUBOSU": "2",
+            "TUYUL": "66.4",
+            "name": 4213,
+            "nametxt": "횡성군",
             "data": [
                 {
                     "value": 11750,
                     "name": "이광재",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 43.25
                 },
                 {
                     "value": 15412,
                     "name": "김진태",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 56.74
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "15,412",
+            "WINDUGYUL": "56.74",
+            "WINHUBO": "김진태",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "11,750",
+            "SECDUGYUL": "43.25",
+            "SECHUBO": "이광재",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "13.49",
+            "DUGSUCHA": "3,662",
             "HUBO01": "이광재",
             "JD01": "더불어민주당",
             "DUGSU01": "11,750",
@@ -515,22 +711,36 @@
             "MUTUSU": "495",
             "GIGWON": "11,565",
             "HUBOSU": "2",
+            "TUYUL": "66.4",
+            "name": 4214,
+            "nametxt": "영월군",
             "data": [
                 {
                     "value": 10182,
                     "name": "이광재",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 45.63
                 },
                 {
                     "value": 12129,
                     "name": "김진태",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 54.36
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "12,129",
+            "WINDUGYUL": "54.36",
+            "WINHUBO": "김진태",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "10,182",
+            "SECDUGYUL": "45.63",
+            "SECHUBO": "이광재",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "8.73",
+            "DUGSUCHA": "1,947",
             "HUBO01": "이광재",
             "JD01": "더불어민주당",
             "DUGSU01": "10,182",
@@ -551,22 +761,36 @@
             "MUTUSU": "395",
             "GIGWON": "12,009",
             "HUBOSU": "2",
+            "TUYUL": "67.9",
+            "name": 4215,
+            "nametxt": "평창군",
             "data": [
                 {
                     "value": 12618,
                     "name": "이광재",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 50.53
                 },
                 {
                     "value": 12350,
                     "name": "김진태",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 49.46
                 }
             ],
+            "WINNUM": 1,
+            "WINDUGSU": "12,618",
+            "WINDUGYUL": "50.53",
+            "WINHUBO": "이광재",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "12,350",
+            "SECDUGYUL": "49.46",
+            "SECHUBO": "김진태",
+            "SECJD": "국민의힘",
+            "value": 1,
+            "DUGYULCHA": "1.07",
+            "DUGSUCHA": "268",
             "HUBO01": "이광재",
             "JD01": "더불어민주당",
             "DUGSU01": "12,618",
@@ -587,22 +811,36 @@
             "MUTUSU": "430",
             "GIGWON": "7,218",
             "HUBOSU": "2",
+            "TUYUL": "65.7",
+            "name": 4216,
+            "nametxt": "화천군",
             "data": [
                 {
                     "value": 5926,
                     "name": "이광재",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 44.2
                 },
                 {
                     "value": 7481,
                     "name": "김진태",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 55.79
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "7,481",
+            "WINDUGYUL": "55.79",
+            "WINHUBO": "김진태",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "5,926",
+            "SECDUGYUL": "44.20",
+            "SECHUBO": "이광재",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "11.59",
+            "DUGSUCHA": "1,555",
             "HUBO01": "이광재",
             "JD01": "더불어민주당",
             "DUGSU01": "5,926",
@@ -623,22 +861,36 @@
             "MUTUSU": "356",
             "GIGWON": "5,748",
             "HUBOSU": "2",
+            "TUYUL": "69.0",
+            "name": 4217,
+            "nametxt": "양구군",
             "data": [
                 {
                     "value": 5658,
                     "name": "이광재",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 45.45
                 },
                 {
                     "value": 6790,
                     "name": "김진태",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 54.54
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "6,790",
+            "WINDUGYUL": "54.54",
+            "WINHUBO": "김진태",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "5,658",
+            "SECDUGYUL": "45.45",
+            "SECHUBO": "이광재",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "9.09",
+            "DUGSUCHA": "1,132",
             "HUBO01": "이광재",
             "JD01": "더불어민주당",
             "DUGSU01": "5,658",
@@ -659,22 +911,36 @@
             "MUTUSU": "850",
             "GIGWON": "14,645",
             "HUBOSU": "2",
+            "TUYUL": "60.5",
+            "name": 4218,
+            "nametxt": "철원군",
             "data": [
                 {
                     "value": 9311,
                     "name": "이광재",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 43.09
                 },
                 {
                     "value": 12293,
                     "name": "김진태",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 56.9
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "12,293",
+            "WINDUGYUL": "56.90",
+            "WINHUBO": "김진태",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "9,311",
+            "SECDUGYUL": "43.09",
+            "SECHUBO": "이광재",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "13.81",
+            "DUGSUCHA": "2,982",
             "HUBO01": "이광재",
             "JD01": "더불어민주당",
             "DUGSU01": "9,311",

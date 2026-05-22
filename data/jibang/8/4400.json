@@ -11,22 +11,36 @@
             "MUTUSU": "28,403",
             "GIGWON": "904,727",
             "HUBOSU": "2",
+            "TUYUL": "49.8",
+            "name": 0,
+            "nametxt": "합계",
             "data": [
                 {
                     "value": 401308,
                     "name": "양승조",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 46.12
                 },
                 {
                     "value": 468658,
                     "name": "김태흠",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 53.87
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "468,658",
+            "WINDUGYUL": "53.87",
+            "WINHUBO": "김태흠",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "401,308",
+            "SECDUGYUL": "46.12",
+            "SECHUBO": "양승조",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "7.75",
+            "DUGSUCHA": "67,350",
             "HUBO01": "양승조",
             "JD01": "더불어민주당",
             "DUGSU01": "401,308",
@@ -47,22 +61,36 @@
             "MUTUSU": "2,286",
             "GIGWON": "167,925",
             "HUBOSU": "2",
+            "TUYUL": "42.2",
+            "name": 4417,
+            "nametxt": "천안시서북구",
             "data": [
                 {
                     "value": 62212,
                     "name": "양승조",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 51.79
                 },
                 {
                     "value": 57890,
                     "name": "김태흠",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 48.2
                 }
             ],
+            "WINNUM": 1,
+            "WINDUGSU": "62,212",
+            "WINDUGYUL": "51.79",
+            "WINHUBO": "양승조",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "57,890",
+            "SECDUGYUL": "48.20",
+            "SECHUBO": "김태흠",
+            "SECJD": "국민의힘",
+            "value": 1,
+            "DUGYULCHA": "3.59",
+            "DUGSUCHA": "4,322",
             "HUBO01": "양승조",
             "JD01": "더불어민주당",
             "DUGSU01": "62,212",
@@ -83,22 +111,36 @@
             "MUTUSU": "2,113",
             "GIGWON": "148,601",
             "HUBOSU": "2",
+            "TUYUL": "42.3",
+            "name": 4418,
+            "nametxt": "천안시동남구",
             "data": [
                 {
                     "value": 51262,
                     "name": "양승조",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 47.91
                 },
                 {
                     "value": 55733,
                     "name": "김태흠",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 52.08
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "55,733",
+            "WINDUGYUL": "52.08",
+            "WINHUBO": "김태흠",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "51,262",
+            "SECDUGYUL": "47.91",
+            "SECHUBO": "양승조",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "4.17",
+            "DUGSUCHA": "4,471",
             "HUBO01": "양승조",
             "JD01": "더불어민주당",
             "DUGSU01": "51,262",
@@ -119,22 +161,36 @@
             "MUTUSU": "1,596",
             "GIGWON": "40,386",
             "HUBOSU": "2",
+            "TUYUL": "56.0",
+            "name": 4402,
+            "nametxt": "공주시",
             "data": [
                 {
                     "value": 21615,
                     "name": "양승조",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 43.34
                 },
                 {
                     "value": 28250,
                     "name": "김태흠",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 56.65
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "28,250",
+            "WINDUGYUL": "56.65",
+            "WINHUBO": "김태흠",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "21,615",
+            "SECDUGYUL": "43.34",
+            "SECHUBO": "양승조",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "13.31",
+            "DUGSUCHA": "6,635",
             "HUBO01": "양승조",
             "JD01": "더불어민주당",
             "DUGSU01": "21,615",
@@ -155,22 +211,36 @@
             "MUTUSU": "1,834",
             "GIGWON": "33,725",
             "HUBOSU": "2",
+            "TUYUL": "60.9",
+            "name": 4403,
+            "nametxt": "보령시",
             "data": [
                 {
                     "value": 18976,
                     "name": "양승조",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 37.42
                 },
                 {
                     "value": 31729,
                     "name": "김태흠",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 62.57
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "31,729",
+            "WINDUGYUL": "62.57",
+            "WINHUBO": "김태흠",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "18,976",
+            "SECDUGYUL": "37.42",
+            "SECHUBO": "양승조",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "25.15",
+            "DUGSUCHA": "12,753",
             "HUBO01": "양승조",
             "JD01": "더불어민주당",
             "DUGSU01": "18,976",
@@ -191,22 +261,36 @@
             "MUTUSU": "2,770",
             "GIGWON": "149,413",
             "HUBOSU": "2",
+            "TUYUL": "44.4",
+            "name": 4404,
+            "nametxt": "아산시",
             "data": [
                 {
                     "value": 57114,
                     "name": "양승조",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 48.99
                 },
                 {
                     "value": 59468,
                     "name": "김태흠",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 51.0
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "59,468",
+            "WINDUGYUL": "51.00",
+            "WINHUBO": "김태흠",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "57,114",
+            "SECDUGYUL": "48.99",
+            "SECHUBO": "양승조",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "2.01",
+            "DUGSUCHA": "2,354",
             "HUBO01": "양승조",
             "JD01": "더불어민주당",
             "DUGSU01": "57,114",
@@ -227,22 +311,36 @@
             "MUTUSU": "2,531",
             "GIGWON": "76,499",
             "HUBOSU": "2",
+            "TUYUL": "48.6",
+            "name": 4405,
+            "nametxt": "서산시",
             "data": [
                 {
                     "value": 32258,
                     "name": "양승조",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 46.27
                 },
                 {
                     "value": 37456,
                     "name": "김태흠",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 53.72
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "37,456",
+            "WINDUGYUL": "53.72",
+            "WINHUBO": "김태흠",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "32,258",
+            "SECDUGYUL": "46.27",
+            "SECHUBO": "양승조",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "7.45",
+            "DUGSUCHA": "5,198",
             "HUBO01": "양승조",
             "JD01": "더불어민주당",
             "DUGSU01": "32,258",
@@ -263,22 +361,36 @@
             "MUTUSU": "2,008",
             "GIGWON": "20,720",
             "HUBOSU": "2",
+            "TUYUL": "62.6",
+            "name": 4406,
+            "nametxt": "태안군",
             "data": [
                 {
                     "value": 14522,
                     "name": "양승조",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 44.4
                 },
                 {
                     "value": 18185,
                     "name": "김태흠",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 55.59
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "18,185",
+            "WINDUGYUL": "55.59",
+            "WINHUBO": "김태흠",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "14,522",
+            "SECDUGYUL": "44.40",
+            "SECHUBO": "양승조",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "11.19",
+            "DUGSUCHA": "3,663",
             "HUBO01": "양승조",
             "JD01": "더불어민주당",
             "DUGSU01": "14,522",
@@ -299,22 +411,36 @@
             "MUTUSU": "1,313",
             "GIGWON": "16,069",
             "HUBOSU": "2",
+            "TUYUL": "64.1",
+            "name": 4407,
+            "nametxt": "금산군",
             "data": [
                 {
                     "value": 12853,
                     "name": "양승조",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 46.96
                 },
                 {
                     "value": 14512,
                     "name": "김태흠",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 53.03
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "14,512",
+            "WINDUGYUL": "53.03",
+            "WINHUBO": "김태흠",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "12,853",
+            "SECDUGYUL": "46.96",
+            "SECHUBO": "양승조",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "6.07",
+            "DUGSUCHA": "1,659",
             "HUBO01": "양승조",
             "JD01": "더불어민주당",
             "DUGSU01": "12,853",
@@ -335,22 +461,36 @@
             "MUTUSU": "2,070",
             "GIGWON": "46,128",
             "HUBOSU": "2",
+            "TUYUL": "53.8",
+            "name": 4409,
+            "nametxt": "논산시",
             "data": [
                 {
                     "value": 24238,
                     "name": "양승조",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 46.84
                 },
                 {
                     "value": 27506,
                     "name": "김태흠",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 53.15
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "27,506",
+            "WINDUGYUL": "53.15",
+            "WINHUBO": "김태흠",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "24,238",
+            "SECDUGYUL": "46.84",
+            "SECHUBO": "양승조",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "6.31",
+            "DUGSUCHA": "3,268",
             "HUBO01": "양승조",
             "JD01": "더불어민주당",
             "DUGSU01": "24,238",
@@ -371,22 +511,36 @@
             "MUTUSU": "423",
             "GIGWON": "15,568",
             "HUBOSU": "2",
+            "TUYUL": "55.4",
+            "name": 4410,
+            "nametxt": "계룡시",
             "data": [
                 {
                     "value": 8666,
                     "name": "양승조",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 45.89
                 },
                 {
                     "value": 10218,
                     "name": "김태흠",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 54.1
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "10,218",
+            "WINDUGYUL": "54.10",
+            "WINHUBO": "김태흠",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "8,666",
+            "SECDUGYUL": "45.89",
+            "SECHUBO": "양승조",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "8.21",
+            "DUGSUCHA": "1,552",
             "HUBO01": "양승조",
             "JD01": "더불어민주당",
             "DUGSU01": "8,666",
@@ -407,22 +561,36 @@
             "MUTUSU": "1,843",
             "GIGWON": "75,132",
             "HUBOSU": "2",
+            "TUYUL": "46.3",
+            "name": 4416,
+            "nametxt": "당진시",
             "data": [
                 {
                     "value": 29200,
                     "name": "양승조",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 46.32
                 },
                 {
                     "value": 33833,
                     "name": "김태흠",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 53.67
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "33,833",
+            "WINDUGYUL": "53.67",
+            "WINHUBO": "김태흠",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "29,200",
+            "SECDUGYUL": "46.32",
+            "SECHUBO": "양승조",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "7.35",
+            "DUGSUCHA": "4,633",
             "HUBO01": "양승조",
             "JD01": "더불어민주당",
             "DUGSU01": "29,200",
@@ -443,22 +611,36 @@
             "MUTUSU": "2,100",
             "GIGWON": "20,886",
             "HUBOSU": "2",
+            "TUYUL": "63.6",
+            "name": 4411,
+            "nametxt": "부여군",
             "data": [
                 {
                     "value": 15223,
                     "name": "양승조",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 44.33
                 },
                 {
                     "value": 19113,
                     "name": "김태흠",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 55.66
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "19,113",
+            "WINDUGYUL": "55.66",
+            "WINHUBO": "김태흠",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "15,223",
+            "SECDUGYUL": "44.33",
+            "SECHUBO": "양승조",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "11.33",
+            "DUGSUCHA": "3,890",
             "HUBO01": "양승조",
             "JD01": "더불어민주당",
             "DUGSU01": "15,223",
@@ -479,22 +661,36 @@
             "MUTUSU": "1,508",
             "GIGWON": "16,583",
             "HUBOSU": "2",
+            "TUYUL": "63.8",
+            "name": 4412,
+            "nametxt": "서천군",
             "data": [
                 {
                     "value": 12082,
                     "name": "양승조",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 43.5
                 },
                 {
                     "value": 15691,
                     "name": "김태흠",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 56.49
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "15,691",
+            "WINDUGYUL": "56.49",
+            "WINHUBO": "김태흠",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "12,082",
+            "SECDUGYUL": "43.50",
+            "SECHUBO": "양승조",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "12.99",
+            "DUGSUCHA": "3,609",
             "HUBO01": "양승조",
             "JD01": "더불어민주당",
             "DUGSU01": "12,082",
@@ -515,22 +711,36 @@
             "MUTUSU": "1,369",
             "GIGWON": "38,539",
             "HUBOSU": "2",
+            "TUYUL": "54.3",
+            "name": 4413,
+            "nametxt": "홍성군",
             "data": [
                 {
                     "value": 19088,
                     "name": "양승조",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 43.03
                 },
                 {
                     "value": 25264,
                     "name": "김태흠",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 56.96
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "25,264",
+            "WINDUGYUL": "56.96",
+            "WINHUBO": "김태흠",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "19,088",
+            "SECDUGYUL": "43.03",
+            "SECHUBO": "양승조",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "13.93",
+            "DUGSUCHA": "6,176",
             "HUBO01": "양승조",
             "JD01": "더불어민주당",
             "DUGSU01": "19,088",
@@ -551,22 +761,36 @@
             "MUTUSU": "1,199",
             "GIGWON": "8,249",
             "HUBOSU": "2",
+            "TUYUL": "70.5",
+            "name": 4414,
+            "nametxt": "청양군",
             "data": [
                 {
                     "value": 8203,
                     "name": "양승조",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 44.37
                 },
                 {
                     "value": 10281,
                     "name": "김태흠",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 55.62
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "10,281",
+            "WINDUGYUL": "55.62",
+            "WINHUBO": "김태흠",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "8,203",
+            "SECDUGYUL": "44.37",
+            "SECHUBO": "양승조",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "11.25",
+            "DUGSUCHA": "2,078",
             "HUBO01": "양승조",
             "JD01": "더불어민주당",
             "DUGSU01": "8,203",
@@ -587,22 +811,36 @@
             "MUTUSU": "1,440",
             "GIGWON": "30,304",
             "HUBOSU": "2",
+            "TUYUL": "56.1",
+            "name": 4415,
+            "nametxt": "예산군",
             "data": [
                 {
                     "value": 13796,
                     "name": "양승조",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 36.96
                 },
                 {
                     "value": 23529,
                     "name": "김태흠",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 63.03
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "23,529",
+            "WINDUGYUL": "63.03",
+            "WINHUBO": "김태흠",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "13,796",
+            "SECDUGYUL": "36.96",
+            "SECHUBO": "양승조",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "26.07",
+            "DUGSUCHA": "9,733",
             "HUBO01": "양승조",
             "JD01": "더불어민주당",
             "DUGSU01": "13,796",

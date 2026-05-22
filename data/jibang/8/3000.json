@@ -11,22 +11,36 @@
             "MUTUSU": "7,049",
             "GIGWON": "620,918",
             "HUBOSU": "2",
+            "TUYUL": "49.7",
+            "name": 0,
+            "nametxt": "합계",
             "data": [
                 {
                     "value": 295555,
                     "name": "허태정",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 48.8
                 },
                 {
                     "value": 310035,
                     "name": "이장우",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 51.19
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "310,035",
+            "WINDUGYUL": "51.19",
+            "WINHUBO": "이장우",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "295,555",
+            "SECDUGYUL": "48.80",
+            "SECHUBO": "허태정",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "2.39",
+            "DUGSUCHA": "14,480",
             "HUBO01": "허태정",
             "JD01": "더불어민주당",
             "DUGSU01": "295,555",
@@ -47,22 +61,36 @@
             "MUTUSU": "1,302",
             "GIGWON": "97,841",
             "HUBOSU": "2",
+            "TUYUL": "49.0",
+            "name": 3001,
+            "nametxt": "동구",
             "data": [
                 {
                     "value": 42619,
                     "name": "허태정",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 45.95
                 },
                 {
                     "value": 50120,
                     "name": "이장우",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 54.04
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "50,120",
+            "WINDUGYUL": "54.04",
+            "WINHUBO": "이장우",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "42,619",
+            "SECDUGYUL": "45.95",
+            "SECHUBO": "허태정",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "8.09",
+            "DUGSUCHA": "7,501",
             "HUBO01": "허태정",
             "JD01": "더불어민주당",
             "DUGSU01": "42,619",
@@ -83,22 +111,36 @@
             "MUTUSU": "1,243",
             "GIGWON": "99,551",
             "HUBOSU": "2",
+            "TUYUL": "50.2",
+            "name": 3002,
+            "nametxt": "중구",
             "data": [
                 {
                     "value": 45434,
                     "name": "허태정",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 45.84
                 },
                 {
                     "value": 53666,
                     "name": "이장우",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 54.15
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "53,666",
+            "WINDUGYUL": "54.15",
+            "WINHUBO": "이장우",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "45,434",
+            "SECDUGYUL": "45.84",
+            "SECHUBO": "허태정",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "8.31",
+            "DUGSUCHA": "8,232",
             "HUBO01": "허태정",
             "JD01": "더불어민주당",
             "DUGSU01": "45,434",
@@ -119,22 +161,36 @@
             "MUTUSU": "2,175",
             "GIGWON": "206,489",
             "HUBOSU": "2",
+            "TUYUL": "48.3",
+            "name": 3003,
+            "nametxt": "서구",
             "data": [
                 {
                     "value": 93222,
                     "name": "허태정",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 48.96
                 },
                 {
                     "value": 97149,
                     "name": "이장우",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 51.03
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "97,149",
+            "WINDUGYUL": "51.03",
+            "WINHUBO": "이장우",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "93,222",
+            "SECDUGYUL": "48.96",
+            "SECHUBO": "허태정",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "2.07",
+            "DUGSUCHA": "3,927",
             "HUBO01": "허태정",
             "JD01": "더불어민주당",
             "DUGSU01": "93,222",
@@ -155,22 +211,36 @@
             "MUTUSU": "1,325",
             "GIGWON": "140,404",
             "HUBOSU": "2",
+            "TUYUL": "51.6",
+            "name": 3004,
+            "nametxt": "유성구",
             "data": [
                 {
                     "value": 78142,
                     "name": "허태정",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 52.7
                 },
                 {
                     "value": 70109,
                     "name": "이장우",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 47.29
                 }
             ],
+            "WINNUM": 1,
+            "WINDUGSU": "78,142",
+            "WINDUGYUL": "52.70",
+            "WINHUBO": "허태정",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "70,109",
+            "SECDUGYUL": "47.29",
+            "SECHUBO": "이장우",
+            "SECJD": "국민의힘",
+            "value": 1,
+            "DUGYULCHA": "5.41",
+            "DUGSUCHA": "8,033",
             "HUBO01": "허태정",
             "JD01": "더불어민주당",
             "DUGSU01": "78,142",
@@ -191,22 +261,36 @@
             "MUTUSU": "1,004",
             "GIGWON": "76,633",
             "HUBOSU": "2",
+            "TUYUL": "49.8",
+            "name": 3005,
+            "nametxt": "대덕구",
             "data": [
                 {
                     "value": 36138,
                     "name": "허태정",
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
+                    "party": "더불어민주당",
+                    "percentage": 48.1
                 },
                 {
                     "value": 38991,
                     "name": "이장우",
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
+                    "party": "국민의힘",
+                    "percentage": 51.89
                 }
             ],
+            "WINNUM": 2,
+            "WINDUGSU": "38,991",
+            "WINDUGYUL": "51.89",
+            "WINHUBO": "이장우",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "36,138",
+            "SECDUGYUL": "48.10",
+            "SECHUBO": "허태정",
+            "SECJD": "더불어민주당",
+            "value": 2,
+            "DUGYULCHA": "3.79",
+            "DUGSUCHA": "2,853",
             "HUBO01": "허태정",
             "JD01": "더불어민주당",
             "DUGSU01": "36,138",
