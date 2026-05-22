@@ -1,6 +1,7 @@
 import json
 import os
 
+# 전국 17개 시도 매핑 가이드
 CITIES = [
     {"CODE": 1100, "NAME": "서울특별시"},
     {"CODE": 2600, "NAME": "부산광역시"},
@@ -21,8 +22,7 @@ CITIES = [
     {"CODE": 4900, "NAME": "제주특별자치도"},
 ]
 
-# 💡 자바스크립트 지도의 visualMap(pieces) 순서와 100% 일치하도록 정당 인덱스 정의
-# 1: 민주당, 2: 국민의힘, 4: 새로운미래, 5: 개혁신당, 7: 진보당, 6: 무소속/기타 등
+# 🚨 [수정 반영] 자바스크립트 partyColorLocal의 value 규칙과 완벽 일치화
 PARTY_MAP_INDEX = {
     "더불어민주당": 1, "더불어민주연합": 1, "더불어시민당": 1,
     "국민의힘": 2, "국민의미래": 2, "미래통합당": 2,
@@ -129,13 +129,13 @@ def add_sgg_data_processor(raw_json, city_code, city_name):
         sggdata["SECHUBO"] = sec_hubo
         sggdata["SECJD"] = sec_jd
 
-        # 🚨 [수정 적용] 구역 색칠을 위해 value 항목에 '승리한 정당의 매핑 번호' 주입
-        # 만약 1, 2등 표수가 완전히 똑같다면 경합(9번 색상) 처리 혹은 0 처리
+        # 🚨 [동점/경합 및 정당 매핑 결합] 
+        # 1, 2위 득표수가 완전 동점인 특이 케이스는 자바스크립트 세트와 맞춰 보수적으로 9(무소속/기타 군) 배정
         if win_dugsu == sec_dugsu:
-            sggdata["value"] = 9  # 경합지역 색상 번호 권장
+            sggdata["value"] = 9  
             sggdata["DUGYULCHA"] = "0.00"
         else:
-            # 매핑 사전에 정당이 없으면 무소속/기타 번호(9번)를 기본값으로 사용
+            # 매핑 사전에 매칭 키가 없는 소수 정당은 9(기타/무소속 색상)를 기본값으로 안전 배정합니다.
             sggdata["value"] = PARTY_MAP_INDEX.get(win_jd, 9)
             sggdata["DUGYULCHA"] = f"{(win_dugyul - sec_dugyul):.2f}"
 
@@ -173,9 +173,9 @@ def main():
                 if refined_json is not None:
                     with open(refined_file_path, "w", encoding="utf-8") as f:
                         json.dump(refined_json, f, ensure_ascii=False, indent=4)
-                    print(f"🟢 [{name_str}] 정당 코드 기준 value 반영 완료")
+                    print(f"🟢 [{name_str}] 최신 정당 밸류({PARTY_MAP_INDEX.get(name_str, '확인')}) 기준 변환본 덤프 완료")
             except Exception as e:
-                print(f"🔴 [{name_str}] 에러: {e}")
+                print(f"🔴 [{name_str}] 처리 에러: {e}")
 
 if __name__ == "__main__":
     main()
