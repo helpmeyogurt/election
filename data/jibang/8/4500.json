@@ -5,13 +5,576 @@
             "SDNAME": "전라북도",
             "WIWID": 0,
             "WIWNAME": "합계",
-            "SUNSU": "0",
-            "TUSU": "0",
-            "TOTAL": "0",
-            "MUTUSU": "0",
-            "GIGWON": "0",
-            "HUBOSU": "0",
-            "data": []
+            "SUNSU": "1,532,133",
+            "TUSU": "745,354",
+            "TOTAL": "720,338",
+            "MUTUSU": "25,016",
+            "GIGWON": "786,779",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 591510,
+                    "name": "김관영",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 128828,
+                    "name": "조배숙",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "김관영",
+            "JD01": "더불어민주당",
+            "DUGSU01": "591,510",
+            "DUGYUL01": "82.11",
+            "HUBO02": "조배숙",
+            "JD02": "국민의힘",
+            "DUGSU02": "128,828",
+            "DUGYUL02": "17.88"
+        },
+        {
+            "SDID": 4500,
+            "SDNAME": "전라북도",
+            "WIWID": 4501,
+            "WIWNAME": "전주시완산구",
+            "SUNSU": "311,508",
+            "TUSU": "125,313",
+            "TOTAL": "122,886",
+            "MUTUSU": "2,427",
+            "GIGWON": "186,195",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 99377,
+                    "name": "김관영",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 23509,
+                    "name": "조배숙",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "김관영",
+            "JD01": "더불어민주당",
+            "DUGSU01": "99,377",
+            "DUGYUL01": "80.86",
+            "HUBO02": "조배숙",
+            "JD02": "국민의힘",
+            "DUGSU02": "23,509",
+            "DUGYUL02": "19.13"
+        },
+        {
+            "SDID": 4500,
+            "SDNAME": "전라북도",
+            "WIWID": 4502,
+            "WIWNAME": "전주시덕진구",
+            "SUNSU": "238,934",
+            "TUSU": "96,938",
+            "TOTAL": "95,118",
+            "MUTUSU": "1,820",
+            "GIGWON": "141,996",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 75741,
+                    "name": "김관영",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 19377,
+                    "name": "조배숙",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "김관영",
+            "JD01": "더불어민주당",
+            "DUGSU01": "75,741",
+            "DUGYUL01": "79.62",
+            "HUBO02": "조배숙",
+            "JD02": "국민의힘",
+            "DUGSU02": "19,377",
+            "DUGYUL02": "20.37"
+        },
+        {
+            "SDID": 4500,
+            "SDNAME": "전라북도",
+            "WIWID": 4503,
+            "WIWNAME": "군산시",
+            "SUNSU": "224,926",
+            "TUSU": "87,125",
+            "TOTAL": "85,112",
+            "MUTUSU": "2,013",
+            "GIGWON": "137,801",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 73109,
+                    "name": "김관영",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 12003,
+                    "name": "조배숙",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "김관영",
+            "JD01": "더불어민주당",
+            "DUGSU01": "73,109",
+            "DUGYUL01": "85.89",
+            "HUBO02": "조배숙",
+            "JD02": "국민의힘",
+            "DUGSU02": "12,003",
+            "DUGYUL02": "14.10"
+        },
+        {
+            "SDID": 4500,
+            "SDNAME": "전라북도",
+            "WIWID": 4505,
+            "WIWNAME": "익산시",
+            "SUNSU": "239,077",
+            "TUSU": "107,245",
+            "TOTAL": "103,816",
+            "MUTUSU": "3,429",
+            "GIGWON": "131,832",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 83134,
+                    "name": "김관영",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 20682,
+                    "name": "조배숙",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "김관영",
+            "JD01": "더불어민주당",
+            "DUGSU01": "83,134",
+            "DUGYUL01": "80.07",
+            "HUBO02": "조배숙",
+            "JD02": "국민의힘",
+            "DUGSU02": "20,682",
+            "DUGYUL02": "19.92"
+        },
+        {
+            "SDID": 4500,
+            "SDNAME": "전라북도",
+            "WIWID": 4507,
+            "WIWNAME": "정읍시",
+            "SUNSU": "93,307",
+            "TUSU": "54,283",
+            "TOTAL": "51,986",
+            "MUTUSU": "2,297",
+            "GIGWON": "39,024",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 44026,
+                    "name": "김관영",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 7960,
+                    "name": "조배숙",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "김관영",
+            "JD01": "더불어민주당",
+            "DUGSU01": "44,026",
+            "DUGYUL01": "84.68",
+            "HUBO02": "조배숙",
+            "JD02": "국민의힘",
+            "DUGSU02": "7,960",
+            "DUGYUL02": "15.31"
+        },
+        {
+            "SDID": 4500,
+            "SDNAME": "전라북도",
+            "WIWID": 4508,
+            "WIWNAME": "남원시",
+            "SUNSU": "69,007",
+            "TUSU": "44,516",
+            "TOTAL": "42,523",
+            "MUTUSU": "1,993",
+            "GIGWON": "24,491",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 35477,
+                    "name": "김관영",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 7046,
+                    "name": "조배숙",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "김관영",
+            "JD01": "더불어민주당",
+            "DUGSU01": "35,477",
+            "DUGYUL01": "83.43",
+            "HUBO02": "조배숙",
+            "JD02": "국민의힘",
+            "DUGSU02": "7,046",
+            "DUGYUL02": "16.56"
+        },
+        {
+            "SDID": 4500,
+            "SDNAME": "전라북도",
+            "WIWID": 4509,
+            "WIWNAME": "김제시",
+            "SUNSU": "72,358",
+            "TUSU": "42,668",
+            "TOTAL": "40,879",
+            "MUTUSU": "1,789",
+            "GIGWON": "29,690",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 33765,
+                    "name": "김관영",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 7114,
+                    "name": "조배숙",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "김관영",
+            "JD01": "더불어민주당",
+            "DUGSU01": "33,765",
+            "DUGYUL01": "82.59",
+            "HUBO02": "조배숙",
+            "JD02": "국민의힘",
+            "DUGSU02": "7,114",
+            "DUGYUL02": "17.40"
+        },
+        {
+            "SDID": 4500,
+            "SDNAME": "전라북도",
+            "WIWID": 4510,
+            "WIWNAME": "완주군",
+            "SUNSU": "78,284",
+            "TUSU": "41,408",
+            "TOTAL": "39,717",
+            "MUTUSU": "1,691",
+            "GIGWON": "36,876",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 32573,
+                    "name": "김관영",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 7144,
+                    "name": "조배숙",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "김관영",
+            "JD01": "더불어민주당",
+            "DUGSU01": "32,573",
+            "DUGYUL01": "82.01",
+            "HUBO02": "조배숙",
+            "JD02": "국민의힘",
+            "DUGSU02": "7,144",
+            "DUGYUL02": "17.98"
+        },
+        {
+            "SDID": 4500,
+            "SDNAME": "전라북도",
+            "WIWID": 4511,
+            "WIWNAME": "진안군",
+            "SUNSU": "22,634",
+            "TUSU": "16,616",
+            "TOTAL": "15,858",
+            "MUTUSU": "758",
+            "GIGWON": "6,018",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 13062,
+                    "name": "김관영",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 2796,
+                    "name": "조배숙",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "김관영",
+            "JD01": "더불어민주당",
+            "DUGSU01": "13,062",
+            "DUGYUL01": "82.36",
+            "HUBO02": "조배숙",
+            "JD02": "국민의힘",
+            "DUGSU02": "2,796",
+            "DUGYUL02": "17.63"
+        },
+        {
+            "SDID": 4500,
+            "SDNAME": "전라북도",
+            "WIWID": 4512,
+            "WIWNAME": "무주군",
+            "SUNSU": "21,279",
+            "TUSU": "16,268",
+            "TOTAL": "15,352",
+            "MUTUSU": "916",
+            "GIGWON": "5,011",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 11971,
+                    "name": "김관영",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 3381,
+                    "name": "조배숙",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "김관영",
+            "JD01": "더불어민주당",
+            "DUGSU01": "11,971",
+            "DUGYUL01": "77.97",
+            "HUBO02": "조배숙",
+            "JD02": "국민의힘",
+            "DUGSU02": "3,381",
+            "DUGYUL02": "22.02"
+        },
+        {
+            "SDID": 4500,
+            "SDNAME": "전라북도",
+            "WIWID": 4513,
+            "WIWNAME": "장수군",
+            "SUNSU": "19,380",
+            "TUSU": "14,590",
+            "TOTAL": "13,823",
+            "MUTUSU": "767",
+            "GIGWON": "4,790",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 11607,
+                    "name": "김관영",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 2216,
+                    "name": "조배숙",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "김관영",
+            "JD01": "더불어민주당",
+            "DUGSU01": "11,607",
+            "DUGYUL01": "83.96",
+            "HUBO02": "조배숙",
+            "JD02": "국민의힘",
+            "DUGSU02": "2,216",
+            "DUGYUL02": "16.03"
+        },
+        {
+            "SDID": 4500,
+            "SDNAME": "전라북도",
+            "WIWID": 4514,
+            "WIWNAME": "임실군",
+            "SUNSU": "24,346",
+            "TUSU": "17,636",
+            "TOTAL": "16,713",
+            "MUTUSU": "923",
+            "GIGWON": "6,710",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 13689,
+                    "name": "김관영",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 3024,
+                    "name": "조배숙",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "김관영",
+            "JD01": "더불어민주당",
+            "DUGSU01": "13,689",
+            "DUGYUL01": "81.90",
+            "HUBO02": "조배숙",
+            "JD02": "국민의힘",
+            "DUGSU02": "3,024",
+            "DUGYUL02": "18.09"
+        },
+        {
+            "SDID": 4500,
+            "SDNAME": "전라북도",
+            "WIWID": 4515,
+            "WIWNAME": "순창군",
+            "SUNSU": "23,898",
+            "TUSU": "18,594",
+            "TOTAL": "17,495",
+            "MUTUSU": "1,099",
+            "GIGWON": "5,304",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 14230,
+                    "name": "김관영",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 3265,
+                    "name": "조배숙",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "김관영",
+            "JD01": "더불어민주당",
+            "DUGSU01": "14,230",
+            "DUGYUL01": "81.33",
+            "HUBO02": "조배숙",
+            "JD02": "국민의힘",
+            "DUGSU02": "3,265",
+            "DUGYUL02": "18.66"
+        },
+        {
+            "SDID": 4500,
+            "SDNAME": "전라북도",
+            "WIWID": 4516,
+            "WIWNAME": "고창군",
+            "SUNSU": "47,581",
+            "TUSU": "34,662",
+            "TOTAL": "32,746",
+            "MUTUSU": "1,916",
+            "GIGWON": "12,919",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 27811,
+                    "name": "김관영",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 4935,
+                    "name": "조배숙",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "김관영",
+            "JD01": "더불어민주당",
+            "DUGSU01": "27,811",
+            "DUGYUL01": "84.92",
+            "HUBO02": "조배숙",
+            "JD02": "국민의힘",
+            "DUGSU02": "4,935",
+            "DUGYUL02": "15.07"
+        },
+        {
+            "SDID": 4500,
+            "SDNAME": "전라북도",
+            "WIWID": 4517,
+            "WIWNAME": "부안군",
+            "SUNSU": "45,614",
+            "TUSU": "27,492",
+            "TOTAL": "26,314",
+            "MUTUSU": "1,178",
+            "GIGWON": "18,122",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 21938,
+                    "name": "김관영",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 4376,
+                    "name": "조배숙",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "김관영",
+            "JD01": "더불어민주당",
+            "DUGSU01": "21,938",
+            "DUGYUL01": "83.37",
+            "HUBO02": "조배숙",
+            "JD02": "국민의힘",
+            "DUGSU02": "4,376",
+            "DUGYUL02": "16.62"
         }
     ]
 }

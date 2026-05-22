@@ -5,13 +5,1334 @@
             "SDNAME": "경상남도",
             "WIWID": 0,
             "WIWNAME": "합계",
-            "SUNSU": "0",
-            "TUSU": "0",
-            "TOTAL": "0",
-            "MUTUSU": "0",
-            "GIGWON": "0",
-            "HUBOSU": "0",
-            "data": []
+            "SUNSU": "2,804,287",
+            "TUSU": "1,497,400",
+            "TOTAL": "1,466,328",
+            "MUTUSU": "31,072",
+            "GIGWON": "1,306,887",
+            "HUBOSU": "4",
+            "data": [
+                {
+                    "value": 431569,
+                    "name": "양문석",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 963473,
+                    "name": "박완수",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 58933,
+                    "name": "여영국",
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 12353,
+                    "name": "최진석",
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                }
+            ],
+            "HUBO01": "양문석",
+            "JD01": "더불어민주당",
+            "DUGSU01": "431,569",
+            "DUGYUL01": "29.43",
+            "HUBO02": "박완수",
+            "JD02": "국민의힘",
+            "DUGSU02": "963,473",
+            "DUGYUL02": "65.70",
+            "HUBO03": "여영국",
+            "JD03": "정의당",
+            "DUGSU03": "58,933",
+            "DUGYUL03": "4.01",
+            "HUBO04": "최진석",
+            "JD04": "통일한국당",
+            "DUGSU04": "12,353",
+            "DUGYUL04": "0.84"
+        },
+        {
+            "SDID": 4800,
+            "SDNAME": "경상남도",
+            "WIWID": 4821,
+            "WIWNAME": "창원시의창구",
+            "SUNSU": "185,184",
+            "TUSU": "94,824",
+            "TOTAL": "93,669",
+            "MUTUSU": "1,155",
+            "GIGWON": "90,360",
+            "HUBOSU": "4",
+            "data": [
+                {
+                    "value": 23944,
+                    "name": "양문석",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 64989,
+                    "name": "박완수",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 4366,
+                    "name": "여영국",
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 370,
+                    "name": "최진석",
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                }
+            ],
+            "HUBO01": "양문석",
+            "JD01": "더불어민주당",
+            "DUGSU01": "23,944",
+            "DUGYUL01": "25.56",
+            "HUBO02": "박완수",
+            "JD02": "국민의힘",
+            "DUGSU02": "64,989",
+            "DUGYUL02": "69.38",
+            "HUBO03": "여영국",
+            "JD03": "정의당",
+            "DUGSU03": "4,366",
+            "DUGYUL03": "4.66",
+            "HUBO04": "최진석",
+            "JD04": "통일한국당",
+            "DUGSU04": "370",
+            "DUGYUL04": "0.39"
+        },
+        {
+            "SDID": 4800,
+            "SDNAME": "경상남도",
+            "WIWID": 4822,
+            "WIWNAME": "창원시성산구",
+            "SUNSU": "212,811",
+            "TUSU": "112,825",
+            "TOTAL": "111,814",
+            "MUTUSU": "1,011",
+            "GIGWON": "99,986",
+            "HUBOSU": "4",
+            "data": [
+                {
+                    "value": 29902,
+                    "name": "양문석",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 67977,
+                    "name": "박완수",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 13523,
+                    "name": "여영국",
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 412,
+                    "name": "최진석",
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                }
+            ],
+            "HUBO01": "양문석",
+            "JD01": "더불어민주당",
+            "DUGSU01": "29,902",
+            "DUGYUL01": "26.74",
+            "HUBO02": "박완수",
+            "JD02": "국민의힘",
+            "DUGSU02": "67,977",
+            "DUGYUL02": "60.79",
+            "HUBO03": "여영국",
+            "JD03": "정의당",
+            "DUGSU03": "13,523",
+            "DUGYUL03": "12.09",
+            "HUBO04": "최진석",
+            "JD04": "통일한국당",
+            "DUGSU04": "412",
+            "DUGYUL04": "0.36"
+        },
+        {
+            "SDID": 4800,
+            "SDNAME": "경상남도",
+            "WIWID": 4823,
+            "WIWNAME": "창원시마산합포구",
+            "SUNSU": "156,850",
+            "TUSU": "83,924",
+            "TOTAL": "82,660",
+            "MUTUSU": "1,264",
+            "GIGWON": "72,926",
+            "HUBOSU": "4",
+            "data": [
+                {
+                    "value": 19970,
+                    "name": "양문석",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 59943,
+                    "name": "박완수",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 2417,
+                    "name": "여영국",
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 330,
+                    "name": "최진석",
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                }
+            ],
+            "HUBO01": "양문석",
+            "JD01": "더불어민주당",
+            "DUGSU01": "19,970",
+            "DUGYUL01": "24.15",
+            "HUBO02": "박완수",
+            "JD02": "국민의힘",
+            "DUGSU02": "59,943",
+            "DUGYUL02": "72.51",
+            "HUBO03": "여영국",
+            "JD03": "정의당",
+            "DUGSU03": "2,417",
+            "DUGYUL03": "2.92",
+            "HUBO04": "최진석",
+            "JD04": "통일한국당",
+            "DUGSU04": "330",
+            "DUGYUL04": "0.39"
+        },
+        {
+            "SDID": 4800,
+            "SDNAME": "경상남도",
+            "WIWID": 4824,
+            "WIWNAME": "창원시마산회원구",
+            "SUNSU": "159,983",
+            "TUSU": "85,597",
+            "TOTAL": "84,364",
+            "MUTUSU": "1,233",
+            "GIGWON": "74,386",
+            "HUBOSU": "4",
+            "data": [
+                {
+                    "value": 22063,
+                    "name": "양문석",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 59376,
+                    "name": "박완수",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 2601,
+                    "name": "여영국",
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 324,
+                    "name": "최진석",
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                }
+            ],
+            "HUBO01": "양문석",
+            "JD01": "더불어민주당",
+            "DUGSU01": "22,063",
+            "DUGYUL01": "26.15",
+            "HUBO02": "박완수",
+            "JD02": "국민의힘",
+            "DUGSU02": "59,376",
+            "DUGYUL02": "70.38",
+            "HUBO03": "여영국",
+            "JD03": "정의당",
+            "DUGSU03": "2,601",
+            "DUGYUL03": "3.08",
+            "HUBO04": "최진석",
+            "JD04": "통일한국당",
+            "DUGSU04": "324",
+            "DUGYUL04": "0.38"
+        },
+        {
+            "SDID": 4800,
+            "SDNAME": "경상남도",
+            "WIWID": 4825,
+            "WIWNAME": "창원시진해구",
+            "SUNSU": "159,730",
+            "TUSU": "75,210",
+            "TOTAL": "74,060",
+            "MUTUSU": "1,150",
+            "GIGWON": "84,520",
+            "HUBOSU": "4",
+            "data": [
+                {
+                    "value": 22186,
+                    "name": "양문석",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 48889,
+                    "name": "박완수",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 2687,
+                    "name": "여영국",
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 298,
+                    "name": "최진석",
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                }
+            ],
+            "HUBO01": "양문석",
+            "JD01": "더불어민주당",
+            "DUGSU01": "22,186",
+            "DUGYUL01": "29.95",
+            "HUBO02": "박완수",
+            "JD02": "국민의힘",
+            "DUGSU02": "48,889",
+            "DUGYUL02": "66.01",
+            "HUBO03": "여영국",
+            "JD03": "정의당",
+            "DUGSU03": "2,687",
+            "DUGYUL03": "3.62",
+            "HUBO04": "최진석",
+            "JD04": "통일한국당",
+            "DUGSU04": "298",
+            "DUGYUL04": "0.40"
+        },
+        {
+            "SDID": 4800,
+            "SDNAME": "경상남도",
+            "WIWID": 4803,
+            "WIWNAME": "진주시",
+            "SUNSU": "292,168",
+            "TUSU": "155,185",
+            "TOTAL": "152,554",
+            "MUTUSU": "2,631",
+            "GIGWON": "136,983",
+            "HUBOSU": "4",
+            "data": [
+                {
+                    "value": 42182,
+                    "name": "양문석",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 104561,
+                    "name": "박완수",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 4812,
+                    "name": "여영국",
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 999,
+                    "name": "최진석",
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                }
+            ],
+            "HUBO01": "양문석",
+            "JD01": "더불어민주당",
+            "DUGSU01": "42,182",
+            "DUGYUL01": "27.65",
+            "HUBO02": "박완수",
+            "JD02": "국민의힘",
+            "DUGSU02": "104,561",
+            "DUGYUL02": "68.54",
+            "HUBO03": "여영국",
+            "JD03": "정의당",
+            "DUGSU03": "4,812",
+            "DUGYUL03": "3.15",
+            "HUBO04": "최진석",
+            "JD04": "통일한국당",
+            "DUGSU04": "999",
+            "DUGYUL04": "0.65"
+        },
+        {
+            "SDID": 4800,
+            "SDNAME": "경상남도",
+            "WIWID": 4805,
+            "WIWNAME": "통영시",
+            "SUNSU": "106,064",
+            "TUSU": "61,244",
+            "TOTAL": "60,021",
+            "MUTUSU": "1,223",
+            "GIGWON": "44,820",
+            "HUBOSU": "4",
+            "data": [
+                {
+                    "value": 18160,
+                    "name": "양문석",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 40307,
+                    "name": "박완수",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 1081,
+                    "name": "여영국",
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 473,
+                    "name": "최진석",
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                }
+            ],
+            "HUBO01": "양문석",
+            "JD01": "더불어민주당",
+            "DUGSU01": "18,160",
+            "DUGYUL01": "30.25",
+            "HUBO02": "박완수",
+            "JD02": "국민의힘",
+            "DUGSU02": "40,307",
+            "DUGYUL02": "67.15",
+            "HUBO03": "여영국",
+            "JD03": "정의당",
+            "DUGSU03": "1,081",
+            "DUGYUL03": "1.80",
+            "HUBO04": "최진석",
+            "JD04": "통일한국당",
+            "DUGSU04": "473",
+            "DUGYUL04": "0.78"
+        },
+        {
+            "SDID": 4800,
+            "SDNAME": "경상남도",
+            "WIWID": 4806,
+            "WIWNAME": "고성군",
+            "SUNSU": "44,745",
+            "TUSU": "30,306",
+            "TOTAL": "29,318",
+            "MUTUSU": "988",
+            "GIGWON": "14,439",
+            "HUBOSU": "4",
+            "data": [
+                {
+                    "value": 7918,
+                    "name": "양문석",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 20130,
+                    "name": "박완수",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 889,
+                    "name": "여영국",
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 381,
+                    "name": "최진석",
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                }
+            ],
+            "HUBO01": "양문석",
+            "JD01": "더불어민주당",
+            "DUGSU01": "7,918",
+            "DUGYUL01": "27.00",
+            "HUBO02": "박완수",
+            "JD02": "국민의힘",
+            "DUGSU02": "20,130",
+            "DUGYUL02": "68.66",
+            "HUBO03": "여영국",
+            "JD03": "정의당",
+            "DUGSU03": "889",
+            "DUGYUL03": "3.03",
+            "HUBO04": "최진석",
+            "JD04": "통일한국당",
+            "DUGSU04": "381",
+            "DUGYUL04": "1.29"
+        },
+        {
+            "SDID": 4800,
+            "SDNAME": "경상남도",
+            "WIWID": 4807,
+            "WIWNAME": "사천시",
+            "SUNSU": "93,946",
+            "TUSU": "55,534",
+            "TOTAL": "54,021",
+            "MUTUSU": "1,513",
+            "GIGWON": "38,412",
+            "HUBOSU": "4",
+            "data": [
+                {
+                    "value": 12887,
+                    "name": "양문석",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 38414,
+                    "name": "박완수",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 1917,
+                    "name": "여영국",
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 803,
+                    "name": "최진석",
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                }
+            ],
+            "HUBO01": "양문석",
+            "JD01": "더불어민주당",
+            "DUGSU01": "12,887",
+            "DUGYUL01": "23.85",
+            "HUBO02": "박완수",
+            "JD02": "국민의힘",
+            "DUGSU02": "38,414",
+            "DUGYUL02": "71.10",
+            "HUBO03": "여영국",
+            "JD03": "정의당",
+            "DUGSU03": "1,917",
+            "DUGYUL03": "3.54",
+            "HUBO04": "최진석",
+            "JD04": "통일한국당",
+            "DUGSU04": "803",
+            "DUGYUL04": "1.48"
+        },
+        {
+            "SDID": 4800,
+            "SDNAME": "경상남도",
+            "WIWID": 4808,
+            "WIWNAME": "김해시",
+            "SUNSU": "444,484",
+            "TUSU": "203,399",
+            "TOTAL": "200,791",
+            "MUTUSU": "2,608",
+            "GIGWON": "241,085",
+            "HUBOSU": "4",
+            "data": [
+                {
+                    "value": 78054,
+                    "name": "양문석",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 115747,
+                    "name": "박완수",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 6166,
+                    "name": "여영국",
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 824,
+                    "name": "최진석",
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                }
+            ],
+            "HUBO01": "양문석",
+            "JD01": "더불어민주당",
+            "DUGSU01": "78,054",
+            "DUGYUL01": "38.87",
+            "HUBO02": "박완수",
+            "JD02": "국민의힘",
+            "DUGSU02": "115,747",
+            "DUGYUL02": "57.64",
+            "HUBO03": "여영국",
+            "JD03": "정의당",
+            "DUGSU03": "6,166",
+            "DUGYUL03": "3.07",
+            "HUBO04": "최진석",
+            "JD04": "통일한국당",
+            "DUGSU04": "824",
+            "DUGYUL04": "0.41"
+        },
+        {
+            "SDID": 4800,
+            "SDNAME": "경상남도",
+            "WIWID": 4809,
+            "WIWNAME": "밀양시",
+            "SUNSU": "92,419",
+            "TUSU": "50,564",
+            "TOTAL": "49,232",
+            "MUTUSU": "1,332",
+            "GIGWON": "41,855",
+            "HUBOSU": "4",
+            "data": [
+                {
+                    "value": 11458,
+                    "name": "양문석",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 35657,
+                    "name": "박완수",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 1622,
+                    "name": "여영국",
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 495,
+                    "name": "최진석",
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                }
+            ],
+            "HUBO01": "양문석",
+            "JD01": "더불어민주당",
+            "DUGSU01": "11,458",
+            "DUGYUL01": "23.27",
+            "HUBO02": "박완수",
+            "JD02": "국민의힘",
+            "DUGSU02": "35,657",
+            "DUGYUL02": "72.42",
+            "HUBO03": "여영국",
+            "JD03": "정의당",
+            "DUGSU03": "1,622",
+            "DUGYUL03": "3.29",
+            "HUBO04": "최진석",
+            "JD04": "통일한국당",
+            "DUGSU04": "495",
+            "DUGYUL04": "1.00"
+        },
+        {
+            "SDID": 4800,
+            "SDNAME": "경상남도",
+            "WIWID": 4810,
+            "WIWNAME": "거제시",
+            "SUNSU": "193,369",
+            "TUSU": "99,292",
+            "TOTAL": "97,409",
+            "MUTUSU": "1,883",
+            "GIGWON": "94,077",
+            "HUBOSU": "4",
+            "data": [
+                {
+                    "value": 36740,
+                    "name": "양문석",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 56119,
+                    "name": "박완수",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 4011,
+                    "name": "여영국",
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 539,
+                    "name": "최진석",
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                }
+            ],
+            "HUBO01": "양문석",
+            "JD01": "더불어민주당",
+            "DUGSU01": "36,740",
+            "DUGYUL01": "37.71",
+            "HUBO02": "박완수",
+            "JD02": "국민의힘",
+            "DUGSU02": "56,119",
+            "DUGYUL02": "57.61",
+            "HUBO03": "여영국",
+            "JD03": "정의당",
+            "DUGSU03": "4,011",
+            "DUGYUL03": "4.11",
+            "HUBO04": "최진석",
+            "JD04": "통일한국당",
+            "DUGSU04": "539",
+            "DUGYUL04": "0.55"
+        },
+        {
+            "SDID": 4800,
+            "SDNAME": "경상남도",
+            "WIWID": 4811,
+            "WIWNAME": "의령군",
+            "SUNSU": "24,291",
+            "TUSU": "18,229",
+            "TOTAL": "17,224",
+            "MUTUSU": "1,005",
+            "GIGWON": "6,062",
+            "HUBOSU": "4",
+            "data": [
+                {
+                    "value": 3504,
+                    "name": "양문석",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 12348,
+                    "name": "박완수",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 773,
+                    "name": "여영국",
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 599,
+                    "name": "최진석",
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                }
+            ],
+            "HUBO01": "양문석",
+            "JD01": "더불어민주당",
+            "DUGSU01": "3,504",
+            "DUGYUL01": "20.34",
+            "HUBO02": "박완수",
+            "JD02": "국민의힘",
+            "DUGSU02": "12,348",
+            "DUGYUL02": "71.69",
+            "HUBO03": "여영국",
+            "JD03": "정의당",
+            "DUGSU03": "773",
+            "DUGYUL03": "4.48",
+            "HUBO04": "최진석",
+            "JD04": "통일한국당",
+            "DUGSU04": "599",
+            "DUGYUL04": "3.47"
+        },
+        {
+            "SDID": 4800,
+            "SDNAME": "경상남도",
+            "WIWID": 4812,
+            "WIWNAME": "함안군",
+            "SUNSU": "54,125",
+            "TUSU": "32,076",
+            "TOTAL": "31,100",
+            "MUTUSU": "976",
+            "GIGWON": "22,049",
+            "HUBOSU": "4",
+            "data": [
+                {
+                    "value": 7689,
+                    "name": "양문석",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 21759,
+                    "name": "박완수",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 1194,
+                    "name": "여영국",
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 458,
+                    "name": "최진석",
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                }
+            ],
+            "HUBO01": "양문석",
+            "JD01": "더불어민주당",
+            "DUGSU01": "7,689",
+            "DUGYUL01": "24.72",
+            "HUBO02": "박완수",
+            "JD02": "국민의힘",
+            "DUGSU02": "21,759",
+            "DUGYUL02": "69.96",
+            "HUBO03": "여영국",
+            "JD03": "정의당",
+            "DUGSU03": "1,194",
+            "DUGYUL03": "3.83",
+            "HUBO04": "최진석",
+            "JD04": "통일한국당",
+            "DUGSU04": "458",
+            "DUGYUL04": "1.47"
+        },
+        {
+            "SDID": 4800,
+            "SDNAME": "경상남도",
+            "WIWID": 4813,
+            "WIWNAME": "창녕군",
+            "SUNSU": "53,616",
+            "TUSU": "34,391",
+            "TOTAL": "33,157",
+            "MUTUSU": "1,234",
+            "GIGWON": "19,225",
+            "HUBOSU": "4",
+            "data": [
+                {
+                    "value": 6416,
+                    "name": "양문석",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 24896,
+                    "name": "박완수",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 1120,
+                    "name": "여영국",
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 725,
+                    "name": "최진석",
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                }
+            ],
+            "HUBO01": "양문석",
+            "JD01": "더불어민주당",
+            "DUGSU01": "6,416",
+            "DUGYUL01": "19.35",
+            "HUBO02": "박완수",
+            "JD02": "국민의힘",
+            "DUGSU02": "24,896",
+            "DUGYUL02": "75.08",
+            "HUBO03": "여영국",
+            "JD03": "정의당",
+            "DUGSU03": "1,120",
+            "DUGYUL03": "3.37",
+            "HUBO04": "최진석",
+            "JD04": "통일한국당",
+            "DUGSU04": "725",
+            "DUGYUL04": "2.18"
+        },
+        {
+            "SDID": 4800,
+            "SDNAME": "경상남도",
+            "WIWID": 4814,
+            "WIWNAME": "양산시",
+            "SUNSU": "294,411",
+            "TUSU": "138,401",
+            "TOTAL": "136,302",
+            "MUTUSU": "2,099",
+            "GIGWON": "156,010",
+            "HUBOSU": "4",
+            "data": [
+                {
+                    "value": 48969,
+                    "name": "양문석",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 83209,
+                    "name": "박완수",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 3400,
+                    "name": "여영국",
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 724,
+                    "name": "최진석",
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                }
+            ],
+            "HUBO01": "양문석",
+            "JD01": "더불어민주당",
+            "DUGSU01": "48,969",
+            "DUGYUL01": "35.92",
+            "HUBO02": "박완수",
+            "JD02": "국민의힘",
+            "DUGSU02": "83,209",
+            "DUGYUL02": "61.04",
+            "HUBO03": "여영국",
+            "JD03": "정의당",
+            "DUGSU03": "3,400",
+            "DUGYUL03": "2.49",
+            "HUBO04": "최진석",
+            "JD04": "통일한국당",
+            "DUGSU04": "724",
+            "DUGYUL04": "0.53"
+        },
+        {
+            "SDID": 4800,
+            "SDNAME": "경상남도",
+            "WIWID": 4815,
+            "WIWNAME": "하동군",
+            "SUNSU": "39,428",
+            "TUSU": "29,113",
+            "TOTAL": "27,768",
+            "MUTUSU": "1,345",
+            "GIGWON": "10,315",
+            "HUBOSU": "4",
+            "data": [
+                {
+                    "value": 8093,
+                    "name": "양문석",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 17699,
+                    "name": "박완수",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 1234,
+                    "name": "여영국",
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 742,
+                    "name": "최진석",
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                }
+            ],
+            "HUBO01": "양문석",
+            "JD01": "더불어민주당",
+            "DUGSU01": "8,093",
+            "DUGYUL01": "29.14",
+            "HUBO02": "박완수",
+            "JD02": "국민의힘",
+            "DUGSU02": "17,699",
+            "DUGYUL02": "63.73",
+            "HUBO03": "여영국",
+            "JD03": "정의당",
+            "DUGSU03": "1,234",
+            "DUGYUL03": "4.44",
+            "HUBO04": "최진석",
+            "JD04": "통일한국당",
+            "DUGSU04": "742",
+            "DUGYUL04": "2.67"
+        },
+        {
+            "SDID": 4800,
+            "SDNAME": "경상남도",
+            "WIWID": 4816,
+            "WIWNAME": "남해군",
+            "SUNSU": "38,538",
+            "TUSU": "27,218",
+            "TOTAL": "25,991",
+            "MUTUSU": "1,227",
+            "GIGWON": "11,320",
+            "HUBOSU": "4",
+            "data": [
+                {
+                    "value": 8287,
+                    "name": "양문석",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 16516,
+                    "name": "박완수",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 936,
+                    "name": "여영국",
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 252,
+                    "name": "최진석",
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                }
+            ],
+            "HUBO01": "양문석",
+            "JD01": "더불어민주당",
+            "DUGSU01": "8,287",
+            "DUGYUL01": "31.88",
+            "HUBO02": "박완수",
+            "JD02": "국민의힘",
+            "DUGSU02": "16,516",
+            "DUGYUL02": "63.54",
+            "HUBO03": "여영국",
+            "JD03": "정의당",
+            "DUGSU03": "936",
+            "DUGYUL03": "3.60",
+            "HUBO04": "최진석",
+            "JD04": "통일한국당",
+            "DUGSU04": "252",
+            "DUGYUL04": "0.96"
+        },
+        {
+            "SDID": 4800,
+            "SDNAME": "경상남도",
+            "WIWID": 4817,
+            "WIWNAME": "함양군",
+            "SUNSU": "34,399",
+            "TUSU": "26,020",
+            "TOTAL": "24,633",
+            "MUTUSU": "1,387",
+            "GIGWON": "8,379",
+            "HUBOSU": "4",
+            "data": [
+                {
+                    "value": 6152,
+                    "name": "양문석",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 16584,
+                    "name": "박완수",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 1082,
+                    "name": "여영국",
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 815,
+                    "name": "최진석",
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                }
+            ],
+            "HUBO01": "양문석",
+            "JD01": "더불어민주당",
+            "DUGSU01": "6,152",
+            "DUGYUL01": "24.97",
+            "HUBO02": "박완수",
+            "JD02": "국민의힘",
+            "DUGSU02": "16,584",
+            "DUGYUL02": "67.32",
+            "HUBO03": "여영국",
+            "JD03": "정의당",
+            "DUGSU03": "1,082",
+            "DUGYUL03": "4.39",
+            "HUBO04": "최진석",
+            "JD04": "통일한국당",
+            "DUGSU04": "815",
+            "DUGYUL04": "3.30"
+        },
+        {
+            "SDID": 4800,
+            "SDNAME": "경상남도",
+            "WIWID": 4818,
+            "WIWNAME": "산청군",
+            "SUNSU": "31,488",
+            "TUSU": "21,927",
+            "TOTAL": "21,001",
+            "MUTUSU": "926",
+            "GIGWON": "9,561",
+            "HUBOSU": "4",
+            "data": [
+                {
+                    "value": 4982,
+                    "name": "양문석",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 14644,
+                    "name": "박완수",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 1018,
+                    "name": "여영국",
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 357,
+                    "name": "최진석",
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                }
+            ],
+            "HUBO01": "양문석",
+            "JD01": "더불어민주당",
+            "DUGSU01": "4,982",
+            "DUGYUL01": "23.72",
+            "HUBO02": "박완수",
+            "JD02": "국민의힘",
+            "DUGSU02": "14,644",
+            "DUGYUL02": "69.73",
+            "HUBO03": "여영국",
+            "JD03": "정의당",
+            "DUGSU03": "1,018",
+            "DUGYUL03": "4.84",
+            "HUBO04": "최진석",
+            "JD04": "통일한국당",
+            "DUGSU04": "357",
+            "DUGYUL04": "1.69"
+        },
+        {
+            "SDID": 4800,
+            "SDNAME": "경상남도",
+            "WIWID": 4819,
+            "WIWNAME": "거창군",
+            "SUNSU": "52,803",
+            "TUSU": "34,758",
+            "TOTAL": "33,307",
+            "MUTUSU": "1,451",
+            "GIGWON": "18,045",
+            "HUBOSU": "4",
+            "data": [
+                {
+                    "value": 7534,
+                    "name": "양문석",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 23781,
+                    "name": "박완수",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 1177,
+                    "name": "여영국",
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 815,
+                    "name": "최진석",
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                }
+            ],
+            "HUBO01": "양문석",
+            "JD01": "더불어민주당",
+            "DUGSU01": "7,534",
+            "DUGYUL01": "22.61",
+            "HUBO02": "박완수",
+            "JD02": "국민의힘",
+            "DUGSU02": "23,781",
+            "DUGYUL02": "71.39",
+            "HUBO03": "여영국",
+            "JD03": "정의당",
+            "DUGSU03": "1,177",
+            "DUGYUL03": "3.53",
+            "HUBO04": "최진석",
+            "JD04": "통일한국당",
+            "DUGSU04": "815",
+            "DUGYUL04": "2.44"
+        },
+        {
+            "SDID": 4800,
+            "SDNAME": "경상남도",
+            "WIWID": 4820,
+            "WIWNAME": "합천군",
+            "SUNSU": "39,435",
+            "TUSU": "27,363",
+            "TOTAL": "25,932",
+            "MUTUSU": "1,431",
+            "GIGWON": "12,072",
+            "HUBOSU": "4",
+            "data": [
+                {
+                    "value": 4479,
+                    "name": "양문석",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 19928,
+                    "name": "박완수",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 907,
+                    "name": "여영국",
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 618,
+                    "name": "최진석",
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                }
+            ],
+            "HUBO01": "양문석",
+            "JD01": "더불어민주당",
+            "DUGSU01": "4,479",
+            "DUGYUL01": "17.27",
+            "HUBO02": "박완수",
+            "JD02": "국민의힘",
+            "DUGSU02": "19,928",
+            "DUGYUL02": "76.84",
+            "HUBO03": "여영국",
+            "JD03": "정의당",
+            "DUGSU03": "907",
+            "DUGYUL03": "3.49",
+            "HUBO04": "최진석",
+            "JD04": "통일한국당",
+            "DUGSU04": "618",
+            "DUGYUL04": "2.38"
         }
     ]
 }

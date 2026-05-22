@@ -5,13 +5,799 @@
             "SDNAME": "부산광역시",
             "WIWID": 0,
             "WIWNAME": "합계",
-            "SUNSU": "0",
-            "TUSU": "0",
-            "TOTAL": "0",
-            "MUTUSU": "0",
-            "GIGWON": "0",
-            "HUBOSU": "0",
-            "data": []
+            "SUNSU": "2,916,832",
+            "TUSU": "1,432,194",
+            "TOTAL": "1,414,235",
+            "MUTUSU": "17,959",
+            "GIGWON": "1,484,638",
+            "HUBOSU": "3",
+            "data": [
+                {
+                    "value": 455901,
+                    "name": "변성완",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 938601,
+                    "name": "박형준",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 19733,
+                    "name": "김영진",
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                }
+            ],
+            "HUBO01": "변성완",
+            "JD01": "더불어민주당",
+            "DUGSU01": "455,901",
+            "DUGYUL01": "32.23",
+            "HUBO02": "박형준",
+            "JD02": "국민의힘",
+            "DUGSU02": "938,601",
+            "DUGYUL02": "66.36",
+            "HUBO03": "김영진",
+            "JD03": "정의당",
+            "DUGSU03": "19,733",
+            "DUGYUL03": "1.39"
+        },
+        {
+            "SDID": 2600,
+            "SDNAME": "부산광역시",
+            "WIWID": 2601,
+            "WIWNAME": "중구",
+            "SUNSU": "38,236",
+            "TUSU": "19,127",
+            "TOTAL": "18,824",
+            "MUTUSU": "303",
+            "GIGWON": "19,109",
+            "HUBOSU": "3",
+            "data": [
+                {
+                    "value": 5730,
+                    "name": "변성완",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 12826,
+                    "name": "박형준",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 268,
+                    "name": "김영진",
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                }
+            ],
+            "HUBO01": "변성완",
+            "JD01": "더불어민주당",
+            "DUGSU01": "5,730",
+            "DUGYUL01": "30.43",
+            "HUBO02": "박형준",
+            "JD02": "국민의힘",
+            "DUGSU02": "12,826",
+            "DUGYUL02": "68.13",
+            "HUBO03": "김영진",
+            "JD03": "정의당",
+            "DUGSU03": "268",
+            "DUGYUL03": "1.42"
+        },
+        {
+            "SDID": 2600,
+            "SDNAME": "부산광역시",
+            "WIWID": 2602,
+            "WIWNAME": "서구",
+            "SUNSU": "93,426",
+            "TUSU": "47,053",
+            "TOTAL": "46,234",
+            "MUTUSU": "819",
+            "GIGWON": "46,373",
+            "HUBOSU": "3",
+            "data": [
+                {
+                    "value": 13898,
+                    "name": "변성완",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 31635,
+                    "name": "박형준",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 701,
+                    "name": "김영진",
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                }
+            ],
+            "HUBO01": "변성완",
+            "JD01": "더불어민주당",
+            "DUGSU01": "13,898",
+            "DUGYUL01": "30.06",
+            "HUBO02": "박형준",
+            "JD02": "국민의힘",
+            "DUGSU02": "31,635",
+            "DUGYUL02": "68.42",
+            "HUBO03": "김영진",
+            "JD03": "정의당",
+            "DUGSU03": "701",
+            "DUGYUL03": "1.51"
+        },
+        {
+            "SDID": 2600,
+            "SDNAME": "부산광역시",
+            "WIWID": 2603,
+            "WIWNAME": "동구",
+            "SUNSU": "80,869",
+            "TUSU": "40,832",
+            "TOTAL": "40,072",
+            "MUTUSU": "760",
+            "GIGWON": "40,037",
+            "HUBOSU": "3",
+            "data": [
+                {
+                    "value": 12337,
+                    "name": "변성완",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 27173,
+                    "name": "박형준",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 562,
+                    "name": "김영진",
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                }
+            ],
+            "HUBO01": "변성완",
+            "JD01": "더불어민주당",
+            "DUGSU01": "12,337",
+            "DUGYUL01": "30.78",
+            "HUBO02": "박형준",
+            "JD02": "국민의힘",
+            "DUGSU02": "27,173",
+            "DUGYUL02": "67.81",
+            "HUBO03": "김영진",
+            "JD03": "정의당",
+            "DUGSU03": "562",
+            "DUGYUL03": "1.40"
+        },
+        {
+            "SDID": 2600,
+            "SDNAME": "부산광역시",
+            "WIWID": 2604,
+            "WIWNAME": "영도구",
+            "SUNSU": "99,395",
+            "TUSU": "50,231",
+            "TOTAL": "49,299",
+            "MUTUSU": "932",
+            "GIGWON": "49,164",
+            "HUBOSU": "3",
+            "data": [
+                {
+                    "value": 17359,
+                    "name": "변성완",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 31130,
+                    "name": "박형준",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 810,
+                    "name": "김영진",
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                }
+            ],
+            "HUBO01": "변성완",
+            "JD01": "더불어민주당",
+            "DUGSU01": "17,359",
+            "DUGYUL01": "35.21",
+            "HUBO02": "박형준",
+            "JD02": "국민의힘",
+            "DUGSU02": "31,130",
+            "DUGYUL02": "63.14",
+            "HUBO03": "김영진",
+            "JD03": "정의당",
+            "DUGSU03": "810",
+            "DUGYUL03": "1.64"
+        },
+        {
+            "SDID": 2600,
+            "SDNAME": "부산광역시",
+            "WIWID": 2605,
+            "WIWNAME": "부산진구",
+            "SUNSU": "313,025",
+            "TUSU": "149,091",
+            "TOTAL": "147,354",
+            "MUTUSU": "1,737",
+            "GIGWON": "163,934",
+            "HUBOSU": "3",
+            "data": [
+                {
+                    "value": 48015,
+                    "name": "변성완",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 97155,
+                    "name": "박형준",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 2184,
+                    "name": "김영진",
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                }
+            ],
+            "HUBO01": "변성완",
+            "JD01": "더불어민주당",
+            "DUGSU01": "48,015",
+            "DUGYUL01": "32.58",
+            "HUBO02": "박형준",
+            "JD02": "국민의힘",
+            "DUGSU02": "97,155",
+            "DUGYUL02": "65.93",
+            "HUBO03": "김영진",
+            "JD03": "정의당",
+            "DUGSU03": "2,184",
+            "DUGYUL03": "1.48"
+        },
+        {
+            "SDID": 2600,
+            "SDNAME": "부산광역시",
+            "WIWID": 2606,
+            "WIWNAME": "동래구",
+            "SUNSU": "234,034",
+            "TUSU": "116,790",
+            "TOTAL": "115,633",
+            "MUTUSU": "1,157",
+            "GIGWON": "117,244",
+            "HUBOSU": "3",
+            "data": [
+                {
+                    "value": 36349,
+                    "name": "변성완",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 77751,
+                    "name": "박형준",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 1533,
+                    "name": "김영진",
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                }
+            ],
+            "HUBO01": "변성완",
+            "JD01": "더불어민주당",
+            "DUGSU01": "36,349",
+            "DUGYUL01": "31.43",
+            "HUBO02": "박형준",
+            "JD02": "국민의힘",
+            "DUGSU02": "77,751",
+            "DUGYUL02": "67.23",
+            "HUBO03": "김영진",
+            "JD03": "정의당",
+            "DUGSU03": "1,533",
+            "DUGYUL03": "1.32"
+        },
+        {
+            "SDID": 2600,
+            "SDNAME": "부산광역시",
+            "WIWID": 2607,
+            "WIWNAME": "남구",
+            "SUNSU": "227,019",
+            "TUSU": "118,507",
+            "TOTAL": "117,010",
+            "MUTUSU": "1,497",
+            "GIGWON": "108,512",
+            "HUBOSU": "3",
+            "data": [
+                {
+                    "value": 38576,
+                    "name": "변성완",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 76951,
+                    "name": "박형준",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 1483,
+                    "name": "김영진",
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                }
+            ],
+            "HUBO01": "변성완",
+            "JD01": "더불어민주당",
+            "DUGSU01": "38,576",
+            "DUGYUL01": "32.96",
+            "HUBO02": "박형준",
+            "JD02": "국민의힘",
+            "DUGSU02": "76,951",
+            "DUGYUL02": "65.76",
+            "HUBO03": "김영진",
+            "JD03": "정의당",
+            "DUGSU03": "1,483",
+            "DUGYUL03": "1.26"
+        },
+        {
+            "SDID": 2600,
+            "SDNAME": "부산광역시",
+            "WIWID": 2608,
+            "WIWNAME": "북구",
+            "SUNSU": "245,787",
+            "TUSU": "125,984",
+            "TOTAL": "124,590",
+            "MUTUSU": "1,394",
+            "GIGWON": "119,803",
+            "HUBOSU": "3",
+            "data": [
+                {
+                    "value": 42927,
+                    "name": "변성완",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 80065,
+                    "name": "박형준",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 1598,
+                    "name": "김영진",
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                }
+            ],
+            "HUBO01": "변성완",
+            "JD01": "더불어민주당",
+            "DUGSU01": "42,927",
+            "DUGYUL01": "34.45",
+            "HUBO02": "박형준",
+            "JD02": "국민의힘",
+            "DUGSU02": "80,065",
+            "DUGYUL02": "64.26",
+            "HUBO03": "김영진",
+            "JD03": "정의당",
+            "DUGSU03": "1,598",
+            "DUGYUL03": "1.28"
+        },
+        {
+            "SDID": 2600,
+            "SDNAME": "부산광역시",
+            "WIWID": 2609,
+            "WIWNAME": "해운대구",
+            "SUNSU": "337,958",
+            "TUSU": "164,774",
+            "TOTAL": "163,027",
+            "MUTUSU": "1,747",
+            "GIGWON": "173,184",
+            "HUBOSU": "3",
+            "data": [
+                {
+                    "value": 50629,
+                    "name": "변성완",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 110375,
+                    "name": "박형준",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 2023,
+                    "name": "김영진",
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                }
+            ],
+            "HUBO01": "변성완",
+            "JD01": "더불어민주당",
+            "DUGSU01": "50,629",
+            "DUGYUL01": "31.05",
+            "HUBO02": "박형준",
+            "JD02": "국민의힘",
+            "DUGSU02": "110,375",
+            "DUGYUL02": "67.70",
+            "HUBO03": "김영진",
+            "JD03": "정의당",
+            "DUGSU03": "2,023",
+            "DUGYUL03": "1.24"
+        },
+        {
+            "SDID": 2600,
+            "SDNAME": "부산광역시",
+            "WIWID": 2610,
+            "WIWNAME": "기장군",
+            "SUNSU": "143,871",
+            "TUSU": "64,268",
+            "TOTAL": "63,337",
+            "MUTUSU": "931",
+            "GIGWON": "79,603",
+            "HUBOSU": "3",
+            "data": [
+                {
+                    "value": 20721,
+                    "name": "변성완",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 41534,
+                    "name": "박형준",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 1082,
+                    "name": "김영진",
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                }
+            ],
+            "HUBO01": "변성완",
+            "JD01": "더불어민주당",
+            "DUGSU01": "20,721",
+            "DUGYUL01": "32.71",
+            "HUBO02": "박형준",
+            "JD02": "국민의힘",
+            "DUGSU02": "41,534",
+            "DUGYUL02": "65.57",
+            "HUBO03": "김영진",
+            "JD03": "정의당",
+            "DUGSU03": "1,082",
+            "DUGYUL03": "1.70"
+        },
+        {
+            "SDID": 2600,
+            "SDNAME": "부산광역시",
+            "WIWID": 2611,
+            "WIWNAME": "사하구",
+            "SUNSU": "268,863",
+            "TUSU": "126,526",
+            "TOTAL": "124,777",
+            "MUTUSU": "1,749",
+            "GIGWON": "142,337",
+            "HUBOSU": "3",
+            "data": [
+                {
+                    "value": 41288,
+                    "name": "변성완",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 81782,
+                    "name": "박형준",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 1707,
+                    "name": "김영진",
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                }
+            ],
+            "HUBO01": "변성완",
+            "JD01": "더불어민주당",
+            "DUGSU01": "41,288",
+            "DUGYUL01": "33.08",
+            "HUBO02": "박형준",
+            "JD02": "국민의힘",
+            "DUGSU02": "81,782",
+            "DUGYUL02": "65.54",
+            "HUBO03": "김영진",
+            "JD03": "정의당",
+            "DUGSU03": "1,707",
+            "DUGYUL03": "1.36"
+        },
+        {
+            "SDID": 2600,
+            "SDNAME": "부산광역시",
+            "WIWID": 2612,
+            "WIWNAME": "금정구",
+            "SUNSU": "200,445",
+            "TUSU": "102,871",
+            "TOTAL": "101,500",
+            "MUTUSU": "1,371",
+            "GIGWON": "97,574",
+            "HUBOSU": "3",
+            "data": [
+                {
+                    "value": 30978,
+                    "name": "변성완",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 68919,
+                    "name": "박형준",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 1603,
+                    "name": "김영진",
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                }
+            ],
+            "HUBO01": "변성완",
+            "JD01": "더불어민주당",
+            "DUGSU01": "30,978",
+            "DUGYUL01": "30.52",
+            "HUBO02": "박형준",
+            "JD02": "국민의힘",
+            "DUGSU02": "68,919",
+            "DUGYUL02": "67.90",
+            "HUBO03": "김영진",
+            "JD03": "정의당",
+            "DUGSU03": "1,603",
+            "DUGYUL03": "1.57"
+        },
+        {
+            "SDID": 2600,
+            "SDNAME": "부산광역시",
+            "WIWID": 2613,
+            "WIWNAME": "강서구",
+            "SUNSU": "112,859",
+            "TUSU": "51,492",
+            "TOTAL": "50,927",
+            "MUTUSU": "565",
+            "GIGWON": "61,367",
+            "HUBOSU": "3",
+            "data": [
+                {
+                    "value": 17528,
+                    "name": "변성완",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 32740,
+                    "name": "박형준",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 659,
+                    "name": "김영진",
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                }
+            ],
+            "HUBO01": "변성완",
+            "JD01": "더불어민주당",
+            "DUGSU01": "17,528",
+            "DUGYUL01": "34.41",
+            "HUBO02": "박형준",
+            "JD02": "국민의힘",
+            "DUGSU02": "32,740",
+            "DUGYUL02": "64.28",
+            "HUBO03": "김영진",
+            "JD03": "정의당",
+            "DUGSU03": "659",
+            "DUGYUL03": "1.29"
+        },
+        {
+            "SDID": 2600,
+            "SDNAME": "부산광역시",
+            "WIWID": 2614,
+            "WIWNAME": "연제구",
+            "SUNSU": "180,173",
+            "TUSU": "92,064",
+            "TOTAL": "91,170",
+            "MUTUSU": "894",
+            "GIGWON": "88,109",
+            "HUBOSU": "3",
+            "data": [
+                {
+                    "value": 29400,
+                    "name": "변성완",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 60491,
+                    "name": "박형준",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 1279,
+                    "name": "김영진",
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                }
+            ],
+            "HUBO01": "변성완",
+            "JD01": "더불어민주당",
+            "DUGSU01": "29,400",
+            "DUGYUL01": "32.24",
+            "HUBO02": "박형준",
+            "JD02": "국민의힘",
+            "DUGSU02": "60,491",
+            "DUGYUL02": "66.34",
+            "HUBO03": "김영진",
+            "JD03": "정의당",
+            "DUGSU03": "1,279",
+            "DUGYUL03": "1.40"
+        },
+        {
+            "SDID": 2600,
+            "SDNAME": "부산광역시",
+            "WIWID": 2615,
+            "WIWNAME": "수영구",
+            "SUNSU": "156,247",
+            "TUSU": "74,913",
+            "TOTAL": "74,114",
+            "MUTUSU": "799",
+            "GIGWON": "81,334",
+            "HUBOSU": "3",
+            "data": [
+                {
+                    "value": 21760,
+                    "name": "변성완",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 51378,
+                    "name": "박형준",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 976,
+                    "name": "김영진",
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                }
+            ],
+            "HUBO01": "변성완",
+            "JD01": "더불어민주당",
+            "DUGSU01": "21,760",
+            "DUGYUL01": "29.36",
+            "HUBO02": "박형준",
+            "JD02": "국민의힘",
+            "DUGSU02": "51,378",
+            "DUGYUL02": "69.32",
+            "HUBO03": "김영진",
+            "JD03": "정의당",
+            "DUGSU03": "976",
+            "DUGYUL03": "1.31"
+        },
+        {
+            "SDID": 2600,
+            "SDNAME": "부산광역시",
+            "WIWID": 2616,
+            "WIWNAME": "사상구",
+            "SUNSU": "184,625",
+            "TUSU": "87,671",
+            "TOTAL": "86,367",
+            "MUTUSU": "1,304",
+            "GIGWON": "96,954",
+            "HUBOSU": "3",
+            "data": [
+                {
+                    "value": 28406,
+                    "name": "변성완",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 56696,
+                    "name": "박형준",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 1265,
+                    "name": "김영진",
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                }
+            ],
+            "HUBO01": "변성완",
+            "JD01": "더불어민주당",
+            "DUGSU01": "28,406",
+            "DUGYUL01": "32.88",
+            "HUBO02": "박형준",
+            "JD02": "국민의힘",
+            "DUGSU02": "56,696",
+            "DUGYUL02": "65.64",
+            "HUBO03": "김영진",
+            "JD03": "정의당",
+            "DUGSU03": "1,265",
+            "DUGYUL03": "1.46"
         }
     ]
 }

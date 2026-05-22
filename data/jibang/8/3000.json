@@ -5,13 +5,216 @@
             "SDNAME": "대전광역시",
             "WIWID": 0,
             "WIWNAME": "합계",
-            "SUNSU": "0",
-            "TUSU": "0",
-            "TOTAL": "0",
-            "MUTUSU": "0",
-            "GIGWON": "0",
-            "HUBOSU": "0",
-            "data": []
+            "SUNSU": "1,233,557",
+            "TUSU": "612,639",
+            "TOTAL": "605,590",
+            "MUTUSU": "7,049",
+            "GIGWON": "620,918",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 295555,
+                    "name": "허태정",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 310035,
+                    "name": "이장우",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "허태정",
+            "JD01": "더불어민주당",
+            "DUGSU01": "295,555",
+            "DUGYUL01": "48.80",
+            "HUBO02": "이장우",
+            "JD02": "국민의힘",
+            "DUGSU02": "310,035",
+            "DUGYUL02": "51.19"
+        },
+        {
+            "SDID": 3000,
+            "SDNAME": "대전광역시",
+            "WIWID": 3001,
+            "WIWNAME": "동구",
+            "SUNSU": "191,882",
+            "TUSU": "94,041",
+            "TOTAL": "92,739",
+            "MUTUSU": "1,302",
+            "GIGWON": "97,841",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 42619,
+                    "name": "허태정",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 50120,
+                    "name": "이장우",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "허태정",
+            "JD01": "더불어민주당",
+            "DUGSU01": "42,619",
+            "DUGYUL01": "45.95",
+            "HUBO02": "이장우",
+            "JD02": "국민의힘",
+            "DUGSU02": "50,120",
+            "DUGYUL02": "54.04"
+        },
+        {
+            "SDID": 3000,
+            "SDNAME": "대전광역시",
+            "WIWID": 3002,
+            "WIWNAME": "중구",
+            "SUNSU": "199,894",
+            "TUSU": "100,343",
+            "TOTAL": "99,100",
+            "MUTUSU": "1,243",
+            "GIGWON": "99,551",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 45434,
+                    "name": "허태정",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 53666,
+                    "name": "이장우",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "허태정",
+            "JD01": "더불어민주당",
+            "DUGSU01": "45,434",
+            "DUGYUL01": "45.84",
+            "HUBO02": "이장우",
+            "JD02": "국민의힘",
+            "DUGSU02": "53,666",
+            "DUGYUL02": "54.15"
+        },
+        {
+            "SDID": 3000,
+            "SDNAME": "대전광역시",
+            "WIWID": 3003,
+            "WIWNAME": "서구",
+            "SUNSU": "399,035",
+            "TUSU": "192,546",
+            "TOTAL": "190,371",
+            "MUTUSU": "2,175",
+            "GIGWON": "206,489",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 93222,
+                    "name": "허태정",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 97149,
+                    "name": "이장우",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "허태정",
+            "JD01": "더불어민주당",
+            "DUGSU01": "93,222",
+            "DUGYUL01": "48.96",
+            "HUBO02": "이장우",
+            "JD02": "국민의힘",
+            "DUGSU02": "97,149",
+            "DUGYUL02": "51.03"
+        },
+        {
+            "SDID": 3000,
+            "SDNAME": "대전광역시",
+            "WIWID": 3004,
+            "WIWNAME": "유성구",
+            "SUNSU": "289,980",
+            "TUSU": "149,576",
+            "TOTAL": "148,251",
+            "MUTUSU": "1,325",
+            "GIGWON": "140,404",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 78142,
+                    "name": "허태정",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 70109,
+                    "name": "이장우",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "허태정",
+            "JD01": "더불어민주당",
+            "DUGSU01": "78,142",
+            "DUGYUL01": "52.70",
+            "HUBO02": "이장우",
+            "JD02": "국민의힘",
+            "DUGSU02": "70,109",
+            "DUGYUL02": "47.29"
+        },
+        {
+            "SDID": 3000,
+            "SDNAME": "대전광역시",
+            "WIWID": 3005,
+            "WIWNAME": "대덕구",
+            "SUNSU": "152,766",
+            "TUSU": "76,133",
+            "TOTAL": "75,129",
+            "MUTUSU": "1,004",
+            "GIGWON": "76,633",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 36138,
+                    "name": "허태정",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 38991,
+                    "name": "이장우",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "허태정",
+            "JD01": "더불어민주당",
+            "DUGSU01": "36,138",
+            "DUGYUL01": "48.10",
+            "HUBO02": "이장우",
+            "JD02": "국민의힘",
+            "DUGSU02": "38,991",
+            "DUGYUL02": "51.89"
         }
     ]
 }

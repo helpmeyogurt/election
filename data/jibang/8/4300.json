@@ -5,13 +5,540 @@
             "SDNAME": "충청북도",
             "WIWID": 0,
             "WIWNAME": "합계",
-            "SUNSU": "0",
-            "TUSU": "0",
-            "TOTAL": "0",
-            "MUTUSU": "0",
-            "GIGWON": "0",
-            "HUBOSU": "0",
-            "data": []
+            "SUNSU": "1,368,779",
+            "TUSU": "692,324",
+            "TOTAL": "679,683",
+            "MUTUSU": "12,641",
+            "GIGWON": "676,455",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 284166,
+                    "name": "노영민",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 395517,
+                    "name": "김영환",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "노영민",
+            "JD01": "더불어민주당",
+            "DUGSU01": "284,166",
+            "DUGYUL01": "41.80",
+            "HUBO02": "김영환",
+            "JD02": "국민의힘",
+            "DUGSU02": "395,517",
+            "DUGYUL02": "58.19"
+        },
+        {
+            "SDID": 4300,
+            "SDNAME": "충청북도",
+            "WIWID": 4301,
+            "WIWNAME": "청주시상당구",
+            "SUNSU": "163,058",
+            "TUSU": "79,612",
+            "TOTAL": "78,608",
+            "MUTUSU": "1,004",
+            "GIGWON": "83,446",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 33296,
+                    "name": "노영민",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 45312,
+                    "name": "김영환",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "노영민",
+            "JD01": "더불어민주당",
+            "DUGSU01": "33,296",
+            "DUGYUL01": "42.35",
+            "HUBO02": "김영환",
+            "JD02": "국민의힘",
+            "DUGSU02": "45,312",
+            "DUGYUL02": "57.64"
+        },
+        {
+            "SDID": 4300,
+            "SDNAME": "충청북도",
+            "WIWID": 4314,
+            "WIWNAME": "청주시서원구",
+            "SUNSU": "165,453",
+            "TUSU": "80,317",
+            "TOTAL": "79,345",
+            "MUTUSU": "972",
+            "GIGWON": "85,136",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 33934,
+                    "name": "노영민",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 45411,
+                    "name": "김영환",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "노영민",
+            "JD01": "더불어민주당",
+            "DUGSU01": "33,934",
+            "DUGYUL01": "42.76",
+            "HUBO02": "김영환",
+            "JD02": "국민의힘",
+            "DUGSU02": "45,411",
+            "DUGYUL02": "57.23"
+        },
+        {
+            "SDID": 4300,
+            "SDNAME": "충청북도",
+            "WIWID": 4302,
+            "WIWNAME": "청주시흥덕구",
+            "SUNSU": "223,618",
+            "TUSU": "98,308",
+            "TOTAL": "97,114",
+            "MUTUSU": "1,194",
+            "GIGWON": "125,310",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 42745,
+                    "name": "노영민",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 54369,
+                    "name": "김영환",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "노영민",
+            "JD01": "더불어민주당",
+            "DUGSU01": "42,745",
+            "DUGYUL01": "44.01",
+            "HUBO02": "김영환",
+            "JD02": "국민의힘",
+            "DUGSU02": "54,369",
+            "DUGYUL02": "55.98"
+        },
+        {
+            "SDID": 4300,
+            "SDNAME": "충청북도",
+            "WIWID": 4306,
+            "WIWNAME": "청주시청원구",
+            "SUNSU": "160,395",
+            "TUSU": "72,662",
+            "TOTAL": "71,664",
+            "MUTUSU": "998",
+            "GIGWON": "87,733",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 32455,
+                    "name": "노영민",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 39209,
+                    "name": "김영환",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "노영민",
+            "JD01": "더불어민주당",
+            "DUGSU01": "32,455",
+            "DUGYUL01": "45.28",
+            "HUBO02": "김영환",
+            "JD02": "국민의힘",
+            "DUGSU02": "39,209",
+            "DUGYUL02": "54.71"
+        },
+        {
+            "SDID": 4300,
+            "SDNAME": "충청북도",
+            "WIWID": 4303,
+            "WIWNAME": "충주시",
+            "SUNSU": "181,044",
+            "TUSU": "89,723",
+            "TOTAL": "87,926",
+            "MUTUSU": "1,797",
+            "GIGWON": "91,321",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 34286,
+                    "name": "노영민",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 53640,
+                    "name": "김영환",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "노영민",
+            "JD01": "더불어민주당",
+            "DUGSU01": "34,286",
+            "DUGYUL01": "38.99",
+            "HUBO02": "김영환",
+            "JD02": "국민의힘",
+            "DUGSU02": "53,640",
+            "DUGYUL02": "61.00"
+        },
+        {
+            "SDID": 4300,
+            "SDNAME": "충청북도",
+            "WIWID": 4304,
+            "WIWNAME": "제천시",
+            "SUNSU": "115,563",
+            "TUSU": "62,806",
+            "TOTAL": "61,752",
+            "MUTUSU": "1,054",
+            "GIGWON": "52,757",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 23887,
+                    "name": "노영민",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 37865,
+                    "name": "김영환",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "노영민",
+            "JD01": "더불어민주당",
+            "DUGSU01": "23,887",
+            "DUGYUL01": "38.68",
+            "HUBO02": "김영환",
+            "JD02": "국민의힘",
+            "DUGSU02": "37,865",
+            "DUGYUL02": "61.31"
+        },
+        {
+            "SDID": 4300,
+            "SDNAME": "충청북도",
+            "WIWID": 4305,
+            "WIWNAME": "단양군",
+            "SUNSU": "25,692",
+            "TUSU": "17,427",
+            "TOTAL": "17,014",
+            "MUTUSU": "413",
+            "GIGWON": "8,265",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 6235,
+                    "name": "노영민",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 10779,
+                    "name": "김영환",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "노영민",
+            "JD01": "더불어민주당",
+            "DUGSU01": "6,235",
+            "DUGYUL01": "36.64",
+            "HUBO02": "김영환",
+            "JD02": "국민의힘",
+            "DUGSU02": "10,779",
+            "DUGYUL02": "63.35"
+        },
+        {
+            "SDID": 4300,
+            "SDNAME": "충청북도",
+            "WIWID": 4307,
+            "WIWNAME": "영동군",
+            "SUNSU": "41,123",
+            "TUSU": "27,150",
+            "TOTAL": "26,321",
+            "MUTUSU": "829",
+            "GIGWON": "13,973",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 10070,
+                    "name": "노영민",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 16251,
+                    "name": "김영환",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "노영민",
+            "JD01": "더불어민주당",
+            "DUGSU01": "10,070",
+            "DUGYUL01": "38.25",
+            "HUBO02": "김영환",
+            "JD02": "국민의힘",
+            "DUGSU02": "16,251",
+            "DUGYUL02": "61.74"
+        },
+        {
+            "SDID": 4300,
+            "SDNAME": "충청북도",
+            "WIWID": 4308,
+            "WIWNAME": "보은군",
+            "SUNSU": "28,963",
+            "TUSU": "19,543",
+            "TOTAL": "18,891",
+            "MUTUSU": "652",
+            "GIGWON": "9,420",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 7199,
+                    "name": "노영민",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 11692,
+                    "name": "김영환",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "노영민",
+            "JD01": "더불어민주당",
+            "DUGSU01": "7,199",
+            "DUGYUL01": "38.10",
+            "HUBO02": "김영환",
+            "JD02": "국민의힘",
+            "DUGSU02": "11,692",
+            "DUGYUL02": "61.89"
+        },
+        {
+            "SDID": 4300,
+            "SDNAME": "충청북도",
+            "WIWID": 4309,
+            "WIWNAME": "옥천군",
+            "SUNSU": "44,686",
+            "TUSU": "28,846",
+            "TOTAL": "27,951",
+            "MUTUSU": "895",
+            "GIGWON": "15,840",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 11716,
+                    "name": "노영민",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 16235,
+                    "name": "김영환",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "노영민",
+            "JD01": "더불어민주당",
+            "DUGSU01": "11,716",
+            "DUGYUL01": "41.91",
+            "HUBO02": "김영환",
+            "JD02": "국민의힘",
+            "DUGSU02": "16,235",
+            "DUGYUL02": "58.08"
+        },
+        {
+            "SDID": 4300,
+            "SDNAME": "충청북도",
+            "WIWID": 4310,
+            "WIWNAME": "음성군",
+            "SUNSU": "81,419",
+            "TUSU": "40,618",
+            "TOTAL": "39,704",
+            "MUTUSU": "914",
+            "GIGWON": "40,801",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 17249,
+                    "name": "노영민",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 22455,
+                    "name": "김영환",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "노영민",
+            "JD01": "더불어민주당",
+            "DUGSU01": "17,249",
+            "DUGYUL01": "43.44",
+            "HUBO02": "김영환",
+            "JD02": "국민의힘",
+            "DUGSU02": "22,455",
+            "DUGYUL02": "56.55"
+        },
+        {
+            "SDID": 4300,
+            "SDNAME": "충청북도",
+            "WIWID": 4311,
+            "WIWNAME": "진천군",
+            "SUNSU": "71,725",
+            "TUSU": "34,552",
+            "TOTAL": "33,753",
+            "MUTUSU": "799",
+            "GIGWON": "37,173",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 15709,
+                    "name": "노영민",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 18044,
+                    "name": "김영환",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "노영민",
+            "JD01": "더불어민주당",
+            "DUGSU01": "15,709",
+            "DUGYUL01": "46.54",
+            "HUBO02": "김영환",
+            "JD02": "국민의힘",
+            "DUGSU02": "18,044",
+            "DUGYUL02": "53.45"
+        },
+        {
+            "SDID": 4300,
+            "SDNAME": "충청북도",
+            "WIWID": 4312,
+            "WIWNAME": "괴산군",
+            "SUNSU": "34,674",
+            "TUSU": "23,720",
+            "TOTAL": "22,944",
+            "MUTUSU": "776",
+            "GIGWON": "10,954",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 8012,
+                    "name": "노영민",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 14932,
+                    "name": "김영환",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "노영민",
+            "JD01": "더불어민주당",
+            "DUGSU01": "8,012",
+            "DUGYUL01": "34.91",
+            "HUBO02": "김영환",
+            "JD02": "국민의힘",
+            "DUGSU02": "14,932",
+            "DUGYUL02": "65.08"
+        },
+        {
+            "SDID": 4300,
+            "SDNAME": "충청북도",
+            "WIWID": 4313,
+            "WIWNAME": "증평군",
+            "SUNSU": "31,366",
+            "TUSU": "17,040",
+            "TOTAL": "16,696",
+            "MUTUSU": "344",
+            "GIGWON": "14,326",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 7373,
+                    "name": "노영민",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 9323,
+                    "name": "김영환",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "노영민",
+            "JD01": "더불어민주당",
+            "DUGSU01": "7,373",
+            "DUGYUL01": "44.16",
+            "HUBO02": "김영환",
+            "JD02": "국민의힘",
+            "DUGSU02": "9,323",
+            "DUGYUL02": "55.83"
         }
     ]
 }

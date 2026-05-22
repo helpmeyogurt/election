@@ -5,13 +5,638 @@
             "SDNAME": "인천광역시",
             "WIWID": 0,
             "WIWNAME": "합계",
-            "SUNSU": "0",
-            "TUSU": "0",
-            "TOTAL": "0",
-            "MUTUSU": "0",
-            "GIGWON": "0",
-            "HUBOSU": "0",
-            "data": []
+            "SUNSU": "2,534,338",
+            "TUSU": "1,240,469",
+            "TOTAL": "1,225,135",
+            "MUTUSU": "15,334",
+            "GIGWON": "1,293,869",
+            "HUBOSU": "4",
+            "data": [
+                {
+                    "value": 545885,
+                    "name": "박남춘",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 634250,
+                    "name": "유정복",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 38921,
+                    "name": "이정미",
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 6079,
+                    "name": "김한별",
+                    "itemStyle": {
+                        "color": "#00D2C3"
+                    }
+                }
+            ],
+            "HUBO01": "박남춘",
+            "JD01": "더불어민주당",
+            "DUGSU01": "545,885",
+            "DUGYUL01": "44.55",
+            "HUBO02": "유정복",
+            "JD02": "국민의힘",
+            "DUGSU02": "634,250",
+            "DUGYUL02": "51.76",
+            "HUBO03": "이정미",
+            "JD03": "정의당",
+            "DUGSU03": "38,921",
+            "DUGYUL03": "3.17",
+            "HUBO04": "김한별",
+            "JD04": "기본소득당",
+            "DUGSU04": "6,079",
+            "DUGYUL04": "0.49"
+        },
+        {
+            "SDID": 2800,
+            "SDNAME": "인천광역시",
+            "WIWID": 2801,
+            "WIWNAME": "중구",
+            "SUNSU": "124,974",
+            "TUSU": "57,362",
+            "TOTAL": "56,525",
+            "MUTUSU": "837",
+            "GIGWON": "67,612",
+            "HUBOSU": "4",
+            "data": [
+                {
+                    "value": 24425,
+                    "name": "박남춘",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 30190,
+                    "name": "유정복",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 1616,
+                    "name": "이정미",
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 294,
+                    "name": "김한별",
+                    "itemStyle": {
+                        "color": "#00D2C3"
+                    }
+                }
+            ],
+            "HUBO01": "박남춘",
+            "JD01": "더불어민주당",
+            "DUGSU01": "24,425",
+            "DUGYUL01": "43.21",
+            "HUBO02": "유정복",
+            "JD02": "국민의힘",
+            "DUGSU02": "30,190",
+            "DUGYUL02": "53.40",
+            "HUBO03": "이정미",
+            "JD03": "정의당",
+            "DUGSU03": "1,616",
+            "DUGYUL03": "2.85",
+            "HUBO04": "김한별",
+            "JD04": "기본소득당",
+            "DUGSU04": "294",
+            "DUGYUL04": "0.52"
+        },
+        {
+            "SDID": 2800,
+            "SDNAME": "인천광역시",
+            "WIWID": 2802,
+            "WIWNAME": "동구",
+            "SUNSU": "52,728",
+            "TUSU": "28,942",
+            "TOTAL": "28,405",
+            "MUTUSU": "537",
+            "GIGWON": "23,786",
+            "HUBOSU": "4",
+            "data": [
+                {
+                    "value": 11592,
+                    "name": "박남춘",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 15595,
+                    "name": "유정복",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 1011,
+                    "name": "이정미",
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 207,
+                    "name": "김한별",
+                    "itemStyle": {
+                        "color": "#00D2C3"
+                    }
+                }
+            ],
+            "HUBO01": "박남춘",
+            "JD01": "더불어민주당",
+            "DUGSU01": "11,592",
+            "DUGYUL01": "40.80",
+            "HUBO02": "유정복",
+            "JD02": "국민의힘",
+            "DUGSU02": "15,595",
+            "DUGYUL02": "54.90",
+            "HUBO03": "이정미",
+            "JD03": "정의당",
+            "DUGSU03": "1,011",
+            "DUGYUL03": "3.55",
+            "HUBO04": "김한별",
+            "JD04": "기본소득당",
+            "DUGSU04": "207",
+            "DUGYUL04": "0.72"
+        },
+        {
+            "SDID": 2800,
+            "SDNAME": "인천광역시",
+            "WIWID": 2803,
+            "WIWNAME": "미추홀구",
+            "SUNSU": "358,612",
+            "TUSU": "160,328",
+            "TOTAL": "158,267",
+            "MUTUSU": "2,061",
+            "GIGWON": "198,284",
+            "HUBOSU": "4",
+            "data": [
+                {
+                    "value": 66673,
+                    "name": "박남춘",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 86217,
+                    "name": "유정복",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 4487,
+                    "name": "이정미",
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 890,
+                    "name": "김한별",
+                    "itemStyle": {
+                        "color": "#00D2C3"
+                    }
+                }
+            ],
+            "HUBO01": "박남춘",
+            "JD01": "더불어민주당",
+            "DUGSU01": "66,673",
+            "DUGYUL01": "42.12",
+            "HUBO02": "유정복",
+            "JD02": "국민의힘",
+            "DUGSU02": "86,217",
+            "DUGYUL02": "54.47",
+            "HUBO03": "이정미",
+            "JD03": "정의당",
+            "DUGSU03": "4,487",
+            "DUGYUL03": "2.83",
+            "HUBO04": "김한별",
+            "JD04": "기본소득당",
+            "DUGSU04": "890",
+            "DUGYUL04": "0.56"
+        },
+        {
+            "SDID": 2800,
+            "SDNAME": "인천광역시",
+            "WIWID": 2804,
+            "WIWNAME": "연수구",
+            "SUNSU": "317,883",
+            "TUSU": "164,269",
+            "TOTAL": "162,942",
+            "MUTUSU": "1,327",
+            "GIGWON": "153,614",
+            "HUBOSU": "4",
+            "data": [
+                {
+                    "value": 63175,
+                    "name": "박남춘",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 90120,
+                    "name": "유정복",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 9133,
+                    "name": "이정미",
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 514,
+                    "name": "김한별",
+                    "itemStyle": {
+                        "color": "#00D2C3"
+                    }
+                }
+            ],
+            "HUBO01": "박남춘",
+            "JD01": "더불어민주당",
+            "DUGSU01": "63,175",
+            "DUGYUL01": "38.77",
+            "HUBO02": "유정복",
+            "JD02": "국민의힘",
+            "DUGSU02": "90,120",
+            "DUGYUL02": "55.30",
+            "HUBO03": "이정미",
+            "JD03": "정의당",
+            "DUGSU03": "9,133",
+            "DUGYUL03": "5.60",
+            "HUBO04": "김한별",
+            "JD04": "기본소득당",
+            "DUGSU04": "514",
+            "DUGYUL04": "0.31"
+        },
+        {
+            "SDID": 2800,
+            "SDNAME": "인천광역시",
+            "WIWID": 2805,
+            "WIWNAME": "남동구",
+            "SUNSU": "441,226",
+            "TUSU": "212,064",
+            "TOTAL": "209,678",
+            "MUTUSU": "2,386",
+            "GIGWON": "229,162",
+            "HUBOSU": "4",
+            "data": [
+                {
+                    "value": 96632,
+                    "name": "박남춘",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 106526,
+                    "name": "유정복",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 5647,
+                    "name": "이정미",
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 873,
+                    "name": "김한별",
+                    "itemStyle": {
+                        "color": "#00D2C3"
+                    }
+                }
+            ],
+            "HUBO01": "박남춘",
+            "JD01": "더불어민주당",
+            "DUGSU01": "96,632",
+            "DUGYUL01": "46.08",
+            "HUBO02": "유정복",
+            "JD02": "국민의힘",
+            "DUGSU02": "106,526",
+            "DUGYUL02": "50.80",
+            "HUBO03": "이정미",
+            "JD03": "정의당",
+            "DUGSU03": "5,647",
+            "DUGYUL03": "2.69",
+            "HUBO04": "김한별",
+            "JD04": "기본소득당",
+            "DUGSU04": "873",
+            "DUGYUL04": "0.41"
+        },
+        {
+            "SDID": 2800,
+            "SDNAME": "인천광역시",
+            "WIWID": 2806,
+            "WIWNAME": "부평구",
+            "SUNSU": "426,463",
+            "TUSU": "202,623",
+            "TOTAL": "200,344",
+            "MUTUSU": "2,279",
+            "GIGWON": "223,840",
+            "HUBOSU": "4",
+            "data": [
+                {
+                    "value": 94474,
+                    "name": "박남춘",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 99177,
+                    "name": "유정복",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 5740,
+                    "name": "이정미",
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 953,
+                    "name": "김한별",
+                    "itemStyle": {
+                        "color": "#00D2C3"
+                    }
+                }
+            ],
+            "HUBO01": "박남춘",
+            "JD01": "더불어민주당",
+            "DUGSU01": "94,474",
+            "DUGYUL01": "47.15",
+            "HUBO02": "유정복",
+            "JD02": "국민의힘",
+            "DUGSU02": "99,177",
+            "DUGYUL02": "49.50",
+            "HUBO03": "이정미",
+            "JD03": "정의당",
+            "DUGSU03": "5,740",
+            "DUGYUL03": "2.86",
+            "HUBO04": "김한별",
+            "JD04": "기본소득당",
+            "DUGSU04": "953",
+            "DUGYUL04": "0.47"
+        },
+        {
+            "SDID": 2800,
+            "SDNAME": "인천광역시",
+            "WIWID": 2807,
+            "WIWNAME": "계양구",
+            "SUNSU": "258,156",
+            "TUSU": "144,721",
+            "TOTAL": "143,098",
+            "MUTUSU": "1,623",
+            "GIGWON": "113,435",
+            "HUBOSU": "4",
+            "data": [
+                {
+                    "value": 72090,
+                    "name": "박남춘",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 66117,
+                    "name": "유정복",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 4158,
+                    "name": "이정미",
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 733,
+                    "name": "김한별",
+                    "itemStyle": {
+                        "color": "#00D2C3"
+                    }
+                }
+            ],
+            "HUBO01": "박남춘",
+            "JD01": "더불어민주당",
+            "DUGSU01": "72,090",
+            "DUGYUL01": "50.37",
+            "HUBO02": "유정복",
+            "JD02": "국민의힘",
+            "DUGSU02": "66,117",
+            "DUGYUL02": "46.20",
+            "HUBO03": "이정미",
+            "JD03": "정의당",
+            "DUGSU03": "4,158",
+            "DUGYUL03": "2.90",
+            "HUBO04": "김한별",
+            "JD04": "기본소득당",
+            "DUGSU04": "733",
+            "DUGYUL04": "0.51"
+        },
+        {
+            "SDID": 2800,
+            "SDNAME": "인천광역시",
+            "WIWID": 2808,
+            "WIWNAME": "서구",
+            "SUNSU": "472,254",
+            "TUSU": "218,379",
+            "TOTAL": "215,902",
+            "MUTUSU": "2,477",
+            "GIGWON": "253,875",
+            "HUBOSU": "4",
+            "data": [
+                {
+                    "value": 101408,
+                    "name": "박남춘",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 107661,
+                    "name": "유정복",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 5832,
+                    "name": "이정미",
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 1001,
+                    "name": "김한별",
+                    "itemStyle": {
+                        "color": "#00D2C3"
+                    }
+                }
+            ],
+            "HUBO01": "박남춘",
+            "JD01": "더불어민주당",
+            "DUGSU01": "101,408",
+            "DUGYUL01": "46.96",
+            "HUBO02": "유정복",
+            "JD02": "국민의힘",
+            "DUGSU02": "107,661",
+            "DUGYUL02": "49.86",
+            "HUBO03": "이정미",
+            "JD03": "정의당",
+            "DUGSU03": "5,832",
+            "DUGYUL03": "2.70",
+            "HUBO04": "김한별",
+            "JD04": "기본소득당",
+            "DUGSU04": "1,001",
+            "DUGYUL04": "0.46"
+        },
+        {
+            "SDID": 2800,
+            "SDNAME": "인천광역시",
+            "WIWID": 2809,
+            "WIWNAME": "강화군",
+            "SUNSU": "63,147",
+            "TUSU": "39,088",
+            "TOTAL": "37,803",
+            "MUTUSU": "1,285",
+            "GIGWON": "24,059",
+            "HUBOSU": "4",
+            "data": [
+                {
+                    "value": 11660,
+                    "name": "박남춘",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 24697,
+                    "name": "유정복",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 1002,
+                    "name": "이정미",
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 444,
+                    "name": "김한별",
+                    "itemStyle": {
+                        "color": "#00D2C3"
+                    }
+                }
+            ],
+            "HUBO01": "박남춘",
+            "JD01": "더불어민주당",
+            "DUGSU01": "11,660",
+            "DUGYUL01": "30.84",
+            "HUBO02": "유정복",
+            "JD02": "국민의힘",
+            "DUGSU02": "24,697",
+            "DUGYUL02": "65.33",
+            "HUBO03": "이정미",
+            "JD03": "정의당",
+            "DUGSU03": "1,002",
+            "DUGYUL03": "2.65",
+            "HUBO04": "김한별",
+            "JD04": "기본소득당",
+            "DUGSU04": "444",
+            "DUGYUL04": "1.17"
+        },
+        {
+            "SDID": 2800,
+            "SDNAME": "인천광역시",
+            "WIWID": 2810,
+            "WIWNAME": "옹진군",
+            "SUNSU": "18,895",
+            "TUSU": "12,693",
+            "TOTAL": "12,171",
+            "MUTUSU": "522",
+            "GIGWON": "6,202",
+            "HUBOSU": "4",
+            "data": [
+                {
+                    "value": 3756,
+                    "name": "박남춘",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 7950,
+                    "name": "유정복",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 295,
+                    "name": "이정미",
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 170,
+                    "name": "김한별",
+                    "itemStyle": {
+                        "color": "#00D2C3"
+                    }
+                }
+            ],
+            "HUBO01": "박남춘",
+            "JD01": "더불어민주당",
+            "DUGSU01": "3,756",
+            "DUGYUL01": "30.86",
+            "HUBO02": "유정복",
+            "JD02": "국민의힘",
+            "DUGSU02": "7,950",
+            "DUGYUL02": "65.31",
+            "HUBO03": "이정미",
+            "JD03": "정의당",
+            "DUGSU03": "295",
+            "DUGYUL03": "2.42",
+            "HUBO04": "김한별",
+            "JD04": "기본소득당",
+            "DUGSU04": "170",
+            "DUGYUL04": "1.39"
         }
     ]
 }

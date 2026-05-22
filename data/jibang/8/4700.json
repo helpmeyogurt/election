@@ -5,13 +5,900 @@
             "SDNAME": "경상북도",
             "WIWID": 0,
             "WIWNAME": "합계",
-            "SUNSU": "0",
-            "TUSU": "0",
-            "TOTAL": "0",
-            "MUTUSU": "0",
-            "GIGWON": "0",
-            "HUBOSU": "0",
-            "data": []
+            "SUNSU": "2,268,707",
+            "TUSU": "1,194,595",
+            "TOTAL": "1,160,450",
+            "MUTUSU": "34,145",
+            "GIGWON": "1,074,112",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 255775,
+                    "name": "임미애",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 904675,
+                    "name": "이철우",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "임미애",
+            "JD01": "더불어민주당",
+            "DUGSU01": "255,775",
+            "DUGYUL01": "22.04",
+            "HUBO02": "이철우",
+            "JD02": "국민의힘",
+            "DUGSU02": "904,675",
+            "DUGYUL02": "77.95"
+        },
+        {
+            "SDID": 4700,
+            "SDNAME": "경상북도",
+            "WIWID": 4701,
+            "WIWNAME": "포항시북구",
+            "SUNSU": "230,960",
+            "TUSU": "105,786",
+            "TOTAL": "103,934",
+            "MUTUSU": "1,852",
+            "GIGWON": "125,174",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 23150,
+                    "name": "임미애",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 80784,
+                    "name": "이철우",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "임미애",
+            "JD01": "더불어민주당",
+            "DUGSU01": "23,150",
+            "DUGYUL01": "22.27",
+            "HUBO02": "이철우",
+            "JD02": "국민의힘",
+            "DUGSU02": "80,784",
+            "DUGYUL02": "77.72"
+        },
+        {
+            "SDID": 4700,
+            "SDNAME": "경상북도",
+            "WIWID": 4702,
+            "WIWNAME": "포항시남구",
+            "SUNSU": "196,727",
+            "TUSU": "90,434",
+            "TOTAL": "88,332",
+            "MUTUSU": "2,102",
+            "GIGWON": "106,293",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 20195,
+                    "name": "임미애",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 68137,
+                    "name": "이철우",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "임미애",
+            "JD01": "더불어민주당",
+            "DUGSU01": "20,195",
+            "DUGYUL01": "22.86",
+            "HUBO02": "이철우",
+            "JD02": "국민의힘",
+            "DUGSU02": "68,137",
+            "DUGYUL02": "77.13"
+        },
+        {
+            "SDID": 4700,
+            "SDNAME": "경상북도",
+            "WIWID": 4703,
+            "WIWNAME": "울릉군",
+            "SUNSU": "8,339",
+            "TUSU": "6,795",
+            "TOTAL": "6,487",
+            "MUTUSU": "308",
+            "GIGWON": "1,544",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 1217,
+                    "name": "임미애",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 5270,
+                    "name": "이철우",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "임미애",
+            "JD01": "더불어민주당",
+            "DUGSU01": "1,217",
+            "DUGYUL01": "18.76",
+            "HUBO02": "이철우",
+            "JD02": "국민의힘",
+            "DUGSU02": "5,270",
+            "DUGYUL02": "81.23"
+        },
+        {
+            "SDID": 4700,
+            "SDNAME": "경상북도",
+            "WIWID": 4704,
+            "WIWNAME": "경주시",
+            "SUNSU": "220,490",
+            "TUSU": "109,647",
+            "TOTAL": "106,872",
+            "MUTUSU": "2,775",
+            "GIGWON": "110,843",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 22875,
+                    "name": "임미애",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 83997,
+                    "name": "이철우",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "임미애",
+            "JD01": "더불어민주당",
+            "DUGSU01": "22,875",
+            "DUGYUL01": "21.40",
+            "HUBO02": "이철우",
+            "JD02": "국민의힘",
+            "DUGSU02": "83,997",
+            "DUGYUL02": "78.59"
+        },
+        {
+            "SDID": 4700,
+            "SDNAME": "경상북도",
+            "WIWID": 4705,
+            "WIWNAME": "김천시",
+            "SUNSU": "120,471",
+            "TUSU": "67,277",
+            "TOTAL": "65,691",
+            "MUTUSU": "1,586",
+            "GIGWON": "53,194",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 13915,
+                    "name": "임미애",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 51776,
+                    "name": "이철우",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "임미애",
+            "JD01": "더불어민주당",
+            "DUGSU01": "13,915",
+            "DUGYUL01": "21.18",
+            "HUBO02": "이철우",
+            "JD02": "국민의힘",
+            "DUGSU02": "51,776",
+            "DUGYUL02": "78.81"
+        },
+        {
+            "SDID": 4700,
+            "SDNAME": "경상북도",
+            "WIWID": 4706,
+            "WIWNAME": "안동시",
+            "SUNSU": "135,862",
+            "TUSU": "74,540",
+            "TOTAL": "72,400",
+            "MUTUSU": "2,140",
+            "GIGWON": "61,322",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 20435,
+                    "name": "임미애",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 51965,
+                    "name": "이철우",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "임미애",
+            "JD01": "더불어민주당",
+            "DUGSU01": "20,435",
+            "DUGYUL01": "28.22",
+            "HUBO02": "이철우",
+            "JD02": "국민의힘",
+            "DUGSU02": "51,965",
+            "DUGYUL02": "71.77"
+        },
+        {
+            "SDID": 4700,
+            "SDNAME": "경상북도",
+            "WIWID": 4707,
+            "WIWNAME": "구미시",
+            "SUNSU": "337,510",
+            "TUSU": "144,547",
+            "TOTAL": "142,630",
+            "MUTUSU": "1,917",
+            "GIGWON": "192,963",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 34597,
+                    "name": "임미애",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 108033,
+                    "name": "이철우",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "임미애",
+            "JD01": "더불어민주당",
+            "DUGSU01": "34,597",
+            "DUGYUL01": "24.25",
+            "HUBO02": "이철우",
+            "JD02": "국민의힘",
+            "DUGSU02": "108,033",
+            "DUGYUL02": "75.74"
+        },
+        {
+            "SDID": 4700,
+            "SDNAME": "경상북도",
+            "WIWID": 4708,
+            "WIWNAME": "영주시",
+            "SUNSU": "89,061",
+            "TUSU": "56,297",
+            "TOTAL": "54,425",
+            "MUTUSU": "1,872",
+            "GIGWON": "32,764",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 12783,
+                    "name": "임미애",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 41642,
+                    "name": "이철우",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "임미애",
+            "JD01": "더불어민주당",
+            "DUGSU01": "12,783",
+            "DUGYUL01": "23.48",
+            "HUBO02": "이철우",
+            "JD02": "국민의힘",
+            "DUGSU02": "41,642",
+            "DUGYUL02": "76.51"
+        },
+        {
+            "SDID": 4700,
+            "SDNAME": "경상북도",
+            "WIWID": 4709,
+            "WIWNAME": "영천시",
+            "SUNSU": "90,932",
+            "TUSU": "51,707",
+            "TOTAL": "49,845",
+            "MUTUSU": "1,862",
+            "GIGWON": "39,225",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 9328,
+                    "name": "임미애",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 40517,
+                    "name": "이철우",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "임미애",
+            "JD01": "더불어민주당",
+            "DUGSU01": "9,328",
+            "DUGYUL01": "18.71",
+            "HUBO02": "이철우",
+            "JD02": "국민의힘",
+            "DUGSU02": "40,517",
+            "DUGYUL02": "81.28"
+        },
+        {
+            "SDID": 4700,
+            "SDNAME": "경상북도",
+            "WIWID": 4710,
+            "WIWNAME": "상주시",
+            "SUNSU": "84,980",
+            "TUSU": "54,367",
+            "TOTAL": "52,252",
+            "MUTUSU": "2,115",
+            "GIGWON": "30,613",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 9992,
+                    "name": "임미애",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 42260,
+                    "name": "이철우",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "임미애",
+            "JD01": "더불어민주당",
+            "DUGSU01": "9,992",
+            "DUGYUL01": "19.12",
+            "HUBO02": "이철우",
+            "JD02": "국민의힘",
+            "DUGSU02": "42,260",
+            "DUGYUL02": "80.87"
+        },
+        {
+            "SDID": 4700,
+            "SDNAME": "경상북도",
+            "WIWID": 4711,
+            "WIWNAME": "문경시",
+            "SUNSU": "64,160",
+            "TUSU": "40,384",
+            "TOTAL": "39,014",
+            "MUTUSU": "1,370",
+            "GIGWON": "23,776",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 7318,
+                    "name": "임미애",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 31696,
+                    "name": "이철우",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "임미애",
+            "JD01": "더불어민주당",
+            "DUGSU01": "7,318",
+            "DUGYUL01": "18.75",
+            "HUBO02": "이철우",
+            "JD02": "국민의힘",
+            "DUGSU02": "31,696",
+            "DUGYUL02": "81.24"
+        },
+        {
+            "SDID": 4700,
+            "SDNAME": "경상북도",
+            "WIWID": 4712,
+            "WIWNAME": "예천군",
+            "SUNSU": "47,561",
+            "TUSU": "29,496",
+            "TOTAL": "28,521",
+            "MUTUSU": "975",
+            "GIGWON": "18,065",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 8371,
+                    "name": "임미애",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 20150,
+                    "name": "이철우",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "임미애",
+            "JD01": "더불어민주당",
+            "DUGSU01": "8,371",
+            "DUGYUL01": "29.35",
+            "HUBO02": "이철우",
+            "JD02": "국민의힘",
+            "DUGSU02": "20,150",
+            "DUGYUL02": "70.64"
+        },
+        {
+            "SDID": 4700,
+            "SDNAME": "경상북도",
+            "WIWID": 4713,
+            "WIWNAME": "경산시",
+            "SUNSU": "230,676",
+            "TUSU": "100,056",
+            "TOTAL": "97,832",
+            "MUTUSU": "2,224",
+            "GIGWON": "130,620",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 20784,
+                    "name": "임미애",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 77048,
+                    "name": "이철우",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "임미애",
+            "JD01": "더불어민주당",
+            "DUGSU01": "20,784",
+            "DUGYUL01": "21.24",
+            "HUBO02": "이철우",
+            "JD02": "국민의힘",
+            "DUGSU02": "77,048",
+            "DUGYUL02": "78.75"
+        },
+        {
+            "SDID": 4700,
+            "SDNAME": "경상북도",
+            "WIWID": 4714,
+            "WIWNAME": "청도군",
+            "SUNSU": "38,574",
+            "TUSU": "27,316",
+            "TOTAL": "26,168",
+            "MUTUSU": "1,148",
+            "GIGWON": "11,258",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 4559,
+                    "name": "임미애",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 21609,
+                    "name": "이철우",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "임미애",
+            "JD01": "더불어민주당",
+            "DUGSU01": "4,559",
+            "DUGYUL01": "17.42",
+            "HUBO02": "이철우",
+            "JD02": "국민의힘",
+            "DUGSU02": "21,609",
+            "DUGYUL02": "82.57"
+        },
+        {
+            "SDID": 4700,
+            "SDNAME": "경상북도",
+            "WIWID": 4715,
+            "WIWNAME": "고령군",
+            "SUNSU": "27,757",
+            "TUSU": "17,420",
+            "TOTAL": "16,738",
+            "MUTUSU": "682",
+            "GIGWON": "10,337",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 3009,
+                    "name": "임미애",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 13729,
+                    "name": "이철우",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "임미애",
+            "JD01": "더불어민주당",
+            "DUGSU01": "3,009",
+            "DUGYUL01": "17.97",
+            "HUBO02": "이철우",
+            "JD02": "국민의힘",
+            "DUGSU02": "13,729",
+            "DUGYUL02": "82.02"
+        },
+        {
+            "SDID": 4700,
+            "SDNAME": "경상북도",
+            "WIWID": 4716,
+            "WIWNAME": "성주군",
+            "SUNSU": "39,451",
+            "TUSU": "26,637",
+            "TOTAL": "25,614",
+            "MUTUSU": "1,023",
+            "GIGWON": "12,814",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 4585,
+                    "name": "임미애",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 21029,
+                    "name": "이철우",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "임미애",
+            "JD01": "더불어민주당",
+            "DUGSU01": "4,585",
+            "DUGYUL01": "17.90",
+            "HUBO02": "이철우",
+            "JD02": "국민의힘",
+            "DUGSU02": "21,029",
+            "DUGYUL02": "82.09"
+        },
+        {
+            "SDID": 4700,
+            "SDNAME": "경상북도",
+            "WIWID": 4717,
+            "WIWNAME": "칠곡군",
+            "SUNSU": "96,081",
+            "TUSU": "41,978",
+            "TOTAL": "41,018",
+            "MUTUSU": "960",
+            "GIGWON": "54,103",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 9340,
+                    "name": "임미애",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 31678,
+                    "name": "이철우",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "임미애",
+            "JD01": "더불어민주당",
+            "DUGSU01": "9,340",
+            "DUGYUL01": "22.77",
+            "HUBO02": "이철우",
+            "JD02": "국민의힘",
+            "DUGSU02": "31,678",
+            "DUGYUL02": "77.22"
+        },
+        {
+            "SDID": 4700,
+            "SDNAME": "경상북도",
+            "WIWID": 4718,
+            "WIWNAME": "군위군",
+            "SUNSU": "22,054",
+            "TUSU": "17,845",
+            "TOTAL": "16,554",
+            "MUTUSU": "1,291",
+            "GIGWON": "4,209",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 3398,
+                    "name": "임미애",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 13156,
+                    "name": "이철우",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "임미애",
+            "JD01": "더불어민주당",
+            "DUGSU01": "3,398",
+            "DUGYUL01": "20.52",
+            "HUBO02": "이철우",
+            "JD02": "국민의힘",
+            "DUGSU02": "13,156",
+            "DUGYUL02": "79.47"
+        },
+        {
+            "SDID": 4700,
+            "SDNAME": "경상북도",
+            "WIWID": 4719,
+            "WIWNAME": "의성군",
+            "SUNSU": "47,168",
+            "TUSU": "34,928",
+            "TOTAL": "33,195",
+            "MUTUSU": "1,733",
+            "GIGWON": "12,240",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 7326,
+                    "name": "임미애",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 25869,
+                    "name": "이철우",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "임미애",
+            "JD01": "더불어민주당",
+            "DUGSU01": "7,326",
+            "DUGYUL01": "22.06",
+            "HUBO02": "이철우",
+            "JD02": "국민의힘",
+            "DUGSU02": "25,869",
+            "DUGYUL02": "77.93"
+        },
+        {
+            "SDID": 4700,
+            "SDNAME": "경상북도",
+            "WIWID": 4720,
+            "WIWNAME": "청송군",
+            "SUNSU": "22,790",
+            "TUSU": "16,846",
+            "TOTAL": "16,191",
+            "MUTUSU": "655",
+            "GIGWON": "5,944",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 3509,
+                    "name": "임미애",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 12682,
+                    "name": "이철우",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "임미애",
+            "JD01": "더불어민주당",
+            "DUGSU01": "3,509",
+            "DUGYUL01": "21.67",
+            "HUBO02": "이철우",
+            "JD02": "국민의힘",
+            "DUGSU02": "12,682",
+            "DUGYUL02": "78.32"
+        },
+        {
+            "SDID": 4700,
+            "SDNAME": "경상북도",
+            "WIWID": 4721,
+            "WIWNAME": "영양군",
+            "SUNSU": "14,920",
+            "TUSU": "11,532",
+            "TOTAL": "10,957",
+            "MUTUSU": "575",
+            "GIGWON": "3,388",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 2394,
+                    "name": "임미애",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 8563,
+                    "name": "이철우",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "임미애",
+            "JD01": "더불어민주당",
+            "DUGSU01": "2,394",
+            "DUGYUL01": "21.84",
+            "HUBO02": "이철우",
+            "JD02": "국민의힘",
+            "DUGSU02": "8,563",
+            "DUGYUL02": "78.15"
+        },
+        {
+            "SDID": 4700,
+            "SDNAME": "경상북도",
+            "WIWID": 4722,
+            "WIWNAME": "영덕군",
+            "SUNSU": "32,124",
+            "TUSU": "21,563",
+            "TOTAL": "20,705",
+            "MUTUSU": "858",
+            "GIGWON": "10,561",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 3501,
+                    "name": "임미애",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 17204,
+                    "name": "이철우",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "임미애",
+            "JD01": "더불어민주당",
+            "DUGSU01": "3,501",
+            "DUGYUL01": "16.90",
+            "HUBO02": "이철우",
+            "JD02": "국민의힘",
+            "DUGSU02": "17,204",
+            "DUGYUL02": "83.09"
+        },
+        {
+            "SDID": 4700,
+            "SDNAME": "경상북도",
+            "WIWID": 4723,
+            "WIWNAME": "봉화군",
+            "SUNSU": "27,996",
+            "TUSU": "18,883",
+            "TOTAL": "18,142",
+            "MUTUSU": "741",
+            "GIGWON": "9,113",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 4024,
+                    "name": "임미애",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 14118,
+                    "name": "이철우",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "임미애",
+            "JD01": "더불어민주당",
+            "DUGSU01": "4,024",
+            "DUGYUL01": "22.18",
+            "HUBO02": "이철우",
+            "JD02": "국민의힘",
+            "DUGSU02": "14,118",
+            "DUGYUL02": "77.81"
+        },
+        {
+            "SDID": 4700,
+            "SDNAME": "경상북도",
+            "WIWID": 4724,
+            "WIWNAME": "울진군",
+            "SUNSU": "42,063",
+            "TUSU": "28,314",
+            "TOTAL": "26,933",
+            "MUTUSU": "1,381",
+            "GIGWON": "13,749",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 5170,
+                    "name": "임미애",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 21763,
+                    "name": "이철우",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "임미애",
+            "JD01": "더불어민주당",
+            "DUGSU01": "5,170",
+            "DUGYUL01": "19.19",
+            "HUBO02": "이철우",
+            "JD02": "국민의힘",
+            "DUGSU02": "21,763",
+            "DUGYUL02": "80.80"
         }
     ]
 }

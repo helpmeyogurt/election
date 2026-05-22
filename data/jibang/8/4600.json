@@ -5,13 +5,1081 @@
             "SDNAME": "전라남도",
             "WIWID": 0,
             "WIWNAME": "합계",
-            "SUNSU": "0",
-            "TUSU": "0",
-            "TOTAL": "0",
-            "MUTUSU": "0",
-            "GIGWON": "0",
-            "HUBOSU": "0",
-            "data": []
+            "SUNSU": "1,580,098",
+            "TUSU": "923,347",
+            "TOTAL": "887,789",
+            "MUTUSU": "35,558",
+            "GIGWON": "656,751",
+            "HUBOSU": "3",
+            "data": [
+                {
+                    "value": 672433,
+                    "name": "김영록",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 167020,
+                    "name": "이정현",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 48336,
+                    "name": "민점기",
+                    "itemStyle": {
+                        "color": "#D6001C"
+                    }
+                }
+            ],
+            "HUBO01": "김영록",
+            "JD01": "더불어민주당",
+            "DUGSU01": "672,433",
+            "DUGYUL01": "75.74",
+            "HUBO02": "이정현",
+            "JD02": "국민의힘",
+            "DUGSU02": "167,020",
+            "DUGYUL02": "18.81",
+            "HUBO03": "민점기",
+            "JD03": "진보당",
+            "DUGSU03": "48,336",
+            "DUGYUL03": "5.44"
+        },
+        {
+            "SDID": 4600,
+            "SDNAME": "전라남도",
+            "WIWID": 4601,
+            "WIWNAME": "목포시",
+            "SUNSU": "183,412",
+            "TUSU": "96,968",
+            "TOTAL": "93,942",
+            "MUTUSU": "3,026",
+            "GIGWON": "86,444",
+            "HUBOSU": "3",
+            "data": [
+                {
+                    "value": 76408,
+                    "name": "김영록",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 13045,
+                    "name": "이정현",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 4489,
+                    "name": "민점기",
+                    "itemStyle": {
+                        "color": "#D6001C"
+                    }
+                }
+            ],
+            "HUBO01": "김영록",
+            "JD01": "더불어민주당",
+            "DUGSU01": "76,408",
+            "DUGYUL01": "81.33",
+            "HUBO02": "이정현",
+            "JD02": "국민의힘",
+            "DUGSU02": "13,045",
+            "DUGYUL02": "13.88",
+            "HUBO03": "민점기",
+            "JD03": "진보당",
+            "DUGSU03": "4,489",
+            "DUGYUL03": "4.77"
+        },
+        {
+            "SDID": 4600,
+            "SDNAME": "전라남도",
+            "WIWID": 4602,
+            "WIWNAME": "여수시",
+            "SUNSU": "236,881",
+            "TUSU": "109,135",
+            "TOTAL": "106,776",
+            "MUTUSU": "2,359",
+            "GIGWON": "127,746",
+            "HUBOSU": "3",
+            "data": [
+                {
+                    "value": 85684,
+                    "name": "김영록",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 16912,
+                    "name": "이정현",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 4180,
+                    "name": "민점기",
+                    "itemStyle": {
+                        "color": "#D6001C"
+                    }
+                }
+            ],
+            "HUBO01": "김영록",
+            "JD01": "더불어민주당",
+            "DUGSU01": "85,684",
+            "DUGYUL01": "80.24",
+            "HUBO02": "이정현",
+            "JD02": "국민의힘",
+            "DUGSU02": "16,912",
+            "DUGYUL02": "15.83",
+            "HUBO03": "민점기",
+            "JD03": "진보당",
+            "DUGSU03": "4,180",
+            "DUGYUL03": "3.91"
+        },
+        {
+            "SDID": 4600,
+            "SDNAME": "전라남도",
+            "WIWID": 4604,
+            "WIWNAME": "순천시",
+            "SUNSU": "235,432",
+            "TUSU": "128,163",
+            "TOTAL": "125,330",
+            "MUTUSU": "2,833",
+            "GIGWON": "107,269",
+            "HUBOSU": "3",
+            "data": [
+                {
+                    "value": 79776,
+                    "name": "김영록",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 40082,
+                    "name": "이정현",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 5472,
+                    "name": "민점기",
+                    "itemStyle": {
+                        "color": "#D6001C"
+                    }
+                }
+            ],
+            "HUBO01": "김영록",
+            "JD01": "더불어민주당",
+            "DUGSU01": "79,776",
+            "DUGYUL01": "63.65",
+            "HUBO02": "이정현",
+            "JD02": "국민의힘",
+            "DUGSU02": "40,082",
+            "DUGYUL02": "31.98",
+            "HUBO03": "민점기",
+            "JD03": "진보당",
+            "DUGSU03": "5,472",
+            "DUGYUL03": "4.36"
+        },
+        {
+            "SDID": 4600,
+            "SDNAME": "전라남도",
+            "WIWID": 4606,
+            "WIWNAME": "나주시",
+            "SUNSU": "98,951",
+            "TUSU": "53,036",
+            "TOTAL": "50,939",
+            "MUTUSU": "2,097",
+            "GIGWON": "45,915",
+            "HUBOSU": "3",
+            "data": [
+                {
+                    "value": 39317,
+                    "name": "김영록",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 8638,
+                    "name": "이정현",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 2984,
+                    "name": "민점기",
+                    "itemStyle": {
+                        "color": "#D6001C"
+                    }
+                }
+            ],
+            "HUBO01": "김영록",
+            "JD01": "더불어민주당",
+            "DUGSU01": "39,317",
+            "DUGYUL01": "77.18",
+            "HUBO02": "이정현",
+            "JD02": "국민의힘",
+            "DUGSU02": "8,638",
+            "DUGYUL02": "16.95",
+            "HUBO03": "민점기",
+            "JD03": "진보당",
+            "DUGSU03": "2,984",
+            "DUGYUL03": "5.85"
+        },
+        {
+            "SDID": 4600,
+            "SDNAME": "전라남도",
+            "WIWID": 4607,
+            "WIWNAME": "광양시",
+            "SUNSU": "126,604",
+            "TUSU": "69,108",
+            "TOTAL": "67,285",
+            "MUTUSU": "1,823",
+            "GIGWON": "57,496",
+            "HUBOSU": "3",
+            "data": [
+                {
+                    "value": 47884,
+                    "name": "김영록",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 15322,
+                    "name": "이정현",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 4079,
+                    "name": "민점기",
+                    "itemStyle": {
+                        "color": "#D6001C"
+                    }
+                }
+            ],
+            "HUBO01": "김영록",
+            "JD01": "더불어민주당",
+            "DUGSU01": "47,884",
+            "DUGYUL01": "71.16",
+            "HUBO02": "이정현",
+            "JD02": "국민의힘",
+            "DUGSU02": "15,322",
+            "DUGYUL02": "22.77",
+            "HUBO03": "민점기",
+            "JD03": "진보당",
+            "DUGSU03": "4,079",
+            "DUGYUL03": "6.06"
+        },
+        {
+            "SDID": 4600,
+            "SDNAME": "전라남도",
+            "WIWID": 4608,
+            "WIWNAME": "담양군",
+            "SUNSU": "41,720",
+            "TUSU": "26,611",
+            "TOTAL": "25,614",
+            "MUTUSU": "997",
+            "GIGWON": "15,109",
+            "HUBOSU": "3",
+            "data": [
+                {
+                    "value": 19641,
+                    "name": "김영록",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 4358,
+                    "name": "이정현",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 1615,
+                    "name": "민점기",
+                    "itemStyle": {
+                        "color": "#D6001C"
+                    }
+                }
+            ],
+            "HUBO01": "김영록",
+            "JD01": "더불어민주당",
+            "DUGSU01": "19,641",
+            "DUGYUL01": "76.68",
+            "HUBO02": "이정현",
+            "JD02": "국민의힘",
+            "DUGSU02": "4,358",
+            "DUGYUL02": "17.01",
+            "HUBO03": "민점기",
+            "JD03": "진보당",
+            "DUGSU03": "1,615",
+            "DUGYUL03": "6.30"
+        },
+        {
+            "SDID": 4600,
+            "SDNAME": "전라남도",
+            "WIWID": 4609,
+            "WIWNAME": "장성군",
+            "SUNSU": "38,470",
+            "TUSU": "26,499",
+            "TOTAL": "25,096",
+            "MUTUSU": "1,403",
+            "GIGWON": "11,971",
+            "HUBOSU": "3",
+            "data": [
+                {
+                    "value": 19721,
+                    "name": "김영록",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 3946,
+                    "name": "이정현",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 1429,
+                    "name": "민점기",
+                    "itemStyle": {
+                        "color": "#D6001C"
+                    }
+                }
+            ],
+            "HUBO01": "김영록",
+            "JD01": "더불어민주당",
+            "DUGSU01": "19,721",
+            "DUGYUL01": "78.58",
+            "HUBO02": "이정현",
+            "JD02": "국민의힘",
+            "DUGSU02": "3,946",
+            "DUGYUL02": "15.72",
+            "HUBO03": "민점기",
+            "JD03": "진보당",
+            "DUGSU03": "1,429",
+            "DUGYUL03": "5.69"
+        },
+        {
+            "SDID": 4600,
+            "SDNAME": "전라남도",
+            "WIWID": 4610,
+            "WIWNAME": "곡성군",
+            "SUNSU": "25,196",
+            "TUSU": "18,643",
+            "TOTAL": "17,633",
+            "MUTUSU": "1,010",
+            "GIGWON": "6,553",
+            "HUBOSU": "3",
+            "data": [
+                {
+                    "value": 9549,
+                    "name": "김영록",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 7225,
+                    "name": "이정현",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 859,
+                    "name": "민점기",
+                    "itemStyle": {
+                        "color": "#D6001C"
+                    }
+                }
+            ],
+            "HUBO01": "김영록",
+            "JD01": "더불어민주당",
+            "DUGSU01": "9,549",
+            "DUGYUL01": "54.15",
+            "HUBO02": "이정현",
+            "JD02": "국민의힘",
+            "DUGSU02": "7,225",
+            "DUGYUL02": "40.97",
+            "HUBO03": "민점기",
+            "JD03": "진보당",
+            "DUGSU03": "859",
+            "DUGYUL03": "4.87"
+        },
+        {
+            "SDID": 4600,
+            "SDNAME": "전라남도",
+            "WIWID": 4611,
+            "WIWNAME": "구례군",
+            "SUNSU": "22,848",
+            "TUSU": "17,417",
+            "TOTAL": "16,540",
+            "MUTUSU": "877",
+            "GIGWON": "5,431",
+            "HUBOSU": "3",
+            "data": [
+                {
+                    "value": 11783,
+                    "name": "김영록",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 3662,
+                    "name": "이정현",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 1095,
+                    "name": "민점기",
+                    "itemStyle": {
+                        "color": "#D6001C"
+                    }
+                }
+            ],
+            "HUBO01": "김영록",
+            "JD01": "더불어민주당",
+            "DUGSU01": "11,783",
+            "DUGYUL01": "71.23",
+            "HUBO02": "이정현",
+            "JD02": "국민의힘",
+            "DUGSU02": "3,662",
+            "DUGYUL02": "22.14",
+            "HUBO03": "민점기",
+            "JD03": "진보당",
+            "DUGSU03": "1,095",
+            "DUGYUL03": "6.62"
+        },
+        {
+            "SDID": 4600,
+            "SDNAME": "전라남도",
+            "WIWID": 4612,
+            "WIWNAME": "고흥군",
+            "SUNSU": "57,371",
+            "TUSU": "44,658",
+            "TOTAL": "41,490",
+            "MUTUSU": "3,168",
+            "GIGWON": "12,713",
+            "HUBOSU": "3",
+            "data": [
+                {
+                    "value": 32273,
+                    "name": "김영록",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 6793,
+                    "name": "이정현",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 2424,
+                    "name": "민점기",
+                    "itemStyle": {
+                        "color": "#D6001C"
+                    }
+                }
+            ],
+            "HUBO01": "김영록",
+            "JD01": "더불어민주당",
+            "DUGSU01": "32,273",
+            "DUGYUL01": "77.78",
+            "HUBO02": "이정현",
+            "JD02": "국민의힘",
+            "DUGSU02": "6,793",
+            "DUGYUL02": "16.37",
+            "HUBO03": "민점기",
+            "JD03": "진보당",
+            "DUGSU03": "2,424",
+            "DUGYUL03": "5.84"
+        },
+        {
+            "SDID": 4600,
+            "SDNAME": "전라남도",
+            "WIWID": 4613,
+            "WIWNAME": "보성군",
+            "SUNSU": "35,731",
+            "TUSU": "23,549",
+            "TOTAL": "22,474",
+            "MUTUSU": "1,075",
+            "GIGWON": "12,182",
+            "HUBOSU": "3",
+            "data": [
+                {
+                    "value": 16344,
+                    "name": "김영록",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 4492,
+                    "name": "이정현",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 1638,
+                    "name": "민점기",
+                    "itemStyle": {
+                        "color": "#D6001C"
+                    }
+                }
+            ],
+            "HUBO01": "김영록",
+            "JD01": "더불어민주당",
+            "DUGSU01": "16,344",
+            "DUGYUL01": "72.72",
+            "HUBO02": "이정현",
+            "JD02": "국민의힘",
+            "DUGSU02": "4,492",
+            "DUGYUL02": "19.98",
+            "HUBO03": "민점기",
+            "JD03": "진보당",
+            "DUGSU03": "1,638",
+            "DUGYUL03": "7.28"
+        },
+        {
+            "SDID": 4600,
+            "SDNAME": "전라남도",
+            "WIWID": 4614,
+            "WIWNAME": "화순군",
+            "SUNSU": "55,284",
+            "TUSU": "32,432",
+            "TOTAL": "31,037",
+            "MUTUSU": "1,395",
+            "GIGWON": "22,852",
+            "HUBOSU": "3",
+            "data": [
+                {
+                    "value": 23759,
+                    "name": "김영록",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 4912,
+                    "name": "이정현",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 2366,
+                    "name": "민점기",
+                    "itemStyle": {
+                        "color": "#D6001C"
+                    }
+                }
+            ],
+            "HUBO01": "김영록",
+            "JD01": "더불어민주당",
+            "DUGSU01": "23,759",
+            "DUGYUL01": "76.55",
+            "HUBO02": "이정현",
+            "JD02": "국민의힘",
+            "DUGSU02": "4,912",
+            "DUGYUL02": "15.82",
+            "HUBO03": "민점기",
+            "JD03": "진보당",
+            "DUGSU03": "2,366",
+            "DUGYUL03": "7.62"
+        },
+        {
+            "SDID": 4600,
+            "SDNAME": "전라남도",
+            "WIWID": 4615,
+            "WIWNAME": "장흥군",
+            "SUNSU": "32,510",
+            "TUSU": "23,257",
+            "TOTAL": "22,128",
+            "MUTUSU": "1,129",
+            "GIGWON": "9,253",
+            "HUBOSU": "3",
+            "data": [
+                {
+                    "value": 17111,
+                    "name": "김영록",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 3220,
+                    "name": "이정현",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 1797,
+                    "name": "민점기",
+                    "itemStyle": {
+                        "color": "#D6001C"
+                    }
+                }
+            ],
+            "HUBO01": "김영록",
+            "JD01": "더불어민주당",
+            "DUGSU01": "17,111",
+            "DUGYUL01": "77.32",
+            "HUBO02": "이정현",
+            "JD02": "국민의힘",
+            "DUGSU02": "3,220",
+            "DUGYUL02": "14.55",
+            "HUBO03": "민점기",
+            "JD03": "진보당",
+            "DUGSU03": "1,797",
+            "DUGYUL03": "8.12"
+        },
+        {
+            "SDID": 4600,
+            "SDNAME": "전라남도",
+            "WIWID": 4616,
+            "WIWNAME": "강진군",
+            "SUNSU": "30,148",
+            "TUSU": "21,942",
+            "TOTAL": "20,841",
+            "MUTUSU": "1,101",
+            "GIGWON": "8,206",
+            "HUBOSU": "3",
+            "data": [
+                {
+                    "value": 15844,
+                    "name": "김영록",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 3412,
+                    "name": "이정현",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 1585,
+                    "name": "민점기",
+                    "itemStyle": {
+                        "color": "#D6001C"
+                    }
+                }
+            ],
+            "HUBO01": "김영록",
+            "JD01": "더불어민주당",
+            "DUGSU01": "15,844",
+            "DUGYUL01": "76.02",
+            "HUBO02": "이정현",
+            "JD02": "국민의힘",
+            "DUGSU02": "3,412",
+            "DUGYUL02": "16.37",
+            "HUBO03": "민점기",
+            "JD03": "진보당",
+            "DUGSU03": "1,585",
+            "DUGYUL03": "7.60"
+        },
+        {
+            "SDID": 4600,
+            "SDNAME": "전라남도",
+            "WIWID": 4617,
+            "WIWNAME": "완도군",
+            "SUNSU": "42,697",
+            "TUSU": "29,801",
+            "TOTAL": "28,479",
+            "MUTUSU": "1,322",
+            "GIGWON": "12,896",
+            "HUBOSU": "3",
+            "data": [
+                {
+                    "value": 24396,
+                    "name": "김영록",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 2762,
+                    "name": "이정현",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 1321,
+                    "name": "민점기",
+                    "itemStyle": {
+                        "color": "#D6001C"
+                    }
+                }
+            ],
+            "HUBO01": "김영록",
+            "JD01": "더불어민주당",
+            "DUGSU01": "24,396",
+            "DUGYUL01": "85.66",
+            "HUBO02": "이정현",
+            "JD02": "국민의힘",
+            "DUGSU02": "2,762",
+            "DUGYUL02": "9.69",
+            "HUBO03": "민점기",
+            "JD03": "진보당",
+            "DUGSU03": "1,321",
+            "DUGYUL03": "4.63"
+        },
+        {
+            "SDID": 4600,
+            "SDNAME": "전라남도",
+            "WIWID": 4618,
+            "WIWNAME": "해남군",
+            "SUNSU": "59,423",
+            "TUSU": "35,245",
+            "TOTAL": "33,783",
+            "MUTUSU": "1,462",
+            "GIGWON": "24,178",
+            "HUBOSU": "3",
+            "data": [
+                {
+                    "value": 27283,
+                    "name": "김영록",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 4180,
+                    "name": "이정현",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 2320,
+                    "name": "민점기",
+                    "itemStyle": {
+                        "color": "#D6001C"
+                    }
+                }
+            ],
+            "HUBO01": "김영록",
+            "JD01": "더불어민주당",
+            "DUGSU01": "27,283",
+            "DUGYUL01": "80.75",
+            "HUBO02": "이정현",
+            "JD02": "국민의힘",
+            "DUGSU02": "4,180",
+            "DUGYUL02": "12.37",
+            "HUBO03": "민점기",
+            "JD03": "진보당",
+            "DUGSU03": "2,320",
+            "DUGYUL03": "6.86"
+        },
+        {
+            "SDID": 4600,
+            "SDNAME": "전라남도",
+            "WIWID": 4619,
+            "WIWNAME": "진도군",
+            "SUNSU": "26,748",
+            "TUSU": "20,416",
+            "TOTAL": "19,341",
+            "MUTUSU": "1,075",
+            "GIGWON": "6,332",
+            "HUBOSU": "3",
+            "data": [
+                {
+                    "value": 15677,
+                    "name": "김영록",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 2411,
+                    "name": "이정현",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 1253,
+                    "name": "민점기",
+                    "itemStyle": {
+                        "color": "#D6001C"
+                    }
+                }
+            ],
+            "HUBO01": "김영록",
+            "JD01": "더불어민주당",
+            "DUGSU01": "15,677",
+            "DUGYUL01": "81.05",
+            "HUBO02": "이정현",
+            "JD02": "국민의힘",
+            "DUGSU02": "2,411",
+            "DUGYUL02": "12.46",
+            "HUBO03": "민점기",
+            "JD03": "진보당",
+            "DUGSU03": "1,253",
+            "DUGYUL03": "6.47"
+        },
+        {
+            "SDID": 4600,
+            "SDNAME": "전라남도",
+            "WIWID": 4620,
+            "WIWNAME": "영암군",
+            "SUNSU": "46,851",
+            "TUSU": "28,690",
+            "TOTAL": "27,368",
+            "MUTUSU": "1,322",
+            "GIGWON": "18,161",
+            "HUBOSU": "3",
+            "data": [
+                {
+                    "value": 21769,
+                    "name": "김영록",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 4174,
+                    "name": "이정현",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 1425,
+                    "name": "민점기",
+                    "itemStyle": {
+                        "color": "#D6001C"
+                    }
+                }
+            ],
+            "HUBO01": "김영록",
+            "JD01": "더불어민주당",
+            "DUGSU01": "21,769",
+            "DUGYUL01": "79.54",
+            "HUBO02": "이정현",
+            "JD02": "국민의힘",
+            "DUGSU02": "4,174",
+            "DUGYUL02": "15.25",
+            "HUBO03": "민점기",
+            "JD03": "진보당",
+            "DUGSU03": "1,425",
+            "DUGYUL03": "5.20"
+        },
+        {
+            "SDID": 4600,
+            "SDNAME": "전라남도",
+            "WIWID": 4621,
+            "WIWNAME": "무안군",
+            "SUNSU": "74,895",
+            "TUSU": "41,327",
+            "TOTAL": "39,582",
+            "MUTUSU": "1,745",
+            "GIGWON": "33,568",
+            "HUBOSU": "3",
+            "data": [
+                {
+                    "value": 31544,
+                    "name": "김영록",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 6347,
+                    "name": "이정현",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 1691,
+                    "name": "민점기",
+                    "itemStyle": {
+                        "color": "#D6001C"
+                    }
+                }
+            ],
+            "HUBO01": "김영록",
+            "JD01": "더불어민주당",
+            "DUGSU01": "31,544",
+            "DUGYUL01": "79.69",
+            "HUBO02": "이정현",
+            "JD02": "국민의힘",
+            "DUGSU02": "6,347",
+            "DUGYUL02": "16.03",
+            "HUBO03": "민점기",
+            "JD03": "진보당",
+            "DUGSU03": "1,691",
+            "DUGYUL03": "4.27"
+        },
+        {
+            "SDID": 4600,
+            "SDNAME": "전라남도",
+            "WIWID": 4622,
+            "WIWNAME": "영광군",
+            "SUNSU": "45,299",
+            "TUSU": "31,817",
+            "TOTAL": "29,949",
+            "MUTUSU": "1,868",
+            "GIGWON": "13,482",
+            "HUBOSU": "3",
+            "data": [
+                {
+                    "value": 22937,
+                    "name": "김영록",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 4693,
+                    "name": "이정현",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 2319,
+                    "name": "민점기",
+                    "itemStyle": {
+                        "color": "#D6001C"
+                    }
+                }
+            ],
+            "HUBO01": "김영록",
+            "JD01": "더불어민주당",
+            "DUGSU01": "22,937",
+            "DUGYUL01": "76.58",
+            "HUBO02": "이정현",
+            "JD02": "국민의힘",
+            "DUGSU02": "4,693",
+            "DUGYUL02": "15.66",
+            "HUBO03": "민점기",
+            "JD03": "진보당",
+            "DUGSU03": "2,319",
+            "DUGYUL03": "7.74"
+        },
+        {
+            "SDID": 4600,
+            "SDNAME": "전라남도",
+            "WIWID": 4623,
+            "WIWNAME": "함평군",
+            "SUNSU": "28,381",
+            "TUSU": "18,226",
+            "TOTAL": "17,351",
+            "MUTUSU": "875",
+            "GIGWON": "10,155",
+            "HUBOSU": "3",
+            "data": [
+                {
+                    "value": 13807,
+                    "name": "김영록",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 2801,
+                    "name": "이정현",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 743,
+                    "name": "민점기",
+                    "itemStyle": {
+                        "color": "#D6001C"
+                    }
+                }
+            ],
+            "HUBO01": "김영록",
+            "JD01": "더불어민주당",
+            "DUGSU01": "13,807",
+            "DUGYUL01": "79.57",
+            "HUBO02": "이정현",
+            "JD02": "국민의힘",
+            "DUGSU02": "2,801",
+            "DUGYUL02": "16.14",
+            "HUBO03": "민점기",
+            "JD03": "진보당",
+            "DUGSU03": "743",
+            "DUGYUL03": "4.28"
+        },
+        {
+            "SDID": 4600,
+            "SDNAME": "전라남도",
+            "WIWID": 4624,
+            "WIWNAME": "신안군",
+            "SUNSU": "35,246",
+            "TUSU": "26,407",
+            "TOTAL": "24,811",
+            "MUTUSU": "1,596",
+            "GIGWON": "8,839",
+            "HUBOSU": "3",
+            "data": [
+                {
+                    "value": 19926,
+                    "name": "김영록",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 3633,
+                    "name": "이정현",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 1252,
+                    "name": "민점기",
+                    "itemStyle": {
+                        "color": "#D6001C"
+                    }
+                }
+            ],
+            "HUBO01": "김영록",
+            "JD01": "더불어민주당",
+            "DUGSU01": "19,926",
+            "DUGYUL01": "80.31",
+            "HUBO02": "이정현",
+            "JD02": "국민의힘",
+            "DUGSU02": "3,633",
+            "DUGYUL02": "14.64",
+            "HUBO03": "민점기",
+            "JD03": "진보당",
+            "DUGSU03": "1,252",
+            "DUGYUL03": "5.04"
         }
     ]
 }

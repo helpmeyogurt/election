@@ -5,13 +5,684 @@
             "SDNAME": "강원도",
             "WIWID": 0,
             "WIWNAME": "합계",
-            "SUNSU": "0",
-            "TUSU": "0",
-            "TOTAL": "0",
-            "MUTUSU": "0",
-            "GIGWON": "0",
-            "HUBOSU": "0",
-            "data": []
+            "SUNSU": "1,336,080",
+            "TUSU": "772,498",
+            "TOTAL": "757,227",
+            "MUTUSU": "15,271",
+            "GIGWON": "563,582",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 347766,
+                    "name": "이광재",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 409461,
+                    "name": "김진태",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "이광재",
+            "JD01": "더불어민주당",
+            "DUGSU01": "347,766",
+            "DUGYUL01": "45.92",
+            "HUBO02": "김진태",
+            "JD02": "국민의힘",
+            "DUGSU02": "409,461",
+            "DUGYUL02": "54.07"
+        },
+        {
+            "SDID": 4200,
+            "SDNAME": "강원도",
+            "WIWID": 4201,
+            "WIWNAME": "춘천시",
+            "SUNSU": "244,406",
+            "TUSU": "137,765",
+            "TOTAL": "135,840",
+            "MUTUSU": "1,925",
+            "GIGWON": "106,641",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 63714,
+                    "name": "이광재",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 72126,
+                    "name": "김진태",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "이광재",
+            "JD01": "더불어민주당",
+            "DUGSU01": "63,714",
+            "DUGYUL01": "46.90",
+            "HUBO02": "김진태",
+            "JD02": "국민의힘",
+            "DUGSU02": "72,126",
+            "DUGYUL02": "53.09"
+        },
+        {
+            "SDID": 4200,
+            "SDNAME": "강원도",
+            "WIWID": 4202,
+            "WIWNAME": "원주시",
+            "SUNSU": "304,060",
+            "TUSU": "157,538",
+            "TOTAL": "155,139",
+            "MUTUSU": "2,399",
+            "GIGWON": "146,522",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 77841,
+                    "name": "이광재",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 77298,
+                    "name": "김진태",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "이광재",
+            "JD01": "더불어민주당",
+            "DUGSU01": "77,841",
+            "DUGYUL01": "50.17",
+            "HUBO02": "김진태",
+            "JD02": "국민의힘",
+            "DUGSU02": "77,298",
+            "DUGYUL02": "49.82"
+        },
+        {
+            "SDID": 4200,
+            "SDNAME": "강원도",
+            "WIWID": 4203,
+            "WIWNAME": "강릉시",
+            "SUNSU": "185,804",
+            "TUSU": "101,944",
+            "TOTAL": "100,338",
+            "MUTUSU": "1,606",
+            "GIGWON": "83,860",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 42113,
+                    "name": "이광재",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 58225,
+                    "name": "김진태",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "이광재",
+            "JD01": "더불어민주당",
+            "DUGSU01": "42,113",
+            "DUGYUL01": "41.97",
+            "HUBO02": "김진태",
+            "JD02": "국민의힘",
+            "DUGSU02": "58,225",
+            "DUGYUL02": "58.02"
+        },
+        {
+            "SDID": 4200,
+            "SDNAME": "강원도",
+            "WIWID": 4204,
+            "WIWNAME": "동해시",
+            "SUNSU": "76,886",
+            "TUSU": "42,047",
+            "TOTAL": "41,230",
+            "MUTUSU": "817",
+            "GIGWON": "34,839",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 17499,
+                    "name": "이광재",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 23731,
+                    "name": "김진태",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "이광재",
+            "JD01": "더불어민주당",
+            "DUGSU01": "17,499",
+            "DUGYUL01": "42.44",
+            "HUBO02": "김진태",
+            "JD02": "국민의힘",
+            "DUGSU02": "23,731",
+            "DUGYUL02": "57.55"
+        },
+        {
+            "SDID": 4200,
+            "SDNAME": "강원도",
+            "WIWID": 4205,
+            "WIWNAME": "삼척시",
+            "SUNSU": "57,023",
+            "TUSU": "37,549",
+            "TOTAL": "36,626",
+            "MUTUSU": "923",
+            "GIGWON": "19,474",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 15807,
+                    "name": "이광재",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 20819,
+                    "name": "김진태",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "이광재",
+            "JD01": "더불어민주당",
+            "DUGSU01": "15,807",
+            "DUGYUL01": "43.15",
+            "HUBO02": "김진태",
+            "JD02": "국민의힘",
+            "DUGSU02": "20,819",
+            "DUGYUL02": "56.84"
+        },
+        {
+            "SDID": 4200,
+            "SDNAME": "강원도",
+            "WIWID": 4206,
+            "WIWNAME": "태백시",
+            "SUNSU": "35,236",
+            "TUSU": "22,538",
+            "TOTAL": "22,010",
+            "MUTUSU": "528",
+            "GIGWON": "12,698",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 10288,
+                    "name": "이광재",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 11722,
+                    "name": "김진태",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "이광재",
+            "JD01": "더불어민주당",
+            "DUGSU01": "10,288",
+            "DUGYUL01": "46.74",
+            "HUBO02": "김진태",
+            "JD02": "국민의힘",
+            "DUGSU02": "11,722",
+            "DUGYUL02": "53.25"
+        },
+        {
+            "SDID": 4200,
+            "SDNAME": "강원도",
+            "WIWID": 4207,
+            "WIWNAME": "정선군",
+            "SUNSU": "32,001",
+            "TUSU": "22,082",
+            "TOTAL": "21,337",
+            "MUTUSU": "745",
+            "GIGWON": "9,919",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 10570,
+                    "name": "이광재",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 10767,
+                    "name": "김진태",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "이광재",
+            "JD01": "더불어민주당",
+            "DUGSU01": "10,570",
+            "DUGYUL01": "49.53",
+            "HUBO02": "김진태",
+            "JD02": "국민의힘",
+            "DUGSU02": "10,767",
+            "DUGYUL02": "50.46"
+        },
+        {
+            "SDID": 4200,
+            "SDNAME": "강원도",
+            "WIWID": 4208,
+            "WIWNAME": "속초시",
+            "SUNSU": "71,621",
+            "TUSU": "37,094",
+            "TOTAL": "36,390",
+            "MUTUSU": "704",
+            "GIGWON": "34,527",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 16266,
+                    "name": "이광재",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 20124,
+                    "name": "김진태",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "이광재",
+            "JD01": "더불어민주당",
+            "DUGSU01": "16,266",
+            "DUGYUL01": "44.69",
+            "HUBO02": "김진태",
+            "JD02": "국민의힘",
+            "DUGSU02": "20,124",
+            "DUGYUL02": "55.30"
+        },
+        {
+            "SDID": 4200,
+            "SDNAME": "강원도",
+            "WIWID": 4209,
+            "WIWNAME": "고성군",
+            "SUNSU": "24,776",
+            "TUSU": "16,776",
+            "TOTAL": "16,188",
+            "MUTUSU": "588",
+            "GIGWON": "8,000",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 7164,
+                    "name": "이광재",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 9024,
+                    "name": "김진태",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "이광재",
+            "JD01": "더불어민주당",
+            "DUGSU01": "7,164",
+            "DUGYUL01": "44.25",
+            "HUBO02": "김진태",
+            "JD02": "국민의힘",
+            "DUGSU02": "9,024",
+            "DUGYUL02": "55.74"
+        },
+        {
+            "SDID": 4200,
+            "SDNAME": "강원도",
+            "WIWID": 4210,
+            "WIWNAME": "양양군",
+            "SUNSU": "25,359",
+            "TUSU": "16,671",
+            "TOTAL": "16,194",
+            "MUTUSU": "477",
+            "GIGWON": "8,688",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 6749,
+                    "name": "이광재",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 9445,
+                    "name": "김진태",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "이광재",
+            "JD01": "더불어민주당",
+            "DUGSU01": "6,749",
+            "DUGYUL01": "41.67",
+            "HUBO02": "김진태",
+            "JD02": "국민의힘",
+            "DUGSU02": "9,445",
+            "DUGYUL02": "58.32"
+        },
+        {
+            "SDID": 4200,
+            "SDNAME": "강원도",
+            "WIWID": 4211,
+            "WIWNAME": "인제군",
+            "SUNSU": "27,939",
+            "TUSU": "18,540",
+            "TOTAL": "17,833",
+            "MUTUSU": "707",
+            "GIGWON": "9,399",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 8612,
+                    "name": "이광재",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 9221,
+                    "name": "김진태",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "이광재",
+            "JD01": "더불어민주당",
+            "DUGSU01": "8,612",
+            "DUGYUL01": "48.29",
+            "HUBO02": "김진태",
+            "JD02": "국민의힘",
+            "DUGSU02": "9,221",
+            "DUGYUL02": "51.70"
+        },
+        {
+            "SDID": 4200,
+            "SDNAME": "강원도",
+            "WIWID": 4212,
+            "WIWNAME": "홍천군",
+            "SUNSU": "60,743",
+            "TUSU": "36,940",
+            "TOTAL": "36,202",
+            "MUTUSU": "738",
+            "GIGWON": "23,803",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 15698,
+                    "name": "이광재",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 20504,
+                    "name": "김진태",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "이광재",
+            "JD01": "더불어민주당",
+            "DUGSU01": "15,698",
+            "DUGYUL01": "43.36",
+            "HUBO02": "김진태",
+            "JD02": "국민의힘",
+            "DUGSU02": "20,504",
+            "DUGYUL02": "56.63"
+        },
+        {
+            "SDID": 4200,
+            "SDNAME": "강원도",
+            "WIWID": 4213,
+            "WIWNAME": "횡성군",
+            "SUNSU": "41,777",
+            "TUSU": "27,750",
+            "TOTAL": "27,162",
+            "MUTUSU": "588",
+            "GIGWON": "14,027",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 11750,
+                    "name": "이광재",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 15412,
+                    "name": "김진태",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "이광재",
+            "JD01": "더불어민주당",
+            "DUGSU01": "11,750",
+            "DUGYUL01": "43.25",
+            "HUBO02": "김진태",
+            "JD02": "국민의힘",
+            "DUGSU02": "15,412",
+            "DUGYUL02": "56.74"
+        },
+        {
+            "SDID": 4200,
+            "SDNAME": "강원도",
+            "WIWID": 4214,
+            "WIWNAME": "영월군",
+            "SUNSU": "34,371",
+            "TUSU": "22,806",
+            "TOTAL": "22,311",
+            "MUTUSU": "495",
+            "GIGWON": "11,565",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 10182,
+                    "name": "이광재",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 12129,
+                    "name": "김진태",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "이광재",
+            "JD01": "더불어민주당",
+            "DUGSU01": "10,182",
+            "DUGYUL01": "45.63",
+            "HUBO02": "김진태",
+            "JD02": "국민의힘",
+            "DUGSU02": "12,129",
+            "DUGYUL02": "54.36"
+        },
+        {
+            "SDID": 4200,
+            "SDNAME": "강원도",
+            "WIWID": 4215,
+            "WIWNAME": "평창군",
+            "SUNSU": "37,372",
+            "TUSU": "25,363",
+            "TOTAL": "24,968",
+            "MUTUSU": "395",
+            "GIGWON": "12,009",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 12618,
+                    "name": "이광재",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 12350,
+                    "name": "김진태",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "이광재",
+            "JD01": "더불어민주당",
+            "DUGSU01": "12,618",
+            "DUGYUL01": "50.53",
+            "HUBO02": "김진태",
+            "JD02": "국민의힘",
+            "DUGSU02": "12,350",
+            "DUGYUL02": "49.46"
+        },
+        {
+            "SDID": 4200,
+            "SDNAME": "강원도",
+            "WIWID": 4216,
+            "WIWNAME": "화천군",
+            "SUNSU": "21,055",
+            "TUSU": "13,837",
+            "TOTAL": "13,407",
+            "MUTUSU": "430",
+            "GIGWON": "7,218",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 5926,
+                    "name": "이광재",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 7481,
+                    "name": "김진태",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "이광재",
+            "JD01": "더불어민주당",
+            "DUGSU01": "5,926",
+            "DUGYUL01": "44.20",
+            "HUBO02": "김진태",
+            "JD02": "국민의힘",
+            "DUGSU02": "7,481",
+            "DUGYUL02": "55.79"
+        },
+        {
+            "SDID": 4200,
+            "SDNAME": "강원도",
+            "WIWID": 4217,
+            "WIWNAME": "양구군",
+            "SUNSU": "18,552",
+            "TUSU": "12,804",
+            "TOTAL": "12,448",
+            "MUTUSU": "356",
+            "GIGWON": "5,748",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 5658,
+                    "name": "이광재",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 6790,
+                    "name": "김진태",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "이광재",
+            "JD01": "더불어민주당",
+            "DUGSU01": "5,658",
+            "DUGYUL01": "45.45",
+            "HUBO02": "김진태",
+            "JD02": "국민의힘",
+            "DUGSU02": "6,790",
+            "DUGYUL02": "54.54"
+        },
+        {
+            "SDID": 4200,
+            "SDNAME": "강원도",
+            "WIWID": 4218,
+            "WIWNAME": "철원군",
+            "SUNSU": "37,099",
+            "TUSU": "22,454",
+            "TOTAL": "21,604",
+            "MUTUSU": "850",
+            "GIGWON": "14,645",
+            "HUBOSU": "2",
+            "data": [
+                {
+                    "value": 9311,
+                    "name": "이광재",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 12293,
+                    "name": "김진태",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "이광재",
+            "JD01": "더불어민주당",
+            "DUGSU01": "9,311",
+            "DUGYUL01": "43.09",
+            "HUBO02": "김진태",
+            "JD02": "국민의힘",
+            "DUGSU02": "12,293",
+            "DUGYUL02": "56.90"
         }
     ]
 }

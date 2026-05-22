@@ -5,13 +5,174 @@
             "SDNAME": "제주특별자치도",
             "WIWID": 0,
             "WIWNAME": "합계",
-            "SUNSU": "0",
-            "TUSU": "0",
-            "TOTAL": "0",
-            "MUTUSU": "0",
-            "GIGWON": "0",
-            "HUBOSU": "0",
-            "data": []
+            "SUNSU": "565,084",
+            "TUSU": "300,139",
+            "TOTAL": "295,790",
+            "MUTUSU": "4,349",
+            "GIGWON": "264,945",
+            "HUBOSU": "4",
+            "data": [
+                {
+                    "value": 163116,
+                    "name": "오영훈",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 116786,
+                    "name": "허향진",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 5750,
+                    "name": "부순정",
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                },
+                {
+                    "value": 10138,
+                    "name": "박찬식",
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                }
+            ],
+            "HUBO01": "오영훈",
+            "JD01": "더불어민주당",
+            "DUGSU01": "163,116",
+            "DUGYUL01": "55.14",
+            "HUBO02": "허향진",
+            "JD02": "국민의힘",
+            "DUGSU02": "116,786",
+            "DUGYUL02": "39.48",
+            "HUBO03": "부순정",
+            "JD03": "녹색당",
+            "DUGSU03": "5,750",
+            "DUGYUL03": "1.94",
+            "HUBO04": "박찬식",
+            "JD04": "무소속",
+            "DUGSU04": "10,138",
+            "DUGYUL04": "3.42"
+        },
+        {
+            "SDID": 4900,
+            "SDNAME": "제주특별자치도",
+            "WIWID": 4901,
+            "WIWNAME": "제주시",
+            "SUNSU": "409,110",
+            "TUSU": "216,419",
+            "TOTAL": "213,568",
+            "MUTUSU": "2,851",
+            "GIGWON": "192,691",
+            "HUBOSU": "4",
+            "data": [
+                {
+                    "value": 118762,
+                    "name": "오영훈",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 83539,
+                    "name": "허향진",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 4389,
+                    "name": "부순정",
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                },
+                {
+                    "value": 6878,
+                    "name": "박찬식",
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                }
+            ],
+            "HUBO01": "오영훈",
+            "JD01": "더불어민주당",
+            "DUGSU01": "118,762",
+            "DUGYUL01": "55.60",
+            "HUBO02": "허향진",
+            "JD02": "국민의힘",
+            "DUGSU02": "83,539",
+            "DUGYUL02": "39.11",
+            "HUBO03": "부순정",
+            "JD03": "녹색당",
+            "DUGSU03": "4,389",
+            "DUGYUL03": "2.05",
+            "HUBO04": "박찬식",
+            "JD04": "무소속",
+            "DUGSU04": "6,878",
+            "DUGYUL04": "3.22"
+        },
+        {
+            "SDID": 4900,
+            "SDNAME": "제주특별자치도",
+            "WIWID": 4902,
+            "WIWNAME": "서귀포시",
+            "SUNSU": "155,974",
+            "TUSU": "83,720",
+            "TOTAL": "82,222",
+            "MUTUSU": "1,498",
+            "GIGWON": "72,254",
+            "HUBOSU": "4",
+            "data": [
+                {
+                    "value": 44354,
+                    "name": "오영훈",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 33247,
+                    "name": "허향진",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 1361,
+                    "name": "부순정",
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                },
+                {
+                    "value": 3260,
+                    "name": "박찬식",
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                }
+            ],
+            "HUBO01": "오영훈",
+            "JD01": "더불어민주당",
+            "DUGSU01": "44,354",
+            "DUGYUL01": "53.94",
+            "HUBO02": "허향진",
+            "JD02": "국민의힘",
+            "DUGSU02": "33,247",
+            "DUGYUL02": "40.43",
+            "HUBO03": "부순정",
+            "JD03": "녹색당",
+            "DUGSU03": "1,361",
+            "DUGYUL03": "1.65",
+            "HUBO04": "박찬식",
+            "JD04": "무소속",
+            "DUGSU04": "3,260",
+            "DUGYUL04": "3.96"
         }
     ]
 }

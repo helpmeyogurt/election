@@ -5,13 +5,414 @@
             "SDNAME": "광주광역시",
             "WIWID": 0,
             "WIWNAME": "합계",
-            "SUNSU": "0",
-            "TUSU": "0",
-            "TOTAL": "0",
-            "MUTUSU": "0",
-            "GIGWON": "0",
-            "HUBOSU": "0",
-            "data": []
+            "SUNSU": "1,206,886",
+            "TUSU": "454,516",
+            "TOTAL": "446,770",
+            "MUTUSU": "7,746",
+            "GIGWON": "752,370",
+            "HUBOSU": "5",
+            "data": [
+                {
+                    "value": 334699,
+                    "name": "강기정",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 71062,
+                    "name": "주기환",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 21070,
+                    "name": "장연주",
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 3344,
+                    "name": "문현철",
+                    "itemStyle": {
+                        "color": "#00D2C3"
+                    }
+                },
+                {
+                    "value": 16595,
+                    "name": "김주업",
+                    "itemStyle": {
+                        "color": "#D6001C"
+                    }
+                }
+            ],
+            "HUBO01": "강기정",
+            "JD01": "더불어민주당",
+            "DUGSU01": "334,699",
+            "DUGYUL01": "74.91",
+            "HUBO02": "주기환",
+            "JD02": "국민의힘",
+            "DUGSU02": "71,062",
+            "DUGYUL02": "15.90",
+            "HUBO03": "장연주",
+            "JD03": "정의당",
+            "DUGSU03": "21,070",
+            "DUGYUL03": "4.71",
+            "HUBO04": "문현철",
+            "JD04": "기본소득당",
+            "DUGSU04": "3,344",
+            "DUGYUL04": "0.74",
+            "HUBO05": "김주업",
+            "JD05": "진보당",
+            "DUGSU05": "16,595",
+            "DUGYUL05": "3.71"
+        },
+        {
+            "SDID": 2900,
+            "SDNAME": "광주광역시",
+            "WIWID": 2901,
+            "WIWNAME": "동구",
+            "SUNSU": "90,255",
+            "TUSU": "38,373",
+            "TOTAL": "37,733",
+            "MUTUSU": "640",
+            "GIGWON": "51,882",
+            "HUBOSU": "5",
+            "data": [
+                {
+                    "value": 27775,
+                    "name": "강기정",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 6994,
+                    "name": "주기환",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 1468,
+                    "name": "장연주",
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 299,
+                    "name": "문현철",
+                    "itemStyle": {
+                        "color": "#00D2C3"
+                    }
+                },
+                {
+                    "value": 1197,
+                    "name": "김주업",
+                    "itemStyle": {
+                        "color": "#D6001C"
+                    }
+                }
+            ],
+            "HUBO01": "강기정",
+            "JD01": "더불어민주당",
+            "DUGSU01": "27,775",
+            "DUGYUL01": "73.60",
+            "HUBO02": "주기환",
+            "JD02": "국민의힘",
+            "DUGSU02": "6,994",
+            "DUGYUL02": "18.53",
+            "HUBO03": "장연주",
+            "JD03": "정의당",
+            "DUGSU03": "1,468",
+            "DUGYUL03": "3.89",
+            "HUBO04": "문현철",
+            "JD04": "기본소득당",
+            "DUGSU04": "299",
+            "DUGYUL04": "0.79",
+            "HUBO05": "김주업",
+            "JD05": "진보당",
+            "DUGSU05": "1,197",
+            "DUGYUL05": "3.17"
+        },
+        {
+            "SDID": 2900,
+            "SDNAME": "광주광역시",
+            "WIWID": 2902,
+            "WIWNAME": "서구",
+            "SUNSU": "246,841",
+            "TUSU": "97,941",
+            "TOTAL": "96,340",
+            "MUTUSU": "1,601",
+            "GIGWON": "148,900",
+            "HUBOSU": "5",
+            "data": [
+                {
+                    "value": 71873,
+                    "name": "강기정",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 15552,
+                    "name": "주기환",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 4728,
+                    "name": "장연주",
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 645,
+                    "name": "문현철",
+                    "itemStyle": {
+                        "color": "#00D2C3"
+                    }
+                },
+                {
+                    "value": 3542,
+                    "name": "김주업",
+                    "itemStyle": {
+                        "color": "#D6001C"
+                    }
+                }
+            ],
+            "HUBO01": "강기정",
+            "JD01": "더불어민주당",
+            "DUGSU01": "71,873",
+            "DUGYUL01": "74.60",
+            "HUBO02": "주기환",
+            "JD02": "국민의힘",
+            "DUGSU02": "15,552",
+            "DUGYUL02": "16.14",
+            "HUBO03": "장연주",
+            "JD03": "정의당",
+            "DUGSU03": "4,728",
+            "DUGYUL03": "4.90",
+            "HUBO04": "문현철",
+            "JD04": "기본소득당",
+            "DUGSU04": "645",
+            "DUGYUL04": "0.66",
+            "HUBO05": "김주업",
+            "JD05": "진보당",
+            "DUGSU05": "3,542",
+            "DUGYUL05": "3.67"
+        },
+        {
+            "SDID": 2900,
+            "SDNAME": "광주광역시",
+            "WIWID": 2903,
+            "WIWNAME": "남구",
+            "SUNSU": "180,158",
+            "TUSU": "71,496",
+            "TOTAL": "70,323",
+            "MUTUSU": "1,173",
+            "GIGWON": "108,662",
+            "HUBOSU": "5",
+            "data": [
+                {
+                    "value": 53512,
+                    "name": "강기정",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 11406,
+                    "name": "주기환",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 2808,
+                    "name": "장연주",
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 459,
+                    "name": "문현철",
+                    "itemStyle": {
+                        "color": "#00D2C3"
+                    }
+                },
+                {
+                    "value": 2138,
+                    "name": "김주업",
+                    "itemStyle": {
+                        "color": "#D6001C"
+                    }
+                }
+            ],
+            "HUBO01": "강기정",
+            "JD01": "더불어민주당",
+            "DUGSU01": "53,512",
+            "DUGYUL01": "76.09",
+            "HUBO02": "주기환",
+            "JD02": "국민의힘",
+            "DUGSU02": "11,406",
+            "DUGYUL02": "16.21",
+            "HUBO03": "장연주",
+            "JD03": "정의당",
+            "DUGSU03": "2,808",
+            "DUGYUL03": "3.99",
+            "HUBO04": "문현철",
+            "JD04": "기본소득당",
+            "DUGSU04": "459",
+            "DUGYUL04": "0.65",
+            "HUBO05": "김주업",
+            "JD05": "진보당",
+            "DUGSU05": "2,138",
+            "DUGYUL05": "3.04"
+        },
+        {
+            "SDID": 2900,
+            "SDNAME": "광주광역시",
+            "WIWID": 2904,
+            "WIWNAME": "북구",
+            "SUNSU": "363,222",
+            "TUSU": "137,865",
+            "TOTAL": "135,603",
+            "MUTUSU": "2,262",
+            "GIGWON": "225,357",
+            "HUBOSU": "5",
+            "data": [
+                {
+                    "value": 102468,
+                    "name": "강기정",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 21054,
+                    "name": "주기환",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 6213,
+                    "name": "장연주",
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 1037,
+                    "name": "문현철",
+                    "itemStyle": {
+                        "color": "#00D2C3"
+                    }
+                },
+                {
+                    "value": 4831,
+                    "name": "김주업",
+                    "itemStyle": {
+                        "color": "#D6001C"
+                    }
+                }
+            ],
+            "HUBO01": "강기정",
+            "JD01": "더불어민주당",
+            "DUGSU01": "102,468",
+            "DUGYUL01": "75.56",
+            "HUBO02": "주기환",
+            "JD02": "국민의힘",
+            "DUGSU02": "21,054",
+            "DUGYUL02": "15.52",
+            "HUBO03": "장연주",
+            "JD03": "정의당",
+            "DUGSU03": "6,213",
+            "DUGYUL03": "4.58",
+            "HUBO04": "문현철",
+            "JD04": "기본소득당",
+            "DUGSU04": "1,037",
+            "DUGYUL04": "0.76",
+            "HUBO05": "김주업",
+            "JD05": "진보당",
+            "DUGSU05": "4,831",
+            "DUGYUL05": "3.56"
+        },
+        {
+            "SDID": 2900,
+            "SDNAME": "광주광역시",
+            "WIWID": 2905,
+            "WIWNAME": "광산구",
+            "SUNSU": "326,410",
+            "TUSU": "108,841",
+            "TOTAL": "106,771",
+            "MUTUSU": "2,070",
+            "GIGWON": "217,569",
+            "HUBOSU": "5",
+            "data": [
+                {
+                    "value": 79071,
+                    "name": "강기정",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 16056,
+                    "name": "주기환",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 5853,
+                    "name": "장연주",
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 904,
+                    "name": "문현철",
+                    "itemStyle": {
+                        "color": "#00D2C3"
+                    }
+                },
+                {
+                    "value": 4887,
+                    "name": "김주업",
+                    "itemStyle": {
+                        "color": "#D6001C"
+                    }
+                }
+            ],
+            "HUBO01": "강기정",
+            "JD01": "더불어민주당",
+            "DUGSU01": "79,071",
+            "DUGYUL01": "74.05",
+            "HUBO02": "주기환",
+            "JD02": "국민의힘",
+            "DUGSU02": "16,056",
+            "DUGYUL02": "15.03",
+            "HUBO03": "장연주",
+            "JD03": "정의당",
+            "DUGSU03": "5,853",
+            "DUGYUL03": "5.48",
+            "HUBO04": "문현철",
+            "JD04": "기본소득당",
+            "DUGSU04": "904",
+            "DUGYUL04": "0.84",
+            "HUBO05": "김주업",
+            "JD05": "진보당",
+            "DUGSU05": "4,887",
+            "DUGYUL05": "4.57"
         }
     ]
 }

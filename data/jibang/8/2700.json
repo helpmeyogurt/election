@@ -5,13 +5,522 @@
             "SDNAME": "대구광역시",
             "WIWID": 0,
             "WIWNAME": "합계",
-            "SUNSU": "0",
-            "TUSU": "0",
-            "TOTAL": "0",
-            "MUTUSU": "0",
-            "GIGWON": "0",
-            "HUBOSU": "0",
-            "data": []
+            "SUNSU": "2,044,579",
+            "TUSU": "883,141",
+            "TOTAL": "870,034",
+            "MUTUSU": "13,107",
+            "GIGWON": "1,161,438",
+            "HUBOSU": "4",
+            "data": [
+                {
+                    "value": 156429,
+                    "name": "서재헌",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 685159,
+                    "name": "홍준표",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 20904,
+                    "name": "한민정",
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 7542,
+                    "name": "신원호",
+                    "itemStyle": {
+                        "color": "#00D2C3"
+                    }
+                }
+            ],
+            "HUBO01": "서재헌",
+            "JD01": "더불어민주당",
+            "DUGSU01": "156,429",
+            "DUGYUL01": "17.97",
+            "HUBO02": "홍준표",
+            "JD02": "국민의힘",
+            "DUGSU02": "685,159",
+            "DUGYUL02": "78.75",
+            "HUBO03": "한민정",
+            "JD03": "정의당",
+            "DUGSU03": "20,904",
+            "DUGYUL03": "2.40",
+            "HUBO04": "신원호",
+            "JD04": "기본소득당",
+            "DUGSU04": "7,542",
+            "DUGYUL04": "0.86"
+        },
+        {
+            "SDID": 2700,
+            "SDNAME": "대구광역시",
+            "WIWID": 2701,
+            "WIWNAME": "중구",
+            "SUNSU": "68,825",
+            "TUSU": "29,536",
+            "TOTAL": "29,115",
+            "MUTUSU": "421",
+            "GIGWON": "39,289",
+            "HUBOSU": "4",
+            "data": [
+                {
+                    "value": 5610,
+                    "name": "서재헌",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 22491,
+                    "name": "홍준표",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 746,
+                    "name": "한민정",
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 268,
+                    "name": "신원호",
+                    "itemStyle": {
+                        "color": "#00D2C3"
+                    }
+                }
+            ],
+            "HUBO01": "서재헌",
+            "JD01": "더불어민주당",
+            "DUGSU01": "5,610",
+            "DUGYUL01": "19.26",
+            "HUBO02": "홍준표",
+            "JD02": "국민의힘",
+            "DUGSU02": "22,491",
+            "DUGYUL02": "77.24",
+            "HUBO03": "한민정",
+            "JD03": "정의당",
+            "DUGSU03": "746",
+            "DUGYUL03": "2.56",
+            "HUBO04": "신원호",
+            "JD04": "기본소득당",
+            "DUGSU04": "268",
+            "DUGYUL04": "0.92"
+        },
+        {
+            "SDID": 2700,
+            "SDNAME": "대구광역시",
+            "WIWID": 2702,
+            "WIWNAME": "동구",
+            "SUNSU": "297,073",
+            "TUSU": "131,007",
+            "TOTAL": "128,949",
+            "MUTUSU": "2,058",
+            "GIGWON": "166,066",
+            "HUBOSU": "4",
+            "data": [
+                {
+                    "value": 24745,
+                    "name": "서재헌",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 100305,
+                    "name": "홍준표",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 2851,
+                    "name": "한민정",
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 1048,
+                    "name": "신원호",
+                    "itemStyle": {
+                        "color": "#00D2C3"
+                    }
+                }
+            ],
+            "HUBO01": "서재헌",
+            "JD01": "더불어민주당",
+            "DUGSU01": "24,745",
+            "DUGYUL01": "19.18",
+            "HUBO02": "홍준표",
+            "JD02": "국민의힘",
+            "DUGSU02": "100,305",
+            "DUGYUL02": "77.78",
+            "HUBO03": "한민정",
+            "JD03": "정의당",
+            "DUGSU03": "2,851",
+            "DUGYUL03": "2.21",
+            "HUBO04": "신원호",
+            "JD04": "기본소득당",
+            "DUGSU04": "1,048",
+            "DUGYUL04": "0.81"
+        },
+        {
+            "SDID": 2700,
+            "SDNAME": "대구광역시",
+            "WIWID": 2703,
+            "WIWNAME": "서구",
+            "SUNSU": "148,238",
+            "TUSU": "66,442",
+            "TOTAL": "65,159",
+            "MUTUSU": "1,283",
+            "GIGWON": "81,796",
+            "HUBOSU": "4",
+            "data": [
+                {
+                    "value": 8993,
+                    "name": "서재헌",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 54059,
+                    "name": "홍준표",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 1484,
+                    "name": "한민정",
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 623,
+                    "name": "신원호",
+                    "itemStyle": {
+                        "color": "#00D2C3"
+                    }
+                }
+            ],
+            "HUBO01": "서재헌",
+            "JD01": "더불어민주당",
+            "DUGSU01": "8,993",
+            "DUGYUL01": "13.80",
+            "HUBO02": "홍준표",
+            "JD02": "국민의힘",
+            "DUGSU02": "54,059",
+            "DUGYUL02": "82.96",
+            "HUBO03": "한민정",
+            "JD03": "정의당",
+            "DUGSU03": "1,484",
+            "DUGYUL03": "2.27",
+            "HUBO04": "신원호",
+            "JD04": "기본소득당",
+            "DUGSU04": "623",
+            "DUGYUL04": "0.95"
+        },
+        {
+            "SDID": 2700,
+            "SDNAME": "대구광역시",
+            "WIWID": 2704,
+            "WIWNAME": "남구",
+            "SUNSU": "129,053",
+            "TUSU": "54,686",
+            "TOTAL": "53,785",
+            "MUTUSU": "901",
+            "GIGWON": "74,367",
+            "HUBOSU": "4",
+            "data": [
+                {
+                    "value": 8593,
+                    "name": "서재헌",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 43386,
+                    "name": "홍준표",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 1252,
+                    "name": "한민정",
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 554,
+                    "name": "신원호",
+                    "itemStyle": {
+                        "color": "#00D2C3"
+                    }
+                }
+            ],
+            "HUBO01": "서재헌",
+            "JD01": "더불어민주당",
+            "DUGSU01": "8,593",
+            "DUGYUL01": "15.97",
+            "HUBO02": "홍준표",
+            "JD02": "국민의힘",
+            "DUGSU02": "43,386",
+            "DUGYUL02": "80.66",
+            "HUBO03": "한민정",
+            "JD03": "정의당",
+            "DUGSU03": "1,252",
+            "DUGYUL03": "2.32",
+            "HUBO04": "신원호",
+            "JD04": "기본소득당",
+            "DUGSU04": "554",
+            "DUGYUL04": "1.03"
+        },
+        {
+            "SDID": 2700,
+            "SDNAME": "대구광역시",
+            "WIWID": 2705,
+            "WIWNAME": "북구",
+            "SUNSU": "373,423",
+            "TUSU": "160,433",
+            "TOTAL": "158,138",
+            "MUTUSU": "2,295",
+            "GIGWON": "212,990",
+            "HUBOSU": "4",
+            "data": [
+                {
+                    "value": 28966,
+                    "name": "서재헌",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 123952,
+                    "name": "홍준표",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 3864,
+                    "name": "한민정",
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 1356,
+                    "name": "신원호",
+                    "itemStyle": {
+                        "color": "#00D2C3"
+                    }
+                }
+            ],
+            "HUBO01": "서재헌",
+            "JD01": "더불어민주당",
+            "DUGSU01": "28,966",
+            "DUGYUL01": "18.31",
+            "HUBO02": "홍준표",
+            "JD02": "국민의힘",
+            "DUGSU02": "123,952",
+            "DUGYUL02": "78.38",
+            "HUBO03": "한민정",
+            "JD03": "정의당",
+            "DUGSU03": "3,864",
+            "DUGYUL03": "2.44",
+            "HUBO04": "신원호",
+            "JD04": "기본소득당",
+            "DUGSU04": "1,356",
+            "DUGYUL04": "0.85"
+        },
+        {
+            "SDID": 2700,
+            "SDNAME": "대구광역시",
+            "WIWID": 2706,
+            "WIWNAME": "수성구",
+            "SUNSU": "349,048",
+            "TUSU": "157,513",
+            "TOTAL": "154,991",
+            "MUTUSU": "2,522",
+            "GIGWON": "191,535",
+            "HUBOSU": "4",
+            "data": [
+                {
+                    "value": 29601,
+                    "name": "서재헌",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 120189,
+                    "name": "홍준표",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 3896,
+                    "name": "한민정",
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 1305,
+                    "name": "신원호",
+                    "itemStyle": {
+                        "color": "#00D2C3"
+                    }
+                }
+            ],
+            "HUBO01": "서재헌",
+            "JD01": "더불어민주당",
+            "DUGSU01": "29,601",
+            "DUGYUL01": "19.09",
+            "HUBO02": "홍준표",
+            "JD02": "국민의힘",
+            "DUGSU02": "120,189",
+            "DUGYUL02": "77.54",
+            "HUBO03": "한민정",
+            "JD03": "정의당",
+            "DUGSU03": "3,896",
+            "DUGYUL03": "2.51",
+            "HUBO04": "신원호",
+            "JD04": "기본소득당",
+            "DUGSU04": "1,305",
+            "DUGYUL04": "0.84"
+        },
+        {
+            "SDID": 2700,
+            "SDNAME": "대구광역시",
+            "WIWID": 2707,
+            "WIWNAME": "달서구",
+            "SUNSU": "464,339",
+            "TUSU": "192,191",
+            "TOTAL": "189,850",
+            "MUTUSU": "2,341",
+            "GIGWON": "272,148",
+            "HUBOSU": "4",
+            "data": [
+                {
+                    "value": 34133,
+                    "name": "서재헌",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 149512,
+                    "name": "홍준표",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 4674,
+                    "name": "한민정",
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 1531,
+                    "name": "신원호",
+                    "itemStyle": {
+                        "color": "#00D2C3"
+                    }
+                }
+            ],
+            "HUBO01": "서재헌",
+            "JD01": "더불어민주당",
+            "DUGSU01": "34,133",
+            "DUGYUL01": "17.97",
+            "HUBO02": "홍준표",
+            "JD02": "국민의힘",
+            "DUGSU02": "149,512",
+            "DUGYUL02": "78.75",
+            "HUBO03": "한민정",
+            "JD03": "정의당",
+            "DUGSU03": "4,674",
+            "DUGYUL03": "2.46",
+            "HUBO04": "신원호",
+            "JD04": "기본소득당",
+            "DUGSU04": "1,531",
+            "DUGYUL04": "0.80"
+        },
+        {
+            "SDID": 2700,
+            "SDNAME": "대구광역시",
+            "WIWID": 2708,
+            "WIWNAME": "달성군",
+            "SUNSU": "214,580",
+            "TUSU": "91,333",
+            "TOTAL": "90,047",
+            "MUTUSU": "1,286",
+            "GIGWON": "123,247",
+            "HUBOSU": "4",
+            "data": [
+                {
+                    "value": 15788,
+                    "name": "서재헌",
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 71265,
+                    "name": "홍준표",
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 2137,
+                    "name": "한민정",
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 857,
+                    "name": "신원호",
+                    "itemStyle": {
+                        "color": "#00D2C3"
+                    }
+                }
+            ],
+            "HUBO01": "서재헌",
+            "JD01": "더불어민주당",
+            "DUGSU01": "15,788",
+            "DUGYUL01": "17.53",
+            "HUBO02": "홍준표",
+            "JD02": "국민의힘",
+            "DUGSU02": "71,265",
+            "DUGYUL02": "79.14",
+            "HUBO03": "한민정",
+            "JD03": "정의당",
+            "DUGSU03": "2,137",
+            "DUGYUL03": "2.37",
+            "HUBO04": "신원호",
+            "JD04": "기본소득당",
+            "DUGSU04": "857",
+            "DUGYUL04": "0.95"
         }
     ]
 }
