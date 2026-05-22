@@ -1,6 +1,10 @@
 import json
 import os
 
+# 🚨 [수정 반영] 가공하고자 하는 선거 종류 코드 (3: 시도지사, 4: 시군구청장)
+# 이 코드에 따라 읽어올 원본 파일과 생성할 정제 파일명이 자동으로 결정됩니다.
+ELEC_CODE = "4"
+
 # 전국 17개 시도 매핑 가이드
 CITIES = [
     {"CODE": 1100, "NAME": "서울특별시"},
@@ -22,7 +26,7 @@ CITIES = [
     {"CODE": 4900, "NAME": "제주특별자치도"},
 ]
 
-# 🚨 [수정 반영] 자바스크립트 partyColorLocal의 value 규칙과 완벽 일치화
+# 자바스크립트 partyColorLocal의 value 규칙과 완벽 일치화
 PARTY_MAP_INDEX = {
     "더불어민주당": 1, "더불어민주연합": 1, "더불어시민당": 1,
     "국민의힘": 2, "국민의미래": 2, "미래통합당": 2,
@@ -30,6 +34,7 @@ PARTY_MAP_INDEX = {
     "조국혁신당": 4,
     "진보당": 5,
     "개혁신당": 6,
+    "새로운미래": 9,
     "무소속": 9
 }
 
@@ -129,13 +134,10 @@ def add_sgg_data_processor(raw_json, city_code, city_name):
         sggdata["SECHUBO"] = sec_hubo
         sggdata["SECJD"] = sec_jd
 
-        # 🚨 [동점/경합 및 정당 매핑 결합] 
-        # 1, 2위 득표수가 완전 동점인 특이 케이스는 자바스크립트 세트와 맞춰 보수적으로 9(무소속/기타 군) 배정
         if win_dugsu == sec_dugsu:
             sggdata["value"] = 9  
             sggdata["DUGYULCHA"] = "0.00"
         else:
-            # 매핑 사전에 매칭 키가 없는 소수 정당은 9(기타/무소속 색상)를 기본값으로 안전 배정합니다.
             sggdata["value"] = PARTY_MAP_INDEX.get(win_jd, 9)
             sggdata["DUGYULCHA"] = f"{(win_dugyul - sec_dugyul):.2f}"
 
@@ -157,12 +159,15 @@ def main():
     target_dir = os.path.join("data", "jibang", "8")
     if not os.path.exists(target_dir): return
 
+    print(f"🔄 선거코드 [{ELEC_CODE}] 기준 데이터 가공 및 변환을 시작합니다.")
+
     for city in CITIES:
         code_str = str(city["CODE"])
         name_str = city["NAME"]
         
-        ori_file_path = os.path.join(target_dir, f"ori_{code_str}.json")
-        refined_file_path = os.path.join(target_dir, f"{code_str}.json")
+        # 🚨 [파일명 매핑 수정] 원본 수집기 규칙과 타겟 정제 파일명 규칙을 동시에 맞춤 분기합니다.
+        ori_file_path = os.path.join(target_dir, f"ori_{ELEC_CODE}_{code_str}.json")
+        refined_file_path = os.path.join(target_dir, f"{ELEC_CODE}_{code_str}.json")
 
         if os.path.exists(ori_file_path):
             try:
@@ -173,9 +178,13 @@ def main():
                 if refined_json is not None:
                     with open(refined_file_path, "w", encoding="utf-8") as f:
                         json.dump(refined_json, f, ensure_ascii=False, indent=4)
-                    print(f"🟢 [{name_str}] 최신 정당 밸류({PARTY_MAP_INDEX.get(name_str, '확인')}) 기준 변환본 덤프 완료")
+                    print(f"🟢 [{name_str}] 변환 성공 -> {ELEC_CODE}_{code_str}.json")
             except Exception as e:
-                print(f"🔴 [{name_str}] 처리 에러: {e}")
+                print(f"🔴 [{name_str}] 처리 중 에러 발생: {e}")
+        else:
+            print(f"⚪ [{name_str}] 원본 파일이 없습니다: ori_{ELEC_CODE}_{code_str}.json")
+
+    print("✨ 모든 파일의 구분 가공 작업이 완료되었습니다.")
 
 if __name__ == "__main__":
     main()
