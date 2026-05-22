@@ -5,6 +5,10 @@ import requests
 
 URL = "https://info.nec.go.kr/m/electioninfo/electionInfo_report.json"
 
+# 🚨 [수정 반영] 가공하고자 하는 선거 종류 코드 (3: 시도지사, 4: 시군구청장)
+# 이 코드에 따라 읽어올 원본 파일과 생성할 정제 파일명이 자동으로 결정됩니다.
+ELEC_CODE = "3"
+
 # 🚨 [수정 반영] 크롤링 대기 시간 변수 (초 단위로 자유롭게 조절하세요)
 # 예: 1.5 = 1.5초 대기, 0.5 = 0.5초 대기
 DELAY_SEC = 50
@@ -43,7 +47,7 @@ CITIES = [
 
 def main():
     # 저장할 선거 종류 코드 (3: 시도지사, 4: 시군구청장)
-    elec_code = "4"
+    elec_code = ELEC_CODE
     
     output_dir = os.path.join("data", "jibang", "8")
     os.makedirs(output_dir, exist_ok=True)
