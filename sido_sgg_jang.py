@@ -1,17 +1,16 @@
 import json
 import os
+import random  # 🚨 랜덤 지연 생성을 위해 추가
 import time
 import requests
 
 URL = "https://info.nec.go.kr/m/electioninfo/electionInfo_report.json"
 
-# 🚨 [수정 반영] 가공하고자 하는 선거 종류 코드 (3: 시도지사, 4: 시군구청장)
-# 이 코드에 따라 읽어올 원본 파일과 생성할 정제 파일명이 자동으로 결정됩니다.
+# 🚨 가공하고자 하는 선거 종류 코드 (3: 시도지사, 4: 시군구청장)
 ELEC_CODE = "3"
 
-# 🚨 [수정 반영] 크롤링 대기 시간 변수 (초 단위로 자유롭게 조절하세요)
-# 예: 1.5 = 1.5초 대기, 0.5 = 0.5초 대기
-DELAY_SEC = 50
+# 🚨 실패 시 최대 재시도 횟수 지정 (무한 루프 방지용)
+MAX_RETRIES = 3
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
@@ -46,20 +45,18 @@ CITIES = [
 ]
 
 def main():
-    # 저장할 선거 종류 코드 (3: 시도지사, 4: 시군구청장)
     elec_code = ELEC_CODE
     
     output_dir = os.path.join("data", "jibang", "8")
     os.makedirs(output_dir, exist_ok=True)
 
-    print(f"🔄 총 {len(CITIES)}개 시도의 [시군구청장(코드:{elec_code})] 원본 크롤링을 시작합니다.")
-    print(f"⏱️ 각 시도별 요청 간격 대기 시간: {DELAY_SEC}초")
+    elec_name = "시도지사" if elec_code == "3" else "시군구청장"
+    print(f"🔄 총 {len(CITIES)}개 시도의 [{elec_name}(코드:{elec_code})] 원본 크롤링을 시작합니다.")
+    print(f"⏱️ 각 시도별 요청 간격 대기 시간: 5초 ~ 10초 무작위(Random) 적용")
 
     for city in CITIES:
         code_str = str(city["CODE"])
         name_str = city["NAME"]
-
-        print(f"📡 [{name_str}] 원본 요청 중 (코드: {code_str})...")
 
         payload = {
             "electionId": "0000000000", 
@@ -74,28 +71,47 @@ def main():
             "statementId": f"VCCP09_#{elec_code}", 
         }
 
-        try:
-            response = requests.post(URL, headers=HEADERS, data=payload, timeout=15)
-            response.raise_for_status()
-            raw_json = response.json()
+        # 🚨 [재시도 메커니즘 탑재] 성공할 때까지 루프 수행 (최대 3회)
+        success = False
+        attempt = 1
 
-            file_name = f"ori_{elec_code}_{code_str}.json"
-            file_path = os.path.join(output_dir, file_name)
-            
-            with open(file_path, "w", encoding="utf-8") as f:
-                json.dump(raw_json, f, ensure_ascii=False, indent=4)
+        while not success and attempt <= MAX_RETRIES:
+            print(f"📡 [{name_str}] 원본 요청 중... (시도 {attempt}/{MAX_RETRIES}회 자) [코드: {code_str}]")
 
-            print(f"🟢 [{name_str}] 다운로드 완료 -> {file_name}")
+            try:
+                # 타임아웃을 15초로 설정하여 장시간 대기 차단
+                response = requests.post(URL, headers=HEADERS, data=payload, timeout=15)
+                response.raise_for_status()
+                raw_json = response.json()
 
-        except requests.exceptions.Timeout:
-            print(f"🔴 [{name_str}] 요청 타임아웃 제한 시간 초과 (15초)")
-        except Exception as e:
-            print(f"🔴 [{name_str}] 데이터 수집 실패 에러: {e}")
+                file_name = f"ori_{elec_code}_{code_str}.json"
+                file_path = os.path.join(output_dir, file_name)
+                
+                with open(file_path, "w", encoding="utf-8") as f:
+                    json.dump(raw_json, f, ensure_ascii=False, indent=4)
 
-        # 🚨 상단에 정의한 DELAY_SEC 변수를 적용하여 대기합니다.
-        time.sleep(DELAY_SEC)
+                print(f"🟢 [{name_str}] 다운로드 성공 -> {file_name}")
+                success = True  # 성공 플래그를 True로 바꾸어 while 루프 탈출
 
-    print(f"✨ 모든 시도의 원본 API JSON 백업 작업이 완료되었습니다.")
+            except requests.exceptions.Timeout:
+                print(f"⚠️ [{name_str}] 요청 타임아웃 제한 시간 초과. 잠시 후 다시 시도합니다.")
+                attempt += 1
+                time.sleep(10)  # 서버가 끈끈할 수 있으므로 에러 시에는 10초 고정 대기 후 재시도
+            except Exception as e:
+                print(f"⚠️ [{name_str}] 데이터 수집 실패 에러: {e}. 잠시 후 다시 시도합니다.")
+                attempt += 1
+                time.sleep(10)
+
+        # 만약 최대 재시도 횟수를 넘겨서 실패한 경우 로그에 기록
+        if not success:
+            print(f"🔴 [{name_str}] 총 {MAX_RETRIES}회 재시도했으나 최종 실패했습니다. 다음 시도로 넘어갑니다.")
+
+        # 🚨 [수정 반영] 성공 여부와 상관없이 다음 시도로 넘어가기 전 5~10초 사이의 랜덤 지연시간 부여
+        random_delay = random.uniform(5.0, 10.0)
+        print(f"⏱️ 보호 대기: {random_delay:.2f}초 동안 다음 요청을 멈춥니다.\n")
+        time.sleep(random_delay)
+
+    print(f"✨ 모든 시도의 원본 API JSON 백업 작업 프로세스가 완료되었습니다.")
 
 if __name__ == "__main__":
     main()
