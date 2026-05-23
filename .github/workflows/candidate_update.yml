@@ -2,48 +2,38 @@ name: 🗳️ 9회 지선 후보자 정보 자동 수집 시스템
 
 on:
   schedule:
-    # 한국 시간(KST) 매일 새벽 4시 15분에 자동으로 작동 (UTC 19:15)
-    - cron: '15 19 * * *'
-  workflow_dispatch:
-    # 깃허브 Actions 탭에서 수동으로 바로 실행할 수 있는 버튼 활성화
+    - cron: '15 19 * * *'  # 한국 시간 매일 새벽 4시 15분 작동
+  workflow_dispatch:      # 수동 실행 지원
 
 jobs:
   collect-candidates:
     runs-on: ubuntu-latest
+
     steps:
-      - name: 🔄 레포지토리 체크아웃
-        uses: actions/checkout@v4
+    - name: Checkout repository
+      uses: actions/checkout@v4
 
-      - name: 🐍 파이썬 환경 설정 (3.10)
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.10' # 🚨 오타 수정 (python-python -> python-version)
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
 
-      - name: 📦 필수 라이브러리 설치 (requests)
-        run: |
-          python -m pip install --upgrade pip
-          pip install requests
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests
 
-      - name: 📡 1단계: 선관위 후보자 명부 원본 수집 실행
-        run: |
-          python candidate_crawler.py
+    - name: Run Scraper
+      run: python -u candidate_crawler.py
 
-      - name: 🚀 2단계: 변경된 데이터 깃허브에 커밋 및 푸시
-        run: |
-          git config --local user.email "actions@github.com"
-          git config --local user.name "GitHub Actions Bot"
-          
-          # 파일이 아직 생성되지 않았을 경우를 대비해 폴더 구조 안전 생성
-          mkdir -p data/jibang/8
-          
-          # 수집된 후보자 원본 파일 지정 등록
-          git add data/jibang/8/candidate_ori_*.json
-          
-          # 변경 사항이 존재할 때만 커밋 수행 (에러 방지용 조건식 안전화)
-          if git diff --status --cached --quiet; then
-            echo "🟡 변경된 후보자 데이터가 없으므로 커밋을 건너뜁니다."
-          else
-            git commit -m "📝 [자동 반영] 제9회 지방선거 후보자 데이터 업데이트 완료"
-            git push
-            echo "🟢 새로운 후보자 정보가 성공적으로 레포지토리에 푸시되었습니다."
-          fi
+    - name: Commit and Push changes
+      run: |
+        git config --global user.name "GitHub Actions Bot"
+        git config --global user.email "actions@github.com"
+        
+        # 🚨 [경로 반영] 8번 폴더 연동 해제 및 9번 폴더 안전 생성/추적 매핑
+        mkdir -p data/jibang/9
+        git add data/jibang/9/*.json
+        
+        # 변경 사항이 존재할 때만 자동 push를 실행합니다.
+        git diff --quiet && git diff --staged --quiet || (git commit -m "📝 [자동 반영] 제9회 지방선거 후보자 데이터 업데이트 완료 [skip ci]" && git push)
