@@ -71,7 +71,6 @@ def add_sgg_data_processor(raw_json, city_code, city_name):
     if not raw_items:
         return None
 
-    # 정당별 당선자 카운터
     win_party_counter = {}
 
     for item in raw_items:
@@ -80,17 +79,16 @@ def add_sgg_data_processor(raw_json, city_code, city_name):
         tuyul_val = f"{(tusu_val / sunsu_val * 100):.1f}" if sunsu_val > 0 else "0.0"
         
         wiw_id_raw = item.get("WIWID", "0")
-        wiw_name_raw = item.get("WIWNAME", "합계")
+        wiw_name_raw = item.get("WIWNAME", "합계").strip()
 
-        # 🚨 [수정 반영] 유형 4의 원본 값을 신뢰하여 변조 없이 그대로 추출
         sgg_id_val = str(item.get("SGGID", wiw_id_raw))
         sgg_name_val = item.get("SGGNAME", wiw_name_raw)
 
         sggdata = {
             "SDID": int(item.get("SDID", city_code)),
             "SDNAME": item.get("SDNAME", city_name),
-            "SGGID": sgg_id_val,          # 원본 SGGID 그대로 바인딩
-            "SGGNAME": sgg_name_val,      # 원본 SGGNAME 그대로 바인딩
+            "SGGID": sgg_id_val,
+            "SGGNAME": sgg_name_val,
             "WIWID": int(wiw_id_raw),
             "WIWNAME": wiw_name_raw,
             "SUNSU": item.get("SUNSU", "0"),
@@ -169,14 +167,15 @@ def add_sgg_data_processor(raw_json, city_code, city_name):
                 sggdata[f"DUGSU{suf}"] = item.get(f"DUGSU{suf}")
                 sggdata[f"DUGYUL{suf}"] = item.get(f"DUGYUL{suf}")
 
-        # WIWNAME이 "합계"이고 실제 지역구(WIWID != 0)인 당선 정당 집계
-        if ELEC_CODE == "4" and wiw_name_raw == "합계" and int(wiw_id_raw) != 0:
-            if win_jd and win_dugsu > sec_dugsu:
-                win_party_counter[win_jd] = win_party_counter.get(win_jd, 0) + 1
+        # 일반구 중복 전면 차단 필터링 카운트
+        if ELEC_CODE == "4" and int(wiw_id_raw) != 0:
+            if not wiw_name_raw.endswith("구") or int(city_code) in [1100, 2600, 2700, 2800, 2900, 3000, 3100]:
+                if win_jd and win_dugsu > sec_dugsu:
+                    cleaned_win_jd = win_jd.strip()
+                    win_party_counter[cleaned_win_jd] = win_party_counter.get(cleaned_win_jd, 0) + 1
 
         refined_list.append(sggdata)
 
-    # 🚨 [수정 반영] 기존 시군구 항목을 건드리지 않고, 맨 앞에 독립적인 빈 배열/오브젝트를 생성하여 삽입
     if ELEC_CODE == "4":
         summary_pie_data = []
         for party, count in win_party_counter.items():
@@ -185,9 +184,11 @@ def add_sgg_data_processor(raw_json, city_code, city_name):
                 "value": count,
                 "itemStyle": {"color": PARTY_COLORS.get(party, "#8b8b8b")}
             })
-        summary_pie_data.sort(key=lambda x: x["value"], reverse=True)
+            
+        # 🚨 [수정 반영] 요구하신 커스텀 정당 순서 적용
+        custom_order = ["더불어민주당", "국민의힘", "정의당", "진보당", "무소속"]
+        summary_pie_data.sort(key=lambda x: custom_order.index(x["name"]) if x["name"] in custom_order else 999)
 
-        # 0번 인덱스 전용 빈 요약 껍데기 오브젝트 생성
         summary_node = {
             "SDID": int(city_code),
             "SDNAME": city_name,
@@ -195,10 +196,9 @@ def add_sgg_data_processor(raw_json, city_code, city_name):
             "SGGNAME": "합계",
             "WIWID": 0,
             "WIWNAME": "합계",
-            "data": summary_pie_data  # 👈 하위 data 항목에 순수하게 정당 당선자 수만 정리
+            "data": summary_pie_data
         }
 
-        # refined_list의 가장 맨 앞([0])에 새롭게 만든 요약 노드를 인서트합니다.
         refined_list.insert(0, summary_node)
 
     return {city_name: refined_list}
@@ -207,7 +207,7 @@ def main():
     target_dir = os.path.join("data", "jibang", "8")
     if not os.path.exists(target_dir): return
 
-    print(f"🔄 선거코드 [{ELEC_CODE}] 기준 새 스펙 전체 변환을 시작합니다.")
+    print(f"🔄 선거코드 [{ELEC_CODE}] 기준 고정 정당 순서 가공을 시작합니다.")
 
     for city in CITIES:
         code_str = str(city["CODE"])
@@ -225,11 +225,11 @@ def main():
                 if refined_json is not None:
                     with open(refined_file_path, "w", encoding="utf-8") as f:
                         json.dump(refined_json, f, ensure_ascii=False, indent=4)
-                    print(f"🟢 [{name_str}] 맨 앞 독립 요약 노드 인서트 및 순수 추출 변환 성공")
+                    print(f"🟢 [{name_str}] 고정 정당 정렬 변환 완료 -> {ELEC_CODE}_{code_str}.json")
             except Exception as e:
                 print(f"🔴 [{name_str}] 가공 오류: {e}")
 
-    print("✨ 요약 통계 분리 가공 작업이 완벽하게 완료되었습니다.")
+    print("✨ 지정한 정당 순서 명세가 파일 구조에 완벽하게 빌드되었습니다.")
 
 if __name__ == "__main__":
     main()
