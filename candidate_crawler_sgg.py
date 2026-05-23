@@ -5,16 +5,15 @@ import time
 import requests
 import sys
 
-# 선관위 원본 API 주소 명세
-URL_SGG_LIST = "https://info.nec.go.kr/m/bizcommon/selectbox/selectbox_getSggCityCodeJson.json"
+# 선관위 후보자 명부 조회 API 주소
 URL_CANDIDATE = "https://info.nec.go.kr/m/electioninfo/electionInfo_report.json"
 
-# 🚨 시군구청장 선거 종류 코드 고정
+# 가공하고자 하는 선거 종류 코드 (4: 시군구청장)
 ELEC_CODE = "4"
 
 MAX_RETRIES = 3
-MIN_DELAY = 15.0  # 시군구별로 요청이 많아지므로 딜레이 범위를 15~30초로 미세 조율했습니다.
-MAX_DELAY = 25.0
+MIN_DELAY = 15.0  # 서버 보호를 위한 무작위 대기 최소 시간
+MAX_DELAY = 30.0  # 서버 보호를 위한 무작위 대기 최대 시간
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
@@ -28,16 +27,25 @@ HEADERS = {
     "Connection": "keep-alive"
 }
 
+# 🚨 SGG_CODE.json의 키값과 매핑하기 위해 "KEY" 필드를 보완했습니다.
 CITIES = [
-    {"CODE": 1100, "NAME": "서울특별시"}, {"CODE": 2600, "NAME": "부산광역시"},
-    {"CODE": 2700, "NAME": "대구광역시"}, {"CODE": 2800, "NAME": "인천광역시"},
-    {"CODE": 2900, "NAME": "광주광역시"}, {"CODE": 3000, "NAME": "대전광역시"},
-    {"CODE": 3100, "NAME": "울산광역시"}, {"CODE": 5100, "NAME": "세종특별자치시"},
-    {"CODE": 4100, "NAME": "경기도"},    {"CODE": 4200, "NAME": "강원도"},
-    {"CODE": 4300, "NAME": "충청북도"},  {"CODE": 4400, "NAME": "충청남도"},
-    {"CODE": 4500, "NAME": "전라북도"},  {"CODE": 4600, "NAME": "전라남도"},
-    {"CODE": 4700, "NAME": "경상북도"},  {"CODE": 4800, "NAME": "경상남도"},
-    {"CODE": 4900, "NAME": "제주특별자치도"}
+    {"CODE": 1100, "NAME": "서울특별시", "KEY": "서울"},
+    {"CODE": 2600, "NAME": "부산광역시", "KEY": "부산"},
+    {"CODE": 2700, "NAME": "대구광역시", "KEY": "대구"},
+    {"CODE": 2800, "NAME": "인천광역시", "KEY": "인천"},
+    {"CODE": 2900, "NAME": "광주광역시", "KEY": "광주"},
+    {"CODE": 3000, "NAME": "대전광역시", "KEY": "대전"},
+    {"CODE": 3100, "NAME": "울산광역시", "KEY": "울산"},
+    {"CODE": 5100, "NAME": "세종특별자치시", "KEY": "세종"},
+    {"CODE": 4100, "NAME": "경기도", "KEY": "경기"},
+    {"CODE": 4200, "NAME": "강원도", "KEY": "강원"},
+    {"CODE": 4300, "NAME": "충청북도", "KEY": "충북"},
+    {"CODE": 4400, "NAME": "충청남도", "KEY": "충남"},
+    {"CODE": 4500, "NAME": "전라북도", "KEY": "전북"},
+    {"CODE": 4600, "NAME": "전라남도", "KEY": "전남"},
+    {"CODE": 4700, "NAME": "경상북도", "KEY": "경북"},
+    {"CODE": 4800, "NAME": "경상남도", "KEY": "경남"},
+    {"CODE": 4900, "NAME": "제주특별자치도", "KEY": "제주"}
 ]
 
 def sleep_with_dots(delay_time):
@@ -50,59 +58,61 @@ def sleep_with_dots(delay_time):
         sys.stdout.flush()
     print(" [대기 종료]")
 
-def get_sgg_city_codes(city_code, city_name):
-    """해당 시도 하위의 자치구/시군 코드 목록을 받아옵니다."""
-    payload = {
-        "electionId": "0020260603",
-        "secondMenuId": "CPRI03",
-        "electionCode": ELEC_CODE,
-        "cityCode": str(city_code),
-        "statementId": f"CPRI03_#{ELEC_CODE}",
-        "dateCode": "0"
-    }
+def load_local_sgg_codes():
+    """저장해두신 election/data/jibang/SGG_CODE.json 파일을 읽어옵니다."""
+    sgg_json_path = os.path.join("election", "data", "jibang", "SGG_CODE.json")
+    if not os.path.exists(sgg_json_path):
+        print(f"🔴 로컬 시군구 코드 파일을 찾을 수 없습니다: {sgg_json_path}")
+        return None
+    
     try:
-        response = requests.post(URL_SGG_LIST, headers=HEADERS, data=payload, timeout=15)
-        response.raise_for_status()
-        # 선관위 리턴 구조에서 jsonResult 또는 내부 리스트 추출
-        res_data = response.json()
-        sgg_items = res_data.get("jsonResult", {}).get("data", []) if isinstance(res_data, dict) else []
-        if not sgg_items and isinstance(res_data, list):
-            sgg_items = res_data
-            
-        return sgg_items
+        with open(sgg_json_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        # SGG_CODE 키 내부의 첫 번째 오브젝트 획득
+        if "SGG_CODE" in data and isinstance(data["SGG_CODE"], list) and len(data["SGG_CODE"]) > 0:
+            return data["SGG_CODE"][0]
+        return data
     except Exception as e:
-        print(f"🔴 [{city_name}] 시군구 목록 코드 조회 실패: {e}")
-        return []
+        print(f"🔴 로컬 시군구 코드 파싱 오류: {e}")
+        return None
 
 def main():
     output_dir = os.path.join("data", "jibang", "9")
     os.makedirs(output_dir, exist_ok=True)
 
-    print(f"🔄 제9회 지선 [시군구청장(코드:{ELEC_CODE})] 2단계 레이어 수집을 시작합니다.")
+    # 🚨 1단계: 로컬에 저장해두신 시군구 코드북 파일 로드
+    print("📂 로컬 SGG_CODE.json 명세를 메모리에 로드합니다.")
+    sgg_codebook = load_local_sgg_codes()
+    
+    if not sgg_codebook:
+        print("🔴 시군구 데이터베이스 로드 실패로 스크립트를 종료합니다.")
+        return
+
+    print(f"🔄 제9회 지선 [시군구청장(코드:{ELEC_CODE})] 로컬 매핑 크롤링을 개시합니다.")
 
     for city in CITIES:
         city_code_str = str(city["CODE"])
         city_name_str = city["NAME"]
+        city_key = city["KEY"]
 
-        print(f"\n=======================================================")
-        print(f"🔎 [{city_name_str}] 하위 시군구 목록을 먼저 확보합니다.")
-        sgg_list = get_sgg_city_codes(city_code_str, city_name_str)
+        # 로컬 파일에서 현재 시도 키(예: "서울")에 해당하는 배열 추출
+        sgg_list = sgg_codebook.get(city_key, [])
         
         if not sgg_list:
-            print(f"⚠️ [{city_name_str}] 조회된 하위 자치구/시군이 없거나 실패하여 건너뜁니다.")
+            print(f"⚠️ [{city_name_str}] 로컬 매핑 데이터 구조에 하위 시군구가 없어 건너뜁니다.")
             continue
 
-        print(f"📊 [{city_name_str}] 총 {len(sgg_list)}개의 자치구/시군 감지 완료.")
+        print(f"\n=======================================================")
+        print(f"📊 [{city_name_str}] 데이터베이스 기준 총 {len(sgg_list)}개 자치구/시군 매핑 시작.")
         
-        # 각 시도별 수집된 개별 시군구의 후보자 데이터를 하나로 모으기 위한 그릇
         city_combined_candidates = {}
 
         for sgg in sgg_list:
-            # 선관위 selectbox 반환 필드명 매핑 (일반적으로 CODE / NAME 구조)
-            sgg_code = str(sgg.get("CODE", ""))
+            # 🚨 제공해주신 대문자 명세인 CODE와 NAME 필드 사용
+            sgg_code = str(sgg.get("CODE", "")).strip()
             sgg_name = str(sgg.get("NAME", "")).strip()
 
-            if not sgg_code or sgg_name == "선택": 
+            if not sgg_code or not sgg_name: 
                 continue
 
             print(f"📡 ├─ [{sgg_name} (코드:{sgg_code})] 후보자 명부 수집 중...")
@@ -114,7 +124,7 @@ def main():
                 "cityCode": city_code_str,
                 "statementId": f"CPRI03_#{ELEC_CODE}",
                 "dateCode": "0",
-                "sggCityCode": sgg_code  # 🚨 요구하신 핵심 인자 동적 매핑
+                "sggCityCode": sgg_code  # 로컬 파일에서 가져온 코드가 주입됩니다.
             }
 
             success = False
@@ -126,7 +136,7 @@ def main():
                     response.raise_for_status()
                     raw_json = response.json()
 
-                    # 시군구 명을 키값으로 하여 데이터를 합산 저장 구조화합니다.
+                    # 시군구 이름을 키로 삼아 통계 원본 바인딩
                     city_combined_candidates[sgg_name] = raw_json
                     success = True
 
@@ -138,21 +148,20 @@ def main():
             if not success:
                 print(f"	🔴 [{sgg_name}] 최종 수집 실패.")
 
-            # 선관위 DDoS 방화벽 타겟팅 우회를 위한 짧은 텀 대기
+            # 서버 보호를 위한 무작위 대기 텀 작동
             random_delay = random.uniform(MIN_DELAY, MAX_DELAY)
             sleep_with_dots(random_delay)
 
-        # 🚨 [안정적인 저장] 시도 단위 파일(예: candidate_ori_4_4100.json) 하나로 통합 저장하여
-        # 파일 개수가 너무 파편화되어 깃허브 액션 트래픽이 무거워지는 현상을 예방합니다.
+        # 시도 통합 원본 파일 쓰기 (예: data/jibang/9/candidate_ori_4_1100.json)
         if city_combined_candidates:
             file_name = f"candidate_ori_{ELEC_CODE}_{city_code_str}.json"
             file_path = os.path.join(output_dir, file_name)
             
             with open(file_path, "w", encoding="utf-8") as f:
                 json.dump(city_combined_candidates, f, ensure_ascii=False, indent=4)
-            print(f"🟢 [{city_name_str}] 통합 시군구청장 후보자 파일 빌드 성공 -> {file_name}")
+            print(f"🟢 [{city_name_str}] 로컬 매핑 기반 통합 후보자 파일 저장 완료 -> {file_name}")
 
-    print("\n✨ 모든 시도의 시군구청장 후보자 2단계 통합 원본 수집이 종료되었습니다.")
+    print("\n✨ 모든 시도의 시군구청장 후보자 로컬 최적화 수집이 종료되었습니다.")
 
 if __name__ == "__main__":
     main()
