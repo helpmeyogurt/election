@@ -25,6 +25,33 @@ CITIES = [
     {"CODE": 4900, "NAME": "제주특별자치도"},
 ]
 
+# 🚨 [수정 반영] 제공해주신 partyColorDict 규칙과 100% 일치시킨 색상 사전
+PARTY_COLORS = {
+    "더불어민주당": "#152484",
+    "국민의힘": "#E61E2B",
+    "더불어민주연합": "#152484",
+    "국민의미래": "#E61E2B",
+    "녹색정의당": "#007C36",
+    "새로운미래": "#46bbbd",
+    "개혁신당": "#FF7920",
+    "진보당": "#D6001C",
+    "자유통일당": "#E24A49",
+    "조국혁신당": "#004099",
+    "기본소득당": "#00D2C3",
+    "무소속": "#8b8b8b",
+    "국민의당": "#EA5504",
+    "미래통합당": "#EF426F",
+    "미래한국당": "#EF426F",
+    "더불어시민당": "#006CB7",
+    "정의당": "#ffca05",
+    "열린민주당": "#003E98",
+    "소나무당": "#1A246B",
+    "우리공화당": "#009944",
+    "한국국민당": "#013588",
+    "새진보연합": "#00d2c3",
+    "없음": "#8b8b8b"
+}
+
 # 자바스크립트 partyColorLocal의 value 규칙과 완벽 일치화 (최상위 식별용)
 PARTY_MAP_INDEX = {
     "더불어민주당": 1, "더불어민주연합": 1, "더불어시민당": 1,
@@ -103,7 +130,7 @@ def add_sgg_data_processor(raw_json, city_code, city_name):
             if not hubo_name: break
 
             current_dugsu = uncomma(dugsu_str)
-            current_dugyul = float(dugyul_str) if ... else 0.0
+            current_dugyul = float(dugyul_str) if dugyul_str else 0.0
 
             if k == 1:
                 win_num, win_dugsu, win_dugyul, win_hubo, win_jd = k, current_dugsu, current_dugyul, hubo_name, party_name
@@ -114,16 +141,10 @@ def add_sgg_data_processor(raw_json, city_code, city_name):
             elif current_dugsu > sec_dugsu:
                 sec_num, sec_dugsu, sec_dugyul, sec_hubo, sec_jd = k, current_dugsu, current_dugyul, hubo_name, party_name
 
-            # 정당 사전에서 육안으로 색상 코드 추출
-            party_color = PARTY_MAP_INDEX.get(party_name, 9) # 기본 인덱스 보증안
-            # 실제 정당 컬러 매핑 딕셔너리 연동 (예: 민주당=#152484 등)
-            # 기존 코드 상단에 정의된 PARTY_COLORS 딕셔너리를 직접 읽어옵니다.
-            actual_color = PARTY_COLORS.get(party_name, "#8b8b8b")
+            # 정당명 앞뒤 공백 제거 후 일치하는 정당 헥사 컬러 가져오기 (없으면 기본 회색)
+            cleaned_party = party_name.strip() if party_name else "없음"
+            actual_color = PARTY_COLORS.get(cleaned_party, "#8b8b8b")
 
-            # 🚨 [심각한 문제 해결 구간]
-            # 1. 'value' 위치에 백분율(득표율 숫자형)을 대입합니다.
-            # 2. 기존의 수치(표)는 'pyo'라는 키로 변경하여 저장합니다.
-            # 3. 요구사항에 따라 'percentage' 항목은 제거했습니다.
             sggdata["data"].append({
                 "value": current_dugyul,
                 "name": hubo_name,
@@ -144,8 +165,6 @@ def add_sgg_data_processor(raw_json, city_code, city_name):
         sggdata["SECHUBO"] = sec_hubo
         sggdata["SECJD"] = sec_jd
 
-        # 💡 참고: 최상위의 sggdata["value"] 값은 지도 조각의 '소속 정당 색상 테두리'를 결정하므로 
-        # 이전 자바스크립트 규칙(민주당=1, 국힘=2 등)을 그대로 안정적으로 유지 보전합니다.
         if win_dugsu == sec_dugsu:
             sggdata["value"] = 9  
             sggdata["DUGYULCHA"] = "0.00"
@@ -171,7 +190,7 @@ def main():
     target_dir = os.path.join("data", "jibang", "8")
     if not os.path.exists(target_dir): return
 
-    print(f"🔄 선거코드 [{ELEC_CODE}] 기준 새 스펙 데이터 가공을 시작합니다.")
+    print(f"🔄 선거코드 [{ELEC_CODE}] 기준 데이터 가공을 시작합니다.")
 
     for city in CITIES:
         code_str = str(city["CODE"])
@@ -189,11 +208,11 @@ def main():
                 if refined_json is not None:
                     with open(refined_file_path, "w", encoding="utf-8") as f:
                         json.dump(refined_json, f, ensure_ascii=False, indent=4)
-                    print(f"🟢 [{name_str}] 새 규격 변환 성공 -> {ELEC_CODE}_{code_str}.json")
+                    print(f"🟢 [{name_str}] 새로운 partyColorDict 컬러셋 덤프 완료 -> {ELEC_CODE}_{code_str}.json")
             except Exception as e:
                 print(f"🔴 [{name_str}] 가공 오류: {e}")
 
-    print("✨ 데이터 세부 스펙 변경 가공 작업이 성공적으로 끝났습니다.")
+    print("✨ 지정한 정당 색상 명세표 반영 가공 작업이 완료되었습니다.")
 
 if __name__ == "__main__":
     main()
