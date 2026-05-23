@@ -7,7 +7,15 @@
             "SGGNAME": "합계",
             "WIWID": 0,
             "WIWNAME": "합계",
-            "data": []
+            "data": [
+                {
+                    "name": "국민의힘",
+                    "value": 6,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ]
         },
         {
             "SDID": 2700,

@@ -7,7 +7,29 @@
             "SGGNAME": "합계",
             "WIWID": 0,
             "WIWNAME": "합계",
-            "data": []
+            "data": [
+                {
+                    "name": "더불어민주당",
+                    "value": 1,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "name": "국민의힘",
+                    "value": 13,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "name": "무소속",
+                    "value": 3,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                }
+            ]
         },
         {
             "SDID": 4800,
