@@ -59,8 +59,15 @@ def sleep_with_dots(delay_time):
     print(" [대기 종료]")
 
 def load_local_sgg_codes():
-    """저장해두신 election/data/jibang/SGG_CODE.json 파일을 읽어옵니다."""
-    sgg_json_path = os.path.join("election", "data", "jibang", "SGG_CODE.json")
+    """현재 스크립트 위치를 기준으로 SGG_CODE.json 파일을 절대 경로로 찾습니다."""
+    # 현재 파이썬 파일이 있는 폴더 위치 (레포지토리 루트)
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    
+    # 🚨 [경로 교정] 절대 경로 구성을 통해 가상 환경에서도 정확히 조준합니다.
+    sgg_json_path = os.path.join(base_dir, "election", "data", "jibang", "SGG_CODE.json")
+    
+    print(f"🔍 현재 탐색 중인 파일 실제 경로: {sgg_json_path}")
+    
     if not os.path.exists(sgg_json_path):
         print(f"🔴 로컬 시군구 코드 파일을 찾을 수 없습니다: {sgg_json_path}")
         return None
@@ -68,7 +75,6 @@ def load_local_sgg_codes():
     try:
         with open(sgg_json_path, "r", encoding="utf-8") as f:
             data = json.load(f)
-        # SGG_CODE 키 내부의 첫 번째 오브젝트 획득
         if "SGG_CODE" in data and isinstance(data["SGG_CODE"], list) and len(data["SGG_CODE"]) > 0:
             return data["SGG_CODE"][0]
         return data
