@@ -3,6 +3,8 @@
         {
             "SDID": 3000,
             "SDNAME": "대전광역시",
+            "SGGID": "0",
+            "SGGNAME": "동구",
             "WIWID": 0,
             "WIWNAME": "합계",
             "SUNSU": "191,882",
@@ -14,20 +16,7 @@
             "TUYUL": "49.0",
             "name": 0,
             "nametxt": "합계",
-            "data": [
-                {
-                    "value": 44663,
-                    "name": "황인호",
-                    "party": "더불어민주당",
-                    "percentage": 48.4
-                },
-                {
-                    "value": 47615,
-                    "name": "박희조",
-                    "party": "국민의힘",
-                    "percentage": 51.59
-                }
-            ],
+            "data": [],
             "WINNUM": 2,
             "WINDUGSU": "47,615",
             "WINDUGYUL": "51.59",
@@ -53,6 +42,8 @@
         {
             "SDID": 3000,
             "SDNAME": "대전광역시",
+            "SGGID": "3001",
+            "SGGNAME": "동구",
             "WIWID": 3001,
             "WIWNAME": "동구",
             "SUNSU": "191,882",
@@ -66,16 +57,22 @@
             "nametxt": "동구",
             "data": [
                 {
-                    "value": 44663,
+                    "value": 48.4,
                     "name": "황인호",
                     "party": "더불어민주당",
-                    "percentage": 48.4
+                    "pyo": 44663,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 47615,
+                    "value": 51.59,
                     "name": "박희조",
                     "party": "국민의힘",
-                    "percentage": 51.59
+                    "pyo": 47615,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 }
             ],
             "WINNUM": 2,
@@ -103,6 +100,8 @@
         {
             "SDID": 3000,
             "SDNAME": "대전광역시",
+            "SGGID": "0",
+            "SGGNAME": "중구",
             "WIWID": 0,
             "WIWNAME": "합계",
             "SUNSU": "199,894",
@@ -116,16 +115,22 @@
             "nametxt": "합계",
             "data": [
                 {
-                    "value": 42669,
+                    "value": 43.25,
                     "name": "김경훈",
                     "party": "더불어민주당",
-                    "percentage": 43.25
+                    "pyo": 42669,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 55972,
+                    "value": 56.74,
                     "name": "김광신",
                     "party": "국민의힘",
-                    "percentage": 56.74
+                    "pyo": 55972,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 }
             ],
             "WINNUM": 2,
@@ -153,6 +158,8 @@
         {
             "SDID": 3000,
             "SDNAME": "대전광역시",
+            "SGGID": "3002",
+            "SGGNAME": "중구",
             "WIWID": 3002,
             "WIWNAME": "중구",
             "SUNSU": "199,894",
@@ -166,16 +173,22 @@
             "nametxt": "중구",
             "data": [
                 {
-                    "value": 42669,
+                    "value": 43.25,
                     "name": "김경훈",
                     "party": "더불어민주당",
-                    "percentage": 43.25
+                    "pyo": 42669,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 55972,
+                    "value": 56.74,
                     "name": "김광신",
                     "party": "국민의힘",
-                    "percentage": 56.74
+                    "pyo": 55972,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 }
             ],
             "WINNUM": 2,
@@ -203,6 +216,8 @@
         {
             "SDID": 3000,
             "SDNAME": "대전광역시",
+            "SGGID": "0",
+            "SGGNAME": "서구",
             "WIWID": 0,
             "WIWNAME": "합계",
             "SUNSU": "399,035",
@@ -216,16 +231,22 @@
             "nametxt": "합계",
             "data": [
                 {
-                    "value": 88685,
+                    "value": 46.74,
                     "name": "장종태",
                     "party": "더불어민주당",
-                    "percentage": 46.74
+                    "pyo": 88685,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 101023,
+                    "value": 53.25,
                     "name": "서철모",
                     "party": "국민의힘",
-                    "percentage": 53.25
+                    "pyo": 101023,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 }
             ],
             "WINNUM": 2,
@@ -253,6 +274,8 @@
         {
             "SDID": 3000,
             "SDNAME": "대전광역시",
+            "SGGID": "3003",
+            "SGGNAME": "서구",
             "WIWID": 3003,
             "WIWNAME": "서구",
             "SUNSU": "399,035",
@@ -266,16 +289,22 @@
             "nametxt": "서구",
             "data": [
                 {
-                    "value": 88685,
+                    "value": 46.74,
                     "name": "장종태",
                     "party": "더불어민주당",
-                    "percentage": 46.74
+                    "pyo": 88685,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 101023,
+                    "value": 53.25,
                     "name": "서철모",
                     "party": "국민의힘",
-                    "percentage": 53.25
+                    "pyo": 101023,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 }
             ],
             "WINNUM": 2,
@@ -303,6 +332,8 @@
         {
             "SDID": 3000,
             "SDNAME": "대전광역시",
+            "SGGID": "0",
+            "SGGNAME": "유성구",
             "WIWID": 0,
             "WIWNAME": "합계",
             "SUNSU": "289,980",
@@ -316,16 +347,22 @@
             "nametxt": "합계",
             "data": [
                 {
-                    "value": 75498,
+                    "value": 51.16,
                     "name": "정용래",
                     "party": "더불어민주당",
-                    "percentage": 51.16
+                    "pyo": 75498,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 72070,
+                    "value": 48.83,
                     "name": "진동규",
                     "party": "국민의힘",
-                    "percentage": 48.83
+                    "pyo": 72070,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 }
             ],
             "WINNUM": 1,
@@ -353,6 +390,8 @@
         {
             "SDID": 3000,
             "SDNAME": "대전광역시",
+            "SGGID": "3004",
+            "SGGNAME": "유성구",
             "WIWID": 3004,
             "WIWNAME": "유성구",
             "SUNSU": "289,980",
@@ -366,16 +405,22 @@
             "nametxt": "유성구",
             "data": [
                 {
-                    "value": 75498,
+                    "value": 51.16,
                     "name": "정용래",
                     "party": "더불어민주당",
-                    "percentage": 51.16
+                    "pyo": 75498,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 72070,
+                    "value": 48.83,
                     "name": "진동규",
                     "party": "국민의힘",
-                    "percentage": 48.83
+                    "pyo": 72070,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 }
             ],
             "WINNUM": 1,
@@ -403,6 +448,8 @@
         {
             "SDID": 3000,
             "SDNAME": "대전광역시",
+            "SGGID": "0",
+            "SGGNAME": "대덕구",
             "WIWID": 0,
             "WIWNAME": "합계",
             "SUNSU": "152,766",
@@ -416,16 +463,22 @@
             "nametxt": "합계",
             "data": [
                 {
-                    "value": 34840,
+                    "value": 46.63,
                     "name": "박정현",
                     "party": "더불어민주당",
-                    "percentage": 46.63
+                    "pyo": 34840,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 39870,
+                    "value": 53.36,
                     "name": "최충규",
                     "party": "국민의힘",
-                    "percentage": 53.36
+                    "pyo": 39870,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 }
             ],
             "WINNUM": 2,
@@ -453,6 +506,8 @@
         {
             "SDID": 3000,
             "SDNAME": "대전광역시",
+            "SGGID": "3005",
+            "SGGNAME": "대덕구",
             "WIWID": 3005,
             "WIWNAME": "대덕구",
             "SUNSU": "152,766",
@@ -466,16 +521,22 @@
             "nametxt": "대덕구",
             "data": [
                 {
-                    "value": 34840,
+                    "value": 46.63,
                     "name": "박정현",
                     "party": "더불어민주당",
-                    "percentage": 46.63
+                    "pyo": 34840,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 39870,
+                    "value": 53.36,
                     "name": "최충규",
                     "party": "국민의힘",
-                    "percentage": 53.36
+                    "pyo": 39870,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 }
             ],
             "WINNUM": 2,

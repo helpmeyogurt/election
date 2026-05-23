@@ -3,6 +3,8 @@
         {
             "SDID": 3100,
             "SDNAME": "울산광역시",
+            "SGGID": "0",
+            "SGGNAME": "중구",
             "WIWID": 0,
             "WIWNAME": "합계",
             "SUNSU": "181,055",
@@ -14,20 +16,7 @@
             "TUYUL": "54.3",
             "name": 0,
             "nametxt": "합계",
-            "data": [
-                {
-                    "value": 38822,
-                    "name": "박태완",
-                    "party": "더불어민주당",
-                    "percentage": 40.58
-                },
-                {
-                    "value": 56843,
-                    "name": "김영길",
-                    "party": "국민의힘",
-                    "percentage": 59.41
-                }
-            ],
+            "data": [],
             "WINNUM": 2,
             "WINDUGSU": "56,843",
             "WINDUGYUL": "59.41",
@@ -53,6 +42,8 @@
         {
             "SDID": 3100,
             "SDNAME": "울산광역시",
+            "SGGID": "3101",
+            "SGGNAME": "중구",
             "WIWID": 3101,
             "WIWNAME": "중구",
             "SUNSU": "181,055",
@@ -66,16 +57,22 @@
             "nametxt": "중구",
             "data": [
                 {
-                    "value": 38822,
+                    "value": 40.58,
                     "name": "박태완",
                     "party": "더불어민주당",
-                    "percentage": 40.58
+                    "pyo": 38822,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 56843,
+                    "value": 59.41,
                     "name": "김영길",
                     "party": "국민의힘",
-                    "percentage": 59.41
+                    "pyo": 56843,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 }
             ],
             "WINNUM": 2,
@@ -103,6 +100,8 @@
         {
             "SDID": 3100,
             "SDNAME": "울산광역시",
+            "SGGID": "0",
+            "SGGNAME": "남구",
             "WIWID": 0,
             "WIWNAME": "합계",
             "SUNSU": "267,930",
@@ -116,16 +115,22 @@
             "nametxt": "합계",
             "data": [
                 {
-                    "value": 44914,
+                    "value": 33.83,
                     "name": "이미영",
                     "party": "더불어민주당",
-                    "percentage": 33.83
+                    "pyo": 44914,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 87838,
+                    "value": 66.16,
                     "name": "서동욱",
                     "party": "국민의힘",
-                    "percentage": 66.16
+                    "pyo": 87838,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 }
             ],
             "WINNUM": 2,
@@ -153,6 +158,8 @@
         {
             "SDID": 3100,
             "SDNAME": "울산광역시",
+            "SGGID": "3102",
+            "SGGNAME": "남구",
             "WIWID": 3102,
             "WIWNAME": "남구",
             "SUNSU": "267,930",
@@ -166,16 +173,22 @@
             "nametxt": "남구",
             "data": [
                 {
-                    "value": 44914,
+                    "value": 33.83,
                     "name": "이미영",
                     "party": "더불어민주당",
-                    "percentage": 33.83
+                    "pyo": 44914,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 87838,
+                    "value": 66.16,
                     "name": "서동욱",
                     "party": "국민의힘",
-                    "percentage": 66.16
+                    "pyo": 87838,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 }
             ],
             "WINNUM": 2,
@@ -203,6 +216,8 @@
         {
             "SDID": 3100,
             "SDNAME": "울산광역시",
+            "SGGID": "0",
+            "SGGNAME": "동구",
             "WIWID": 0,
             "WIWNAME": "합계",
             "SUNSU": "127,369",
@@ -216,16 +231,22 @@
             "nametxt": "합계",
             "data": [
                 {
-                    "value": 30233,
+                    "value": 45.16,
                     "name": "천기옥",
                     "party": "국민의힘",
-                    "percentage": 45.16
+                    "pyo": 30233,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 },
                 {
-                    "value": 36699,
+                    "value": 54.83,
                     "name": "김종훈",
                     "party": "진보당",
-                    "percentage": 54.83
+                    "pyo": 36699,
+                    "itemStyle": {
+                        "color": "#D6001C"
+                    }
                 }
             ],
             "WINNUM": 2,
@@ -253,6 +274,8 @@
         {
             "SDID": 3100,
             "SDNAME": "울산광역시",
+            "SGGID": "3103",
+            "SGGNAME": "동구",
             "WIWID": 3103,
             "WIWNAME": "동구",
             "SUNSU": "127,369",
@@ -266,16 +289,22 @@
             "nametxt": "동구",
             "data": [
                 {
-                    "value": 30233,
+                    "value": 45.16,
                     "name": "천기옥",
                     "party": "국민의힘",
-                    "percentage": 45.16
+                    "pyo": 30233,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 },
                 {
-                    "value": 36699,
+                    "value": 54.83,
                     "name": "김종훈",
                     "party": "진보당",
-                    "percentage": 54.83
+                    "pyo": 36699,
+                    "itemStyle": {
+                        "color": "#D6001C"
+                    }
                 }
             ],
             "WINNUM": 2,
@@ -303,6 +332,8 @@
         {
             "SDID": 3100,
             "SDNAME": "울산광역시",
+            "SGGID": "0",
+            "SGGNAME": "북구",
             "WIWID": 0,
             "WIWNAME": "합계",
             "SUNSU": "175,784",
@@ -316,22 +347,31 @@
             "nametxt": "합계",
             "data": [
                 {
-                    "value": 34843,
+                    "value": 40.02,
                     "name": "이동권",
                     "party": "더불어민주당",
-                    "percentage": 40.02
+                    "pyo": 34843,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 44062,
+                    "value": 50.6,
                     "name": "박천동",
                     "party": "국민의힘",
-                    "percentage": 50.6
+                    "pyo": 44062,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 },
                 {
-                    "value": 8158,
+                    "value": 9.37,
                     "name": "김진영",
                     "party": "정의당",
-                    "percentage": 9.37
+                    "pyo": 8158,
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
                 }
             ],
             "WINNUM": 2,
@@ -363,6 +403,8 @@
         {
             "SDID": 3100,
             "SDNAME": "울산광역시",
+            "SGGID": "3104",
+            "SGGNAME": "북구",
             "WIWID": 3104,
             "WIWNAME": "북구",
             "SUNSU": "175,784",
@@ -376,22 +418,31 @@
             "nametxt": "북구",
             "data": [
                 {
-                    "value": 34843,
+                    "value": 40.02,
                     "name": "이동권",
                     "party": "더불어민주당",
-                    "percentage": 40.02
+                    "pyo": 34843,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 44062,
+                    "value": 50.6,
                     "name": "박천동",
                     "party": "국민의힘",
-                    "percentage": 50.6
+                    "pyo": 44062,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 },
                 {
-                    "value": 8158,
+                    "value": 9.37,
                     "name": "김진영",
                     "party": "정의당",
-                    "percentage": 9.37
+                    "pyo": 8158,
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
                 }
             ],
             "WINNUM": 2,
@@ -423,6 +474,8 @@
         {
             "SDID": 3100,
             "SDNAME": "울산광역시",
+            "SGGID": "0",
+            "SGGNAME": "울주군",
             "WIWID": 0,
             "WIWNAME": "합계",
             "SUNSU": "189,051",
@@ -436,16 +489,22 @@
             "nametxt": "합계",
             "data": [
                 {
-                    "value": 40081,
+                    "value": 41.19,
                     "name": "이선호",
                     "party": "더불어민주당",
-                    "percentage": 41.19
+                    "pyo": 40081,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 57216,
+                    "value": 58.8,
                     "name": "이순걸",
                     "party": "국민의힘",
-                    "percentage": 58.8
+                    "pyo": 57216,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 }
             ],
             "WINNUM": 2,
@@ -473,6 +532,8 @@
         {
             "SDID": 3100,
             "SDNAME": "울산광역시",
+            "SGGID": "3105",
+            "SGGNAME": "울주군",
             "WIWID": 3105,
             "WIWNAME": "울주군",
             "SUNSU": "189,051",
@@ -486,16 +547,22 @@
             "nametxt": "울주군",
             "data": [
                 {
-                    "value": 40081,
+                    "value": 41.19,
                     "name": "이선호",
                     "party": "더불어민주당",
-                    "percentage": 41.19
+                    "pyo": 40081,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 57216,
+                    "value": 58.8,
                     "name": "이순걸",
                     "party": "국민의힘",
-                    "percentage": 58.8
+                    "pyo": 57216,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 }
             ],
             "WINNUM": 2,

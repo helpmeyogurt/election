@@ -3,6 +3,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "0",
+            "SGGNAME": "수원시",
             "WIWID": 0,
             "WIWNAME": "합계",
             "SUNSU": "1,012,553",
@@ -14,20 +16,7 @@
             "TUYUL": "51.3",
             "name": 0,
             "nametxt": "합계",
-            "data": [
-                {
-                    "value": 258456,
-                    "name": "이재준",
-                    "party": "더불어민주당",
-                    "percentage": 50.28
-                },
-                {
-                    "value": 255528,
-                    "name": "김용남",
-                    "party": "국민의힘",
-                    "percentage": 49.71
-                }
-            ],
+            "data": [],
             "WINNUM": 1,
             "WINDUGSU": "258,456",
             "WINDUGYUL": "50.28",
@@ -53,6 +42,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "4101",
+            "SGGNAME": "수원시",
             "WIWID": 4101,
             "WIWNAME": "수원시장안구",
             "SUNSU": "199,204",
@@ -66,16 +57,22 @@
             "nametxt": "수원시장안구",
             "data": [
                 {
-                    "value": 53790,
+                    "value": 51.26,
                     "name": "이재준",
                     "party": "더불어민주당",
-                    "percentage": 51.26
+                    "pyo": 53790,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 51144,
+                    "value": 48.73,
                     "name": "김용남",
                     "party": "국민의힘",
-                    "percentage": 48.73
+                    "pyo": 51144,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 }
             ],
             "WINNUM": 1,
@@ -103,6 +100,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "4102",
+            "SGGNAME": "수원시",
             "WIWID": 4102,
             "WIWNAME": "수원시권선구",
             "SUNSU": "352,407",
@@ -116,16 +115,22 @@
             "nametxt": "수원시권선구",
             "data": [
                 {
-                    "value": 87838,
+                    "value": 51.14,
                     "name": "이재준",
                     "party": "더불어민주당",
-                    "percentage": 51.14
+                    "pyo": 87838,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 83914,
+                    "value": 48.85,
                     "name": "김용남",
                     "party": "국민의힘",
-                    "percentage": 48.85
+                    "pyo": 83914,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 }
             ],
             "WINNUM": 1,
@@ -153,6 +158,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "4103",
+            "SGGNAME": "수원시",
             "WIWID": 4103,
             "WIWNAME": "수원시팔달구",
             "SUNSU": "164,086",
@@ -166,16 +173,22 @@
             "nametxt": "수원시팔달구",
             "data": [
                 {
-                    "value": 37328,
+                    "value": 47.67,
                     "name": "이재준",
                     "party": "더불어민주당",
-                    "percentage": 47.67
+                    "pyo": 37328,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 40974,
+                    "value": 52.32,
                     "name": "김용남",
                     "party": "국민의힘",
-                    "percentage": 52.32
+                    "pyo": 40974,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 }
             ],
             "WINNUM": 2,
@@ -203,6 +216,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "4104",
+            "SGGNAME": "수원시",
             "WIWID": 4104,
             "WIWNAME": "수원시영통구",
             "SUNSU": "296,856",
@@ -216,16 +231,22 @@
             "nametxt": "수원시영통구",
             "data": [
                 {
-                    "value": 79500,
+                    "value": 50.0,
                     "name": "이재준",
                     "party": "더불어민주당",
-                    "percentage": 50.0
+                    "pyo": 79500,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 79496,
+                    "value": 49.99,
                     "name": "김용남",
                     "party": "국민의힘",
-                    "percentage": 49.99
+                    "pyo": 79496,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 }
             ],
             "WINNUM": 1,
@@ -253,6 +274,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "0",
+            "SGGNAME": "성남시",
             "WIWID": 0,
             "WIWNAME": "합계",
             "SUNSU": "798,508",
@@ -266,22 +289,31 @@
             "nametxt": "합계",
             "data": [
                 {
-                    "value": 191613,
+                    "value": 42.88,
                     "name": "배국환",
                     "party": "더불어민주당",
-                    "percentage": 42.88
+                    "pyo": 191613,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 250022,
+                    "value": 55.96,
                     "name": "신상진",
                     "party": "국민의힘",
-                    "percentage": 55.96
+                    "pyo": 250022,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 },
                 {
-                    "value": 5147,
+                    "value": 1.15,
                     "name": "장지화",
                     "party": "진보당",
-                    "percentage": 1.15
+                    "pyo": 5147,
+                    "itemStyle": {
+                        "color": "#D6001C"
+                    }
                 }
             ],
             "WINNUM": 2,
@@ -313,6 +345,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "4105",
+            "SGGNAME": "성남시",
             "WIWID": 4105,
             "WIWNAME": "성남시수정구",
             "SUNSU": "208,907",
@@ -326,22 +360,31 @@
             "nametxt": "성남시수정구",
             "data": [
                 {
-                    "value": 49980,
+                    "value": 47.39,
                     "name": "배국환",
                     "party": "더불어민주당",
-                    "percentage": 47.39
+                    "pyo": 49980,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 53757,
+                    "value": 50.98,
                     "name": "신상진",
                     "party": "국민의힘",
-                    "percentage": 50.98
+                    "pyo": 53757,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 },
                 {
-                    "value": 1710,
+                    "value": 1.62,
                     "name": "장지화",
                     "party": "진보당",
-                    "percentage": 1.62
+                    "pyo": 1710,
+                    "itemStyle": {
+                        "color": "#D6001C"
+                    }
                 }
             ],
             "WINNUM": 2,
@@ -373,6 +416,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "4106",
+            "SGGNAME": "성남시",
             "WIWID": 4106,
             "WIWNAME": "성남시중원구",
             "SUNSU": "185,468",
@@ -386,22 +431,31 @@
             "nametxt": "성남시중원구",
             "data": [
                 {
-                    "value": 43386,
+                    "value": 46.48,
                     "name": "배국환",
                     "party": "더불어민주당",
-                    "percentage": 46.48
+                    "pyo": 43386,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 48512,
+                    "value": 51.97,
                     "name": "신상진",
                     "party": "국민의힘",
-                    "percentage": 51.97
+                    "pyo": 48512,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 },
                 {
-                    "value": 1444,
+                    "value": 1.54,
                     "name": "장지화",
                     "party": "진보당",
-                    "percentage": 1.54
+                    "pyo": 1444,
+                    "itemStyle": {
+                        "color": "#D6001C"
+                    }
                 }
             ],
             "WINNUM": 2,
@@ -433,6 +487,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "4107",
+            "SGGNAME": "성남시",
             "WIWID": 4107,
             "WIWNAME": "성남시분당구",
             "SUNSU": "404,133",
@@ -446,22 +502,31 @@
             "nametxt": "성남시분당구",
             "data": [
                 {
-                    "value": 98247,
+                    "value": 39.61,
                     "name": "배국환",
                     "party": "더불어민주당",
-                    "percentage": 39.61
+                    "pyo": 98247,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 147753,
+                    "value": 59.57,
                     "name": "신상진",
                     "party": "국민의힘",
-                    "percentage": 59.57
+                    "pyo": 147753,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 },
                 {
-                    "value": 1993,
+                    "value": 0.8,
                     "name": "장지화",
                     "party": "진보당",
-                    "percentage": 0.8
+                    "pyo": 1993,
+                    "itemStyle": {
+                        "color": "#D6001C"
+                    }
                 }
             ],
             "WINNUM": 2,
@@ -493,6 +558,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "0",
+            "SGGNAME": "의정부시",
             "WIWID": 0,
             "WIWNAME": "합계",
             "SUNSU": "400,177",
@@ -506,22 +573,31 @@
             "nametxt": "합계",
             "data": [
                 {
-                    "value": 85326,
+                    "value": 45.93,
                     "name": "김원기",
                     "party": "더불어민주당",
-                    "percentage": 45.93
+                    "pyo": 85326,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 97594,
+                    "value": 52.53,
                     "name": "김동근",
                     "party": "국민의힘",
-                    "percentage": 52.53
+                    "pyo": 97594,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 },
                 {
-                    "value": 2837,
+                    "value": 1.52,
                     "name": "강세창",
                     "party": "무소속",
-                    "percentage": 1.52
+                    "pyo": 2837,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
                 }
             ],
             "WINNUM": 2,
@@ -553,6 +629,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "4108",
+            "SGGNAME": "의정부시",
             "WIWID": 4108,
             "WIWNAME": "의정부시",
             "SUNSU": "400,177",
@@ -566,22 +644,31 @@
             "nametxt": "의정부시",
             "data": [
                 {
-                    "value": 85326,
+                    "value": 45.93,
                     "name": "김원기",
                     "party": "더불어민주당",
-                    "percentage": 45.93
+                    "pyo": 85326,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 97594,
+                    "value": 52.53,
                     "name": "김동근",
                     "party": "국민의힘",
-                    "percentage": 52.53
+                    "pyo": 97594,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 },
                 {
-                    "value": 2837,
+                    "value": 1.52,
                     "name": "강세창",
                     "party": "무소속",
-                    "percentage": 1.52
+                    "pyo": 2837,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
                 }
             ],
             "WINNUM": 2,
@@ -613,6 +700,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "0",
+            "SGGNAME": "안양시",
             "WIWID": 0,
             "WIWNAME": "합계",
             "SUNSU": "474,037",
@@ -626,16 +715,22 @@
             "nametxt": "합계",
             "data": [
                 {
-                    "value": 133712,
+                    "value": 50.64,
                     "name": "최대호",
                     "party": "더불어민주당",
-                    "percentage": 50.64
+                    "pyo": 133712,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 130303,
+                    "value": 49.35,
                     "name": "김필여",
                     "party": "국민의힘",
-                    "percentage": 49.35
+                    "pyo": 130303,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 }
             ],
             "WINNUM": 1,
@@ -663,6 +758,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "4109",
+            "SGGNAME": "안양시",
             "WIWID": 4109,
             "WIWNAME": "안양시만안구",
             "SUNSU": "208,936",
@@ -676,16 +773,22 @@
             "nametxt": "안양시만안구",
             "data": [
                 {
-                    "value": 55970,
+                    "value": 51.03,
                     "name": "최대호",
                     "party": "더불어민주당",
-                    "percentage": 51.03
+                    "pyo": 55970,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 53706,
+                    "value": 48.96,
                     "name": "김필여",
                     "party": "국민의힘",
-                    "percentage": 48.96
+                    "pyo": 53706,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 }
             ],
             "WINNUM": 1,
@@ -713,6 +816,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "4110",
+            "SGGNAME": "안양시",
             "WIWID": 4110,
             "WIWNAME": "안양시동안구",
             "SUNSU": "265,101",
@@ -726,16 +831,22 @@
             "nametxt": "안양시동안구",
             "data": [
                 {
-                    "value": 77742,
+                    "value": 50.37,
                     "name": "최대호",
                     "party": "더불어민주당",
-                    "percentage": 50.37
+                    "pyo": 77742,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 76597,
+                    "value": 49.62,
                     "name": "김필여",
                     "party": "국민의힘",
-                    "percentage": 49.62
+                    "pyo": 76597,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 }
             ],
             "WINNUM": 1,
@@ -763,6 +874,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "0",
+            "SGGNAME": "부천시",
             "WIWID": 0,
             "WIWNAME": "합계",
             "SUNSU": "702,974",
@@ -776,16 +889,22 @@
             "nametxt": "합계",
             "data": [
                 {
-                    "value": 180005,
+                    "value": 52.49,
                     "name": "조용익",
                     "party": "더불어민주당",
-                    "percentage": 52.49
+                    "pyo": 180005,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 162895,
+                    "value": 47.5,
                     "name": "서영석",
                     "party": "국민의힘",
-                    "percentage": 47.5
+                    "pyo": 162895,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 }
             ],
             "WINNUM": 1,
@@ -813,6 +932,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "4145",
+            "SGGNAME": "부천시",
             "WIWID": 4145,
             "WIWNAME": "부천시",
             "SUNSU": "702,974",
@@ -826,16 +947,22 @@
             "nametxt": "부천시",
             "data": [
                 {
-                    "value": 180005,
+                    "value": 52.49,
                     "name": "조용익",
                     "party": "더불어민주당",
-                    "percentage": 52.49
+                    "pyo": 180005,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 162895,
+                    "value": 47.5,
                     "name": "서영석",
                     "party": "국민의힘",
-                    "percentage": 47.5
+                    "pyo": 162895,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 }
             ],
             "WINNUM": 1,
@@ -863,6 +990,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "0",
+            "SGGNAME": "광명시",
             "WIWID": 0,
             "WIWNAME": "합계",
             "SUNSU": "247,233",
@@ -876,16 +1005,22 @@
             "nametxt": "합계",
             "data": [
                 {
-                    "value": 73759,
+                    "value": 53.44,
                     "name": "박승원",
                     "party": "더불어민주당",
-                    "percentage": 53.44
+                    "pyo": 73759,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 64255,
+                    "value": 46.55,
                     "name": "김기남",
                     "party": "국민의힘",
-                    "percentage": 46.55
+                    "pyo": 64255,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 }
             ],
             "WINNUM": 1,
@@ -913,6 +1048,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "4114",
+            "SGGNAME": "광명시",
             "WIWID": 4114,
             "WIWNAME": "광명시",
             "SUNSU": "247,233",
@@ -926,16 +1063,22 @@
             "nametxt": "광명시",
             "data": [
                 {
-                    "value": 73759,
+                    "value": 53.44,
                     "name": "박승원",
                     "party": "더불어민주당",
-                    "percentage": 53.44
+                    "pyo": 73759,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 64255,
+                    "value": 46.55,
                     "name": "김기남",
                     "party": "국민의힘",
-                    "percentage": 46.55
+                    "pyo": 64255,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 }
             ],
             "WINNUM": 1,
@@ -963,6 +1106,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "0",
+            "SGGNAME": "평택시",
             "WIWID": 0,
             "WIWNAME": "합계",
             "SUNSU": "478,356",
@@ -976,16 +1121,22 @@
             "nametxt": "합계",
             "data": [
                 {
-                    "value": 107159,
+                    "value": 52.08,
                     "name": "정장선",
                     "party": "더불어민주당",
-                    "percentage": 52.08
+                    "pyo": 107159,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 98566,
+                    "value": 47.91,
                     "name": "최호",
                     "party": "국민의힘",
-                    "percentage": 47.91
+                    "pyo": 98566,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 }
             ],
             "WINNUM": 1,
@@ -1013,6 +1164,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "4115",
+            "SGGNAME": "평택시",
             "WIWID": 4115,
             "WIWNAME": "평택시",
             "SUNSU": "478,356",
@@ -1026,16 +1179,22 @@
             "nametxt": "평택시",
             "data": [
                 {
-                    "value": 107159,
+                    "value": 52.08,
                     "name": "정장선",
                     "party": "더불어민주당",
-                    "percentage": 52.08
+                    "pyo": 107159,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 98566,
+                    "value": 47.91,
                     "name": "최호",
                     "party": "국민의힘",
-                    "percentage": 47.91
+                    "pyo": 98566,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 }
             ],
             "WINNUM": 1,
@@ -1063,6 +1222,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "0",
+            "SGGNAME": "양주시",
             "WIWID": 0,
             "WIWNAME": "합계",
             "SUNSU": "197,751",
@@ -1076,22 +1237,31 @@
             "nametxt": "합계",
             "data": [
                 {
-                    "value": 43728,
+                    "value": 46.59,
                     "name": "정덕영",
                     "party": "더불어민주당",
-                    "percentage": 46.59
+                    "pyo": 43728,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 48002,
+                    "value": 51.14,
                     "name": "강수현",
                     "party": "국민의힘",
-                    "percentage": 51.14
+                    "pyo": 48002,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 },
                 {
-                    "value": 2120,
+                    "value": 2.25,
                     "name": "홍성표",
                     "party": "무소속",
-                    "percentage": 2.25
+                    "pyo": 2120,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
                 }
             ],
             "WINNUM": 2,
@@ -1123,6 +1293,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "4116",
+            "SGGNAME": "양주시",
             "WIWID": 4116,
             "WIWNAME": "양주시",
             "SUNSU": "197,751",
@@ -1136,22 +1308,31 @@
             "nametxt": "양주시",
             "data": [
                 {
-                    "value": 43728,
+                    "value": 46.59,
                     "name": "정덕영",
                     "party": "더불어민주당",
-                    "percentage": 46.59
+                    "pyo": 43728,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 48002,
+                    "value": 51.14,
                     "name": "강수현",
                     "party": "국민의힘",
-                    "percentage": 51.14
+                    "pyo": 48002,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 },
                 {
-                    "value": 2120,
+                    "value": 2.25,
                     "name": "홍성표",
                     "party": "무소속",
-                    "percentage": 2.25
+                    "pyo": 2120,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
                 }
             ],
             "WINNUM": 2,
@@ -1183,6 +1364,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "0",
+            "SGGNAME": "동두천시",
             "WIWID": 0,
             "WIWNAME": "합계",
             "SUNSU": "81,074",
@@ -1196,22 +1379,31 @@
             "nametxt": "합계",
             "data": [
                 {
-                    "value": 16792,
+                    "value": 43.01,
                     "name": "최용덕",
                     "party": "더불어민주당",
-                    "percentage": 43.01
+                    "pyo": 16792,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 21063,
+                    "value": 53.95,
                     "name": "박형덕",
                     "party": "국민의힘",
-                    "percentage": 53.95
+                    "pyo": 21063,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 },
                 {
-                    "value": 1185,
+                    "value": 3.03,
                     "name": "정문영",
                     "party": "무소속",
-                    "percentage": 3.03
+                    "pyo": 1185,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
                 }
             ],
             "WINNUM": 2,
@@ -1243,6 +1435,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "4117",
+            "SGGNAME": "동두천시",
             "WIWID": 4117,
             "WIWNAME": "동두천시",
             "SUNSU": "81,074",
@@ -1256,22 +1450,31 @@
             "nametxt": "동두천시",
             "data": [
                 {
-                    "value": 16792,
+                    "value": 43.01,
                     "name": "최용덕",
                     "party": "더불어민주당",
-                    "percentage": 43.01
+                    "pyo": 16792,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 21063,
+                    "value": 53.95,
                     "name": "박형덕",
                     "party": "국민의힘",
-                    "percentage": 53.95
+                    "pyo": 21063,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 },
                 {
-                    "value": 1185,
+                    "value": 3.03,
                     "name": "정문영",
                     "party": "무소속",
-                    "percentage": 3.03
+                    "pyo": 1185,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
                 }
             ],
             "WINNUM": 2,
@@ -1303,6 +1506,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "0",
+            "SGGNAME": "안산시",
             "WIWID": 0,
             "WIWNAME": "합계",
             "SUNSU": "571,619",
@@ -1316,28 +1521,40 @@
             "nametxt": "합계",
             "data": [
                 {
-                    "value": 119595,
+                    "value": 46.45,
                     "name": "제종길",
                     "party": "더불어민주당",
-                    "percentage": 46.45
+                    "pyo": 119595,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 119776,
+                    "value": 46.52,
                     "name": "이민근",
                     "party": "국민의힘",
-                    "percentage": 46.52
+                    "pyo": 119776,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 },
                 {
-                    "value": 1173,
+                    "value": 0.45,
                     "name": "김만의",
                     "party": "무소속",
-                    "percentage": 0.45
+                    "pyo": 1173,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
                 },
                 {
-                    "value": 16919,
+                    "value": 6.57,
                     "name": "윤화섭",
                     "party": "무소속",
-                    "percentage": 6.57
+                    "pyo": 16919,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
                 }
             ],
             "WINNUM": 2,
@@ -1373,6 +1590,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "4118",
+            "SGGNAME": "안산시",
             "WIWID": 4118,
             "WIWNAME": "안산시상록구",
             "SUNSU": "305,390",
@@ -1386,28 +1605,40 @@
             "nametxt": "안산시상록구",
             "data": [
                 {
-                    "value": 64688,
+                    "value": 47.13,
                     "name": "제종길",
                     "party": "더불어민주당",
-                    "percentage": 47.13
+                    "pyo": 64688,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 63244,
+                    "value": 46.08,
                     "name": "이민근",
                     "party": "국민의힘",
-                    "percentage": 46.08
+                    "pyo": 63244,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 },
                 {
-                    "value": 610,
+                    "value": 0.44,
                     "name": "김만의",
                     "party": "무소속",
-                    "percentage": 0.44
+                    "pyo": 610,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
                 },
                 {
-                    "value": 8698,
+                    "value": 6.33,
                     "name": "윤화섭",
                     "party": "무소속",
-                    "percentage": 6.33
+                    "pyo": 8698,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
                 }
             ],
             "WINNUM": 1,
@@ -1443,6 +1674,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "4119",
+            "SGGNAME": "안산시",
             "WIWID": 4119,
             "WIWNAME": "안산시단원구",
             "SUNSU": "266,229",
@@ -1456,28 +1689,40 @@
             "nametxt": "안산시단원구",
             "data": [
                 {
-                    "value": 54907,
+                    "value": 45.67,
                     "name": "제종길",
                     "party": "더불어민주당",
-                    "percentage": 45.67
+                    "pyo": 54907,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 56532,
+                    "value": 47.02,
                     "name": "이민근",
                     "party": "국민의힘",
-                    "percentage": 47.02
+                    "pyo": 56532,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 },
                 {
-                    "value": 563,
+                    "value": 0.46,
                     "name": "김만의",
                     "party": "무소속",
-                    "percentage": 0.46
+                    "pyo": 563,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
                 },
                 {
-                    "value": 8221,
+                    "value": 6.83,
                     "name": "윤화섭",
                     "party": "무소속",
-                    "percentage": 6.83
+                    "pyo": 8221,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
                 }
             ],
             "WINNUM": 2,
@@ -1513,6 +1758,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "0",
+            "SGGNAME": "고양시",
             "WIWID": 0,
             "WIWNAME": "합계",
             "SUNSU": "924,690",
@@ -1526,22 +1773,31 @@
             "nametxt": "합계",
             "data": [
                 {
-                    "value": 214590,
+                    "value": 44.85,
                     "name": "이재준",
                     "party": "더불어민주당",
-                    "percentage": 44.85
+                    "pyo": 214590,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 249486,
+                    "value": 52.14,
                     "name": "이동환",
                     "party": "국민의힘",
-                    "percentage": 52.14
+                    "pyo": 249486,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 },
                 {
-                    "value": 14340,
+                    "value": 2.99,
                     "name": "김혜련",
                     "party": "정의당",
-                    "percentage": 2.99
+                    "pyo": 14340,
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
                 }
             ],
             "WINNUM": 2,
@@ -1573,6 +1829,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "4120",
+            "SGGNAME": "고양시",
             "WIWID": 4120,
             "WIWNAME": "고양시덕양구",
             "SUNSU": "461,775",
@@ -1586,22 +1844,31 @@
             "nametxt": "고양시덕양구",
             "data": [
                 {
-                    "value": 110861,
+                    "value": 46.48,
                     "name": "이재준",
                     "party": "더불어민주당",
-                    "percentage": 46.48
+                    "pyo": 110861,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 118607,
+                    "value": 49.72,
                     "name": "이동환",
                     "party": "국민의힘",
-                    "percentage": 49.72
+                    "pyo": 118607,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 },
                 {
-                    "value": 9042,
+                    "value": 3.79,
                     "name": "김혜련",
                     "party": "정의당",
-                    "percentage": 3.79
+                    "pyo": 9042,
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
                 }
             ],
             "WINNUM": 2,
@@ -1633,6 +1900,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "4121",
+            "SGGNAME": "고양시",
             "WIWID": 4121,
             "WIWNAME": "고양시일산동구",
             "SUNSU": "229,024",
@@ -1646,22 +1915,31 @@
             "nametxt": "고양시일산동구",
             "data": [
                 {
-                    "value": 49242,
+                    "value": 42.41,
                     "name": "이재준",
                     "party": "더불어민주당",
-                    "percentage": 42.41
+                    "pyo": 49242,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 64212,
+                    "value": 55.3,
                     "name": "이동환",
                     "party": "국민의힘",
-                    "percentage": 55.3
+                    "pyo": 64212,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 },
                 {
-                    "value": 2651,
+                    "value": 2.28,
                     "name": "김혜련",
                     "party": "정의당",
-                    "percentage": 2.28
+                    "pyo": 2651,
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
                 }
             ],
             "WINNUM": 2,
@@ -1693,6 +1971,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "4122",
+            "SGGNAME": "고양시",
             "WIWID": 4122,
             "WIWNAME": "고양시일산서구",
             "SUNSU": "233,891",
@@ -1706,22 +1986,31 @@
             "nametxt": "고양시일산서구",
             "data": [
                 {
-                    "value": 54487,
+                    "value": 44.01,
                     "name": "이재준",
                     "party": "더불어민주당",
-                    "percentage": 44.01
+                    "pyo": 54487,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 66667,
+                    "value": 53.85,
                     "name": "이동환",
                     "party": "국민의힘",
-                    "percentage": 53.85
+                    "pyo": 66667,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 },
                 {
-                    "value": 2647,
+                    "value": 2.13,
                     "name": "김혜련",
                     "party": "정의당",
-                    "percentage": 2.13
+                    "pyo": 2647,
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
                 }
             ],
             "WINNUM": 2,
@@ -1753,6 +2042,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "0",
+            "SGGNAME": "과천시",
             "WIWID": 0,
             "WIWNAME": "합계",
             "SUNSU": "65,220",
@@ -1766,16 +2057,22 @@
             "nametxt": "합계",
             "data": [
                 {
-                    "value": 18384,
+                    "value": 43.63,
                     "name": "김종천",
                     "party": "더불어민주당",
-                    "percentage": 43.63
+                    "pyo": 18384,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 23746,
+                    "value": 56.36,
                     "name": "신계용",
                     "party": "국민의힘",
-                    "percentage": 56.36
+                    "pyo": 23746,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 }
             ],
             "WINNUM": 2,
@@ -1803,6 +2100,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "4123",
+            "SGGNAME": "과천시",
             "WIWID": 4123,
             "WIWNAME": "과천시",
             "SUNSU": "65,220",
@@ -1816,16 +2115,22 @@
             "nametxt": "과천시",
             "data": [
                 {
-                    "value": 18384,
+                    "value": 43.63,
                     "name": "김종천",
                     "party": "더불어민주당",
-                    "percentage": 43.63
+                    "pyo": 18384,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 23746,
+                    "value": 56.36,
                     "name": "신계용",
                     "party": "국민의힘",
-                    "percentage": 56.36
+                    "pyo": 23746,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 }
             ],
             "WINNUM": 2,
@@ -1853,6 +2158,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "0",
+            "SGGNAME": "의왕시",
             "WIWID": 0,
             "WIWNAME": "합계",
             "SUNSU": "138,928",
@@ -1866,16 +2173,22 @@
             "nametxt": "합계",
             "data": [
                 {
-                    "value": 35302,
+                    "value": 44.3,
                     "name": "김상돈",
                     "party": "더불어민주당",
-                    "percentage": 44.3
+                    "pyo": 35302,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 44375,
+                    "value": 55.69,
                     "name": "김성제",
                     "party": "국민의힘",
-                    "percentage": 55.69
+                    "pyo": 44375,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 }
             ],
             "WINNUM": 2,
@@ -1903,6 +2216,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "4124",
+            "SGGNAME": "의왕시",
             "WIWID": 4124,
             "WIWNAME": "의왕시",
             "SUNSU": "138,928",
@@ -1916,16 +2231,22 @@
             "nametxt": "의왕시",
             "data": [
                 {
-                    "value": 35302,
+                    "value": 44.3,
                     "name": "김상돈",
                     "party": "더불어민주당",
-                    "percentage": 44.3
+                    "pyo": 35302,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 44375,
+                    "value": 55.69,
                     "name": "김성제",
                     "party": "국민의힘",
-                    "percentage": 55.69
+                    "pyo": 44375,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 }
             ],
             "WINNUM": 2,
@@ -1953,6 +2274,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "0",
+            "SGGNAME": "구리시",
             "WIWID": 0,
             "WIWNAME": "합계",
             "SUNSU": "164,045",
@@ -1966,22 +2289,31 @@
             "nametxt": "합계",
             "data": [
                 {
-                    "value": 37986,
+                    "value": 43.56,
                     "name": "안승남",
                     "party": "더불어민주당",
-                    "percentage": 43.56
+                    "pyo": 37986,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 47168,
+                    "value": 54.09,
                     "name": "백경현",
                     "party": "국민의힘",
-                    "percentage": 54.09
+                    "pyo": 47168,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 },
                 {
-                    "value": 2047,
+                    "value": 2.34,
                     "name": "박수천",
                     "party": "무소속",
-                    "percentage": 2.34
+                    "pyo": 2047,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
                 }
             ],
             "WINNUM": 2,
@@ -2013,6 +2345,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "4125",
+            "SGGNAME": "구리시",
             "WIWID": 4125,
             "WIWNAME": "구리시",
             "SUNSU": "164,045",
@@ -2026,22 +2360,31 @@
             "nametxt": "구리시",
             "data": [
                 {
-                    "value": 37986,
+                    "value": 43.56,
                     "name": "안승남",
                     "party": "더불어민주당",
-                    "percentage": 43.56
+                    "pyo": 37986,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 47168,
+                    "value": 54.09,
                     "name": "백경현",
                     "party": "국민의힘",
-                    "percentage": 54.09
+                    "pyo": 47168,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 },
                 {
-                    "value": 2047,
+                    "value": 2.34,
                     "name": "박수천",
                     "party": "무소속",
-                    "percentage": 2.34
+                    "pyo": 2047,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
                 }
             ],
             "WINNUM": 2,
@@ -2073,6 +2416,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "0",
+            "SGGNAME": "남양주시",
             "WIWID": 0,
             "WIWNAME": "합계",
             "SUNSU": "610,260",
@@ -2086,16 +2431,22 @@
             "nametxt": "합계",
             "data": [
                 {
-                    "value": 137915,
+                    "value": 46.55,
                     "name": "최민희",
                     "party": "더불어민주당",
-                    "percentage": 46.55
+                    "pyo": 137915,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 158315,
+                    "value": 53.44,
                     "name": "주광덕",
                     "party": "국민의힘",
-                    "percentage": 53.44
+                    "pyo": 158315,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 }
             ],
             "WINNUM": 2,
@@ -2123,6 +2474,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "4126",
+            "SGGNAME": "남양주시",
             "WIWID": 4126,
             "WIWNAME": "남양주시",
             "SUNSU": "610,260",
@@ -2136,16 +2489,22 @@
             "nametxt": "남양주시",
             "data": [
                 {
-                    "value": 137915,
+                    "value": 46.55,
                     "name": "최민희",
                     "party": "더불어민주당",
-                    "percentage": 46.55
+                    "pyo": 137915,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 158315,
+                    "value": 53.44,
                     "name": "주광덕",
                     "party": "국민의힘",
-                    "percentage": 53.44
+                    "pyo": 158315,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 }
             ],
             "WINNUM": 2,
@@ -2173,6 +2532,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "0",
+            "SGGNAME": "오산시",
             "WIWID": 0,
             "WIWNAME": "합계",
             "SUNSU": "190,375",
@@ -2186,28 +2547,40 @@
             "nametxt": "합계",
             "data": [
                 {
-                    "value": 38968,
+                    "value": 47.45,
                     "name": "장인수",
                     "party": "더불어민주당",
-                    "percentage": 47.45
+                    "pyo": 38968,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 40723,
+                    "value": 49.59,
                     "name": "이권재",
                     "party": "국민의힘",
-                    "percentage": 49.59
+                    "pyo": 40723,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 },
                 {
-                    "value": 709,
+                    "value": 0.86,
                     "name": "백승철",
                     "party": "무소속",
-                    "percentage": 0.86
+                    "pyo": 709,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
                 },
                 {
-                    "value": 1711,
+                    "value": 2.08,
                     "name": "최인혜",
                     "party": "무소속",
-                    "percentage": 2.08
+                    "pyo": 1711,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
                 }
             ],
             "WINNUM": 2,
@@ -2243,6 +2616,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "4127",
+            "SGGNAME": "오산시",
             "WIWID": 4127,
             "WIWNAME": "오산시",
             "SUNSU": "190,375",
@@ -2256,28 +2631,40 @@
             "nametxt": "오산시",
             "data": [
                 {
-                    "value": 38968,
+                    "value": 47.45,
                     "name": "장인수",
                     "party": "더불어민주당",
-                    "percentage": 47.45
+                    "pyo": 38968,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 40723,
+                    "value": 49.59,
                     "name": "이권재",
                     "party": "국민의힘",
-                    "percentage": 49.59
+                    "pyo": 40723,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 },
                 {
-                    "value": 709,
+                    "value": 0.86,
                     "name": "백승철",
                     "party": "무소속",
-                    "percentage": 0.86
+                    "pyo": 709,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
                 },
                 {
-                    "value": 1711,
+                    "value": 2.08,
                     "name": "최인혜",
                     "party": "무소속",
-                    "percentage": 2.08
+                    "pyo": 1711,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
                 }
             ],
             "WINNUM": 2,
@@ -2313,6 +2700,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "0",
+            "SGGNAME": "화성시",
             "WIWID": 0,
             "WIWNAME": "합계",
             "SUNSU": "711,229",
@@ -2326,16 +2715,22 @@
             "nametxt": "합계",
             "data": [
                 {
-                    "value": 176631,
+                    "value": 53.03,
                     "name": "정명근",
                     "party": "더불어민주당",
-                    "percentage": 53.03
+                    "pyo": 176631,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 156386,
+                    "value": 46.96,
                     "name": "구혁모",
                     "party": "국민의힘",
-                    "percentage": 46.96
+                    "pyo": 156386,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 }
             ],
             "WINNUM": 1,
@@ -2363,6 +2758,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "4128",
+            "SGGNAME": "화성시",
             "WIWID": 4128,
             "WIWNAME": "화성시",
             "SUNSU": "711,229",
@@ -2376,16 +2773,22 @@
             "nametxt": "화성시",
             "data": [
                 {
-                    "value": 176631,
+                    "value": 53.03,
                     "name": "정명근",
                     "party": "더불어민주당",
-                    "percentage": 53.03
+                    "pyo": 176631,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 156386,
+                    "value": 46.96,
                     "name": "구혁모",
                     "party": "국민의힘",
-                    "percentage": 46.96
+                    "pyo": 156386,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 }
             ],
             "WINNUM": 1,
@@ -2413,6 +2816,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "0",
+            "SGGNAME": "시흥시",
             "WIWID": 0,
             "WIWNAME": "합계",
             "SUNSU": "431,352",
@@ -2426,16 +2831,22 @@
             "nametxt": "합계",
             "data": [
                 {
-                    "value": 106468,
+                    "value": 55.54,
                     "name": "임병택",
                     "party": "더불어민주당",
-                    "percentage": 55.54
+                    "pyo": 106468,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 85217,
+                    "value": 44.45,
                     "name": "장재철",
                     "party": "국민의힘",
-                    "percentage": 44.45
+                    "pyo": 85217,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 }
             ],
             "WINNUM": 1,
@@ -2463,6 +2874,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "4129",
+            "SGGNAME": "시흥시",
             "WIWID": 4129,
             "WIWNAME": "시흥시",
             "SUNSU": "431,352",
@@ -2476,16 +2889,22 @@
             "nametxt": "시흥시",
             "data": [
                 {
-                    "value": 106468,
+                    "value": 55.54,
                     "name": "임병택",
                     "party": "더불어민주당",
-                    "percentage": 55.54
+                    "pyo": 106468,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 85217,
+                    "value": 44.45,
                     "name": "장재철",
                     "party": "국민의힘",
-                    "percentage": 44.45
+                    "pyo": 85217,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 }
             ],
             "WINNUM": 1,
@@ -2513,6 +2932,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "0",
+            "SGGNAME": "군포시",
             "WIWID": 0,
             "WIWNAME": "합계",
             "SUNSU": "231,192",
@@ -2526,16 +2947,22 @@
             "nametxt": "합계",
             "data": [
                 {
-                    "value": 62821,
+                    "value": 49.55,
                     "name": "한대희",
                     "party": "더불어민주당",
-                    "percentage": 49.55
+                    "pyo": 62821,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 63955,
+                    "value": 50.44,
                     "name": "하은호",
                     "party": "국민의힘",
-                    "percentage": 50.44
+                    "pyo": 63955,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 }
             ],
             "WINNUM": 2,
@@ -2563,6 +2990,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "4130",
+            "SGGNAME": "군포시",
             "WIWID": 4130,
             "WIWNAME": "군포시",
             "SUNSU": "231,192",
@@ -2576,16 +3005,22 @@
             "nametxt": "군포시",
             "data": [
                 {
-                    "value": 62821,
+                    "value": 49.55,
                     "name": "한대희",
                     "party": "더불어민주당",
-                    "percentage": 49.55
+                    "pyo": 62821,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 63955,
+                    "value": 50.44,
                     "name": "하은호",
                     "party": "국민의힘",
-                    "percentage": 50.44
+                    "pyo": 63955,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 }
             ],
             "WINNUM": 2,
@@ -2613,6 +3048,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "0",
+            "SGGNAME": "하남시",
             "WIWID": 0,
             "WIWNAME": "합계",
             "SUNSU": "266,856",
@@ -2626,16 +3063,22 @@
             "nametxt": "합계",
             "data": [
                 {
-                    "value": 60823,
+                    "value": 43.97,
                     "name": "김상호",
                     "party": "더불어민주당",
-                    "percentage": 43.97
+                    "pyo": 60823,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 77493,
+                    "value": 56.02,
                     "name": "이현재",
                     "party": "국민의힘",
-                    "percentage": 56.02
+                    "pyo": 77493,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 }
             ],
             "WINNUM": 2,
@@ -2663,6 +3106,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "4131",
+            "SGGNAME": "하남시",
             "WIWID": 4131,
             "WIWNAME": "하남시",
             "SUNSU": "266,856",
@@ -2676,16 +3121,22 @@
             "nametxt": "하남시",
             "data": [
                 {
-                    "value": 60823,
+                    "value": 43.97,
                     "name": "김상호",
                     "party": "더불어민주당",
-                    "percentage": 43.97
+                    "pyo": 60823,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 77493,
+                    "value": 56.02,
                     "name": "이현재",
                     "party": "국민의힘",
-                    "percentage": 56.02
+                    "pyo": 77493,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 }
             ],
             "WINNUM": 2,
@@ -2713,6 +3164,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "0",
+            "SGGNAME": "파주시",
             "WIWID": 0,
             "WIWNAME": "합계",
             "SUNSU": "403,729",
@@ -2726,16 +3179,22 @@
             "nametxt": "합계",
             "data": [
                 {
-                    "value": 92512,
+                    "value": 50.14,
                     "name": "김경일",
                     "party": "더불어민주당",
-                    "percentage": 50.14
+                    "pyo": 92512,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 91981,
+                    "value": 49.85,
                     "name": "조병국",
                     "party": "국민의힘",
-                    "percentage": 49.85
+                    "pyo": 91981,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 }
             ],
             "WINNUM": 1,
@@ -2763,6 +3222,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "4132",
+            "SGGNAME": "파주시",
             "WIWID": 4132,
             "WIWNAME": "파주시",
             "SUNSU": "403,729",
@@ -2776,16 +3237,22 @@
             "nametxt": "파주시",
             "data": [
                 {
-                    "value": 92512,
+                    "value": 50.14,
                     "name": "김경일",
                     "party": "더불어민주당",
-                    "percentage": 50.14
+                    "pyo": 92512,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 91981,
+                    "value": 49.85,
                     "name": "조병국",
                     "party": "국민의힘",
-                    "percentage": 49.85
+                    "pyo": 91981,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 }
             ],
             "WINNUM": 1,
@@ -2813,6 +3280,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "0",
+            "SGGNAME": "여주시",
             "WIWID": 0,
             "WIWNAME": "합계",
             "SUNSU": "98,333",
@@ -2826,16 +3295,22 @@
             "nametxt": "합계",
             "data": [
                 {
-                    "value": 16603,
+                    "value": 33.32,
                     "name": "이항진",
                     "party": "더불어민주당",
-                    "percentage": 33.32
+                    "pyo": 16603,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 33224,
+                    "value": 66.67,
                     "name": "이충우",
                     "party": "국민의힘",
-                    "percentage": 66.67
+                    "pyo": 33224,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 }
             ],
             "WINNUM": 2,
@@ -2863,6 +3338,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "4133",
+            "SGGNAME": "여주시",
             "WIWID": 4133,
             "WIWNAME": "여주시",
             "SUNSU": "98,333",
@@ -2876,16 +3353,22 @@
             "nametxt": "여주시",
             "data": [
                 {
-                    "value": 16603,
+                    "value": 33.32,
                     "name": "이항진",
                     "party": "더불어민주당",
-                    "percentage": 33.32
+                    "pyo": 16603,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 33224,
+                    "value": 66.67,
                     "name": "이충우",
                     "party": "국민의힘",
-                    "percentage": 66.67
+                    "pyo": 33224,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 }
             ],
             "WINNUM": 2,
@@ -2913,6 +3396,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "0",
+            "SGGNAME": "이천시",
             "WIWID": 0,
             "WIWNAME": "합계",
             "SUNSU": "188,563",
@@ -2926,16 +3411,22 @@
             "nametxt": "합계",
             "data": [
                 {
-                    "value": 39711,
+                    "value": 45.41,
                     "name": "엄태준",
                     "party": "더불어민주당",
-                    "percentage": 45.41
+                    "pyo": 39711,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 47729,
+                    "value": 54.58,
                     "name": "김경희",
                     "party": "국민의힘",
-                    "percentage": 54.58
+                    "pyo": 47729,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 }
             ],
             "WINNUM": 2,
@@ -2963,6 +3454,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "4134",
+            "SGGNAME": "이천시",
             "WIWID": 4134,
             "WIWNAME": "이천시",
             "SUNSU": "188,563",
@@ -2976,16 +3469,22 @@
             "nametxt": "이천시",
             "data": [
                 {
-                    "value": 39711,
+                    "value": 45.41,
                     "name": "엄태준",
                     "party": "더불어민주당",
-                    "percentage": 45.41
+                    "pyo": 39711,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 47729,
+                    "value": 54.58,
                     "name": "김경희",
                     "party": "국민의힘",
-                    "percentage": 54.58
+                    "pyo": 47729,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 }
             ],
             "WINNUM": 2,
@@ -3013,6 +3512,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "0",
+            "SGGNAME": "용인시",
             "WIWID": 0,
             "WIWNAME": "합계",
             "SUNSU": "889,545",
@@ -3026,16 +3527,22 @@
             "nametxt": "합계",
             "data": [
                 {
-                    "value": 213162,
+                    "value": 44.62,
                     "name": "백군기",
                     "party": "더불어민주당",
-                    "percentage": 44.62
+                    "pyo": 213162,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 264487,
+                    "value": 55.37,
                     "name": "이상일",
                     "party": "국민의힘",
-                    "percentage": 55.37
+                    "pyo": 264487,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 }
             ],
             "WINNUM": 2,
@@ -3063,6 +3570,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "4135",
+            "SGGNAME": "용인시",
             "WIWID": 4135,
             "WIWNAME": "용인시처인구",
             "SUNSU": "222,743",
@@ -3076,16 +3585,22 @@
             "nametxt": "용인시처인구",
             "data": [
                 {
-                    "value": 43377,
+                    "value": 41.85,
                     "name": "백군기",
                     "party": "더불어민주당",
-                    "percentage": 41.85
+                    "pyo": 43377,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 60270,
+                    "value": 58.14,
                     "name": "이상일",
                     "party": "국민의힘",
-                    "percentage": 58.14
+                    "pyo": 60270,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 }
             ],
             "WINNUM": 2,
@@ -3113,6 +3628,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "4136",
+            "SGGNAME": "용인시",
             "WIWID": 4136,
             "WIWNAME": "용인시수지구",
             "SUNSU": "231,983",
@@ -3126,16 +3643,22 @@
             "nametxt": "용인시수지구",
             "data": [
                 {
-                    "value": 57578,
+                    "value": 42.67,
                     "name": "백군기",
                     "party": "더불어민주당",
-                    "percentage": 42.67
+                    "pyo": 57578,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 77334,
+                    "value": 57.32,
                     "name": "이상일",
                     "party": "국민의힘",
-                    "percentage": 57.32
+                    "pyo": 77334,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 }
             ],
             "WINNUM": 2,
@@ -3163,6 +3686,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "4137",
+            "SGGNAME": "용인시",
             "WIWID": 4137,
             "WIWNAME": "용인시기흥구",
             "SUNSU": "434,819",
@@ -3176,16 +3701,22 @@
             "nametxt": "용인시기흥구",
             "data": [
                 {
-                    "value": 112207,
+                    "value": 46.93,
                     "name": "백군기",
                     "party": "더불어민주당",
-                    "percentage": 46.93
+                    "pyo": 112207,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 126883,
+                    "value": 53.06,
                     "name": "이상일",
                     "party": "국민의힘",
-                    "percentage": 53.06
+                    "pyo": 126883,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 }
             ],
             "WINNUM": 2,
@@ -3213,6 +3744,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "0",
+            "SGGNAME": "안성시",
             "WIWID": 0,
             "WIWNAME": "합계",
             "SUNSU": "163,518",
@@ -3226,16 +3759,22 @@
             "nametxt": "합계",
             "data": [
                 {
-                    "value": 40497,
+                    "value": 50.35,
                     "name": "김보라",
                     "party": "더불어민주당",
-                    "percentage": 50.35
+                    "pyo": 40497,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 39930,
+                    "value": 49.64,
                     "name": "이영찬",
                     "party": "국민의힘",
-                    "percentage": 49.64
+                    "pyo": 39930,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 }
             ],
             "WINNUM": 1,
@@ -3263,6 +3802,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "4138",
+            "SGGNAME": "안성시",
             "WIWID": 4138,
             "WIWNAME": "안성시",
             "SUNSU": "163,518",
@@ -3276,16 +3817,22 @@
             "nametxt": "안성시",
             "data": [
                 {
-                    "value": 40497,
+                    "value": 50.35,
                     "name": "김보라",
                     "party": "더불어민주당",
-                    "percentage": 50.35
+                    "pyo": 40497,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 39930,
+                    "value": 49.64,
                     "name": "이영찬",
                     "party": "국민의힘",
-                    "percentage": 49.64
+                    "pyo": 39930,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 }
             ],
             "WINNUM": 1,
@@ -3313,6 +3860,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "0",
+            "SGGNAME": "김포시",
             "WIWID": 0,
             "WIWNAME": "합계",
             "SUNSU": "392,604",
@@ -3326,28 +3875,40 @@
             "nametxt": "합계",
             "data": [
                 {
-                    "value": 86798,
+                    "value": 44.79,
                     "name": "정하영",
                     "party": "더불어민주당",
-                    "percentage": 44.79
+                    "pyo": 86798,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 101566,
+                    "value": 52.42,
                     "name": "김병수",
                     "party": "국민의힘",
-                    "percentage": 52.42
+                    "pyo": 101566,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 },
                 {
-                    "value": 4136,
+                    "value": 2.13,
                     "name": "박우식",
                     "party": "무소속",
-                    "percentage": 2.13
+                    "pyo": 4136,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
                 },
                 {
-                    "value": 1250,
+                    "value": 0.64,
                     "name": "이주성",
                     "party": "무소속",
-                    "percentage": 0.64
+                    "pyo": 1250,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
                 }
             ],
             "WINNUM": 2,
@@ -3383,6 +3944,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "4139",
+            "SGGNAME": "김포시",
             "WIWID": 4139,
             "WIWNAME": "김포시",
             "SUNSU": "392,604",
@@ -3396,28 +3959,40 @@
             "nametxt": "김포시",
             "data": [
                 {
-                    "value": 86798,
+                    "value": 44.79,
                     "name": "정하영",
                     "party": "더불어민주당",
-                    "percentage": 44.79
+                    "pyo": 86798,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 101566,
+                    "value": 52.42,
                     "name": "김병수",
                     "party": "국민의힘",
-                    "percentage": 52.42
+                    "pyo": 101566,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 },
                 {
-                    "value": 4136,
+                    "value": 2.13,
                     "name": "박우식",
                     "party": "무소속",
-                    "percentage": 2.13
+                    "pyo": 4136,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
                 },
                 {
-                    "value": 1250,
+                    "value": 0.64,
                     "name": "이주성",
                     "party": "무소속",
-                    "percentage": 0.64
+                    "pyo": 1250,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
                 }
             ],
             "WINNUM": 2,
@@ -3453,6 +4028,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "0",
+            "SGGNAME": "광주시",
             "WIWID": 0,
             "WIWNAME": "합계",
             "SUNSU": "329,651",
@@ -3466,16 +4043,22 @@
             "nametxt": "합계",
             "data": [
                 {
-                    "value": 69369,
+                    "value": 46.11,
                     "name": "동희영",
                     "party": "더불어민주당",
-                    "percentage": 46.11
+                    "pyo": 69369,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 81061,
+                    "value": 53.88,
                     "name": "방세환",
                     "party": "국민의힘",
-                    "percentage": 53.88
+                    "pyo": 81061,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 }
             ],
             "WINNUM": 2,
@@ -3503,6 +4086,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "4140",
+            "SGGNAME": "광주시",
             "WIWID": 4140,
             "WIWNAME": "광주시",
             "SUNSU": "329,651",
@@ -3516,16 +4101,22 @@
             "nametxt": "광주시",
             "data": [
                 {
-                    "value": 69369,
+                    "value": 46.11,
                     "name": "동희영",
                     "party": "더불어민주당",
-                    "percentage": 46.11
+                    "pyo": 69369,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 81061,
+                    "value": 53.88,
                     "name": "방세환",
                     "party": "국민의힘",
-                    "percentage": 53.88
+                    "pyo": 81061,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 }
             ],
             "WINNUM": 2,
@@ -3553,6 +4144,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "0",
+            "SGGNAME": "포천시",
             "WIWID": 0,
             "WIWNAME": "합계",
             "SUNSU": "131,980",
@@ -3566,16 +4159,22 @@
             "nametxt": "합계",
             "data": [
                 {
-                    "value": 31743,
+                    "value": 47.66,
                     "name": "박윤국",
                     "party": "더불어민주당",
-                    "percentage": 47.66
+                    "pyo": 31743,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 34858,
+                    "value": 52.33,
                     "name": "백영현",
                     "party": "국민의힘",
-                    "percentage": 52.33
+                    "pyo": 34858,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 }
             ],
             "WINNUM": 2,
@@ -3603,6 +4202,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "4141",
+            "SGGNAME": "포천시",
             "WIWID": 4141,
             "WIWNAME": "포천시",
             "SUNSU": "131,980",
@@ -3616,16 +4217,22 @@
             "nametxt": "포천시",
             "data": [
                 {
-                    "value": 31743,
+                    "value": 47.66,
                     "name": "박윤국",
                     "party": "더불어민주당",
-                    "percentage": 47.66
+                    "pyo": 31743,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 34858,
+                    "value": 52.33,
                     "name": "백영현",
                     "party": "국민의힘",
-                    "percentage": 52.33
+                    "pyo": 34858,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 }
             ],
             "WINNUM": 2,
@@ -3653,6 +4260,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "0",
+            "SGGNAME": "연천군",
             "WIWID": 0,
             "WIWNAME": "합계",
             "SUNSU": "37,898",
@@ -3666,22 +4275,31 @@
             "nametxt": "합계",
             "data": [
                 {
-                    "value": 6000,
+                    "value": 26.92,
                     "name": "유상호",
                     "party": "더불어민주당",
-                    "percentage": 26.92
+                    "pyo": 6000,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 10580,
+                    "value": 47.46,
                     "name": "김덕현",
                     "party": "국민의힘",
-                    "percentage": 47.46
+                    "pyo": 10580,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 },
                 {
-                    "value": 5708,
+                    "value": 25.61,
                     "name": "김광철",
                     "party": "무소속",
-                    "percentage": 25.61
+                    "pyo": 5708,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
                 }
             ],
             "WINNUM": 2,
@@ -3713,6 +4331,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "4142",
+            "SGGNAME": "연천군",
             "WIWID": 4142,
             "WIWNAME": "연천군",
             "SUNSU": "37,898",
@@ -3726,22 +4346,31 @@
             "nametxt": "연천군",
             "data": [
                 {
-                    "value": 6000,
+                    "value": 26.92,
                     "name": "유상호",
                     "party": "더불어민주당",
-                    "percentage": 26.92
+                    "pyo": 6000,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 10580,
+                    "value": 47.46,
                     "name": "김덕현",
                     "party": "국민의힘",
-                    "percentage": 47.46
+                    "pyo": 10580,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 },
                 {
-                    "value": 5708,
+                    "value": 25.61,
                     "name": "김광철",
                     "party": "무소속",
-                    "percentage": 25.61
+                    "pyo": 5708,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
                 }
             ],
             "WINNUM": 2,
@@ -3773,6 +4402,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "0",
+            "SGGNAME": "양평군",
             "WIWID": 0,
             "WIWNAME": "합계",
             "SUNSU": "107,165",
@@ -3786,16 +4417,22 @@
             "nametxt": "합계",
             "data": [
                 {
-                    "value": 28298,
+                    "value": 45.33,
                     "name": "정동균",
                     "party": "더불어민주당",
-                    "percentage": 45.33
+                    "pyo": 28298,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 34125,
+                    "value": 54.66,
                     "name": "전진선",
                     "party": "국민의힘",
-                    "percentage": 54.66
+                    "pyo": 34125,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 }
             ],
             "WINNUM": 2,
@@ -3823,6 +4460,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "4143",
+            "SGGNAME": "양평군",
             "WIWID": 4143,
             "WIWNAME": "양평군",
             "SUNSU": "107,165",
@@ -3836,16 +4475,22 @@
             "nametxt": "양평군",
             "data": [
                 {
-                    "value": 28298,
+                    "value": 45.33,
                     "name": "정동균",
                     "party": "더불어민주당",
-                    "percentage": 45.33
+                    "pyo": 28298,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 34125,
+                    "value": 54.66,
                     "name": "전진선",
                     "party": "국민의힘",
-                    "percentage": 54.66
+                    "pyo": 34125,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 }
             ],
             "WINNUM": 2,
@@ -3873,6 +4518,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "0",
+            "SGGNAME": "가평군",
             "WIWID": 0,
             "WIWNAME": "합계",
             "SUNSU": "55,791",
@@ -3886,34 +4533,49 @@
             "nametxt": "합계",
             "data": [
                 {
-                    "value": 7302,
+                    "value": 22.51,
                     "name": "송기욱",
                     "party": "더불어민주당",
-                    "percentage": 22.51
+                    "pyo": 7302,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 16975,
+                    "value": 52.34,
                     "name": "서태원",
                     "party": "국민의힘",
-                    "percentage": 52.34
+                    "pyo": 16975,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 },
                 {
-                    "value": 7185,
+                    "value": 22.15,
                     "name": "박범서",
                     "party": "무소속",
-                    "percentage": 22.15
+                    "pyo": 7185,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
                 },
                 {
-                    "value": 788,
+                    "value": 2.42,
                     "name": "강태만",
                     "party": "무소속",
-                    "percentage": 2.42
+                    "pyo": 788,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
                 },
                 {
-                    "value": 181,
+                    "value": 0.55,
                     "name": "장세민",
                     "party": "무소속",
-                    "percentage": 0.55
+                    "pyo": 181,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
                 }
             ],
             "WINNUM": 2,
@@ -3953,6 +4615,8 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "4144",
+            "SGGNAME": "가평군",
             "WIWID": 4144,
             "WIWNAME": "가평군",
             "SUNSU": "55,791",
@@ -3966,34 +4630,49 @@
             "nametxt": "가평군",
             "data": [
                 {
-                    "value": 7302,
+                    "value": 22.51,
                     "name": "송기욱",
                     "party": "더불어민주당",
-                    "percentage": 22.51
+                    "pyo": 7302,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
-                    "value": 16975,
+                    "value": 52.34,
                     "name": "서태원",
                     "party": "국민의힘",
-                    "percentage": 52.34
+                    "pyo": 16975,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 },
                 {
-                    "value": 7185,
+                    "value": 22.15,
                     "name": "박범서",
                     "party": "무소속",
-                    "percentage": 22.15
+                    "pyo": 7185,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
                 },
                 {
-                    "value": 788,
+                    "value": 2.42,
                     "name": "강태만",
                     "party": "무소속",
-                    "percentage": 2.42
+                    "pyo": 788,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
                 },
                 {
-                    "value": 181,
+                    "value": 0.55,
                     "name": "장세민",
                     "party": "무소속",
-                    "percentage": 0.55
+                    "pyo": 181,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
                 }
             ],
             "WINNUM": 2,
