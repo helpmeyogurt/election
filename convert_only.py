@@ -2,7 +2,7 @@ import json
 import os
 
 # 가공하고자 하는 선거 종류 코드 (3: 시도지사, 4: 시군구청장)
-ELEC_CODE = "3"
+ELEC_CODE = "4"
 
 # 전국 17개 시도 매핑 가이드
 CITIES = [
@@ -25,43 +25,22 @@ CITIES = [
     {"CODE": 4900, "NAME": "제주특별자치도"},
 ]
 
-# 🚨 [수정 반영] 제공해주신 partyColorDict 규칙과 100% 일치시킨 색상 사전
+# partyColorDict 기반 색상 사전
 PARTY_COLORS = {
-    "더불어민주당": "#152484",
-    "국민의힘": "#E61E2B",
-    "더불어민주연합": "#152484",
-    "국민의미래": "#E61E2B",
-    "녹색정의당": "#007C36",
-    "새로운미래": "#46bbbd",
-    "개혁신당": "#FF7920",
-    "진보당": "#D6001C",
-    "자유통일당": "#E24A49",
-    "조국혁신당": "#004099",
-    "기본소득당": "#00D2C3",
-    "무소속": "#8b8b8b",
-    "국민의당": "#EA5504",
-    "미래통합당": "#EF426F",
-    "미래한국당": "#EF426F",
-    "더불어시민당": "#006CB7",
-    "정의당": "#ffca05",
-    "열린민주당": "#003E98",
-    "소나무당": "#1A246B",
-    "우리공화당": "#009944",
-    "한국국민당": "#013588",
-    "새진보연합": "#00d2c3",
-    "없음": "#8b8b8b"
+    "더불어민주당": "#152484", "국민의힘": "#E61E2B", "더불어민주연합": "#152484", "국민의미래": "#E61E2B",
+    "녹색정의당": "#007C36", "새로운미래": "#46bbbd", "개혁신당": "#FF7920", "진보당": "#D6001C",
+    "자유통일당": "#E24A49", "조국혁신당": "#004099", "기본소득당": "#00D2C3", "무소속": "#8b8b8b",
+    "국민의당": "#EA5504", "미래통합당": "#EF426F", "미래한국당": "#EF426F", "더불어시민당": "#006CB7",
+    "정의당": "#ffca05", "열린민주당": "#003E98", "소나무당": "#1A246B", "우리공화당": "#009944",
+    "한국국민당": "#013588", "새진보연합": "#00d2c3", "없음": "#8b8b8b"
 }
 
-# 자바스크립트 partyColorLocal의 value 규칙과 완벽 일치화 (최상위 식별용)
+# 자바스크립트 매핑용 정당 밸류 번호 사전
 PARTY_MAP_INDEX = {
     "더불어민주당": 1, "더불어민주연합": 1, "더불어시민당": 1,
     "국민의힘": 2, "국민의미래": 2, "미래통합당": 2,
-    "정의당": 3, "녹색정의당": 3,
-    "조국혁신당": 4,
-    "진보당": 5,
-    "개혁신당": 6,
-    "새로운미래": 9,
-    "무소속": 9
+    "정의당": 3, "녹색정의당": 3, "조국혁신당": 4, "진보당": 5, "개혁신당": 6,
+    "새로운미래": 9, "무소속": 9
 }
 
 def uncomma(value_str):
@@ -95,15 +74,22 @@ def add_sgg_data_processor(raw_json, city_code, city_name):
     if not raw_items:
         return None
 
+    win_party_counter = {}
+
     for item in raw_items:
         sunsu_val = uncomma(item.get("SUNSU", "0"))
         tusu_val = uncomma(item.get("TUSU", "0"))
         tuyul_val = f"{(tusu_val / sunsu_val * 100):.1f}" if sunsu_val > 0 else "0.0"
         
+        sgg_name_val = item.get("SGGNAME", item.get("WIWNAME", ""))
+        wiw_id_raw = item.get("WIWID", "0")
+
         sggdata = {
             "SDID": int(item.get("SDID", city_code)),
             "SDNAME": item.get("SDNAME", city_name),
-            "WIWID": int(item.get("WIWID", 0)),
+            "SGGID": str(wiw_id_raw),    # 👈 [추가 반영] SGGID 항목을 문자열 규격으로 전체 매핑
+            "SGGNAME": sgg_name_val,
+            "WIWID": int(wiw_id_raw),
             "WIWNAME": item.get("WIWNAME", "합계"),
             "SUNSU": item.get("SUNSU", "0"),
             "TUSU": item.get("TUSU", "0"),
@@ -112,7 +98,7 @@ def add_sgg_data_processor(raw_json, city_code, city_name):
             "GIGWON": item.get("GIGWON", "0"),
             "HUBOSU": item.get("HUBOSU", "0"),
             "TUYUL": tuyul_val,
-            "name": int(item.get("WIWID", 0)), 
+            "name": int(wiw_id_raw), 
             "nametxt": item.get("WIWNAME", "합계"),
             "data": []
         }
@@ -141,7 +127,6 @@ def add_sgg_data_processor(raw_json, city_code, city_name):
             elif current_dugsu > sec_dugsu:
                 sec_num, sec_dugsu, sec_dugyul, sec_hubo, sec_jd = k, current_dugsu, current_dugyul, hubo_name, party_name
 
-            # 정당명 앞뒤 공백 제거 후 일치하는 정당 헥사 컬러 가져오기 (없으면 기본 회색)
             cleaned_party = party_name.strip() if party_name else "없음"
             actual_color = PARTY_COLORS.get(cleaned_party, "#8b8b8b")
 
@@ -182,7 +167,27 @@ def add_sgg_data_processor(raw_json, city_code, city_name):
                 sggdata[f"DUGSU{suf}"] = item.get(f"DUGSU{suf}")
                 sggdata[f"DUGYUL{suf}"] = item.get(f"DUGYUL{suf}")
 
+        if ELEC_CODE == "4" and item.get("WIWNAME") == "합계" and int(wiw_id_raw) != 0:
+            if win_jd and win_dugsu > sec_dugsu:
+                win_party_counter[win_jd] = win_party_counter.get(win_jd, 0) + 1
+
         refined_list.append(sggdata)
+
+    if ELEC_CODE == "4":
+        summary_pie_data = []
+        for party, count in win_party_counter.items():
+            summary_pie_data.append({
+                "name": party,
+                "value": count,
+                "itemStyle": {"color": PARTY_COLORS.get(party, "#8b8b8b")}
+            })
+        
+        summary_pie_data.sort(key=lambda x: x["value"], reverse=True)
+
+        for sgg in refined_list:
+            if sgg["WIWID"] == 0:
+                sgg["data"] = summary_pie_data
+                break
 
     return {city_name: refined_list}
 
@@ -190,7 +195,7 @@ def main():
     target_dir = os.path.join("data", "jibang", "8")
     if not os.path.exists(target_dir): return
 
-    print(f"🔄 선거코드 [{ELEC_CODE}] 기준 데이터 가공을 시작합니다.")
+    print(f"🔄 선거코드 [{ELEC_CODE}] 기준 SGGID 필드 추가 가공을 시작합니다.")
 
     for city in CITIES:
         code_str = str(city["CODE"])
@@ -208,11 +213,11 @@ def main():
                 if refined_json is not None:
                     with open(refined_file_path, "w", encoding="utf-8") as f:
                         json.dump(refined_json, f, ensure_ascii=False, indent=4)
-                    print(f"🟢 [{name_str}] 새로운 partyColorDict 컬러셋 덤프 완료 -> {ELEC_CODE}_{code_str}.json")
+                    print(f"🟢 [{name_str}] SGGID 필드 주입 완료 -> {ELEC_CODE}_{code_str}.json")
             except Exception as e:
                 print(f"🔴 [{name_str}] 가공 오류: {e}")
 
-    print("✨ 지정한 정당 색상 명세표 반영 가공 작업이 완료되었습니다.")
+    print("✨ SGGID 필드 매핑 및 통합 가공 작업이 완료되었습니다.")
 
 if __name__ == "__main__":
     main()
