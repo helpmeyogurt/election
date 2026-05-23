@@ -4,6 +4,15 @@
             "SDID": 4700,
             "SDNAME": "경상북도",
             "SGGID": "0",
+            "SGGNAME": "합계",
+            "WIWID": 0,
+            "WIWNAME": "합계",
+            "data": []
+        },
+        {
+            "SDID": 4700,
+            "SDNAME": "경상북도",
+            "SGGID": "4470100",
             "SGGNAME": "포항시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -16,7 +25,26 @@
             "TUYUL": "45.9",
             "name": 0,
             "nametxt": "합계",
-            "data": [],
+            "data": [
+                {
+                    "value": 22.79,
+                    "name": "유성찬",
+                    "party": "더불어민주당",
+                    "pyo": 43599,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 77.2,
+                    "name": "이강덕",
+                    "party": "국민의힘",
+                    "pyo": 147663,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
             "WINNUM": 2,
             "WINDUGSU": "147,663",
             "WINDUGYUL": "77.20",
@@ -42,7 +70,7 @@
         {
             "SDID": 4700,
             "SDNAME": "경상북도",
-            "SGGID": "4701",
+            "SGGID": "4470100",
             "SGGNAME": "포항시",
             "WIWID": 4701,
             "WIWNAME": "포항시북구",
@@ -100,7 +128,7 @@
         {
             "SDID": 4700,
             "SDNAME": "경상북도",
-            "SGGID": "4702",
+            "SGGID": "4470100",
             "SGGNAME": "포항시",
             "WIWID": 4702,
             "WIWNAME": "포항시남구",
@@ -158,7 +186,7 @@
         {
             "SDID": 4700,
             "SDNAME": "경상북도",
-            "SGGID": "0",
+            "SGGID": "4470300",
             "SGGNAME": "울릉군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -216,7 +244,7 @@
         {
             "SDID": 4700,
             "SDNAME": "경상북도",
-            "SGGID": "4703",
+            "SGGID": "4470300",
             "SGGNAME": "울릉군",
             "WIWID": 4703,
             "WIWNAME": "울릉군",
@@ -274,7 +302,7 @@
         {
             "SDID": 4700,
             "SDNAME": "경상북도",
-            "SGGID": "0",
+            "SGGID": "4470400",
             "SGGNAME": "경주시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -332,7 +360,7 @@
         {
             "SDID": 4700,
             "SDNAME": "경상북도",
-            "SGGID": "4704",
+            "SGGID": "4470400",
             "SGGNAME": "경주시",
             "WIWID": 4704,
             "WIWNAME": "경주시",
@@ -390,7 +418,7 @@
         {
             "SDID": 4700,
             "SDNAME": "경상북도",
-            "SGGID": "0",
+            "SGGID": "4470500",
             "SGGNAME": "김천시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -474,7 +502,7 @@
         {
             "SDID": 4700,
             "SDNAME": "경상북도",
-            "SGGID": "4705",
+            "SGGID": "4470500",
             "SGGNAME": "김천시",
             "WIWID": 4705,
             "WIWNAME": "김천시",
@@ -558,7 +586,7 @@
         {
             "SDID": 4700,
             "SDNAME": "경상북도",
-            "SGGID": "0",
+            "SGGID": "4470600",
             "SGGNAME": "안동시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -629,7 +657,7 @@
         {
             "SDID": 4700,
             "SDNAME": "경상북도",
-            "SGGID": "4706",
+            "SGGID": "4470600",
             "SGGNAME": "안동시",
             "WIWID": 4706,
             "WIWNAME": "안동시",
@@ -700,7 +728,7 @@
         {
             "SDID": 4700,
             "SDNAME": "경상북도",
-            "SGGID": "0",
+            "SGGID": "4470700",
             "SGGNAME": "구미시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -784,7 +812,7 @@
         {
             "SDID": 4700,
             "SDNAME": "경상북도",
-            "SGGID": "4707",
+            "SGGID": "4470700",
             "SGGNAME": "구미시",
             "WIWID": 4707,
             "WIWNAME": "구미시",
@@ -868,7 +896,7 @@
         {
             "SDID": 4700,
             "SDNAME": "경상북도",
-            "SGGID": "0",
+            "SGGID": "4470800",
             "SGGNAME": "영주시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -926,7 +954,7 @@
         {
             "SDID": 4700,
             "SDNAME": "경상북도",
-            "SGGID": "4708",
+            "SGGID": "4470800",
             "SGGNAME": "영주시",
             "WIWID": 4708,
             "WIWNAME": "영주시",
@@ -984,7 +1012,7 @@
         {
             "SDID": 4700,
             "SDNAME": "경상북도",
-            "SGGID": "0",
+            "SGGID": "4470900",
             "SGGNAME": "영천시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1055,7 +1083,7 @@
         {
             "SDID": 4700,
             "SDNAME": "경상북도",
-            "SGGID": "4709",
+            "SGGID": "4470900",
             "SGGNAME": "영천시",
             "WIWID": 4709,
             "WIWNAME": "영천시",
@@ -1126,7 +1154,7 @@
         {
             "SDID": 4700,
             "SDNAME": "경상북도",
-            "SGGID": "0",
+            "SGGID": "4471000",
             "SGGNAME": "상주시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1197,7 +1225,7 @@
         {
             "SDID": 4700,
             "SDNAME": "경상북도",
-            "SGGID": "4710",
+            "SGGID": "4471000",
             "SGGNAME": "상주시",
             "WIWID": 4710,
             "WIWNAME": "상주시",
@@ -1268,7 +1296,7 @@
         {
             "SDID": 4700,
             "SDNAME": "경상북도",
-            "SGGID": "0",
+            "SGGID": "4471100",
             "SGGNAME": "문경시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1339,7 +1367,7 @@
         {
             "SDID": 4700,
             "SDNAME": "경상북도",
-            "SGGID": "4711",
+            "SGGID": "4471100",
             "SGGNAME": "문경시",
             "WIWID": 4711,
             "WIWNAME": "문경시",
@@ -1410,7 +1438,7 @@
         {
             "SDID": 4700,
             "SDNAME": "경상북도",
-            "SGGID": "0",
+            "SGGID": "4471300",
             "SGGNAME": "경산시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1468,7 +1496,7 @@
         {
             "SDID": 4700,
             "SDNAME": "경상북도",
-            "SGGID": "4713",
+            "SGGID": "4471300",
             "SGGNAME": "경산시",
             "WIWID": 4713,
             "WIWNAME": "경산시",
@@ -1526,7 +1554,7 @@
         {
             "SDID": 4700,
             "SDNAME": "경상북도",
-            "SGGID": "0",
+            "SGGID": "4471400",
             "SGGNAME": "청도군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1584,7 +1612,7 @@
         {
             "SDID": 4700,
             "SDNAME": "경상북도",
-            "SGGID": "4714",
+            "SGGID": "4471400",
             "SGGNAME": "청도군",
             "WIWID": 4714,
             "WIWNAME": "청도군",
@@ -1642,7 +1670,7 @@
         {
             "SDID": 4700,
             "SDNAME": "경상북도",
-            "SGGID": "0",
+            "SGGID": "4471500",
             "SGGNAME": "고령군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1713,7 +1741,7 @@
         {
             "SDID": 4700,
             "SDNAME": "경상북도",
-            "SGGID": "4715",
+            "SGGID": "4471500",
             "SGGNAME": "고령군",
             "WIWID": 4715,
             "WIWNAME": "고령군",
@@ -1784,7 +1812,7 @@
         {
             "SDID": 4700,
             "SDNAME": "경상북도",
-            "SGGID": "0",
+            "SGGID": "4471600",
             "SGGNAME": "성주군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1842,7 +1870,7 @@
         {
             "SDID": 4700,
             "SDNAME": "경상북도",
-            "SGGID": "4716",
+            "SGGID": "4471600",
             "SGGNAME": "성주군",
             "WIWID": 4716,
             "WIWNAME": "성주군",
@@ -1900,7 +1928,7 @@
         {
             "SDID": 4700,
             "SDNAME": "경상북도",
-            "SGGID": "0",
+            "SGGID": "4471700",
             "SGGNAME": "칠곡군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1971,7 +1999,7 @@
         {
             "SDID": 4700,
             "SDNAME": "경상북도",
-            "SGGID": "4717",
+            "SGGID": "4471700",
             "SGGNAME": "칠곡군",
             "WIWID": 4717,
             "WIWNAME": "칠곡군",
@@ -2042,7 +2070,7 @@
         {
             "SDID": 4700,
             "SDNAME": "경상북도",
-            "SGGID": "0",
+            "SGGID": "4471800",
             "SGGNAME": "군위군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -2100,7 +2128,7 @@
         {
             "SDID": 4700,
             "SDNAME": "경상북도",
-            "SGGID": "4718",
+            "SGGID": "4471800",
             "SGGNAME": "군위군",
             "WIWID": 4718,
             "WIWNAME": "군위군",
@@ -2158,7 +2186,7 @@
         {
             "SDID": 4700,
             "SDNAME": "경상북도",
-            "SGGID": "0",
+            "SGGID": "4471900",
             "SGGNAME": "의성군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -2216,7 +2244,7 @@
         {
             "SDID": 4700,
             "SDNAME": "경상북도",
-            "SGGID": "4719",
+            "SGGID": "4471900",
             "SGGNAME": "의성군",
             "WIWID": 4719,
             "WIWNAME": "의성군",
@@ -2274,7 +2302,7 @@
         {
             "SDID": 4700,
             "SDNAME": "경상북도",
-            "SGGID": "0",
+            "SGGID": "4472000",
             "SGGNAME": "청송군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -2332,7 +2360,7 @@
         {
             "SDID": 4700,
             "SDNAME": "경상북도",
-            "SGGID": "4720",
+            "SGGID": "4472000",
             "SGGNAME": "청송군",
             "WIWID": 4720,
             "WIWNAME": "청송군",
@@ -2390,7 +2418,7 @@
         {
             "SDID": 4700,
             "SDNAME": "경상북도",
-            "SGGID": "0",
+            "SGGID": "4472100",
             "SGGNAME": "영양군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -2448,7 +2476,7 @@
         {
             "SDID": 4700,
             "SDNAME": "경상북도",
-            "SGGID": "4721",
+            "SGGID": "4472100",
             "SGGNAME": "영양군",
             "WIWID": 4721,
             "WIWNAME": "영양군",
@@ -2506,7 +2534,7 @@
         {
             "SDID": 4700,
             "SDNAME": "경상북도",
-            "SGGID": "0",
+            "SGGID": "4472200",
             "SGGNAME": "영덕군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -2564,7 +2592,7 @@
         {
             "SDID": 4700,
             "SDNAME": "경상북도",
-            "SGGID": "4722",
+            "SGGID": "4472200",
             "SGGNAME": "영덕군",
             "WIWID": 4722,
             "WIWNAME": "영덕군",
@@ -2622,7 +2650,7 @@
         {
             "SDID": 4700,
             "SDNAME": "경상북도",
-            "SGGID": "0",
+            "SGGID": "4472300",
             "SGGNAME": "봉화군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -2693,7 +2721,7 @@
         {
             "SDID": 4700,
             "SDNAME": "경상북도",
-            "SGGID": "4723",
+            "SGGID": "4472300",
             "SGGNAME": "봉화군",
             "WIWID": 4723,
             "WIWNAME": "봉화군",
@@ -2764,7 +2792,7 @@
         {
             "SDID": 4700,
             "SDNAME": "경상북도",
-            "SGGID": "0",
+            "SGGID": "4472400",
             "SGGNAME": "울진군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -2822,7 +2850,7 @@
         {
             "SDID": 4700,
             "SDNAME": "경상북도",
-            "SGGID": "4724",
+            "SGGID": "4472400",
             "SGGNAME": "울진군",
             "WIWID": 4724,
             "WIWNAME": "울진군",

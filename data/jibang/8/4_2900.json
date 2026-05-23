@@ -4,6 +4,15 @@
             "SDID": 2900,
             "SDNAME": "광주광역시",
             "SGGID": "0",
+            "SGGNAME": "합계",
+            "WIWID": 0,
+            "WIWNAME": "합계",
+            "data": []
+        },
+        {
+            "SDID": 2900,
+            "SDNAME": "광주광역시",
+            "SGGID": "4290100",
             "SGGNAME": "동구",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -16,7 +25,26 @@
             "TUYUL": "42.5",
             "name": 0,
             "nametxt": "합계",
-            "data": [],
+            "data": [
+                {
+                    "value": 80.39,
+                    "name": "임택",
+                    "party": "더불어민주당",
+                    "pyo": 30297,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 19.6,
+                    "name": "양혜령",
+                    "party": "국민의힘",
+                    "pyo": 7386,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
             "WINNUM": 1,
             "WINDUGSU": "30,297",
             "WINDUGYUL": "80.39",
@@ -42,7 +70,7 @@
         {
             "SDID": 2900,
             "SDNAME": "광주광역시",
-            "SGGID": "2901",
+            "SGGID": "4290100",
             "SGGNAME": "동구",
             "WIWID": 2901,
             "WIWNAME": "동구",
@@ -100,7 +128,7 @@
         {
             "SDID": 2900,
             "SDNAME": "광주광역시",
-            "SGGID": "0",
+            "SGGID": "4290200",
             "SGGNAME": "서구",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -158,7 +186,7 @@
         {
             "SDID": 2900,
             "SDNAME": "광주광역시",
-            "SGGID": "2902",
+            "SGGID": "4290200",
             "SGGNAME": "서구",
             "WIWID": 2902,
             "WIWNAME": "서구",
@@ -216,7 +244,7 @@
         {
             "SDID": 2900,
             "SDNAME": "광주광역시",
-            "SGGID": "0",
+            "SGGID": "4290300",
             "SGGNAME": "남구",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -274,7 +302,7 @@
         {
             "SDID": 2900,
             "SDNAME": "광주광역시",
-            "SGGID": "2903",
+            "SGGID": "4290300",
             "SGGNAME": "남구",
             "WIWID": 2903,
             "WIWNAME": "남구",
@@ -332,7 +360,7 @@
         {
             "SDID": 2900,
             "SDNAME": "광주광역시",
-            "SGGID": "0",
+            "SGGID": "4290400",
             "SGGNAME": "북구",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -390,7 +418,7 @@
         {
             "SDID": 2900,
             "SDNAME": "광주광역시",
-            "SGGID": "2904",
+            "SGGID": "4290400",
             "SGGNAME": "북구",
             "WIWID": 2904,
             "WIWNAME": "북구",

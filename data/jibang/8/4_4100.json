@@ -4,6 +4,15 @@
             "SDID": 4100,
             "SDNAME": "경기도",
             "SGGID": "0",
+            "SGGNAME": "합계",
+            "WIWID": 0,
+            "WIWNAME": "합계",
+            "data": []
+        },
+        {
+            "SDID": 4100,
+            "SDNAME": "경기도",
+            "SGGID": "4410300",
             "SGGNAME": "수원시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -16,7 +25,26 @@
             "TUYUL": "51.3",
             "name": 0,
             "nametxt": "합계",
-            "data": [],
+            "data": [
+                {
+                    "value": 50.28,
+                    "name": "이재준",
+                    "party": "더불어민주당",
+                    "pyo": 258456,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 49.71,
+                    "name": "김용남",
+                    "party": "국민의힘",
+                    "pyo": 255528,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
             "WINNUM": 1,
             "WINDUGSU": "258,456",
             "WINDUGYUL": "50.28",
@@ -42,7 +70,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "4101",
+            "SGGID": "4410300",
             "SGGNAME": "수원시",
             "WIWID": 4101,
             "WIWNAME": "수원시장안구",
@@ -100,7 +128,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "4102",
+            "SGGID": "4410300",
             "SGGNAME": "수원시",
             "WIWID": 4102,
             "WIWNAME": "수원시권선구",
@@ -158,7 +186,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "4103",
+            "SGGID": "4410300",
             "SGGNAME": "수원시",
             "WIWID": 4103,
             "WIWNAME": "수원시팔달구",
@@ -216,7 +244,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "4104",
+            "SGGID": "4410300",
             "SGGNAME": "수원시",
             "WIWID": 4104,
             "WIWNAME": "수원시영통구",
@@ -274,7 +302,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "0",
+            "SGGID": "4410500",
             "SGGNAME": "성남시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -345,7 +373,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "4105",
+            "SGGID": "4410500",
             "SGGNAME": "성남시",
             "WIWID": 4105,
             "WIWNAME": "성남시수정구",
@@ -416,7 +444,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "4106",
+            "SGGID": "4410500",
             "SGGNAME": "성남시",
             "WIWID": 4106,
             "WIWNAME": "성남시중원구",
@@ -487,7 +515,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "4107",
+            "SGGID": "4410500",
             "SGGNAME": "성남시",
             "WIWID": 4107,
             "WIWNAME": "성남시분당구",
@@ -558,7 +586,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "0",
+            "SGGID": "4410800",
             "SGGNAME": "의정부시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -629,7 +657,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "4108",
+            "SGGID": "4410800",
             "SGGNAME": "의정부시",
             "WIWID": 4108,
             "WIWNAME": "의정부시",
@@ -700,7 +728,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "0",
+            "SGGID": "4411000",
             "SGGNAME": "안양시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -758,7 +786,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "4109",
+            "SGGID": "4411000",
             "SGGNAME": "안양시",
             "WIWID": 4109,
             "WIWNAME": "안양시만안구",
@@ -816,7 +844,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "4110",
+            "SGGID": "4411000",
             "SGGNAME": "안양시",
             "WIWID": 4110,
             "WIWNAME": "안양시동안구",
@@ -874,7 +902,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "0",
+            "SGGID": "4411100",
             "SGGNAME": "부천시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -932,7 +960,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "4145",
+            "SGGID": "4411100",
             "SGGNAME": "부천시",
             "WIWID": 4145,
             "WIWNAME": "부천시",
@@ -990,7 +1018,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "0",
+            "SGGID": "4411400",
             "SGGNAME": "광명시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1048,7 +1076,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "4114",
+            "SGGID": "4411400",
             "SGGNAME": "광명시",
             "WIWID": 4114,
             "WIWNAME": "광명시",
@@ -1106,7 +1134,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "0",
+            "SGGID": "4411500",
             "SGGNAME": "평택시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1164,7 +1192,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "4115",
+            "SGGID": "4411500",
             "SGGNAME": "평택시",
             "WIWID": 4115,
             "WIWNAME": "평택시",
@@ -1222,7 +1250,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "0",
+            "SGGID": "4411600",
             "SGGNAME": "양주시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1293,7 +1321,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "4116",
+            "SGGID": "4411600",
             "SGGNAME": "양주시",
             "WIWID": 4116,
             "WIWNAME": "양주시",
@@ -1364,7 +1392,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "0",
+            "SGGID": "4411700",
             "SGGNAME": "동두천시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1435,7 +1463,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "4117",
+            "SGGID": "4411700",
             "SGGNAME": "동두천시",
             "WIWID": 4117,
             "WIWNAME": "동두천시",
@@ -1506,7 +1534,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "0",
+            "SGGID": "4411900",
             "SGGNAME": "안산시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1590,7 +1618,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "4118",
+            "SGGID": "4411900",
             "SGGNAME": "안산시",
             "WIWID": 4118,
             "WIWNAME": "안산시상록구",
@@ -1674,7 +1702,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "4119",
+            "SGGID": "4411900",
             "SGGNAME": "안산시",
             "WIWID": 4119,
             "WIWNAME": "안산시단원구",
@@ -1758,7 +1786,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "0",
+            "SGGID": "4412000",
             "SGGNAME": "고양시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1829,7 +1857,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "4120",
+            "SGGID": "4412000",
             "SGGNAME": "고양시",
             "WIWID": 4120,
             "WIWNAME": "고양시덕양구",
@@ -1900,7 +1928,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "4121",
+            "SGGID": "4412000",
             "SGGNAME": "고양시",
             "WIWID": 4121,
             "WIWNAME": "고양시일산동구",
@@ -1971,7 +1999,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "4122",
+            "SGGID": "4412000",
             "SGGNAME": "고양시",
             "WIWID": 4122,
             "WIWNAME": "고양시일산서구",
@@ -2042,7 +2070,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "0",
+            "SGGID": "4412300",
             "SGGNAME": "과천시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -2100,7 +2128,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "4123",
+            "SGGID": "4412300",
             "SGGNAME": "과천시",
             "WIWID": 4123,
             "WIWNAME": "과천시",
@@ -2158,7 +2186,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "0",
+            "SGGID": "4412400",
             "SGGNAME": "의왕시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -2216,7 +2244,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "4124",
+            "SGGID": "4412400",
             "SGGNAME": "의왕시",
             "WIWID": 4124,
             "WIWNAME": "의왕시",
@@ -2274,7 +2302,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "0",
+            "SGGID": "4412500",
             "SGGNAME": "구리시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -2345,7 +2373,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "4125",
+            "SGGID": "4412500",
             "SGGNAME": "구리시",
             "WIWID": 4125,
             "WIWNAME": "구리시",
@@ -2416,7 +2444,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "0",
+            "SGGID": "4412600",
             "SGGNAME": "남양주시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -2474,7 +2502,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "4126",
+            "SGGID": "4412600",
             "SGGNAME": "남양주시",
             "WIWID": 4126,
             "WIWNAME": "남양주시",
@@ -2532,7 +2560,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "0",
+            "SGGID": "4412700",
             "SGGNAME": "오산시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -2616,7 +2644,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "4127",
+            "SGGID": "4412700",
             "SGGNAME": "오산시",
             "WIWID": 4127,
             "WIWNAME": "오산시",
@@ -2700,7 +2728,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "0",
+            "SGGID": "4412800",
             "SGGNAME": "화성시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -2758,7 +2786,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "4128",
+            "SGGID": "4412800",
             "SGGNAME": "화성시",
             "WIWID": 4128,
             "WIWNAME": "화성시",
@@ -2816,7 +2844,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "0",
+            "SGGID": "4412900",
             "SGGNAME": "시흥시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -2874,7 +2902,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "4129",
+            "SGGID": "4412900",
             "SGGNAME": "시흥시",
             "WIWID": 4129,
             "WIWNAME": "시흥시",
@@ -2932,7 +2960,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "0",
+            "SGGID": "4413000",
             "SGGNAME": "군포시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -2990,7 +3018,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "4130",
+            "SGGID": "4413000",
             "SGGNAME": "군포시",
             "WIWID": 4130,
             "WIWNAME": "군포시",
@@ -3048,7 +3076,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "0",
+            "SGGID": "4413100",
             "SGGNAME": "하남시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -3106,7 +3134,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "4131",
+            "SGGID": "4413100",
             "SGGNAME": "하남시",
             "WIWID": 4131,
             "WIWNAME": "하남시",
@@ -3164,7 +3192,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "0",
+            "SGGID": "4413200",
             "SGGNAME": "파주시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -3222,7 +3250,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "4132",
+            "SGGID": "4413200",
             "SGGNAME": "파주시",
             "WIWID": 4132,
             "WIWNAME": "파주시",
@@ -3280,7 +3308,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "0",
+            "SGGID": "4413300",
             "SGGNAME": "여주시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -3338,7 +3366,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "4133",
+            "SGGID": "4413300",
             "SGGNAME": "여주시",
             "WIWID": 4133,
             "WIWNAME": "여주시",
@@ -3396,7 +3424,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "0",
+            "SGGID": "4413400",
             "SGGNAME": "이천시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -3454,7 +3482,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "4134",
+            "SGGID": "4413400",
             "SGGNAME": "이천시",
             "WIWID": 4134,
             "WIWNAME": "이천시",
@@ -3512,7 +3540,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "0",
+            "SGGID": "4413500",
             "SGGNAME": "용인시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -3570,7 +3598,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "4135",
+            "SGGID": "4413500",
             "SGGNAME": "용인시",
             "WIWID": 4135,
             "WIWNAME": "용인시처인구",
@@ -3628,7 +3656,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "4136",
+            "SGGID": "4413500",
             "SGGNAME": "용인시",
             "WIWID": 4136,
             "WIWNAME": "용인시수지구",
@@ -3686,7 +3714,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "4137",
+            "SGGID": "4413500",
             "SGGNAME": "용인시",
             "WIWID": 4137,
             "WIWNAME": "용인시기흥구",
@@ -3744,7 +3772,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "0",
+            "SGGID": "4413800",
             "SGGNAME": "안성시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -3802,7 +3830,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "4138",
+            "SGGID": "4413800",
             "SGGNAME": "안성시",
             "WIWID": 4138,
             "WIWNAME": "안성시",
@@ -3860,7 +3888,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "0",
+            "SGGID": "4413900",
             "SGGNAME": "김포시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -3944,7 +3972,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "4139",
+            "SGGID": "4413900",
             "SGGNAME": "김포시",
             "WIWID": 4139,
             "WIWNAME": "김포시",
@@ -4028,7 +4056,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "0",
+            "SGGID": "4414000",
             "SGGNAME": "광주시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -4086,7 +4114,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "4140",
+            "SGGID": "4414000",
             "SGGNAME": "광주시",
             "WIWID": 4140,
             "WIWNAME": "광주시",
@@ -4144,7 +4172,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "0",
+            "SGGID": "4414100",
             "SGGNAME": "포천시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -4202,7 +4230,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "4141",
+            "SGGID": "4414100",
             "SGGNAME": "포천시",
             "WIWID": 4141,
             "WIWNAME": "포천시",
@@ -4260,7 +4288,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "0",
+            "SGGID": "4414200",
             "SGGNAME": "연천군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -4331,7 +4359,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "4142",
+            "SGGID": "4414200",
             "SGGNAME": "연천군",
             "WIWID": 4142,
             "WIWNAME": "연천군",
@@ -4402,7 +4430,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "0",
+            "SGGID": "4414300",
             "SGGNAME": "양평군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -4460,7 +4488,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "4143",
+            "SGGID": "4414300",
             "SGGNAME": "양평군",
             "WIWID": 4143,
             "WIWNAME": "양평군",
@@ -4518,7 +4546,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "0",
+            "SGGID": "4414400",
             "SGGNAME": "가평군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -4615,7 +4643,7 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
-            "SGGID": "4144",
+            "SGGID": "4414400",
             "SGGNAME": "가평군",
             "WIWID": 4144,
             "WIWNAME": "가평군",

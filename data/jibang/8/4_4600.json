@@ -4,6 +4,15 @@
             "SDID": 4600,
             "SDNAME": "전라남도",
             "SGGID": "0",
+            "SGGNAME": "합계",
+            "WIWID": 0,
+            "WIWNAME": "합계",
+            "data": []
+        },
+        {
+            "SDID": 4600,
+            "SDNAME": "전라남도",
+            "SGGID": "4460100",
             "SGGNAME": "목포시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -16,7 +25,35 @@
             "TUYUL": "52.9",
             "name": 0,
             "nametxt": "합계",
-            "data": [],
+            "data": [
+                {
+                    "value": 37.67,
+                    "name": "김종식",
+                    "party": "더불어민주당",
+                    "pyo": 35554,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 4.93,
+                    "name": "여인두",
+                    "party": "정의당",
+                    "pyo": 4659,
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 57.38,
+                    "name": "박홍률",
+                    "party": "무소속",
+                    "pyo": 54161,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                }
+            ],
             "WINNUM": 3,
             "WINDUGSU": "54,161",
             "WINDUGYUL": "57.38",
@@ -46,7 +83,7 @@
         {
             "SDID": 4600,
             "SDNAME": "전라남도",
-            "SGGID": "4601",
+            "SGGID": "4460100",
             "SGGNAME": "목포시",
             "WIWID": 4601,
             "WIWNAME": "목포시",
@@ -117,7 +154,7 @@
         {
             "SDID": 4600,
             "SDNAME": "전라남도",
-            "SGGID": "0",
+            "SGGID": "4460200",
             "SGGNAME": "여수시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -201,7 +238,7 @@
         {
             "SDID": 4600,
             "SDNAME": "전라남도",
-            "SGGID": "4602",
+            "SGGID": "4460200",
             "SGGNAME": "여수시",
             "WIWID": 4602,
             "WIWNAME": "여수시",
@@ -285,7 +322,7 @@
         {
             "SDID": 4600,
             "SDNAME": "전라남도",
-            "SGGID": "0",
+            "SGGID": "4460400",
             "SGGNAME": "순천시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -356,7 +393,7 @@
         {
             "SDID": 4600,
             "SDNAME": "전라남도",
-            "SGGID": "4604",
+            "SGGID": "4460400",
             "SGGNAME": "순천시",
             "WIWID": 4604,
             "WIWNAME": "순천시",
@@ -427,7 +464,7 @@
         {
             "SDID": 4600,
             "SDNAME": "전라남도",
-            "SGGID": "0",
+            "SGGID": "4460600",
             "SGGNAME": "나주시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -511,7 +548,7 @@
         {
             "SDID": 4600,
             "SDNAME": "전라남도",
-            "SGGID": "4606",
+            "SGGID": "4460600",
             "SGGNAME": "나주시",
             "WIWID": 4606,
             "WIWNAME": "나주시",
@@ -595,7 +632,7 @@
         {
             "SDID": 4600,
             "SDNAME": "전라남도",
-            "SGGID": "0",
+            "SGGID": "4460700",
             "SGGNAME": "광양시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -679,7 +716,7 @@
         {
             "SDID": 4600,
             "SDNAME": "전라남도",
-            "SGGID": "4607",
+            "SGGID": "4460700",
             "SGGNAME": "광양시",
             "WIWID": 4607,
             "WIWNAME": "광양시",
@@ -763,7 +800,7 @@
         {
             "SDID": 4600,
             "SDNAME": "전라남도",
-            "SGGID": "0",
+            "SGGID": "4460800",
             "SGGNAME": "담양군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -821,7 +858,7 @@
         {
             "SDID": 4600,
             "SDNAME": "전라남도",
-            "SGGID": "4608",
+            "SGGID": "4460800",
             "SGGNAME": "담양군",
             "WIWID": 4608,
             "WIWNAME": "담양군",
@@ -879,7 +916,7 @@
         {
             "SDID": 4600,
             "SDNAME": "전라남도",
-            "SGGID": "0",
+            "SGGID": "4460900",
             "SGGNAME": "장성군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -937,7 +974,7 @@
         {
             "SDID": 4600,
             "SDNAME": "전라남도",
-            "SGGID": "4609",
+            "SGGID": "4460900",
             "SGGNAME": "장성군",
             "WIWID": 4609,
             "WIWNAME": "장성군",
@@ -995,7 +1032,7 @@
         {
             "SDID": 4600,
             "SDNAME": "전라남도",
-            "SGGID": "0",
+            "SGGID": "4461000",
             "SGGNAME": "곡성군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1053,7 +1090,7 @@
         {
             "SDID": 4600,
             "SDNAME": "전라남도",
-            "SGGID": "4610",
+            "SGGID": "4461000",
             "SGGNAME": "곡성군",
             "WIWID": 4610,
             "WIWNAME": "곡성군",
@@ -1111,7 +1148,7 @@
         {
             "SDID": 4600,
             "SDNAME": "전라남도",
-            "SGGID": "0",
+            "SGGID": "4461100",
             "SGGNAME": "구례군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1182,7 +1219,7 @@
         {
             "SDID": 4600,
             "SDNAME": "전라남도",
-            "SGGID": "4611",
+            "SGGID": "4461100",
             "SGGNAME": "구례군",
             "WIWID": 4611,
             "WIWNAME": "구례군",
@@ -1253,7 +1290,7 @@
         {
             "SDID": 4600,
             "SDNAME": "전라남도",
-            "SGGID": "0",
+            "SGGID": "4461200",
             "SGGNAME": "고흥군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1311,7 +1348,7 @@
         {
             "SDID": 4600,
             "SDNAME": "전라남도",
-            "SGGID": "4612",
+            "SGGID": "4461200",
             "SGGNAME": "고흥군",
             "WIWID": 4612,
             "WIWNAME": "고흥군",
@@ -1369,7 +1406,7 @@
         {
             "SDID": 4600,
             "SDNAME": "전라남도",
-            "SGGID": "0",
+            "SGGID": "4461400",
             "SGGNAME": "화순군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1427,7 +1464,7 @@
         {
             "SDID": 4600,
             "SDNAME": "전라남도",
-            "SGGID": "4614",
+            "SGGID": "4461400",
             "SGGNAME": "화순군",
             "WIWID": 4614,
             "WIWNAME": "화순군",
@@ -1485,7 +1522,7 @@
         {
             "SDID": 4600,
             "SDNAME": "전라남도",
-            "SGGID": "0",
+            "SGGID": "4461500",
             "SGGNAME": "장흥군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1556,7 +1593,7 @@
         {
             "SDID": 4600,
             "SDNAME": "전라남도",
-            "SGGID": "4615",
+            "SGGID": "4461500",
             "SGGNAME": "장흥군",
             "WIWID": 4615,
             "WIWNAME": "장흥군",
@@ -1627,7 +1664,7 @@
         {
             "SDID": 4600,
             "SDNAME": "전라남도",
-            "SGGID": "0",
+            "SGGID": "4461600",
             "SGGNAME": "강진군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1685,7 +1722,7 @@
         {
             "SDID": 4600,
             "SDNAME": "전라남도",
-            "SGGID": "4616",
+            "SGGID": "4461600",
             "SGGNAME": "강진군",
             "WIWID": 4616,
             "WIWNAME": "강진군",
@@ -1743,7 +1780,7 @@
         {
             "SDID": 4600,
             "SDNAME": "전라남도",
-            "SGGID": "0",
+            "SGGID": "4461700",
             "SGGNAME": "완도군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1801,7 +1838,7 @@
         {
             "SDID": 4600,
             "SDNAME": "전라남도",
-            "SGGID": "4617",
+            "SGGID": "4461700",
             "SGGNAME": "완도군",
             "WIWID": 4617,
             "WIWNAME": "완도군",
@@ -1859,7 +1896,7 @@
         {
             "SDID": 4600,
             "SDNAME": "전라남도",
-            "SGGID": "0",
+            "SGGID": "4461900",
             "SGGNAME": "진도군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1917,7 +1954,7 @@
         {
             "SDID": 4600,
             "SDNAME": "전라남도",
-            "SGGID": "4619",
+            "SGGID": "4461900",
             "SGGNAME": "진도군",
             "WIWID": 4619,
             "WIWNAME": "진도군",
@@ -1975,7 +2012,7 @@
         {
             "SDID": 4600,
             "SDNAME": "전라남도",
-            "SGGID": "0",
+            "SGGID": "4462000",
             "SGGNAME": "영암군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -2072,7 +2109,7 @@
         {
             "SDID": 4600,
             "SDNAME": "전라남도",
-            "SGGID": "4620",
+            "SGGID": "4462000",
             "SGGNAME": "영암군",
             "WIWID": 4620,
             "WIWNAME": "영암군",
@@ -2169,7 +2206,7 @@
         {
             "SDID": 4600,
             "SDNAME": "전라남도",
-            "SGGID": "0",
+            "SGGID": "4462100",
             "SGGNAME": "무안군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -2266,7 +2303,7 @@
         {
             "SDID": 4600,
             "SDNAME": "전라남도",
-            "SGGID": "4621",
+            "SGGID": "4462100",
             "SGGNAME": "무안군",
             "WIWID": 4621,
             "WIWNAME": "무안군",
@@ -2363,7 +2400,7 @@
         {
             "SDID": 4600,
             "SDNAME": "전라남도",
-            "SGGID": "0",
+            "SGGID": "4462200",
             "SGGNAME": "영광군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -2421,7 +2458,7 @@
         {
             "SDID": 4600,
             "SDNAME": "전라남도",
-            "SGGID": "4622",
+            "SGGID": "4462200",
             "SGGNAME": "영광군",
             "WIWID": 4622,
             "WIWNAME": "영광군",
@@ -2479,7 +2516,7 @@
         {
             "SDID": 4600,
             "SDNAME": "전라남도",
-            "SGGID": "0",
+            "SGGID": "4462300",
             "SGGNAME": "함평군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -2550,7 +2587,7 @@
         {
             "SDID": 4600,
             "SDNAME": "전라남도",
-            "SGGID": "4623",
+            "SGGID": "4462300",
             "SGGNAME": "함평군",
             "WIWID": 4623,
             "WIWNAME": "함평군",
@@ -2621,7 +2658,7 @@
         {
             "SDID": 4600,
             "SDNAME": "전라남도",
-            "SGGID": "0",
+            "SGGID": "4462400",
             "SGGNAME": "신안군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -2679,7 +2716,7 @@
         {
             "SDID": 4600,
             "SDNAME": "전라남도",
-            "SGGID": "4624",
+            "SGGID": "4462400",
             "SGGNAME": "신안군",
             "WIWID": 4624,
             "WIWNAME": "신안군",

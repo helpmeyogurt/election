@@ -4,6 +4,15 @@
             "SDID": 3000,
             "SDNAME": "대전광역시",
             "SGGID": "0",
+            "SGGNAME": "합계",
+            "WIWID": 0,
+            "WIWNAME": "합계",
+            "data": []
+        },
+        {
+            "SDID": 3000,
+            "SDNAME": "대전광역시",
+            "SGGID": "4300100",
             "SGGNAME": "동구",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -16,7 +25,26 @@
             "TUYUL": "49.0",
             "name": 0,
             "nametxt": "합계",
-            "data": [],
+            "data": [
+                {
+                    "value": 48.4,
+                    "name": "황인호",
+                    "party": "더불어민주당",
+                    "pyo": 44663,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 51.59,
+                    "name": "박희조",
+                    "party": "국민의힘",
+                    "pyo": 47615,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
             "WINNUM": 2,
             "WINDUGSU": "47,615",
             "WINDUGYUL": "51.59",
@@ -42,7 +70,7 @@
         {
             "SDID": 3000,
             "SDNAME": "대전광역시",
-            "SGGID": "3001",
+            "SGGID": "4300100",
             "SGGNAME": "동구",
             "WIWID": 3001,
             "WIWNAME": "동구",
@@ -100,7 +128,7 @@
         {
             "SDID": 3000,
             "SDNAME": "대전광역시",
-            "SGGID": "0",
+            "SGGID": "4300200",
             "SGGNAME": "중구",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -158,7 +186,7 @@
         {
             "SDID": 3000,
             "SDNAME": "대전광역시",
-            "SGGID": "3002",
+            "SGGID": "4300200",
             "SGGNAME": "중구",
             "WIWID": 3002,
             "WIWNAME": "중구",
@@ -216,7 +244,7 @@
         {
             "SDID": 3000,
             "SDNAME": "대전광역시",
-            "SGGID": "0",
+            "SGGID": "4300300",
             "SGGNAME": "서구",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -274,7 +302,7 @@
         {
             "SDID": 3000,
             "SDNAME": "대전광역시",
-            "SGGID": "3003",
+            "SGGID": "4300300",
             "SGGNAME": "서구",
             "WIWID": 3003,
             "WIWNAME": "서구",
@@ -332,7 +360,7 @@
         {
             "SDID": 3000,
             "SDNAME": "대전광역시",
-            "SGGID": "0",
+            "SGGID": "4300400",
             "SGGNAME": "유성구",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -390,7 +418,7 @@
         {
             "SDID": 3000,
             "SDNAME": "대전광역시",
-            "SGGID": "3004",
+            "SGGID": "4300400",
             "SGGNAME": "유성구",
             "WIWID": 3004,
             "WIWNAME": "유성구",
@@ -448,7 +476,7 @@
         {
             "SDID": 3000,
             "SDNAME": "대전광역시",
-            "SGGID": "0",
+            "SGGID": "4300500",
             "SGGNAME": "대덕구",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -506,7 +534,7 @@
         {
             "SDID": 3000,
             "SDNAME": "대전광역시",
-            "SGGID": "3005",
+            "SGGID": "4300500",
             "SGGNAME": "대덕구",
             "WIWID": 3005,
             "WIWNAME": "대덕구",

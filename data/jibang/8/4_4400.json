@@ -4,6 +4,15 @@
             "SDID": 4400,
             "SDNAME": "충청남도",
             "SGGID": "0",
+            "SGGNAME": "합계",
+            "WIWID": 0,
+            "WIWNAME": "합계",
+            "data": []
+        },
+        {
+            "SDID": 4400,
+            "SDNAME": "충청남도",
+            "SGGID": "4441700",
             "SGGNAME": "천안시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -16,7 +25,44 @@
             "TUYUL": "42.2",
             "name": 0,
             "nametxt": "합계",
-            "data": [],
+            "data": [
+                {
+                    "value": 41.75,
+                    "name": "이재관",
+                    "party": "더불어민주당",
+                    "pyo": 95036,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 54.55,
+                    "name": "박상돈",
+                    "party": "국민의힘",
+                    "pyo": 124169,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 1.42,
+                    "name": "황환철",
+                    "party": "정의당",
+                    "pyo": 3252,
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 2.26,
+                    "name": "전옥균",
+                    "party": "무소속",
+                    "pyo": 5146,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                }
+            ],
             "WINNUM": 2,
             "WINDUGSU": "124,169",
             "WINDUGYUL": "54.55",
@@ -50,7 +96,7 @@
         {
             "SDID": 4400,
             "SDNAME": "충청남도",
-            "SGGID": "4417",
+            "SGGID": "4441700",
             "SGGNAME": "천안시",
             "WIWID": 4417,
             "WIWNAME": "천안시서북구",
@@ -134,7 +180,7 @@
         {
             "SDID": 4400,
             "SDNAME": "충청남도",
-            "SGGID": "4418",
+            "SGGID": "4441700",
             "SGGNAME": "천안시",
             "WIWID": 4418,
             "WIWNAME": "천안시동남구",
@@ -218,7 +264,7 @@
         {
             "SDID": 4400,
             "SDNAME": "충청남도",
-            "SGGID": "0",
+            "SGGID": "4440200",
             "SGGNAME": "공주시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -276,7 +322,7 @@
         {
             "SDID": 4400,
             "SDNAME": "충청남도",
-            "SGGID": "4402",
+            "SGGID": "4440200",
             "SGGNAME": "공주시",
             "WIWID": 4402,
             "WIWNAME": "공주시",
@@ -334,7 +380,7 @@
         {
             "SDID": 4400,
             "SDNAME": "충청남도",
-            "SGGID": "0",
+            "SGGID": "4440300",
             "SGGNAME": "보령시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -405,7 +451,7 @@
         {
             "SDID": 4400,
             "SDNAME": "충청남도",
-            "SGGID": "4403",
+            "SGGID": "4440300",
             "SGGNAME": "보령시",
             "WIWID": 4403,
             "WIWNAME": "보령시",
@@ -476,7 +522,7 @@
         {
             "SDID": 4400,
             "SDNAME": "충청남도",
-            "SGGID": "0",
+            "SGGID": "4440400",
             "SGGNAME": "아산시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -534,7 +580,7 @@
         {
             "SDID": 4400,
             "SDNAME": "충청남도",
-            "SGGID": "4404",
+            "SGGID": "4440400",
             "SGGNAME": "아산시",
             "WIWID": 4404,
             "WIWNAME": "아산시",
@@ -592,7 +638,7 @@
         {
             "SDID": 4400,
             "SDNAME": "충청남도",
-            "SGGID": "0",
+            "SGGID": "4440500",
             "SGGNAME": "서산시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -650,7 +696,7 @@
         {
             "SDID": 4400,
             "SDNAME": "충청남도",
-            "SGGID": "4405",
+            "SGGID": "4440500",
             "SGGNAME": "서산시",
             "WIWID": 4405,
             "WIWNAME": "서산시",
@@ -708,7 +754,7 @@
         {
             "SDID": 4400,
             "SDNAME": "충청남도",
-            "SGGID": "0",
+            "SGGID": "4440600",
             "SGGNAME": "태안군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -766,7 +812,7 @@
         {
             "SDID": 4400,
             "SDNAME": "충청남도",
-            "SGGID": "4406",
+            "SGGID": "4440600",
             "SGGNAME": "태안군",
             "WIWID": 4406,
             "WIWNAME": "태안군",
@@ -824,7 +870,7 @@
         {
             "SDID": 4400,
             "SDNAME": "충청남도",
-            "SGGID": "0",
+            "SGGID": "4440700",
             "SGGNAME": "금산군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -882,7 +928,7 @@
         {
             "SDID": 4400,
             "SDNAME": "충청남도",
-            "SGGID": "4407",
+            "SGGID": "4440700",
             "SGGNAME": "금산군",
             "WIWID": 4407,
             "WIWNAME": "금산군",
@@ -940,7 +986,7 @@
         {
             "SDID": 4400,
             "SDNAME": "충청남도",
-            "SGGID": "0",
+            "SGGID": "4440900",
             "SGGNAME": "논산시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -998,7 +1044,7 @@
         {
             "SDID": 4400,
             "SDNAME": "충청남도",
-            "SGGID": "4409",
+            "SGGID": "4440900",
             "SGGNAME": "논산시",
             "WIWID": 4409,
             "WIWNAME": "논산시",
@@ -1056,7 +1102,7 @@
         {
             "SDID": 4400,
             "SDNAME": "충청남도",
-            "SGGID": "0",
+            "SGGID": "4441000",
             "SGGNAME": "계룡시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1114,7 +1160,7 @@
         {
             "SDID": 4400,
             "SDNAME": "충청남도",
-            "SGGID": "4410",
+            "SGGID": "4441000",
             "SGGNAME": "계룡시",
             "WIWID": 4410,
             "WIWNAME": "계룡시",
@@ -1172,7 +1218,7 @@
         {
             "SDID": 4400,
             "SDNAME": "충청남도",
-            "SGGID": "0",
+            "SGGID": "4441600",
             "SGGNAME": "당진시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1230,7 +1276,7 @@
         {
             "SDID": 4400,
             "SDNAME": "충청남도",
-            "SGGID": "4416",
+            "SGGID": "4441600",
             "SGGNAME": "당진시",
             "WIWID": 4416,
             "WIWNAME": "당진시",
@@ -1288,7 +1334,7 @@
         {
             "SDID": 4400,
             "SDNAME": "충청남도",
-            "SGGID": "0",
+            "SGGID": "4441100",
             "SGGNAME": "부여군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1346,7 +1392,7 @@
         {
             "SDID": 4400,
             "SDNAME": "충청남도",
-            "SGGID": "4411",
+            "SGGID": "4441100",
             "SGGNAME": "부여군",
             "WIWID": 4411,
             "WIWNAME": "부여군",
@@ -1404,7 +1450,7 @@
         {
             "SDID": 4400,
             "SDNAME": "충청남도",
-            "SGGID": "0",
+            "SGGID": "4441200",
             "SGGNAME": "서천군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1462,7 +1508,7 @@
         {
             "SDID": 4400,
             "SDNAME": "충청남도",
-            "SGGID": "4412",
+            "SGGID": "4441200",
             "SGGNAME": "서천군",
             "WIWID": 4412,
             "WIWNAME": "서천군",
@@ -1520,7 +1566,7 @@
         {
             "SDID": 4400,
             "SDNAME": "충청남도",
-            "SGGID": "0",
+            "SGGID": "4441300",
             "SGGNAME": "홍성군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1604,7 +1650,7 @@
         {
             "SDID": 4400,
             "SDNAME": "충청남도",
-            "SGGID": "4413",
+            "SGGID": "4441300",
             "SGGNAME": "홍성군",
             "WIWID": 4413,
             "WIWNAME": "홍성군",
@@ -1688,7 +1734,7 @@
         {
             "SDID": 4400,
             "SDNAME": "충청남도",
-            "SGGID": "0",
+            "SGGID": "4441400",
             "SGGNAME": "청양군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1759,7 +1805,7 @@
         {
             "SDID": 4400,
             "SDNAME": "충청남도",
-            "SGGID": "4414",
+            "SGGID": "4441400",
             "SGGNAME": "청양군",
             "WIWID": 4414,
             "WIWNAME": "청양군",
@@ -1830,7 +1876,7 @@
         {
             "SDID": 4400,
             "SDNAME": "충청남도",
-            "SGGID": "0",
+            "SGGID": "4441500",
             "SGGNAME": "예산군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1888,7 +1934,7 @@
         {
             "SDID": 4400,
             "SDNAME": "충청남도",
-            "SGGID": "4415",
+            "SGGID": "4441500",
             "SGGNAME": "예산군",
             "WIWID": 4415,
             "WIWNAME": "예산군",

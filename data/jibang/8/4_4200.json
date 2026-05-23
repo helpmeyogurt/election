@@ -4,6 +4,15 @@
             "SDID": 4200,
             "SDNAME": "강원도",
             "SGGID": "0",
+            "SGGNAME": "합계",
+            "WIWID": 0,
+            "WIWNAME": "합계",
+            "data": []
+        },
+        {
+            "SDID": 4200,
+            "SDNAME": "강원도",
+            "SGGID": "4420100",
             "SGGNAME": "춘천시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -16,7 +25,35 @@
             "TUYUL": "56.4",
             "name": 0,
             "nametxt": "합계",
-            "data": [],
+            "data": [
+                {
+                    "value": 45.62,
+                    "name": "육동한",
+                    "party": "더불어민주당",
+                    "pyo": 61751,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 44.84,
+                    "name": "최성현",
+                    "party": "국민의힘",
+                    "pyo": 60702,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 9.53,
+                    "name": "이광준",
+                    "party": "무소속",
+                    "pyo": 12903,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                }
+            ],
             "WINNUM": 1,
             "WINDUGSU": "61,751",
             "WINDUGYUL": "45.62",
@@ -46,7 +83,7 @@
         {
             "SDID": 4200,
             "SDNAME": "강원도",
-            "SGGID": "4201",
+            "SGGID": "4420100",
             "SGGNAME": "춘천시",
             "WIWID": 4201,
             "WIWNAME": "춘천시",
@@ -117,7 +154,7 @@
         {
             "SDID": 4200,
             "SDNAME": "강원도",
-            "SGGID": "0",
+            "SGGID": "4420200",
             "SGGNAME": "원주시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -175,7 +212,7 @@
         {
             "SDID": 4200,
             "SDNAME": "강원도",
-            "SGGID": "4202",
+            "SGGID": "4420200",
             "SGGNAME": "원주시",
             "WIWID": 4202,
             "WIWNAME": "원주시",
@@ -233,7 +270,7 @@
         {
             "SDID": 4200,
             "SDNAME": "강원도",
-            "SGGID": "0",
+            "SGGID": "4420300",
             "SGGNAME": "강릉시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -317,7 +354,7 @@
         {
             "SDID": 4200,
             "SDNAME": "강원도",
-            "SGGID": "4203",
+            "SGGID": "4420300",
             "SGGNAME": "강릉시",
             "WIWID": 4203,
             "WIWNAME": "강릉시",
@@ -401,7 +438,7 @@
         {
             "SDID": 4200,
             "SDNAME": "강원도",
-            "SGGID": "0",
+            "SGGID": "4420400",
             "SGGNAME": "동해시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -472,7 +509,7 @@
         {
             "SDID": 4200,
             "SDNAME": "강원도",
-            "SGGID": "4204",
+            "SGGID": "4420400",
             "SGGNAME": "동해시",
             "WIWID": 4204,
             "WIWNAME": "동해시",
@@ -543,7 +580,7 @@
         {
             "SDID": 4200,
             "SDNAME": "강원도",
-            "SGGID": "0",
+            "SGGID": "4420500",
             "SGGNAME": "삼척시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -614,7 +651,7 @@
         {
             "SDID": 4200,
             "SDNAME": "강원도",
-            "SGGID": "4205",
+            "SGGID": "4420500",
             "SGGNAME": "삼척시",
             "WIWID": 4205,
             "WIWNAME": "삼척시",
@@ -685,7 +722,7 @@
         {
             "SDID": 4200,
             "SDNAME": "강원도",
-            "SGGID": "0",
+            "SGGID": "4420600",
             "SGGNAME": "태백시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -756,7 +793,7 @@
         {
             "SDID": 4200,
             "SDNAME": "강원도",
-            "SGGID": "4206",
+            "SGGID": "4420600",
             "SGGNAME": "태백시",
             "WIWID": 4206,
             "WIWNAME": "태백시",
@@ -827,7 +864,7 @@
         {
             "SDID": 4200,
             "SDNAME": "강원도",
-            "SGGID": "0",
+            "SGGID": "4420700",
             "SGGNAME": "정선군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -885,7 +922,7 @@
         {
             "SDID": 4200,
             "SDNAME": "강원도",
-            "SGGID": "4207",
+            "SGGID": "4420700",
             "SGGNAME": "정선군",
             "WIWID": 4207,
             "WIWNAME": "정선군",
@@ -943,7 +980,7 @@
         {
             "SDID": 4200,
             "SDNAME": "강원도",
-            "SGGID": "0",
+            "SGGID": "4420800",
             "SGGNAME": "속초시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1001,7 +1038,7 @@
         {
             "SDID": 4200,
             "SDNAME": "강원도",
-            "SGGID": "4208",
+            "SGGID": "4420800",
             "SGGNAME": "속초시",
             "WIWID": 4208,
             "WIWNAME": "속초시",
@@ -1059,7 +1096,7 @@
         {
             "SDID": 4200,
             "SDNAME": "강원도",
-            "SGGID": "0",
+            "SGGID": "4420900",
             "SGGNAME": "고성군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1117,7 +1154,7 @@
         {
             "SDID": 4200,
             "SDNAME": "강원도",
-            "SGGID": "4209",
+            "SGGID": "4420900",
             "SGGNAME": "고성군",
             "WIWID": 4209,
             "WIWNAME": "고성군",
@@ -1175,7 +1212,7 @@
         {
             "SDID": 4200,
             "SDNAME": "강원도",
-            "SGGID": "0",
+            "SGGID": "4421000",
             "SGGNAME": "양양군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1233,7 +1270,7 @@
         {
             "SDID": 4200,
             "SDNAME": "강원도",
-            "SGGID": "4210",
+            "SGGID": "4421000",
             "SGGNAME": "양양군",
             "WIWID": 4210,
             "WIWNAME": "양양군",
@@ -1291,7 +1328,7 @@
         {
             "SDID": 4200,
             "SDNAME": "강원도",
-            "SGGID": "0",
+            "SGGID": "4421100",
             "SGGNAME": "인제군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1362,7 +1399,7 @@
         {
             "SDID": 4200,
             "SDNAME": "강원도",
-            "SGGID": "4211",
+            "SGGID": "4421100",
             "SGGNAME": "인제군",
             "WIWID": 4211,
             "WIWNAME": "인제군",
@@ -1433,7 +1470,7 @@
         {
             "SDID": 4200,
             "SDNAME": "강원도",
-            "SGGID": "0",
+            "SGGID": "4421200",
             "SGGNAME": "홍천군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1491,7 +1528,7 @@
         {
             "SDID": 4200,
             "SDNAME": "강원도",
-            "SGGID": "4212",
+            "SGGID": "4421200",
             "SGGNAME": "홍천군",
             "WIWID": 4212,
             "WIWNAME": "홍천군",
@@ -1549,7 +1586,7 @@
         {
             "SDID": 4200,
             "SDNAME": "강원도",
-            "SGGID": "0",
+            "SGGID": "4421300",
             "SGGNAME": "횡성군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1620,7 +1657,7 @@
         {
             "SDID": 4200,
             "SDNAME": "강원도",
-            "SGGID": "4213",
+            "SGGID": "4421300",
             "SGGNAME": "횡성군",
             "WIWID": 4213,
             "WIWNAME": "횡성군",
@@ -1691,7 +1728,7 @@
         {
             "SDID": 4200,
             "SDNAME": "강원도",
-            "SGGID": "0",
+            "SGGID": "4421400",
             "SGGNAME": "영월군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1762,7 +1799,7 @@
         {
             "SDID": 4200,
             "SDNAME": "강원도",
-            "SGGID": "4214",
+            "SGGID": "4421400",
             "SGGNAME": "영월군",
             "WIWID": 4214,
             "WIWNAME": "영월군",
@@ -1833,7 +1870,7 @@
         {
             "SDID": 4200,
             "SDNAME": "강원도",
-            "SGGID": "0",
+            "SGGID": "4421500",
             "SGGNAME": "평창군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1904,7 +1941,7 @@
         {
             "SDID": 4200,
             "SDNAME": "강원도",
-            "SGGID": "4215",
+            "SGGID": "4421500",
             "SGGNAME": "평창군",
             "WIWID": 4215,
             "WIWNAME": "평창군",
@@ -1975,7 +2012,7 @@
         {
             "SDID": 4200,
             "SDNAME": "강원도",
-            "SGGID": "0",
+            "SGGID": "4421600",
             "SGGNAME": "화천군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -2033,7 +2070,7 @@
         {
             "SDID": 4200,
             "SDNAME": "강원도",
-            "SGGID": "4216",
+            "SGGID": "4421600",
             "SGGNAME": "화천군",
             "WIWID": 4216,
             "WIWNAME": "화천군",
@@ -2091,7 +2128,7 @@
         {
             "SDID": 4200,
             "SDNAME": "강원도",
-            "SGGID": "0",
+            "SGGID": "4421700",
             "SGGNAME": "양구군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -2175,7 +2212,7 @@
         {
             "SDID": 4200,
             "SDNAME": "강원도",
-            "SGGID": "4217",
+            "SGGID": "4421700",
             "SGGNAME": "양구군",
             "WIWID": 4217,
             "WIWNAME": "양구군",
@@ -2259,7 +2296,7 @@
         {
             "SDID": 4200,
             "SDNAME": "강원도",
-            "SGGID": "0",
+            "SGGID": "4421800",
             "SGGNAME": "철원군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -2330,7 +2367,7 @@
         {
             "SDID": 4200,
             "SDNAME": "강원도",
-            "SGGID": "4218",
+            "SGGID": "4421800",
             "SGGNAME": "철원군",
             "WIWID": 4218,
             "WIWNAME": "철원군",

@@ -4,6 +4,15 @@
             "SDID": 1100,
             "SDNAME": "서울특별시",
             "SGGID": "0",
+            "SGGNAME": "합계",
+            "WIWID": 0,
+            "WIWNAME": "합계",
+            "data": []
+        },
+        {
+            "SDID": 1100,
+            "SDNAME": "서울특별시",
+            "SGGID": "4110100",
             "SGGNAME": "종로구",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -16,7 +25,44 @@
             "TUYUL": "54.4",
             "name": 0,
             "nametxt": "합계",
-            "data": [],
+            "data": [
+                {
+                    "value": 47.09,
+                    "name": "유찬종",
+                    "party": "더불어민주당",
+                    "pyo": 32857,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 51.49,
+                    "name": "정문헌",
+                    "party": "국민의힘",
+                    "pyo": 35925,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 0.16,
+                    "name": "류승구",
+                    "party": "코리아당",
+                    "pyo": 114,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                },
+                {
+                    "value": 1.24,
+                    "name": "고남철",
+                    "party": "무소속",
+                    "pyo": 872,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                }
+            ],
             "WINNUM": 2,
             "WINDUGSU": "35,925",
             "WINDUGYUL": "51.49",
@@ -50,7 +96,7 @@
         {
             "SDID": 1100,
             "SDNAME": "서울특별시",
-            "SGGID": "1101",
+            "SGGID": "4110100",
             "SGGNAME": "종로구",
             "WIWID": 1101,
             "WIWNAME": "종로구",
@@ -134,7 +180,7 @@
         {
             "SDID": 1100,
             "SDNAME": "서울특별시",
-            "SGGID": "0",
+            "SGGID": "4110200",
             "SGGNAME": "중구",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -192,7 +238,7 @@
         {
             "SDID": 1100,
             "SDNAME": "서울특별시",
-            "SGGID": "1102",
+            "SGGID": "4110200",
             "SGGNAME": "중구",
             "WIWID": 1102,
             "WIWNAME": "중구",
@@ -250,7 +296,7 @@
         {
             "SDID": 1100,
             "SDNAME": "서울특별시",
-            "SGGID": "0",
+            "SGGID": "4110300",
             "SGGNAME": "용산구",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -321,7 +367,7 @@
         {
             "SDID": 1100,
             "SDNAME": "서울특별시",
-            "SGGID": "1103",
+            "SGGID": "4110300",
             "SGGNAME": "용산구",
             "WIWID": 1103,
             "WIWNAME": "용산구",
@@ -392,7 +438,7 @@
         {
             "SDID": 1100,
             "SDNAME": "서울특별시",
-            "SGGID": "0",
+            "SGGID": "4110400",
             "SGGNAME": "성동구",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -450,7 +496,7 @@
         {
             "SDID": 1100,
             "SDNAME": "서울특별시",
-            "SGGID": "1104",
+            "SGGID": "4110400",
             "SGGNAME": "성동구",
             "WIWID": 1104,
             "WIWNAME": "성동구",
@@ -508,7 +554,7 @@
         {
             "SDID": 1100,
             "SDNAME": "서울특별시",
-            "SGGID": "0",
+            "SGGID": "4110500",
             "SGGNAME": "광진구",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -566,7 +612,7 @@
         {
             "SDID": 1100,
             "SDNAME": "서울특별시",
-            "SGGID": "1105",
+            "SGGID": "4110500",
             "SGGNAME": "광진구",
             "WIWID": 1105,
             "WIWNAME": "광진구",
@@ -624,7 +670,7 @@
         {
             "SDID": 1100,
             "SDNAME": "서울특별시",
-            "SGGID": "0",
+            "SGGID": "4110600",
             "SGGNAME": "동대문구",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -682,7 +728,7 @@
         {
             "SDID": 1100,
             "SDNAME": "서울특별시",
-            "SGGID": "1106",
+            "SGGID": "4110600",
             "SGGNAME": "동대문구",
             "WIWID": 1106,
             "WIWNAME": "동대문구",
@@ -740,7 +786,7 @@
         {
             "SDID": 1100,
             "SDNAME": "서울특별시",
-            "SGGID": "0",
+            "SGGID": "4110700",
             "SGGNAME": "중랑구",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -798,7 +844,7 @@
         {
             "SDID": 1100,
             "SDNAME": "서울특별시",
-            "SGGID": "1107",
+            "SGGID": "4110700",
             "SGGNAME": "중랑구",
             "WIWID": 1107,
             "WIWNAME": "중랑구",
@@ -856,7 +902,7 @@
         {
             "SDID": 1100,
             "SDNAME": "서울특별시",
-            "SGGID": "0",
+            "SGGID": "4110800",
             "SGGNAME": "성북구",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -914,7 +960,7 @@
         {
             "SDID": 1100,
             "SDNAME": "서울특별시",
-            "SGGID": "1108",
+            "SGGID": "4110800",
             "SGGNAME": "성북구",
             "WIWID": 1108,
             "WIWNAME": "성북구",
@@ -972,7 +1018,7 @@
         {
             "SDID": 1100,
             "SDNAME": "서울특별시",
-            "SGGID": "0",
+            "SGGID": "4110900",
             "SGGNAME": "강북구",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1043,7 +1089,7 @@
         {
             "SDID": 1100,
             "SDNAME": "서울특별시",
-            "SGGID": "1109",
+            "SGGID": "4110900",
             "SGGNAME": "강북구",
             "WIWID": 1109,
             "WIWNAME": "강북구",
@@ -1114,7 +1160,7 @@
         {
             "SDID": 1100,
             "SDNAME": "서울특별시",
-            "SGGID": "0",
+            "SGGID": "4111000",
             "SGGNAME": "도봉구",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1185,7 +1231,7 @@
         {
             "SDID": 1100,
             "SDNAME": "서울특별시",
-            "SGGID": "1110",
+            "SGGID": "4111000",
             "SGGNAME": "도봉구",
             "WIWID": 1110,
             "WIWNAME": "도봉구",
@@ -1256,7 +1302,7 @@
         {
             "SDID": 1100,
             "SDNAME": "서울특별시",
-            "SGGID": "0",
+            "SGGID": "4111100",
             "SGGNAME": "노원구",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1314,7 +1360,7 @@
         {
             "SDID": 1100,
             "SDNAME": "서울특별시",
-            "SGGID": "1111",
+            "SGGID": "4111100",
             "SGGNAME": "노원구",
             "WIWID": 1111,
             "WIWNAME": "노원구",
@@ -1372,7 +1418,7 @@
         {
             "SDID": 1100,
             "SDNAME": "서울특별시",
-            "SGGID": "0",
+            "SGGID": "4111200",
             "SGGNAME": "은평구",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1430,7 +1476,7 @@
         {
             "SDID": 1100,
             "SDNAME": "서울특별시",
-            "SGGID": "1112",
+            "SGGID": "4111200",
             "SGGNAME": "은평구",
             "WIWID": 1112,
             "WIWNAME": "은평구",
@@ -1488,7 +1534,7 @@
         {
             "SDID": 1100,
             "SDNAME": "서울특별시",
-            "SGGID": "0",
+            "SGGID": "4111300",
             "SGGNAME": "서대문구",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1546,7 +1592,7 @@
         {
             "SDID": 1100,
             "SDNAME": "서울특별시",
-            "SGGID": "1113",
+            "SGGID": "4111300",
             "SGGNAME": "서대문구",
             "WIWID": 1113,
             "WIWNAME": "서대문구",
@@ -1604,7 +1650,7 @@
         {
             "SDID": 1100,
             "SDNAME": "서울특별시",
-            "SGGID": "0",
+            "SGGID": "4111400",
             "SGGNAME": "마포구",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1675,7 +1721,7 @@
         {
             "SDID": 1100,
             "SDNAME": "서울특별시",
-            "SGGID": "1114",
+            "SGGID": "4111400",
             "SGGNAME": "마포구",
             "WIWID": 1114,
             "WIWNAME": "마포구",
@@ -1746,7 +1792,7 @@
         {
             "SDID": 1100,
             "SDNAME": "서울특별시",
-            "SGGID": "0",
+            "SGGID": "4111500",
             "SGGNAME": "양천구",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1830,7 +1876,7 @@
         {
             "SDID": 1100,
             "SDNAME": "서울특별시",
-            "SGGID": "1115",
+            "SGGID": "4111500",
             "SGGNAME": "양천구",
             "WIWID": 1115,
             "WIWNAME": "양천구",
@@ -1914,7 +1960,7 @@
         {
             "SDID": 1100,
             "SDNAME": "서울특별시",
-            "SGGID": "0",
+            "SGGID": "4111600",
             "SGGNAME": "강서구",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1972,7 +2018,7 @@
         {
             "SDID": 1100,
             "SDNAME": "서울특별시",
-            "SGGID": "1116",
+            "SGGID": "4111600",
             "SGGNAME": "강서구",
             "WIWID": 1116,
             "WIWNAME": "강서구",
@@ -2030,7 +2076,7 @@
         {
             "SDID": 1100,
             "SDNAME": "서울특별시",
-            "SGGID": "0",
+            "SGGID": "4111700",
             "SGGNAME": "구로구",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -2088,7 +2134,7 @@
         {
             "SDID": 1100,
             "SDNAME": "서울특별시",
-            "SGGID": "1117",
+            "SGGID": "4111700",
             "SGGNAME": "구로구",
             "WIWID": 1117,
             "WIWNAME": "구로구",
@@ -2146,7 +2192,7 @@
         {
             "SDID": 1100,
             "SDNAME": "서울특별시",
-            "SGGID": "0",
+            "SGGID": "4111800",
             "SGGNAME": "금천구",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -2204,7 +2250,7 @@
         {
             "SDID": 1100,
             "SDNAME": "서울특별시",
-            "SGGID": "1118",
+            "SGGID": "4111800",
             "SGGNAME": "금천구",
             "WIWID": 1118,
             "WIWNAME": "금천구",
@@ -2262,7 +2308,7 @@
         {
             "SDID": 1100,
             "SDNAME": "서울특별시",
-            "SGGID": "0",
+            "SGGID": "4111900",
             "SGGNAME": "영등포구",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -2320,7 +2366,7 @@
         {
             "SDID": 1100,
             "SDNAME": "서울특별시",
-            "SGGID": "1119",
+            "SGGID": "4111900",
             "SGGNAME": "영등포구",
             "WIWID": 1119,
             "WIWNAME": "영등포구",
@@ -2378,7 +2424,7 @@
         {
             "SDID": 1100,
             "SDNAME": "서울특별시",
-            "SGGID": "0",
+            "SGGID": "4112000",
             "SGGNAME": "동작구",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -2436,7 +2482,7 @@
         {
             "SDID": 1100,
             "SDNAME": "서울특별시",
-            "SGGID": "1120",
+            "SGGID": "4112000",
             "SGGNAME": "동작구",
             "WIWID": 1120,
             "WIWNAME": "동작구",
@@ -2494,7 +2540,7 @@
         {
             "SDID": 1100,
             "SDNAME": "서울특별시",
-            "SGGID": "0",
+            "SGGID": "4112100",
             "SGGNAME": "관악구",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -2552,7 +2598,7 @@
         {
             "SDID": 1100,
             "SDNAME": "서울특별시",
-            "SGGID": "1121",
+            "SGGID": "4112100",
             "SGGNAME": "관악구",
             "WIWID": 1121,
             "WIWNAME": "관악구",
@@ -2610,7 +2656,7 @@
         {
             "SDID": 1100,
             "SDNAME": "서울특별시",
-            "SGGID": "0",
+            "SGGID": "4112200",
             "SGGNAME": "서초구",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -2668,7 +2714,7 @@
         {
             "SDID": 1100,
             "SDNAME": "서울특별시",
-            "SGGID": "1122",
+            "SGGID": "4112200",
             "SGGNAME": "서초구",
             "WIWID": 1122,
             "WIWNAME": "서초구",
@@ -2726,7 +2772,7 @@
         {
             "SDID": 1100,
             "SDNAME": "서울특별시",
-            "SGGID": "0",
+            "SGGID": "4112300",
             "SGGNAME": "강남구",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -2784,7 +2830,7 @@
         {
             "SDID": 1100,
             "SDNAME": "서울특별시",
-            "SGGID": "1123",
+            "SGGID": "4112300",
             "SGGNAME": "강남구",
             "WIWID": 1123,
             "WIWNAME": "강남구",
@@ -2842,7 +2888,7 @@
         {
             "SDID": 1100,
             "SDNAME": "서울특별시",
-            "SGGID": "0",
+            "SGGID": "4112400",
             "SGGNAME": "송파구",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -2900,7 +2946,7 @@
         {
             "SDID": 1100,
             "SDNAME": "서울특별시",
-            "SGGID": "1124",
+            "SGGID": "4112400",
             "SGGNAME": "송파구",
             "WIWID": 1124,
             "WIWNAME": "송파구",
@@ -2958,7 +3004,7 @@
         {
             "SDID": 1100,
             "SDNAME": "서울특별시",
-            "SGGID": "0",
+            "SGGID": "4112500",
             "SGGNAME": "강동구",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -3029,7 +3075,7 @@
         {
             "SDID": 1100,
             "SDNAME": "서울특별시",
-            "SGGID": "1125",
+            "SGGID": "4112500",
             "SGGNAME": "강동구",
             "WIWID": 1125,
             "WIWNAME": "강동구",

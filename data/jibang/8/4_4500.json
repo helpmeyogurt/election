@@ -4,6 +4,15 @@
             "SDID": 4500,
             "SDNAME": "전라북도",
             "SGGID": "0",
+            "SGGNAME": "합계",
+            "WIWID": 0,
+            "WIWNAME": "합계",
+            "data": []
+        },
+        {
+            "SDID": 4500,
+            "SDNAME": "전라북도",
+            "SGGID": "4450100",
             "SGGNAME": "전주시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -16,7 +25,35 @@
             "TUYUL": "40.4",
             "name": 0,
             "nametxt": "합계",
-            "data": [],
+            "data": [
+                {
+                    "value": 74.12,
+                    "name": "우범기",
+                    "party": "더불어민주당",
+                    "pyo": 160339,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 15.54,
+                    "name": "김경민",
+                    "party": "국민의힘",
+                    "pyo": 33615,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 10.32,
+                    "name": "서윤근",
+                    "party": "정의당",
+                    "pyo": 22343,
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                }
+            ],
             "WINNUM": 1,
             "WINDUGSU": "160,339",
             "WINDUGYUL": "74.12",
@@ -46,7 +83,7 @@
         {
             "SDID": 4500,
             "SDNAME": "전라북도",
-            "SGGID": "4501",
+            "SGGID": "4450100",
             "SGGNAME": "전주시",
             "WIWID": 4501,
             "WIWNAME": "전주시완산구",
@@ -117,7 +154,7 @@
         {
             "SDID": 4500,
             "SDNAME": "전라북도",
-            "SGGID": "4502",
+            "SGGID": "4450100",
             "SGGNAME": "전주시",
             "WIWID": 4502,
             "WIWNAME": "전주시덕진구",
@@ -188,7 +225,7 @@
         {
             "SDID": 4500,
             "SDNAME": "전라북도",
-            "SGGID": "0",
+            "SGGID": "4450300",
             "SGGNAME": "군산시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -272,7 +309,7 @@
         {
             "SDID": 4500,
             "SDNAME": "전라북도",
-            "SGGID": "4503",
+            "SGGID": "4450300",
             "SGGNAME": "군산시",
             "WIWID": 4503,
             "WIWNAME": "군산시",
@@ -356,7 +393,7 @@
         {
             "SDID": 4500,
             "SDNAME": "전라북도",
-            "SGGID": "0",
+            "SGGID": "4450500",
             "SGGNAME": "익산시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -440,7 +477,7 @@
         {
             "SDID": 4500,
             "SDNAME": "전라북도",
-            "SGGID": "4505",
+            "SGGID": "4450500",
             "SGGNAME": "익산시",
             "WIWID": 4505,
             "WIWNAME": "익산시",
@@ -524,7 +561,7 @@
         {
             "SDID": 4500,
             "SDNAME": "전라북도",
-            "SGGID": "0",
+            "SGGID": "4450700",
             "SGGNAME": "정읍시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -595,7 +632,7 @@
         {
             "SDID": 4500,
             "SDNAME": "전라북도",
-            "SGGID": "4507",
+            "SGGID": "4450700",
             "SGGNAME": "정읍시",
             "WIWID": 4507,
             "WIWNAME": "정읍시",
@@ -666,7 +703,7 @@
         {
             "SDID": 4500,
             "SDNAME": "전라북도",
-            "SGGID": "0",
+            "SGGID": "4450800",
             "SGGNAME": "남원시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -763,7 +800,7 @@
         {
             "SDID": 4500,
             "SDNAME": "전라북도",
-            "SGGID": "4508",
+            "SGGID": "4450800",
             "SGGNAME": "남원시",
             "WIWID": 4508,
             "WIWNAME": "남원시",
@@ -860,7 +897,7 @@
         {
             "SDID": 4500,
             "SDNAME": "전라북도",
-            "SGGID": "0",
+            "SGGID": "4450900",
             "SGGNAME": "김제시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -931,7 +968,7 @@
         {
             "SDID": 4500,
             "SDNAME": "전라북도",
-            "SGGID": "4509",
+            "SGGID": "4450900",
             "SGGNAME": "김제시",
             "WIWID": 4509,
             "WIWNAME": "김제시",
@@ -1002,7 +1039,7 @@
         {
             "SDID": 4500,
             "SDNAME": "전라북도",
-            "SGGID": "0",
+            "SGGID": "4451000",
             "SGGNAME": "완주군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1073,7 +1110,7 @@
         {
             "SDID": 4500,
             "SDNAME": "전라북도",
-            "SGGID": "4510",
+            "SGGID": "4451000",
             "SGGNAME": "완주군",
             "WIWID": 4510,
             "WIWNAME": "완주군",
@@ -1144,7 +1181,7 @@
         {
             "SDID": 4500,
             "SDNAME": "전라북도",
-            "SGGID": "0",
+            "SGGID": "4451100",
             "SGGNAME": "진안군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1215,7 +1252,7 @@
         {
             "SDID": 4500,
             "SDNAME": "전라북도",
-            "SGGID": "4511",
+            "SGGID": "4451100",
             "SGGNAME": "진안군",
             "WIWID": 4511,
             "WIWNAME": "진안군",
@@ -1286,7 +1323,7 @@
         {
             "SDID": 4500,
             "SDNAME": "전라북도",
-            "SGGID": "0",
+            "SGGID": "4451200",
             "SGGNAME": "무주군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1357,7 +1394,7 @@
         {
             "SDID": 4500,
             "SDNAME": "전라북도",
-            "SGGID": "4512",
+            "SGGID": "4451200",
             "SGGNAME": "무주군",
             "WIWID": 4512,
             "WIWNAME": "무주군",
@@ -1428,7 +1465,7 @@
         {
             "SDID": 4500,
             "SDNAME": "전라북도",
-            "SGGID": "0",
+            "SGGID": "4451300",
             "SGGNAME": "장수군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1499,7 +1536,7 @@
         {
             "SDID": 4500,
             "SDNAME": "전라북도",
-            "SGGID": "4513",
+            "SGGID": "4451300",
             "SGGNAME": "장수군",
             "WIWID": 4513,
             "WIWNAME": "장수군",
@@ -1570,7 +1607,7 @@
         {
             "SDID": 4500,
             "SDNAME": "전라북도",
-            "SGGID": "0",
+            "SGGID": "4451400",
             "SGGNAME": "임실군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1654,7 +1691,7 @@
         {
             "SDID": 4500,
             "SDNAME": "전라북도",
-            "SGGID": "4514",
+            "SGGID": "4451400",
             "SGGNAME": "임실군",
             "WIWID": 4514,
             "WIWNAME": "임실군",
@@ -1738,7 +1775,7 @@
         {
             "SDID": 4500,
             "SDNAME": "전라북도",
-            "SGGID": "0",
+            "SGGID": "4451500",
             "SGGNAME": "순창군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1796,7 +1833,7 @@
         {
             "SDID": 4500,
             "SDNAME": "전라북도",
-            "SGGID": "4515",
+            "SGGID": "4451500",
             "SGGNAME": "순창군",
             "WIWID": 4515,
             "WIWNAME": "순창군",
@@ -1854,7 +1891,7 @@
         {
             "SDID": 4500,
             "SDNAME": "전라북도",
-            "SGGID": "0",
+            "SGGID": "4451600",
             "SGGNAME": "고창군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1925,7 +1962,7 @@
         {
             "SDID": 4500,
             "SDNAME": "전라북도",
-            "SGGID": "4516",
+            "SGGID": "4451600",
             "SGGNAME": "고창군",
             "WIWID": 4516,
             "WIWNAME": "고창군",
@@ -1996,7 +2033,7 @@
         {
             "SDID": 4500,
             "SDNAME": "전라북도",
-            "SGGID": "0",
+            "SGGID": "4451700",
             "SGGNAME": "부안군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -2067,7 +2104,7 @@
         {
             "SDID": 4500,
             "SDNAME": "전라북도",
-            "SGGID": "4517",
+            "SGGID": "4451700",
             "SGGNAME": "부안군",
             "WIWID": 4517,
             "WIWNAME": "부안군",

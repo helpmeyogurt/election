@@ -4,6 +4,15 @@
             "SDID": 2800,
             "SDNAME": "인천광역시",
             "SGGID": "0",
+            "SGGNAME": "합계",
+            "WIWID": 0,
+            "WIWNAME": "합계",
+            "data": []
+        },
+        {
+            "SDID": 2800,
+            "SDNAME": "인천광역시",
+            "SGGID": "4280100",
             "SGGNAME": "중구",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -16,7 +25,26 @@
             "TUYUL": "45.9",
             "name": 0,
             "nametxt": "합계",
-            "data": [],
+            "data": [
+                {
+                    "value": 43.45,
+                    "name": "홍인성",
+                    "party": "더불어민주당",
+                    "pyo": 24499,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 56.54,
+                    "name": "김정헌",
+                    "party": "국민의힘",
+                    "pyo": 31873,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
             "WINNUM": 2,
             "WINDUGSU": "31,873",
             "WINDUGYUL": "56.54",
@@ -42,7 +70,7 @@
         {
             "SDID": 2800,
             "SDNAME": "인천광역시",
-            "SGGID": "2801",
+            "SGGID": "4280100",
             "SGGNAME": "중구",
             "WIWID": 2801,
             "WIWNAME": "중구",
@@ -100,7 +128,7 @@
         {
             "SDID": 2800,
             "SDNAME": "인천광역시",
-            "SGGID": "0",
+            "SGGID": "4280200",
             "SGGNAME": "동구",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -171,7 +199,7 @@
         {
             "SDID": 2800,
             "SDNAME": "인천광역시",
-            "SGGID": "2802",
+            "SGGID": "4280200",
             "SGGNAME": "동구",
             "WIWID": 2802,
             "WIWNAME": "동구",
@@ -242,7 +270,7 @@
         {
             "SDID": 2800,
             "SDNAME": "인천광역시",
-            "SGGID": "0",
+            "SGGID": "4280300",
             "SGGNAME": "미추홀구",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -300,7 +328,7 @@
         {
             "SDID": 2800,
             "SDNAME": "인천광역시",
-            "SGGID": "2803",
+            "SGGID": "4280300",
             "SGGNAME": "미추홀구",
             "WIWID": 2803,
             "WIWNAME": "미추홀구",
@@ -358,7 +386,7 @@
         {
             "SDID": 2800,
             "SDNAME": "인천광역시",
-            "SGGID": "0",
+            "SGGID": "4280400",
             "SGGNAME": "연수구",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -416,7 +444,7 @@
         {
             "SDID": 2800,
             "SDNAME": "인천광역시",
-            "SGGID": "2804",
+            "SGGID": "4280400",
             "SGGNAME": "연수구",
             "WIWID": 2804,
             "WIWNAME": "연수구",
@@ -474,7 +502,7 @@
         {
             "SDID": 2800,
             "SDNAME": "인천광역시",
-            "SGGID": "0",
+            "SGGID": "4280500",
             "SGGNAME": "남동구",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -532,7 +560,7 @@
         {
             "SDID": 2800,
             "SDNAME": "인천광역시",
-            "SGGID": "2805",
+            "SGGID": "4280500",
             "SGGNAME": "남동구",
             "WIWID": 2805,
             "WIWNAME": "남동구",
@@ -590,7 +618,7 @@
         {
             "SDID": 2800,
             "SDNAME": "인천광역시",
-            "SGGID": "0",
+            "SGGID": "4280600",
             "SGGNAME": "부평구",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -648,7 +676,7 @@
         {
             "SDID": 2800,
             "SDNAME": "인천광역시",
-            "SGGID": "2806",
+            "SGGID": "4280600",
             "SGGNAME": "부평구",
             "WIWID": 2806,
             "WIWNAME": "부평구",
@@ -706,7 +734,7 @@
         {
             "SDID": 2800,
             "SDNAME": "인천광역시",
-            "SGGID": "0",
+            "SGGID": "4280700",
             "SGGNAME": "계양구",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -777,7 +805,7 @@
         {
             "SDID": 2800,
             "SDNAME": "인천광역시",
-            "SGGID": "2807",
+            "SGGID": "4280700",
             "SGGNAME": "계양구",
             "WIWID": 2807,
             "WIWNAME": "계양구",
@@ -848,7 +876,7 @@
         {
             "SDID": 2800,
             "SDNAME": "인천광역시",
-            "SGGID": "0",
+            "SGGID": "4280800",
             "SGGNAME": "서구",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -906,7 +934,7 @@
         {
             "SDID": 2800,
             "SDNAME": "인천광역시",
-            "SGGID": "2808",
+            "SGGID": "4280800",
             "SGGNAME": "서구",
             "WIWID": 2808,
             "WIWNAME": "서구",
@@ -964,7 +992,7 @@
         {
             "SDID": 2800,
             "SDNAME": "인천광역시",
-            "SGGID": "0",
+            "SGGID": "4280900",
             "SGGNAME": "강화군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1035,7 +1063,7 @@
         {
             "SDID": 2800,
             "SDNAME": "인천광역시",
-            "SGGID": "2809",
+            "SGGID": "4280900",
             "SGGNAME": "강화군",
             "WIWID": 2809,
             "WIWNAME": "강화군",
@@ -1106,7 +1134,7 @@
         {
             "SDID": 2800,
             "SDNAME": "인천광역시",
-            "SGGID": "0",
+            "SGGID": "4281000",
             "SGGNAME": "옹진군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1164,7 +1192,7 @@
         {
             "SDID": 2800,
             "SDNAME": "인천광역시",
-            "SGGID": "2810",
+            "SGGID": "4281000",
             "SGGNAME": "옹진군",
             "WIWID": 2810,
             "WIWNAME": "옹진군",

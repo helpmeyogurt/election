@@ -4,6 +4,15 @@
             "SDID": 2600,
             "SDNAME": "부산광역시",
             "SGGID": "0",
+            "SGGNAME": "합계",
+            "WIWID": 0,
+            "WIWNAME": "합계",
+            "data": []
+        },
+        {
+            "SDID": 2600,
+            "SDNAME": "부산광역시",
+            "SGGID": "4260100",
             "SGGNAME": "중구",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -16,7 +25,35 @@
             "TUYUL": "50.0",
             "name": 0,
             "nametxt": "합계",
-            "data": [],
+            "data": [
+                {
+                    "value": 29.93,
+                    "name": "문창무",
+                    "party": "더불어민주당",
+                    "pyo": 5610,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 64.88,
+                    "name": "최진봉",
+                    "party": "국민의힘",
+                    "pyo": 12160,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 5.17,
+                    "name": "윤정운",
+                    "party": "무소속",
+                    "pyo": 970,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                }
+            ],
             "WINNUM": 2,
             "WINDUGSU": "12,160",
             "WINDUGYUL": "64.88",
@@ -46,7 +83,7 @@
         {
             "SDID": 2600,
             "SDNAME": "부산광역시",
-            "SGGID": "2601",
+            "SGGID": "4260100",
             "SGGNAME": "중구",
             "WIWID": 2601,
             "WIWNAME": "중구",
@@ -117,7 +154,7 @@
         {
             "SDID": 2600,
             "SDNAME": "부산광역시",
-            "SGGID": "0",
+            "SGGID": "4260200",
             "SGGNAME": "서구",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -188,7 +225,7 @@
         {
             "SDID": 2600,
             "SDNAME": "부산광역시",
-            "SGGID": "2602",
+            "SGGID": "4260200",
             "SGGNAME": "서구",
             "WIWID": 2602,
             "WIWNAME": "서구",
@@ -259,7 +296,7 @@
         {
             "SDID": 2600,
             "SDNAME": "부산광역시",
-            "SGGID": "0",
+            "SGGID": "4260300",
             "SGGNAME": "동구",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -317,7 +354,7 @@
         {
             "SDID": 2600,
             "SDNAME": "부산광역시",
-            "SGGID": "2603",
+            "SGGID": "4260300",
             "SGGNAME": "동구",
             "WIWID": 2603,
             "WIWNAME": "동구",
@@ -375,7 +412,7 @@
         {
             "SDID": 2600,
             "SDNAME": "부산광역시",
-            "SGGID": "0",
+            "SGGID": "4260400",
             "SGGNAME": "영도구",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -433,7 +470,7 @@
         {
             "SDID": 2600,
             "SDNAME": "부산광역시",
-            "SGGID": "2604",
+            "SGGID": "4260400",
             "SGGNAME": "영도구",
             "WIWID": 2604,
             "WIWNAME": "영도구",
@@ -491,7 +528,7 @@
         {
             "SDID": 2600,
             "SDNAME": "부산광역시",
-            "SGGID": "0",
+            "SGGID": "4260500",
             "SGGNAME": "부산진구",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -549,7 +586,7 @@
         {
             "SDID": 2600,
             "SDNAME": "부산광역시",
-            "SGGID": "2605",
+            "SGGID": "4260500",
             "SGGNAME": "부산진구",
             "WIWID": 2605,
             "WIWNAME": "부산진구",
@@ -607,7 +644,7 @@
         {
             "SDID": 2600,
             "SDNAME": "부산광역시",
-            "SGGID": "0",
+            "SGGID": "4260600",
             "SGGNAME": "동래구",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -678,7 +715,7 @@
         {
             "SDID": 2600,
             "SDNAME": "부산광역시",
-            "SGGID": "2606",
+            "SGGID": "4260600",
             "SGGNAME": "동래구",
             "WIWID": 2606,
             "WIWNAME": "동래구",
@@ -749,7 +786,7 @@
         {
             "SDID": 2600,
             "SDNAME": "부산광역시",
-            "SGGID": "0",
+            "SGGID": "4260700",
             "SGGNAME": "남구",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -807,7 +844,7 @@
         {
             "SDID": 2600,
             "SDNAME": "부산광역시",
-            "SGGID": "2607",
+            "SGGID": "4260700",
             "SGGNAME": "남구",
             "WIWID": 2607,
             "WIWNAME": "남구",
@@ -865,7 +902,7 @@
         {
             "SDID": 2600,
             "SDNAME": "부산광역시",
-            "SGGID": "0",
+            "SGGID": "4260800",
             "SGGNAME": "북구",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -923,7 +960,7 @@
         {
             "SDID": 2600,
             "SDNAME": "부산광역시",
-            "SGGID": "2608",
+            "SGGID": "4260800",
             "SGGNAME": "북구",
             "WIWID": 2608,
             "WIWNAME": "북구",
@@ -981,7 +1018,7 @@
         {
             "SDID": 2600,
             "SDNAME": "부산광역시",
-            "SGGID": "0",
+            "SGGID": "4260900",
             "SGGNAME": "해운대구",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1039,7 +1076,7 @@
         {
             "SDID": 2600,
             "SDNAME": "부산광역시",
-            "SGGID": "2609",
+            "SGGID": "4260900",
             "SGGNAME": "해운대구",
             "WIWID": 2609,
             "WIWNAME": "해운대구",
@@ -1097,7 +1134,7 @@
         {
             "SDID": 2600,
             "SDNAME": "부산광역시",
-            "SGGID": "0",
+            "SGGID": "4261000",
             "SGGNAME": "기장군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1194,7 +1231,7 @@
         {
             "SDID": 2600,
             "SDNAME": "부산광역시",
-            "SGGID": "2610",
+            "SGGID": "4261000",
             "SGGNAME": "기장군",
             "WIWID": 2610,
             "WIWNAME": "기장군",
@@ -1291,7 +1328,7 @@
         {
             "SDID": 2600,
             "SDNAME": "부산광역시",
-            "SGGID": "0",
+            "SGGID": "4261100",
             "SGGNAME": "사하구",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1349,7 +1386,7 @@
         {
             "SDID": 2600,
             "SDNAME": "부산광역시",
-            "SGGID": "2611",
+            "SGGID": "4261100",
             "SGGNAME": "사하구",
             "WIWID": 2611,
             "WIWNAME": "사하구",
@@ -1407,7 +1444,7 @@
         {
             "SDID": 2600,
             "SDNAME": "부산광역시",
-            "SGGID": "0",
+            "SGGID": "4261200",
             "SGGNAME": "금정구",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1465,7 +1502,7 @@
         {
             "SDID": 2600,
             "SDNAME": "부산광역시",
-            "SGGID": "2612",
+            "SGGID": "4261200",
             "SGGNAME": "금정구",
             "WIWID": 2612,
             "WIWNAME": "금정구",
@@ -1523,7 +1560,7 @@
         {
             "SDID": 2600,
             "SDNAME": "부산광역시",
-            "SGGID": "0",
+            "SGGID": "4261300",
             "SGGNAME": "강서구",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1581,7 +1618,7 @@
         {
             "SDID": 2600,
             "SDNAME": "부산광역시",
-            "SGGID": "2613",
+            "SGGID": "4261300",
             "SGGNAME": "강서구",
             "WIWID": 2613,
             "WIWNAME": "강서구",
@@ -1639,7 +1676,7 @@
         {
             "SDID": 2600,
             "SDNAME": "부산광역시",
-            "SGGID": "0",
+            "SGGID": "4261400",
             "SGGNAME": "연제구",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1697,7 +1734,7 @@
         {
             "SDID": 2600,
             "SDNAME": "부산광역시",
-            "SGGID": "2614",
+            "SGGID": "4261400",
             "SGGNAME": "연제구",
             "WIWID": 2614,
             "WIWNAME": "연제구",
@@ -1755,7 +1792,7 @@
         {
             "SDID": 2600,
             "SDNAME": "부산광역시",
-            "SGGID": "0",
+            "SGGID": "4261500",
             "SGGNAME": "수영구",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1826,7 +1863,7 @@
         {
             "SDID": 2600,
             "SDNAME": "부산광역시",
-            "SGGID": "2615",
+            "SGGID": "4261500",
             "SGGNAME": "수영구",
             "WIWID": 2615,
             "WIWNAME": "수영구",
@@ -1897,7 +1934,7 @@
         {
             "SDID": 2600,
             "SDNAME": "부산광역시",
-            "SGGID": "0",
+            "SGGID": "4261600",
             "SGGNAME": "사상구",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1955,7 +1992,7 @@
         {
             "SDID": 2600,
             "SDNAME": "부산광역시",
-            "SGGID": "2616",
+            "SGGID": "4261600",
             "SGGNAME": "사상구",
             "WIWID": 2616,
             "WIWNAME": "사상구",

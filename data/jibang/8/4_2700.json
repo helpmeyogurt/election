@@ -4,6 +4,15 @@
             "SDID": 2700,
             "SDNAME": "대구광역시",
             "SGGID": "0",
+            "SGGNAME": "합계",
+            "WIWID": 0,
+            "WIWNAME": "합계",
+            "data": []
+        },
+        {
+            "SDID": 2700,
+            "SDNAME": "대구광역시",
+            "SGGID": "4270200",
             "SGGNAME": "동구",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -16,7 +25,26 @@
             "TUYUL": "44.1",
             "name": 0,
             "nametxt": "합계",
-            "data": [],
+            "data": [
+                {
+                    "value": 22.45,
+                    "name": "최완식",
+                    "party": "더불어민주당",
+                    "pyo": 28767,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 77.54,
+                    "name": "윤석준",
+                    "party": "국민의힘",
+                    "pyo": 99357,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
             "WINNUM": 2,
             "WINDUGSU": "99,357",
             "WINDUGYUL": "77.54",
@@ -42,7 +70,7 @@
         {
             "SDID": 2700,
             "SDNAME": "대구광역시",
-            "SGGID": "2702",
+            "SGGID": "4270200",
             "SGGNAME": "동구",
             "WIWID": 2702,
             "WIWNAME": "동구",
@@ -100,7 +128,7 @@
         {
             "SDID": 2700,
             "SDNAME": "대구광역시",
-            "SGGID": "0",
+            "SGGID": "4270300",
             "SGGNAME": "서구",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -158,7 +186,7 @@
         {
             "SDID": 2700,
             "SDNAME": "대구광역시",
-            "SGGID": "2703",
+            "SGGID": "4270300",
             "SGGNAME": "서구",
             "WIWID": 2703,
             "WIWNAME": "서구",
@@ -216,7 +244,7 @@
         {
             "SDID": 2700,
             "SDNAME": "대구광역시",
-            "SGGID": "0",
+            "SGGID": "4270400",
             "SGGNAME": "남구",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -274,7 +302,7 @@
         {
             "SDID": 2700,
             "SDNAME": "대구광역시",
-            "SGGID": "2704",
+            "SGGID": "4270400",
             "SGGNAME": "남구",
             "WIWID": 2704,
             "WIWNAME": "남구",
@@ -332,7 +360,7 @@
         {
             "SDID": 2700,
             "SDNAME": "대구광역시",
-            "SGGID": "0",
+            "SGGID": "4270500",
             "SGGNAME": "북구",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -390,7 +418,7 @@
         {
             "SDID": 2700,
             "SDNAME": "대구광역시",
-            "SGGID": "2705",
+            "SGGID": "4270500",
             "SGGNAME": "북구",
             "WIWID": 2705,
             "WIWNAME": "북구",
@@ -448,7 +476,7 @@
         {
             "SDID": 2700,
             "SDNAME": "대구광역시",
-            "SGGID": "0",
+            "SGGID": "4270600",
             "SGGNAME": "수성구",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -506,7 +534,7 @@
         {
             "SDID": 2700,
             "SDNAME": "대구광역시",
-            "SGGID": "2706",
+            "SGGID": "4270600",
             "SGGNAME": "수성구",
             "WIWID": 2706,
             "WIWNAME": "수성구",
@@ -564,7 +592,7 @@
         {
             "SDID": 2700,
             "SDNAME": "대구광역시",
-            "SGGID": "0",
+            "SGGID": "4270800",
             "SGGNAME": "달성군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -635,7 +663,7 @@
         {
             "SDID": 2700,
             "SDNAME": "대구광역시",
-            "SGGID": "2708",
+            "SGGID": "4270800",
             "SGGNAME": "달성군",
             "WIWID": 2708,
             "WIWNAME": "달성군",

@@ -4,6 +4,15 @@
             "SDID": 3100,
             "SDNAME": "울산광역시",
             "SGGID": "0",
+            "SGGNAME": "합계",
+            "WIWID": 0,
+            "WIWNAME": "합계",
+            "data": []
+        },
+        {
+            "SDID": 3100,
+            "SDNAME": "울산광역시",
+            "SGGID": "4310100",
             "SGGNAME": "중구",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -16,7 +25,26 @@
             "TUYUL": "54.3",
             "name": 0,
             "nametxt": "합계",
-            "data": [],
+            "data": [
+                {
+                    "value": 40.58,
+                    "name": "박태완",
+                    "party": "더불어민주당",
+                    "pyo": 38822,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 59.41,
+                    "name": "김영길",
+                    "party": "국민의힘",
+                    "pyo": 56843,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
             "WINNUM": 2,
             "WINDUGSU": "56,843",
             "WINDUGYUL": "59.41",
@@ -42,7 +70,7 @@
         {
             "SDID": 3100,
             "SDNAME": "울산광역시",
-            "SGGID": "3101",
+            "SGGID": "4310100",
             "SGGNAME": "중구",
             "WIWID": 3101,
             "WIWNAME": "중구",
@@ -100,7 +128,7 @@
         {
             "SDID": 3100,
             "SDNAME": "울산광역시",
-            "SGGID": "0",
+            "SGGID": "4310200",
             "SGGNAME": "남구",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -158,7 +186,7 @@
         {
             "SDID": 3100,
             "SDNAME": "울산광역시",
-            "SGGID": "3102",
+            "SGGID": "4310200",
             "SGGNAME": "남구",
             "WIWID": 3102,
             "WIWNAME": "남구",
@@ -216,7 +244,7 @@
         {
             "SDID": 3100,
             "SDNAME": "울산광역시",
-            "SGGID": "0",
+            "SGGID": "4310300",
             "SGGNAME": "동구",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -274,7 +302,7 @@
         {
             "SDID": 3100,
             "SDNAME": "울산광역시",
-            "SGGID": "3103",
+            "SGGID": "4310300",
             "SGGNAME": "동구",
             "WIWID": 3103,
             "WIWNAME": "동구",
@@ -332,7 +360,7 @@
         {
             "SDID": 3100,
             "SDNAME": "울산광역시",
-            "SGGID": "0",
+            "SGGID": "4310400",
             "SGGNAME": "북구",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -403,7 +431,7 @@
         {
             "SDID": 3100,
             "SDNAME": "울산광역시",
-            "SGGID": "3104",
+            "SGGID": "4310400",
             "SGGNAME": "북구",
             "WIWID": 3104,
             "WIWNAME": "북구",
@@ -474,7 +502,7 @@
         {
             "SDID": 3100,
             "SDNAME": "울산광역시",
-            "SGGID": "0",
+            "SGGID": "4310500",
             "SGGNAME": "울주군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -532,7 +560,7 @@
         {
             "SDID": 3100,
             "SDNAME": "울산광역시",
-            "SGGID": "3105",
+            "SGGID": "4310500",
             "SGGNAME": "울주군",
             "WIWID": 3105,
             "WIWNAME": "울주군",

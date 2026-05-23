@@ -4,6 +4,15 @@
             "SDID": 4800,
             "SDNAME": "경상남도",
             "SGGID": "0",
+            "SGGNAME": "합계",
+            "WIWID": 0,
+            "WIWNAME": "합계",
+            "data": []
+        },
+        {
+            "SDID": 4800,
+            "SDNAME": "경상남도",
+            "SGGID": "4482100",
             "SGGNAME": "창원시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -16,7 +25,26 @@
             "TUYUL": "51.7",
             "name": 0,
             "nametxt": "합계",
-            "data": [],
+            "data": [
+                {
+                    "value": 40.45,
+                    "name": "허성무",
+                    "party": "더불어민주당",
+                    "pyo": 179808,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 59.54,
+                    "name": "홍남표",
+                    "party": "국민의힘",
+                    "pyo": 264661,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
             "WINNUM": 2,
             "WINDUGSU": "264,661",
             "WINDUGYUL": "59.54",
@@ -42,7 +70,7 @@
         {
             "SDID": 4800,
             "SDNAME": "경상남도",
-            "SGGID": "4821",
+            "SGGID": "4482100",
             "SGGNAME": "창원시",
             "WIWID": 4821,
             "WIWNAME": "창원시의창구",
@@ -100,7 +128,7 @@
         {
             "SDID": 4800,
             "SDNAME": "경상남도",
-            "SGGID": "4822",
+            "SGGID": "4482100",
             "SGGNAME": "창원시",
             "WIWID": 4822,
             "WIWNAME": "창원시성산구",
@@ -158,7 +186,7 @@
         {
             "SDID": 4800,
             "SDNAME": "경상남도",
-            "SGGID": "4823",
+            "SGGID": "4482100",
             "SGGNAME": "창원시",
             "WIWID": 4823,
             "WIWNAME": "창원시마산합포구",
@@ -216,7 +244,7 @@
         {
             "SDID": 4800,
             "SDNAME": "경상남도",
-            "SGGID": "4824",
+            "SGGID": "4482100",
             "SGGNAME": "창원시",
             "WIWID": 4824,
             "WIWNAME": "창원시마산회원구",
@@ -274,7 +302,7 @@
         {
             "SDID": 4800,
             "SDNAME": "경상남도",
-            "SGGID": "4825",
+            "SGGID": "4482100",
             "SGGNAME": "창원시",
             "WIWID": 4825,
             "WIWNAME": "창원시진해구",
@@ -332,7 +360,7 @@
         {
             "SDID": 4800,
             "SDNAME": "경상남도",
-            "SGGID": "0",
+            "SGGID": "4480300",
             "SGGNAME": "진주시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -390,7 +418,7 @@
         {
             "SDID": 4800,
             "SDNAME": "경상남도",
-            "SGGID": "4803",
+            "SGGID": "4480300",
             "SGGNAME": "진주시",
             "WIWID": 4803,
             "WIWNAME": "진주시",
@@ -448,7 +476,7 @@
         {
             "SDID": 4800,
             "SDNAME": "경상남도",
-            "SGGID": "0",
+            "SGGID": "4480500",
             "SGGNAME": "통영시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -532,7 +560,7 @@
         {
             "SDID": 4800,
             "SDNAME": "경상남도",
-            "SGGID": "4805",
+            "SGGID": "4480500",
             "SGGNAME": "통영시",
             "WIWID": 4805,
             "WIWNAME": "통영시",
@@ -616,7 +644,7 @@
         {
             "SDID": 4800,
             "SDNAME": "경상남도",
-            "SGGID": "0",
+            "SGGID": "4480600",
             "SGGNAME": "고성군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -674,7 +702,7 @@
         {
             "SDID": 4800,
             "SDNAME": "경상남도",
-            "SGGID": "4806",
+            "SGGID": "4480600",
             "SGGNAME": "고성군",
             "WIWID": 4806,
             "WIWNAME": "고성군",
@@ -732,7 +760,7 @@
         {
             "SDID": 4800,
             "SDNAME": "경상남도",
-            "SGGID": "0",
+            "SGGID": "4480700",
             "SGGNAME": "사천시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -803,7 +831,7 @@
         {
             "SDID": 4800,
             "SDNAME": "경상남도",
-            "SGGID": "4807",
+            "SGGID": "4480700",
             "SGGNAME": "사천시",
             "WIWID": 4807,
             "WIWNAME": "사천시",
@@ -874,7 +902,7 @@
         {
             "SDID": 4800,
             "SDNAME": "경상남도",
-            "SGGID": "0",
+            "SGGID": "4480800",
             "SGGNAME": "김해시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -932,7 +960,7 @@
         {
             "SDID": 4800,
             "SDNAME": "경상남도",
-            "SGGID": "4808",
+            "SGGID": "4480800",
             "SGGNAME": "김해시",
             "WIWID": 4808,
             "WIWNAME": "김해시",
@@ -990,7 +1018,7 @@
         {
             "SDID": 4800,
             "SDNAME": "경상남도",
-            "SGGID": "0",
+            "SGGID": "4480900",
             "SGGNAME": "밀양시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1048,7 +1076,7 @@
         {
             "SDID": 4800,
             "SDNAME": "경상남도",
-            "SGGID": "4809",
+            "SGGID": "4480900",
             "SGGNAME": "밀양시",
             "WIWID": 4809,
             "WIWNAME": "밀양시",
@@ -1106,7 +1134,7 @@
         {
             "SDID": 4800,
             "SDNAME": "경상남도",
-            "SGGID": "0",
+            "SGGID": "4481000",
             "SGGNAME": "거제시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1190,7 +1218,7 @@
         {
             "SDID": 4800,
             "SDNAME": "경상남도",
-            "SGGID": "4810",
+            "SGGID": "4481000",
             "SGGNAME": "거제시",
             "WIWID": 4810,
             "WIWNAME": "거제시",
@@ -1274,7 +1302,7 @@
         {
             "SDID": 4800,
             "SDNAME": "경상남도",
-            "SGGID": "0",
+            "SGGID": "4481100",
             "SGGNAME": "의령군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1345,7 +1373,7 @@
         {
             "SDID": 4800,
             "SDNAME": "경상남도",
-            "SGGID": "4811",
+            "SGGID": "4481100",
             "SGGNAME": "의령군",
             "WIWID": 4811,
             "WIWNAME": "의령군",
@@ -1416,7 +1444,7 @@
         {
             "SDID": 4800,
             "SDNAME": "경상남도",
-            "SGGID": "0",
+            "SGGID": "4481200",
             "SGGNAME": "함안군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1474,7 +1502,7 @@
         {
             "SDID": 4800,
             "SDNAME": "경상남도",
-            "SGGID": "4812",
+            "SGGID": "4481200",
             "SGGNAME": "함안군",
             "WIWID": 4812,
             "WIWNAME": "함안군",
@@ -1532,7 +1560,7 @@
         {
             "SDID": 4800,
             "SDNAME": "경상남도",
-            "SGGID": "0",
+            "SGGID": "4481300",
             "SGGNAME": "창녕군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1616,7 +1644,7 @@
         {
             "SDID": 4800,
             "SDNAME": "경상남도",
-            "SGGID": "4813",
+            "SGGID": "4481300",
             "SGGNAME": "창녕군",
             "WIWID": 4813,
             "WIWNAME": "창녕군",
@@ -1700,7 +1728,7 @@
         {
             "SDID": 4800,
             "SDNAME": "경상남도",
-            "SGGID": "0",
+            "SGGID": "4481400",
             "SGGNAME": "양산시",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1771,7 +1799,7 @@
         {
             "SDID": 4800,
             "SDNAME": "경상남도",
-            "SGGID": "4814",
+            "SGGID": "4481400",
             "SGGNAME": "양산시",
             "WIWID": 4814,
             "WIWNAME": "양산시",
@@ -1842,7 +1870,7 @@
         {
             "SDID": 4800,
             "SDNAME": "경상남도",
-            "SGGID": "0",
+            "SGGID": "4481500",
             "SGGNAME": "하동군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -1913,7 +1941,7 @@
         {
             "SDID": 4800,
             "SDNAME": "경상남도",
-            "SGGID": "4815",
+            "SGGID": "4481500",
             "SGGNAME": "하동군",
             "WIWID": 4815,
             "WIWNAME": "하동군",
@@ -1984,7 +2012,7 @@
         {
             "SDID": 4800,
             "SDNAME": "경상남도",
-            "SGGID": "0",
+            "SGGID": "4481600",
             "SGGNAME": "남해군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -2042,7 +2070,7 @@
         {
             "SDID": 4800,
             "SDNAME": "경상남도",
-            "SGGID": "4816",
+            "SGGID": "4481600",
             "SGGNAME": "남해군",
             "WIWID": 4816,
             "WIWNAME": "남해군",
@@ -2100,7 +2128,7 @@
         {
             "SDID": 4800,
             "SDNAME": "경상남도",
-            "SGGID": "0",
+            "SGGID": "4481700",
             "SGGNAME": "함양군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -2158,7 +2186,7 @@
         {
             "SDID": 4800,
             "SDNAME": "경상남도",
-            "SGGID": "4817",
+            "SGGID": "4481700",
             "SGGNAME": "함양군",
             "WIWID": 4817,
             "WIWNAME": "함양군",
@@ -2216,7 +2244,7 @@
         {
             "SDID": 4800,
             "SDNAME": "경상남도",
-            "SGGID": "0",
+            "SGGID": "4481800",
             "SGGNAME": "산청군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -2287,7 +2315,7 @@
         {
             "SDID": 4800,
             "SDNAME": "경상남도",
-            "SGGID": "4818",
+            "SGGID": "4481800",
             "SGGNAME": "산청군",
             "WIWID": 4818,
             "WIWNAME": "산청군",
@@ -2358,7 +2386,7 @@
         {
             "SDID": 4800,
             "SDNAME": "경상남도",
-            "SGGID": "0",
+            "SGGID": "4481900",
             "SGGNAME": "거창군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -2416,7 +2444,7 @@
         {
             "SDID": 4800,
             "SDNAME": "경상남도",
-            "SGGID": "4819",
+            "SGGID": "4481900",
             "SGGNAME": "거창군",
             "WIWID": 4819,
             "WIWNAME": "거창군",
@@ -2474,7 +2502,7 @@
         {
             "SDID": 4800,
             "SDNAME": "경상남도",
-            "SGGID": "0",
+            "SGGID": "4482000",
             "SGGNAME": "합천군",
             "WIWID": 0,
             "WIWNAME": "합계",
@@ -2558,7 +2586,7 @@
         {
             "SDID": 4800,
             "SDNAME": "경상남도",
-            "SGGID": "4820",
+            "SGGID": "4482000",
             "SGGNAME": "합천군",
             "WIWID": 4820,
             "WIWNAME": "합천군",
