@@ -4,7 +4,6 @@ import os
 # 가공하고자 하는 선거 종류 코드 (3: 시도지사, 4: 시군구청장)
 ELEC_CODE = "4"
 
-# 전국 17개 시도 매핑 가이드
 CITIES = [
     {"CODE": 1100, "NAME": "서울특별시"},
     {"CODE": 2600, "NAME": "부산광역시"},
@@ -25,7 +24,6 @@ CITIES = [
     {"CODE": 4900, "NAME": "제주특별자치도"},
 ]
 
-# partyColorDict 기반 색상 사전
 PARTY_COLORS = {
     "더불어민주당": "#152484", "국민의힘": "#E61E2B", "더불어민주연합": "#152484", "국민의미래": "#E61E2B",
     "녹색정의당": "#007C36", "새로운미래": "#46bbbd", "개혁신당": "#FF7920", "진보당": "#D6001C",
@@ -35,7 +33,6 @@ PARTY_COLORS = {
     "한국국민당": "#013588", "새진보연합": "#00d2c3", "없음": "#8b8b8b"
 }
 
-# 자바스크립트 매핑용 정당 밸류 번호 사전
 PARTY_MAP_INDEX = {
     "더불어민주당": 1, "더불어민주연합": 1, "더불어시민당": 1,
     "국민의힘": 2, "국민의미래": 2, "미래통합당": 2,
@@ -74,6 +71,7 @@ def add_sgg_data_processor(raw_json, city_code, city_name):
     if not raw_items:
         return None
 
+    # 정당별 당선자 카운터
     win_party_counter = {}
 
     for item in raw_items:
@@ -81,16 +79,20 @@ def add_sgg_data_processor(raw_json, city_code, city_name):
         tusu_val = uncomma(item.get("TUSU", "0"))
         tuyul_val = f"{(tusu_val / sunsu_val * 100):.1f}" if sunsu_val > 0 else "0.0"
         
-        sgg_name_val = item.get("SGGNAME", item.get("WIWNAME", ""))
         wiw_id_raw = item.get("WIWID", "0")
+        wiw_name_raw = item.get("WIWNAME", "합계")
+
+        # 🚨 [수정 반영] 유형 4의 원본 값을 신뢰하여 변조 없이 그대로 추출
+        sgg_id_val = str(item.get("SGGID", wiw_id_raw))
+        sgg_name_val = item.get("SGGNAME", wiw_name_raw)
 
         sggdata = {
             "SDID": int(item.get("SDID", city_code)),
             "SDNAME": item.get("SDNAME", city_name),
-            "SGGID": str(wiw_id_raw),    # 👈 [추가 반영] SGGID 항목을 문자열 규격으로 전체 매핑
-            "SGGNAME": sgg_name_val,
+            "SGGID": sgg_id_val,          # 원본 SGGID 그대로 바인딩
+            "SGGNAME": sgg_name_val,      # 원본 SGGNAME 그대로 바인딩
             "WIWID": int(wiw_id_raw),
-            "WIWNAME": item.get("WIWNAME", "합계"),
+            "WIWNAME": wiw_name_raw,
             "SUNSU": item.get("SUNSU", "0"),
             "TUSU": item.get("TUSU", "0"),
             "TOTAL": item.get("TOTAL", "0"),
@@ -99,7 +101,7 @@ def add_sgg_data_processor(raw_json, city_code, city_name):
             "HUBOSU": item.get("HUBOSU", "0"),
             "TUYUL": tuyul_val,
             "name": int(wiw_id_raw), 
-            "nametxt": item.get("WIWNAME", "합계"),
+            "nametxt": wiw_name_raw,
             "data": []
         }
 
@@ -167,12 +169,14 @@ def add_sgg_data_processor(raw_json, city_code, city_name):
                 sggdata[f"DUGSU{suf}"] = item.get(f"DUGSU{suf}")
                 sggdata[f"DUGYUL{suf}"] = item.get(f"DUGYUL{suf}")
 
-        if ELEC_CODE == "4" and item.get("WIWNAME") == "합계" and int(wiw_id_raw) != 0:
+        # WIWNAME이 "합계"이고 실제 지역구(WIWID != 0)인 당선 정당 집계
+        if ELEC_CODE == "4" and wiw_name_raw == "합계" and int(wiw_id_raw) != 0:
             if win_jd and win_dugsu > sec_dugsu:
                 win_party_counter[win_jd] = win_party_counter.get(win_jd, 0) + 1
 
         refined_list.append(sggdata)
 
+    # 🚨 [수정 반영] 기존 시군구 항목을 건드리지 않고, 맨 앞에 독립적인 빈 배열/오브젝트를 생성하여 삽입
     if ELEC_CODE == "4":
         summary_pie_data = []
         for party, count in win_party_counter.items():
@@ -181,13 +185,21 @@ def add_sgg_data_processor(raw_json, city_code, city_name):
                 "value": count,
                 "itemStyle": {"color": PARTY_COLORS.get(party, "#8b8b8b")}
             })
-        
         summary_pie_data.sort(key=lambda x: x["value"], reverse=True)
 
-        for sgg in refined_list:
-            if sgg["WIWID"] == 0:
-                sgg["data"] = summary_pie_data
-                break
+        # 0번 인덱스 전용 빈 요약 껍데기 오브젝트 생성
+        summary_node = {
+            "SDID": int(city_code),
+            "SDNAME": city_name,
+            "SGGID": "0",
+            "SGGNAME": "합계",
+            "WIWID": 0,
+            "WIWNAME": "합계",
+            "data": summary_pie_data  # 👈 하위 data 항목에 순수하게 정당 당선자 수만 정리
+        }
+
+        # refined_list의 가장 맨 앞([0])에 새롭게 만든 요약 노드를 인서트합니다.
+        refined_list.insert(0, summary_node)
 
     return {city_name: refined_list}
 
@@ -195,7 +207,7 @@ def main():
     target_dir = os.path.join("data", "jibang", "8")
     if not os.path.exists(target_dir): return
 
-    print(f"🔄 선거코드 [{ELEC_CODE}] 기준 SGGID 필드 추가 가공을 시작합니다.")
+    print(f"🔄 선거코드 [{ELEC_CODE}] 기준 새 스펙 전체 변환을 시작합니다.")
 
     for city in CITIES:
         code_str = str(city["CODE"])
@@ -213,11 +225,11 @@ def main():
                 if refined_json is not None:
                     with open(refined_file_path, "w", encoding="utf-8") as f:
                         json.dump(refined_json, f, ensure_ascii=False, indent=4)
-                    print(f"🟢 [{name_str}] SGGID 필드 주입 완료 -> {ELEC_CODE}_{code_str}.json")
+                    print(f"🟢 [{name_str}] 맨 앞 독립 요약 노드 인서트 및 순수 추출 변환 성공")
             except Exception as e:
                 print(f"🔴 [{name_str}] 가공 오류: {e}")
 
-    print("✨ SGGID 필드 매핑 및 통합 가공 작업이 완료되었습니다.")
+    print("✨ 요약 통계 분리 가공 작업이 완벽하게 완료되었습니다.")
 
 if __name__ == "__main__":
     main()
