@@ -12,7 +12,7 @@ ELEC_CODE = "3"
 
 MAX_RETRIES = 3
 MIN_DELAY = 30.0
-MAX_DELAY = 50.0
+MAX_DELAY = 45.0
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
