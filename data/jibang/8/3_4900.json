@@ -19,25 +19,37 @@
                     "value": 55.14,
                     "name": "오영훈",
                     "party": "더불어민주당",
-                    "pyo": 163116
+                    "pyo": 163116,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
                     "value": 39.48,
                     "name": "허향진",
                     "party": "국민의힘",
-                    "pyo": 116786
+                    "pyo": 116786,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 },
                 {
                     "value": 1.94,
                     "name": "부순정",
                     "party": "녹색당",
-                    "pyo": 5750
+                    "pyo": 5750,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
                 },
                 {
                     "value": 3.42,
                     "name": "박찬식",
                     "party": "무소속",
-                    "pyo": 10138
+                    "pyo": 10138,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
                 }
             ],
             "WINNUM": 1,
@@ -89,25 +101,37 @@
                     "value": 55.6,
                     "name": "오영훈",
                     "party": "더불어민주당",
-                    "pyo": 118762
+                    "pyo": 118762,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
                     "value": 39.11,
                     "name": "허향진",
                     "party": "국민의힘",
-                    "pyo": 83539
+                    "pyo": 83539,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 },
                 {
                     "value": 2.05,
                     "name": "부순정",
                     "party": "녹색당",
-                    "pyo": 4389
+                    "pyo": 4389,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
                 },
                 {
                     "value": 3.22,
                     "name": "박찬식",
                     "party": "무소속",
-                    "pyo": 6878
+                    "pyo": 6878,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
                 }
             ],
             "WINNUM": 1,
@@ -159,25 +183,37 @@
                     "value": 53.94,
                     "name": "오영훈",
                     "party": "더불어민주당",
-                    "pyo": 44354
+                    "pyo": 44354,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
                 },
                 {
                     "value": 40.43,
                     "name": "허향진",
                     "party": "국민의힘",
-                    "pyo": 33247
+                    "pyo": 33247,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
                 },
                 {
                     "value": 1.65,
                     "name": "부순정",
                     "party": "녹색당",
-                    "pyo": 1361
+                    "pyo": 1361,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
                 },
                 {
                     "value": 3.96,
                     "name": "박찬식",
                     "party": "무소속",
-                    "pyo": 3260
+                    "pyo": 3260,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
                 }
             ],
             "WINNUM": 1,
