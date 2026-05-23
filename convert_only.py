@@ -114,6 +114,12 @@ def add_sgg_data_processor(raw_json, city_code, city_name):
             elif current_dugsu > sec_dugsu:
                 sec_num, sec_dugsu, sec_dugyul, sec_hubo, sec_jd = k, current_dugsu, current_dugyul, hubo_name, party_name
 
+            # 정당 사전에서 육안으로 색상 코드 추출
+            party_color = PARTY_MAP_INDEX.get(party_name, 9) # 기본 인덱스 보증안
+            # 실제 정당 컬러 매핑 딕셔너리 연동 (예: 민주당=#152484 등)
+            # 기존 코드 상단에 정의된 PARTY_COLORS 딕셔너리를 직접 읽어옵니다.
+            actual_color = PARTY_COLORS.get(party_name, "#8b8b8b")
+
             # 🚨 [심각한 문제 해결 구간]
             # 1. 'value' 위치에 백분율(득표율 숫자형)을 대입합니다.
             # 2. 기존의 수치(표)는 'pyo'라는 키로 변경하여 저장합니다.
@@ -122,7 +128,8 @@ def add_sgg_data_processor(raw_json, city_code, city_name):
                 "value": current_dugyul,
                 "name": hubo_name,
                 "party": party_name,
-                "pyo": current_dugsu
+                "pyo": current_dugsu,
+                "itemStyle": {"color": actual_color}
             })
 
         sggdata["WINNUM"] = win_num
