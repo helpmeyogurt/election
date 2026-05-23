@@ -1,0 +1,42 @@
+name: 🗳️ 9회 지선 시군구청장 후보자 자동 수집 시스템
+
+on:
+  schedule:
+    # 🚨 시도지사(새벽 4시 15분)와 겹치지 않게 15분 연기한 한국 시간(KST) 매일 새벽 4시 30분 작동 (UTC 19:30)
+    - cron: '30 19 * * *'
+  workflow_dispatch:
+    # 깃허브 웹사이트 Actions 탭에서 수동으로 즉시 실행할 수 있는 버튼 활성화
+
+jobs:
+  collect-sgg-candidates:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests
+
+    - name: Run SGG Candidate Scraper
+      # 🚨 방금 만든 시군구청장 전용 크롤러 스크립트를 구동합니다.
+      run: python -u candidate_crawler_sgg.py
+
+    - name: Commit and Push changes
+      run: |
+        git config --global user.name "GitHub Actions Bot"
+        git config --global user.email "actions@github.com"
+        
+        # 9번 폴더 안전 생성 및 추적 등록
+        mkdir -p data/jibang/9
+        git add data/jibang/9/*.json
+        
+        # 사장님이 사용하시던 완벽하게 검증된 삼항 연산식 기법으로 예외 없이 안전 커밋/푸시를 수행합니다.
+        git diff --quiet && git diff --staged --quiet || (git commit -m "📝 [자동 반영] 제9회 시군구청장 후보자 데이터 업데이트 완료 [skip ci]" && git push)
