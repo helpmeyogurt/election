@@ -1,8 +1,7 @@
 import json
 import os
 
-# 🚨 [수정 반영] 가공하고자 하는 선거 종류 코드 (3: 시도지사, 4: 시군구청장)
-# 이 코드에 따라 읽어올 원본 파일과 생성할 정제 파일명이 자동으로 결정됩니다.
+# 가공하고자 하는 선거 종류 코드 (3: 시도지사, 4: 시군구청장)
 ELEC_CODE = "3"
 
 # 전국 17개 시도 매핑 가이드
@@ -26,7 +25,7 @@ CITIES = [
     {"CODE": 4900, "NAME": "제주특별자치도"},
 ]
 
-# 자바스크립트 partyColorLocal의 value 규칙과 완벽 일치화
+# 자바스크립트 partyColorLocal의 value 규칙과 완벽 일치화 (최상위 식별용)
 PARTY_MAP_INDEX = {
     "더불어민주당": 1, "더불어민주연합": 1, "더불어시민당": 1,
     "국민의힘": 2, "국민의미래": 2, "미래통합당": 2,
@@ -104,7 +103,7 @@ def add_sgg_data_processor(raw_json, city_code, city_name):
             if not hubo_name: break
 
             current_dugsu = uncomma(dugsu_str)
-            current_dugyul = float(dugyul_str) if dugyul_str else 0.0
+            current_dugyul = float(dugyul_str) if ... else 0.0
 
             if k == 1:
                 win_num, win_dugsu, win_dugyul, win_hubo, win_jd = k, current_dugsu, current_dugyul, hubo_name, party_name
@@ -115,11 +114,15 @@ def add_sgg_data_processor(raw_json, city_code, city_name):
             elif current_dugsu > sec_dugsu:
                 sec_num, sec_dugsu, sec_dugyul, sec_hubo, sec_jd = k, current_dugsu, current_dugyul, hubo_name, party_name
 
+            # 🚨 [심각한 문제 해결 구간]
+            # 1. 'value' 위치에 백분율(득표율 숫자형)을 대입합니다.
+            # 2. 기존의 수치(표)는 'pyo'라는 키로 변경하여 저장합니다.
+            # 3. 요구사항에 따라 'percentage' 항목은 제거했습니다.
             sggdata["data"].append({
-                "value": current_dugsu,
+                "value": current_dugyul,
                 "name": hubo_name,
                 "party": party_name,
-                "percentage": current_dugyul
+                "pyo": current_dugsu
             })
 
         sggdata["WINNUM"] = win_num
@@ -134,6 +137,8 @@ def add_sgg_data_processor(raw_json, city_code, city_name):
         sggdata["SECHUBO"] = sec_hubo
         sggdata["SECJD"] = sec_jd
 
+        # 💡 참고: 최상위의 sggdata["value"] 값은 지도 조각의 '소속 정당 색상 테두리'를 결정하므로 
+        # 이전 자바스크립트 규칙(민주당=1, 국힘=2 등)을 그대로 안정적으로 유지 보전합니다.
         if win_dugsu == sec_dugsu:
             sggdata["value"] = 9  
             sggdata["DUGYULCHA"] = "0.00"
@@ -159,13 +164,12 @@ def main():
     target_dir = os.path.join("data", "jibang", "8")
     if not os.path.exists(target_dir): return
 
-    print(f"🔄 선거코드 [{ELEC_CODE}] 기준 데이터 가공 및 변환을 시작합니다.")
+    print(f"🔄 선거코드 [{ELEC_CODE}] 기준 새 스펙 데이터 가공을 시작합니다.")
 
     for city in CITIES:
         code_str = str(city["CODE"])
         name_str = city["NAME"]
         
-        # 🚨 [파일명 매핑 수정] 원본 수집기 규칙과 타겟 정제 파일명 규칙을 동시에 맞춤 분기합니다.
         ori_file_path = os.path.join(target_dir, f"ori_{ELEC_CODE}_{code_str}.json")
         refined_file_path = os.path.join(target_dir, f"{ELEC_CODE}_{code_str}.json")
 
@@ -178,13 +182,11 @@ def main():
                 if refined_json is not None:
                     with open(refined_file_path, "w", encoding="utf-8") as f:
                         json.dump(refined_json, f, ensure_ascii=False, indent=4)
-                    print(f"🟢 [{name_str}] 변환 성공 -> {ELEC_CODE}_{code_str}.json")
+                    print(f"🟢 [{name_str}] 새 규격 변환 성공 -> {ELEC_CODE}_{code_str}.json")
             except Exception as e:
-                print(f"🔴 [{name_str}] 처리 중 에러 발생: {e}")
-        else:
-            print(f"⚪ [{name_str}] 원본 파일이 없습니다: ori_{ELEC_CODE}_{code_str}.json")
+                print(f"🔴 [{name_str}] 가공 오류: {e}")
 
-    print("✨ 모든 파일의 구분 가공 작업이 완료되었습니다.")
+    print("✨ 데이터 세부 스펙 변경 가공 작업이 성공적으로 끝났습니다.")
 
 if __name__ == "__main__":
     main()
