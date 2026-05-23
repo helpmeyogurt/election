@@ -59,17 +59,38 @@ def sleep_with_dots(delay_time):
     print(" [대기 종료]")
 
 def load_local_sgg_codes():
-    """현재 스크립트 위치를 기준으로 SGG_CODE.json 파일을 절대 경로로 찾습니다."""
-    # 현재 파이썬 파일이 있는 폴더 위치 (레포지토리 루트)
-    base_dir = os.path.dirname(os.path.abspath(__file__))
+    """가상 서버 환경과 로컬 환경 어디서든 SGG_CODE.json 파일을 유연하게 탐색합니다."""
+    # 탐색할 후보 경로 리스트 목록 정의
+    possible_paths = [
+        # 1순위: 깃허브 액션 최상위 워크스페이스 기준 표준 경로
+        os.path.join("election", "data", "jibang", "SGG_CODE.json"),
+        
+        # 2순위: 현재 실행 중인 스크립트 파일 위치 기준 경로
+        os.path.join(os.path.dirname(os.path.abspath(__file__)), "election", "data", "jibang", "SGG_CODE.json"),
+        
+        # 3순위: 만약 레포지토리 자체가 최상위 루트일 경우의 직접 경로
+        os.path.join("data", "jibang", "SGG_CODE.json"),
+        os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "jibang", "SGG_CODE.json")
+    ]
     
-    # 🚨 [경로 교정] 절대 경로 구성을 통해 가상 환경에서도 정확히 조준합니다.
-    sgg_json_path = os.path.join(base_dir, "election", "data", "jibang", "SGG_CODE.json")
+    sgg_json_path = None
     
-    print(f"🔍 현재 탐색 중인 파일 실제 경로: {sgg_json_path}")
-    
-    if not os.path.exists(sgg_json_path):
-        print(f"🔴 로컬 시군구 코드 파일을 찾을 수 없습니다: {sgg_json_path}")
+    # 순고하게 매핑 후보를 순회하며 실제 물리적으로 존재하는 경로를 채택합니다.
+    for path in possible_paths:
+        print(f"🔍 [경로 탐색망 체크]: {path}")
+        if os.path.exists(path):
+            sgg_json_path = path
+            print(f"🟢 [매칭 성공] 파일을 찾았습니다! 최종 채택 경로 ➡️ {sgg_json_path}")
+            break
+
+    if not sgg_json_path:
+        print(f"🔴 [치명적 오류] 제공된 모든 후보 경로에서 SGG_CODE.json 파일을 찾지 못했습니다.")
+        # 디버깅을 돕기 위해 현재 스크립트 실행 위치의 폴더 트리 상태를 출력합니다.
+        try:
+            print(f"📂 현재 스크립트 실행 작업 디렉터리(CWD): {os.getcwd()}")
+            print(f"📂 현재 폴더 내 파일 목록 구조: {os.listdir('.')}")
+        except Exception:
+            pass
         return None
     
     try:
