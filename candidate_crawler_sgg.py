@@ -17,8 +17,8 @@ ELEC_CODE = "4"
 TARGET_CITY_KEY = "울산" 
 
 MAX_RETRIES = 3
-MIN_DELAY = 10.0  # 단일 지역 테스트이므로 빠른 피드백을 위해 대기 텀을 10~15초로 낮췄습니다.
-MAX_DELAY = 15.0
+MIN_DELAY = 30.0  # 단일 지역 테스트이므로 빠른 피드백을 위해 대기 텀을 10~15초로 낮췄습니다.
+MAX_DELAY = 45.0
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
@@ -110,7 +110,6 @@ def main():
         city_name_str = city["NAME"]
         city_key = city["KEY"]
 
-        # 🚨 [필터링 작동 부] 설정한 타겟 지역이 아니면 연산을 통째로 건너뜁니다.
         if TARGET_CITY_KEY != "전체" and city_key != TARGET_CITY_KEY:
             continue
 
@@ -154,6 +153,8 @@ def main():
 
                     city_combined_candidates[sgg_name] = raw_json
                     success = True
+                    # 🚨 [수정 반영] 개별 시군구 요청 성공 즉시 콘솔에 녹색 불을 켜줍니다.
+                    print(f"	🟢 [{sgg_name}] 명부 다운로드 성공")
 
                 except Exception as e:
                     print(f"	⚠️ [{sgg_name}] 에러: {e}. {attempt}/{MAX_RETRIES}회차 재시도...")
@@ -172,7 +173,7 @@ def main():
             
             with open(file_path, "w", encoding="utf-8") as f:
                 json.dump(city_combined_candidates, f, ensure_ascii=False, indent=4)
-            print(f"🟢 [{city_name_str}] 단일 타겟 통합 후보자 파일 저장 완료 -> {file_name}")
+            print(f"\n✅ [{city_name_str}] 모든 자치구 합산 통합 파일 빌드 완료 -> {file_name}")
 
     print("\n✨ 설정된 타겟 시도의 시군구청장 후보자 테스트 수집이 종료되었습니다.")
 
