@@ -63,7 +63,6 @@ def find_raw_items(data):
                 res = find_raw_items(value)
                 if res: return res
     return []
-
 def add_sgg_data_processor(raw_json, city_code, city_name):
     refined_list = []
     raw_items = find_raw_items(raw_json)
@@ -72,37 +71,63 @@ def add_sgg_data_processor(raw_json, city_code, city_name):
         return None
 
     win_party_counter = {}
+    
+    total_sunsu_sum = 0
+    total_tusu_sum = 0
 
     for item in raw_items:
+        wiw_id_raw = item.get("WIWID", "0")
+        wiw_name_raw = item.get("WIWNAME", "").strip()
+        sgg_name_raw = item.get("SGGNAME", "").strip()
+        sgg_id_raw = item.get("SGGID", "0")
+
+        # 🚨 [규칙 1]: 경기도 전체 데이터 파일 맨 위에 가끔 들어있는 '도 전체 합계'는
+        # SGGNAME이 '선거구합계'이거나 빈값으로 옵니다. 이건 무조건 스킵합니다.
+        if sgg_name_raw == "선거구합계" or not sgg_name_raw:
+            continue
+
+        # 🚨 [규칙 2 - 핵심 필터]: 
+        # 군포시의 '군포시' 자식 행 스킵! 수원의 '장안구', '권선구', '팔달구', '영통구' 자식 행 전면 스킵!
+        # 오직 완벽한 총합 데이터가 계산되어 있는 "WIWNAME == 합계" 행만 정밀 저격해서 통과시킵니다.
+        if wiw_name_raw != "합계":
+            continue
+
+        # 🟢 필터를 통과한 행은 군포시 전체 합계 행 1개, 수원시 전체 합계 행 1개식으로 딱 정리됩니다.
+        display_name = sgg_name_raw # "군포시", "수원시"가 정갈하게 담깁니다.
+
         sunsu_val = uncomma(item.get("SUNSU", "0"))
         tusu_val = uncomma(item.get("TUSU", "0"))
+        
+        # 중복이 싹 걷어진 알짜배기 시군구 총합 데이터만 도합산 저금통에 누적! (투표율 뻥튀기 200% 차단)
+        total_sunsu_sum += sunsu_val
+        total_tusu_sum += tusu_val
+
         tuyul_val = f"{(tusu_val / sunsu_val * 100):.1f}" if sunsu_val > 0 else "0.0"
         
-        wiw_id_raw = item.get("WIWID", "0")
-        wiw_name_raw = item.get("WIWNAME", "합계").strip()
-
-        sgg_id_val = str(item.get("SGGID", wiw_id_raw))
-        sgg_name_val = item.get("SGGNAME", wiw_name_raw)
+        # 🚨 [프론트엔드 연동 가공]: 합계 행은 WIWID가 0으로 오기 때문에, 
+        # 지도 엔진(ECharts)이 인식할 수 있도록 고유 번호인 SGGID(예: 4410300)를 가공해서 꽂아줍니다.
+        final_wiw_id = int(sgg_id_raw) if str(sgg_id_raw).isdigit() else 0
 
         sggdata = {
             "SDID": int(item.get("SDID", city_code)),
             "SDNAME": item.get("SDNAME", city_name),
-            "SGGID": sgg_id_val,
-            "SGGNAME": sgg_name_val,
-            "WIWID": int(wiw_id_raw),
-            "WIWNAME": wiw_name_raw,
-            "SUNSU": item.get("SUNSU", "0"),
-            "TUSU": item.get("TUSU", "0"),
+            "SGGID": str(sgg_id_raw),
+            "SGGNAME": display_name,             # 🟢 "합계" 대신 "수원시", "군포시"
+            "WIWID": final_wiw_id,                # 🟢 0 대신 진짜 지도 연동 코드 주입
+            "WIWNAME": display_name,
+            "SUNSU": comma(sunsu_val),
+            "TUSU": comma(tusu_val),
             "TOTAL": item.get("TOTAL", "0"),
             "MUTUSU": item.get("MUTUSU", "0"),
             "GIGWON": item.get("GIGWON", "0"),
             "HUBOSU": item.get("HUBOSU", "0"),
             "TUYUL": tuyul_val,
-            "name": int(wiw_id_raw), 
-            "nametxt": wiw_name_raw,
+            "name": final_wiw_id, 
+            "nametxt": display_name,
             "data": []
         }
 
+        # --- 후보자 데이터 파싱 구역 (사장님 오리지널 엔진 100% 동일 유지) ---
         win_num, win_dugsu, win_dugyul, win_hubo, win_jd = 0, 0, 0.0, "", ""
         sec_num, sec_dugsu, sec_dugyul, sec_hubo, sec_jd = 0, 0, 0.0, "", ""
 
@@ -167,15 +192,13 @@ def add_sgg_data_processor(raw_json, city_code, city_name):
                 sggdata[f"DUGSU{suf}"] = item.get(f"DUGSU{suf}")
                 sggdata[f"DUGYUL{suf}"] = item.get(f"DUGYUL{suf}")
 
-        # 일반구 중복 전면 차단 필터링 카운트
-        if ELEC_CODE == "4" and int(wiw_id_raw) != 0:
-            if not wiw_name_raw.endswith("구") or int(city_code) in [1100, 2600, 2700, 2800, 2900, 3000, 3100]:
-                if win_jd and win_dugsu > sec_dugsu:
-                    cleaned_win_jd = win_jd.strip()
-                    win_party_counter[cleaned_win_jd] = win_party_counter.get(cleaned_win_jd, 0) + 1
+        if win_jd and win_dugsu > sec_dugsu:
+            cleaned_win_jd = win_jd.strip()
+            win_party_counter[cleaned_win_jd] = win_party_counter.get(cleaned_win_jd, 0) + 1
 
         refined_list.append(sggdata)
 
+    # 3. 최상단 '시도 합산 요약 노드' 생성 구역
     if ELEC_CODE == "4":
         summary_pie_data = []
         for party, count in win_party_counter.items():
@@ -185,9 +208,10 @@ def add_sgg_data_processor(raw_json, city_code, city_name):
                 "itemStyle": {"color": PARTY_COLORS.get(party, "#8b8b8b")}
             })
             
-        # 🚨 [수정 반영] 요구하신 커스텀 정당 순서 적용
         custom_order = ["더불어민주당", "국민의힘", "정의당", "진보당", "무소속"]
         summary_pie_data.sort(key=lambda x: custom_order.index(x["name"]) if x["name"] in custom_order else 999)
+
+        total_tuyul_calc = f"{(total_tusu_sum / total_sunsu_sum * 100):.1f}" if total_sunsu_sum > 0 else "0.0"
 
         summary_node = {
             "SDID": int(city_code),
@@ -196,6 +220,9 @@ def add_sgg_data_processor(raw_json, city_code, city_name):
             "SGGNAME": "합계",
             "WIWID": 0,
             "WIWNAME": "합계",
+            "SUNSU": comma(total_sunsu_sum),     
+            "TUSU": comma(total_tusu_sum),       
+            "TUYUL": total_tuyul_calc,           
             "data": summary_pie_data
         }
 
