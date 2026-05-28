@@ -63,6 +63,7 @@ def find_raw_items(data):
                 res = find_raw_items(value)
                 if res: return res
     return []
+
 def add_sgg_data_processor(raw_json, city_code, city_name):
     refined_list = []
     raw_items = find_raw_items(raw_json)
@@ -71,50 +72,25 @@ def add_sgg_data_processor(raw_json, city_code, city_name):
         return None
 
     win_party_counter = {}
-    
     total_sunsu_sum = 0
     total_tusu_sum = 0
 
     for item in raw_items:
-        wiw_id_raw = item.get("WIWID", "0")
         wiw_name_raw = item.get("WIWNAME", "").strip()
         sgg_name_raw = item.get("SGGNAME", "").strip()
-        sgg_id_raw = item.get("SGGID", "0")
-
-        # 🚨 [규칙 1]: 경기도 전체 데이터 파일 맨 위에 가끔 들어있는 '도 전체 합계'는
-        # SGGNAME이 '선거구합계'이거나 빈값으로 옵니다. 이건 무조건 스킵합니다.
-        if sgg_name_raw == "선거구합계" or not sgg_name_raw:
+        
+        if sgg_name_raw == "선거구합계" or not sgg_name_raw or wiw_name_raw != "합계":
             continue
 
-        # 🚨 [규칙 2 - 핵심 필터]: 
-        # 군포시의 '군포시' 자식 행 스킵! 수원의 '장안구', '권선구', '팔달구', '영통구' 자식 행 전면 스킵!
-        # 오직 완벽한 총합 데이터가 계산되어 있는 "WIWNAME == 합계" 행만 정밀 저격해서 통과시킵니다.
-        if wiw_name_raw != "합계":
-            continue
-
-        # 🟢 필터를 통과한 행은 군포시 전체 합계 행 1개, 수원시 전체 합계 행 1개식으로 딱 정리됩니다.
-        display_name = sgg_name_raw # "군포시", "수원시"가 정갈하게 담깁니다.
-
+        display_name = sgg_name_raw
         sunsu_val = uncomma(item.get("SUNSU", "0"))
         tusu_val = uncomma(item.get("TUSU", "0"))
         
-        # 중복이 싹 걷어진 알짜배기 시군구 총합 데이터만 도합산 저금통에 누적! (투표율 뻥튀기 200% 차단)
         total_sunsu_sum += sunsu_val
         total_tusu_sum += tusu_val
 
-        tuyul_val = f"{(tusu_val / sunsu_val * 100):.1f}" if sunsu_val > 0 else "0.0"
-
-        # 🚨 [프론트엔드 연동 가공]: 
-        sgg_id_str = str(sgg_id_raw)
-        
-        # 2번째 자리부터 5번째 자리까지 추출 (파이썬 슬라이싱 [시작:끝]은 0부터 시작함)
-        # 4 1 1 0 1 0 0
-        # 0 1 2 3 4 5 6 (인덱스)
-        # 1번 인덱스부터 5번 인덱스 직전까지 -> [1:5]
-        if len(sgg_id_str) >= 5:
-            final_wiw_id = int(sgg_id_str[1:5])
-        else:
-            final_wiw_id = int(sgg_id_str) # 예외 대비
+        sgg_id_str = str(item.get("SGGID", "0"))
+        final_wiw_id = int(sgg_id_str[1:5]) if len(sgg_id_str) >= 5 else int(sgg_id_str)
 
         sggdata = {
             "SDID": int(item.get("SDID", city_code)),
@@ -122,62 +98,54 @@ def add_sgg_data_processor(raw_json, city_code, city_name):
             "SGGID": sgg_id_str,
             "SGGNAME": display_name,
             "WIWID": final_wiw_id, 
-            "WIWNAME": display_name, # 원하시는 WIWNAME 추가
+            "WIWNAME": display_name,
             "SUNSU": comma(sunsu_val),
             "TUSU": comma(tusu_val),
-            "TOTAL": item.get("TOTAL", "0"),
-            "MUTUSU": item.get("MUTUSU", "0"),
-            "GIGWON": item.get("GIGWON", "0"),
-            "HUBOSU": item.get("HUBOSU", "0"),
-            "TUYUL": tuyul_val,
+            "TUYUL": f"{(tusu_val / sunsu_val * 100):.1f}" if sunsu_val > 0 else "0.0",
             "name": final_wiw_id, 
             "nametxt": display_name,
             "data": []
         }
 
-        # ... (중간 후보자 파싱 및 정렬 로직 그대로 유지) ...
-
-        # 1위, 2위 정보 업데이트 및 승패 차이 설정 (이 부분에 필드 추가)
-        if len(candidates) >= 1:
-            win = candidates[0]
-            sggdata.update({
-                "WINNUM": win["num"], 
-                "WINDUGSU": comma(win["dugsu"]), 
-                "WINDUGYUL": f"{win['dugyul']:.2f}", 
-                "WINHUBO": win["hubo"], 
-                "WINJD": win["jd"]
+        # --- 후보자 파싱 및 정렬 (루프 내부에서 완전히 처리) ---
+        candidates = []
+        for k in range(1, 20):
+            suffix = f"{k:02d}"
+            hubo_name = item.get(f"HUBO{suffix}")
+            if not hubo_name: break 
+            
+            party_name = item.get(f"JD{suffix}")
+            dugsu = uncomma(item.get(f"DUGSU{suffix}"))
+            dugyul = float(item.get(f"DUGYUL{suffix}", 0.0))
+            
+            candidates.append({"num": k, "hubo": hubo_name, "jd": party_name, "dugsu": dugsu, "dugyul": dugyul})
+            
+            cleaned_party = party_name.strip() if party_name else "없음"
+            sggdata["data"].append({
+                "value": dugyul, "name": hubo_name, "party": party_name,
+                "pyo": dugsu, "itemStyle": {"color": PARTY_COLORS.get(cleaned_party, "#8b8b8b")}
             })
-        
-        if len(candidates) >= 2:
-            sec = candidates[1]
-            sggdata.update({
-                "SECNUM": sec["num"], 
-                "SECDUGSU": comma(sec["dugsu"]), 
-                "SECDUGYUL": f"{sec['dugyul']:.2f}", 
-                "SECHUBO": sec["hubo"], 
-                "SECJD": sec["jd"],
-                "DUGYULCHA": f"{(candidates[0]['dugyul'] - candidates[1]['dugyul']):.2f}", # DUGYULCHA 추가
-                "DUGSUCHA": comma(candidates[0]['dugsu'] - candidates[1]['dugsu'])          # DUGSUCHA 추가
-            })
-        else:
-            sggdata.update({"SECNUM": 0, "SECDUGSU": "0", "SECDUGYUL": "0.00", "SECHUBO": "", "SECJD": "", "DUGYULCHA": "0.00", "DUGSUCHA": "0"})
 
-        # 승자와 패자 점수 차이 계산
-        if len(candidates) >= 2:
-            sggdata["DUGYULCHA"] = f"{(candidates[0]['dugyul'] - candidates[1]['dugyul']):.2f}"
-            sggdata["DUGSUCHA"] = comma(candidates[0]['dugsu'] - candidates[1]['dugsu'])
-        else:
-            sggdata["DUGYULCHA"] = f"{candidates[0]['dugyul']:.2f}" if candidates else "0.00"
-            sggdata["DUGSUCHA"] = comma(candidates[0]['dugsu']) if candidates else "0"
+        # 정렬 후 정보 업데이트
+        candidates.sort(key=lambda x: x["dugsu"], reverse=True)
         
-        # 🟢 [합계 노드용 당선 횟수 누적]
-        # win_jd는 candidates[0]["jd"] 입니다. 
-        # 무투표 당선(득표수 0)이어도 당선은 당선이므로, 
-        # 후보가 존재할 때 정당별 당선 횟수를 카운트해야 합니다.
         if candidates:
-            win_jd = candidates[0]["jd"]
-            cleaned_win_jd = win_jd.strip() if win_jd else "없음"
-            win_party_counter[cleaned_win_jd] = win_party_counter.get(cleaned_win_jd, 0) + 1
+            # 1위 정보
+            win = candidates[0]
+            sggdata.update({"WINNUM": win["num"], "WINDUGSU": comma(win["dugsu"]), "WINDUGYUL": f"{win['dugyul']:.2f}", "WINHUBO": win["hubo"], "WINJD": win["jd"]})
+            win_party_counter[win["jd"].strip()] = win_party_counter.get(win["jd"].strip(), 0) + 1
+            
+            # 2위 정보
+            if len(candidates) >= 2:
+                sec = candidates[1]
+                sggdata.update({"SECNUM": sec["num"], "SECDUGSU": comma(sec["dugsu"]), "SECDUGYUL": f"{sec['dugyul']:.2f}", "SECHUBO": sec["hubo"], "SECJD": sec["jd"],
+                                "DUGYULCHA": f"{(win['dugyul'] - sec['dugyul']):.2f}", "DUGSUCHA": comma(win['dugsu'] - sec['dugsu'])})
+            else:
+                sggdata.update({"SECNUM": 0, "SECDUGSU": "0", "SECDUGYUL": "0.00", "SECHUBO": "", "SECJD": "", "DUGYULCHA": f"{win['dugyul']:.2f}", "DUGSUCHA": comma(win['dugsu'])})
+            
+            sggdata["value"] = PARTY_MAP_INDEX.get(win["jd"], 9)
+        else:
+            sggdata.update({"WINHUBO": "", "SECHUBO": "", "value": 9})
 
         refined_list.append(sggdata)
 
