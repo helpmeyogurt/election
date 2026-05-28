@@ -1,5 +1,6 @@
 name: Merge Election Data
-on: [push] # 코드를 수정해서 깃허브에 올릴 때마다 자동 실행
+on:
+  workflow_dispatch: # Actions 탭에서 수동으로 실행할 수 있도록 설정
 
 jobs:
   build:
