@@ -313,6 +313,26 @@
             36.3972
         ],
         "radius": 6,
+        "data": [
+                {
+                    "value": 41.8,
+                    "name": "노영민",
+                    "party": "더불어민주당",
+                    "pyo": 284166,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 58.19,
+                    "name": "김영환",
+                    "party": "국민의힘",
+                    "pyo": 395517,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ]
     },
     {
         "name": 44,
@@ -324,6 +344,26 @@
             36.4977
         ],
         "radius": 8,
+        "data": [
+                {
+                    "value": 46.12,
+                    "name": "양승조",
+                    "party": "더불어민주당",
+                    "pyo": 401308,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 53.87,
+                    "name": "김태흠",
+                    "party": "국민의힘",
+                    "pyo": 468658,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ]
     },
     {
         "name": 45,
@@ -335,6 +375,26 @@
             35.7546
         ],
         "radius": 8,
+        "data": [
+                {
+                    "value": 82.11,
+                    "name": "김관영",
+                    "party": "더불어민주당",
+                    "pyo": 591510,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 17.88,
+                    "name": "조배숙",
+                    "party": "국민의힘",
+                    "pyo": 128828,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ]
     },
     {
         "name": 46,
@@ -346,6 +406,26 @@
             34.7466
         ],
         "radius": 8,
+        "data": [
+                {
+                    "value": 75.74,
+                    "name": "김영록",
+                    "party": "더불어민주당",
+                    "pyo": 672433,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 18.81,
+                    "name": "이정현",
+                    "party": "국민의힘",
+                    "pyo": 167020,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ]
     },
     {
         "name": 47,
@@ -357,6 +437,26 @@
             36.502
         ],
         "radius": 10,
+        "data": [
+                {
+                    "value": 22.04,
+                    "name": "임미애",
+                    "party": "더불어민주당",
+                    "pyo": 255775,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 77.95,
+                    "name": "이철우",
+                    "party": "국민의힘",
+                    "pyo": 904675,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ]
     },
     {
         "name": 48,
@@ -368,6 +468,26 @@
             35.3334
         ],
         "radius": 12,
+        "data": [
+                {
+                    "value": 29.43,
+                    "name": "양문석",
+                    "party": "더불어민주당",
+                    "pyo": 431569,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 65.7,
+                    "name": "박완수",
+                    "party": "국민의힘",
+                    "pyo": 963473,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+        ]
     },
     {
         "name": 49,
@@ -379,6 +499,26 @@
             33.3725
         ],
         "radius": 2,
+        "data": [
+                {
+                    "value": 55.14,
+                    "name": "오영훈",
+                    "party": "더불어민주당",
+                    "pyo": 163116,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 39.48,
+                    "name": "허향진",
+                    "party": "국민의힘",
+                    "pyo": 116786,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+        ]
     },
     {
         "name": 51,
@@ -390,6 +530,25 @@
             36.5619
         ],
         "radius": 2,
-        
+        "data": [
+                {
+                    "value": 47.16,
+                    "name": "이춘희",
+                    "party": "더불어민주당",
+                    "pyo": 69995,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 52.83,
+                    "name": "최민호",
+                    "party": "국민의힘",
+                    "pyo": 78415,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ]
     }]
 }
