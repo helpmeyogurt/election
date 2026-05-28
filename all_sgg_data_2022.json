@@ -2,1393 +2,2411 @@
     {
         "name": 0,
         "nametxt": "전국 합계",
-        "SUNSU": 42443817,
-        "TUSU": 21695589,
-        "data": [
-            {
-                "name": "더불어민주당",
-                "value": 60,
-                "itemStyle": {
-                    "color": "#152484"
-                }
-            },
-            {
-                "name": "국민의힘",
-                "value": 144,
-                "itemStyle": {
-                    "color": "#E61E2B"
-                }
-            },
-            {
-                "name": "진보당",
-                "value": 1,
-                "itemStyle": {
-                    "color": "#D6001C"
-                }
-            },
-            {
-                "name": "무소속",
-                "value": 17,
-                "itemStyle": {
-                    "color": "#8b8b8b"
-                }
-            }
-        ]
+        "SUNSU": 0,
+        "TUSU": 0,
+        "data": []
+    },
+    {
+        "name": 0,
+        "value": 2,
+        "nametxt": "합계",
+        "SDNAME": "서울특별시",
+        "WIWNAME": "합계",
+        "WINHUBO": "오세훈",
+        "DUGYULCHA": "19.82"
     },
     {
         "name": 1101,
         "value": 2,
         "nametxt": "종로구",
-        "SDNAME": "서울특별시"
+        "SDNAME": "서울특별시",
+        "WIWNAME": "종로구",
+        "WINHUBO": "오세훈",
+        "DUGYULCHA": "16.88"
     },
     {
         "name": 1102,
         "value": 2,
         "nametxt": "중구",
-        "SDNAME": "서울특별시"
+        "SDNAME": "서울특별시",
+        "WIWNAME": "중구",
+        "WINHUBO": "오세훈",
+        "DUGYULCHA": "18.53"
     },
     {
         "name": 1103,
         "value": 2,
         "nametxt": "용산구",
-        "SDNAME": "서울특별시"
+        "SDNAME": "서울특별시",
+        "WIWNAME": "용산구",
+        "WINHUBO": "오세훈",
+        "DUGYULCHA": "31.67"
     },
     {
         "name": 1104,
-        "value": 1,
+        "value": 2,
         "nametxt": "성동구",
-        "SDNAME": "서울특별시"
+        "SDNAME": "서울특별시",
+        "WIWNAME": "성동구",
+        "WINHUBO": "오세훈",
+        "DUGYULCHA": "23.35"
     },
     {
         "name": 1105,
         "value": 2,
         "nametxt": "광진구",
-        "SDNAME": "서울특별시"
+        "SDNAME": "서울특별시",
+        "WIWNAME": "광진구",
+        "WINHUBO": "오세훈",
+        "DUGYULCHA": "18.33"
     },
     {
         "name": 1106,
         "value": 2,
         "nametxt": "동대문구",
-        "SDNAME": "서울특별시"
+        "SDNAME": "서울특별시",
+        "WIWNAME": "동대문구",
+        "WINHUBO": "오세훈",
+        "DUGYULCHA": "16.92"
     },
     {
         "name": 1107,
-        "value": 1,
+        "value": 2,
         "nametxt": "중랑구",
-        "SDNAME": "서울특별시"
+        "SDNAME": "서울특별시",
+        "WIWNAME": "중랑구",
+        "WINHUBO": "오세훈",
+        "DUGYULCHA": "11.25"
     },
     {
         "name": 1108,
-        "value": 1,
+        "value": 2,
         "nametxt": "성북구",
-        "SDNAME": "서울특별시"
+        "SDNAME": "서울특별시",
+        "WIWNAME": "성북구",
+        "WINHUBO": "오세훈",
+        "DUGYULCHA": "12.54"
     },
     {
         "name": 1109,
-        "value": 1,
+        "value": 2,
         "nametxt": "강북구",
-        "SDNAME": "서울특별시"
+        "SDNAME": "서울특별시",
+        "WIWNAME": "강북구",
+        "WINHUBO": "오세훈",
+        "DUGYULCHA": "8.93"
     },
     {
         "name": 1110,
         "value": 2,
         "nametxt": "도봉구",
-        "SDNAME": "서울특별시"
+        "SDNAME": "서울특별시",
+        "WIWNAME": "도봉구",
+        "WINHUBO": "오세훈",
+        "DUGYULCHA": "14.35"
     },
     {
         "name": 1111,
-        "value": 1,
+        "value": 2,
         "nametxt": "노원구",
-        "SDNAME": "서울특별시"
+        "SDNAME": "서울특별시",
+        "WIWNAME": "노원구",
+        "WINHUBO": "오세훈",
+        "DUGYULCHA": "13.61"
     },
     {
         "name": 1112,
-        "value": 1,
+        "value": 2,
         "nametxt": "은평구",
-        "SDNAME": "서울특별시"
+        "SDNAME": "서울특별시",
+        "WIWNAME": "은평구",
+        "WINHUBO": "오세훈",
+        "DUGYULCHA": "8.99"
     },
     {
         "name": 1113,
         "value": 2,
         "nametxt": "서대문구",
-        "SDNAME": "서울특별시"
+        "SDNAME": "서울특별시",
+        "WIWNAME": "서대문구",
+        "WINHUBO": "오세훈",
+        "DUGYULCHA": "13.81"
     },
     {
         "name": 1114,
         "value": 2,
         "nametxt": "마포구",
-        "SDNAME": "서울특별시"
+        "SDNAME": "서울특별시",
+        "WIWNAME": "마포구",
+        "WINHUBO": "오세훈",
+        "DUGYULCHA": "15.74"
     },
     {
         "name": 1115,
         "value": 2,
         "nametxt": "양천구",
-        "SDNAME": "서울특별시"
+        "SDNAME": "서울특별시",
+        "WIWNAME": "양천구",
+        "WINHUBO": "오세훈",
+        "DUGYULCHA": "19.04"
     },
     {
         "name": 1116,
         "value": 2,
         "nametxt": "강서구",
-        "SDNAME": "서울특별시"
+        "SDNAME": "서울특별시",
+        "WIWNAME": "강서구",
+        "WINHUBO": "오세훈",
+        "DUGYULCHA": "13.99"
     },
     {
         "name": 1117,
         "value": 2,
         "nametxt": "구로구",
-        "SDNAME": "서울특별시"
+        "SDNAME": "서울특별시",
+        "WIWNAME": "구로구",
+        "WINHUBO": "오세훈",
+        "DUGYULCHA": "14.18"
     },
     {
         "name": 1118,
-        "value": 1,
+        "value": 2,
         "nametxt": "금천구",
-        "SDNAME": "서울특별시"
+        "SDNAME": "서울특별시",
+        "WIWNAME": "금천구",
+        "WINHUBO": "오세훈",
+        "DUGYULCHA": "9.61"
     },
     {
         "name": 1119,
         "value": 2,
         "nametxt": "영등포구",
-        "SDNAME": "서울특별시"
+        "SDNAME": "서울특별시",
+        "WIWNAME": "영등포구",
+        "WINHUBO": "오세훈",
+        "DUGYULCHA": "21.84"
     },
     {
         "name": 1120,
         "value": 2,
         "nametxt": "동작구",
-        "SDNAME": "서울특별시"
+        "SDNAME": "서울특별시",
+        "WIWNAME": "동작구",
+        "WINHUBO": "오세훈",
+        "DUGYULCHA": "17.98"
     },
     {
         "name": 1121,
-        "value": 1,
+        "value": 2,
         "nametxt": "관악구",
-        "SDNAME": "서울특별시"
+        "SDNAME": "서울특별시",
+        "WIWNAME": "관악구",
+        "WINHUBO": "오세훈",
+        "DUGYULCHA": "8.27"
     },
     {
         "name": 1122,
         "value": 2,
         "nametxt": "서초구",
-        "SDNAME": "서울특별시"
+        "SDNAME": "서울특별시",
+        "WIWNAME": "서초구",
+        "WINHUBO": "오세훈",
+        "DUGYULCHA": "45.84"
     },
     {
         "name": 1123,
         "value": 2,
         "nametxt": "강남구",
-        "SDNAME": "서울특별시"
+        "SDNAME": "서울특별시",
+        "WIWNAME": "강남구",
+        "WINHUBO": "오세훈",
+        "DUGYULCHA": "49.93"
     },
     {
         "name": 1124,
         "value": 2,
         "nametxt": "송파구",
-        "SDNAME": "서울특별시"
+        "SDNAME": "서울특별시",
+        "WIWNAME": "송파구",
+        "WINHUBO": "오세훈",
+        "DUGYULCHA": "30.65"
     },
     {
         "name": 1125,
         "value": 2,
         "nametxt": "강동구",
-        "SDNAME": "서울특별시"
+        "SDNAME": "서울특별시",
+        "WIWNAME": "강동구",
+        "WINHUBO": "오세훈",
+        "DUGYULCHA": "22.71"
+    },
+    {
+        "name": 0,
+        "value": 2,
+        "nametxt": "합계",
+        "SDNAME": "부산광역시",
+        "WIWNAME": "합계",
+        "WINHUBO": "박형준",
+        "DUGYULCHA": "34.13"
     },
     {
         "name": 2601,
         "value": 2,
         "nametxt": "중구",
-        "SDNAME": "부산광역시"
+        "SDNAME": "부산광역시",
+        "WIWNAME": "중구",
+        "WINHUBO": "박형준",
+        "DUGYULCHA": "37.70"
     },
     {
         "name": 2602,
         "value": 2,
         "nametxt": "서구",
-        "SDNAME": "부산광역시"
+        "SDNAME": "부산광역시",
+        "WIWNAME": "서구",
+        "WINHUBO": "박형준",
+        "DUGYULCHA": "38.36"
     },
     {
         "name": 2603,
         "value": 2,
         "nametxt": "동구",
-        "SDNAME": "부산광역시"
+        "SDNAME": "부산광역시",
+        "WIWNAME": "동구",
+        "WINHUBO": "박형준",
+        "DUGYULCHA": "37.03"
     },
     {
         "name": 2604,
         "value": 2,
         "nametxt": "영도구",
-        "SDNAME": "부산광역시"
+        "SDNAME": "부산광역시",
+        "WIWNAME": "영도구",
+        "WINHUBO": "박형준",
+        "DUGYULCHA": "27.93"
     },
     {
         "name": 2605,
         "value": 2,
         "nametxt": "부산진구",
-        "SDNAME": "부산광역시"
+        "SDNAME": "부산광역시",
+        "WIWNAME": "부산진구",
+        "WINHUBO": "박형준",
+        "DUGYULCHA": "33.35"
     },
     {
         "name": 2606,
         "value": 2,
         "nametxt": "동래구",
-        "SDNAME": "부산광역시"
+        "SDNAME": "부산광역시",
+        "WIWNAME": "동래구",
+        "WINHUBO": "박형준",
+        "DUGYULCHA": "35.80"
     },
     {
         "name": 2607,
         "value": 2,
         "nametxt": "남구",
-        "SDNAME": "부산광역시"
+        "SDNAME": "부산광역시",
+        "WIWNAME": "남구",
+        "WINHUBO": "박형준",
+        "DUGYULCHA": "32.80"
     },
     {
         "name": 2608,
         "value": 2,
         "nametxt": "북구",
-        "SDNAME": "부산광역시"
+        "SDNAME": "부산광역시",
+        "WIWNAME": "북구",
+        "WINHUBO": "박형준",
+        "DUGYULCHA": "29.81"
     },
     {
         "name": 2609,
         "value": 2,
         "nametxt": "해운대구",
-        "SDNAME": "부산광역시"
+        "SDNAME": "부산광역시",
+        "WIWNAME": "해운대구",
+        "WINHUBO": "박형준",
+        "DUGYULCHA": "36.65"
     },
     {
         "name": 2610,
         "value": 2,
         "nametxt": "기장군",
-        "SDNAME": "부산광역시"
+        "SDNAME": "부산광역시",
+        "WIWNAME": "기장군",
+        "WINHUBO": "박형준",
+        "DUGYULCHA": "32.86"
     },
     {
         "name": 2611,
         "value": 2,
         "nametxt": "사하구",
-        "SDNAME": "부산광역시"
+        "SDNAME": "부산광역시",
+        "WIWNAME": "사하구",
+        "WINHUBO": "박형준",
+        "DUGYULCHA": "32.46"
     },
     {
         "name": 2612,
         "value": 2,
         "nametxt": "금정구",
-        "SDNAME": "부산광역시"
+        "SDNAME": "부산광역시",
+        "WIWNAME": "금정구",
+        "WINHUBO": "박형준",
+        "DUGYULCHA": "37.38"
     },
     {
         "name": 2613,
         "value": 2,
         "nametxt": "강서구",
-        "SDNAME": "부산광역시"
+        "SDNAME": "부산광역시",
+        "WIWNAME": "강서구",
+        "WINHUBO": "박형준",
+        "DUGYULCHA": "29.87"
     },
     {
         "name": 2614,
         "value": 2,
         "nametxt": "연제구",
-        "SDNAME": "부산광역시"
+        "SDNAME": "부산광역시",
+        "WIWNAME": "연제구",
+        "WINHUBO": "박형준",
+        "DUGYULCHA": "34.10"
     },
     {
         "name": 2615,
         "value": 2,
         "nametxt": "수영구",
-        "SDNAME": "부산광역시"
+        "SDNAME": "부산광역시",
+        "WIWNAME": "수영구",
+        "WINHUBO": "박형준",
+        "DUGYULCHA": "39.96"
     },
     {
         "name": 2616,
         "value": 2,
         "nametxt": "사상구",
-        "SDNAME": "부산광역시"
+        "SDNAME": "부산광역시",
+        "WIWNAME": "사상구",
+        "WINHUBO": "박형준",
+        "DUGYULCHA": "32.76"
+    },
+    {
+        "name": 0,
+        "value": 2,
+        "nametxt": "합계",
+        "SDNAME": "대구광역시",
+        "WIWNAME": "합계",
+        "WINHUBO": "홍준표",
+        "DUGYULCHA": "60.78"
     },
     {
         "name": 2701,
         "value": 2,
         "nametxt": "중구",
-        "SDNAME": "대구광역시"
-    },
-    {
-        "name": 2707,
-        "value": 2,
-        "nametxt": "달서구",
-        "SDNAME": "대구광역시"
+        "SDNAME": "대구광역시",
+        "WIWNAME": "중구",
+        "WINHUBO": "홍준표",
+        "DUGYULCHA": "57.98"
     },
     {
         "name": 2702,
         "value": 2,
         "nametxt": "동구",
-        "SDNAME": "대구광역시"
+        "SDNAME": "대구광역시",
+        "WIWNAME": "동구",
+        "WINHUBO": "홍준표",
+        "DUGYULCHA": "58.60"
     },
     {
         "name": 2703,
         "value": 2,
         "nametxt": "서구",
-        "SDNAME": "대구광역시"
+        "SDNAME": "대구광역시",
+        "WIWNAME": "서구",
+        "WINHUBO": "홍준표",
+        "DUGYULCHA": "69.16"
     },
     {
         "name": 2704,
         "value": 2,
         "nametxt": "남구",
-        "SDNAME": "대구광역시"
+        "SDNAME": "대구광역시",
+        "WIWNAME": "남구",
+        "WINHUBO": "홍준표",
+        "DUGYULCHA": "64.69"
     },
     {
         "name": 2705,
         "value": 2,
         "nametxt": "북구",
-        "SDNAME": "대구광역시"
+        "SDNAME": "대구광역시",
+        "WIWNAME": "북구",
+        "WINHUBO": "홍준표",
+        "DUGYULCHA": "60.07"
     },
     {
         "name": 2706,
         "value": 2,
         "nametxt": "수성구",
-        "SDNAME": "대구광역시"
+        "SDNAME": "대구광역시",
+        "WIWNAME": "수성구",
+        "WINHUBO": "홍준표",
+        "DUGYULCHA": "58.45"
+    },
+    {
+        "name": 2707,
+        "value": 2,
+        "nametxt": "달서구",
+        "SDNAME": "대구광역시",
+        "WIWNAME": "달서구",
+        "WINHUBO": "홍준표",
+        "DUGYULCHA": "60.78"
     },
     {
         "name": 2708,
         "value": 2,
         "nametxt": "달성군",
-        "SDNAME": "대구광역시"
+        "SDNAME": "대구광역시",
+        "WIWNAME": "달성군",
+        "WINHUBO": "홍준표",
+        "DUGYULCHA": "61.61"
+    },
+    {
+        "name": 0,
+        "value": 2,
+        "nametxt": "합계",
+        "SDNAME": "인천광역시",
+        "WIWNAME": "합계",
+        "WINHUBO": "유정복",
+        "DUGYULCHA": "7.21"
     },
     {
         "name": 2801,
         "value": 2,
         "nametxt": "중구",
-        "SDNAME": "인천광역시"
+        "SDNAME": "인천광역시",
+        "WIWNAME": "중구",
+        "WINHUBO": "유정복",
+        "DUGYULCHA": "10.19"
     },
     {
         "name": 2802,
         "value": 2,
         "nametxt": "동구",
-        "SDNAME": "인천광역시"
+        "SDNAME": "인천광역시",
+        "WIWNAME": "동구",
+        "WINHUBO": "유정복",
+        "DUGYULCHA": "14.10"
     },
     {
         "name": 2803,
         "value": 2,
         "nametxt": "미추홀구",
-        "SDNAME": "인천광역시"
+        "SDNAME": "인천광역시",
+        "WIWNAME": "미추홀구",
+        "WINHUBO": "유정복",
+        "DUGYULCHA": "12.35"
     },
     {
         "name": 2804,
         "value": 2,
         "nametxt": "연수구",
-        "SDNAME": "인천광역시"
+        "SDNAME": "인천광역시",
+        "WIWNAME": "연수구",
+        "WINHUBO": "유정복",
+        "DUGYULCHA": "16.53"
     },
     {
         "name": 2805,
         "value": 2,
         "nametxt": "남동구",
-        "SDNAME": "인천광역시"
+        "SDNAME": "인천광역시",
+        "WIWNAME": "남동구",
+        "WINHUBO": "유정복",
+        "DUGYULCHA": "4.72"
     },
     {
         "name": 2806,
-        "value": 1,
+        "value": 2,
         "nametxt": "부평구",
-        "SDNAME": "인천광역시"
+        "SDNAME": "인천광역시",
+        "WIWNAME": "부평구",
+        "WINHUBO": "유정복",
+        "DUGYULCHA": "2.35"
     },
     {
         "name": 2807,
         "value": 1,
         "nametxt": "계양구",
-        "SDNAME": "인천광역시"
+        "SDNAME": "인천광역시",
+        "WIWNAME": "계양구",
+        "WINHUBO": "박남춘",
+        "DUGYULCHA": "4.17"
     },
     {
         "name": 2808,
         "value": 2,
         "nametxt": "서구",
-        "SDNAME": "인천광역시"
+        "SDNAME": "인천광역시",
+        "WIWNAME": "서구",
+        "WINHUBO": "유정복",
+        "DUGYULCHA": "2.90"
     },
     {
         "name": 2809,
-        "value": 9,
+        "value": 2,
         "nametxt": "강화군",
-        "SDNAME": "인천광역시"
+        "SDNAME": "인천광역시",
+        "WIWNAME": "강화군",
+        "WINHUBO": "유정복",
+        "DUGYULCHA": "34.49"
     },
     {
         "name": 2810,
         "value": 2,
         "nametxt": "옹진군",
-        "SDNAME": "인천광역시"
+        "SDNAME": "인천광역시",
+        "WIWNAME": "옹진군",
+        "WINHUBO": "유정복",
+        "DUGYULCHA": "34.45"
     },
     {
-        "name": 2905,
+        "name": 0,
         "value": 1,
-        "nametxt": "광산구",
-        "SDNAME": "광주광역시"
+        "nametxt": "합계",
+        "SDNAME": "광주광역시",
+        "WIWNAME": "합계",
+        "WINHUBO": "강기정",
+        "DUGYULCHA": "59.01"
     },
     {
         "name": 2901,
         "value": 1,
         "nametxt": "동구",
-        "SDNAME": "광주광역시"
+        "SDNAME": "광주광역시",
+        "WIWNAME": "동구",
+        "WINHUBO": "강기정",
+        "DUGYULCHA": "55.07"
     },
     {
         "name": 2902,
         "value": 1,
         "nametxt": "서구",
-        "SDNAME": "광주광역시"
+        "SDNAME": "광주광역시",
+        "WIWNAME": "서구",
+        "WINHUBO": "강기정",
+        "DUGYULCHA": "58.46"
     },
     {
         "name": 2903,
         "value": 1,
         "nametxt": "남구",
-        "SDNAME": "광주광역시"
+        "SDNAME": "광주광역시",
+        "WIWNAME": "남구",
+        "WINHUBO": "강기정",
+        "DUGYULCHA": "59.88"
     },
     {
         "name": 2904,
         "value": 1,
         "nametxt": "북구",
-        "SDNAME": "광주광역시"
+        "SDNAME": "광주광역시",
+        "WIWNAME": "북구",
+        "WINHUBO": "강기정",
+        "DUGYULCHA": "60.04"
+    },
+    {
+        "name": 2905,
+        "value": 1,
+        "nametxt": "광산구",
+        "SDNAME": "광주광역시",
+        "WIWNAME": "광산구",
+        "WINHUBO": "강기정",
+        "DUGYULCHA": "59.02"
+    },
+    {
+        "name": 0,
+        "value": 2,
+        "nametxt": "합계",
+        "SDNAME": "대전광역시",
+        "WIWNAME": "합계",
+        "WINHUBO": "이장우",
+        "DUGYULCHA": "2.39"
     },
     {
         "name": 3001,
         "value": 2,
         "nametxt": "동구",
-        "SDNAME": "대전광역시"
+        "SDNAME": "대전광역시",
+        "WIWNAME": "동구",
+        "WINHUBO": "이장우",
+        "DUGYULCHA": "8.09"
     },
     {
         "name": 3002,
         "value": 2,
         "nametxt": "중구",
-        "SDNAME": "대전광역시"
+        "SDNAME": "대전광역시",
+        "WIWNAME": "중구",
+        "WINHUBO": "이장우",
+        "DUGYULCHA": "8.31"
     },
     {
         "name": 3003,
         "value": 2,
         "nametxt": "서구",
-        "SDNAME": "대전광역시"
+        "SDNAME": "대전광역시",
+        "WIWNAME": "서구",
+        "WINHUBO": "이장우",
+        "DUGYULCHA": "2.07"
     },
     {
         "name": 3004,
         "value": 1,
         "nametxt": "유성구",
-        "SDNAME": "대전광역시"
+        "SDNAME": "대전광역시",
+        "WIWNAME": "유성구",
+        "WINHUBO": "허태정",
+        "DUGYULCHA": "5.41"
     },
     {
         "name": 3005,
         "value": 2,
         "nametxt": "대덕구",
-        "SDNAME": "대전광역시"
+        "SDNAME": "대전광역시",
+        "WIWNAME": "대덕구",
+        "WINHUBO": "이장우",
+        "DUGYULCHA": "3.79"
+    },
+    {
+        "name": 0,
+        "value": 2,
+        "nametxt": "합계",
+        "SDNAME": "울산광역시",
+        "WIWNAME": "합계",
+        "WINHUBO": "김두겸",
+        "DUGYULCHA": "19.57"
     },
     {
         "name": 3101,
         "value": 2,
         "nametxt": "중구",
-        "SDNAME": "울산광역시"
+        "SDNAME": "울산광역시",
+        "WIWNAME": "중구",
+        "WINHUBO": "김두겸",
+        "DUGYULCHA": "24.79"
     },
     {
         "name": 3102,
         "value": 2,
         "nametxt": "남구",
-        "SDNAME": "울산광역시"
+        "SDNAME": "울산광역시",
+        "WIWNAME": "남구",
+        "WINHUBO": "김두겸",
+        "DUGYULCHA": "27.41"
     },
     {
         "name": 3103,
-        "value": 5,
+        "value": 2,
         "nametxt": "동구",
-        "SDNAME": "울산광역시"
+        "SDNAME": "울산광역시",
+        "WIWNAME": "동구",
+        "WINHUBO": "김두겸",
+        "DUGYULCHA": "8.19"
     },
     {
         "name": 3104,
         "value": 2,
         "nametxt": "북구",
-        "SDNAME": "울산광역시"
+        "SDNAME": "울산광역시",
+        "WIWNAME": "북구",
+        "WINHUBO": "김두겸",
+        "DUGYULCHA": "5.69"
     },
     {
         "name": 3105,
         "value": 2,
         "nametxt": "울주군",
-        "SDNAME": "울산광역시"
+        "SDNAME": "울산광역시",
+        "WIWNAME": "울주군",
+        "WINHUBO": "김두겸",
+        "DUGYULCHA": "24.21"
+    },
+    {
+        "name": 0,
+        "value": 2,
+        "nametxt": "합계",
+        "SDNAME": "세종특별자치시",
+        "WIWNAME": "합계",
+        "WINHUBO": "최민호",
+        "DUGYULCHA": "5.67"
+    },
+    {
+        "name": 5101,
+        "value": 2,
+        "nametxt": "세종특별자치시",
+        "SDNAME": "세종특별자치시",
+        "WIWNAME": "세종특별자치시",
+        "WINHUBO": "최민호",
+        "DUGYULCHA": "5.67"
+    },
+    {
+        "name": 0,
+        "value": 1,
+        "nametxt": "합계",
+        "SDNAME": "경기도",
+        "WIWNAME": "합계",
+        "WINHUBO": "김동연",
+        "DUGYULCHA": "0.15"
+    },
+    {
+        "name": 4101,
+        "value": 1,
+        "nametxt": "수원시장안구",
+        "SDNAME": "경기도",
+        "WIWNAME": "수원시장안구",
+        "WINHUBO": "김동연",
+        "DUGYULCHA": "3.35"
+    },
+    {
+        "name": 4102,
+        "value": 1,
+        "nametxt": "수원시권선구",
+        "SDNAME": "경기도",
+        "WIWNAME": "수원시권선구",
+        "WINHUBO": "김동연",
+        "DUGYULCHA": "4.80"
     },
     {
         "name": 4103,
+        "value": 2,
+        "nametxt": "수원시팔달구",
+        "SDNAME": "경기도",
+        "WIWNAME": "수원시팔달구",
+        "WINHUBO": "김은혜",
+        "DUGYULCHA": "1.27"
+    },
+    {
+        "name": 4104,
         "value": 1,
-        "nametxt": "수원시",
-        "SDNAME": "경기도"
+        "nametxt": "수원시영통구",
+        "SDNAME": "경기도",
+        "WIWNAME": "수원시영통구",
+        "WINHUBO": "김동연",
+        "DUGYULCHA": "3.71"
     },
     {
         "name": 4105,
+        "value": 1,
+        "nametxt": "성남시수정구",
+        "SDNAME": "경기도",
+        "WIWNAME": "성남시수정구",
+        "WINHUBO": "김동연",
+        "DUGYULCHA": "3.80"
+    },
+    {
+        "name": 4106,
+        "value": 1,
+        "nametxt": "성남시중원구",
+        "SDNAME": "경기도",
+        "WIWNAME": "성남시중원구",
+        "WINHUBO": "김동연",
+        "DUGYULCHA": "7.94"
+    },
+    {
+        "name": 4107,
         "value": 2,
-        "nametxt": "성남시",
-        "SDNAME": "경기도"
+        "nametxt": "성남시분당구",
+        "SDNAME": "경기도",
+        "WIWNAME": "성남시분당구",
+        "WINHUBO": "김은혜",
+        "DUGYULCHA": "14.59"
     },
     {
         "name": 4108,
-        "value": 2,
+        "value": 1,
         "nametxt": "의정부시",
-        "SDNAME": "경기도"
+        "SDNAME": "경기도",
+        "WIWNAME": "의정부시",
+        "WINHUBO": "김동연",
+        "DUGYULCHA": "1.47"
+    },
+    {
+        "name": 4109,
+        "value": 1,
+        "nametxt": "안양시만안구",
+        "SDNAME": "경기도",
+        "WIWNAME": "안양시만안구",
+        "WINHUBO": "김동연",
+        "DUGYULCHA": "1.24"
     },
     {
         "name": 4110,
         "value": 1,
-        "nametxt": "안양시",
-        "SDNAME": "경기도"
+        "nametxt": "안양시동안구",
+        "SDNAME": "경기도",
+        "WIWNAME": "안양시동안구",
+        "WINHUBO": "김동연",
+        "DUGYULCHA": "1.65"
     },
     {
-        "name": 4150,
+        "name": 4145,
         "value": 1,
         "nametxt": "부천시",
-        "SDNAME": "경기도"
+        "SDNAME": "경기도",
+        "WIWNAME": "부천시",
+        "WINHUBO": "김동연",
+        "DUGYULCHA": "7.91"
     },
     {
         "name": 4114,
         "value": 1,
         "nametxt": "광명시",
-        "SDNAME": "경기도"
+        "SDNAME": "경기도",
+        "WIWNAME": "광명시",
+        "WINHUBO": "김동연",
+        "DUGYULCHA": "6.62"
     },
     {
         "name": 4115,
-        "value": 1,
+        "value": 2,
         "nametxt": "평택시",
-        "SDNAME": "경기도"
+        "SDNAME": "경기도",
+        "WIWNAME": "평택시",
+        "WINHUBO": "김은혜",
+        "DUGYULCHA": "3.57"
     },
     {
         "name": 4116,
         "value": 2,
         "nametxt": "양주시",
-        "SDNAME": "경기도"
+        "SDNAME": "경기도",
+        "WIWNAME": "양주시",
+        "WINHUBO": "김은혜",
+        "DUGYULCHA": "1.70"
     },
     {
         "name": 4117,
         "value": 2,
         "nametxt": "동두천시",
-        "SDNAME": "경기도"
+        "SDNAME": "경기도",
+        "WIWNAME": "동두천시",
+        "WINHUBO": "김은혜",
+        "DUGYULCHA": "8.99"
+    },
+    {
+        "name": 4118,
+        "value": 1,
+        "nametxt": "안산시상록구",
+        "SDNAME": "경기도",
+        "WIWNAME": "안산시상록구",
+        "WINHUBO": "김동연",
+        "DUGYULCHA": "6.93"
     },
     {
         "name": 4119,
-        "value": 2,
-        "nametxt": "안산시",
-        "SDNAME": "경기도"
+        "value": 1,
+        "nametxt": "안산시단원구",
+        "SDNAME": "경기도",
+        "WIWNAME": "안산시단원구",
+        "WINHUBO": "김동연",
+        "DUGYULCHA": "5.22"
     },
     {
         "name": 4120,
+        "value": 1,
+        "nametxt": "고양시덕양구",
+        "SDNAME": "경기도",
+        "WIWNAME": "고양시덕양구",
+        "WINHUBO": "김동연",
+        "DUGYULCHA": "4.19"
+    },
+    {
+        "name": 4121,
         "value": 2,
-        "nametxt": "고양시",
-        "SDNAME": "경기도"
+        "nametxt": "고양시일산동구",
+        "SDNAME": "경기도",
+        "WIWNAME": "고양시일산동구",
+        "WINHUBO": "김은혜",
+        "DUGYULCHA": "3.33"
+    },
+    {
+        "name": 4122,
+        "value": 1,
+        "nametxt": "고양시일산서구",
+        "SDNAME": "경기도",
+        "WIWNAME": "고양시일산서구",
+        "WINHUBO": "김동연",
+        "DUGYULCHA": "0.20"
     },
     {
         "name": 4123,
         "value": 2,
         "nametxt": "과천시",
-        "SDNAME": "경기도"
+        "SDNAME": "경기도",
+        "WIWNAME": "과천시",
+        "WINHUBO": "김은혜",
+        "DUGYULCHA": "11.62"
     },
     {
         "name": 4124,
-        "value": 2,
+        "value": 1,
         "nametxt": "의왕시",
-        "SDNAME": "경기도"
+        "SDNAME": "경기도",
+        "WIWNAME": "의왕시",
+        "WINHUBO": "김동연",
+        "DUGYULCHA": "0.64"
     },
     {
         "name": 4125,
         "value": 2,
         "nametxt": "구리시",
-        "SDNAME": "경기도"
+        "SDNAME": "경기도",
+        "WIWNAME": "구리시",
+        "WINHUBO": "김은혜",
+        "DUGYULCHA": "0.61"
     },
     {
         "name": 4126,
-        "value": 2,
+        "value": 1,
         "nametxt": "남양주시",
-        "SDNAME": "경기도"
+        "SDNAME": "경기도",
+        "WIWNAME": "남양주시",
+        "WINHUBO": "김동연",
+        "DUGYULCHA": "1.53"
     },
     {
         "name": 4127,
-        "value": 2,
+        "value": 1,
         "nametxt": "오산시",
-        "SDNAME": "경기도"
+        "SDNAME": "경기도",
+        "WIWNAME": "오산시",
+        "WINHUBO": "김동연",
+        "DUGYULCHA": "4.20"
     },
     {
-        "name": 4153,
+        "name": 4128,
         "value": 1,
         "nametxt": "화성시",
-        "SDNAME": "경기도"
+        "SDNAME": "경기도",
+        "WIWNAME": "화성시",
+        "WINHUBO": "김동연",
+        "DUGYULCHA": "6.02"
     },
     {
         "name": 4129,
         "value": 1,
         "nametxt": "시흥시",
-        "SDNAME": "경기도"
+        "SDNAME": "경기도",
+        "WIWNAME": "시흥시",
+        "WINHUBO": "김동연",
+        "DUGYULCHA": "10.28"
     },
     {
         "name": 4130,
-        "value": 2,
+        "value": 1,
         "nametxt": "군포시",
-        "SDNAME": "경기도"
+        "SDNAME": "경기도",
+        "WIWNAME": "군포시",
+        "WINHUBO": "김동연",
+        "DUGYULCHA": "5.25"
     },
     {
         "name": 4131,
         "value": 2,
         "nametxt": "하남시",
-        "SDNAME": "경기도"
+        "SDNAME": "경기도",
+        "WIWNAME": "하남시",
+        "WINHUBO": "김은혜",
+        "DUGYULCHA": "2.58"
     },
     {
         "name": 4132,
         "value": 1,
         "nametxt": "파주시",
-        "SDNAME": "경기도"
+        "SDNAME": "경기도",
+        "WIWNAME": "파주시",
+        "WINHUBO": "김동연",
+        "DUGYULCHA": "2.92"
     },
     {
         "name": 4133,
         "value": 2,
         "nametxt": "여주시",
-        "SDNAME": "경기도"
+        "SDNAME": "경기도",
+        "WIWNAME": "여주시",
+        "WINHUBO": "김은혜",
+        "DUGYULCHA": "22.95"
     },
     {
         "name": 4134,
         "value": 2,
         "nametxt": "이천시",
-        "SDNAME": "경기도"
+        "SDNAME": "경기도",
+        "WIWNAME": "이천시",
+        "WINHUBO": "김은혜",
+        "DUGYULCHA": "12.03"
     },
     {
         "name": 4135,
         "value": 2,
-        "nametxt": "용인시",
-        "SDNAME": "경기도"
+        "nametxt": "용인시처인구",
+        "SDNAME": "경기도",
+        "WIWNAME": "용인시처인구",
+        "WINHUBO": "김은혜",
+        "DUGYULCHA": "6.98"
+    },
+    {
+        "name": 4136,
+        "value": 2,
+        "nametxt": "용인시수지구",
+        "SDNAME": "경기도",
+        "WIWNAME": "용인시수지구",
+        "WINHUBO": "김은혜",
+        "DUGYULCHA": "7.65"
+    },
+    {
+        "name": 4137,
+        "value": 1,
+        "nametxt": "용인시기흥구",
+        "SDNAME": "경기도",
+        "WIWNAME": "용인시기흥구",
+        "WINHUBO": "김동연",
+        "DUGYULCHA": "0.40"
     },
     {
         "name": 4138,
-        "value": 1,
+        "value": 2,
         "nametxt": "안성시",
-        "SDNAME": "경기도"
+        "SDNAME": "경기도",
+        "WIWNAME": "안성시",
+        "WINHUBO": "김은혜",
+        "DUGYULCHA": "7.01"
     },
     {
         "name": 4139,
         "value": 2,
         "nametxt": "김포시",
-        "SDNAME": "경기도"
+        "SDNAME": "경기도",
+        "WIWNAME": "김포시",
+        "WINHUBO": "김은혜",
+        "DUGYULCHA": "2.81"
     },
     {
         "name": 4140,
         "value": 2,
         "nametxt": "광주시",
-        "SDNAME": "경기도"
+        "SDNAME": "경기도",
+        "WIWNAME": "광주시",
+        "WINHUBO": "김은혜",
+        "DUGYULCHA": "2.30"
     },
     {
         "name": 4141,
         "value": 2,
         "nametxt": "포천시",
-        "SDNAME": "경기도"
+        "SDNAME": "경기도",
+        "WIWNAME": "포천시",
+        "WINHUBO": "김은혜",
+        "DUGYULCHA": "13.97"
     },
     {
         "name": 4142,
         "value": 2,
         "nametxt": "연천군",
-        "SDNAME": "경기도"
+        "SDNAME": "경기도",
+        "WIWNAME": "연천군",
+        "WINHUBO": "김은혜",
+        "DUGYULCHA": "19.58"
     },
     {
         "name": 4143,
         "value": 2,
         "nametxt": "양평군",
-        "SDNAME": "경기도"
+        "SDNAME": "경기도",
+        "WIWNAME": "양평군",
+        "WINHUBO": "김은혜",
+        "DUGYULCHA": "18.70"
     },
     {
         "name": 4144,
         "value": 2,
         "nametxt": "가평군",
-        "SDNAME": "경기도"
+        "SDNAME": "경기도",
+        "WIWNAME": "가평군",
+        "WINHUBO": "김은혜",
+        "DUGYULCHA": "26.94"
+    },
+    {
+        "name": 0,
+        "value": 2,
+        "nametxt": "합계",
+        "SDNAME": "강원도",
+        "WIWNAME": "합계",
+        "WINHUBO": "김진태",
+        "DUGYULCHA": "8.15"
     },
     {
         "name": 4201,
-        "value": 1,
+        "value": 2,
         "nametxt": "춘천시",
-        "SDNAME": "강원도"
+        "SDNAME": "강원도",
+        "WIWNAME": "춘천시",
+        "WINHUBO": "김진태",
+        "DUGYULCHA": "6.19"
     },
     {
         "name": 4202,
-        "value": 2,
+        "value": 1,
         "nametxt": "원주시",
-        "SDNAME": "강원도"
+        "SDNAME": "강원도",
+        "WIWNAME": "원주시",
+        "WINHUBO": "이광재",
+        "DUGYULCHA": "0.35"
     },
     {
         "name": 4203,
         "value": 2,
         "nametxt": "강릉시",
-        "SDNAME": "강원도"
+        "SDNAME": "강원도",
+        "WIWNAME": "강릉시",
+        "WINHUBO": "김진태",
+        "DUGYULCHA": "16.05"
     },
     {
         "name": 4204,
         "value": 2,
         "nametxt": "동해시",
-        "SDNAME": "강원도"
+        "SDNAME": "강원도",
+        "WIWNAME": "동해시",
+        "WINHUBO": "김진태",
+        "DUGYULCHA": "15.11"
     },
     {
         "name": 4205,
         "value": 2,
         "nametxt": "삼척시",
-        "SDNAME": "강원도"
+        "SDNAME": "강원도",
+        "WIWNAME": "삼척시",
+        "WINHUBO": "김진태",
+        "DUGYULCHA": "13.69"
     },
     {
         "name": 4206,
         "value": 2,
         "nametxt": "태백시",
-        "SDNAME": "강원도"
+        "SDNAME": "강원도",
+        "WIWNAME": "태백시",
+        "WINHUBO": "김진태",
+        "DUGYULCHA": "6.51"
     },
     {
         "name": 4207,
-        "value": 1,
+        "value": 2,
         "nametxt": "정선군",
-        "SDNAME": "강원도"
+        "SDNAME": "강원도",
+        "WIWNAME": "정선군",
+        "WINHUBO": "김진태",
+        "DUGYULCHA": "0.93"
     },
     {
         "name": 4208,
         "value": 2,
         "nametxt": "속초시",
-        "SDNAME": "강원도"
+        "SDNAME": "강원도",
+        "WIWNAME": "속초시",
+        "WINHUBO": "김진태",
+        "DUGYULCHA": "10.61"
     },
     {
         "name": 4209,
-        "value": 1,
+        "value": 2,
         "nametxt": "고성군",
-        "SDNAME": "강원도"
+        "SDNAME": "강원도",
+        "WIWNAME": "고성군",
+        "WINHUBO": "김진태",
+        "DUGYULCHA": "11.49"
     },
     {
         "name": 4210,
         "value": 2,
         "nametxt": "양양군",
-        "SDNAME": "강원도"
+        "SDNAME": "강원도",
+        "WIWNAME": "양양군",
+        "WINHUBO": "김진태",
+        "DUGYULCHA": "16.65"
     },
     {
         "name": 4211,
-        "value": 1,
+        "value": 2,
         "nametxt": "인제군",
-        "SDNAME": "강원도"
+        "SDNAME": "강원도",
+        "WIWNAME": "인제군",
+        "WINHUBO": "김진태",
+        "DUGYULCHA": "3.41"
     },
     {
         "name": 4212,
         "value": 2,
         "nametxt": "홍천군",
-        "SDNAME": "강원도"
+        "SDNAME": "강원도",
+        "WIWNAME": "홍천군",
+        "WINHUBO": "김진태",
+        "DUGYULCHA": "13.27"
     },
     {
         "name": 4213,
         "value": 2,
         "nametxt": "횡성군",
-        "SDNAME": "강원도"
+        "SDNAME": "강원도",
+        "WIWNAME": "횡성군",
+        "WINHUBO": "김진태",
+        "DUGYULCHA": "13.49"
     },
     {
         "name": 4214,
         "value": 2,
         "nametxt": "영월군",
-        "SDNAME": "강원도"
+        "SDNAME": "강원도",
+        "WIWNAME": "영월군",
+        "WINHUBO": "김진태",
+        "DUGYULCHA": "8.73"
     },
     {
         "name": 4215,
-        "value": 2,
+        "value": 1,
         "nametxt": "평창군",
-        "SDNAME": "강원도"
+        "SDNAME": "강원도",
+        "WIWNAME": "평창군",
+        "WINHUBO": "이광재",
+        "DUGYULCHA": "1.07"
     },
     {
         "name": 4216,
         "value": 2,
         "nametxt": "화천군",
-        "SDNAME": "강원도"
+        "SDNAME": "강원도",
+        "WIWNAME": "화천군",
+        "WINHUBO": "김진태",
+        "DUGYULCHA": "11.59"
     },
     {
         "name": 4217,
         "value": 2,
         "nametxt": "양구군",
-        "SDNAME": "강원도"
+        "SDNAME": "강원도",
+        "WIWNAME": "양구군",
+        "WINHUBO": "김진태",
+        "DUGYULCHA": "9.09"
     },
     {
         "name": 4218,
         "value": 2,
         "nametxt": "철원군",
-        "SDNAME": "강원도"
+        "SDNAME": "강원도",
+        "WIWNAME": "철원군",
+        "WINHUBO": "김진태",
+        "DUGYULCHA": "13.81"
+    },
+    {
+        "name": 0,
+        "value": 2,
+        "nametxt": "합계",
+        "SDNAME": "충청북도",
+        "WIWNAME": "합계",
+        "WINHUBO": "김영환",
+        "DUGYULCHA": "16.39"
     },
     {
         "name": 4301,
         "value": 2,
-        "nametxt": "청주시",
-        "SDNAME": "충청북도"
+        "nametxt": "청주시상당구",
+        "SDNAME": "충청북도",
+        "WIWNAME": "청주시상당구",
+        "WINHUBO": "김영환",
+        "DUGYULCHA": "15.29"
+    },
+    {
+        "name": 4314,
+        "value": 2,
+        "nametxt": "청주시서원구",
+        "SDNAME": "충청북도",
+        "WIWNAME": "청주시서원구",
+        "WINHUBO": "김영환",
+        "DUGYULCHA": "14.47"
+    },
+    {
+        "name": 4302,
+        "value": 2,
+        "nametxt": "청주시흥덕구",
+        "SDNAME": "충청북도",
+        "WIWNAME": "청주시흥덕구",
+        "WINHUBO": "김영환",
+        "DUGYULCHA": "11.97"
+    },
+    {
+        "name": 4306,
+        "value": 2,
+        "nametxt": "청주시청원구",
+        "SDNAME": "충청북도",
+        "WIWNAME": "청주시청원구",
+        "WINHUBO": "김영환",
+        "DUGYULCHA": "9.43"
     },
     {
         "name": 4303,
         "value": 2,
         "nametxt": "충주시",
-        "SDNAME": "충청북도"
+        "SDNAME": "충청북도",
+        "WIWNAME": "충주시",
+        "WINHUBO": "김영환",
+        "DUGYULCHA": "22.01"
     },
     {
         "name": 4304,
         "value": 2,
         "nametxt": "제천시",
-        "SDNAME": "충청북도"
+        "SDNAME": "충청북도",
+        "WIWNAME": "제천시",
+        "WINHUBO": "김영환",
+        "DUGYULCHA": "22.63"
     },
     {
         "name": 4305,
         "value": 2,
         "nametxt": "단양군",
-        "SDNAME": "충청북도"
+        "SDNAME": "충청북도",
+        "WIWNAME": "단양군",
+        "WINHUBO": "김영환",
+        "DUGYULCHA": "26.71"
     },
     {
         "name": 4307,
         "value": 2,
         "nametxt": "영동군",
-        "SDNAME": "충청북도"
+        "SDNAME": "충청북도",
+        "WIWNAME": "영동군",
+        "WINHUBO": "김영환",
+        "DUGYULCHA": "23.49"
     },
     {
         "name": 4308,
         "value": 2,
         "nametxt": "보은군",
-        "SDNAME": "충청북도"
+        "SDNAME": "충청북도",
+        "WIWNAME": "보은군",
+        "WINHUBO": "김영환",
+        "DUGYULCHA": "23.79"
     },
     {
         "name": 4309,
-        "value": 1,
+        "value": 2,
         "nametxt": "옥천군",
-        "SDNAME": "충청북도"
+        "SDNAME": "충청북도",
+        "WIWNAME": "옥천군",
+        "WINHUBO": "김영환",
+        "DUGYULCHA": "16.17"
     },
     {
         "name": 4310,
-        "value": 1,
+        "value": 2,
         "nametxt": "음성군",
-        "SDNAME": "충청북도"
+        "SDNAME": "충청북도",
+        "WIWNAME": "음성군",
+        "WINHUBO": "김영환",
+        "DUGYULCHA": "13.11"
     },
     {
         "name": 4311,
-        "value": 1,
+        "value": 2,
         "nametxt": "진천군",
-        "SDNAME": "충청북도"
+        "SDNAME": "충청북도",
+        "WIWNAME": "진천군",
+        "WINHUBO": "김영환",
+        "DUGYULCHA": "6.91"
     },
     {
         "name": 4312,
         "value": 2,
         "nametxt": "괴산군",
-        "SDNAME": "충청북도"
+        "SDNAME": "충청북도",
+        "WIWNAME": "괴산군",
+        "WINHUBO": "김영환",
+        "DUGYULCHA": "30.17"
     },
     {
         "name": 4313,
-        "value": 1,
+        "value": 2,
         "nametxt": "증평군",
-        "SDNAME": "충청북도"
+        "SDNAME": "충청북도",
+        "WIWNAME": "증평군",
+        "WINHUBO": "김영환",
+        "DUGYULCHA": "11.67"
+    },
+    {
+        "name": 0,
+        "value": 2,
+        "nametxt": "합계",
+        "SDNAME": "충청남도",
+        "WIWNAME": "합계",
+        "WINHUBO": "김태흠",
+        "DUGYULCHA": "7.75"
     },
     {
         "name": 4417,
+        "value": 1,
+        "nametxt": "천안시서북구",
+        "SDNAME": "충청남도",
+        "WIWNAME": "천안시서북구",
+        "WINHUBO": "양승조",
+        "DUGYULCHA": "3.59"
+    },
+    {
+        "name": 4418,
         "value": 2,
-        "nametxt": "천안시",
-        "SDNAME": "충청남도"
+        "nametxt": "천안시동남구",
+        "SDNAME": "충청남도",
+        "WIWNAME": "천안시동남구",
+        "WINHUBO": "김태흠",
+        "DUGYULCHA": "4.17"
     },
     {
         "name": 4402,
         "value": 2,
         "nametxt": "공주시",
-        "SDNAME": "충청남도"
+        "SDNAME": "충청남도",
+        "WIWNAME": "공주시",
+        "WINHUBO": "김태흠",
+        "DUGYULCHA": "13.31"
     },
     {
         "name": 4403,
         "value": 2,
         "nametxt": "보령시",
-        "SDNAME": "충청남도"
+        "SDNAME": "충청남도",
+        "WIWNAME": "보령시",
+        "WINHUBO": "김태흠",
+        "DUGYULCHA": "25.15"
     },
     {
         "name": 4404,
         "value": 2,
         "nametxt": "아산시",
-        "SDNAME": "충청남도"
+        "SDNAME": "충청남도",
+        "WIWNAME": "아산시",
+        "WINHUBO": "김태흠",
+        "DUGYULCHA": "2.01"
     },
     {
         "name": 4405,
         "value": 2,
         "nametxt": "서산시",
-        "SDNAME": "충청남도"
+        "SDNAME": "충청남도",
+        "WIWNAME": "서산시",
+        "WINHUBO": "김태흠",
+        "DUGYULCHA": "7.45"
     },
     {
         "name": 4406,
-        "value": 1,
+        "value": 2,
         "nametxt": "태안군",
-        "SDNAME": "충청남도"
+        "SDNAME": "충청남도",
+        "WIWNAME": "태안군",
+        "WINHUBO": "김태흠",
+        "DUGYULCHA": "11.19"
     },
     {
         "name": 4407,
         "value": 2,
         "nametxt": "금산군",
-        "SDNAME": "충청남도"
+        "SDNAME": "충청남도",
+        "WIWNAME": "금산군",
+        "WINHUBO": "김태흠",
+        "DUGYULCHA": "6.07"
     },
     {
         "name": 4409,
         "value": 2,
         "nametxt": "논산시",
-        "SDNAME": "충청남도"
+        "SDNAME": "충청남도",
+        "WIWNAME": "논산시",
+        "WINHUBO": "김태흠",
+        "DUGYULCHA": "6.31"
     },
     {
         "name": 4410,
         "value": 2,
         "nametxt": "계룡시",
-        "SDNAME": "충청남도"
+        "SDNAME": "충청남도",
+        "WIWNAME": "계룡시",
+        "WINHUBO": "김태흠",
+        "DUGYULCHA": "8.21"
     },
     {
         "name": 4416,
         "value": 2,
         "nametxt": "당진시",
-        "SDNAME": "충청남도"
+        "SDNAME": "충청남도",
+        "WIWNAME": "당진시",
+        "WINHUBO": "김태흠",
+        "DUGYULCHA": "7.35"
     },
     {
         "name": 4411,
-        "value": 1,
+        "value": 2,
         "nametxt": "부여군",
-        "SDNAME": "충청남도"
+        "SDNAME": "충청남도",
+        "WIWNAME": "부여군",
+        "WINHUBO": "김태흠",
+        "DUGYULCHA": "11.33"
     },
     {
         "name": 4412,
         "value": 2,
         "nametxt": "서천군",
-        "SDNAME": "충청남도"
+        "SDNAME": "충청남도",
+        "WIWNAME": "서천군",
+        "WINHUBO": "김태흠",
+        "DUGYULCHA": "12.99"
     },
     {
         "name": 4413,
         "value": 2,
         "nametxt": "홍성군",
-        "SDNAME": "충청남도"
+        "SDNAME": "충청남도",
+        "WIWNAME": "홍성군",
+        "WINHUBO": "김태흠",
+        "DUGYULCHA": "13.93"
     },
     {
         "name": 4414,
-        "value": 1,
+        "value": 2,
         "nametxt": "청양군",
-        "SDNAME": "충청남도"
+        "SDNAME": "충청남도",
+        "WIWNAME": "청양군",
+        "WINHUBO": "김태흠",
+        "DUGYULCHA": "11.25"
     },
     {
         "name": 4415,
         "value": 2,
         "nametxt": "예산군",
-        "SDNAME": "충청남도"
+        "SDNAME": "충청남도",
+        "WIWNAME": "예산군",
+        "WINHUBO": "김태흠",
+        "DUGYULCHA": "26.07"
+    },
+    {
+        "name": 0,
+        "value": 1,
+        "nametxt": "합계",
+        "SDNAME": "전라북도",
+        "WIWNAME": "합계",
+        "WINHUBO": "김관영",
+        "DUGYULCHA": "64.23"
     },
     {
         "name": 4501,
         "value": 1,
-        "nametxt": "전주시",
-        "SDNAME": "전라북도"
+        "nametxt": "전주시완산구",
+        "SDNAME": "전라북도",
+        "WIWNAME": "전주시완산구",
+        "WINHUBO": "김관영",
+        "DUGYULCHA": "61.73"
+    },
+    {
+        "name": 4502,
+        "value": 1,
+        "nametxt": "전주시덕진구",
+        "SDNAME": "전라북도",
+        "WIWNAME": "전주시덕진구",
+        "WINHUBO": "김관영",
+        "DUGYULCHA": "59.25"
     },
     {
         "name": 4503,
         "value": 1,
         "nametxt": "군산시",
-        "SDNAME": "전라북도"
+        "SDNAME": "전라북도",
+        "WIWNAME": "군산시",
+        "WINHUBO": "김관영",
+        "DUGYULCHA": "71.79"
     },
     {
         "name": 4505,
         "value": 1,
         "nametxt": "익산시",
-        "SDNAME": "전라북도"
+        "SDNAME": "전라북도",
+        "WIWNAME": "익산시",
+        "WINHUBO": "김관영",
+        "DUGYULCHA": "60.15"
     },
     {
         "name": 4507,
         "value": 1,
         "nametxt": "정읍시",
-        "SDNAME": "전라북도"
+        "SDNAME": "전라북도",
+        "WIWNAME": "정읍시",
+        "WINHUBO": "김관영",
+        "DUGYULCHA": "69.37"
     },
     {
         "name": 4508,
         "value": 1,
         "nametxt": "남원시",
-        "SDNAME": "전라북도"
+        "SDNAME": "전라북도",
+        "WIWNAME": "남원시",
+        "WINHUBO": "김관영",
+        "DUGYULCHA": "66.87"
     },
     {
         "name": 4509,
         "value": 1,
         "nametxt": "김제시",
-        "SDNAME": "전라북도"
+        "SDNAME": "전라북도",
+        "WIWNAME": "김제시",
+        "WINHUBO": "김관영",
+        "DUGYULCHA": "65.19"
     },
     {
         "name": 4510,
         "value": 1,
         "nametxt": "완주군",
-        "SDNAME": "전라북도"
+        "SDNAME": "전라북도",
+        "WIWNAME": "완주군",
+        "WINHUBO": "김관영",
+        "DUGYULCHA": "64.03"
     },
     {
         "name": 4511,
         "value": 1,
         "nametxt": "진안군",
-        "SDNAME": "전라북도"
+        "SDNAME": "전라북도",
+        "WIWNAME": "진안군",
+        "WINHUBO": "김관영",
+        "DUGYULCHA": "64.73"
     },
     {
         "name": 4512,
-        "value": 9,
+        "value": 1,
         "nametxt": "무주군",
-        "SDNAME": "전라북도"
+        "SDNAME": "전라북도",
+        "WIWNAME": "무주군",
+        "WINHUBO": "김관영",
+        "DUGYULCHA": "55.95"
     },
     {
         "name": 4513,
         "value": 1,
         "nametxt": "장수군",
-        "SDNAME": "전라북도"
+        "SDNAME": "전라북도",
+        "WIWNAME": "장수군",
+        "WINHUBO": "김관영",
+        "DUGYULCHA": "67.93"
     },
     {
         "name": 4514,
-        "value": 9,
+        "value": 1,
         "nametxt": "임실군",
-        "SDNAME": "전라북도"
+        "SDNAME": "전라북도",
+        "WIWNAME": "임실군",
+        "WINHUBO": "김관영",
+        "DUGYULCHA": "63.81"
     },
     {
         "name": 4515,
-        "value": 9,
+        "value": 1,
         "nametxt": "순창군",
-        "SDNAME": "전라북도"
+        "SDNAME": "전라북도",
+        "WIWNAME": "순창군",
+        "WINHUBO": "김관영",
+        "DUGYULCHA": "62.67"
     },
     {
         "name": 4516,
         "value": 1,
         "nametxt": "고창군",
-        "SDNAME": "전라북도"
+        "SDNAME": "전라북도",
+        "WIWNAME": "고창군",
+        "WINHUBO": "김관영",
+        "DUGYULCHA": "69.85"
     },
     {
         "name": 4517,
         "value": 1,
         "nametxt": "부안군",
-        "SDNAME": "전라북도"
+        "SDNAME": "전라북도",
+        "WIWNAME": "부안군",
+        "WINHUBO": "김관영",
+        "DUGYULCHA": "66.75"
     },
     {
-        "name": 4613,
+        "name": 0,
         "value": 1,
-        "nametxt": "보성군",
-        "SDNAME": "전라남도"
-    },
-    {
-        "name": 4618,
-        "value": 1,
-        "nametxt": "해남군",
-        "SDNAME": "전라남도"
+        "nametxt": "합계",
+        "SDNAME": "전라남도",
+        "WIWNAME": "합계",
+        "WINHUBO": "김영록",
+        "DUGYULCHA": "56.93"
     },
     {
         "name": 4601,
-        "value": 9,
+        "value": 1,
         "nametxt": "목포시",
-        "SDNAME": "전라남도"
+        "SDNAME": "전라남도",
+        "WIWNAME": "목포시",
+        "WINHUBO": "김영록",
+        "DUGYULCHA": "67.45"
     },
     {
         "name": 4602,
         "value": 1,
         "nametxt": "여수시",
-        "SDNAME": "전라남도"
+        "SDNAME": "전라남도",
+        "WIWNAME": "여수시",
+        "WINHUBO": "김영록",
+        "DUGYULCHA": "64.41"
     },
     {
         "name": 4604,
-        "value": 9,
+        "value": 1,
         "nametxt": "순천시",
-        "SDNAME": "전라남도"
+        "SDNAME": "전라남도",
+        "WIWNAME": "순천시",
+        "WINHUBO": "김영록",
+        "DUGYULCHA": "31.67"
     },
     {
         "name": 4606,
         "value": 1,
         "nametxt": "나주시",
-        "SDNAME": "전라남도"
+        "SDNAME": "전라남도",
+        "WIWNAME": "나주시",
+        "WINHUBO": "김영록",
+        "DUGYULCHA": "60.23"
     },
     {
         "name": 4607,
-        "value": 9,
+        "value": 1,
         "nametxt": "광양시",
-        "SDNAME": "전라남도"
+        "SDNAME": "전라남도",
+        "WIWNAME": "광양시",
+        "WINHUBO": "김영록",
+        "DUGYULCHA": "48.39"
     },
     {
         "name": 4608,
         "value": 1,
         "nametxt": "담양군",
-        "SDNAME": "전라남도"
+        "SDNAME": "전라남도",
+        "WIWNAME": "담양군",
+        "WINHUBO": "김영록",
+        "DUGYULCHA": "59.67"
     },
     {
         "name": 4609,
         "value": 1,
         "nametxt": "장성군",
-        "SDNAME": "전라남도"
+        "SDNAME": "전라남도",
+        "WIWNAME": "장성군",
+        "WINHUBO": "김영록",
+        "DUGYULCHA": "62.86"
     },
     {
         "name": 4610,
         "value": 1,
         "nametxt": "곡성군",
-        "SDNAME": "전라남도"
+        "SDNAME": "전라남도",
+        "WIWNAME": "곡성군",
+        "WINHUBO": "김영록",
+        "DUGYULCHA": "13.18"
     },
     {
         "name": 4611,
         "value": 1,
         "nametxt": "구례군",
-        "SDNAME": "전라남도"
+        "SDNAME": "전라남도",
+        "WIWNAME": "구례군",
+        "WINHUBO": "김영록",
+        "DUGYULCHA": "49.09"
     },
     {
         "name": 4612,
         "value": 1,
         "nametxt": "고흥군",
-        "SDNAME": "전라남도"
+        "SDNAME": "전라남도",
+        "WIWNAME": "고흥군",
+        "WINHUBO": "김영록",
+        "DUGYULCHA": "61.41"
+    },
+    {
+        "name": 4613,
+        "value": 1,
+        "nametxt": "보성군",
+        "SDNAME": "전라남도",
+        "WIWNAME": "보성군",
+        "WINHUBO": "김영록",
+        "DUGYULCHA": "52.74"
     },
     {
         "name": 4614,
         "value": 1,
         "nametxt": "화순군",
-        "SDNAME": "전라남도"
+        "SDNAME": "전라남도",
+        "WIWNAME": "화순군",
+        "WINHUBO": "김영록",
+        "DUGYULCHA": "60.73"
     },
     {
         "name": 4615,
         "value": 1,
         "nametxt": "장흥군",
-        "SDNAME": "전라남도"
+        "SDNAME": "전라남도",
+        "WIWNAME": "장흥군",
+        "WINHUBO": "김영록",
+        "DUGYULCHA": "62.77"
     },
     {
         "name": 4616,
-        "value": 9,
+        "value": 1,
         "nametxt": "강진군",
-        "SDNAME": "전라남도"
+        "SDNAME": "전라남도",
+        "WIWNAME": "강진군",
+        "WINHUBO": "김영록",
+        "DUGYULCHA": "59.65"
     },
     {
         "name": 4617,
         "value": 1,
         "nametxt": "완도군",
-        "SDNAME": "전라남도"
+        "SDNAME": "전라남도",
+        "WIWNAME": "완도군",
+        "WINHUBO": "김영록",
+        "DUGYULCHA": "75.97"
+    },
+    {
+        "name": 4618,
+        "value": 1,
+        "nametxt": "해남군",
+        "SDNAME": "전라남도",
+        "WIWNAME": "해남군",
+        "WINHUBO": "김영록",
+        "DUGYULCHA": "68.38"
     },
     {
         "name": 4619,
-        "value": 9,
+        "value": 1,
         "nametxt": "진도군",
-        "SDNAME": "전라남도"
+        "SDNAME": "전라남도",
+        "WIWNAME": "진도군",
+        "WINHUBO": "김영록",
+        "DUGYULCHA": "68.59"
     },
     {
         "name": 4620,
         "value": 1,
         "nametxt": "영암군",
-        "SDNAME": "전라남도"
+        "SDNAME": "전라남도",
+        "WIWNAME": "영암군",
+        "WINHUBO": "김영록",
+        "DUGYULCHA": "64.29"
     },
     {
         "name": 4621,
-        "value": 9,
+        "value": 1,
         "nametxt": "무안군",
-        "SDNAME": "전라남도"
+        "SDNAME": "전라남도",
+        "WIWNAME": "무안군",
+        "WINHUBO": "김영록",
+        "DUGYULCHA": "63.66"
     },
     {
         "name": 4622,
-        "value": 9,
+        "value": 1,
         "nametxt": "영광군",
-        "SDNAME": "전라남도"
+        "SDNAME": "전라남도",
+        "WIWNAME": "영광군",
+        "WINHUBO": "김영록",
+        "DUGYULCHA": "60.92"
     },
     {
         "name": 4623,
         "value": 1,
         "nametxt": "함평군",
-        "SDNAME": "전라남도"
+        "SDNAME": "전라남도",
+        "WIWNAME": "함평군",
+        "WINHUBO": "김영록",
+        "DUGYULCHA": "63.43"
     },
     {
         "name": 4624,
         "value": 1,
         "nametxt": "신안군",
-        "SDNAME": "전라남도"
+        "SDNAME": "전라남도",
+        "WIWNAME": "신안군",
+        "WINHUBO": "김영록",
+        "DUGYULCHA": "65.67"
     },
     {
-        "name": 4712,
+        "name": 0,
         "value": 2,
-        "nametxt": "예천군",
-        "SDNAME": "경상북도"
+        "nametxt": "합계",
+        "SDNAME": "경상북도",
+        "WIWNAME": "합계",
+        "WINHUBO": "이철우",
+        "DUGYULCHA": "55.91"
     },
     {
         "name": 4701,
         "value": 2,
-        "nametxt": "포항시",
-        "SDNAME": "경상북도"
+        "nametxt": "포항시북구",
+        "SDNAME": "경상북도",
+        "WIWNAME": "포항시북구",
+        "WINHUBO": "이철우",
+        "DUGYULCHA": "55.45"
+    },
+    {
+        "name": 4702,
+        "value": 2,
+        "nametxt": "포항시남구",
+        "SDNAME": "경상북도",
+        "WIWNAME": "포항시남구",
+        "WINHUBO": "이철우",
+        "DUGYULCHA": "54.27"
     },
     {
         "name": 4703,
-        "value": 9,
+        "value": 2,
         "nametxt": "울릉군",
-        "SDNAME": "경상북도"
+        "SDNAME": "경상북도",
+        "WIWNAME": "울릉군",
+        "WINHUBO": "이철우",
+        "DUGYULCHA": "62.47"
     },
     {
         "name": 4704,
         "value": 2,
         "nametxt": "경주시",
-        "SDNAME": "경상북도"
+        "SDNAME": "경상북도",
+        "WIWNAME": "경주시",
+        "WINHUBO": "이철우",
+        "DUGYULCHA": "57.19"
     },
     {
         "name": 4705,
         "value": 2,
         "nametxt": "김천시",
-        "SDNAME": "경상북도"
+        "SDNAME": "경상북도",
+        "WIWNAME": "김천시",
+        "WINHUBO": "이철우",
+        "DUGYULCHA": "57.63"
     },
     {
         "name": 4706,
         "value": 2,
         "nametxt": "안동시",
-        "SDNAME": "경상북도"
+        "SDNAME": "경상북도",
+        "WIWNAME": "안동시",
+        "WINHUBO": "이철우",
+        "DUGYULCHA": "43.55"
     },
     {
         "name": 4707,
         "value": 2,
         "nametxt": "구미시",
-        "SDNAME": "경상북도"
+        "SDNAME": "경상북도",
+        "WIWNAME": "구미시",
+        "WINHUBO": "이철우",
+        "DUGYULCHA": "51.49"
     },
     {
         "name": 4708,
         "value": 2,
         "nametxt": "영주시",
-        "SDNAME": "경상북도"
+        "SDNAME": "경상북도",
+        "WIWNAME": "영주시",
+        "WINHUBO": "이철우",
+        "DUGYULCHA": "53.03"
     },
     {
         "name": 4709,
-        "value": 9,
+        "value": 2,
         "nametxt": "영천시",
-        "SDNAME": "경상북도"
+        "SDNAME": "경상북도",
+        "WIWNAME": "영천시",
+        "WINHUBO": "이철우",
+        "DUGYULCHA": "62.57"
     },
     {
         "name": 4710,
         "value": 2,
         "nametxt": "상주시",
-        "SDNAME": "경상북도"
+        "SDNAME": "경상북도",
+        "WIWNAME": "상주시",
+        "WINHUBO": "이철우",
+        "DUGYULCHA": "61.75"
     },
     {
         "name": 4711,
         "value": 2,
         "nametxt": "문경시",
-        "SDNAME": "경상북도"
+        "SDNAME": "경상북도",
+        "WIWNAME": "문경시",
+        "WINHUBO": "이철우",
+        "DUGYULCHA": "62.49"
+    },
+    {
+        "name": 4712,
+        "value": 2,
+        "nametxt": "예천군",
+        "SDNAME": "경상북도",
+        "WIWNAME": "예천군",
+        "WINHUBO": "이철우",
+        "DUGYULCHA": "41.29"
     },
     {
         "name": 4713,
         "value": 2,
         "nametxt": "경산시",
-        "SDNAME": "경상북도"
+        "SDNAME": "경상북도",
+        "WIWNAME": "경산시",
+        "WINHUBO": "이철우",
+        "DUGYULCHA": "57.51"
     },
     {
         "name": 4714,
         "value": 2,
         "nametxt": "청도군",
-        "SDNAME": "경상북도"
+        "SDNAME": "경상북도",
+        "WIWNAME": "청도군",
+        "WINHUBO": "이철우",
+        "DUGYULCHA": "65.15"
     },
     {
         "name": 4715,
         "value": 2,
         "nametxt": "고령군",
-        "SDNAME": "경상북도"
+        "SDNAME": "경상북도",
+        "WIWNAME": "고령군",
+        "WINHUBO": "이철우",
+        "DUGYULCHA": "64.05"
     },
     {
         "name": 4716,
         "value": 2,
         "nametxt": "성주군",
-        "SDNAME": "경상북도"
+        "SDNAME": "경상북도",
+        "WIWNAME": "성주군",
+        "WINHUBO": "이철우",
+        "DUGYULCHA": "64.19"
     },
     {
         "name": 4717,
         "value": 2,
         "nametxt": "칠곡군",
-        "SDNAME": "경상북도"
+        "SDNAME": "경상북도",
+        "WIWNAME": "칠곡군",
+        "WINHUBO": "이철우",
+        "DUGYULCHA": "54.45"
     },
     {
         "name": 4718,
         "value": 2,
         "nametxt": "군위군",
-        "SDNAME": "경상북도"
+        "SDNAME": "경상북도",
+        "WIWNAME": "군위군",
+        "WINHUBO": "이철우",
+        "DUGYULCHA": "58.95"
     },
     {
         "name": 4719,
-        "value": 9,
+        "value": 2,
         "nametxt": "의성군",
-        "SDNAME": "경상북도"
+        "SDNAME": "경상북도",
+        "WIWNAME": "의성군",
+        "WINHUBO": "이철우",
+        "DUGYULCHA": "55.87"
     },
     {
         "name": 4720,
         "value": 2,
         "nametxt": "청송군",
-        "SDNAME": "경상북도"
+        "SDNAME": "경상북도",
+        "WIWNAME": "청송군",
+        "WINHUBO": "이철우",
+        "DUGYULCHA": "56.65"
     },
     {
         "name": 4721,
         "value": 2,
         "nametxt": "영양군",
-        "SDNAME": "경상북도"
+        "SDNAME": "경상북도",
+        "WIWNAME": "영양군",
+        "WINHUBO": "이철우",
+        "DUGYULCHA": "56.31"
     },
     {
         "name": 4722,
         "value": 2,
         "nametxt": "영덕군",
-        "SDNAME": "경상북도"
+        "SDNAME": "경상북도",
+        "WIWNAME": "영덕군",
+        "WINHUBO": "이철우",
+        "DUGYULCHA": "66.19"
     },
     {
         "name": 4723,
         "value": 2,
         "nametxt": "봉화군",
-        "SDNAME": "경상북도"
+        "SDNAME": "경상북도",
+        "WIWNAME": "봉화군",
+        "WINHUBO": "이철우",
+        "DUGYULCHA": "55.63"
     },
     {
         "name": 4724,
         "value": 2,
         "nametxt": "울진군",
-        "SDNAME": "경상북도"
+        "SDNAME": "경상북도",
+        "WIWNAME": "울진군",
+        "WINHUBO": "이철우",
+        "DUGYULCHA": "61.61"
+    },
+    {
+        "name": 0,
+        "value": 2,
+        "nametxt": "합계",
+        "SDNAME": "경상남도",
+        "WIWNAME": "합계",
+        "WINHUBO": "박완수",
+        "DUGYULCHA": "36.27"
     },
     {
         "name": 4821,
         "value": 2,
-        "nametxt": "창원시",
-        "SDNAME": "경상남도"
+        "nametxt": "창원시의창구",
+        "SDNAME": "경상남도",
+        "WIWNAME": "창원시의창구",
+        "WINHUBO": "박완수",
+        "DUGYULCHA": "43.82"
+    },
+    {
+        "name": 4822,
+        "value": 2,
+        "nametxt": "창원시성산구",
+        "SDNAME": "경상남도",
+        "WIWNAME": "창원시성산구",
+        "WINHUBO": "박완수",
+        "DUGYULCHA": "34.05"
+    },
+    {
+        "name": 4823,
+        "value": 2,
+        "nametxt": "창원시마산합포구",
+        "SDNAME": "경상남도",
+        "WIWNAME": "창원시마산합포구",
+        "WINHUBO": "박완수",
+        "DUGYULCHA": "48.36"
+    },
+    {
+        "name": 4824,
+        "value": 2,
+        "nametxt": "창원시마산회원구",
+        "SDNAME": "경상남도",
+        "WIWNAME": "창원시마산회원구",
+        "WINHUBO": "박완수",
+        "DUGYULCHA": "44.23"
+    },
+    {
+        "name": 4825,
+        "value": 2,
+        "nametxt": "창원시진해구",
+        "SDNAME": "경상남도",
+        "WIWNAME": "창원시진해구",
+        "WINHUBO": "박완수",
+        "DUGYULCHA": "36.06"
     },
     {
         "name": 4803,
         "value": 2,
         "nametxt": "진주시",
-        "SDNAME": "경상남도"
+        "SDNAME": "경상남도",
+        "WIWNAME": "진주시",
+        "WINHUBO": "박완수",
+        "DUGYULCHA": "40.89"
     },
     {
         "name": 4805,
         "value": 2,
         "nametxt": "통영시",
-        "SDNAME": "경상남도"
+        "SDNAME": "경상남도",
+        "WIWNAME": "통영시",
+        "WINHUBO": "박완수",
+        "DUGYULCHA": "36.90"
     },
     {
         "name": 4806,
         "value": 2,
         "nametxt": "고성군",
-        "SDNAME": "경상남도"
+        "SDNAME": "경상남도",
+        "WIWNAME": "고성군",
+        "WINHUBO": "박완수",
+        "DUGYULCHA": "41.66"
     },
     {
         "name": 4807,
         "value": 2,
         "nametxt": "사천시",
-        "SDNAME": "경상남도"
+        "SDNAME": "경상남도",
+        "WIWNAME": "사천시",
+        "WINHUBO": "박완수",
+        "DUGYULCHA": "47.25"
     },
     {
         "name": 4808,
         "value": 2,
         "nametxt": "김해시",
-        "SDNAME": "경상남도"
+        "SDNAME": "경상남도",
+        "WIWNAME": "김해시",
+        "WINHUBO": "박완수",
+        "DUGYULCHA": "18.77"
     },
     {
         "name": 4809,
         "value": 2,
         "nametxt": "밀양시",
-        "SDNAME": "경상남도"
+        "SDNAME": "경상남도",
+        "WIWNAME": "밀양시",
+        "WINHUBO": "박완수",
+        "DUGYULCHA": "49.15"
     },
     {
         "name": 4810,
         "value": 2,
         "nametxt": "거제시",
-        "SDNAME": "경상남도"
+        "SDNAME": "경상남도",
+        "WIWNAME": "거제시",
+        "WINHUBO": "박완수",
+        "DUGYULCHA": "19.90"
     },
     {
         "name": 4811,
-        "value": 9,
+        "value": 2,
         "nametxt": "의령군",
-        "SDNAME": "경상남도"
+        "SDNAME": "경상남도",
+        "WIWNAME": "의령군",
+        "WINHUBO": "박완수",
+        "DUGYULCHA": "51.35"
     },
     {
         "name": 4812,
         "value": 2,
         "nametxt": "함안군",
-        "SDNAME": "경상남도"
+        "SDNAME": "경상남도",
+        "WIWNAME": "함안군",
+        "WINHUBO": "박완수",
+        "DUGYULCHA": "45.24"
     },
     {
         "name": 4813,
         "value": 2,
         "nametxt": "창녕군",
-        "SDNAME": "경상남도"
+        "SDNAME": "경상남도",
+        "WIWNAME": "창녕군",
+        "WINHUBO": "박완수",
+        "DUGYULCHA": "55.73"
     },
     {
         "name": 4814,
         "value": 2,
         "nametxt": "양산시",
-        "SDNAME": "경상남도"
+        "SDNAME": "경상남도",
+        "WIWNAME": "양산시",
+        "WINHUBO": "박완수",
+        "DUGYULCHA": "25.12"
     },
     {
         "name": 4815,
-        "value": 9,
+        "value": 2,
         "nametxt": "하동군",
-        "SDNAME": "경상남도"
+        "SDNAME": "경상남도",
+        "WIWNAME": "하동군",
+        "WINHUBO": "박완수",
+        "DUGYULCHA": "34.59"
     },
     {
         "name": 4816,
-        "value": 1,
+        "value": 2,
         "nametxt": "남해군",
-        "SDNAME": "경상남도"
+        "SDNAME": "경상남도",
+        "WIWNAME": "남해군",
+        "WINHUBO": "박완수",
+        "DUGYULCHA": "31.66"
     },
     {
         "name": 4817,
-        "value": 9,
+        "value": 2,
         "nametxt": "함양군",
-        "SDNAME": "경상남도"
+        "SDNAME": "경상남도",
+        "WIWNAME": "함양군",
+        "WINHUBO": "박완수",
+        "DUGYULCHA": "42.35"
     },
     {
         "name": 4818,
         "value": 2,
         "nametxt": "산청군",
-        "SDNAME": "경상남도"
+        "SDNAME": "경상남도",
+        "WIWNAME": "산청군",
+        "WINHUBO": "박완수",
+        "DUGYULCHA": "46.01"
     },
     {
         "name": 4819,
         "value": 2,
         "nametxt": "거창군",
-        "SDNAME": "경상남도"
+        "SDNAME": "경상남도",
+        "WIWNAME": "거창군",
+        "WINHUBO": "박완수",
+        "DUGYULCHA": "48.78"
     },
     {
         "name": 4820,
         "value": 2,
         "nametxt": "합천군",
-        "SDNAME": "경상남도"
+        "SDNAME": "경상남도",
+        "WIWNAME": "합천군",
+        "WINHUBO": "박완수",
+        "DUGYULCHA": "59.57"
+    },
+    {
+        "name": 0,
+        "value": 1,
+        "nametxt": "합계",
+        "SDNAME": "제주특별자치도",
+        "WIWNAME": "합계",
+        "WINHUBO": "오영훈",
+        "DUGYULCHA": "15.66"
+    },
+    {
+        "name": 4901,
+        "value": 1,
+        "nametxt": "제주시",
+        "SDNAME": "제주특별자치도",
+        "WIWNAME": "제주시",
+        "WINHUBO": "오영훈",
+        "DUGYULCHA": "16.49"
+    },
+    {
+        "name": 4902,
+        "value": 1,
+        "nametxt": "서귀포시",
+        "SDNAME": "제주특별자치도",
+        "WIWNAME": "서귀포시",
+        "WINHUBO": "오영훈",
+        "DUGYULCHA": "13.51"
     }
 ]
