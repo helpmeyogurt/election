@@ -107,7 +107,7 @@ def add_sgg_data_processor(raw_json, city_code, city_name):
             "data": []
         }
 
-        # --- 후보자 파싱 및 정렬 (루프 내부에서 완전히 처리) ---
+        # --- 후보자 데이터 파싱 구역 (수정됨) ---
         candidates = []
         for k in range(1, 20):
             suffix = f"{k:02d}"
@@ -120,22 +120,27 @@ def add_sgg_data_processor(raw_json, city_code, city_name):
             
             candidates.append({"num": k, "hubo": hubo_name, "jd": party_name, "dugsu": dugsu, "dugyul": dugyul})
             
+            # 🟢 원본 HUBOXX, JDXX, DUGSUXX 필드 유지
+            sggdata[f"HUBO{suffix}"] = hubo_name
+            sggdata[f"JD{suffix}"] = party_name
+            sggdata[f"DUGSU{suffix}"] = item.get(f"DUGSU{suffix}")
+            sggdata[f"DUGYUL{suffix}"] = item.get(f"DUGYUL{suffix}")
+            
+            # 차트용 데이터 추가
             cleaned_party = party_name.strip() if party_name else "없음"
             sggdata["data"].append({
                 "value": dugyul, "name": hubo_name, "party": party_name,
                 "pyo": dugsu, "itemStyle": {"color": PARTY_COLORS.get(cleaned_party, "#8b8b8b")}
             })
 
-        # 정렬 후 정보 업데이트
+        # 득표수 기준 정렬하여 1, 2위 추출
         candidates.sort(key=lambda x: x["dugsu"], reverse=True)
         
         if candidates:
-            # 1위 정보
             win = candidates[0]
             sggdata.update({"WINNUM": win["num"], "WINDUGSU": comma(win["dugsu"]), "WINDUGYUL": f"{win['dugyul']:.2f}", "WINHUBO": win["hubo"], "WINJD": win["jd"]})
             win_party_counter[win["jd"].strip()] = win_party_counter.get(win["jd"].strip(), 0) + 1
             
-            # 2위 정보
             if len(candidates) >= 2:
                 sec = candidates[1]
                 sggdata.update({"SECNUM": sec["num"], "SECDUGSU": comma(sec["dugsu"]), "SECDUGYUL": f"{sec['dugyul']:.2f}", "SECHUBO": sec["hubo"], "SECJD": sec["jd"],
@@ -144,8 +149,6 @@ def add_sgg_data_processor(raw_json, city_code, city_name):
                 sggdata.update({"SECNUM": 0, "SECDUGSU": "0", "SECDUGYUL": "0.00", "SECHUBO": "", "SECJD": "", "DUGYULCHA": f"{win['dugyul']:.2f}", "DUGSUCHA": comma(win['dugsu'])})
             
             sggdata["value"] = PARTY_MAP_INDEX.get(win["jd"], 9)
-        else:
-            sggdata.update({"WINHUBO": "", "SECHUBO": "", "value": 9})
 
         refined_list.append(sggdata)
 
