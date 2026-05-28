@@ -13,43 +13,12 @@
             "data": [
                 {
                     "name": "국민의힘",
-                    "value": 8,
+                    "value": 6,
                     "itemStyle": {
                         "color": "#E61E2B"
                     }
                 }
             ]
-        },
-        {
-            "SDID": 2700,
-            "SDNAME": "대구광역시",
-            "SGGID": "4270100",
-            "SGGNAME": "중구",
-            "WIWID": 2701,
-            "WIWNAME": "중구",
-            "SUNSU": "0", "TUSU": "0", "TOTAL": "0", "MUTUSU": "0", "GIGWON": "0", "HUBOSU": "1", "TUYUL": "0.0",
-            "name": 2701, "nametxt": "중구",
-            "data": [{"value": 100.0, "name": "류규하", "party": "국민의힘", "pyo": 0, "itemStyle": {"color": "#E61E2B"}}],
-            "WINNUM": 1, "WINDUGSU": "0", "WINDUGYUL": "100.0", "WINHUBO": "류규하", "WINJD": "국민의힘",
-            "SECNUM": 0, "SECDUGSU": "0", "SECDUGYUL": "0.0", "SECHUBO": "", "SECJD": "",
-            "value": 2, "DUGYULCHA": "100", "DUGSUCHA": "0",
-            "HUBO01": "류규하", "JD01": "국민의힘", "DUGSU01": "0", "DUGYUL01": "100.0"
-        },
-        {
-            "SDID": 2700,
-            "SDNAME": "대구광역시",
-            "SGGID": "4270700",
-            "SGGNAME": "달서구",
-            "WIWID": 2707,
-            "WIWNAME": "달서구",
-            "SUNSU": "0", "TUSU": "0", "TOTAL": "0", "MUTUSU": "0", "GIGWON": "0", "HUBOSU": "1", "TUYUL": "0.0",
-            "name": 2707,
-            "nametxt": "달서구",
-            "data": [{"value": 100.0, "name": "이태훈", "party": "국민의힘", "pyo": 0, "itemStyle": {"color": "#E61E2B"}}],
-            "WINNUM": 1, "WINDUGSU": "0", "WINDUGYUL": "100.0", "WINHUBO": "이태훈", "WINJD": "국민의힘",
-            "SECNUM": 0, "SECDUGSU": "0", "SECDUGYUL": "0.0", "SECHUBO": "", "SECJD": "",
-            "value": 2, "DUGYULCHA": "100", "DUGSUCHA": "0",
-            "HUBO01": "이태훈", "JD01": "국민의힘", "DUGSU01": "0", "DUGYUL01": "100.0"
         },
         {
             "SDID": 2700,
@@ -60,10 +29,6 @@
             "WIWNAME": "동구",
             "SUNSU": "297,073",
             "TUSU": "131,010",
-            "TOTAL": "128,124",
-            "MUTUSU": "2,886",
-            "GIGWON": "166,063",
-            "HUBOSU": "2",
             "TUYUL": "44.1",
             "name": 2702,
             "nametxt": "동구",
@@ -97,17 +62,9 @@
             "SECDUGYUL": "22.45",
             "SECHUBO": "최완식",
             "SECJD": "더불어민주당",
-            "value": 2,
             "DUGYULCHA": "55.09",
             "DUGSUCHA": "70,590",
-            "HUBO01": "최완식",
-            "JD01": "더불어민주당",
-            "DUGSU01": "28,767",
-            "DUGYUL01": "22.45",
-            "HUBO02": "윤석준",
-            "JD02": "국민의힘",
-            "DUGSU02": "99,357",
-            "DUGYUL02": "77.54"
+            "value": 2
         },
         {
             "SDID": 2700,
@@ -118,10 +75,6 @@
             "WIWNAME": "서구",
             "SUNSU": "148,238",
             "TUSU": "66,444",
-            "TOTAL": "64,470",
-            "MUTUSU": "1,974",
-            "GIGWON": "81,794",
-            "HUBOSU": "2",
             "TUYUL": "44.8",
             "name": 2703,
             "nametxt": "서구",
@@ -155,17 +108,9 @@
             "SECDUGYUL": "32.13",
             "SECHUBO": "서중현",
             "SECJD": "무소속",
-            "value": 2,
             "DUGYULCHA": "35.73",
             "DUGSUCHA": "23,030",
-            "HUBO01": "류한국",
-            "JD01": "국민의힘",
-            "DUGSU01": "43,750",
-            "DUGYUL01": "67.86",
-            "HUBO02": "서중현",
-            "JD02": "무소속",
-            "DUGSU02": "20,720",
-            "DUGYUL02": "32.13"
+            "value": 2
         },
         {
             "SDID": 2700,
@@ -176,10 +121,6 @@
             "WIWNAME": "남구",
             "SUNSU": "129,053",
             "TUSU": "54,691",
-            "TOTAL": "53,514",
-            "MUTUSU": "1,177",
-            "GIGWON": "74,362",
-            "HUBOSU": "2",
             "TUYUL": "42.4",
             "name": 2704,
             "nametxt": "남구",
@@ -213,17 +154,9 @@
             "SECDUGYUL": "18.43",
             "SECHUBO": "최창희",
             "SECJD": "더불어민주당",
-            "value": 2,
             "DUGYULCHA": "63.13",
             "DUGSUCHA": "33,782",
-            "HUBO01": "최창희",
-            "JD01": "더불어민주당",
-            "DUGSU01": "9,866",
-            "DUGYUL01": "18.43",
-            "HUBO02": "조재구",
-            "JD02": "국민의힘",
-            "DUGSU02": "43,648",
-            "DUGYUL02": "81.56"
+            "value": 2
         },
         {
             "SDID": 2700,
@@ -234,10 +167,6 @@
             "WIWNAME": "북구",
             "SUNSU": "373,423",
             "TUSU": "160,421",
-            "TOTAL": "156,163",
-            "MUTUSU": "4,258",
-            "GIGWON": "213,002",
-            "HUBOSU": "2",
             "TUYUL": "43.0",
             "name": 2705,
             "nametxt": "북구",
@@ -271,17 +200,9 @@
             "SECDUGYUL": "22.33",
             "SECHUBO": "구본항",
             "SECJD": "무소속",
-            "value": 2,
             "DUGYULCHA": "55.33",
             "DUGSUCHA": "86,399",
-            "HUBO01": "배광식",
-            "JD01": "국민의힘",
-            "DUGSU01": "121,281",
-            "DUGYUL01": "77.66",
-            "HUBO02": "구본항",
-            "JD02": "무소속",
-            "DUGSU02": "34,882",
-            "DUGYUL02": "22.33"
+            "value": 2
         },
         {
             "SDID": 2700,
@@ -292,10 +213,6 @@
             "WIWNAME": "수성구",
             "SUNSU": "349,048",
             "TUSU": "157,518",
-            "TOTAL": "154,795",
-            "MUTUSU": "2,723",
-            "GIGWON": "191,530",
-            "HUBOSU": "2",
             "TUYUL": "45.1",
             "name": 2706,
             "nametxt": "수성구",
@@ -329,17 +246,9 @@
             "SECDUGYUL": "24.73",
             "SECHUBO": "강민구",
             "SECJD": "더불어민주당",
-            "value": 2,
             "DUGYULCHA": "50.53",
             "DUGSUCHA": "78,221",
-            "HUBO01": "강민구",
-            "JD01": "더불어민주당",
-            "DUGSU01": "38,287",
-            "DUGYUL01": "24.73",
-            "HUBO02": "김대권",
-            "JD02": "국민의힘",
-            "DUGSU02": "116,508",
-            "DUGYUL02": "75.26"
+            "value": 2
         },
         {
             "SDID": 2700,
@@ -350,10 +259,6 @@
             "WIWNAME": "달성군",
             "SUNSU": "214,580",
             "TUSU": "91,327",
-            "TOTAL": "89,574",
-            "MUTUSU": "1,753",
-            "GIGWON": "123,253",
-            "HUBOSU": "3",
             "TUYUL": "42.6",
             "name": 2708,
             "nametxt": "달성군",
@@ -396,21 +301,9 @@
             "SECDUGYUL": "16.08",
             "SECHUBO": "전유진",
             "SECJD": "더불어민주당",
-            "value": 2,
             "DUGYULCHA": "53.26",
             "DUGSUCHA": "47,705",
-            "HUBO01": "전유진",
-            "JD01": "더불어민주당",
-            "DUGSU01": "14,410",
-            "DUGYUL01": "16.08",
-            "HUBO02": "최재훈",
-            "JD02": "국민의힘",
-            "DUGSU02": "62,115",
-            "DUGYUL02": "69.34",
-            "HUBO03": "전재경",
-            "JD03": "무소속",
-            "DUGSU03": "13,049",
-            "DUGYUL03": "14.56"
+            "value": 2
         }
     ]
 }
