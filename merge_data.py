@@ -57,7 +57,7 @@ def merge_all_sgg_data():
             for city_name, sgg_list in data.items():
                 for entry in sgg_list:
                     # '합계' 행은 전국 합계 계산용 누적 데이터로 활용
-                    if entry.get("SGGNAME") == "합계":
+                    if entry.get("WIWID") == "0":
                         total_sunsu_sum += int(str(entry.get("SUNSU", "0")).replace(",", ""))
                         total_tusu_sum += int(str(entry.get("TUSU", "0")).replace(",", ""))
                         # 정당별 당선 횟수 합산 (해당 데이터 구조에 맞게)
