@@ -20,17 +20,17 @@
                 }
             },
             {
-                "name": "무소속",
-                "value": 17,
-                "itemStyle": {
-                    "color": "#8b8b8b"
-                }
-            },
-            {
                 "name": "진보당",
                 "value": 1,
                 "itemStyle": {
                     "color": "#D6001C"
+                }
+            },
+            {
+                "name": "무소속",
+                "value": 17,
+                "itemStyle": {
+                    "color": "#8b8b8b"
                 }
             }
         ]
