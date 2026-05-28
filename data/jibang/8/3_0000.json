@@ -26,103 +26,370 @@
     {
         "name": 11,
         "value": 2,
-        "nametxt": "서울특별시",
-        "SDNAME": "서울특별시"
+        "nametxt": "서울",
+        "SDNAME": "서울특별시",
+        "center": [
+            126.735,
+            37.9802
+        ],
+        "radius": 38,
+        "data": [
+                {
+                    "value": 39.23,
+                    "name": "송영길",
+                    "party": "더불어민주당",
+                    "pyo": 1733183,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 59.05,
+                    "name": "오세훈",
+                    "party": "국민의힘",
+                    "pyo": 2608277,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+        ]
     },
     {
         "name": 26,
         "value": 2,
-        "nametxt": "부산광역시",
-        "SDNAME": "부산광역시"
+        "nametxt": "부산",
+        "SDNAME": "부산광역시",
+        "center": [
+            128.9251,
+            35.139
+        ],
+        "radius": 12,
+        "data": [
+                {
+                    "value": 32.23,
+                    "name": "변성완",
+                    "party": "더불어민주당",
+                    "pyo": 455901,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 66.36,
+                    "name": "박형준",
+                    "party": "국민의힘",
+                    "pyo": 938601,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ]
     },
+        
     {
         "name": 27,
         "value": 2,
-        "nametxt": "대구광역시",
-        "SDNAME": "대구광역시"
+        "nametxt": "대구",
+        "SDNAME": "대구광역시",
+        "center": [
+            128.5639,
+            35.9365
+        ],
+        "radius": 10,
+        "data": [
+                {
+                    "value": 17.97,
+                    "name": "서재헌",
+                    "party": "더불어민주당",
+                    "pyo": 156429,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 78.75,
+                    "name": "홍준표",
+                    "party": "국민의힘",
+                    "pyo": 685159,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+        ]
     },
     {
         "name": 28,
         "value": 2,
-        "nametxt": "인천광역시",
-        "SDNAME": "인천광역시"
+        "nametxt": "인천",
+        "SDNAME": "인천광역시",
+        "center": [
+            126.5577,
+            37.1097
+        ],
+        "radius": 12,
+        "data": [
+                {
+                    "value": 44.55,
+                    "name": "박남춘",
+                    "party": "더불어민주당",
+                    "pyo": 545885,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 51.76,
+                    "name": "유정복",
+                    "party": "국민의힘",
+                    "pyo": 634250,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+        ]
     },
     {
         "name": 29,
         "value": 1,
-        "nametxt": "광주광역시",
-        "SDNAME": "광주광역시"
+        "nametxt": "광주",
+        "SDNAME": "광주광역시",
+         "center": [
+            127.0096,
+            35.1449
+        ],
+        "radius": 6,
+        "data": [
+                {
+                    "value": 74.91,
+                    "name": "강기정",
+                    "party": "더불어민주당",
+                    "pyo": 334699,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 15.9,
+                    "name": "주기환",
+                    "party": "국민의힘",
+                    "pyo": 71062,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+        ]
     },
     {
         "name": 30,
         "value": 2,
-        "nametxt": "대전광역시",
-        "SDNAME": "대전광역시"
+        "nametxt": "대전",
+        "SDNAME": "대전광역시",
+        "center": [
+            127.355,
+            36.2427
+        ],
+        "radius": 6,
+        "data": [
+                {
+                    "value": 48.8,
+                    "name": "허태정",
+                    "party": "더불어민주당",
+                    "pyo": 295555,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 51.19,
+                    "name": "이장우",
+                    "party": "국민의힘",
+                    "pyo": 310035,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ]
     },
     {
         "name": 31,
         "value": 2,
-        "nametxt": "울산광역시",
-        "SDNAME": "울산광역시"
+        "nametxt": "울산",
+        "SDNAME": "울산광역시",
+        "center": [
+            129.2334,
+            35.6535
+        ],
+        "radius": 4,
+        "data": [
+                {
+                    "value": 40.21,
+                    "name": "송철호",
+                    "party": "더불어민주당",
+                    "pyo": 195430,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 59.78,
+                    "name": "김두겸",
+                    "party": "국민의힘",
+                    "pyo": 290563,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ]
     },
     {
         "name": 41,
         "value": 1,
         "nametxt": "경기도",
-        "SDNAME": "경기도"
+        "SDNAME": "경기도",
+        "center": [
+            127.8049,
+            37.2466
+        ],
+        "radius": 52,
+        "data": [
+                {
+                    "value": 49.06,
+                    "name": "김동연",
+                    "party": "더불어민주당",
+                    "pyo": 2827593,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 48.91,
+                    "name": "김은혜",
+                    "party": "국민의힘",
+                    "pyo": 2818680,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+        ]
     },
     {
         "name": 42,
         "value": 2,
-        "nametxt": "강원도",
-        "SDNAME": "강원도"
+        "nametxt": "강원",
+        "SDNAME": "강원도",
+        "center": [
+            128.6274,
+            37.849
+        ],
+        "radius": 6,
+        "data": [
+                {
+                    "value": 45.92,
+                    "name": "이광재",
+                    "party": "더불어민주당",
+                    "pyo": 347766,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 54.07,
+                    "name": "김진태",
+                    "party": "국민의힘",
+                    "pyo": 409461,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ]
     },
     {
         "name": 43,
         "value": 2,
-        "nametxt": "충청북도",
-        "SDNAME": "충청북도"
+        "nametxt": "충북",
+        "SDNAME": "충청북도",
+        "center": [
+            127.9061,
+            36.3972
+        ],
+        "radius": 6,
     },
     {
         "name": 44,
         "value": 2,
-        "nametxt": "충청남도",
-        "SDNAME": "충청남도"
+        "nametxt": "충남",
+        "SDNAME": "충청남도",
+        "center": [
+            126.7323,
+            36.4977
+        ],
+        "radius": 8,
     },
     {
         "name": 45,
         "value": 1,
-        "nametxt": "전라북도",
-        "SDNAME": "전라북도"
+        "nametxt": "전북",
+        "SDNAME": "전라북도",
+        "center": [
+            127.1579,
+            35.7546
+        ],
+        "radius": 8,
     },
     {
         "name": 46,
         "value": 1,
-        "nametxt": "전라남도",
-        "SDNAME": "전라남도"
+        "nametxt": "전남",
+        "SDNAME": "전라남도",
+        "center": [
+            126.6148,
+            34.7466
+        ],
+        "radius": 8,
     },
     {
         "name": 47,
         "value": 2,
-        "nametxt": "경상북도",
-        "SDNAME": "경상북도"
+        "nametxt": "경북",
+        "SDNAME": "경상북도",
+        "center": [
+            128.8003,
+            36.502
+        ],
+        "radius": 10,
     },
     {
         "name": 48,
         "value": 2,
         "nametxt": "경상남도",
-        "SDNAME": "경상남도"
+        "SDNAME": "경상남도",
+        "center": [
+            128.0307,
+            35.3334
+        ],
+        "radius": 12,
     },
     {
         "name": 49,
         "value": 1,
         "nametxt": "제주특별자치도",
-        "SDNAME": "제주특별자치도"
+        "SDNAME": "제주특별자치도",
+        "center": [
+            126.5377,
+            33.3725
+        ],
+        "radius": 2,
     },
     {
         "name": 51,
         "value": 2,
         "nametxt": "세종특별자치시",
-        "SDNAME": "세종특별자치시"
+        "SDNAME": "세종특별자치시",
+        "center": [
+            127.2222,
+            36.5619
+        ],
+        "radius": 2,
+        
     }]
 }
