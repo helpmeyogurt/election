@@ -103,17 +103,25 @@ def add_sgg_data_processor(raw_json, city_code, city_name):
         total_tusu_sum += tusu_val
 
         tuyul_val = f"{(tusu_val / sunsu_val * 100):.1f}" if sunsu_val > 0 else "0.0"
+
+        # 🚨 [프론트엔드 연동 가공]: 
+        sgg_id_str = str(sgg_id_raw)
         
-        # 🚨 [프론트엔드 연동 가공]: 합계 행은 WIWID가 0으로 오기 때문에, 
-        # 지도 엔진(ECharts)이 인식할 수 있도록 고유 번호인 SGGID(예: 4410300)를 가공해서 꽂아줍니다.
-        final_wiw_id = int(sgg_id_raw) if str(sgg_id_raw).isdigit() else 0
+        # 2번째 자리부터 5번째 자리까지 추출 (파이썬 슬라이싱 [시작:끝]은 0부터 시작함)
+        # 4 1 1 0 1 0 0
+        # 0 1 2 3 4 5 6 (인덱스)
+        # 1번 인덱스부터 5번 인덱스 직전까지 -> [1:5]
+        if len(sgg_id_str) >= 5:
+            final_wiw_id = int(sgg_id_str[1:5])
+        else:
+            final_wiw_id = int(sgg_id_str) # 예외 대비
 
         sggdata = {
             "SDID": int(item.get("SDID", city_code)),
             "SDNAME": item.get("SDNAME", city_name),
-            "SGGID": str(sgg_id_raw),
-            "SGGNAME": display_name,             # 🟢 "합계" 대신 "수원시", "군포시"
-            "WIWID": final_wiw_id,                # 🟢 0 대신 진짜 지도 연동 코드 주입
+            "SGGID": sgg_id_str,
+            "SGGNAME": display_name,
+            "WIWID": final_wiw_id, 
             "WIWNAME": display_name,
             "SUNSU": comma(sunsu_val),
             "TUSU": comma(tusu_val),
@@ -122,7 +130,7 @@ def add_sgg_data_processor(raw_json, city_code, city_name):
             "GIGWON": item.get("GIGWON", "0"),
             "HUBOSU": item.get("HUBOSU", "0"),
             "TUYUL": tuyul_val,
-            "name": final_wiw_id, 
+            "name": final_wiw_id,  # 🟢 결과값: 1101
             "nametxt": display_name,
             "data": []
         }
