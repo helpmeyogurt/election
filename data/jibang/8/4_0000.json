@@ -3,28 +3,22 @@
     {
         "name": 0,
         "nametxt": "전국 합계",
-        "SUNSU": 42443817,
-        "TUSU": 21695589,
+        "SUNSU": "44,303,449",
+        "TUSU": "22,564,394",
+        "TUYUL": "50.9",
         "data": [
             {
                 "name": "더불어민주당",
-                "value": 60,
+                "value": 63,
                 "itemStyle": {
                     "color": "#152484"
                 }
             },
             {
                 "name": "국민의힘",
-                "value": 144,
+                "value": 145,
                 "itemStyle": {
                     "color": "#E61E2B"
-                }
-            },
-            {
-                "name": "무소속",
-                "value": 17,
-                "itemStyle": {
-                    "color": "#8b8b8b"
                 }
             },
             {
@@ -32,6 +26,13 @@
                 "value": 1,
                 "itemStyle": {
                     "color": "#D6001C"
+                }
+            },
+            {
+                "name": "무소속",
+                "value": 17,
+                "itemStyle": {
+                    "color": "#8b8b8b"
                 }
             }
         ]
