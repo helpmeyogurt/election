@@ -1,0 +1,128 @@
+{
+    "전국" : [
+    {
+        "name": 0,
+        "nametxt": "전국 합계",
+        "SUNSU": "44,303,449",
+        "TUSU": "22,564,394",
+        "TUYUL": "50.9",
+        "data": [
+            {
+                "name": "더불어민주당",
+                "value": 5,
+                "itemStyle": {
+                    "color": "#152484"
+                }
+            },
+            {
+                "name": "국민의힘",
+                "value": 12,
+                "itemStyle": {
+                    "color": "#E61E2B"
+                }
+            },
+        ]
+    },
+    {
+        "name": 11,
+        "value": 2,
+        "nametxt": "서울특별시",
+        "SDNAME": "서울특별시"
+    },
+    {
+        "name": 26,
+        "value": 2,
+        "nametxt": "부산광역시",
+        "SDNAME": "부산광역시"
+    },
+    {
+        "name": 27,
+        "value": 2,
+        "nametxt": "대구광역시",
+        "SDNAME": "대구광역시"
+    },
+    {
+        "name": 28,
+        "value": 1,
+        "nametxt": "인천광역시",
+        "SDNAME": "인천광역시"
+    },
+    {
+        "name": 29,
+        "value": 1,
+        "nametxt": "광주광역시",
+        "SDNAME": "광주광역시"
+    },
+    {
+        "name": 30,
+        "value": 2,
+        "nametxt": "대전광역시",
+        "SDNAME": "대전광역시"
+    },
+    {
+        "name": 31,
+        "value": 2,
+        "nametxt": "울산광역시",
+        "SDNAME": "울산광역시"
+    },
+    {
+        "name": 41,
+        "value": 1,
+        "nametxt": "경기도",
+        "SDNAME": "경기도"
+    },
+    {
+        "name": 42,
+        "value": 2,
+        "nametxt": "강원도",
+        "SDNAME": "강원도"
+    },
+    {
+        "name": 43,
+        "value": 2,
+        "nametxt": "충청북도",
+        "SDNAME": "충청북도"
+    },
+    {
+        "name": 44,
+        "value": 2,
+        "nametxt": "충청남도",
+        "SDNAME": "충청남도"
+    },
+    {
+        "name": 45,
+        "value": 1,
+        "nametxt": "전라북도",
+        "SDNAME": "전라북도"
+    },
+    {
+        "name": 46,
+        "value": 1,
+        "nametxt": "전라남도",
+        "SDNAME": "전라남도"
+    },
+    {
+        "name": 47,
+        "value": 2,
+        "nametxt": "경상북도",
+        "SDNAME": "경상북도"
+    },
+    {
+        "name": 48,
+        "value": 2,
+        "nametxt": "경상남도",
+        "SDNAME": "경상남도"
+    },
+    {
+        "name": 49,
+        "value": 1,
+        "nametxt": "제주특별자치도",
+        "SDNAME": "제주특별자치도"
+    },
+    {
+        "name": 51,
+        "value": 2,
+        "nametxt": "세종특별자치시",
+        "SDNAME": "세종특별자치시"
+    }]
+}
