@@ -1,6 +1,29 @@
 import json
 import os
 
+# 가공하고자 하는 선거 종류 코드 (3: 시도지사, 4: 시군구청장)
+ELEC_CODE = "3"
+
+CITIES = [
+    {"CODE": 1100, "NAME": "서울특별시"},
+    {"CODE": 2600, "NAME": "부산광역시"},
+    {"CODE": 2700, "NAME": "대구광역시"},
+    {"CODE": 2800, "NAME": "인천광역시"},
+    {"CODE": 2900, "NAME": "광주광역시"},
+    {"CODE": 3000, "NAME": "대전광역시"},
+    {"CODE": 3100, "NAME": "울산광역시"},
+    {"CODE": 5100, "NAME": "세종특별자치시"},
+    {"CODE": 4100, "NAME": "경기도"},
+    {"CODE": 4200, "NAME": "강원도"},
+    {"CODE": 4300, "NAME": "충청북도"},
+    {"CODE": 4400, "NAME": "충청남도"},
+    {"CODE": 4500, "NAME": "전라북도"},
+    {"CODE": 4600, "NAME": "전라남도"},
+    {"CODE": 4700, "NAME": "경상북도"},
+    {"CODE": 4800, "NAME": "경상남도"},
+    {"CODE": 4900, "NAME": "제주특별자치도"},
+]
+
 SOURCE_DIR = os.path.join("data", "jibang", "8")
 OUTPUT_FILE = "all_sgg_data_2022.json"
 PARTY_COLORS = {
@@ -25,7 +48,7 @@ def merge_all_sgg_data():
     print("🚀 전국 시군구 데이터 병합을 시작합니다.")
 
     for code in sido_codes:
-        file_path = os.path.join(SOURCE_DIR, f"4_{code}.json")
+        file_path = os.path.join(SOURCE_DIR, f"{ELEC_CODE}_{code}.json")
         if not os.path.exists(file_path): continue
 
         with open(file_path, "r", encoding="utf-8") as f:
@@ -47,7 +70,10 @@ def merge_all_sgg_data():
                         "name": entry.get("name"),
                         "value": entry.get("value"),
                         "nametxt": entry.get("nametxt"),
-                        "SDNAME": entry.get("SDNAME")
+                        "SDNAME": entry.get("SDNAME"),
+                        "WIWNAME": entry.get("WIWNAME"),    # 추가
+                        "WINHUBO": entry.get("WINHUBO"),    # 추가
+                        "DUGYULCHA": entry.get("DUGYULCHA") # 추가
                     })
     
     # 🟢 [전국 합계 노드 생성 및 추가]
