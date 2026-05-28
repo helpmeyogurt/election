@@ -1,0 +1,25 @@
+name: Merge Election Data
+on: [push] # 코드를 수정해서 깃허브에 올릴 때마다 자동 실행
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Run merge script
+        run: python merge_data.py # 파이썬 파일 실행
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
+          git add all_sgg_data_2022.json
+          git commit -m "Auto-merge election data"
+          git push
