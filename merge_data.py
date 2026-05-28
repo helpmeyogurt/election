@@ -53,6 +53,9 @@ def merge_all_sgg_data():
     # 🟢 [전국 합계 노드 생성 및 추가]
     summary_pie_data = [{"name": p, "value": c, "itemStyle": {"color": PARTY_COLORS.get(p, "#8b8b8b")}} 
                         for p, c in win_party_counter.items()]
+
+    custom_order = ["더불어민주당", "국민의힘", "정의당", "진보당", "무소속"]
+    summary_pie_data.sort(key=lambda x: custom_order.index(x["name"]) if x["name"] in custom_order else 999)
     
     summary_node = {
         "name": 0,
