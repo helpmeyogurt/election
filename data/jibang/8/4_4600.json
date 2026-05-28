@@ -28,6 +28,26 @@
             ]
         },
         {
+            "SDID": 4600, "SDNAME": "전라남도", "SGGID": "4461400", "SGGNAME": "보성군", "WIWID": 4614, "WIWNAME": "보성군",
+            "SUNSU": "0", "TUSU": "0", "TOTAL": "0", "MUTUSU": "0", "GIGWON": "0", "HUBOSU": "1", "TUYUL": "0.0",
+            "name": 4614, "nametxt": "보성군",
+            "data": [{"value": 100.0, "name": "김철우", "party": "더불어민주당", "pyo": 0, "itemStyle": {"color": "#152484"}}],
+            "WINNUM": 1, "WINDUGSU": "0", "WINDUGYUL": "100.0", "WINHUBO": "김철우", "WINJD": "더불어민주당",
+            "SECNUM": 0, "SECDUGSU": "0", "SECDUGYUL": "0.0", "SECHUBO": "", "SECJD": "",
+            "value": 1, "DUGYULCHA": "100", "DUGSUCHA": "0",
+            "HUBO01": "김철우", "JD01": "더불어민주당", "DUGSU01": "0", "DUGYUL01": "100.0"
+        },
+        {
+            "SDID": 4600, "SDNAME": "전라남도", "SGGID": "4461500", "SGGNAME": "해남군", "WIWID": 4615, "WIWNAME": "해남군",
+            "SUNSU": "0", "TUSU": "0", "TOTAL": "0", "MUTUSU": "0", "GIGWON": "0", "HUBOSU": "1", "TUYUL": "0.0",
+            "name": 4615, "nametxt": "해남군",
+            "data": [{"value": 100.0, "name": "명현관", "party": "더불어민주당", "pyo": 0, "itemStyle": {"color": "#152484"}}],
+            "WINNUM": 1, "WINDUGSU": "0", "WINDUGYUL": "100.0", "WINHUBO": "명현관", "WINJD": "더불어민주당",
+            "SECNUM": 0, "SECDUGSU": "0", "SECDUGYUL": "0.0", "SECHUBO": "", "SECJD": "",
+            "value": 1, "DUGYULCHA": "100", "DUGSUCHA": "0",
+            "HUBO01": "명현관", "JD01": "더불어민주당", "DUGSU01": "0", "DUGYUL01": "100.0"
+        },
+        {
             "SDID": 4600,
             "SDNAME": "전라남도",
             "SGGID": "4460100",
