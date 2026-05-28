@@ -21,6 +21,16 @@
             ]
         },
         {
+            "SDID": 2900, "SDNAME": "광주광역시", "SGGID": "4290500", "SGGNAME": "광산구", "WIWID": 2905, "WIWNAME": "광산구",
+            "SUNSU": "0", "TUSU": "0", "TOTAL": "0", "MUTUSU": "0", "GIGWON": "0", "HUBOSU": "1", "TUYUL": "0.0",
+            "name": 2905, "nametxt": "광산구",
+            "data": [{"value": 100.0, "name": "박병규", "party": "더불어민주당", "pyo": 0, "itemStyle": {"color": "#152484"}}],
+            "WINNUM": 1, "WINDUGSU": "0", "WINDUGYUL": "100.0", "WINHUBO": "박병규", "WINJD": "더불어민주당",
+            "SECNUM": 0, "SECDUGSU": "0", "SECDUGYUL": "0.0", "SECHUBO": "", "SECJD": "",
+            "value": 1, "DUGYULCHA": "100", "DUGSUCHA": "0",
+            "HUBO01": "박병규", "JD01": "더불어민주당", "DUGSU01": "0", "DUGYUL01": "100.0"
+        },
+        {
             "SDID": 2900,
             "SDNAME": "광주광역시",
             "SGGID": "4290100",
