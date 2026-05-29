@@ -1,8 +1,6 @@
 name: 🗳️ 9회 지선 후보자 정보 자동 수집 시스템
 
 on:
-  schedule:
-    - cron: '15 19 * * *'  # 한국 시간 매일 새벽 4시 15분 작동
   workflow_dispatch:      # 수동 실행 지원
 
 jobs:
