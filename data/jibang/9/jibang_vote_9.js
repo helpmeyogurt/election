@@ -3073,115 +3073,240 @@
 ],
       [
   {
-    "TATPJ_SU": "1,840,199",
-    "TPJ_SU": "5,645,207",
+    "TPR_SU": "  12.64",
+    "WIWID": 0,
+    "TPJ_SU_WOMEN": "   2,598,375",
+    "TPJ_SU_MEN": "   3,046,832",
+    "TPJ_SU": "   5,645,207",
+    "SGI_SU": "  44,649,908",
     "WIWNAME": "합계",
-    "BITPJ_SU": "3,805,008"
+    "TPR_SU_WOMEN": "  11.52",
+    "SGI_SU_WOMEN": "  22,553,936",
+    "SGI_SU_MEN": "  22,095,972",
+    "TPR_SU_MEN": "  13.79"
   },
   {
-    "TATPJ_SU": "353,121",
-    "TPJ_SU": "1,014,203",
+    "TPR_SU": "  12.21",
+    "WIWID": 1100,
+    "TPJ_SU_WOMEN": "     471,958",
+    "TPJ_SU_MEN": "     544,045",
+    "TPJ_SU": "   1,016,003",
+    "SGI_SU": "   8,319,134",
     "WIWNAME": "서울특별시",
-    "BITPJ_SU": "661,082"
+    "TPR_SU_WOMEN": "  10.86",
+    "SGI_SU_WOMEN": "   4,347,317",
+    "SGI_SU_MEN": "   3,971,817",
+    "TPR_SU_MEN": "  13.70"
   },
   {
-    "TATPJ_SU": "95,496",
-    "TPJ_SU": "319,704",
+    "TPR_SU": "  11.52",
+    "WIWID": 2600,
+    "TPJ_SU_WOMEN": "     152,467",
+    "TPJ_SU_MEN": "     176,790",
+    "TPJ_SU": "     329,257",
+    "SGI_SU": "   2,857,335",
     "WIWNAME": "부산광역시",
-    "BITPJ_SU": "224,208"
+    "TPR_SU_WOMEN": "  10.30",
+    "SGI_SU_WOMEN": "   1,480,527",
+    "SGI_SU_MEN": "   1,376,808",
+    "TPR_SU_MEN": "  12.84"
   },
   {
-    "TATPJ_SU": "64,045",
-    "TPJ_SU": "191,008",
+    "TPR_SU": "   9.80",
+    "WIWID": 2700,
+    "TPJ_SU_WOMEN": "      88,656",
+    "TPJ_SU_MEN": "     112,306",
+    "TPJ_SU": "     200,962",
+    "SGI_SU": "   2,049,683",
     "WIWNAME": "대구광역시",
-    "BITPJ_SU": "126,963"
+    "TPR_SU_WOMEN": "   8.41",
+    "SGI_SU_WOMEN": "   1,054,022",
+    "SGI_SU_MEN": "     995,661",
+    "TPR_SU_MEN": "  11.28"
   },
   {
-    "TATPJ_SU": "86,163",
-    "TPJ_SU": "291,787",
+    "TPR_SU": "  11.15",
+    "WIWID": 2800,
+    "TPJ_SU_WOMEN": "     134,902",
+    "TPJ_SU_MEN": "     162,030",
+    "TPJ_SU": "     296,932",
+    "SGI_SU": "   2,663,459",
     "WIWNAME": "인천광역시",
-    "BITPJ_SU": "205,624"
+    "TPR_SU_WOMEN": "  10.07",
+    "SGI_SU_WOMEN": "   1,339,965",
+    "SGI_SU_MEN": "   1,323,494",
+    "TPR_SU_MEN": "  12.24"
   },
   {
-    "TATPJ_SU": "61,526",
-    "TPJ_SU": "182,111",
+    "TPR_SU": "  15.37",
+    "WIWID": 2900,
+    "TPJ_SU_WOMEN": "      92,228",
+    "TPJ_SU_MEN": "      90,631",
+    "TPJ_SU": "     182,859",
+    "SGI_SU": "   1,189,519",
     "WIWNAME": "광주광역시",
-    "BITPJ_SU": "120,585"
+    "TPR_SU_WOMEN": "  15.19",
+    "SGI_SU_WOMEN": "     607,158",
+    "SGI_SU_MEN": "     582,361",
+    "TPR_SU_MEN": "  15.56"
   },
   {
-    "TATPJ_SU": "47,723",
-    "TPJ_SU": "144,969",
+    "TPR_SU": "  11.72",
+    "WIWID": 3000,
+    "TPJ_SU_WOMEN": "      66,693",
+    "TPJ_SU_MEN": "      79,949",
+    "TPJ_SU": "     146,642",
+    "SGI_SU": "   1,250,891",
     "WIWNAME": "대전광역시",
-    "BITPJ_SU": "97,246"
+    "TPR_SU_WOMEN": "  10.56",
+    "SGI_SU_WOMEN": "     631,808",
+    "SGI_SU_MEN": "     619,083",
+    "TPR_SU_MEN": "  12.91"
   },
   {
-    "TATPJ_SU": "29,140",
-    "TPJ_SU": "108,924",
+    "TPR_SU": "  11.91",
+    "WIWID": 3100,
+    "TPJ_SU_WOMEN": "      48,967",
+    "TPJ_SU_MEN": "      62,555",
+    "TPJ_SU": "     111,522",
+    "SGI_SU": "     936,171",
     "WIWNAME": "울산광역시",
-    "BITPJ_SU": "79,784"
+    "TPR_SU_WOMEN": "  10.79",
+    "SGI_SU_WOMEN": "     453,691",
+    "SGI_SU_MEN": "     482,480",
+    "TPR_SU_MEN": "  12.97"
   },
   {
-    "TATPJ_SU": "16,454",
-    "TPJ_SU": "42,131",
+    "TPR_SU": "  13.58",
+    "WIWID": 5100,
+    "TPJ_SU_WOMEN": "      19,565",
+    "TPJ_SU_MEN": "      22,418",
+    "TPJ_SU": "      41,983",
+    "SGI_SU": "     309,134",
     "WIWNAME": "세종특별자치시",
-    "BITPJ_SU": "25,677"
+    "TPR_SU_WOMEN": "  12.53",
+    "SGI_SU_WOMEN": "     156,113",
+    "SGI_SU_MEN": "     153,021",
+    "TPR_SU_MEN": "  14.65"
   },
   {
-    "TATPJ_SU": "401,676",
-    "TPJ_SU": "1,257,730",
+    "TPR_SU": "  10.76",
+    "WIWID": 4100,
+    "TPJ_SU_WOMEN": "     573,306",
+    "TPJ_SU_MEN": "     704,934",
+    "TPJ_SU": "   1,278,240",
+    "SGI_SU": "  11,878,997",
     "WIWNAME": "경기도",
-    "BITPJ_SU": "856,054"
+    "TPR_SU_WOMEN": "   9.66",
+    "SGI_SU_WOMEN": "   5,936,623",
+    "SGI_SU_MEN": "   5,942,374",
+    "TPR_SU_MEN": "  11.86"
   },
   {
-    "TATPJ_SU": "104,437",
-    "TPJ_SU": "246,853",
+    "TPR_SU": "  15.55",
+    "WIWID": 5200,
+    "TPJ_SU_WOMEN": "      92,986",
+    "TPJ_SU_MEN": "     113,785",
+    "TPJ_SU": "     206,771",
+    "SGI_SU": "   1,329,742",
     "WIWNAME": "강원특별자치도",
-    "BITPJ_SU": "142,416"
+    "TPR_SU_WOMEN": "  14.01",
+    "SGI_SU_WOMEN": "     663,479",
+    "SGI_SU_MEN": "     666,263",
+    "TPR_SU_MEN": "  17.08"
   },
   {
-    "TATPJ_SU": "60,437",
-    "TPJ_SU": "185,532",
+    "TPR_SU": "  13.02",
+    "WIWID": 4300,
+    "TPJ_SU_WOMEN": "      81,220",
+    "TPJ_SU_MEN": "     100,622",
+    "TPJ_SU": "     181,842",
+    "SGI_SU": "   1,396,588",
     "WIWNAME": "충청북도",
-    "BITPJ_SU": "125,095"
+    "TPR_SU_WOMEN": "  11.84",
+    "SGI_SU_WOMEN": "     685,978",
+    "SGI_SU_MEN": "     710,610",
+    "TPR_SU_MEN": "  14.16"
   },
   {
-    "TATPJ_SU": "85,575",
-    "TPJ_SU": "243,282",
+    "TPR_SU": "  12.47",
+    "WIWID": 4400,
+    "TPJ_SU_WOMEN": "     101,488",
+    "TPJ_SU_MEN": "     130,118",
+    "TPJ_SU": "     231,606",
+    "SGI_SU": "   1,857,239",
     "WIWNAME": "충청남도",
-    "BITPJ_SU": "157,707"
+    "TPR_SU_WOMEN": "  11.22",
+    "SGI_SU_WOMEN": "     904,454",
+    "SGI_SU_MEN": "     952,785",
+    "TPR_SU_MEN": "  13.66"
   },
   {
-    "TATPJ_SU": "97,500",
-    "TPJ_SU": "313,985",
+    "TPR_SU": "  20.98",
+    "WIWID": 5300,
+    "TPJ_SU_WOMEN": "     153,910",
+    "TPJ_SU_MEN": "     162,879",
+    "TPJ_SU": "     316,789",
+    "SGI_SU": "   1,509,854",
     "WIWNAME": "전북특별자치도",
-    "BITPJ_SU": "216,485"
+    "TPR_SU_WOMEN": "  20.21",
+    "SGI_SU_WOMEN": "     761,455",
+    "SGI_SU_MEN": "     748,399",
+    "TPR_SU_MEN": "  21.76"
   },
   {
-    "TATPJ_SU": "101,785",
-    "TPJ_SU": "370,982",
+    "TPR_SU": "  24.12",
+    "WIWID": 4600,
+    "TPJ_SU_WOMEN": "     186,475",
+    "TPJ_SU_MEN": "     189,430",
+    "TPJ_SU": "     375,905",
+    "SGI_SU": "   1,558,206",
     "WIWNAME": "전라남도",
-    "BITPJ_SU": "269,197"
+    "TPR_SU_WOMEN": "  24.12",
+    "SGI_SU_WOMEN": "     773,225",
+    "SGI_SU_MEN": "     784,981",
+    "TPR_SU_MEN": "  24.13"
   },
   {
-    "TATPJ_SU": "94,737",
-    "TPJ_SU": "287,556",
+    "TPR_SU": "  12.76",
+    "WIWID": 4700,
+    "TPJ_SU_WOMEN": "     127,374",
+    "TPJ_SU_MEN": "     153,804",
+    "TPJ_SU": "     281,178",
+    "SGI_SU": "   2,202,861",
     "WIWNAME": "경상북도",
-    "BITPJ_SU": "192,819"
+    "TPR_SU_WOMEN": "  11.67",
+    "SGI_SU_WOMEN": "   1,091,843",
+    "SGI_SU_MEN": "   1,111,018",
+    "TPR_SU_MEN": "  13.84"
   },
   {
-    "TATPJ_SU": "108,566",
-    "TPJ_SU": "368,868",
+    "TPR_SU": "  13.45",
+    "WIWID": 4800,
+    "TPJ_SU_WOMEN": "     172,599",
+    "TPJ_SU_MEN": "     200,662",
+    "TPJ_SU": "     373,261",
+    "SGI_SU": "   2,775,745",
     "WIWNAME": "경상남도",
-    "BITPJ_SU": "260,302"
+    "TPR_SU_WOMEN": "  12.49",
+    "SGI_SU_WOMEN": "   1,381,615",
+    "SGI_SU_MEN": "   1,394,130",
+    "TPR_SU_MEN": "  14.39"
   },
   {
-    "TATPJ_SU": "31,818",
-    "TPJ_SU": "75,582",
+    "TPR_SU": "  12.99",
+    "WIWID": 4900,
+    "TPJ_SU_WOMEN": "      33,581",
+    "TPJ_SU_MEN": "      39,874",
+    "TPJ_SU": "      73,455",
+    "SGI_SU": "     565,350",
     "WIWNAME": "제주특별자치도",
-    "BITPJ_SU": "43,764"
+    "TPR_SU_WOMEN": "  11.80",
+    "SGI_SU_WOMEN": "     284,663",
+    "SGI_SU_MEN": "     280,687",
+    "TPR_SU_MEN": "  14.21"
   }
 ]
-      
 
 
       
