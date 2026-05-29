@@ -31,7 +31,7 @@ jobs:
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git add election/data/jibang/9/jibang_vote_9.js
+        git add data/jibang/9/jibang_vote_9.js
         
         # 변경사항이 있을 때만 커밋 (없으면 에러 없이 통과)
         git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 [자동화] 선관위 투표율 데이터 갱신" && git push)
