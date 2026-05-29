@@ -5,7 +5,7 @@ from datetime import datetime
 
 # 1. 고정 설정 및 경로 지정
 TARGET_URL = "https://info.nec.go.kr/m/electioninfo/electionInfo_report.json"
-FILE_PATH = "data/jibang/9/jibang_vote_9.js"
+FILE_PATH = "election/data/jibang/9/jibang_vote_9.js"
 
 # 선관위 보안 차단 회피를 위한 최소한의 헤더 설정
 HEADERS = {
