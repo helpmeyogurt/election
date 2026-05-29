@@ -1,7 +1,6 @@
 name: 🗳️ 9회 지선 시군구청장 후보자 자동 수집 시스템
 
 on:
- 
   workflow_dispatch:
     # 깃허브 웹사이트 Actions 탭에서 수동으로 즉시 실행할 수 있는 버튼 활성화
 
