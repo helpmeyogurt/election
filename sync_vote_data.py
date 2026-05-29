@@ -3,7 +3,7 @@ import json
 import requests
 from datetime import datetime, timedelta
 
-# 1. 고정 설정 및 경로 지정 (사장님 피드백 반영 경로 교정)
+# 고정 설정 및 경로 지정
 TARGET_URL = "https://info.nec.go.kr/m/electioninfo/electionInfo_report.json"
 FILE_PATH = "data/jibang/9/jibang_vote_9.js"
 
@@ -24,22 +24,6 @@ def get_current_time_code():
         return "18"
     return f"{current_hour:02d}"
 
-def find_data_list(obj):
-    """🎯 [핵심 알고리즘] 선관위 응답 트리 구조가 바뀌더라도 WIWID나 TPR_SU를 포함한 실제 데이터 리스트를 자동 탐색"""
-    if isinstance(obj, list):
-        if len(obj) > 0 and isinstance(obj[0], dict) and ("WIWID" in obj[0] or "TPR_SU" in obj[0]):
-            return obj
-        for item in obj:
-            res = find_data_list(item)
-            if res:
-                return res
-    elif isinstance(obj, dict):
-        for key, value in obj.items():
-            res = find_data_list(value)
-            if res:
-                return res
-    return None
-
 def fetch_nec_data(time_code):
     payload = {
         "electionId": "0020260603",
@@ -57,18 +41,14 @@ def fetch_nec_data(time_code):
         response.raise_for_status()
         raw_json = response.json()
         
-        # 1차 시도: 기존 예측 기본 구조 파싱
-        if isinstance(raw_json, dict) and "jsonResult" in raw_json and "model" in raw_json["jsonResult"]:
-            model_data = raw_json["jsonResult"]["model"]
-            if isinstance(model_data, list) and len(model_data) > 0:
-                return model_data
+        # 🎯 [핵심 수정]: 보내주신 실제 선관위 데이터의 "jsonResult" -> "body" 구조를 정확하게 파싱합니다.
+        if isinstance(raw_json, dict) and "jsonResult" in raw_json:
+            json_res = raw_json["jsonResult"]
+            if "body" in json_res and isinstance(json_res["body"], list):
+                return json_res["body"]
+            elif "model" in json_res and isinstance(json_res["model"], list):
+                return json_res["model"]
                 
-        # 2차 시도: 응답 구조 유동성에 대응하기 위해 자동 리스트 검색 알고리즘 가동
-        found = find_data_list(raw_json)
-        if found:
-            return found
-            
-        # 둘 다 실패 시 원본 데이터를 그대로 넘겨 디버깅 로그에 출력하도록 함
         return raw_json
     except Exception as e:
         print(f"[{datetime.now()}] 선관위 API 통신 실패 (시간코드: {time_code}): {e}")
@@ -103,29 +83,24 @@ def main():
     time_code = get_current_time_code()
     print(f"[{datetime.now()}] 투표율 데이터 수집 프로세스 가동 (타겟 시간: {time_code}시)")
     
-    raw_data = fetch_nec_data(time_code)
+    new_hour_data = fetch_nec_data(time_code)
     
-    # 🛑 상세 예외 검증 및 친절한 디버깅 분기문
-    if raw_data is None:
+    if new_hour_data is None:
         print("선관위 API 서버로부터 응답 데이터를 받지 못했습니다.")
         return
         
-    if isinstance(raw_data, list) and len(raw_data) == 0:
+    if isinstance(new_hour_data, list) and len(new_hour_data) == 0:
         print(f"ℹ️ 선관위 서버에 아직 {time_code}시 데이터가 최종 업데이트되지 않았습니다. (빈 배열 반환 상태)")
-        print("잠시 후 다음 정각 스케줄(또는 수동 실행) 시 자동으로 이어서 가져옵니다.")
         return
         
-    if not isinstance(raw_data, list):
-        print("⚠️ 선관위 응답 결과가 리스트 형식이 아닙니다. 아래 디버깅 리포트를 확인해 주세요.")
-        print(f"응답 데이터의 타입: {type(raw_data)}")
-        print(f"응답 데이터 내용(일부): {str(raw_data)[:1000]}")
+    if not isinstance(new_hour_data, list):
+        print("⚠️ 선관위 응답 결과가 리스트 형식이 아닙니다. 아래 데이터 구조를 확인하세요.")
+        print(f"내용(일부): {str(new_hour_data)[:500]}")
         return
 
-    # 정상적인 지역별 데이터 리스트 확보 성공
-    new_hour_data = raw_data
     current_db = load_existing_js_file()
     
-    # 중복 체크 공정 (숫자형/문자형 WIWID 완벽 방어)
+    # 중복 체크 공정 (WIWID가 숫자 타입인 경우까지 완벽 처리)
     try:
         new_seoul_tuyul = next(item["TPR_SU"] for item in new_hour_data if str(item.get("WIWID")) == "1100" or item.get("WIWNAME") == "서울특별시")
     except StopIteration:
