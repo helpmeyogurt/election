@@ -4,19 +4,19 @@
             "name": 0,
             "nametxt": "전국 합계",
             "SUNSU": "42,917,144",
-            "TUSU": "19,880,200",
-            "TUYUL": "46.3",
+            "TUSU": "23,298,026",
+            "TUYUL": "54.3",
             "data": [
                 {
                     "name": "더불어민주당",
-                    "value": 123,
+                    "value": 120,
                     "itemStyle": {
                         "color": "#152484"
                     }
                 },
                 {
                     "name": "국민의힘",
-                    "value": 88,
+                    "value": 91,
                     "itemStyle": {
                         "color": "#E61E2B"
                     }
@@ -184,7 +184,7 @@
         },
         {
             "name": 1103,
-            "value": 1,
+            "value": 2,
             "nametxt": "용산구",
             "SDNAME": "서울특별시"
         },
@@ -196,7 +196,7 @@
         },
         {
             "name": 1105,
-            "value": 1,
+            "value": 2,
             "nametxt": "광진구",
             "SDNAME": "서울특별시"
         },
@@ -742,7 +742,7 @@
         },
         {
             "name": 4125,
-            "value": 2,
+            "value": 1,
             "nametxt": "구리시",
             "SDNAME": "경기도"
         },
@@ -910,7 +910,7 @@
         },
         {
             "name": 4303,
-            "value": 1,
+            "value": 2,
             "nametxt": "충주시",
             "SDNAME": "충청북도"
         },
@@ -976,7 +976,7 @@
         },
         {
             "name": 4402,
-            "value": 1,
+            "value": 2,
             "nametxt": "공주시",
             "SDNAME": "충청남도"
         },
