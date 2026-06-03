@@ -4,6 +4,30 @@ import json
 # 기존에 작성해두신 uncomma, comma, PARTY_COLORS 함수/변수가 
 # 이 파일 상단이나 다른 곳에 정의되어 있어야 정상 작동합니다.
 
+PARTY_COLORS = {
+    "더불어민주당": "#152484", "국민의힘": "#E61E2B", "더불어민주연합": "#152484", "국민의미래": "#E61E2B",
+    "녹색정의당": "#007C36", "새로운미래": "#46bbbd", "개혁신당": "#FF7920", "진보당": "#D6001C",
+    "자유통일당": "#E24A49", "조국혁신당": "#004099", "기본소득당": "#00D2C3", "무소속": "#8b8b8b",
+    "국민의당": "#EA5504", "미래통합당": "#EF426F", "미래한국당": "#EF426F", "더불어시민당": "#006CB7",
+    "정의당": "#ffca05", "열린민주당": "#003E98", "소나무당": "#1A246B", "우리공화당": "#009944",
+    "한국국민당": "#013588", "새진보연합": "#00d2c3", "없음": "#8b8b8b"
+}
+
+PARTY_MAP_INDEX = {
+    "더불어민주당": 1, "더불어민주연합": 1, "더불어시민당": 1,
+    "국민의힘": 2, "국민의미래": 2, "미래통합당": 2,
+    "정의당": 3, "녹색정의당": 3, "조국혁신당": 4, "진보당": 5, "개혁신당": 6,
+    "새로운미래": 9, "무소속": 9
+}
+
+def uncomma(value_str):
+    if not value_str: return 0
+    try: return int(str(value_str).replace(",", ""))
+    except ValueError: return 0
+
+def comma(value_int):
+    return f"{value_int:,}"
+
 def generate_national_summary(input_dir, output_filepath):
     # 1100(서울)부터 5300(제주)까지의 시도 코드 매핑 정보 (예시 포맷 기준 데이터 보완용)
     city_meta = {
@@ -11,7 +35,6 @@ def generate_national_summary(input_dir, output_filepath):
         2600: {"nametxt": "부산", "center": [128.9251, 35.139], "radius": 12},
         # ... 필요에 따라 나머지 시도 메타데이터 추가 가능
     }
-
     national_list = []
     
     # 전체 합산을 위한 변수
