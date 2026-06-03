@@ -87,8 +87,8 @@ def add_sgg_data_processor(raw_json, city_code, city_name):
     total_tusu_sum = 0
 
     for item in raw_items:
-        wiw_name_raw = item.get("WIWNAME", "").strip()
-        sgg_name_raw = item.get("SGGNAME", "").strip()
+        wiw_name_raw = str(item.get("WIWNAME") or "").strip()
+        sgg_name_raw = str(item.get("SGGNAME") or "").strip()
 
         # 🟢 [수정] 선거 종류(ELEC_CODE)에 따른 데이터 필터링 분기 처리
         if ELEC_CODE == "3":
@@ -147,7 +147,7 @@ def add_sgg_data_processor(raw_json, city_code, city_name):
             if not hubo_name: 
                 continue
             
-            party_name = item.get(f"JD{suffix}", "무소속").strip()
+            party_name = str(item.get(f"JD{suffix}") or "무소속").strip()
             dugsu = uncomma(item.get(f"DUGSU{suffix}", "0"))
             
             try:
