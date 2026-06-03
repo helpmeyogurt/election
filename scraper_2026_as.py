@@ -155,13 +155,13 @@ def process_and_transform(raw_json):
                 "itemStyle": c["itemStyle"]
             })
 
-       # 4. 1위 / 2위 정보 분석 및 격차 기록 (win["num"] -> win["orig_num"] 으로 수정)
+        # 4. 1위 / 2위 정보 분석 및 격차 기록 (f-string 내부 따옴표 중첩 해결)
         if candidates:
             win = candidates[0]
             sgg_object.update({
-                "WINNUM": win["orig_num"],  # 💡 여기를 'num'에서 'orig_num'으로 수정!
+                "WINNUM": win["orig_num"],
                 "WINDUGSU": comma(win["pyo"]),
-                "WINDUGYUL": f"{win["value"]:.2f}",
+                "WINDUGYUL": f"{win['value']:.2f}",  # 💡 "value" 를 'value' 로 변경!
                 "WINHUBO": win["name"],
                 "WINJD": win["party"],
                 "value": PARTY_MAP_INDEX.get(win["party"], 9) 
@@ -169,13 +169,13 @@ def process_and_transform(raw_json):
             
             if len(candidates) >= 2:
                 sec = candidates[1]
-                dugyul_cha = f"{(win["value"] - sec["value"]):.2f}" if not is_before_counting else "0.00"
+                dugyul_cha = f"{(win['value'] - sec['value']):.2f}" if not is_before_counting else "0.00"
                 dugsu_cha = comma(win["pyo"] - sec["pyo"]) if not is_before_counting else "0"
                 
                 sgg_object.update({
-                    "SECNUM": sec["orig_num"],  # 💡 여기도 'num'에서 'orig_num'으로 수정!
+                    "SECNUM": sec["orig_num"],
                     "SECDUGSU": comma(sec["pyo"]),
-                    "SECDUGYUL": f"{sec["value"]:.2f}",
+                    "SECDUGYUL": f"{sec['value']:.2f}",  # 💡 "value" 를 'value' 로 변경!
                     "SECHUBO": sec["name"],
                     "SECJD": sec["party"],
                     "DUGYULCHA": dugyul_cha,
@@ -185,7 +185,7 @@ def process_and_transform(raw_json):
                 sgg_object.update({
                     "SECNUM": 0, "SECDUGSU": "0", "SECDUGYUL": "0.00",
                     "SECHUBO": "", "SECJD": "",
-                    "DUGYULCHA": f"{win["value"]:.2f}", "DUGSUCHA": comma(win["pyo"])
+                    "DUGYULCHA": f"{win['value']:.2f}", "DUGSUCHA": comma(win["pyo"])
                 })
 
         transformed_result[sgg_name] = sgg_object
