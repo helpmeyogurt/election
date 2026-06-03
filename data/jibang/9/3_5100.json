@@ -1,0 +1,140 @@
+{
+    "세종특별자치시": [
+        {
+            "SDID": 5100,
+            "SDNAME": "세종특별자치시",
+            "SGGID": "0",
+            "SGGNAME": "합계",
+            "WIWID": 0,
+            "WIWNAME": "합계",
+            "SUNSU": "309,134",
+            "TUSU": "1,382",
+            "TUYUL": "0.4",
+            "GPYUL": "0.72%",
+            "name": 0,
+            "nametxt": "합계",
+            "data": [
+                {
+                    "value": 51.13,
+                    "name": "조상호",
+                    "party": "더불어민주당",
+                    "pyo": 701,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 45.36,
+                    "name": "최민호",
+                    "party": "국민의힘",
+                    "pyo": 622,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 3.5,
+                    "name": "하헌휘",
+                    "party": "개혁신당",
+                    "pyo": 48,
+                    "itemStyle": {
+                        "color": "#FF7920"
+                    }
+                }
+            ],
+            "HUBO01": "조상호",
+            "JD01": "더불어민주당",
+            "DUGSU01": "701",
+            "DUGYUL01": "51.13",
+            "HUBO02": "최민호",
+            "JD02": "국민의힘",
+            "DUGSU02": "622",
+            "DUGYUL02": "45.36",
+            "HUBO03": "하헌휘",
+            "JD03": "개혁신당",
+            "DUGSU03": "48",
+            "DUGYUL03": "3.50",
+            "WINNUM": 1,
+            "WINDUGSU": "701",
+            "WINDUGYUL": "51.13",
+            "WINHUBO": "조상호",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "622",
+            "SECDUGYUL": "45.36",
+            "SECHUBO": "최민호",
+            "SECJD": "국민의힘",
+            "DUGYULCHA": "5.77",
+            "DUGSUCHA": "79",
+            "value": 1
+        },
+        {
+            "SDID": 5100,
+            "SDNAME": "세종특별자치시",
+            "SGGID": "0",
+            "SGGNAME": "세종특별자치시",
+            "WIWID": 0,
+            "WIWNAME": "세종특별자치시",
+            "SUNSU": "309,134",
+            "TUSU": "1,382",
+            "TUYUL": "0.4",
+            "GPYUL": "0.72%",
+            "name": 0,
+            "nametxt": "세종특별자치시",
+            "data": [
+                {
+                    "value": 51.13,
+                    "name": "조상호",
+                    "party": "더불어민주당",
+                    "pyo": 701,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 45.36,
+                    "name": "최민호",
+                    "party": "국민의힘",
+                    "pyo": 622,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 3.5,
+                    "name": "하헌휘",
+                    "party": "개혁신당",
+                    "pyo": 48,
+                    "itemStyle": {
+                        "color": "#FF7920"
+                    }
+                }
+            ],
+            "HUBO01": "조상호",
+            "JD01": "더불어민주당",
+            "DUGSU01": "701",
+            "DUGYUL01": "51.13",
+            "HUBO02": "최민호",
+            "JD02": "국민의힘",
+            "DUGSU02": "622",
+            "DUGYUL02": "45.36",
+            "HUBO03": "하헌휘",
+            "JD03": "개혁신당",
+            "DUGSU03": "48",
+            "DUGYUL03": "3.50",
+            "WINNUM": 1,
+            "WINDUGSU": "701",
+            "WINDUGYUL": "51.13",
+            "WINHUBO": "조상호",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "622",
+            "SECDUGYUL": "45.36",
+            "SECHUBO": "최민호",
+            "SECJD": "국민의힘",
+            "DUGYULCHA": "5.77",
+            "DUGSUCHA": "79",
+            "value": 1
+        }
+    ]
+}

@@ -1,0 +1,208 @@
+{
+    "제주특별자치도": [
+        {
+            "SDID": 4900,
+            "SDNAME": "제주특별자치도",
+            "SGGID": "0",
+            "SGGNAME": "합계",
+            "WIWID": 0,
+            "WIWNAME": "합계",
+            "SUNSU": "565,350",
+            "TUSU": "24,360",
+            "TUYUL": "4.3",
+            "GPYUL": "7.63%",
+            "name": 0,
+            "nametxt": "합계",
+            "data": [
+                {
+                    "value": 55.21,
+                    "name": "위성곤",
+                    "party": "더불어민주당",
+                    "pyo": 13243,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 41.58,
+                    "name": "문성유",
+                    "party": "국민의힘",
+                    "pyo": 9973,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 3.19,
+                    "name": "양윤녕",
+                    "party": "무소속",
+                    "pyo": 767,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                }
+            ],
+            "HUBO01": "위성곤",
+            "JD01": "더불어민주당",
+            "DUGSU01": "13,243",
+            "DUGYUL01": "55.21",
+            "HUBO02": "문성유",
+            "JD02": "국민의힘",
+            "DUGSU02": "9,973",
+            "DUGYUL02": "41.58",
+            "HUBO03": "양윤녕",
+            "JD03": "무소속",
+            "DUGSU03": "767",
+            "DUGYUL03": "3.19",
+            "WINNUM": 1,
+            "WINDUGSU": "13,243",
+            "WINDUGYUL": "55.21",
+            "WINHUBO": "위성곤",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "9,973",
+            "SECDUGYUL": "41.58",
+            "SECHUBO": "문성유",
+            "SECJD": "국민의힘",
+            "DUGYULCHA": "13.63",
+            "DUGSUCHA": "3,270",
+            "value": 1
+        },
+        {
+            "SDID": 4900,
+            "SDNAME": "제주특별자치도",
+            "SGGID": "0",
+            "SGGNAME": "제주시",
+            "WIWID": 0,
+            "WIWNAME": "제주시",
+            "SUNSU": "410,978",
+            "TUSU": "19,163",
+            "TUYUL": "4.7",
+            "GPYUL": "8.48%",
+            "name": 0,
+            "nametxt": "제주시",
+            "data": [
+                {
+                    "value": 54.84,
+                    "name": "위성곤",
+                    "party": "더불어민주당",
+                    "pyo": 10371,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 42.04,
+                    "name": "문성유",
+                    "party": "국민의힘",
+                    "pyo": 7952,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 3.1,
+                    "name": "양윤녕",
+                    "party": "무소속",
+                    "pyo": 588,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                }
+            ],
+            "HUBO01": "위성곤",
+            "JD01": "더불어민주당",
+            "DUGSU01": "10,371",
+            "DUGYUL01": "54.84",
+            "HUBO02": "문성유",
+            "JD02": "국민의힘",
+            "DUGSU02": "7,952",
+            "DUGYUL02": "42.04",
+            "HUBO03": "양윤녕",
+            "JD03": "무소속",
+            "DUGSU03": "588",
+            "DUGYUL03": "3.10",
+            "WINNUM": 1,
+            "WINDUGSU": "10,371",
+            "WINDUGYUL": "54.84",
+            "WINHUBO": "위성곤",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "7,952",
+            "SECDUGYUL": "42.04",
+            "SECHUBO": "문성유",
+            "SECJD": "국민의힘",
+            "DUGYULCHA": "12.80",
+            "DUGSUCHA": "2,419",
+            "value": 1
+        },
+        {
+            "SDID": 4900,
+            "SDNAME": "제주특별자치도",
+            "SGGID": "0",
+            "SGGNAME": "서귀포시",
+            "WIWID": 0,
+            "WIWNAME": "서귀포시",
+            "SUNSU": "154,372",
+            "TUSU": "5,197",
+            "TUYUL": "3.4",
+            "GPYUL": "5.58%",
+            "name": 0,
+            "nametxt": "서귀포시",
+            "data": [
+                {
+                    "value": 56.62,
+                    "name": "위성곤",
+                    "party": "더불어민주당",
+                    "pyo": 2872,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 39.84,
+                    "name": "문성유",
+                    "party": "국민의힘",
+                    "pyo": 2021,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 3.52,
+                    "name": "양윤녕",
+                    "party": "무소속",
+                    "pyo": 179,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                }
+            ],
+            "HUBO01": "위성곤",
+            "JD01": "더불어민주당",
+            "DUGSU01": "2,872",
+            "DUGYUL01": "56.62",
+            "HUBO02": "문성유",
+            "JD02": "국민의힘",
+            "DUGSU02": "2,021",
+            "DUGYUL02": "39.84",
+            "HUBO03": "양윤녕",
+            "JD03": "무소속",
+            "DUGSU03": "179",
+            "DUGYUL03": "3.52",
+            "WINNUM": 1,
+            "WINDUGSU": "2,872",
+            "WINDUGYUL": "56.62",
+            "WINHUBO": "위성곤",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "2,021",
+            "SECDUGYUL": "39.84",
+            "SECHUBO": "문성유",
+            "SECJD": "국민의힘",
+            "DUGYULCHA": "16.78",
+            "DUGSUCHA": "851",
+            "value": 1
+        }
+    ]
+}
