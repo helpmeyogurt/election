@@ -33,15 +33,14 @@ CITIES = [
     {"CODE": 2900, "NAME": "광주광역시"},
     {"CODE": 3000, "NAME": "대전광역시"},
     {"CODE": 3100, "NAME": "울산광역시"},
-    {"CODE": 5100, "NAME": "세종특별자치시"},
     {"CODE": 4100, "NAME": "경기도"},
     {"CODE": 5200, "NAME": "강원특별자치도"},
     {"CODE": 4300, "NAME": "충청북도"},
     {"CODE": 4400, "NAME": "충청남도"},
     {"CODE": 5300, "NAME": "전북특별자치도"},
+    {"CODE": 4600, "NAME": "전라남도"},
     {"CODE": 4700, "NAME": "경상북도"},
-    {"CODE": 4800, "NAME": "경상남도"},
-    {"CODE": 4900, "NAME": "제주특별자치도"},
+    {"CODE": 4800, "NAME": "경상남도"}
 ]
 
 def main():
@@ -58,8 +57,9 @@ def main():
         payload = {
             "electionId": "0020260603",
             "secondMenuId": "VCCP09",
-            "electionCode": "3",
+            "electionCode": "4",
             "cityCode": code_str,
+            "sggCityCode": "0",
             "statementId": "VCCP09_#3",
         }
 
@@ -81,7 +81,7 @@ def main():
                 if "jsonResult" in raw_json and raw_json["jsonResult"].get("success") == "false":
                     print(f"⚠️ [{name_str}] API 내부 오류 메시지: {raw_json['jsonResult'].get('message')}", flush=True)
 
-                file_path = os.path.join(output_dir, f"ori_3_{code_str}.json")
+                file_path = os.path.join(output_dir, f"ori_4_{code_str}.json")
                 with open(file_path, "w", encoding="utf-8") as f:
                     json.dump(raw_json, f, ensure_ascii=False, indent=4)
 
