@@ -8,8 +8,8 @@
             "WIWID": 0,
             "WIWNAME": "합계",
             "SUNSU": "1,329,742",
-            "TUSU": "853,433",
-            "TUYUL": "64.2",
+            "TUSU": "858,162",
+            "TUYUL": "64.5",
             "data": [
                 {
                     "name": "더불어민주당",
@@ -35,9 +35,9 @@
             "WIWID": 5201,
             "WIWNAME": "춘천시",
             "SUNSU": "247,875",
-            "TUSU": "157,383",
+            "TUSU": "157,442",
             "TUYUL": "63.5",
-            "GPYUL": "99.98%",
+            "GPYUL": "100.0%",
             "name": 5201,
             "nametxt": "춘천시",
             "data": [
@@ -45,7 +45,7 @@
                     "value": 55.81,
                     "name": "육동한",
                     "party": "더불어민주당",
-                    "pyo": 86515,
+                    "pyo": 86552,
                     "itemStyle": {
                         "color": "#152484"
                     }
@@ -54,7 +54,7 @@
                     "value": 44.18,
                     "name": "정광열",
                     "party": "국민의힘",
-                    "pyo": 68493,
+                    "pyo": 68511,
                     "itemStyle": {
                         "color": "#E61E2B"
                     }
@@ -62,24 +62,24 @@
             ],
             "HUBO01": "육동한",
             "JD01": "더불어민주당",
-            "DUGSU01": "86,515",
+            "DUGSU01": "86,552",
             "DUGYUL01": "55.81",
             "HUBO02": "정광열",
             "JD02": "국민의힘",
-            "DUGSU02": "68,493",
+            "DUGSU02": "68,511",
             "DUGYUL02": "44.18",
             "WINNUM": 1,
-            "WINDUGSU": "86,515",
+            "WINDUGSU": "86,552",
             "WINDUGYUL": "55.81",
             "WINHUBO": "육동한",
             "WINJD": "더불어민주당",
             "SECNUM": 2,
-            "SECDUGSU": "68,493",
+            "SECDUGSU": "68,511",
             "SECDUGYUL": "44.18",
             "SECHUBO": "정광열",
             "SECJD": "국민의힘",
             "DUGYULCHA": "11.63",
-            "DUGSUCHA": "18,022",
+            "DUGSUCHA": "18,041",
             "value": 1
         },
         {
@@ -90,26 +90,26 @@
             "WIWID": 5202,
             "WIWNAME": "원주시",
             "SUNSU": "313,604",
-            "TUSU": "181,057",
-            "TUYUL": "57.7",
-            "GPYUL": "97.61%",
+            "TUSU": "185,713",
+            "TUYUL": "59.2",
+            "GPYUL": "99.98%",
             "name": 5202,
             "nametxt": "원주시",
             "data": [
                 {
-                    "value": 53.91,
+                    "value": 54.02,
                     "name": "구자열",
                     "party": "더불어민주당",
-                    "pyo": 96415,
+                    "pyo": 99070,
                     "itemStyle": {
                         "color": "#152484"
                     }
                 },
                 {
-                    "value": 46.08,
+                    "value": 45.97,
                     "name": "원강수",
                     "party": "국민의힘",
-                    "pyo": 82408,
+                    "pyo": 84317,
                     "itemStyle": {
                         "color": "#E61E2B"
                     }
@@ -117,24 +117,24 @@
             ],
             "HUBO01": "구자열",
             "JD01": "더불어민주당",
-            "DUGSU01": "96,415",
-            "DUGYUL01": "53.91",
+            "DUGSU01": "99,070",
+            "DUGYUL01": "54.02",
             "HUBO02": "원강수",
             "JD02": "국민의힘",
-            "DUGSU02": "82,408",
-            "DUGYUL02": "46.08",
+            "DUGSU02": "84,317",
+            "DUGYUL02": "45.97",
             "WINNUM": 1,
-            "WINDUGSU": "96,415",
-            "WINDUGYUL": "53.91",
+            "WINDUGSU": "99,070",
+            "WINDUGYUL": "54.02",
             "WINHUBO": "구자열",
             "WINJD": "더불어민주당",
             "SECNUM": 2,
-            "SECDUGSU": "82,408",
-            "SECDUGYUL": "46.08",
+            "SECDUGSU": "84,317",
+            "SECDUGYUL": "45.97",
             "SECHUBO": "원강수",
             "SECJD": "국민의힘",
-            "DUGYULCHA": "7.83",
-            "DUGSUCHA": "14,007",
+            "DUGYULCHA": "8.05",
+            "DUGSUCHA": "14,753",
             "value": 1
         },
         {
@@ -213,9 +213,9 @@
             "WIWID": 5204,
             "WIWNAME": "동해시",
             "SUNSU": "74,929",
-            "TUSU": "47,093",
+            "TUSU": "47,107",
             "TUYUL": "62.9",
-            "GPYUL": "99.96%",
+            "GPYUL": "100.0%",
             "name": 5204,
             "nametxt": "동해시",
             "data": [
@@ -223,7 +223,7 @@
                     "value": 51.61,
                     "name": "이정학",
                     "party": "더불어민주당",
-                    "pyo": 23937,
+                    "pyo": 23943,
                     "itemStyle": {
                         "color": "#152484"
                     }
@@ -232,7 +232,7 @@
                     "value": 44.89,
                     "name": "김기하",
                     "party": "국민의힘",
-                    "pyo": 20819,
+                    "pyo": 20826,
                     "itemStyle": {
                         "color": "#E61E2B"
                     }
@@ -249,28 +249,28 @@
             ],
             "HUBO01": "이정학",
             "JD01": "더불어민주당",
-            "DUGSU01": "23,937",
+            "DUGSU01": "23,943",
             "DUGYUL01": "51.61",
             "HUBO02": "김기하",
             "JD02": "국민의힘",
-            "DUGSU02": "20,819",
+            "DUGSU02": "20,826",
             "DUGYUL02": "44.89",
             "HUBO03": "김홍수",
             "JD03": "개혁신당",
             "DUGSU03": "1,618",
             "DUGYUL03": "3.48",
             "WINNUM": 1,
-            "WINDUGSU": "23,937",
+            "WINDUGSU": "23,943",
             "WINDUGYUL": "51.61",
             "WINHUBO": "이정학",
             "WINJD": "더불어민주당",
             "SECNUM": 2,
-            "SECDUGSU": "20,819",
+            "SECDUGSU": "20,826",
             "SECDUGYUL": "44.89",
             "SECHUBO": "김기하",
             "SECJD": "국민의힘",
             "DUGYULCHA": "6.72",
-            "DUGSUCHA": "3,118",
+            "DUGSUCHA": "3,117",
             "value": 1
         },
         {
@@ -406,7 +406,7 @@
             "SUNSU": "54,529",
             "TUSU": "37,600",
             "TUYUL": "69.0",
-            "GPYUL": "100.00%",
+            "GPYUL": "100.0%",
             "name": 5205,
             "nametxt": "삼척시",
             "data": [

@@ -8,8 +8,8 @@
             "WIWID": 0,
             "WIWNAME": "합계",
             "SUNSU": "1,509,854",
-            "TUSU": "941,822",
-            "TUYUL": "62.4",
+            "TUSU": "946,674",
+            "TUYUL": "62.7",
             "data": [
                 {
                     "name": "더불어민주당",
@@ -28,35 +28,35 @@
             "WIWID": 5301,
             "WIWNAME": "전주시",
             "SUNSU": "534,273",
-            "TUSU": "312,446",
-            "TUYUL": "58.5",
-            "GPYUL": "98.50%",
+            "TUSU": "317,298",
+            "TUYUL": "59.4",
+            "GPYUL": "100.0%",
             "name": 5301,
             "nametxt": "전주시",
             "data": [
                 {
-                    "value": 70.08,
+                    "value": 70.13,
                     "name": "조지훈",
                     "party": "더불어민주당",
-                    "pyo": 210845,
+                    "pyo": 214203,
                     "itemStyle": {
                         "color": "#152484"
                     }
                 },
                 {
-                    "value": 22.41,
+                    "value": 22.34,
                     "name": "강성희",
                     "party": "진보당",
-                    "pyo": 67423,
+                    "pyo": 68252,
                     "itemStyle": {
                         "color": "#D6001C"
                     }
                 },
                 {
-                    "value": 7.5,
+                    "value": 7.52,
                     "name": "김광종",
                     "party": "무소속",
-                    "pyo": 22563,
+                    "pyo": 22972,
                     "itemStyle": {
                         "color": "#8b8b8b"
                     }
@@ -64,28 +64,28 @@
             ],
             "HUBO01": "조지훈",
             "JD01": "더불어민주당",
-            "DUGSU01": "210,845",
-            "DUGYUL01": "70.08",
+            "DUGSU01": "214,203",
+            "DUGYUL01": "70.13",
             "HUBO02": "강성희",
             "JD02": "진보당",
-            "DUGSU02": "67,423",
-            "DUGYUL02": "22.41",
+            "DUGSU02": "68,252",
+            "DUGYUL02": "22.34",
             "HUBO03": "김광종",
             "JD03": "무소속",
-            "DUGSU03": "22,563",
-            "DUGYUL03": "7.50",
+            "DUGSU03": "22,972",
+            "DUGYUL03": "7.52",
             "WINNUM": 1,
-            "WINDUGSU": "210,845",
-            "WINDUGYUL": "70.08",
+            "WINDUGSU": "214,203",
+            "WINDUGYUL": "70.13",
             "WINHUBO": "조지훈",
             "WINJD": "더불어민주당",
             "SECNUM": 2,
-            "SECDUGSU": "67,423",
-            "SECDUGYUL": "22.41",
+            "SECDUGSU": "68,252",
+            "SECDUGYUL": "22.34",
             "SECHUBO": "강성희",
             "SECJD": "진보당",
-            "DUGYULCHA": "47.67",
-            "DUGSUCHA": "143,422",
+            "DUGYULCHA": "47.79",
+            "DUGSUCHA": "145,951",
             "value": 1
         },
         {
@@ -98,7 +98,7 @@
             "SUNSU": "222,212",
             "TUSU": "128,572",
             "TUYUL": "57.9",
-            "GPYUL": "99.98%",
+            "GPYUL": "100.0%",
             "name": 5303,
             "nametxt": "군산시",
             "data": [
@@ -166,7 +166,7 @@
             "SUNSU": "235,473",
             "TUSU": "137,049",
             "TUYUL": "58.2",
-            "GPYUL": "99.99%",
+            "GPYUL": "100.0%",
             "name": 5305,
             "nametxt": "익산시",
             "data": [

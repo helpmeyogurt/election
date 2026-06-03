@@ -8,7 +8,7 @@
             "WIWID": 0,
             "WIWNAME": "합계",
             "SUNSU": "1,558,206",
-            "TUSU": "1,024,252",
+            "TUSU": "1,024,312",
             "TUYUL": "65.7",
             "data": [
                 {
@@ -191,17 +191,17 @@
             "WIWID": 4604,
             "WIWNAME": "순천시",
             "SUNSU": "234,933",
-            "TUSU": "154,203",
-            "TUYUL": "65.6",
-            "GPYUL": "99.96%",
+            "TUSU": "154,263",
+            "TUYUL": "65.7",
+            "GPYUL": "100.0%",
             "name": 4604,
             "nametxt": "순천시",
             "data": [
                 {
-                    "value": 46.84,
+                    "value": 46.85,
                     "name": "손훈모",
                     "party": "더불어민주당",
-                    "pyo": 71261,
+                    "pyo": 71290,
                     "itemStyle": {
                         "color": "#152484"
                     }
@@ -210,7 +210,7 @@
                     "value": 12.37,
                     "name": "이성수",
                     "party": "진보당",
-                    "pyo": 18830,
+                    "pyo": 18834,
                     "itemStyle": {
                         "color": "#D6001C"
                     }
@@ -219,7 +219,7 @@
                     "value": 40.77,
                     "name": "노관규",
                     "party": "무소속",
-                    "pyo": 62016,
+                    "pyo": 62040,
                     "itemStyle": {
                         "color": "#8b8b8b"
                     }
@@ -227,28 +227,28 @@
             ],
             "HUBO01": "손훈모",
             "JD01": "더불어민주당",
-            "DUGSU01": "71,261",
-            "DUGYUL01": "46.84",
+            "DUGSU01": "71,290",
+            "DUGYUL01": "46.85",
             "HUBO02": "이성수",
             "JD02": "진보당",
-            "DUGSU02": "18,830",
+            "DUGSU02": "18,834",
             "DUGYUL02": "12.37",
             "HUBO03": "노관규",
             "JD03": "무소속",
-            "DUGSU03": "62,016",
+            "DUGSU03": "62,040",
             "DUGYUL03": "40.77",
             "WINNUM": 1,
-            "WINDUGSU": "71,261",
-            "WINDUGYUL": "46.84",
+            "WINDUGSU": "71,290",
+            "WINDUGYUL": "46.85",
             "WINHUBO": "손훈모",
             "WINJD": "더불어민주당",
             "SECNUM": 3,
-            "SECDUGSU": "62,016",
+            "SECDUGSU": "62,040",
             "SECDUGYUL": "40.77",
             "SECHUBO": "노관규",
             "SECJD": "무소속",
-            "DUGYULCHA": "6.07",
-            "DUGSUCHA": "9,245",
+            "DUGYULCHA": "6.08",
+            "DUGSUCHA": "9,250",
             "value": 1
         },
         {
