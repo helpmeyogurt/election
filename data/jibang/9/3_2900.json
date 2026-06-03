@@ -4,15 +4,2553 @@
             "SDID": 0,
             "SDNAME": "소계",
             "SGGID": "0",
-            "SGGNAME": "전남광주통합특별시",
+            "SGGNAME": "합계",
             "WIWID": 0,
-            "WIWNAME": "전남광주통합특별시",
+            "WIWNAME": "합계",
             "SUNSU": "2,747,725",
             "TUSU": "0",
             "TUYUL": "0.0",
             "GPYUL": "0.00%",
             "name": 0,
-            "nametxt": "전남광주통합특별시",
+            "nametxt": "합계",
+            "data": [
+                {
+                    "value": 0.0,
+                    "name": "민형배",
+                    "party": "더불어민주당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "이정현",
+                    "party": "국민의힘",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "이종욱",
+                    "party": "진보당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#D6001C"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "강은미",
+                    "party": "정의당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "김광만",
+                    "party": "무소속",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                }
+            ],
+            "HUBO01": "민형배",
+            "JD01": "더불어민주당",
+            "DUGSU01": "0",
+            "DUGYUL01": "0.00",
+            "HUBO02": "이정현",
+            "JD02": "국민의힘",
+            "DUGSU02": "0",
+            "DUGYUL02": "0.00",
+            "HUBO03": "이종욱",
+            "JD03": "진보당",
+            "DUGSU03": "0",
+            "DUGYUL03": "0.00",
+            "HUBO04": "강은미",
+            "JD04": "정의당",
+            "DUGSU04": "0",
+            "DUGYUL04": "0.00",
+            "HUBO05": "김광만",
+            "JD05": "무소속",
+            "DUGSU05": "0",
+            "DUGYUL05": "0.00",
+            "WINNUM": 1,
+            "WINDUGSU": "0",
+            "WINDUGYUL": "0.00",
+            "WINHUBO": "민형배",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "0",
+            "SECDUGYUL": "0.00",
+            "SECHUBO": "이정현",
+            "SECJD": "국민의힘",
+            "DUGYULCHA": "0.00",
+            "DUGSUCHA": "0",
+            "value": 1
+        },
+        {
+            "SDID": 2900,
+            "SDNAME": "광주광역시",
+            "SGGID": "0",
+            "SGGNAME": "동구",
+            "WIWID": 0,
+            "WIWNAME": "동구",
+            "SUNSU": "92,274",
+            "TUSU": "0",
+            "TUYUL": "0.0",
+            "GPYUL": "0.00%",
+            "name": 0,
+            "nametxt": "동구",
+            "data": [
+                {
+                    "value": 0.0,
+                    "name": "민형배",
+                    "party": "더불어민주당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "이정현",
+                    "party": "국민의힘",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "이종욱",
+                    "party": "진보당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#D6001C"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "강은미",
+                    "party": "정의당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "김광만",
+                    "party": "무소속",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                }
+            ],
+            "HUBO01": "민형배",
+            "JD01": "더불어민주당",
+            "DUGSU01": "0",
+            "DUGYUL01": "0.00",
+            "HUBO02": "이정현",
+            "JD02": "국민의힘",
+            "DUGSU02": "0",
+            "DUGYUL02": "0.00",
+            "HUBO03": "이종욱",
+            "JD03": "진보당",
+            "DUGSU03": "0",
+            "DUGYUL03": "0.00",
+            "HUBO04": "강은미",
+            "JD04": "정의당",
+            "DUGSU04": "0",
+            "DUGYUL04": "0.00",
+            "HUBO05": "김광만",
+            "JD05": "무소속",
+            "DUGSU05": "0",
+            "DUGYUL05": "0.00",
+            "WINNUM": 1,
+            "WINDUGSU": "0",
+            "WINDUGYUL": "0.00",
+            "WINHUBO": "민형배",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "0",
+            "SECDUGYUL": "0.00",
+            "SECHUBO": "이정현",
+            "SECJD": "국민의힘",
+            "DUGYULCHA": "0.00",
+            "DUGSUCHA": "0",
+            "value": 1
+        },
+        {
+            "SDID": 2900,
+            "SDNAME": "광주광역시",
+            "SGGID": "0",
+            "SGGNAME": "서구",
+            "WIWID": 0,
+            "WIWNAME": "서구",
+            "SUNSU": "239,877",
+            "TUSU": "0",
+            "TUYUL": "0.0",
+            "GPYUL": "0.00%",
+            "name": 0,
+            "nametxt": "서구",
+            "data": [
+                {
+                    "value": 0.0,
+                    "name": "민형배",
+                    "party": "더불어민주당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "이정현",
+                    "party": "국민의힘",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "이종욱",
+                    "party": "진보당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#D6001C"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "강은미",
+                    "party": "정의당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "김광만",
+                    "party": "무소속",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                }
+            ],
+            "HUBO01": "민형배",
+            "JD01": "더불어민주당",
+            "DUGSU01": "0",
+            "DUGYUL01": "0.00",
+            "HUBO02": "이정현",
+            "JD02": "국민의힘",
+            "DUGSU02": "0",
+            "DUGYUL02": "0.00",
+            "HUBO03": "이종욱",
+            "JD03": "진보당",
+            "DUGSU03": "0",
+            "DUGYUL03": "0.00",
+            "HUBO04": "강은미",
+            "JD04": "정의당",
+            "DUGSU04": "0",
+            "DUGYUL04": "0.00",
+            "HUBO05": "김광만",
+            "JD05": "무소속",
+            "DUGSU05": "0",
+            "DUGYUL05": "0.00",
+            "WINNUM": 1,
+            "WINDUGSU": "0",
+            "WINDUGYUL": "0.00",
+            "WINHUBO": "민형배",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "0",
+            "SECDUGYUL": "0.00",
+            "SECHUBO": "이정현",
+            "SECJD": "국민의힘",
+            "DUGYULCHA": "0.00",
+            "DUGSUCHA": "0",
+            "value": 1
+        },
+        {
+            "SDID": 2900,
+            "SDNAME": "광주광역시",
+            "SGGID": "0",
+            "SGGNAME": "남구",
+            "WIWID": 0,
+            "WIWNAME": "남구",
+            "SUNSU": "175,272",
+            "TUSU": "0",
+            "TUYUL": "0.0",
+            "GPYUL": "0.00%",
+            "name": 0,
+            "nametxt": "남구",
+            "data": [
+                {
+                    "value": 0.0,
+                    "name": "민형배",
+                    "party": "더불어민주당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "이정현",
+                    "party": "국민의힘",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "이종욱",
+                    "party": "진보당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#D6001C"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "강은미",
+                    "party": "정의당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "김광만",
+                    "party": "무소속",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                }
+            ],
+            "HUBO01": "민형배",
+            "JD01": "더불어민주당",
+            "DUGSU01": "0",
+            "DUGYUL01": "0.00",
+            "HUBO02": "이정현",
+            "JD02": "국민의힘",
+            "DUGSU02": "0",
+            "DUGYUL02": "0.00",
+            "HUBO03": "이종욱",
+            "JD03": "진보당",
+            "DUGSU03": "0",
+            "DUGYUL03": "0.00",
+            "HUBO04": "강은미",
+            "JD04": "정의당",
+            "DUGSU04": "0",
+            "DUGYUL04": "0.00",
+            "HUBO05": "김광만",
+            "JD05": "무소속",
+            "DUGSU05": "0",
+            "DUGYUL05": "0.00",
+            "WINNUM": 1,
+            "WINDUGSU": "0",
+            "WINDUGYUL": "0.00",
+            "WINHUBO": "민형배",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "0",
+            "SECDUGYUL": "0.00",
+            "SECHUBO": "이정현",
+            "SECJD": "국민의힘",
+            "DUGYULCHA": "0.00",
+            "DUGSUCHA": "0",
+            "value": 1
+        },
+        {
+            "SDID": 2900,
+            "SDNAME": "광주광역시",
+            "SGGID": "0",
+            "SGGNAME": "북구",
+            "WIWID": 0,
+            "WIWNAME": "북구",
+            "SUNSU": "359,547",
+            "TUSU": "0",
+            "TUYUL": "0.0",
+            "GPYUL": "0.00%",
+            "name": 0,
+            "nametxt": "북구",
+            "data": [
+                {
+                    "value": 0.0,
+                    "name": "민형배",
+                    "party": "더불어민주당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "이정현",
+                    "party": "국민의힘",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "이종욱",
+                    "party": "진보당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#D6001C"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "강은미",
+                    "party": "정의당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "김광만",
+                    "party": "무소속",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                }
+            ],
+            "HUBO01": "민형배",
+            "JD01": "더불어민주당",
+            "DUGSU01": "0",
+            "DUGYUL01": "0.00",
+            "HUBO02": "이정현",
+            "JD02": "국민의힘",
+            "DUGSU02": "0",
+            "DUGYUL02": "0.00",
+            "HUBO03": "이종욱",
+            "JD03": "진보당",
+            "DUGSU03": "0",
+            "DUGYUL03": "0.00",
+            "HUBO04": "강은미",
+            "JD04": "정의당",
+            "DUGSU04": "0",
+            "DUGYUL04": "0.00",
+            "HUBO05": "김광만",
+            "JD05": "무소속",
+            "DUGSU05": "0",
+            "DUGYUL05": "0.00",
+            "WINNUM": 1,
+            "WINDUGSU": "0",
+            "WINDUGYUL": "0.00",
+            "WINHUBO": "민형배",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "0",
+            "SECDUGYUL": "0.00",
+            "SECHUBO": "이정현",
+            "SECJD": "국민의힘",
+            "DUGYULCHA": "0.00",
+            "DUGSUCHA": "0",
+            "value": 1
+        },
+        {
+            "SDID": 2900,
+            "SDNAME": "광주광역시",
+            "SGGID": "0",
+            "SGGNAME": "광산구",
+            "WIWID": 0,
+            "WIWNAME": "광산구",
+            "SUNSU": "322,549",
+            "TUSU": "0",
+            "TUYUL": "0.0",
+            "GPYUL": "0.00%",
+            "name": 0,
+            "nametxt": "광산구",
+            "data": [
+                {
+                    "value": 0.0,
+                    "name": "민형배",
+                    "party": "더불어민주당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "이정현",
+                    "party": "국민의힘",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "이종욱",
+                    "party": "진보당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#D6001C"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "강은미",
+                    "party": "정의당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "김광만",
+                    "party": "무소속",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                }
+            ],
+            "HUBO01": "민형배",
+            "JD01": "더불어민주당",
+            "DUGSU01": "0",
+            "DUGYUL01": "0.00",
+            "HUBO02": "이정현",
+            "JD02": "국민의힘",
+            "DUGSU02": "0",
+            "DUGYUL02": "0.00",
+            "HUBO03": "이종욱",
+            "JD03": "진보당",
+            "DUGSU03": "0",
+            "DUGYUL03": "0.00",
+            "HUBO04": "강은미",
+            "JD04": "정의당",
+            "DUGSU04": "0",
+            "DUGYUL04": "0.00",
+            "HUBO05": "김광만",
+            "JD05": "무소속",
+            "DUGSU05": "0",
+            "DUGYUL05": "0.00",
+            "WINNUM": 1,
+            "WINDUGSU": "0",
+            "WINDUGYUL": "0.00",
+            "WINHUBO": "민형배",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "0",
+            "SECDUGYUL": "0.00",
+            "SECHUBO": "이정현",
+            "SECJD": "국민의힘",
+            "DUGYULCHA": "0.00",
+            "DUGSUCHA": "0",
+            "value": 1
+        },
+        {
+            "SDID": 4600,
+            "SDNAME": "전라남도",
+            "SGGID": "0",
+            "SGGNAME": "목포시",
+            "WIWID": 0,
+            "WIWNAME": "목포시",
+            "SUNSU": "173,245",
+            "TUSU": "0",
+            "TUYUL": "0.0",
+            "GPYUL": "0.00%",
+            "name": 0,
+            "nametxt": "목포시",
+            "data": [
+                {
+                    "value": 0.0,
+                    "name": "민형배",
+                    "party": "더불어민주당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "이정현",
+                    "party": "국민의힘",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "이종욱",
+                    "party": "진보당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#D6001C"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "강은미",
+                    "party": "정의당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "김광만",
+                    "party": "무소속",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                }
+            ],
+            "HUBO01": "민형배",
+            "JD01": "더불어민주당",
+            "DUGSU01": "0",
+            "DUGYUL01": "0.00",
+            "HUBO02": "이정현",
+            "JD02": "국민의힘",
+            "DUGSU02": "0",
+            "DUGYUL02": "0.00",
+            "HUBO03": "이종욱",
+            "JD03": "진보당",
+            "DUGSU03": "0",
+            "DUGYUL03": "0.00",
+            "HUBO04": "강은미",
+            "JD04": "정의당",
+            "DUGSU04": "0",
+            "DUGYUL04": "0.00",
+            "HUBO05": "김광만",
+            "JD05": "무소속",
+            "DUGSU05": "0",
+            "DUGYUL05": "0.00",
+            "WINNUM": 1,
+            "WINDUGSU": "0",
+            "WINDUGYUL": "0.00",
+            "WINHUBO": "민형배",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "0",
+            "SECDUGYUL": "0.00",
+            "SECHUBO": "이정현",
+            "SECJD": "국민의힘",
+            "DUGYULCHA": "0.00",
+            "DUGSUCHA": "0",
+            "value": 1
+        },
+        {
+            "SDID": 4600,
+            "SDNAME": "전라남도",
+            "SGGID": "0",
+            "SGGNAME": "여수시",
+            "WIWID": 0,
+            "WIWNAME": "여수시",
+            "SUNSU": "228,239",
+            "TUSU": "0",
+            "TUYUL": "0.0",
+            "GPYUL": "0.00%",
+            "name": 0,
+            "nametxt": "여수시",
+            "data": [
+                {
+                    "value": 0.0,
+                    "name": "민형배",
+                    "party": "더불어민주당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "이정현",
+                    "party": "국민의힘",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "이종욱",
+                    "party": "진보당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#D6001C"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "강은미",
+                    "party": "정의당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "김광만",
+                    "party": "무소속",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                }
+            ],
+            "HUBO01": "민형배",
+            "JD01": "더불어민주당",
+            "DUGSU01": "0",
+            "DUGYUL01": "0.00",
+            "HUBO02": "이정현",
+            "JD02": "국민의힘",
+            "DUGSU02": "0",
+            "DUGYUL02": "0.00",
+            "HUBO03": "이종욱",
+            "JD03": "진보당",
+            "DUGSU03": "0",
+            "DUGYUL03": "0.00",
+            "HUBO04": "강은미",
+            "JD04": "정의당",
+            "DUGSU04": "0",
+            "DUGYUL04": "0.00",
+            "HUBO05": "김광만",
+            "JD05": "무소속",
+            "DUGSU05": "0",
+            "DUGYUL05": "0.00",
+            "WINNUM": 1,
+            "WINDUGSU": "0",
+            "WINDUGYUL": "0.00",
+            "WINHUBO": "민형배",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "0",
+            "SECDUGYUL": "0.00",
+            "SECHUBO": "이정현",
+            "SECJD": "국민의힘",
+            "DUGYULCHA": "0.00",
+            "DUGSUCHA": "0",
+            "value": 1
+        },
+        {
+            "SDID": 4600,
+            "SDNAME": "전라남도",
+            "SGGID": "0",
+            "SGGNAME": "순천시",
+            "WIWID": 0,
+            "WIWNAME": "순천시",
+            "SUNSU": "234,933",
+            "TUSU": "0",
+            "TUYUL": "0.0",
+            "GPYUL": "0.00%",
+            "name": 0,
+            "nametxt": "순천시",
+            "data": [
+                {
+                    "value": 0.0,
+                    "name": "민형배",
+                    "party": "더불어민주당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "이정현",
+                    "party": "국민의힘",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "이종욱",
+                    "party": "진보당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#D6001C"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "강은미",
+                    "party": "정의당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "김광만",
+                    "party": "무소속",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                }
+            ],
+            "HUBO01": "민형배",
+            "JD01": "더불어민주당",
+            "DUGSU01": "0",
+            "DUGYUL01": "0.00",
+            "HUBO02": "이정현",
+            "JD02": "국민의힘",
+            "DUGSU02": "0",
+            "DUGYUL02": "0.00",
+            "HUBO03": "이종욱",
+            "JD03": "진보당",
+            "DUGSU03": "0",
+            "DUGYUL03": "0.00",
+            "HUBO04": "강은미",
+            "JD04": "정의당",
+            "DUGSU04": "0",
+            "DUGYUL04": "0.00",
+            "HUBO05": "김광만",
+            "JD05": "무소속",
+            "DUGSU05": "0",
+            "DUGYUL05": "0.00",
+            "WINNUM": 1,
+            "WINDUGSU": "0",
+            "WINDUGYUL": "0.00",
+            "WINHUBO": "민형배",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "0",
+            "SECDUGYUL": "0.00",
+            "SECHUBO": "이정현",
+            "SECJD": "국민의힘",
+            "DUGYULCHA": "0.00",
+            "DUGSUCHA": "0",
+            "value": 1
+        },
+        {
+            "SDID": 4600,
+            "SDNAME": "전라남도",
+            "SGGID": "0",
+            "SGGNAME": "나주시",
+            "WIWID": 0,
+            "WIWNAME": "나주시",
+            "SUNSU": "99,957",
+            "TUSU": "0",
+            "TUYUL": "0.0",
+            "GPYUL": "0.00%",
+            "name": 0,
+            "nametxt": "나주시",
+            "data": [
+                {
+                    "value": 0.0,
+                    "name": "민형배",
+                    "party": "더불어민주당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "이정현",
+                    "party": "국민의힘",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "이종욱",
+                    "party": "진보당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#D6001C"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "강은미",
+                    "party": "정의당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "김광만",
+                    "party": "무소속",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                }
+            ],
+            "HUBO01": "민형배",
+            "JD01": "더불어민주당",
+            "DUGSU01": "0",
+            "DUGYUL01": "0.00",
+            "HUBO02": "이정현",
+            "JD02": "국민의힘",
+            "DUGSU02": "0",
+            "DUGYUL02": "0.00",
+            "HUBO03": "이종욱",
+            "JD03": "진보당",
+            "DUGSU03": "0",
+            "DUGYUL03": "0.00",
+            "HUBO04": "강은미",
+            "JD04": "정의당",
+            "DUGSU04": "0",
+            "DUGYUL04": "0.00",
+            "HUBO05": "김광만",
+            "JD05": "무소속",
+            "DUGSU05": "0",
+            "DUGYUL05": "0.00",
+            "WINNUM": 1,
+            "WINDUGSU": "0",
+            "WINDUGYUL": "0.00",
+            "WINHUBO": "민형배",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "0",
+            "SECDUGYUL": "0.00",
+            "SECHUBO": "이정현",
+            "SECJD": "국민의힘",
+            "DUGYULCHA": "0.00",
+            "DUGSUCHA": "0",
+            "value": 1
+        },
+        {
+            "SDID": 4600,
+            "SDNAME": "전라남도",
+            "SGGID": "0",
+            "SGGNAME": "광양시",
+            "WIWID": 0,
+            "WIWNAME": "광양시",
+            "SUNSU": "132,358",
+            "TUSU": "0",
+            "TUYUL": "0.0",
+            "GPYUL": "0.00%",
+            "name": 0,
+            "nametxt": "광양시",
+            "data": [
+                {
+                    "value": 0.0,
+                    "name": "민형배",
+                    "party": "더불어민주당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "이정현",
+                    "party": "국민의힘",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "이종욱",
+                    "party": "진보당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#D6001C"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "강은미",
+                    "party": "정의당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "김광만",
+                    "party": "무소속",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                }
+            ],
+            "HUBO01": "민형배",
+            "JD01": "더불어민주당",
+            "DUGSU01": "0",
+            "DUGYUL01": "0.00",
+            "HUBO02": "이정현",
+            "JD02": "국민의힘",
+            "DUGSU02": "0",
+            "DUGYUL02": "0.00",
+            "HUBO03": "이종욱",
+            "JD03": "진보당",
+            "DUGSU03": "0",
+            "DUGYUL03": "0.00",
+            "HUBO04": "강은미",
+            "JD04": "정의당",
+            "DUGSU04": "0",
+            "DUGYUL04": "0.00",
+            "HUBO05": "김광만",
+            "JD05": "무소속",
+            "DUGSU05": "0",
+            "DUGYUL05": "0.00",
+            "WINNUM": 1,
+            "WINDUGSU": "0",
+            "WINDUGYUL": "0.00",
+            "WINHUBO": "민형배",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "0",
+            "SECDUGYUL": "0.00",
+            "SECHUBO": "이정현",
+            "SECJD": "국민의힘",
+            "DUGYULCHA": "0.00",
+            "DUGSUCHA": "0",
+            "value": 1
+        },
+        {
+            "SDID": 4600,
+            "SDNAME": "전라남도",
+            "SGGID": "0",
+            "SGGNAME": "담양군",
+            "WIWID": 0,
+            "WIWNAME": "담양군",
+            "SUNSU": "40,279",
+            "TUSU": "0",
+            "TUYUL": "0.0",
+            "GPYUL": "0.00%",
+            "name": 0,
+            "nametxt": "담양군",
+            "data": [
+                {
+                    "value": 0.0,
+                    "name": "민형배",
+                    "party": "더불어민주당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "이정현",
+                    "party": "국민의힘",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "이종욱",
+                    "party": "진보당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#D6001C"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "강은미",
+                    "party": "정의당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "김광만",
+                    "party": "무소속",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                }
+            ],
+            "HUBO01": "민형배",
+            "JD01": "더불어민주당",
+            "DUGSU01": "0",
+            "DUGYUL01": "0.00",
+            "HUBO02": "이정현",
+            "JD02": "국민의힘",
+            "DUGSU02": "0",
+            "DUGYUL02": "0.00",
+            "HUBO03": "이종욱",
+            "JD03": "진보당",
+            "DUGSU03": "0",
+            "DUGYUL03": "0.00",
+            "HUBO04": "강은미",
+            "JD04": "정의당",
+            "DUGSU04": "0",
+            "DUGYUL04": "0.00",
+            "HUBO05": "김광만",
+            "JD05": "무소속",
+            "DUGSU05": "0",
+            "DUGYUL05": "0.00",
+            "WINNUM": 1,
+            "WINDUGSU": "0",
+            "WINDUGYUL": "0.00",
+            "WINHUBO": "민형배",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "0",
+            "SECDUGYUL": "0.00",
+            "SECHUBO": "이정현",
+            "SECJD": "국민의힘",
+            "DUGYULCHA": "0.00",
+            "DUGSUCHA": "0",
+            "value": 1
+        },
+        {
+            "SDID": 4600,
+            "SDNAME": "전라남도",
+            "SGGID": "0",
+            "SGGNAME": "장성군",
+            "WIWID": 0,
+            "WIWNAME": "장성군",
+            "SUNSU": "38,722",
+            "TUSU": "0",
+            "TUYUL": "0.0",
+            "GPYUL": "0.00%",
+            "name": 0,
+            "nametxt": "장성군",
+            "data": [
+                {
+                    "value": 0.0,
+                    "name": "민형배",
+                    "party": "더불어민주당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "이정현",
+                    "party": "국민의힘",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "이종욱",
+                    "party": "진보당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#D6001C"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "강은미",
+                    "party": "정의당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "김광만",
+                    "party": "무소속",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                }
+            ],
+            "HUBO01": "민형배",
+            "JD01": "더불어민주당",
+            "DUGSU01": "0",
+            "DUGYUL01": "0.00",
+            "HUBO02": "이정현",
+            "JD02": "국민의힘",
+            "DUGSU02": "0",
+            "DUGYUL02": "0.00",
+            "HUBO03": "이종욱",
+            "JD03": "진보당",
+            "DUGSU03": "0",
+            "DUGYUL03": "0.00",
+            "HUBO04": "강은미",
+            "JD04": "정의당",
+            "DUGSU04": "0",
+            "DUGYUL04": "0.00",
+            "HUBO05": "김광만",
+            "JD05": "무소속",
+            "DUGSU05": "0",
+            "DUGYUL05": "0.00",
+            "WINNUM": 1,
+            "WINDUGSU": "0",
+            "WINDUGYUL": "0.00",
+            "WINHUBO": "민형배",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "0",
+            "SECDUGYUL": "0.00",
+            "SECHUBO": "이정현",
+            "SECJD": "국민의힘",
+            "DUGYULCHA": "0.00",
+            "DUGSUCHA": "0",
+            "value": 1
+        },
+        {
+            "SDID": 4600,
+            "SDNAME": "전라남도",
+            "SGGID": "0",
+            "SGGNAME": "곡성군",
+            "WIWID": 0,
+            "WIWNAME": "곡성군",
+            "SUNSU": "25,668",
+            "TUSU": "0",
+            "TUYUL": "0.0",
+            "GPYUL": "0.00%",
+            "name": 0,
+            "nametxt": "곡성군",
+            "data": [
+                {
+                    "value": 0.0,
+                    "name": "민형배",
+                    "party": "더불어민주당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "이정현",
+                    "party": "국민의힘",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "이종욱",
+                    "party": "진보당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#D6001C"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "강은미",
+                    "party": "정의당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "김광만",
+                    "party": "무소속",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                }
+            ],
+            "HUBO01": "민형배",
+            "JD01": "더불어민주당",
+            "DUGSU01": "0",
+            "DUGYUL01": "0.00",
+            "HUBO02": "이정현",
+            "JD02": "국민의힘",
+            "DUGSU02": "0",
+            "DUGYUL02": "0.00",
+            "HUBO03": "이종욱",
+            "JD03": "진보당",
+            "DUGSU03": "0",
+            "DUGYUL03": "0.00",
+            "HUBO04": "강은미",
+            "JD04": "정의당",
+            "DUGSU04": "0",
+            "DUGYUL04": "0.00",
+            "HUBO05": "김광만",
+            "JD05": "무소속",
+            "DUGSU05": "0",
+            "DUGYUL05": "0.00",
+            "WINNUM": 1,
+            "WINDUGSU": "0",
+            "WINDUGYUL": "0.00",
+            "WINHUBO": "민형배",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "0",
+            "SECDUGYUL": "0.00",
+            "SECHUBO": "이정현",
+            "SECJD": "국민의힘",
+            "DUGYULCHA": "0.00",
+            "DUGSUCHA": "0",
+            "value": 1
+        },
+        {
+            "SDID": 4600,
+            "SDNAME": "전라남도",
+            "SGGID": "0",
+            "SGGNAME": "구례군",
+            "WIWID": 0,
+            "WIWNAME": "구례군",
+            "SUNSU": "22,104",
+            "TUSU": "0",
+            "TUYUL": "0.0",
+            "GPYUL": "0.00%",
+            "name": 0,
+            "nametxt": "구례군",
+            "data": [
+                {
+                    "value": 0.0,
+                    "name": "민형배",
+                    "party": "더불어민주당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "이정현",
+                    "party": "국민의힘",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "이종욱",
+                    "party": "진보당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#D6001C"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "강은미",
+                    "party": "정의당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "김광만",
+                    "party": "무소속",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                }
+            ],
+            "HUBO01": "민형배",
+            "JD01": "더불어민주당",
+            "DUGSU01": "0",
+            "DUGYUL01": "0.00",
+            "HUBO02": "이정현",
+            "JD02": "국민의힘",
+            "DUGSU02": "0",
+            "DUGYUL02": "0.00",
+            "HUBO03": "이종욱",
+            "JD03": "진보당",
+            "DUGSU03": "0",
+            "DUGYUL03": "0.00",
+            "HUBO04": "강은미",
+            "JD04": "정의당",
+            "DUGSU04": "0",
+            "DUGYUL04": "0.00",
+            "HUBO05": "김광만",
+            "JD05": "무소속",
+            "DUGSU05": "0",
+            "DUGYUL05": "0.00",
+            "WINNUM": 1,
+            "WINDUGSU": "0",
+            "WINDUGYUL": "0.00",
+            "WINHUBO": "민형배",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "0",
+            "SECDUGYUL": "0.00",
+            "SECHUBO": "이정현",
+            "SECJD": "국민의힘",
+            "DUGYULCHA": "0.00",
+            "DUGSUCHA": "0",
+            "value": 1
+        },
+        {
+            "SDID": 4600,
+            "SDNAME": "전라남도",
+            "SGGID": "0",
+            "SGGNAME": "고흥군",
+            "WIWID": 0,
+            "WIWNAME": "고흥군",
+            "SUNSU": "54,928",
+            "TUSU": "0",
+            "TUYUL": "0.0",
+            "GPYUL": "0.00%",
+            "name": 0,
+            "nametxt": "고흥군",
+            "data": [
+                {
+                    "value": 0.0,
+                    "name": "민형배",
+                    "party": "더불어민주당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "이정현",
+                    "party": "국민의힘",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "이종욱",
+                    "party": "진보당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#D6001C"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "강은미",
+                    "party": "정의당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "김광만",
+                    "party": "무소속",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                }
+            ],
+            "HUBO01": "민형배",
+            "JD01": "더불어민주당",
+            "DUGSU01": "0",
+            "DUGYUL01": "0.00",
+            "HUBO02": "이정현",
+            "JD02": "국민의힘",
+            "DUGSU02": "0",
+            "DUGYUL02": "0.00",
+            "HUBO03": "이종욱",
+            "JD03": "진보당",
+            "DUGSU03": "0",
+            "DUGYUL03": "0.00",
+            "HUBO04": "강은미",
+            "JD04": "정의당",
+            "DUGSU04": "0",
+            "DUGYUL04": "0.00",
+            "HUBO05": "김광만",
+            "JD05": "무소속",
+            "DUGSU05": "0",
+            "DUGYUL05": "0.00",
+            "WINNUM": 1,
+            "WINDUGSU": "0",
+            "WINDUGYUL": "0.00",
+            "WINHUBO": "민형배",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "0",
+            "SECDUGYUL": "0.00",
+            "SECHUBO": "이정현",
+            "SECJD": "국민의힘",
+            "DUGYULCHA": "0.00",
+            "DUGSUCHA": "0",
+            "value": 1
+        },
+        {
+            "SDID": 4600,
+            "SDNAME": "전라남도",
+            "SGGID": "0",
+            "SGGNAME": "보성군",
+            "WIWID": 0,
+            "WIWNAME": "보성군",
+            "SUNSU": "33,946",
+            "TUSU": "0",
+            "TUYUL": "0.0",
+            "GPYUL": "0.00%",
+            "name": 0,
+            "nametxt": "보성군",
+            "data": [
+                {
+                    "value": 0.0,
+                    "name": "민형배",
+                    "party": "더불어민주당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "이정현",
+                    "party": "국민의힘",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "이종욱",
+                    "party": "진보당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#D6001C"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "강은미",
+                    "party": "정의당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "김광만",
+                    "party": "무소속",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                }
+            ],
+            "HUBO01": "민형배",
+            "JD01": "더불어민주당",
+            "DUGSU01": "0",
+            "DUGYUL01": "0.00",
+            "HUBO02": "이정현",
+            "JD02": "국민의힘",
+            "DUGSU02": "0",
+            "DUGYUL02": "0.00",
+            "HUBO03": "이종욱",
+            "JD03": "진보당",
+            "DUGSU03": "0",
+            "DUGYUL03": "0.00",
+            "HUBO04": "강은미",
+            "JD04": "정의당",
+            "DUGSU04": "0",
+            "DUGYUL04": "0.00",
+            "HUBO05": "김광만",
+            "JD05": "무소속",
+            "DUGSU05": "0",
+            "DUGYUL05": "0.00",
+            "WINNUM": 1,
+            "WINDUGSU": "0",
+            "WINDUGYUL": "0.00",
+            "WINHUBO": "민형배",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "0",
+            "SECDUGYUL": "0.00",
+            "SECHUBO": "이정현",
+            "SECJD": "국민의힘",
+            "DUGYULCHA": "0.00",
+            "DUGSUCHA": "0",
+            "value": 1
+        },
+        {
+            "SDID": 4600,
+            "SDNAME": "전라남도",
+            "SGGID": "0",
+            "SGGNAME": "화순군",
+            "WIWID": 0,
+            "WIWNAME": "화순군",
+            "SUNSU": "54,118",
+            "TUSU": "0",
+            "TUYUL": "0.0",
+            "GPYUL": "0.00%",
+            "name": 0,
+            "nametxt": "화순군",
+            "data": [
+                {
+                    "value": 0.0,
+                    "name": "민형배",
+                    "party": "더불어민주당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "이정현",
+                    "party": "국민의힘",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "이종욱",
+                    "party": "진보당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#D6001C"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "강은미",
+                    "party": "정의당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "김광만",
+                    "party": "무소속",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                }
+            ],
+            "HUBO01": "민형배",
+            "JD01": "더불어민주당",
+            "DUGSU01": "0",
+            "DUGYUL01": "0.00",
+            "HUBO02": "이정현",
+            "JD02": "국민의힘",
+            "DUGSU02": "0",
+            "DUGYUL02": "0.00",
+            "HUBO03": "이종욱",
+            "JD03": "진보당",
+            "DUGSU03": "0",
+            "DUGYUL03": "0.00",
+            "HUBO04": "강은미",
+            "JD04": "정의당",
+            "DUGSU04": "0",
+            "DUGYUL04": "0.00",
+            "HUBO05": "김광만",
+            "JD05": "무소속",
+            "DUGSU05": "0",
+            "DUGYUL05": "0.00",
+            "WINNUM": 1,
+            "WINDUGSU": "0",
+            "WINDUGYUL": "0.00",
+            "WINHUBO": "민형배",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "0",
+            "SECDUGYUL": "0.00",
+            "SECHUBO": "이정현",
+            "SECJD": "국민의힘",
+            "DUGYULCHA": "0.00",
+            "DUGSUCHA": "0",
+            "value": 1
+        },
+        {
+            "SDID": 4600,
+            "SDNAME": "전라남도",
+            "SGGID": "0",
+            "SGGNAME": "장흥군",
+            "WIWID": 0,
+            "WIWNAME": "장흥군",
+            "SUNSU": "30,986",
+            "TUSU": "0",
+            "TUYUL": "0.0",
+            "GPYUL": "0.00%",
+            "name": 0,
+            "nametxt": "장흥군",
+            "data": [
+                {
+                    "value": 0.0,
+                    "name": "민형배",
+                    "party": "더불어민주당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "이정현",
+                    "party": "국민의힘",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "이종욱",
+                    "party": "진보당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#D6001C"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "강은미",
+                    "party": "정의당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "김광만",
+                    "party": "무소속",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                }
+            ],
+            "HUBO01": "민형배",
+            "JD01": "더불어민주당",
+            "DUGSU01": "0",
+            "DUGYUL01": "0.00",
+            "HUBO02": "이정현",
+            "JD02": "국민의힘",
+            "DUGSU02": "0",
+            "DUGYUL02": "0.00",
+            "HUBO03": "이종욱",
+            "JD03": "진보당",
+            "DUGSU03": "0",
+            "DUGYUL03": "0.00",
+            "HUBO04": "강은미",
+            "JD04": "정의당",
+            "DUGSU04": "0",
+            "DUGYUL04": "0.00",
+            "HUBO05": "김광만",
+            "JD05": "무소속",
+            "DUGSU05": "0",
+            "DUGYUL05": "0.00",
+            "WINNUM": 1,
+            "WINDUGSU": "0",
+            "WINDUGYUL": "0.00",
+            "WINHUBO": "민형배",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "0",
+            "SECDUGYUL": "0.00",
+            "SECHUBO": "이정현",
+            "SECJD": "국민의힘",
+            "DUGYULCHA": "0.00",
+            "DUGSUCHA": "0",
+            "value": 1
+        },
+        {
+            "SDID": 4600,
+            "SDNAME": "전라남도",
+            "SGGID": "0",
+            "SGGNAME": "강진군",
+            "WIWID": 0,
+            "WIWNAME": "강진군",
+            "SUNSU": "28,803",
+            "TUSU": "0",
+            "TUYUL": "0.0",
+            "GPYUL": "0.00%",
+            "name": 0,
+            "nametxt": "강진군",
+            "data": [
+                {
+                    "value": 0.0,
+                    "name": "민형배",
+                    "party": "더불어민주당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "이정현",
+                    "party": "국민의힘",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "이종욱",
+                    "party": "진보당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#D6001C"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "강은미",
+                    "party": "정의당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "김광만",
+                    "party": "무소속",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                }
+            ],
+            "HUBO01": "민형배",
+            "JD01": "더불어민주당",
+            "DUGSU01": "0",
+            "DUGYUL01": "0.00",
+            "HUBO02": "이정현",
+            "JD02": "국민의힘",
+            "DUGSU02": "0",
+            "DUGYUL02": "0.00",
+            "HUBO03": "이종욱",
+            "JD03": "진보당",
+            "DUGSU03": "0",
+            "DUGYUL03": "0.00",
+            "HUBO04": "강은미",
+            "JD04": "정의당",
+            "DUGSU04": "0",
+            "DUGYUL04": "0.00",
+            "HUBO05": "김광만",
+            "JD05": "무소속",
+            "DUGSU05": "0",
+            "DUGYUL05": "0.00",
+            "WINNUM": 1,
+            "WINDUGSU": "0",
+            "WINDUGYUL": "0.00",
+            "WINHUBO": "민형배",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "0",
+            "SECDUGYUL": "0.00",
+            "SECHUBO": "이정현",
+            "SECJD": "국민의힘",
+            "DUGYULCHA": "0.00",
+            "DUGSUCHA": "0",
+            "value": 1
+        },
+        {
+            "SDID": 4600,
+            "SDNAME": "전라남도",
+            "SGGID": "0",
+            "SGGNAME": "완도군",
+            "WIWID": 0,
+            "WIWNAME": "완도군",
+            "SUNSU": "39,814",
+            "TUSU": "0",
+            "TUYUL": "0.0",
+            "GPYUL": "0.00%",
+            "name": 0,
+            "nametxt": "완도군",
+            "data": [
+                {
+                    "value": 0.0,
+                    "name": "민형배",
+                    "party": "더불어민주당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "이정현",
+                    "party": "국민의힘",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "이종욱",
+                    "party": "진보당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#D6001C"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "강은미",
+                    "party": "정의당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "김광만",
+                    "party": "무소속",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                }
+            ],
+            "HUBO01": "민형배",
+            "JD01": "더불어민주당",
+            "DUGSU01": "0",
+            "DUGYUL01": "0.00",
+            "HUBO02": "이정현",
+            "JD02": "국민의힘",
+            "DUGSU02": "0",
+            "DUGYUL02": "0.00",
+            "HUBO03": "이종욱",
+            "JD03": "진보당",
+            "DUGSU03": "0",
+            "DUGYUL03": "0.00",
+            "HUBO04": "강은미",
+            "JD04": "정의당",
+            "DUGSU04": "0",
+            "DUGYUL04": "0.00",
+            "HUBO05": "김광만",
+            "JD05": "무소속",
+            "DUGSU05": "0",
+            "DUGYUL05": "0.00",
+            "WINNUM": 1,
+            "WINDUGSU": "0",
+            "WINDUGYUL": "0.00",
+            "WINHUBO": "민형배",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "0",
+            "SECDUGYUL": "0.00",
+            "SECHUBO": "이정현",
+            "SECJD": "국민의힘",
+            "DUGYULCHA": "0.00",
+            "DUGSUCHA": "0",
+            "value": 1
+        },
+        {
+            "SDID": 4600,
+            "SDNAME": "전라남도",
+            "SGGID": "0",
+            "SGGNAME": "해남군",
+            "WIWID": 0,
+            "WIWNAME": "해남군",
+            "SUNSU": "56,328",
+            "TUSU": "0",
+            "TUYUL": "0.0",
+            "GPYUL": "0.00%",
+            "name": 0,
+            "nametxt": "해남군",
+            "data": [
+                {
+                    "value": 0.0,
+                    "name": "민형배",
+                    "party": "더불어민주당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "이정현",
+                    "party": "국민의힘",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "이종욱",
+                    "party": "진보당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#D6001C"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "강은미",
+                    "party": "정의당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "김광만",
+                    "party": "무소속",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                }
+            ],
+            "HUBO01": "민형배",
+            "JD01": "더불어민주당",
+            "DUGSU01": "0",
+            "DUGYUL01": "0.00",
+            "HUBO02": "이정현",
+            "JD02": "국민의힘",
+            "DUGSU02": "0",
+            "DUGYUL02": "0.00",
+            "HUBO03": "이종욱",
+            "JD03": "진보당",
+            "DUGSU03": "0",
+            "DUGYUL03": "0.00",
+            "HUBO04": "강은미",
+            "JD04": "정의당",
+            "DUGSU04": "0",
+            "DUGYUL04": "0.00",
+            "HUBO05": "김광만",
+            "JD05": "무소속",
+            "DUGSU05": "0",
+            "DUGYUL05": "0.00",
+            "WINNUM": 1,
+            "WINDUGSU": "0",
+            "WINDUGYUL": "0.00",
+            "WINHUBO": "민형배",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "0",
+            "SECDUGYUL": "0.00",
+            "SECHUBO": "이정현",
+            "SECJD": "국민의힘",
+            "DUGYULCHA": "0.00",
+            "DUGSUCHA": "0",
+            "value": 1
+        },
+        {
+            "SDID": 4600,
+            "SDNAME": "전라남도",
+            "SGGID": "0",
+            "SGGNAME": "진도군",
+            "WIWID": 0,
+            "WIWNAME": "진도군",
+            "SUNSU": "25,342",
+            "TUSU": "0",
+            "TUYUL": "0.0",
+            "GPYUL": "0.00%",
+            "name": 0,
+            "nametxt": "진도군",
+            "data": [
+                {
+                    "value": 0.0,
+                    "name": "민형배",
+                    "party": "더불어민주당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "이정현",
+                    "party": "국민의힘",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "이종욱",
+                    "party": "진보당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#D6001C"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "강은미",
+                    "party": "정의당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "김광만",
+                    "party": "무소속",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                }
+            ],
+            "HUBO01": "민형배",
+            "JD01": "더불어민주당",
+            "DUGSU01": "0",
+            "DUGYUL01": "0.00",
+            "HUBO02": "이정현",
+            "JD02": "국민의힘",
+            "DUGSU02": "0",
+            "DUGYUL02": "0.00",
+            "HUBO03": "이종욱",
+            "JD03": "진보당",
+            "DUGSU03": "0",
+            "DUGYUL03": "0.00",
+            "HUBO04": "강은미",
+            "JD04": "정의당",
+            "DUGSU04": "0",
+            "DUGYUL04": "0.00",
+            "HUBO05": "김광만",
+            "JD05": "무소속",
+            "DUGSU05": "0",
+            "DUGYUL05": "0.00",
+            "WINNUM": 1,
+            "WINDUGSU": "0",
+            "WINDUGYUL": "0.00",
+            "WINHUBO": "민형배",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "0",
+            "SECDUGYUL": "0.00",
+            "SECHUBO": "이정현",
+            "SECJD": "국민의힘",
+            "DUGYULCHA": "0.00",
+            "DUGSUCHA": "0",
+            "value": 1
+        },
+        {
+            "SDID": 4600,
+            "SDNAME": "전라남도",
+            "SGGID": "0",
+            "SGGNAME": "영암군",
+            "WIWID": 0,
+            "WIWNAME": "영암군",
+            "SUNSU": "45,388",
+            "TUSU": "0",
+            "TUYUL": "0.0",
+            "GPYUL": "0.00%",
+            "name": 0,
+            "nametxt": "영암군",
+            "data": [
+                {
+                    "value": 0.0,
+                    "name": "민형배",
+                    "party": "더불어민주당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "이정현",
+                    "party": "국민의힘",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "이종욱",
+                    "party": "진보당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#D6001C"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "강은미",
+                    "party": "정의당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "김광만",
+                    "party": "무소속",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                }
+            ],
+            "HUBO01": "민형배",
+            "JD01": "더불어민주당",
+            "DUGSU01": "0",
+            "DUGYUL01": "0.00",
+            "HUBO02": "이정현",
+            "JD02": "국민의힘",
+            "DUGSU02": "0",
+            "DUGYUL02": "0.00",
+            "HUBO03": "이종욱",
+            "JD03": "진보당",
+            "DUGSU03": "0",
+            "DUGYUL03": "0.00",
+            "HUBO04": "강은미",
+            "JD04": "정의당",
+            "DUGSU04": "0",
+            "DUGYUL04": "0.00",
+            "HUBO05": "김광만",
+            "JD05": "무소속",
+            "DUGSU05": "0",
+            "DUGYUL05": "0.00",
+            "WINNUM": 1,
+            "WINDUGSU": "0",
+            "WINDUGYUL": "0.00",
+            "WINHUBO": "민형배",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "0",
+            "SECDUGYUL": "0.00",
+            "SECHUBO": "이정현",
+            "SECJD": "국민의힘",
+            "DUGYULCHA": "0.00",
+            "DUGSUCHA": "0",
+            "value": 1
+        },
+        {
+            "SDID": 4600,
+            "SDNAME": "전라남도",
+            "SGGID": "0",
+            "SGGNAME": "무안군",
+            "WIWID": 0,
+            "WIWNAME": "무안군",
+            "SUNSU": "79,568",
+            "TUSU": "0",
+            "TUYUL": "0.0",
+            "GPYUL": "0.00%",
+            "name": 0,
+            "nametxt": "무안군",
+            "data": [
+                {
+                    "value": 0.0,
+                    "name": "민형배",
+                    "party": "더불어민주당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "이정현",
+                    "party": "국민의힘",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "이종욱",
+                    "party": "진보당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#D6001C"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "강은미",
+                    "party": "정의당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "김광만",
+                    "party": "무소속",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                }
+            ],
+            "HUBO01": "민형배",
+            "JD01": "더불어민주당",
+            "DUGSU01": "0",
+            "DUGYUL01": "0.00",
+            "HUBO02": "이정현",
+            "JD02": "국민의힘",
+            "DUGSU02": "0",
+            "DUGYUL02": "0.00",
+            "HUBO03": "이종욱",
+            "JD03": "진보당",
+            "DUGSU03": "0",
+            "DUGYUL03": "0.00",
+            "HUBO04": "강은미",
+            "JD04": "정의당",
+            "DUGSU04": "0",
+            "DUGYUL04": "0.00",
+            "HUBO05": "김광만",
+            "JD05": "무소속",
+            "DUGSU05": "0",
+            "DUGYUL05": "0.00",
+            "WINNUM": 1,
+            "WINDUGSU": "0",
+            "WINDUGYUL": "0.00",
+            "WINHUBO": "민형배",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "0",
+            "SECDUGYUL": "0.00",
+            "SECHUBO": "이정현",
+            "SECJD": "국민의힘",
+            "DUGYULCHA": "0.00",
+            "DUGSUCHA": "0",
+            "value": 1
+        },
+        {
+            "SDID": 4600,
+            "SDNAME": "전라남도",
+            "SGGID": "0",
+            "SGGNAME": "영광군",
+            "WIWID": 0,
+            "WIWNAME": "영광군",
+            "SUNSU": "47,621",
+            "TUSU": "0",
+            "TUYUL": "0.0",
+            "GPYUL": "0.00%",
+            "name": 0,
+            "nametxt": "영광군",
+            "data": [
+                {
+                    "value": 0.0,
+                    "name": "민형배",
+                    "party": "더불어민주당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "이정현",
+                    "party": "국민의힘",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "이종욱",
+                    "party": "진보당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#D6001C"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "강은미",
+                    "party": "정의당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "김광만",
+                    "party": "무소속",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                }
+            ],
+            "HUBO01": "민형배",
+            "JD01": "더불어민주당",
+            "DUGSU01": "0",
+            "DUGYUL01": "0.00",
+            "HUBO02": "이정현",
+            "JD02": "국민의힘",
+            "DUGSU02": "0",
+            "DUGYUL02": "0.00",
+            "HUBO03": "이종욱",
+            "JD03": "진보당",
+            "DUGSU03": "0",
+            "DUGYUL03": "0.00",
+            "HUBO04": "강은미",
+            "JD04": "정의당",
+            "DUGSU04": "0",
+            "DUGYUL04": "0.00",
+            "HUBO05": "김광만",
+            "JD05": "무소속",
+            "DUGSU05": "0",
+            "DUGYUL05": "0.00",
+            "WINNUM": 1,
+            "WINDUGSU": "0",
+            "WINDUGYUL": "0.00",
+            "WINHUBO": "민형배",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "0",
+            "SECDUGYUL": "0.00",
+            "SECHUBO": "이정현",
+            "SECJD": "국민의힘",
+            "DUGYULCHA": "0.00",
+            "DUGSUCHA": "0",
+            "value": 1
+        },
+        {
+            "SDID": 4600,
+            "SDNAME": "전라남도",
+            "SGGID": "0",
+            "SGGNAME": "함평군",
+            "WIWID": 0,
+            "WIWNAME": "함평군",
+            "SUNSU": "27,154",
+            "TUSU": "0",
+            "TUYUL": "0.0",
+            "GPYUL": "0.00%",
+            "name": 0,
+            "nametxt": "함평군",
+            "data": [
+                {
+                    "value": 0.0,
+                    "name": "민형배",
+                    "party": "더불어민주당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "이정현",
+                    "party": "국민의힘",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "이종욱",
+                    "party": "진보당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#D6001C"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "강은미",
+                    "party": "정의당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "김광만",
+                    "party": "무소속",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                }
+            ],
+            "HUBO01": "민형배",
+            "JD01": "더불어민주당",
+            "DUGSU01": "0",
+            "DUGYUL01": "0.00",
+            "HUBO02": "이정현",
+            "JD02": "국민의힘",
+            "DUGSU02": "0",
+            "DUGYUL02": "0.00",
+            "HUBO03": "이종욱",
+            "JD03": "진보당",
+            "DUGSU03": "0",
+            "DUGYUL03": "0.00",
+            "HUBO04": "강은미",
+            "JD04": "정의당",
+            "DUGSU04": "0",
+            "DUGYUL04": "0.00",
+            "HUBO05": "김광만",
+            "JD05": "무소속",
+            "DUGSU05": "0",
+            "DUGYUL05": "0.00",
+            "WINNUM": 1,
+            "WINDUGSU": "0",
+            "WINDUGYUL": "0.00",
+            "WINHUBO": "민형배",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "0",
+            "SECDUGYUL": "0.00",
+            "SECHUBO": "이정현",
+            "SECJD": "국민의힘",
+            "DUGYULCHA": "0.00",
+            "DUGSUCHA": "0",
+            "value": 1
+        },
+        {
+            "SDID": 4600,
+            "SDNAME": "전라남도",
+            "SGGID": "0",
+            "SGGNAME": "신안군",
+            "WIWID": 0,
+            "WIWNAME": "신안군",
+            "SUNSU": "38,705",
+            "TUSU": "0",
+            "TUYUL": "0.0",
+            "GPYUL": "0.00%",
+            "name": 0,
+            "nametxt": "신안군",
             "data": [
                 {
                     "value": 0.0,
