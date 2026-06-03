@@ -8,8 +8,8 @@
             "WIWID": 0,
             "WIWNAME": "합계",
             "SUNSU": "774,370",
-            "TUSU": "181,359",
-            "TUYUL": "23.4",
+            "TUSU": "210,876",
+            "TUYUL": "27.2",
             "data": [
                 {
                     "name": "더불어민주당",
@@ -164,26 +164,26 @@
             "WIWID": 2905,
             "WIWNAME": "광산구",
             "SUNSU": "322,549",
-            "TUSU": "50,689",
-            "TUYUL": "15.7",
-            "GPYUL": "29.78%",
+            "TUSU": "80,206",
+            "TUYUL": "24.9",
+            "GPYUL": "47.12%",
             "name": 2905,
             "nametxt": "광산구",
             "data": [
                 {
-                    "value": 80.16,
+                    "value": 80.55,
                     "name": "박병규",
                     "party": "더불어민주당",
-                    "pyo": 39126,
+                    "pyo": 62444,
                     "itemStyle": {
                         "color": "#152484"
                     }
                 },
                 {
-                    "value": 19.83,
+                    "value": 19.44,
                     "name": "정희성",
                     "party": "진보당",
-                    "pyo": 9678,
+                    "pyo": 15069,
                     "itemStyle": {
                         "color": "#D6001C"
                     }
@@ -191,24 +191,24 @@
             ],
             "HUBO01": "박병규",
             "JD01": "더불어민주당",
-            "DUGSU01": "39,126",
-            "DUGYUL01": "80.16",
+            "DUGSU01": "62,444",
+            "DUGYUL01": "80.55",
             "HUBO02": "정희성",
             "JD02": "진보당",
-            "DUGSU02": "9,678",
-            "DUGYUL02": "19.83",
+            "DUGSU02": "15,069",
+            "DUGYUL02": "19.44",
             "WINNUM": 1,
-            "WINDUGSU": "39,126",
-            "WINDUGYUL": "80.16",
+            "WINDUGSU": "62,444",
+            "WINDUGYUL": "80.55",
             "WINHUBO": "박병규",
             "WINJD": "더불어민주당",
             "SECNUM": 2,
-            "SECDUGSU": "9,678",
-            "SECDUGYUL": "19.83",
+            "SECDUGSU": "15,069",
+            "SECDUGYUL": "19.44",
             "SECHUBO": "정희성",
             "SECJD": "진보당",
-            "DUGYULCHA": "60.33",
-            "DUGSUCHA": "29,448",
+            "DUGYULCHA": "61.11",
+            "DUGSUCHA": "47,375",
             "value": 1
         }
     ]
