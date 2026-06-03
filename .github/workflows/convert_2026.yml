@@ -2,7 +2,6 @@ name: 2026 지방선거 데이터 변환
 
 on:
   workflow_dispatch:
-    # 깃허브 웹사이트에서 실행할 때 선거 종류를 선택할 수 있는 입력창을 제공합니다.
     inputs:
       elec_code:
         description: '변환할 선거 종류 선택 (3: 시도지사, 4: 시군구청장)'
@@ -13,7 +12,6 @@ on:
           - '3'
           - '4'
 
-# GITHUB_TOKEN에 저장소 쓰기 권한을 명시적으로 부여합니다.
 permissions:
   contents: write
 
@@ -22,30 +20,25 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1. 저장소에 올라가 있는 소스코드와 파일들을 가져옵니다.
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # 2. 파이썬 환경 세팅
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
-      # 3. [수정] 가장 안전하고 표준적인 ${{ inputs.elec_code }} 컨텍스트를 사용하여 인자를 주입합니다.
       - name: Run Converter
         run: python -u convert_2026.py "${{ inputs.elec_code }}"
 
-      # 4. [수정] 변경된 파일이 8호든 9호든 상관없이 유연하게 잡아서 커밋하고 push합니다.
       - name: Commit and Push changes
         run: |
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "actions@github.com"
           
-          # 8이든 9든 jibang 하위 폴더에서 방금 생성/수정된 결과 파일(*_[0-9]*.json)들을 감지해 스테이징합니다.
-          git add data/jibang/**/*_[0-9]*.json 2>/dev/null || true
+          # 하위 폴더 구조(8, 9 등)에 상관없이 매칭되는 생성/수정 파일들을 안전하게 스테이징합니다.
+          find data/jibang -type f -name "*_${{ inputs.elec_code }}_*.json" ! -name "ori_*" -exec git add {} +
           
-          # 변경 사항이 있을 때만 커밋 및 푸시를 실행하여 에러를 방지합니다.
           if ! git diff --staged --quiet; then
             git commit -m "chore: 로컬 원본 기반 JSON 데이터(선거코드 ${{ inputs.elec_code }}) 재정제 완료 [skip ci]"
             git push
