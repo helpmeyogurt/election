@@ -30,6 +30,42 @@
         {
             "SDID": 4100,
             "SDNAME": "경기도",
+            "SGGID": "4412900",
+            "SGGNAME": "시흥시",
+            "WIWID": 4129,
+            "WIWNAME": "시흥시",
+            "SUNSU": "0",
+            "TUSU": "0",
+            "TUYUL": "0",
+            "name": 4129,
+            "nametxt": "시흥시",
+            "data": [
+                {
+                    "value": 55.54,
+                    "name": "임병택",
+                    "party": "더불어민주당",
+                    "pyo": 106468,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                }
+            ],
+            "HUBO01": "임병택",
+            "JD01": "더불어민주당",
+            "DUGSU01": 0
+            "DUGYUL01": "0",
+            "WINNUM": 1,
+            "WINDUGSU": "0",
+            "WINDUGYUL": "0",
+            "WINHUBO": "임병택",
+            "WINJD": "더불어민주당",
+            "DUGYULCHA": "100",
+            "DUGSUCHA": "0",
+            "value": 1
+        },
+        {
+            "SDID": 4100,
+            "SDNAME": "경기도",
             "SGGID": "4410300",
             "SGGNAME": "수원시",
             "WIWID": 4103,
