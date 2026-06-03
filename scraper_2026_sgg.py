@@ -47,7 +47,7 @@ def main():
     output_dir = os.path.join("data", "jibang", "9")
     os.makedirs(output_dir, exist_ok=True)
 
-    print(f"총 {len(CITIES)}개 시도 선거 원본 데이터 수집을 시작합니다.", flush=True)
+    print(f"총 {len(CITIES)}개 시군구 선거 원본 데이터 수집을 시작합니다.", flush=True)
     print(f"설정 옵션 - 대기 범위: {MIN_DELAY}초 ~ {MAX_DELAY}초 | 최대 재시도: {MAX_RETRIES}회", flush=True)
 
     for idx, city in enumerate(CITIES):
