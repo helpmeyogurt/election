@@ -87,12 +87,22 @@ def add_sgg_data_processor(raw_json, city_code, city_name):
     for item in raw_items:
         wiw_name_raw = item.get("WIWNAME", "").strip()
         sgg_name_raw = item.get("SGGNAME", "").strip()
-        
-        # 선거구합계 노드 제외 및 시군구 필터링
-        if sgg_name_raw == "선거구합계" or not sgg_name_raw or wiw_name_raw != "합계":
-            continue
 
-        display_name = sgg_name_raw
+        # 🟢 [수정] 선거 종류(ELEC_CODE)에 따른 데이터 필터링 분기 처리
+        if ELEC_CODE == "3":
+            # 시도지사: 합계 데이터를 포함한 '모든 데이터'를 추출하므로 필터링 없이 통과합니다.
+            pass
+            
+            # 단, 시도지사 데이터는 SGGNAME이 시도명으로 고정되므로, 
+            # 구별 이름 정보가 담긴 WIWNAME을 화면 표시 이름으로 씁니다. (합계 노드는 "합계" 그대로 들어감)
+            display_name = wiw_name_raw if wiw_name_raw else sgg_name_raw
+        else:
+            # 시군구청장 (ELEC_CODE == "4"): WIWNAME이 "소계"인 것만 정확하게 필터링하여 추출합니다.
+            if wiw_name_raw != "소계":
+                continue
+            # 시군구청장의 "소계" 노드는 SGGNAME에 실제 구 이름이 담겨있으므로 이를 사용합니다.
+            display_name = sgg_name_raw
+
         sunsu_val = uncomma(item.get("SUNSU", "0"))
         tusu_val = uncomma(item.get("TUSU", "0"))
         
