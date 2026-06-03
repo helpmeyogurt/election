@@ -77,6 +77,7 @@ def add_sgg_data_processor(raw_json, city_code, city_name):
         wiw_name_raw = item.get("WIWNAME", "").strip()
         sgg_name_raw = item.get("SGGNAME", "").strip()
         
+        # 선거구합계 노드 제외 및 시군구 필터링
         if sgg_name_raw == "선거구합계" or not sgg_name_raw or wiw_name_raw != "합계":
             continue
 
@@ -84,12 +85,10 @@ def add_sgg_data_processor(raw_json, city_code, city_name):
         sunsu_val = uncomma(item.get("SUNSU", "0"))
         tusu_val = uncomma(item.get("TUSU", "0"))
         
-        # 🟢 원본 개표율 값 가져오기 (값이 없으면 "0.00")
         gaepyo_raw = item.get("GAEPYOYUL", "").strip()
         if not gaepyo_raw or gaepyo_raw == "0":
             gaepyo_raw = "0.00"
             
-        # 🟢 개표율 값 뒤에 "%" 붙이기
         gaepyo_val = f"{gaepyo_raw}%"
         
         total_sunsu_sum += sunsu_val
@@ -108,15 +107,13 @@ def add_sgg_data_processor(raw_json, city_code, city_name):
             "SUNSU": comma(sunsu_val),
             "TUSU": comma(tusu_val),
             "TUYUL": f"{(tusu_val / sunsu_val * 100):.1f}" if sunsu_val > 0 else "0.0",
-            "GPYUL": gaepyo_val,  # 🟢 여기에 %가 붙은 개표율이 주입됩니다.
+            "GPYUL": gaepyo_val,
             "name": final_wiw_id, 
             "nametxt": display_name,
             "data": []
         }
 
-        # --- HUBOSU 인자값 기준 후보자 데이터 파싱 구역 ---
         candidates = []
-        
         hubo_count_raw = item.get("HUBOSU")
         hubo_count = int(hubo_count_raw) if hubo_count_raw else 0
         
@@ -127,7 +124,7 @@ def add_sgg_data_processor(raw_json, city_code, city_name):
             if not hubo_name: 
                 continue
             
-            party_name = item.get(f"JD{suffix}", "무소속")
+            party_name = item.get(f"JD{suffix}", "무소속").strip()
             dugsu = uncomma(item.get(f"DUGSU{suffix}", "0"))
             
             try:
@@ -148,16 +145,14 @@ def add_sgg_data_processor(raw_json, city_code, city_name):
             sggdata[f"DUGSU{suffix}"] = item.get(f"DUGSU{suffix}", "0")
             sggdata[f"DUGYUL{suffix}"] = item.get(f"DUGYUL{suffix}", "0.00")
             
-            cleaned_party = party_name.strip() if party_name else "무소속"
             sggdata["data"].append({
                 "value": dugyul, 
                 "name": hubo_name, 
                 "party": party_name,
                 "pyo": dugsu, 
-                "itemStyle": {"color": PARTY_COLORS.get(cleaned_party, "#8b8b8b")}
+                "itemStyle": {"color": PARTY_COLORS.get(party_name, "#8b8b8b")}
             })
 
-        # --- 개표 전/후 정렬 방식 방어 코드 ---
         is_before_counting = all(c["dugsu"] == 0 for c in candidates)
 
         if is_before_counting:
@@ -165,7 +160,6 @@ def add_sgg_data_processor(raw_json, city_code, city_name):
         else:
             candidates.sort(key=lambda x: x["dugsu"], reverse=True)
         
-        # --- 1위, 2위 데이터 매핑 ---
         if candidates:
             win = candidates[0]
             sggdata.update({
@@ -176,7 +170,7 @@ def add_sgg_data_processor(raw_json, city_code, city_name):
                 "WINJD": win["jd"]
             })
             
-            win_party_key = win["jd"].strip() if win["jd"] else "무소속"
+            win_party_key = win["jd"]
             win_party_counter[win_party_key] = win_party_counter.get(win_party_key, 0) + 1
             
             if len(candidates) >= 2:
@@ -204,8 +198,8 @@ def add_sgg_data_processor(raw_json, city_code, city_name):
 
         refined_list.append(sggdata)
 
-    # 3. 최상단 '시도 합산 요약 노드' 생성 구역
-    if ELEC_CODE == "4":
+    # 🟢 [수정] 요청사항 반영: ELEC_CODE == "4" 일 때만 최상단 요약 노드를 만들어 리스트 맨 앞에 결합합니다.
+    if ELEC_CODE == "4" and refined_list:
         summary_pie_data = []
         for party, count in win_party_counter.items():
             summary_pie_data.append({
@@ -238,7 +232,9 @@ def add_sgg_data_processor(raw_json, city_code, city_name):
 
 def main():
     target_dir = os.path.join("data", "jibang", "9")
-    if not os.path.exists(target_dir): return
+    if not os.path.exists(target_dir):
+        print(f"🔴 디렉토리가 존재하지 않습니다: {target_dir}")
+        return
 
     print(f"🔄 선거코드 [{ELEC_CODE}] 기준 고정 정당 순서 가공을 시작합니다.")
 
@@ -259,8 +255,12 @@ def main():
                     with open(refined_file_path, "w", encoding="utf-8") as f:
                         json.dump(refined_json, f, ensure_ascii=False, indent=4)
                     print(f"🟢 [{name_str}] 고정 정당 정렬 변환 완료 -> {ELEC_CODE}_{code_str}.json")
+                else:
+                    print(f"🟡 [{name_str}] 파싱할 데이터가 원본 파일에 없습니다.")
             except Exception as e:
                 print(f"🔴 [{name_str}] 가공 오류: {e}")
+        else:
+            print(f"⚪ [{name_str}] 원본 파일이 없습니다: ori_{ELEC_CODE}_{code_str}.json")
 
     print("✨ 지정한 정당 순서 명세가 파일 구조에 완벽하게 빌드되었습니다.")
 
