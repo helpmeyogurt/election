@@ -1,0 +1,215 @@
+{
+    "광주광역시": [
+        {
+            "SDID": 2900,
+            "SDNAME": "광주광역시",
+            "SGGID": "0",
+            "SGGNAME": "합계",
+            "WIWID": 0,
+            "WIWNAME": "합계",
+            "SUNSU": "774,370",
+            "TUSU": "0",
+            "TUYUL": "0.0",
+            "data": [
+                {
+                    "name": "더불어민주당",
+                    "value": 3,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                }
+            ]
+        },
+        {
+            "SDID": 2900,
+            "SDNAME": "광주광역시",
+            "SGGID": "4290100",
+            "SGGNAME": "동구",
+            "WIWID": 2901,
+            "WIWNAME": "동구",
+            "SUNSU": "92,274",
+            "TUSU": "0",
+            "TUYUL": "0.0",
+            "GPYUL": "0.00%",
+            "name": 2901,
+            "nametxt": "동구",
+            "data": [
+                {
+                    "value": 0.0,
+                    "name": "임택",
+                    "party": "더불어민주당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "김성환",
+                    "party": "조국혁신당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#004099"
+                    }
+                }
+            ],
+            "HUBO01": "임택",
+            "JD01": "더불어민주당",
+            "DUGSU01": "0",
+            "DUGYUL01": "0.00",
+            "HUBO02": "김성환",
+            "JD02": "조국혁신당",
+            "DUGSU02": "0",
+            "DUGYUL02": "0.00",
+            "WINNUM": 1,
+            "WINDUGSU": "0",
+            "WINDUGYUL": "0.00",
+            "WINHUBO": "임택",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "0",
+            "SECDUGYUL": "0.00",
+            "SECHUBO": "김성환",
+            "SECJD": "조국혁신당",
+            "DUGYULCHA": "0.00",
+            "DUGSUCHA": "0",
+            "value": 1
+        },
+        {
+            "SDID": 2900,
+            "SDNAME": "광주광역시",
+            "SGGID": "4290400",
+            "SGGNAME": "북구",
+            "WIWID": 2904,
+            "WIWNAME": "북구",
+            "SUNSU": "359,547",
+            "TUSU": "0",
+            "TUYUL": "0.0",
+            "GPYUL": "0.00%",
+            "name": 2904,
+            "nametxt": "북구",
+            "data": [
+                {
+                    "value": 0.0,
+                    "name": "신수정",
+                    "party": "더불어민주당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "김주업",
+                    "party": "진보당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#D6001C"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "김성현",
+                    "party": "무소속",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "노남수",
+                    "party": "무소속",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                }
+            ],
+            "HUBO01": "신수정",
+            "JD01": "더불어민주당",
+            "DUGSU01": "0",
+            "DUGYUL01": "0.00",
+            "HUBO02": "김주업",
+            "JD02": "진보당",
+            "DUGSU02": "0",
+            "DUGYUL02": "0.00",
+            "HUBO03": "김성현",
+            "JD03": "무소속",
+            "DUGSU03": "0",
+            "DUGYUL03": "0.00",
+            "HUBO04": "노남수",
+            "JD04": "무소속",
+            "DUGSU04": "0",
+            "DUGYUL04": "0.00",
+            "WINNUM": 1,
+            "WINDUGSU": "0",
+            "WINDUGYUL": "0.00",
+            "WINHUBO": "신수정",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "0",
+            "SECDUGYUL": "0.00",
+            "SECHUBO": "김주업",
+            "SECJD": "진보당",
+            "DUGYULCHA": "0.00",
+            "DUGSUCHA": "0",
+            "value": 1
+        },
+        {
+            "SDID": 2900,
+            "SDNAME": "광주광역시",
+            "SGGID": "4290500",
+            "SGGNAME": "광산구",
+            "WIWID": 2905,
+            "WIWNAME": "광산구",
+            "SUNSU": "322,549",
+            "TUSU": "0",
+            "TUYUL": "0.0",
+            "GPYUL": "0.00%",
+            "name": 2905,
+            "nametxt": "광산구",
+            "data": [
+                {
+                    "value": 0.0,
+                    "name": "박병규",
+                    "party": "더불어민주당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "정희성",
+                    "party": "진보당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#D6001C"
+                    }
+                }
+            ],
+            "HUBO01": "박병규",
+            "JD01": "더불어민주당",
+            "DUGSU01": "0",
+            "DUGYUL01": "0.00",
+            "HUBO02": "정희성",
+            "JD02": "진보당",
+            "DUGSU02": "0",
+            "DUGYUL02": "0.00",
+            "WINNUM": 1,
+            "WINDUGSU": "0",
+            "WINDUGYUL": "0.00",
+            "WINHUBO": "박병규",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "0",
+            "SECDUGYUL": "0.00",
+            "SECHUBO": "정희성",
+            "SECJD": "진보당",
+            "DUGYULCHA": "0.00",
+            "DUGSUCHA": "0",
+            "value": 1
+        }
+    ]
+}
