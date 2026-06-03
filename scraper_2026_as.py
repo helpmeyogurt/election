@@ -25,6 +25,172 @@ HEADERS = {
     "Connection": "keep-alive"
 }
 
+PARTY_COLORS = {
+    "더불어민주당": "#152484", "국민의힘": "#E61E2B", "더불어민주연합": "#152484", "국민의미래": "#E61E2B",
+    "녹색정의당": "#007C36", "새로운미래": "#46bbbd", "개혁신당": "#FF7920", "진보당": "#D6001C",
+    "자유통일당": "#E24A49", "조국혁신당": "#004099", "기본소득당": "#00D2C3", "무소속": "#8b8b8b",
+    "국민의당": "#EA5504", "미래통합당": "#EF426F", "미래한국당": "#EF426F", "더불어시민당": "#006CB7",
+    "정의당": "#ffca05", "열린민주당": "#003E98", "소나무당": "#1A246B", "우리공화당": "#009944",
+    "한국국민당": "#013588", "새진보연합": "#00d2c3", "없음": "#8b8b8b"
+}
+
+PARTY_MAP_INDEX = {
+    "더불어민주당": 1, "더불어민주연합": 1, "더불어시민당": 1,
+    "국민의힘": 2, "국민의미래": 2, "미래통합당": 2,
+    "정의당": 3, "녹색정의당": 3, "조국혁신당": 4, "진보당": 5, "개혁신당": 6,
+    "새로운미래": 9, "무소속": 9
+}
+
+def uncomma(value_str):
+    if not value_str: return 0
+    try: return int(str(value_str).replace(",", ""))
+    except ValueError: return 0
+
+def comma(value_int):
+    return f"{value_int:,}"
+    
+def process_and_transform(raw_json):
+    """
+    선관위 원본 JSON 데이터를 파싱하여 
+    사용자가 요청한 선거구별 Object 중첩 형식으로 변환합니다.
+    """
+    transformed_result = {}
+    
+    # 안전하게 body 리스트 가져오기
+    body_data = raw_json.get("jsonResult", {}).get("body", [])
+    if not body_data:
+        return transformed_result
+
+    for item in body_data:
+        wiw_name = str(item.get("WIWNAME") or "").strip()
+        sgg_name = str(item.get("SGGNAME") or "").strip()
+        
+        # 🟢 규칙: '소계' 노드나 시군구 합계 데이터만 타겟으로 잡습니다.
+        if wiw_name != "소계" and wiw_name != "합계" and sgg_name != wiw_name:
+            continue
+            
+        if not sgg_name:
+            continue
+
+        sunsu_val = uncomma(item.get("SUNSU", "0"))
+        tusu_val = uncomma(item.get("TUSU") or item.get("TTUHAMSU", "0"))
+        mutusu_val = uncomma(item.get("MUTUSU", "0"))
+        gigwon_val = uncomma(item.get("GIGWON", "0"))
+        
+        # 총 유효투표수 계산 (투표수 - 무효투표수)
+        total_valid_votes = tusu_val - mutusu_val
+        if total_valid_votes < 0: 
+            total_valid_votes = uncomma(item.get("TOTALDUGSU", "0"))
+
+        sgg_id_str = str(item.get("SGGID", "0"))
+        final_wiw_id = int(sgg_id_str[1:5]) if len(sgg_id_str) >= 5 else int(sgg_id_str)
+        
+        hubosu_count = int(item.get("HUBOSU", "0"))
+
+        sgg_object = {
+            "SDID": int(item.get("SDID", 0)),
+            "SDNAME": item.get("SDNAME", ""),
+            "SGGID": sgg_id_str,
+            "SGGNAME": sgg_name,
+            "WIWID": final_wiw_id,
+            "WIWNAME": sgg_name,  # 요구 양식에 맞춤
+            "SUNSU": comma(sunsu_val),
+            "TUSU": comma(tusu_val),
+            "TOTAL": comma(total_valid_votes),
+            "MUTUSU": comma(mutusu_val),
+            "GIGWON": comma(gigwon_val),
+            "HUBOSU": str(hubosu_count),
+            "TUYUL": f"{(tusu_val / sunsu_val * 100):.1f}" if sunsu_val > 0 else "0.0",
+            "name": final_wiw_id,
+            "nametxt": sgg_name,
+            "data": []
+        }
+
+        candidates = []
+        for k in range(1, hubosu_count + 1):
+            suffix = f"{k:02d}"
+            hubo_name = item.get(f"HUBO{suffix}")
+            if not hubo_name:
+                continue
+                
+            party_name = str(item.get(f"JD{suffix}") or "무소속").strip()
+            dugsu = uncomma(item.get(f"DUGSU{suffix}", "0"))
+            
+            try:
+                dugyul = float(item.get(f"DUGYUL{suffix}", 0.0))
+            except (ValueError, TypeError):
+                dugyul = 0.0
+
+            candidates.append({
+                "num": k,
+                "name": hubo_name,
+                "party": party_name,
+                "pyo": dugsu,
+                "value": dugyul,
+                "itemStyle": {"color": PARTY_COLORS.get(party_name, "#8b8b8b")}
+            })
+
+        # 득표순 정렬 (개표 전이면 기호순)
+        is_before_counting = all(c["pyo"] == 0 for c in candidates)
+        if is_before_counting:
+            candidates.sort(key=lambda x: x["num"])
+        else:
+            candidates.sort(key=lambda x: x["pyo"], reverse=True)
+
+        # 차트 연동용 data 배열 조립 및 플랫 키 재생성
+        for c in candidates:
+            sgg_object["data"].append({
+                "value": c["value"],
+                "name": c["name"],
+                "party": c["party"],
+                "pyo": c["pyo"],
+                "itemStyle": c["itemStyle"]
+            })
+            
+            # 오리지널 포맷 플랫 키 백업 복원
+            idx_str = f"{c['num']:02d}"
+            sgg_object[f"HUBO{idx_str}"] = c["name"]
+            sgg_object[f"JD{idx_str}"] = c["party"]
+            sgg_object[f"DUGSU{idx_str}"] = comma(c["pyo"])
+            sgg_object[f"DUGYUL{idx_str}"] = f"{c['value']:.2f}"
+
+        # 1위 / 2위 정보 분석 및 격차 기록
+        if candidates:
+            win = candidates[0]
+            sgg_object.update({
+                "WINNUM": win["num"],
+                "WINDUGSU": comma(win["pyo"]),
+                "WINDUGYUL": f"{win['value']:.2f}",
+                "WINHUBO": win["name"],
+                "WINJD": win["party"],
+                "value": PARTY_MAP_INDEX.get(win["party"], 9) # 지도 채색을 위해 승리 정당 인덱스 매핑
+            })
+            
+            if len(candidates) >= 2:
+                sec = candidates[1]
+                dugyul_cha = f"{(win['value'] - sec['value']):.2f}" if not is_before_counting else "0.00"
+                dugsu_cha = comma(win["pyo"] - sec["pyo"]) if not is_before_counting else "0"
+                
+                sgg_object.update({
+                    "SECNUM": sec["num"],
+                    "SECDUGSU": comma(sec["pyo"]),
+                    "SECDUGYUL": f"{sec['value']:.2f}",
+                    "SECHUBO": sec["name"],
+                    "SECJD": sec["party"],
+                    "DUGYULCHA": dugyul_cha,
+                    "DUGSUCHA": dugsu_cha
+                })
+            else:
+                sgg_object.update({
+                    "SECNUM": 0, "SECDUGSU": "0", "SECDUGYUL": "0.00",
+                    "SECHUBO": "", "SECJD": "",
+                    "DUGYULCHA": f"{win['value']:.2f}", "DUGSUCHA": comma(win['pyo'])
+                })
+
+        transformed_result[sgg_name] = sgg_object
+
+    return transformed_result
+
 def main():
     output_dir = os.path.join("data")
     os.makedirs(output_dir, exist_ok=True)
@@ -61,6 +227,9 @@ def main():
 
             if "jsonResult" in raw_json and raw_json["jsonResult"].get("success") == "false":
                 print(f"⚠️ [{name_str}] API 내부 오류 메시지: {raw_json['jsonResult'].get('message')}", flush=True)
+
+            # 🟢 [핵심 가공 로직 연동] 받아온 JSON 데이터를 원하는 포맷으로 즉시 필터링 및 조립
+            refined_result = process_and_transform(raw_json)
 
             file_path = os.path.join(output_dir, f"cur_2026.json")
             with open(file_path, "w", encoding="utf-8") as f:
