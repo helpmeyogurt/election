@@ -50,13 +50,8 @@ def comma(value_int):
     return f"{value_int:,}"
     
 def process_and_transform(raw_json):
-    """
-    선관위 원본 JSON 데이터를 파싱하여 
-    사용자가 요청한 선거구별 Object 중첩 형식으로 변환합니다.
-    """
     transformed_result = {}
     
-    # 안전하게 body 리스트 가져오기
     body_data = raw_json.get("jsonResult", {}).get("body", [])
     if not body_data:
         return transformed_result
@@ -65,7 +60,7 @@ def process_and_transform(raw_json):
         wiw_name = str(item.get("WIWNAME") or "").strip()
         sgg_name = str(item.get("SGGNAME") or "").strip()
         
-        # 🟢 규칙: '소계' 노드나 시군구 합계 데이터만 타겟으로 잡습니다.
+        # '소계' 노드나 시군구 합계 데이터만 타겟으로 잡습니다.
         if wiw_name != "소계" and wiw_name != "합계" and sgg_name != wiw_name:
             continue
             
@@ -77,7 +72,6 @@ def process_and_transform(raw_json):
         mutusu_val = uncomma(item.get("MUTUSU", "0"))
         gigwon_val = uncomma(item.get("GIGWON", "0"))
         
-        # 총 유효투표수 계산 (투표수 - 무효투표수)
         total_valid_votes = tusu_val - mutusu_val
         if total_valid_votes < 0: 
             total_valid_votes = uncomma(item.get("TOTALDUGSU", "0"))
@@ -93,7 +87,7 @@ def process_and_transform(raw_json):
             "SGGID": sgg_id_str,
             "SGGNAME": sgg_name,
             "WIWID": final_wiw_id,
-            "WIWNAME": sgg_name,  # 요구 양식에 맞춤
+            "WIWNAME": sgg_name,  
             "SUNSU": comma(sunsu_val),
             "TUSU": comma(tusu_val),
             "TOTAL": comma(total_valid_votes),
@@ -106,6 +100,7 @@ def process_and_transform(raw_json):
             "data": []
         }
 
+        # 1. 원본 선관위 데이터 배열에서 후보 리스트 추출 (독립 변수화하여 오염 방지)
         candidates = []
         for k in range(1, hubosu_count + 1):
             suffix = f"{k:02d}"
@@ -114,30 +109,37 @@ def process_and_transform(raw_json):
                 continue
                 
             party_name = str(item.get(f"JD{suffix}") or "무소속").strip()
-            dugsu = uncomma(item.get(f"DUGSU{suffix}", "0"))
+            dugsu_val = uncomma(item.get(f"DUGSU{suffix}", "0"))
             
             try:
-                dugyul = float(item.get(f"DUGYUL{suffix}", 0.0))
+                dugyul_val = float(item.get(f"DUGYUL{suffix}", 0.0))
             except (ValueError, TypeError):
-                dugyul = 0.0
+                dugyul_val = 0.0
 
+            # 후보 개인 데이터를 완전히 별개 객체로 담기
             candidates.append({
                 "num": k,
                 "name": hubo_name,
                 "party": party_name,
-                "pyo": dugsu,
-                "value": dugyul,
+                "pyo": dugsu_val,
+                "value": dugyul_val,
                 "itemStyle": {"color": PARTY_COLORS.get(party_name, "#8b8b8b")}
             })
 
-        # 득표순 정렬 (개표 전이면 기호순)
+            # 오리지널 포맷 플랫 키 백업 (기호 순서 유지용)
+            sgg_object[f"HUBO{suffix}"] = hubo_name
+            sgg_object[f"JD{suffix}"] = party_name
+            sgg_object[f"DUGSU{suffix}"] = comma(dugsu_val)
+            sgg_object[f"DUGYUL{suffix}"] = f"{dugyul_val:.2f}"
+
+        # 2. 득표순 정렬 (개표 전이면 기호순)
         is_before_counting = all(c["pyo"] == 0 for c in candidates)
         if is_before_counting:
             candidates.sort(key=lambda x: x["num"])
         else:
             candidates.sort(key=lambda x: x["pyo"], reverse=True)
 
-        # 차트 연동용 data 배열 조립 및 플랫 키 재생성
+        # 3. 차트 연동용 data 배열 조립 (정렬된 순서대로 누적)
         for c in candidates:
             sgg_object["data"].append({
                 "value": c["value"],
@@ -146,15 +148,8 @@ def process_and_transform(raw_json):
                 "pyo": c["pyo"],
                 "itemStyle": c["itemStyle"]
             })
-            
-            # 오리지널 포맷 플랫 키 백업 복원
-            idx_str = f"{c['num']:02d}"
-            sgg_object[f"HUBO{idx_str}"] = c["name"]
-            sgg_object[f"JD{idx_str}"] = c["party"]
-            sgg_object[f"DUGSU{idx_str}"] = comma(c["pyo"])
-            sgg_object[f"DUGYUL{idx_str}"] = f"{c['value']:.2f}"
 
-        # 1위 / 2위 정보 분석 및 격차 기록
+        # 4. 1위 / 2위 정보 분석 및 격차 기록 (오염된 데이터 배제)
         if candidates:
             win = candidates[0]
             sgg_object.update({
@@ -163,7 +158,7 @@ def process_and_transform(raw_json):
                 "WINDUGYUL": f"{win['value']:.2f}",
                 "WINHUBO": win["name"],
                 "WINJD": win["party"],
-                "value": PARTY_MAP_INDEX.get(win["party"], 9) # 지도 채색을 위해 승리 정당 인덱스 매핑
+                "value": PARTY_MAP_INDEX.get(win["party"], 9) 
             })
             
             if len(candidates) >= 2:
@@ -198,7 +193,6 @@ def main():
     print(f"국회의원 선거 원본 데이터 수집을 시작합니다.", flush=True)
     print(f"설정 옵션 - 대기 범위: {MIN_DELAY}초 ~ {MAX_DELAY}초 | 최대 재시도: {MAX_RETRIES}회", flush=True)
 
-    # 🛠️ 들여쓰기 정상화 완료
     code_str = "0000"
     name_str = "국회의원보궐"
 
@@ -212,7 +206,6 @@ def main():
 
     success = False
         
-    # 재시도 루프 구성 (0번째 시도가 최초 시도이며, 이후 MAX_RETRIES까지 회차 증가)
     for attempt in range(MAX_RETRIES + 1):
         if attempt == 0:
             print(f"\n[{name_str}] 데이터 요청 중 (코드: {code_str})...", flush=True)
@@ -220,7 +213,6 @@ def main():
             print(f"🔄 [{name_str}] 네트워크 지연/실패로 인해 재시도 중... ({attempt}/{MAX_RETRIES}회차)", flush=True)
 
         try:
-            # 네트워크 일시 먹통 방지 타임아웃 10초 설정
             response = requests.post(URL, headers=HEADERS, data=payload, timeout=10)
             response.raise_for_status()
             raw_json = response.json()
@@ -228,7 +220,6 @@ def main():
             if "jsonResult" in raw_json and raw_json["jsonResult"].get("success") == "false":
                 print(f"⚠️ [{name_str}] API 내부 오류 메시지: {raw_json['jsonResult'].get('message')}", flush=True)
 
-            # 🟢 [핵심 가공 로직 연동] 받아온 JSON 데이터를 원하는 포맷으로 즉시 필터링 및 조립
             refined_result = process_and_transform(raw_json)
 
             file_path = os.path.join(output_dir, f"cur_2026.json")
@@ -237,14 +228,13 @@ def main():
 
             print(f"🟢 [{name_str}] 원본 파일 저장 완료 -> {file_path}", flush=True)
             success = True
-            break # 요청 성공 시 재시도 루프 탈출
+            break
                 
         except requests.exceptions.Timeout:
             print(f"🟡 [{name_str}] 요청 타임아웃 제한 시간(10초) 초과", flush=True)
         except Exception as e:
             print(f"🔴 [{name_str}] 에러 발생: {e}", flush=True)
 
-        # 실패했고, 아직 재시도 기회가 남아있다면 잠시 쉬었다가 다음 회차로 진행
         if attempt < MAX_RETRIES:
             retry_delay = round(random.uniform(MIN_DELAY, MAX_DELAY), 2)
             print(f"⏳ {retry_delay}초 동안 랜덤 대기 후 다음 재시도를 수행합니다...", flush=True)
