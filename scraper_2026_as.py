@@ -71,6 +71,12 @@ def process_and_transform(raw_json):
         tusu_val = uncomma(item.get("TUSU") or item.get("TTUHAMSU", "0"))
         mutusu_val = uncomma(item.get("MUTUSU", "0"))
         gigwon_val = uncomma(item.get("GIGWON", "0"))
+
+        gaepyo_raw = item.get("GAEPYOYUL", "").strip()
+        if not gaepyo_raw or gaepyo_raw == "0":
+            gaepyo_raw = "0.00"
+            
+        gaepyo_val = f"{gaepyo_raw}%"
         
         total_valid_votes = tusu_val - mutusu_val
         if total_valid_votes < 0: 
@@ -90,6 +96,8 @@ def process_and_transform(raw_json):
             "WIWNAME": sgg_name,  
             "SUNSU": comma(sunsu_val),
             "TUSU": comma(tusu_val),
+            "TUYUL": f"{(tusu_val / sunsu_val * 100):.1f}" if sunsu_val > 0 else "0.0",
+            "GPYUL": gaepyo_val,
             "TOTAL": comma(total_valid_votes),
             "MUTUSU": comma(mutusu_val),
             "GIGWON": comma(gigwon_val),
