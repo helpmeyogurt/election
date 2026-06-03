@@ -60,7 +60,7 @@ def main():
             "electionCode": "4",
             "cityCode": code_str,
             "sggCityCode": "0",
-            "statementId": "VCCP09_#3",
+            "statementId": "VCCP09_#4",
         }
 
         success = False
