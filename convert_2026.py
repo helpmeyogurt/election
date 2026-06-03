@@ -3,9 +3,18 @@ import os
 import sys
 # 가공하고자 하는 선거 종류 코드 (3: 시도지사, 4: 시군구청장)
 ELEC_CODE = "3"
-if len(sys.argv) > 1 and sys.argv[1] in ["3", "4"]:
-    ELEC_CODE = sys.argv[1]
 
+# 인자값 강제 디버깅 및 적용
+if len(sys.argv) > 1:
+    passed_arg = str(sys.argv[1]).strip()
+    print(f"📢 [시스템 통신] GitHub Actions로부터 전달받은 인자값: '{passed_arg}'")
+    if passed_arg in ["3", "4"]:
+        ELEC_CODE = passed_arg
+    else:
+        print(f"⚠️ 경고: 인자값 '{passed_arg}'가 유효하지 않아 기본값 '{ELEC_CODE}'으로 진행합니다.")
+else:
+    print(f"📢 [시스템 통신] 전달된 인자가 없어 기본값 '{ELEC_CODE}'으로 진행합니다.")
+    
 CITIES = [
     {"CODE": 1100, "NAME": "서울특별시"},
     {"CODE": 2600, "NAME": "부산광역시"},
