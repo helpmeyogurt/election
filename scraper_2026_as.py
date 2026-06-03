@@ -26,7 +26,7 @@ HEADERS = {
 }
 
 def main():
-    output_dir = os.path.join("data", "jibang", "9")
+    output_dir = os.path.join("data")
     os.makedirs(output_dir, exist_ok=True)
 
     print(f"국회의원 선거 원본 데이터 수집을 시작합니다.", flush=True)
@@ -62,7 +62,7 @@ def main():
             if "jsonResult" in raw_json and raw_json["jsonResult"].get("success") == "false":
                 print(f"⚠️ [{name_str}] API 내부 오류 메시지: {raw_json['jsonResult'].get('message')}", flush=True)
 
-            file_path = os.path.join(output_dir, f"ori_2_{code_str}.json")
+            file_path = os.path.join(output_dir, f"cur_2026.json")
             with open(file_path, "w", encoding="utf-8") as f:
                 json.dump(raw_json, f, ensure_ascii=False, indent=4)
 
