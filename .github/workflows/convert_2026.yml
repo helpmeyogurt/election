@@ -34,7 +34,7 @@ jobs:
 
       # 3. [수정] 가장 안전하고 표준적인 ${{ inputs.elec_code }} 컨텍스트를 사용하여 인자를 주입합니다.
       - name: Run Converter
-        run: python -u convert_only.py "${{ inputs.elec_code }}"
+        run: python -u convert_2026.py "${{ inputs.elec_code }}"
 
       # 4. [수정] 변경된 파일이 8호든 9호든 상관없이 유연하게 잡아서 커밋하고 push합니다.
       - name: Commit and Push changes
