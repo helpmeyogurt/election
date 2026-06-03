@@ -3,9 +3,9 @@
         {
             "name": 0,
             "nametxt": "전국 합계",
-            "SUNSU": "80,980,682",
-            "TUSU": "48,105,221",
-            "TUYUL": "59.4",
+            "SUNSU": "44,649,908",
+            "TUSU": "25,935,139",
+            "TUYUL": "58.1",
             "data": [
                 {
                     "name": "더불어민주당",
@@ -16,7 +16,7 @@
                 },
                 {
                     "name": "국민의힘",
-                    "value": 3,
+                    "value": 4,
                     "itemStyle": {
                         "color": "#E61E2B"
                     }
@@ -27,28 +27,104 @@
             "name": 11,
             "WIWNAME": 11,
             "WIWID": 11,
-            "value": 0,
+            "value": 2,
             "nametxt": "서울",
-            "SUNSU": "44,649,908",
-            "TUSU": "27,249,586",
-            "TOTAL": "27,249,586",
+            "SUNSU": "8,319,134",
+            "TUSU": "5,079,504",
+            "TOTAL": "5,079,504",
             "MUTUSU": "0",
             "GIGWON": "0",
-            "HUBOSU": "0",
-            "TUYUL": "61.0",
+            "HUBOSU": "5",
+            "TUYUL": "61.1",
             "SDNAME": "서울특별시",
-            "WINHUBO": "",
-            "DUGYULCHA": "0.00",
+            "WINHUBO": "오세훈",
+            "DUGYULCHA": "0.28",
             "center": [
                 126.735,
                 37.9802
             ],
             "radius": 38,
-            "data": [],
+            "data": [
+                {
+                    "value": 48.5,
+                    "name": "정원오",
+                    "party": "더불어민주당",
+                    "pyo": 2437494,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 48.78,
+                    "name": "오세훈",
+                    "party": "국민의힘",
+                    "pyo": 2451423,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 0.82,
+                    "name": "김정철",
+                    "party": "개혁신당",
+                    "pyo": 41469,
+                    "itemStyle": {
+                        "color": "#FF7920"
+                    }
+                },
+                {
+                    "value": 0.84,
+                    "name": "유지혜",
+                    "party": "여성의당",
+                    "pyo": 42268,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                },
+                {
+                    "value": 1.04,
+                    "name": "권영국",
+                    "party": "정의당",
+                    "pyo": 52576,
+                    "itemStyle": {
+                        "color": "#ffca05"
+                    }
+                }
+            ],
             "SDID": 1100,
             "SGGID": "0",
-            "SGGNAME": "",
-            "GPYUL": "0.00%"
+            "SGGNAME": "합계",
+            "GPYUL": "96.04%",
+            "HUBO01": "정원오",
+            "JD01": "더불어민주당",
+            "DUGSU01": "2,437,494",
+            "DUGYUL01": "48.50",
+            "HUBO02": "오세훈",
+            "JD02": "국민의힘",
+            "DUGSU02": "2,451,423",
+            "DUGYUL02": "48.78",
+            "HUBO03": "김정철",
+            "JD03": "개혁신당",
+            "DUGSU03": "41,469",
+            "DUGYUL03": "0.82",
+            "HUBO04": "유지혜",
+            "JD04": "여성의당",
+            "DUGSU04": "42,268",
+            "DUGYUL04": "0.84",
+            "HUBO05": "권영국",
+            "JD05": "정의당",
+            "DUGSU05": "52,576",
+            "DUGYUL05": "1.04",
+            "WINNUM": 2,
+            "WINDUGSU": "2,451,423",
+            "WINDUGYUL": "48.78",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "2,437,494",
+            "SECDUGYUL": "48.50",
+            "SECHUBO": "정원오",
+            "SECJD": "더불어민주당",
+            "DUGSUCHA": "13,929"
         },
         {
             "name": 26,
