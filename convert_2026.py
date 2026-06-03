@@ -2,7 +2,7 @@ import json
 import os
 
 # 가공하고자 하는 선거 종류 코드 (3: 시도지사, 4: 시군구청장)
-ELEC_CODE = "4"
+ELEC_CODE = "3"
 
 CITIES = [
     {"CODE": 1100, "NAME": "서울특별시"},
@@ -83,7 +83,14 @@ def add_sgg_data_processor(raw_json, city_code, city_name):
         display_name = sgg_name_raw
         sunsu_val = uncomma(item.get("SUNSU", "0"))
         tusu_val = uncomma(item.get("TUSU", "0"))
-        gaepyo_val = item.get("GAEPYOYUL", "0")
+        
+        # 🟢 원본 개표율 값 가져오기 (값이 없으면 "0.00")
+        gaepyo_raw = item.get("GAEPYOYUL", "").strip()
+        if not gaepyo_raw or gaepyo_raw == "0":
+            gaepyo_raw = "0.00"
+            
+        # 🟢 개표율 값 뒤에 "%" 붙이기
+        gaepyo_val = f"{gaepyo_raw}%"
         
         total_sunsu_sum += sunsu_val
         total_tusu_sum += tusu_val
@@ -101,52 +108,97 @@ def add_sgg_data_processor(raw_json, city_code, city_name):
             "SUNSU": comma(sunsu_val),
             "TUSU": comma(tusu_val),
             "TUYUL": f"{(tusu_val / sunsu_val * 100):.1f}" if sunsu_val > 0 else "0.0",
-            "GPYUL": gaepyo_val,
+            "GPYUL": gaepyo_val,  # 🟢 여기에 %가 붙은 개표율이 주입됩니다.
             "name": final_wiw_id, 
             "nametxt": display_name,
             "data": []
         }
 
-        # --- 후보자 데이터 파싱 구역 (수정됨) ---
+        # --- HUBOSU 인자값 기준 후보자 데이터 파싱 구역 ---
         candidates = []
-        for k in range(1, 20):
+        
+        hubo_count_raw = item.get("HUBOSU")
+        hubo_count = int(hubo_count_raw) if hubo_count_raw else 0
+        
+        for k in range(1, hubo_count + 1):
             suffix = f"{k:02d}"
             hubo_name = item.get(f"HUBO{suffix}")
-            if not hubo_name: break 
             
-            party_name = item.get(f"JD{suffix}")
-            dugsu = uncomma(item.get(f"DUGSU{suffix}"))
-            dugyul = float(item.get(f"DUGYUL{suffix}", 0.0))
+            if not hubo_name: 
+                continue
             
-            candidates.append({"num": k, "hubo": hubo_name, "jd": party_name, "dugsu": dugsu, "dugyul": dugyul})
+            party_name = item.get(f"JD{suffix}", "무소속")
+            dugsu = uncomma(item.get(f"DUGSU{suffix}", "0"))
             
-            # 🟢 원본 HUBOXX, JDXX, DUGSUXX 필드 유지
+            try:
+                dugyul = float(item.get(f"DUGYUL{suffix}", 0.0))
+            except (ValueError, TypeError):
+                dugyul = 0.0
+            
+            candidates.append({
+                "num": k, 
+                "hubo": hubo_name, 
+                "jd": party_name, 
+                "dugsu": dugsu, 
+                "dugyul": dugyul
+            })
+            
             sggdata[f"HUBO{suffix}"] = hubo_name
             sggdata[f"JD{suffix}"] = party_name
-            sggdata[f"DUGSU{suffix}"] = item.get(f"DUGSU{suffix}")
-            sggdata[f"DUGYUL{suffix}"] = item.get(f"DUGYUL{suffix}")
+            sggdata[f"DUGSU{suffix}"] = item.get(f"DUGSU{suffix}", "0")
+            sggdata[f"DUGYUL{suffix}"] = item.get(f"DUGYUL{suffix}", "0.00")
             
-            # 차트용 데이터 추가
-            cleaned_party = party_name.strip() if party_name else "없음"
+            cleaned_party = party_name.strip() if party_name else "무소속"
             sggdata["data"].append({
-                "value": dugyul, "name": hubo_name, "party": party_name,
-                "pyo": dugsu, "itemStyle": {"color": PARTY_COLORS.get(cleaned_party, "#8b8b8b")}
+                "value": dugyul, 
+                "name": hubo_name, 
+                "party": party_name,
+                "pyo": dugsu, 
+                "itemStyle": {"color": PARTY_COLORS.get(cleaned_party, "#8b8b8b")}
             })
 
-        # 득표수 기준 정렬하여 1, 2위 추출
-        candidates.sort(key=lambda x: x["dugsu"], reverse=True)
+        # --- 개표 전/후 정렬 방식 방어 코드 ---
+        is_before_counting = all(c["dugsu"] == 0 for c in candidates)
+
+        if is_before_counting:
+            candidates.sort(key=lambda x: x["num"])
+        else:
+            candidates.sort(key=lambda x: x["dugsu"], reverse=True)
         
+        # --- 1위, 2위 데이터 매핑 ---
         if candidates:
             win = candidates[0]
-            sggdata.update({"WINNUM": win["num"], "WINDUGSU": comma(win["dugsu"]), "WINDUGYUL": f"{win['dugyul']:.2f}", "WINHUBO": win["hubo"], "WINJD": win["jd"]})
-            win_party_counter[win["jd"].strip()] = win_party_counter.get(win["jd"].strip(), 0) + 1
+            sggdata.update({
+                "WINNUM": win["num"], 
+                "WINDUGSU": comma(win["dugsu"]), 
+                "WINDUGYUL": f"{win['dugyul']:.2f}", 
+                "WINHUBO": win["hubo"], 
+                "WINJD": win["jd"]
+            })
+            
+            win_party_key = win["jd"].strip() if win["jd"] else "무소속"
+            win_party_counter[win_party_key] = win_party_counter.get(win_party_key, 0) + 1
             
             if len(candidates) >= 2:
                 sec = candidates[1]
-                sggdata.update({"SECNUM": sec["num"], "SECDUGSU": comma(sec["dugsu"]), "SECDUGYUL": f"{sec['dugyul']:.2f}", "SECHUBO": sec["hubo"], "SECJD": sec["jd"],
-                                "DUGYULCHA": f"{(win['dugyul'] - sec['dugyul']):.2f}", "DUGSUCHA": comma(win['dugsu'] - sec['dugsu'])})
+                dugyul_cha = f"{(win['dugyul'] - sec['dugyul']):.2f}" if not is_before_counting else "0.00"
+                dugsu_cha = comma(win["dugsu"] - sec["dugsu"]) if not is_before_counting else "0"
+
+                sggdata.update({
+                    "SECNUM": sec["num"], 
+                    "SECDUGSU": comma(sec["dugsu"]), 
+                    "SECDUGYUL": f"{sec['dugyul']:.2f}", 
+                    "SECHUBO": sec["hubo"], 
+                    "SECJD": sec["jd"],
+                    "DUGYULCHA": dugyul_cha, 
+                    "DUGSUCHA": dugsu_cha
+                })
             else:
-                sggdata.update({"SECNUM": 0, "SECDUGSU": "0", "SECDUGYUL": "0.00", "SECHUBO": "", "SECJD": "", "DUGYULCHA": f"{win['dugyul']:.2f}", "DUGSUCHA": comma(win['dugsu'])})
+                sggdata.update({
+                    "SECNUM": 0, "SECDUGSU": "0", "SECDUGYUL": "0.00", 
+                    "SECHUBO": "", "SECJD": "", 
+                    "DUGYULCHA": f"{win['dugyul']:.2f}", "DUGSUCHA": comma(win['dugsu'])
+                })
             
             sggdata["value"] = PARTY_MAP_INDEX.get(win["jd"], 9)
 
@@ -185,7 +237,7 @@ def add_sgg_data_processor(raw_json, city_code, city_name):
     return {city_name: refined_list}
 
 def main():
-    target_dir = os.path.join("data", "jibang", "8")
+    target_dir = os.path.join("data", "jibang", "9")
     if not os.path.exists(target_dir): return
 
     print(f"🔄 선거코드 [{ELEC_CODE}] 기준 고정 정당 순서 가공을 시작합니다.")
