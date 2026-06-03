@@ -4,19 +4,19 @@
             "name": 0,
             "nametxt": "전국 합계",
             "SUNSU": "42,917,144",
-            "TUSU": "23,298,026",
-            "TUYUL": "54.3",
+            "TUSU": "25,101,839",
+            "TUYUL": "58.5",
             "data": [
                 {
                     "name": "더불어민주당",
-                    "value": 120,
+                    "value": 117,
                     "itemStyle": {
                         "color": "#152484"
                     }
                 },
                 {
                     "name": "국민의힘",
-                    "value": 91,
+                    "value": 94,
                     "itemStyle": {
                         "color": "#E61E2B"
                     }
@@ -256,7 +256,7 @@
         },
         {
             "name": 1115,
-            "value": 1,
+            "value": 2,
             "nametxt": "양천구",
             "SDNAME": "서울특별시"
         },
@@ -316,7 +316,7 @@
         },
         {
             "name": 1125,
-            "value": 1,
+            "value": 2,
             "nametxt": "강동구",
             "SDNAME": "서울특별시"
         },
@@ -502,7 +502,7 @@
         },
         {
             "name": 2804,
-            "value": 1,
+            "value": 2,
             "nametxt": "연수구",
             "SDNAME": "인천광역시"
         },
