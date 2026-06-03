@@ -1,22 +1,22 @@
 {
-    "서울특별시": [
+    "전라북도": [
         {
-            "SDID": 1100,
-            "SDNAME": "서울특별시",
+            "SDID": 5300,
+            "SDNAME": "전북특별자치도",
             "SGGID": "0",
-            "SGGNAME": "서울특별시",
+            "SGGNAME": "전북특별자치도",
             "WIWID": 0,
-            "WIWNAME": "서울특별시",
-            "SUNSU": "8,319,134",
+            "WIWNAME": "전북특별자치도",
+            "SUNSU": "1,509,854",
             "TUSU": "0",
             "TUYUL": "0.0",
             "GPYUL": "0.00%",
             "name": 0,
-            "nametxt": "서울특별시",
+            "nametxt": "전북특별자치도",
             "data": [
                 {
                     "value": 0.0,
-                    "name": "정원오",
+                    "name": "이원택",
                     "party": "더불어민주당",
                     "pyo": 0,
                     "itemStyle": {
@@ -25,7 +25,7 @@
                 },
                 {
                     "value": 0.0,
-                    "name": "오세훈",
+                    "name": "양정무",
                     "party": "국민의힘",
                     "pyo": 0,
                     "itemStyle": {
@@ -34,17 +34,17 @@
                 },
                 {
                     "value": 0.0,
-                    "name": "김정철",
-                    "party": "개혁신당",
+                    "name": "백승재",
+                    "party": "진보당",
                     "pyo": 0,
                     "itemStyle": {
-                        "color": "#FF7920"
+                        "color": "#D6001C"
                     }
                 },
                 {
                     "value": 0.0,
-                    "name": "유지혜",
-                    "party": "여성의당",
+                    "name": "김성수",
+                    "party": "무소속",
                     "pyo": 0,
                     "itemStyle": {
                         "color": "#8b8b8b"
@@ -52,43 +52,43 @@
                 },
                 {
                     "value": 0.0,
-                    "name": "권영국",
-                    "party": "정의당",
+                    "name": "김관영",
+                    "party": "무소속",
                     "pyo": 0,
                     "itemStyle": {
-                        "color": "#ffca05"
+                        "color": "#8b8b8b"
                     }
                 }
             ],
-            "HUBO01": "정원오",
+            "HUBO01": "이원택",
             "JD01": "더불어민주당",
             "DUGSU01": "0",
             "DUGYUL01": "0.00",
-            "HUBO02": "오세훈",
+            "HUBO02": "양정무",
             "JD02": "국민의힘",
             "DUGSU02": "0",
             "DUGYUL02": "0.00",
-            "HUBO03": "김정철",
-            "JD03": "개혁신당",
+            "HUBO03": "백승재",
+            "JD03": "진보당",
             "DUGSU03": "0",
             "DUGYUL03": "0.00",
-            "HUBO04": "유지혜",
-            "JD04": "여성의당",
+            "HUBO04": "김성수",
+            "JD04": "무소속",
             "DUGSU04": "0",
             "DUGYUL04": "0.00",
-            "HUBO05": "권영국",
-            "JD05": "정의당",
+            "HUBO05": "김관영",
+            "JD05": "무소속",
             "DUGSU05": "0",
             "DUGYUL05": "0.00",
             "WINNUM": 1,
             "WINDUGSU": "0",
             "WINDUGYUL": "0.00",
-            "WINHUBO": "정원오",
+            "WINHUBO": "이원택",
             "WINJD": "더불어민주당",
             "SECNUM": 2,
             "SECDUGSU": "0",
             "SECDUGYUL": "0.00",
-            "SECHUBO": "오세훈",
+            "SECHUBO": "양정무",
             "SECJD": "국민의힘",
             "DUGYULCHA": "0.00",
             "DUGSUCHA": "0",

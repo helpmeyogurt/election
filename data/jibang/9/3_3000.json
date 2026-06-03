@@ -1,22 +1,22 @@
 {
-    "서울특별시": [
+    "대전광역시": [
         {
-            "SDID": 1100,
-            "SDNAME": "서울특별시",
+            "SDID": 3000,
+            "SDNAME": "대전광역시",
             "SGGID": "0",
-            "SGGNAME": "서울특별시",
+            "SGGNAME": "대전광역시",
             "WIWID": 0,
-            "WIWNAME": "서울특별시",
-            "SUNSU": "8,319,134",
+            "WIWNAME": "대전광역시",
+            "SUNSU": "1,250,891",
             "TUSU": "0",
             "TUYUL": "0.0",
             "GPYUL": "0.00%",
             "name": 0,
-            "nametxt": "서울특별시",
+            "nametxt": "대전광역시",
             "data": [
                 {
                     "value": 0.0,
-                    "name": "정원오",
+                    "name": "허태정",
                     "party": "더불어민주당",
                     "pyo": 0,
                     "itemStyle": {
@@ -25,7 +25,7 @@
                 },
                 {
                     "value": 0.0,
-                    "name": "오세훈",
+                    "name": "이장우",
                     "party": "국민의힘",
                     "pyo": 0,
                     "itemStyle": {
@@ -34,61 +34,35 @@
                 },
                 {
                     "value": 0.0,
-                    "name": "김정철",
+                    "name": "강희린",
                     "party": "개혁신당",
                     "pyo": 0,
                     "itemStyle": {
                         "color": "#FF7920"
                     }
-                },
-                {
-                    "value": 0.0,
-                    "name": "유지혜",
-                    "party": "여성의당",
-                    "pyo": 0,
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
-                },
-                {
-                    "value": 0.0,
-                    "name": "권영국",
-                    "party": "정의당",
-                    "pyo": 0,
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
                 }
             ],
-            "HUBO01": "정원오",
+            "HUBO01": "허태정",
             "JD01": "더불어민주당",
             "DUGSU01": "0",
             "DUGYUL01": "0.00",
-            "HUBO02": "오세훈",
+            "HUBO02": "이장우",
             "JD02": "국민의힘",
             "DUGSU02": "0",
             "DUGYUL02": "0.00",
-            "HUBO03": "김정철",
+            "HUBO03": "강희린",
             "JD03": "개혁신당",
             "DUGSU03": "0",
             "DUGYUL03": "0.00",
-            "HUBO04": "유지혜",
-            "JD04": "여성의당",
-            "DUGSU04": "0",
-            "DUGYUL04": "0.00",
-            "HUBO05": "권영국",
-            "JD05": "정의당",
-            "DUGSU05": "0",
-            "DUGYUL05": "0.00",
             "WINNUM": 1,
             "WINDUGSU": "0",
             "WINDUGYUL": "0.00",
-            "WINHUBO": "정원오",
+            "WINHUBO": "허태정",
             "WINJD": "더불어민주당",
             "SECNUM": 2,
             "SECDUGSU": "0",
             "SECDUGYUL": "0.00",
-            "SECHUBO": "오세훈",
+            "SECHUBO": "이장우",
             "SECJD": "국민의힘",
             "DUGYULCHA": "0.00",
             "DUGSUCHA": "0",
