@@ -233,7 +233,7 @@ def main():
 
             file_path = os.path.join(output_dir, f"cur_2026.json")
             with open(file_path, "w", encoding="utf-8") as f:
-                json.dump(raw_json, f, ensure_ascii=False, indent=4)
+                json.dump(refined_result, f, ensure_ascii=False, indent=4)
 
             print(f"🟢 [{name_str}] 원본 파일 저장 완료 -> {file_path}", flush=True)
             success = True
