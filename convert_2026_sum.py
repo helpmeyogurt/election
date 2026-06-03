@@ -78,6 +78,7 @@ def generate_national_summary(input_dir, output_filepath):
         
         refined_node = {
             "name": int(str(code)[:2]),  # '1100' -> 11
+            "WIWNAME": int(str(code)[:2]),  # '1100' -> 11
             "value": summary_node.get("value", 0),
             "nametxt": meta.get("nametxt", city_name[:2]), # '서울특별시' -> '서울'
             "SUNSU": summary_node.get("SUNSU", "0"),
