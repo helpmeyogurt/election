@@ -101,6 +101,7 @@ def process_and_transform(raw_json):
         }
 
         # 1. 원본 선관위 데이터 배열에서 후보 리스트 추출 (독립 변수화하여 오염 방지)
+        # 1. 원본 선관위 데이터 배열에서 후보 리스트 추출 (임시 수집)
         candidates = []
         for k in range(1, hubosu_count + 1):
             suffix = f"{k:02d}"
@@ -116,9 +117,8 @@ def process_and_transform(raw_json):
             except (ValueError, TypeError):
                 dugyul_val = 0.0
 
-            # 후보 개인 데이터를 완전히 별개 객체로 담기
             candidates.append({
-                "num": k,
+                "orig_num": k,  # 혹시 모를 원본 기호 백업용
                 "name": hubo_name,
                 "party": party_name,
                 "pyo": dugsu_val,
@@ -126,21 +126,27 @@ def process_and_transform(raw_json):
                 "itemStyle": {"color": PARTY_COLORS.get(party_name, "#8b8b8b")}
             })
 
-            # 오리지널 포맷 플랫 키 백업 (기호 순서 유지용)
-            sgg_object[f"HUBO{suffix}"] = hubo_name
-            sgg_object[f"JD{suffix}"] = party_name
-            sgg_object[f"DUGSU{suffix}"] = comma(dugsu_val)
-            sgg_object[f"DUGYUL{suffix}"] = f"{dugyul_val:.2f}"
-
-        # 2. 득표순 정렬 (개표 전이면 기호순)
+        # 2. 득표순 정렬 (개표 전이거나 모두 0표면 기호순 정렬)
         is_before_counting = all(c["pyo"] == 0 for c in candidates)
         if is_before_counting:
-            candidates.sort(key=lambda x: x["num"])
+            # 개표 전에는 원본 기호(orig_num) 순서로 정렬
+            candidates.sort(key=lambda x: x["orig_num"])
         else:
+            # 개표 시작 후에는 득표수(pyo)가 많은 순으로 정렬
             candidates.sort(key=lambda x: x["pyo"], reverse=True)
 
-        # 3. 차트 연동용 data 배열 조립 (정렬된 순서대로 누적)
-        for c in candidates:
+        # 3. [핵심 수정] 정렬된 순서대로 sgg_object에 플랫 키 재부여 및 차트 데이터 조립
+        for idx, c in enumerate(candidates, start=1):
+            rank_suffix = f"{idx:02d}"  # 1위는 '01', 2위는 '02'...
+            
+            # 이제 HUBO01, JD01 에는 득표수 1위 후보의 정보가 들어갑니다.
+            sgg_object[f"HUBO{rank_suffix}"] = c["name"]
+            sgg_object[f"JD{rank_suffix}"] = c["party"]
+            sgg_object[f"DUGSU{rank_suffix}"] = comma(c["pyo"])
+            sgg_object[f"DUGYUL{rank_suffix}"] = f"{c['value']:.2f}"
+            sgg_object[f"ORIG_NUM{rank_suffix}"] = c["orig_num"]  # 필요시 원본 기호도 확인 가능하도록 추가
+
+            # 차트 연동용 배열에도 정렬된 순서대로 누적
             sgg_object["data"].append({
                 "value": c["value"],
                 "name": c["name"],
