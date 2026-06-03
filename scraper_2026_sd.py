@@ -81,7 +81,7 @@ def main():
                 if "jsonResult" in raw_json and raw_json["jsonResult"].get("success") == "false":
                     print(f"⚠️ [{name_str}] API 내부 오류 메시지: {raw_json['jsonResult'].get('message')}", flush=True)
 
-                file_path = os.path.join(output_dir, f"ori_{code_str}.json")
+                file_path = os.path.join(output_dir, f"ori_3_{code_str}.json")
                 with open(file_path, "w", encoding="utf-8") as f:
                     json.dump(raw_json, f, ensure_ascii=False, indent=4)
 
