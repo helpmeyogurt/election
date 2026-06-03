@@ -39,7 +39,8 @@ jobs:
       run: |
         # 스크립트 상단의 DELAY_SECONDS = 20 부분을 입력값으로 치환
         sed -i "s/DELAY_SECONDS = [0-9]*/DELAY_SECONDS = $INPUT_DELAY/g" scraper_2026_sd.py
-        python scraper_2026_sd.py
+        # 💡 python 뒤에 -u를 붙여주면 print 하자마자 깃허브 화면에 바로 뜹니다!
+        python -u scraper_2026_sd.py
 
     # 6. 다운로드된 원본 JSON 데이터들을 리포지토리에 자동 커밋 & 푸시
     - name: Commit and Push Data
