@@ -8,19 +8,19 @@
             "WIWID": 0,
             "WIWNAME": "합계",
             "SUNSU": "2,049,683",
-            "TUSU": "240,867",
-            "TUYUL": "11.8",
+            "TUSU": "347,719",
+            "TUYUL": "17.0",
             "data": [
                 {
                     "name": "더불어민주당",
-                    "value": 3,
+                    "value": 2,
                     "itemStyle": {
                         "color": "#152484"
                     }
                 },
                 {
                     "name": "국민의힘",
-                    "value": 6,
+                    "value": 7,
                     "itemStyle": {
                         "color": "#E61E2B"
                     }
@@ -35,26 +35,26 @@
             "WIWID": 2701,
             "WIWNAME": "중구",
             "SUNSU": "87,505",
-            "TUSU": "9,882",
-            "TUYUL": "11.3",
-            "GPYUL": "17.68%",
+            "TUSU": "25,943",
+            "TUYUL": "29.6",
+            "GPYUL": "46.41%",
             "name": 2701,
             "nametxt": "중구",
             "data": [
                 {
-                    "value": 47.56,
+                    "value": 38.11,
                     "name": "오영준",
                     "party": "더불어민주당",
-                    "pyo": 4602,
+                    "pyo": 9693,
                     "itemStyle": {
                         "color": "#152484"
                     }
                 },
                 {
-                    "value": 52.43,
+                    "value": 61.88,
                     "name": "류규하",
                     "party": "국민의힘",
-                    "pyo": 5073,
+                    "pyo": 15741,
                     "itemStyle": {
                         "color": "#E61E2B"
                     }
@@ -62,24 +62,24 @@
             ],
             "HUBO01": "오영준",
             "JD01": "더불어민주당",
-            "DUGSU01": "4,602",
-            "DUGYUL01": "47.56",
+            "DUGSU01": "9,693",
+            "DUGYUL01": "38.11",
             "HUBO02": "류규하",
             "JD02": "국민의힘",
-            "DUGSU02": "5,073",
-            "DUGYUL02": "52.43",
+            "DUGSU02": "15,741",
+            "DUGYUL02": "61.88",
             "WINNUM": 2,
-            "WINDUGSU": "5,073",
-            "WINDUGYUL": "52.43",
+            "WINDUGSU": "15,741",
+            "WINDUGYUL": "61.88",
             "WINHUBO": "류규하",
             "WINJD": "국민의힘",
             "SECNUM": 1,
-            "SECDUGSU": "4,602",
-            "SECDUGYUL": "47.56",
+            "SECDUGSU": "9,693",
+            "SECDUGYUL": "38.11",
             "SECHUBO": "오영준",
             "SECJD": "더불어민주당",
-            "DUGYULCHA": "4.87",
-            "DUGSUCHA": "471",
+            "DUGYULCHA": "23.77",
+            "DUGSUCHA": "6,048",
             "value": 2
         },
         {
@@ -90,35 +90,35 @@
             "WIWID": 2702,
             "WIWNAME": "동구",
             "SUNSU": "299,000",
-            "TUSU": "9,725",
-            "TUYUL": "3.3",
-            "GPYUL": "5.08%",
+            "TUSU": "14,673",
+            "TUYUL": "4.9",
+            "GPYUL": "7.66%",
             "name": 2702,
             "nametxt": "동구",
             "data": [
                 {
-                    "value": 51.04,
+                    "value": 51.4,
                     "name": "신효철",
                     "party": "더불어민주당",
-                    "pyo": 4841,
+                    "pyo": 7356,
                     "itemStyle": {
                         "color": "#152484"
                     }
                 },
                 {
-                    "value": 45.95,
+                    "value": 45.65,
                     "name": "우성진",
                     "party": "국민의힘",
-                    "pyo": 4358,
+                    "pyo": 6533,
                     "itemStyle": {
                         "color": "#E61E2B"
                     }
                 },
                 {
-                    "value": 3.0,
+                    "value": 2.93,
                     "name": "양희",
                     "party": "정의당",
-                    "pyo": 285,
+                    "pyo": 420,
                     "itemStyle": {
                         "color": "#ffca05"
                     }
@@ -126,28 +126,28 @@
             ],
             "HUBO01": "신효철",
             "JD01": "더불어민주당",
-            "DUGSU01": "4,841",
-            "DUGYUL01": "51.04",
+            "DUGSU01": "7,356",
+            "DUGYUL01": "51.40",
             "HUBO02": "우성진",
             "JD02": "국민의힘",
-            "DUGSU02": "4,358",
-            "DUGYUL02": "45.95",
+            "DUGSU02": "6,533",
+            "DUGYUL02": "45.65",
             "HUBO03": "양희",
             "JD03": "정의당",
-            "DUGSU03": "285",
-            "DUGYUL03": "3.00",
+            "DUGSU03": "420",
+            "DUGYUL03": "2.93",
             "WINNUM": 1,
-            "WINDUGSU": "4,841",
-            "WINDUGYUL": "51.04",
+            "WINDUGSU": "7,356",
+            "WINDUGYUL": "51.40",
             "WINHUBO": "신효철",
             "WINJD": "더불어민주당",
             "SECNUM": 2,
-            "SECDUGSU": "4,358",
-            "SECDUGYUL": "45.95",
+            "SECDUGSU": "6,533",
+            "SECDUGYUL": "45.65",
             "SECHUBO": "우성진",
             "SECJD": "국민의힘",
-            "DUGYULCHA": "5.09",
-            "DUGSUCHA": "483",
+            "DUGYULCHA": "5.75",
+            "DUGSUCHA": "823",
             "value": 1
         },
         {
@@ -158,26 +158,26 @@
             "WIWID": 2703,
             "WIWNAME": "서구",
             "SUNSU": "149,275",
-            "TUSU": "20,681",
-            "TUYUL": "13.9",
-            "GPYUL": "22.26%",
+            "TUSU": "28,948",
+            "TUYUL": "19.4",
+            "GPYUL": "31.16%",
             "name": 2703,
             "nametxt": "서구",
             "data": [
                 {
-                    "value": 44.52,
+                    "value": 39.74,
                     "name": "최규식",
                     "party": "더불어민주당",
-                    "pyo": 8927,
+                    "pyo": 11187,
                     "itemStyle": {
                         "color": "#152484"
                     }
                 },
                 {
-                    "value": 55.47,
+                    "value": 60.25,
                     "name": "권오상",
                     "party": "국민의힘",
-                    "pyo": 11121,
+                    "pyo": 16962,
                     "itemStyle": {
                         "color": "#E61E2B"
                     }
@@ -185,24 +185,24 @@
             ],
             "HUBO01": "최규식",
             "JD01": "더불어민주당",
-            "DUGSU01": "8,927",
-            "DUGYUL01": "44.52",
+            "DUGSU01": "11,187",
+            "DUGYUL01": "39.74",
             "HUBO02": "권오상",
             "JD02": "국민의힘",
-            "DUGSU02": "11,121",
-            "DUGYUL02": "55.47",
+            "DUGSU02": "16,962",
+            "DUGYUL02": "60.25",
             "WINNUM": 2,
-            "WINDUGSU": "11,121",
-            "WINDUGYUL": "55.47",
+            "WINDUGSU": "16,962",
+            "WINDUGYUL": "60.25",
             "WINHUBO": "권오상",
             "WINJD": "국민의힘",
             "SECNUM": 1,
-            "SECDUGSU": "8,927",
-            "SECDUGYUL": "44.52",
+            "SECDUGSU": "11,187",
+            "SECDUGYUL": "39.74",
             "SECHUBO": "최규식",
             "SECJD": "더불어민주당",
-            "DUGYULCHA": "10.95",
-            "DUGSUCHA": "2,194",
+            "DUGYULCHA": "20.51",
+            "DUGSUCHA": "5,775",
             "value": 2
         },
         {
@@ -213,26 +213,26 @@
             "WIWID": 2704,
             "WIWNAME": "남구",
             "SUNSU": "127,887",
-            "TUSU": "16,453",
-            "TUYUL": "12.9",
-            "GPYUL": "21.10%",
+            "TUSU": "22,622",
+            "TUYUL": "17.7",
+            "GPYUL": "29.01%",
             "name": 2704,
             "nametxt": "남구",
             "data": [
                 {
-                    "value": 47.36,
+                    "value": 48.0,
                     "name": "정연우",
                     "party": "더불어민주당",
-                    "pyo": 7597,
+                    "pyo": 10593,
                     "itemStyle": {
                         "color": "#152484"
                     }
                 },
                 {
-                    "value": 52.63,
+                    "value": 51.99,
                     "name": "조재구",
                     "party": "국민의힘",
-                    "pyo": 8441,
+                    "pyo": 11474,
                     "itemStyle": {
                         "color": "#E61E2B"
                     }
@@ -240,24 +240,24 @@
             ],
             "HUBO01": "정연우",
             "JD01": "더불어민주당",
-            "DUGSU01": "7,597",
-            "DUGYUL01": "47.36",
+            "DUGSU01": "10,593",
+            "DUGYUL01": "48.00",
             "HUBO02": "조재구",
             "JD02": "국민의힘",
-            "DUGSU02": "8,441",
-            "DUGYUL02": "52.63",
+            "DUGSU02": "11,474",
+            "DUGYUL02": "51.99",
             "WINNUM": 2,
-            "WINDUGSU": "8,441",
-            "WINDUGYUL": "52.63",
+            "WINDUGSU": "11,474",
+            "WINDUGYUL": "51.99",
             "WINHUBO": "조재구",
             "WINJD": "국민의힘",
             "SECNUM": 1,
-            "SECDUGSU": "7,597",
-            "SECDUGYUL": "47.36",
+            "SECDUGSU": "10,593",
+            "SECDUGYUL": "48.00",
             "SECHUBO": "정연우",
             "SECJD": "더불어민주당",
-            "DUGYULCHA": "5.27",
-            "DUGSUCHA": "844",
+            "DUGYULCHA": "3.99",
+            "DUGSUCHA": "881",
             "value": 2
         },
         {
@@ -268,26 +268,26 @@
             "WIWID": 2705,
             "WIWNAME": "북구",
             "SUNSU": "357,639",
-            "TUSU": "64,146",
-            "TUYUL": "17.9",
-            "GPYUL": "28.36%",
+            "TUSU": "80,783",
+            "TUYUL": "22.6",
+            "GPYUL": "35.72%",
             "name": 2705,
             "nametxt": "북구",
             "data": [
                 {
-                    "value": 48.44,
+                    "value": 44.37,
                     "name": "최우영",
                     "party": "더불어민주당",
-                    "pyo": 30492,
+                    "pyo": 35167,
                     "itemStyle": {
                         "color": "#152484"
                     }
                 },
                 {
-                    "value": 51.55,
+                    "value": 55.62,
                     "name": "이근수",
                     "party": "국민의힘",
-                    "pyo": 32455,
+                    "pyo": 44078,
                     "itemStyle": {
                         "color": "#E61E2B"
                     }
@@ -295,24 +295,24 @@
             ],
             "HUBO01": "최우영",
             "JD01": "더불어민주당",
-            "DUGSU01": "30,492",
-            "DUGYUL01": "48.44",
+            "DUGSU01": "35,167",
+            "DUGYUL01": "44.37",
             "HUBO02": "이근수",
             "JD02": "국민의힘",
-            "DUGSU02": "32,455",
-            "DUGYUL02": "51.55",
+            "DUGSU02": "44,078",
+            "DUGYUL02": "55.62",
             "WINNUM": 2,
-            "WINDUGSU": "32,455",
-            "WINDUGYUL": "51.55",
+            "WINDUGSU": "44,078",
+            "WINDUGYUL": "55.62",
             "WINHUBO": "이근수",
             "WINJD": "국민의힘",
             "SECNUM": 1,
-            "SECDUGSU": "30,492",
-            "SECDUGYUL": "48.44",
+            "SECDUGSU": "35,167",
+            "SECDUGYUL": "44.37",
             "SECHUBO": "최우영",
             "SECJD": "더불어민주당",
-            "DUGYULCHA": "3.11",
-            "DUGSUCHA": "1,963",
+            "DUGYULCHA": "11.25",
+            "DUGSUCHA": "8,911",
             "value": 2
         },
         {
@@ -323,26 +323,26 @@
             "WIWID": 2706,
             "WIWNAME": "수성구",
             "SUNSU": "346,598",
-            "TUSU": "12,483",
-            "TUYUL": "3.6",
-            "GPYUL": "5.39%",
+            "TUSU": "19,443",
+            "TUYUL": "5.6",
+            "GPYUL": "8.40%",
             "name": 2706,
             "nametxt": "수성구",
             "data": [
                 {
-                    "value": 52.65,
+                    "value": 53.11,
                     "name": "박정권",
                     "party": "더불어민주당",
-                    "pyo": 6453,
+                    "pyo": 10128,
                     "itemStyle": {
                         "color": "#152484"
                     }
                 },
                 {
-                    "value": 47.34,
+                    "value": 46.88,
                     "name": "김대권",
                     "party": "국민의힘",
-                    "pyo": 5803,
+                    "pyo": 8941,
                     "itemStyle": {
                         "color": "#E61E2B"
                     }
@@ -350,24 +350,24 @@
             ],
             "HUBO01": "박정권",
             "JD01": "더불어민주당",
-            "DUGSU01": "6,453",
-            "DUGYUL01": "52.65",
+            "DUGSU01": "10,128",
+            "DUGYUL01": "53.11",
             "HUBO02": "김대권",
             "JD02": "국민의힘",
-            "DUGSU02": "5,803",
-            "DUGYUL02": "47.34",
+            "DUGSU02": "8,941",
+            "DUGYUL02": "46.88",
             "WINNUM": 1,
-            "WINDUGSU": "6,453",
-            "WINDUGYUL": "52.65",
+            "WINDUGSU": "10,128",
+            "WINDUGYUL": "53.11",
             "WINHUBO": "박정권",
             "WINJD": "더불어민주당",
             "SECNUM": 2,
-            "SECDUGSU": "5,803",
-            "SECDUGYUL": "47.34",
+            "SECDUGSU": "8,941",
+            "SECDUGYUL": "46.88",
             "SECHUBO": "김대권",
             "SECJD": "국민의힘",
-            "DUGYULCHA": "5.31",
-            "DUGSUCHA": "650",
+            "DUGYULCHA": "6.23",
+            "DUGSUCHA": "1,187",
             "value": 1
         },
         {
@@ -378,35 +378,35 @@
             "WIWID": 2707,
             "WIWNAME": "달서구",
             "SUNSU": "449,699",
-            "TUSU": "46,212",
-            "TUYUL": "10.3",
-            "GPYUL": "16.05%",
+            "TUSU": "76,746",
+            "TUYUL": "17.1",
+            "GPYUL": "26.66%",
             "name": 2707,
             "nametxt": "달서구",
             "data": [
                 {
-                    "value": 52.67,
+                    "value": 44.38,
                     "name": "김성태",
                     "party": "더불어민주당",
-                    "pyo": 23890,
+                    "pyo": 33349,
                     "itemStyle": {
                         "color": "#152484"
                     }
                 },
                 {
-                    "value": 44.34,
+                    "value": 52.53,
                     "name": "김용판",
                     "party": "국민의힘",
-                    "pyo": 20112,
+                    "pyo": 39475,
                     "itemStyle": {
                         "color": "#E61E2B"
                     }
                 },
                 {
-                    "value": 2.98,
+                    "value": 3.08,
                     "name": "김재흥",
                     "party": "무소속",
-                    "pyo": 1353,
+                    "pyo": 2317,
                     "itemStyle": {
                         "color": "#8b8b8b"
                     }
@@ -414,29 +414,29 @@
             ],
             "HUBO01": "김성태",
             "JD01": "더불어민주당",
-            "DUGSU01": "23,890",
-            "DUGYUL01": "52.67",
+            "DUGSU01": "33,349",
+            "DUGYUL01": "44.38",
             "HUBO02": "김용판",
             "JD02": "국민의힘",
-            "DUGSU02": "20,112",
-            "DUGYUL02": "44.34",
+            "DUGSU02": "39,475",
+            "DUGYUL02": "52.53",
             "HUBO03": "김재흥",
             "JD03": "무소속",
-            "DUGSU03": "1,353",
-            "DUGYUL03": "2.98",
-            "WINNUM": 1,
-            "WINDUGSU": "23,890",
-            "WINDUGYUL": "52.67",
-            "WINHUBO": "김성태",
-            "WINJD": "더불어민주당",
-            "SECNUM": 2,
-            "SECDUGSU": "20,112",
-            "SECDUGYUL": "44.34",
-            "SECHUBO": "김용판",
-            "SECJD": "국민의힘",
-            "DUGYULCHA": "8.33",
-            "DUGSUCHA": "3,778",
-            "value": 1
+            "DUGSU03": "2,317",
+            "DUGYUL03": "3.08",
+            "WINNUM": 2,
+            "WINDUGSU": "39,475",
+            "WINDUGYUL": "52.53",
+            "WINHUBO": "김용판",
+            "WINJD": "국민의힘",
+            "SECNUM": 1,
+            "SECDUGSU": "33,349",
+            "SECDUGYUL": "44.38",
+            "SECHUBO": "김성태",
+            "SECJD": "더불어민주당",
+            "DUGYULCHA": "8.15",
+            "DUGSUCHA": "6,126",
+            "value": 2
         },
         {
             "SDID": 2700,
@@ -446,26 +446,26 @@
             "WIWID": 2708,
             "WIWNAME": "달성군",
             "SUNSU": "210,490",
-            "TUSU": "54,401",
-            "TUYUL": "25.8",
-            "GPYUL": "40.01%",
+            "TUSU": "68,180",
+            "TUYUL": "32.4",
+            "GPYUL": "50.15%",
             "name": 2708,
             "nametxt": "달성군",
             "data": [
                 {
-                    "value": 30.02,
+                    "value": 31.11,
                     "name": "김보경",
                     "party": "더불어민주당",
-                    "pyo": 16003,
+                    "pyo": 20798,
                     "itemStyle": {
                         "color": "#152484"
                     }
                 },
                 {
-                    "value": 69.97,
+                    "value": 68.88,
                     "name": "최재훈",
                     "party": "국민의힘",
-                    "pyo": 37294,
+                    "pyo": 46038,
                     "itemStyle": {
                         "color": "#E61E2B"
                     }
@@ -473,24 +473,24 @@
             ],
             "HUBO01": "김보경",
             "JD01": "더불어민주당",
-            "DUGSU01": "16,003",
-            "DUGYUL01": "30.02",
+            "DUGSU01": "20,798",
+            "DUGYUL01": "31.11",
             "HUBO02": "최재훈",
             "JD02": "국민의힘",
-            "DUGSU02": "37,294",
-            "DUGYUL02": "69.97",
+            "DUGSU02": "46,038",
+            "DUGYUL02": "68.88",
             "WINNUM": 2,
-            "WINDUGSU": "37,294",
-            "WINDUGYUL": "69.97",
+            "WINDUGSU": "46,038",
+            "WINDUGYUL": "68.88",
             "WINHUBO": "최재훈",
             "WINJD": "국민의힘",
             "SECNUM": 1,
-            "SECDUGSU": "16,003",
-            "SECDUGYUL": "30.02",
+            "SECDUGSU": "20,798",
+            "SECDUGYUL": "31.11",
             "SECHUBO": "김보경",
             "SECJD": "더불어민주당",
-            "DUGYULCHA": "39.95",
-            "DUGSUCHA": "21,291",
+            "DUGYULCHA": "37.77",
+            "DUGSUCHA": "25,240",
             "value": 2
         },
         {
@@ -501,26 +501,26 @@
             "WIWID": 2709,
             "WIWNAME": "군위군",
             "SUNSU": "21,590",
-            "TUSU": "6,884",
-            "TUYUL": "31.9",
-            "GPYUL": "39.95%",
+            "TUSU": "10,381",
+            "TUYUL": "48.1",
+            "GPYUL": "60.25%",
             "name": 2709,
             "nametxt": "군위군",
             "data": [
                 {
-                    "value": 23.15,
+                    "value": 21.41,
                     "name": "이기만",
                     "party": "더불어민주당",
-                    "pyo": 1536,
+                    "pyo": 2151,
                     "itemStyle": {
                         "color": "#152484"
                     }
                 },
                 {
-                    "value": 76.84,
+                    "value": 78.58,
                     "name": "김진열",
                     "party": "국민의힘",
-                    "pyo": 5097,
+                    "pyo": 7894,
                     "itemStyle": {
                         "color": "#E61E2B"
                     }
@@ -528,24 +528,24 @@
             ],
             "HUBO01": "이기만",
             "JD01": "더불어민주당",
-            "DUGSU01": "1,536",
-            "DUGYUL01": "23.15",
+            "DUGSU01": "2,151",
+            "DUGYUL01": "21.41",
             "HUBO02": "김진열",
             "JD02": "국민의힘",
-            "DUGSU02": "5,097",
-            "DUGYUL02": "76.84",
+            "DUGSU02": "7,894",
+            "DUGYUL02": "78.58",
             "WINNUM": 2,
-            "WINDUGSU": "5,097",
-            "WINDUGYUL": "76.84",
+            "WINDUGSU": "7,894",
+            "WINDUGYUL": "78.58",
             "WINHUBO": "김진열",
             "WINJD": "국민의힘",
             "SECNUM": 1,
-            "SECDUGSU": "1,536",
-            "SECDUGYUL": "23.15",
+            "SECDUGSU": "2,151",
+            "SECDUGYUL": "21.41",
             "SECHUBO": "이기만",
             "SECJD": "더불어민주당",
-            "DUGYULCHA": "53.69",
-            "DUGSUCHA": "3,561",
+            "DUGYULCHA": "57.17",
+            "DUGSUCHA": "5,743",
             "value": 2
         }
     ]
