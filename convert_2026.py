@@ -121,7 +121,12 @@ def add_sgg_data_processor(raw_json, city_code, city_name):
         if ELEC_CODE == "3":
             final_wiw_id = str(item.get("WIWID", "0"))
         else:
-            final_wiw_id = int(sgg_id_str[1:5]) if len(sgg_id_str) >= 5 else int(sgg_id_str)
+            if "성남시" in display_name:
+                final_wiw_id = 4105
+            elif "창원시" in display_name:
+                final_wiw_id = 4821
+            else:
+                final_wiw_id = int(sgg_id_str[1:5]) if len(sgg_id_str) >= 5 else int(sgg_id_str)
 
         sggdata = {
             "SDID": int(item.get("SDID", city_code)),
