@@ -4,19 +4,19 @@
             "name": 0,
             "nametxt": "전국 합계",
             "SUNSU": "42,917,144",
-            "TUSU": "16,562,856",
-            "TUYUL": "38.6",
+            "TUSU": "18,638,509",
+            "TUYUL": "43.4",
             "data": [
                 {
                     "name": "더불어민주당",
-                    "value": 133,
+                    "value": 126,
                     "itemStyle": {
                         "color": "#152484"
                     }
                 },
                 {
                     "name": "국민의힘",
-                    "value": 80,
+                    "value": 85,
                     "itemStyle": {
                         "color": "#E61E2B"
                     }
@@ -72,7 +72,7 @@
                 },
                 {
                     "name": "조국혁신당",
-                    "value": 1,
+                    "value": 2,
                     "itemStyle": {
                         "color": "#004099"
                     }
@@ -86,7 +86,7 @@
                 },
                 {
                     "name": "무소속",
-                    "value": 10,
+                    "value": 11,
                     "itemStyle": {
                         "color": "#8b8b8b"
                     }
@@ -178,7 +178,7 @@
         },
         {
             "name": 1102,
-            "value": 1,
+            "value": 2,
             "nametxt": "중구",
             "SDNAME": "서울특별시"
         },
@@ -484,7 +484,7 @@
         },
         {
             "name": 2812,
-            "value": 1,
+            "value": 2,
             "nametxt": "제물포구",
             "SDNAME": "인천광역시"
         },
@@ -658,7 +658,7 @@
         },
         {
             "name": 4119,
-            "value": 1,
+            "value": 2,
             "nametxt": "안산시",
             "SDNAME": "경기도"
         },
@@ -742,7 +742,7 @@
         },
         {
             "name": 4125,
-            "value": 1,
+            "value": 2,
             "nametxt": "구리시",
             "SDNAME": "경기도"
         },
@@ -760,7 +760,7 @@
         },
         {
             "name": 4143,
-            "value": 1,
+            "value": 2,
             "nametxt": "양평군",
             "SDNAME": "경기도"
         },
@@ -784,7 +784,7 @@
         },
         {
             "name": 4144,
-            "value": 1,
+            "value": 2,
             "nametxt": "가평군",
             "SDNAME": "경기도"
         },
@@ -1210,7 +1210,7 @@
         },
         {
             "name": 4615,
-            "value": 1,
+            "value": 4,
             "nametxt": "장흥군",
             "SDNAME": "전라남도"
         },
@@ -1414,13 +1414,13 @@
         },
         {
             "name": 4803,
-            "value": 1,
+            "value": 9,
             "nametxt": "진주시",
             "SDNAME": "경상남도"
         },
         {
             "name": 4805,
-            "value": 2,
+            "value": 1,
             "nametxt": "통영시",
             "SDNAME": "경상남도"
         },
