@@ -37,51 +37,64 @@ for code in sido_codes:
     file_name = f"4_{code}.json"
     file_path = os.path.join(BASE_DIR, file_name)
     
-    # 파일 존재 여부 확인 후 진행
     if not os.path.exists(file_path):
         print(f"경고: 파일을 찾을 수 없습니다. 건너뜁니다 -> {file_path}")
         continue
         
     try:
         with open(file_path, 'r', encoding='utf-8') as f:
-            sgg_data = json.load(f)
+            raw_data = json.load(f)
         
-        sgg_code = int(sgg_data.get('name') or sgg_data.get('SGG_CODE', 0))
-        sgg_name = sgg_data.get('nametxt') or sgg_data.get('SGG_NAME', '')
-        sd_name = sgg_data.get('SDNAME') or sgg_data.get('SD_NAME', '')
+        # 최상위 지역명 키(예: "서울특별시") 내부의 리스트 가져오기
+        if not raw_data:
+            continue
+        items = list(raw_data.values())[0]
         
-        # 선거인수, 투표수 정수 변환 (콤마 제거)
-        sunsu = int(str(sgg_data.get('SUNSU', '0')).replace(',', ''))
-        tusu = int(str(sgg_data.get('TUSU', '0')).replace(',', ''))
-        total_sunsu += sunsu
-        total_tusu += tusu
-        
-        # 최고 득표 정당 판별
-        winner_party = "무소속"
-        max_vote = -1
-        
-        party_data_list = sgg_data.get('data', [])
-        if isinstance(party_data_list, list):
-            for p in party_data_list:
-                vote_count = p.get('value', 0)
-                if vote_count > max_vote:
-                    max_vote = vote_count
-                    winner_party = p.get('name', '무소속')
-                    
-        # 정당 인덱스 가져오기 (매핑에 없으면 9번 무소속)
-        party_value = PARTY_MAP_INDEX.get(winner_party, 9)
-        
-        # 전국 통계용 승리 횟수 카운팅
-        national_party_wins[winner_party] = national_party_wins.get(winner_party, 0) + 1
-        
-        # 데이터 구조화
-        result_list.append({
-            "name": sgg_code,
-            "value": party_value,
-            "nametxt": sgg_name,
-            "SDNAME": sd_name
-        })
-        
+        for sgg_data in items:
+            # '합계' 데이터는 개별 구 데이터가 아니므로 스킵 (전국 통계 오염 방지)
+            if sgg_data.get('SGGNAME') == '합계' or sgg_data.get('WIWNAME') == '합계':
+                continue
+                
+            sgg_code = int(sgg_data.get('name') or sgg_data.get('WIWID') or sgg_data.get('SGG_CODE', 0))
+            sgg_name = sgg_data.get('nametxt') or sgg_data.get('WIWNAME') or sgg_data.get('SGG_NAME', '')
+            sd_name = sgg_data.get('SDNAME') or sgg_data.get('SD_NAME', '')
+            
+            # 선거인수, 투표수 정수 변환 (콤마 제거)
+            sunsu = int(str(sgg_data.get('SUNSU', '0')).replace(',', ''))
+            tusu = int(str(sgg_data.get('TUSU', '0')).replace(',', ''))
+            total_sunsu += sunsu
+            total_tusu += tusu
+            
+            # 데이터 구조 내 제공된 당선 정당(WINJD) 우선 사용, 없으면 직접 계산
+            winner_party = sgg_data.get('WINJD')
+            
+            if not winner_party:
+                winner_party = "무소속"
+                max_pyo = -1
+                party_data_list = sgg_data.get('data', [])
+                if isinstance(party_data_list, list):
+                    for p in party_data_list:
+                        vote_count = p.get('pyo', 0) # 득표수(pyo) 기준으로 변경
+                        if isinstance(vote_count, str):
+                            vote_count = int(vote_count.replace(',', ''))
+                        if vote_count > max_pyo:
+                            max_pyo = vote_count
+                            winner_party = p.get('party') or p.get('name', '무소속')
+            
+            # 정당 인덱스 가져오기 (매핑에 없으면 9번 무소속)
+            party_value = PARTY_MAP_INDEX.get(winner_party, 9)
+            
+            # 전국 통계용 승리 횟수 카운팅
+            national_party_wins[winner_party] = national_party_wins.get(winner_party, 0) + 1
+            
+            # 데이터 구조화
+            result_list.append({
+                "name": sgg_code,
+                "value": party_value,
+                "nametxt": sgg_name,
+                "SDNAME": sd_name
+            })
+            
     except Exception as e:
         print(f"{file_name} 처리 중 에러 발생: {e}")
 
@@ -89,6 +102,8 @@ for code in sido_codes:
 national_data = []
 for party_name, color in PARTY_COLORS.items():
     win_count = national_party_wins.get(party_name, 0)
+    # 단 한 번이라도 이긴 정당만 통계 리스트에 추가하고 싶다면 아래 주석을 해제하세요.
+    # if win_count == 0: continue 
     national_data.append({
         "name": party_name,
         "value": win_count,
@@ -114,7 +129,6 @@ final_result = {
 }
 
 # 6. 지정된 경로에 4_0000.json으로 저장
-# 폴더가 혹시나 존재하지 않을 경우를 대비해 자동 생성 코드를 포함합니다.
 os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
 
 with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
