@@ -118,7 +118,10 @@ def add_sgg_data_processor(raw_json, city_code, city_name):
         total_tusu_sum += tusu_val
 
         sgg_id_str = str(item.get("SGGID", "0"))
-        final_wiw_id = int(sgg_id_str[1:5]) if len(sgg_id_str) >= 5 else int(sgg_id_str)
+        if ELEC_CODE == "3":
+            final_wiw_id = str(item.get("WIWID", "0"))
+        else:
+            final_wiw_id = int(sgg_id_str[1:5]) if len(sgg_id_str) >= 5 else int(sgg_id_str)
 
         sggdata = {
             "SDID": int(item.get("SDID", city_code)),
