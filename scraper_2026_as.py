@@ -25,33 +25,13 @@ HEADERS = {
     "Connection": "keep-alive"
 }
 
-CITIES = [
-    {"CODE": 1100, "NAME": "서울특별시"},
-    {"CODE": 2600, "NAME": "부산광역시"},
-    {"CODE": 2700, "NAME": "대구광역시"},
-    {"CODE": 2800, "NAME": "인천광역시"},
-    {"CODE": 2900, "NAME": "광주광역시"},
-    {"CODE": 3000, "NAME": "대전광역시"},
-    {"CODE": 3100, "NAME": "울산광역시"},
-    {"CODE": 5100, "NAME": "세종특별자치시"},
-    {"CODE": 4100, "NAME": "경기도"},
-    {"CODE": 5200, "NAME": "강원특별자치도"},
-    {"CODE": 4300, "NAME": "충청북도"},
-    {"CODE": 4400, "NAME": "충청남도"},
-    {"CODE": 5300, "NAME": "전북특별자치도"},
-    {"CODE": 4700, "NAME": "경상북도"},
-    {"CODE": 4800, "NAME": "경상남도"},
-    {"CODE": 4900, "NAME": "제주특별자치도"},
-]
-
 def main():
     output_dir = os.path.join("data", "jibang", "9")
     os.makedirs(output_dir, exist_ok=True)
 
-    print(f"총 {len(CITIES)}개 시도 선거 원본 데이터 수집을 시작합니다.", flush=True)
+    print(f"국회의원 선거 원본 데이터 수집을 시작합니다.", flush=True)
     print(f"설정 옵션 - 대기 범위: {MIN_DELAY}초 ~ {MAX_DELAY}초 | 최대 재시도: {MAX_RETRIES}회", flush=True)
 
-    for idx, city in enumerate(CITIES):
         code_str = "0000"
         name_str = "국회의원보궐"
 
@@ -103,11 +83,6 @@ def main():
         if not success:
             print(f"❌ [{name_str}] 최종 수집 실패 (총 {MAX_RETRIES + 1}회 시도 모두 실패)", flush=True)
 
-        # 현재 시도가 성공했든 실패했든 다음 '지자체'로 넘어가기 전 대기 (마지막 시도 제외)
-        if idx < len(CITIES) - 1:
-            current_delay = round(random.uniform(MIN_DELAY, MAX_DELAY), 2)
-            print(f"⏳ 다음 지자체 처리를 위해 {current_delay}초 동안 무작위 대기합니다.", flush=True)
-            time.sleep(current_delay)
 
     print("\n모든 작업이 완료되었습니다.", flush=True)
 
