@@ -1,0 +1,312 @@
+{
+    "대전광역시": [
+        {
+            "SDID": 3000,
+            "SDNAME": "대전광역시",
+            "SGGID": "0",
+            "SGGNAME": "합계",
+            "WIWID": 0,
+            "WIWNAME": "합계",
+            "SUNSU": "1,250,891",
+            "TUSU": "0",
+            "TUYUL": "0.0",
+            "data": [
+                {
+                    "name": "더불어민주당",
+                    "value": 5,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                }
+            ]
+        },
+        {
+            "SDID": 3000,
+            "SDNAME": "대전광역시",
+            "SGGID": "4300100",
+            "SGGNAME": "동구",
+            "WIWID": 3001,
+            "WIWNAME": "동구",
+            "SUNSU": "194,024",
+            "TUSU": "0",
+            "TUYUL": "0.0",
+            "GPYUL": "0.00%",
+            "name": 3001,
+            "nametxt": "동구",
+            "data": [
+                {
+                    "value": 0.0,
+                    "name": "황인호",
+                    "party": "더불어민주당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "박희조",
+                    "party": "국민의힘",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "한현택",
+                    "party": "무소속",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                }
+            ],
+            "HUBO01": "황인호",
+            "JD01": "더불어민주당",
+            "DUGSU01": "0",
+            "DUGYUL01": "0.00",
+            "HUBO02": "박희조",
+            "JD02": "국민의힘",
+            "DUGSU02": "0",
+            "DUGYUL02": "0.00",
+            "HUBO03": "한현택",
+            "JD03": "무소속",
+            "DUGSU03": "0",
+            "DUGYUL03": "0.00",
+            "WINNUM": 1,
+            "WINDUGSU": "0",
+            "WINDUGYUL": "0.00",
+            "WINHUBO": "황인호",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "0",
+            "SECDUGYUL": "0.00",
+            "SECHUBO": "박희조",
+            "SECJD": "국민의힘",
+            "DUGYULCHA": "0.00",
+            "DUGSUCHA": "0",
+            "value": 1
+        },
+        {
+            "SDID": 3000,
+            "SDNAME": "대전광역시",
+            "SGGID": "4300200",
+            "SGGNAME": "중구",
+            "WIWID": 3002,
+            "WIWNAME": "중구",
+            "SUNSU": "198,067",
+            "TUSU": "0",
+            "TUYUL": "0.0",
+            "GPYUL": "0.00%",
+            "name": 3002,
+            "nametxt": "중구",
+            "data": [
+                {
+                    "value": 0.0,
+                    "name": "김제선",
+                    "party": "더불어민주당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "김선광",
+                    "party": "국민의힘",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "김제선",
+            "JD01": "더불어민주당",
+            "DUGSU01": "0",
+            "DUGYUL01": "0.00",
+            "HUBO02": "김선광",
+            "JD02": "국민의힘",
+            "DUGSU02": "0",
+            "DUGYUL02": "0.00",
+            "WINNUM": 1,
+            "WINDUGSU": "0",
+            "WINDUGYUL": "0.00",
+            "WINHUBO": "김제선",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "0",
+            "SECDUGYUL": "0.00",
+            "SECHUBO": "김선광",
+            "SECJD": "국민의힘",
+            "DUGYULCHA": "0.00",
+            "DUGSUCHA": "0",
+            "value": 1
+        },
+        {
+            "SDID": 3000,
+            "SDNAME": "대전광역시",
+            "SGGID": "4300300",
+            "SGGNAME": "서구",
+            "WIWID": 3003,
+            "WIWNAME": "서구",
+            "SUNSU": "400,057",
+            "TUSU": "0",
+            "TUYUL": "0.0",
+            "GPYUL": "0.00%",
+            "name": 3003,
+            "nametxt": "서구",
+            "data": [
+                {
+                    "value": 0.0,
+                    "name": "전문학",
+                    "party": "더불어민주당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "서철모",
+                    "party": "국민의힘",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "전문학",
+            "JD01": "더불어민주당",
+            "DUGSU01": "0",
+            "DUGYUL01": "0.00",
+            "HUBO02": "서철모",
+            "JD02": "국민의힘",
+            "DUGSU02": "0",
+            "DUGYUL02": "0.00",
+            "WINNUM": 1,
+            "WINDUGSU": "0",
+            "WINDUGYUL": "0.00",
+            "WINHUBO": "전문학",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "0",
+            "SECDUGYUL": "0.00",
+            "SECHUBO": "서철모",
+            "SECJD": "국민의힘",
+            "DUGYULCHA": "0.00",
+            "DUGSUCHA": "0",
+            "value": 1
+        },
+        {
+            "SDID": 3000,
+            "SDNAME": "대전광역시",
+            "SGGID": "4300400",
+            "SGGNAME": "유성구",
+            "WIWID": 3004,
+            "WIWNAME": "유성구",
+            "SUNSU": "311,741",
+            "TUSU": "0",
+            "TUYUL": "0.0",
+            "GPYUL": "0.00%",
+            "name": 3004,
+            "nametxt": "유성구",
+            "data": [
+                {
+                    "value": 0.0,
+                    "name": "정용래",
+                    "party": "더불어민주당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "조원휘",
+                    "party": "국민의힘",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "정용래",
+            "JD01": "더불어민주당",
+            "DUGSU01": "0",
+            "DUGYUL01": "0.00",
+            "HUBO02": "조원휘",
+            "JD02": "국민의힘",
+            "DUGSU02": "0",
+            "DUGYUL02": "0.00",
+            "WINNUM": 1,
+            "WINDUGSU": "0",
+            "WINDUGYUL": "0.00",
+            "WINHUBO": "정용래",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "0",
+            "SECDUGYUL": "0.00",
+            "SECHUBO": "조원휘",
+            "SECJD": "국민의힘",
+            "DUGYULCHA": "0.00",
+            "DUGSUCHA": "0",
+            "value": 1
+        },
+        {
+            "SDID": 3000,
+            "SDNAME": "대전광역시",
+            "SGGID": "4300500",
+            "SGGNAME": "대덕구",
+            "WIWID": 3005,
+            "WIWNAME": "대덕구",
+            "SUNSU": "147,002",
+            "TUSU": "0",
+            "TUYUL": "0.0",
+            "GPYUL": "0.00%",
+            "name": 3005,
+            "nametxt": "대덕구",
+            "data": [
+                {
+                    "value": 0.0,
+                    "name": "김찬술",
+                    "party": "더불어민주당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "최충규",
+                    "party": "국민의힘",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "김찬술",
+            "JD01": "더불어민주당",
+            "DUGSU01": "0",
+            "DUGYUL01": "0.00",
+            "HUBO02": "최충규",
+            "JD02": "국민의힘",
+            "DUGSU02": "0",
+            "DUGYUL02": "0.00",
+            "WINNUM": 1,
+            "WINDUGSU": "0",
+            "WINDUGYUL": "0.00",
+            "WINHUBO": "김찬술",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "0",
+            "SECDUGYUL": "0.00",
+            "SECHUBO": "최충규",
+            "SECJD": "국민의힘",
+            "DUGYULCHA": "0.00",
+            "DUGSUCHA": "0",
+            "value": 1
+        }
+    ]
+}

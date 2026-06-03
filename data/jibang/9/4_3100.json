@@ -1,0 +1,345 @@
+{
+    "울산광역시": [
+        {
+            "SDID": 3100,
+            "SDNAME": "울산광역시",
+            "SGGID": "0",
+            "SGGNAME": "합계",
+            "WIWID": 0,
+            "WIWNAME": "합계",
+            "SUNSU": "936,171",
+            "TUSU": "0",
+            "TUYUL": "0.0",
+            "data": [
+                {
+                    "name": "더불어민주당",
+                    "value": 4,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "name": "국민의힘",
+                    "value": 1,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ]
+        },
+        {
+            "SDID": 3100,
+            "SDNAME": "울산광역시",
+            "SGGID": "4310100",
+            "SGGNAME": "중구",
+            "WIWID": 3101,
+            "WIWNAME": "중구",
+            "SUNSU": "177,012",
+            "TUSU": "0",
+            "TUYUL": "0.0",
+            "GPYUL": "0.00%",
+            "name": 3101,
+            "nametxt": "중구",
+            "data": [
+                {
+                    "value": 0.0,
+                    "name": "박태완",
+                    "party": "더불어민주당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "김영길",
+                    "party": "국민의힘",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "고호근",
+                    "party": "무소속",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                }
+            ],
+            "HUBO01": "박태완",
+            "JD01": "더불어민주당",
+            "DUGSU01": "0",
+            "DUGYUL01": "0.00",
+            "HUBO02": "김영길",
+            "JD02": "국민의힘",
+            "DUGSU02": "0",
+            "DUGYUL02": "0.00",
+            "HUBO03": "고호근",
+            "JD03": "무소속",
+            "DUGSU03": "0",
+            "DUGYUL03": "0.00",
+            "WINNUM": 1,
+            "WINDUGSU": "0",
+            "WINDUGYUL": "0.00",
+            "WINHUBO": "박태완",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "0",
+            "SECDUGYUL": "0.00",
+            "SECHUBO": "김영길",
+            "SECJD": "국민의힘",
+            "DUGYULCHA": "0.00",
+            "DUGSUCHA": "0",
+            "value": 1
+        },
+        {
+            "SDID": 3100,
+            "SDNAME": "울산광역시",
+            "SGGID": "4310200",
+            "SGGNAME": "남구",
+            "WIWID": 3102,
+            "WIWNAME": "남구",
+            "SUNSU": "264,860",
+            "TUSU": "0",
+            "TUYUL": "0.0",
+            "GPYUL": "0.00%",
+            "name": 3102,
+            "nametxt": "남구",
+            "data": [
+                {
+                    "value": 0.0,
+                    "name": "최덕종",
+                    "party": "더불어민주당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "임현철",
+                    "party": "국민의힘",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "방인섭",
+                    "party": "개혁신당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#FF7920"
+                    }
+                }
+            ],
+            "HUBO01": "최덕종",
+            "JD01": "더불어민주당",
+            "DUGSU01": "0",
+            "DUGYUL01": "0.00",
+            "HUBO02": "임현철",
+            "JD02": "국민의힘",
+            "DUGSU02": "0",
+            "DUGYUL02": "0.00",
+            "HUBO03": "방인섭",
+            "JD03": "개혁신당",
+            "DUGSU03": "0",
+            "DUGYUL03": "0.00",
+            "WINNUM": 1,
+            "WINDUGSU": "0",
+            "WINDUGYUL": "0.00",
+            "WINHUBO": "최덕종",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "0",
+            "SECDUGYUL": "0.00",
+            "SECHUBO": "임현철",
+            "SECJD": "국민의힘",
+            "DUGYULCHA": "0.00",
+            "DUGSUCHA": "0",
+            "value": 1
+        },
+        {
+            "SDID": 3100,
+            "SDNAME": "울산광역시",
+            "SGGID": "4310300",
+            "SGGNAME": "동구",
+            "WIWID": 3103,
+            "WIWNAME": "동구",
+            "SUNSU": "126,317",
+            "TUSU": "0",
+            "TUYUL": "0.0",
+            "GPYUL": "0.00%",
+            "name": 3103,
+            "nametxt": "동구",
+            "data": [
+                {
+                    "value": 0.0,
+                    "name": "천기옥",
+                    "party": "국민의힘",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "박문옥",
+                    "party": "진보당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#D6001C"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "이장우",
+                    "party": "노동당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#8b8b8b"
+                    }
+                }
+            ],
+            "HUBO01": "천기옥",
+            "JD01": "국민의힘",
+            "DUGSU01": "0",
+            "DUGYUL01": "0.00",
+            "HUBO02": "박문옥",
+            "JD02": "진보당",
+            "DUGSU02": "0",
+            "DUGYUL02": "0.00",
+            "HUBO03": "이장우",
+            "JD03": "노동당",
+            "DUGSU03": "0",
+            "DUGYUL03": "0.00",
+            "WINNUM": 1,
+            "WINDUGSU": "0",
+            "WINDUGYUL": "0.00",
+            "WINHUBO": "천기옥",
+            "WINJD": "국민의힘",
+            "SECNUM": 2,
+            "SECDUGSU": "0",
+            "SECDUGYUL": "0.00",
+            "SECHUBO": "박문옥",
+            "SECJD": "진보당",
+            "DUGYULCHA": "0.00",
+            "DUGSUCHA": "0",
+            "value": 2
+        },
+        {
+            "SDID": 3100,
+            "SDNAME": "울산광역시",
+            "SGGID": "4310400",
+            "SGGNAME": "북구",
+            "WIWID": 3104,
+            "WIWNAME": "북구",
+            "SUNSU": "176,770",
+            "TUSU": "0",
+            "TUYUL": "0.0",
+            "GPYUL": "0.00%",
+            "name": 3104,
+            "nametxt": "북구",
+            "data": [
+                {
+                    "value": 0.0,
+                    "name": "이동권",
+                    "party": "더불어민주당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "박천동",
+                    "party": "국민의힘",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "이동권",
+            "JD01": "더불어민주당",
+            "DUGSU01": "0",
+            "DUGYUL01": "0.00",
+            "HUBO02": "박천동",
+            "JD02": "국민의힘",
+            "DUGSU02": "0",
+            "DUGYUL02": "0.00",
+            "WINNUM": 1,
+            "WINDUGSU": "0",
+            "WINDUGYUL": "0.00",
+            "WINHUBO": "이동권",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "0",
+            "SECDUGYUL": "0.00",
+            "SECHUBO": "박천동",
+            "SECJD": "국민의힘",
+            "DUGYULCHA": "0.00",
+            "DUGSUCHA": "0",
+            "value": 1
+        },
+        {
+            "SDID": 3100,
+            "SDNAME": "울산광역시",
+            "SGGID": "4310500",
+            "SGGNAME": "울주군",
+            "WIWID": 3105,
+            "WIWNAME": "울주군",
+            "SUNSU": "191,212",
+            "TUSU": "0",
+            "TUYUL": "0.0",
+            "GPYUL": "0.00%",
+            "name": 3105,
+            "nametxt": "울주군",
+            "data": [
+                {
+                    "value": 0.0,
+                    "name": "김시욱",
+                    "party": "더불어민주당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                },
+                {
+                    "value": 0.0,
+                    "name": "이순걸",
+                    "party": "국민의힘",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#E61E2B"
+                    }
+                }
+            ],
+            "HUBO01": "김시욱",
+            "JD01": "더불어민주당",
+            "DUGSU01": "0",
+            "DUGYUL01": "0.00",
+            "HUBO02": "이순걸",
+            "JD02": "국민의힘",
+            "DUGSU02": "0",
+            "DUGYUL02": "0.00",
+            "WINNUM": 1,
+            "WINDUGSU": "0",
+            "WINDUGYUL": "0.00",
+            "WINHUBO": "김시욱",
+            "WINJD": "더불어민주당",
+            "SECNUM": 2,
+            "SECDUGSU": "0",
+            "SECDUGYUL": "0.00",
+            "SECHUBO": "이순걸",
+            "SECJD": "국민의힘",
+            "DUGYULCHA": "0.00",
+            "DUGSUCHA": "0",
+            "value": 1
+        }
+    ]
+}
