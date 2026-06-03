@@ -8,8 +8,8 @@
             "WIWID": 0,
             "WIWNAME": "합계",
             "SUNSU": "1,509,854",
-            "TUSU": "899,511",
-            "TUYUL": "59.6",
+            "TUSU": "907,874",
+            "TUYUL": "60.1",
             "data": [
                 {
                     "name": "더불어민주당",
@@ -28,35 +28,35 @@
             "WIWID": 5301,
             "WIWNAME": "전주시",
             "SUNSU": "534,273",
-            "TUSU": "270,173",
-            "TUYUL": "50.6",
-            "GPYUL": "85.17%",
+            "TUSU": "278,536",
+            "TUYUL": "52.1",
+            "GPYUL": "87.81%",
             "name": 5301,
             "nametxt": "전주시",
             "data": [
                 {
-                    "value": 70.41,
+                    "value": 70.4,
                     "name": "조지훈",
                     "party": "더불어민주당",
-                    "pyo": 183344,
+                    "pyo": 188969,
                     "itemStyle": {
                         "color": "#152484"
                     }
                 },
                 {
-                    "value": 22.34,
+                    "value": 22.31,
                     "name": "강성희",
                     "party": "진보당",
-                    "pyo": 58184,
+                    "pyo": 59898,
                     "itemStyle": {
                         "color": "#D6001C"
                     }
                 },
                 {
-                    "value": 7.24,
+                    "value": 7.28,
                     "name": "김광종",
                     "party": "무소속",
-                    "pyo": 18861,
+                    "pyo": 19552,
                     "itemStyle": {
                         "color": "#8b8b8b"
                     }
@@ -64,28 +64,28 @@
             ],
             "HUBO01": "조지훈",
             "JD01": "더불어민주당",
-            "DUGSU01": "183,344",
-            "DUGYUL01": "70.41",
+            "DUGSU01": "188,969",
+            "DUGYUL01": "70.40",
             "HUBO02": "강성희",
             "JD02": "진보당",
-            "DUGSU02": "58,184",
-            "DUGYUL02": "22.34",
+            "DUGSU02": "59,898",
+            "DUGYUL02": "22.31",
             "HUBO03": "김광종",
             "JD03": "무소속",
-            "DUGSU03": "18,861",
-            "DUGYUL03": "7.24",
+            "DUGSU03": "19,552",
+            "DUGYUL03": "7.28",
             "WINNUM": 1,
-            "WINDUGSU": "183,344",
-            "WINDUGYUL": "70.41",
+            "WINDUGSU": "188,969",
+            "WINDUGYUL": "70.40",
             "WINHUBO": "조지훈",
             "WINJD": "더불어민주당",
             "SECNUM": 2,
-            "SECDUGSU": "58,184",
-            "SECDUGYUL": "22.34",
+            "SECDUGSU": "59,898",
+            "SECDUGYUL": "22.31",
             "SECHUBO": "강성희",
             "SECJD": "진보당",
-            "DUGYULCHA": "48.07",
-            "DUGSUCHA": "125,160",
+            "DUGYULCHA": "48.09",
+            "DUGSUCHA": "129,071",
             "value": 1
         },
         {
@@ -315,7 +315,7 @@
             "SUNSU": "66,274",
             "TUSU": "45,384",
             "TUYUL": "68.5",
-            "GPYUL": "100.00%",
+            "GPYUL": "100.0%",
             "name": 5308,
             "nametxt": "남원시",
             "data": [

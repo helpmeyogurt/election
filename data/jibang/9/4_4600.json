@@ -8,7 +8,7 @@
             "WIWID": 0,
             "WIWNAME": "합계",
             "SUNSU": "1,558,206",
-            "TUSU": "1,024,237",
+            "TUSU": "1,024,252",
             "TUYUL": "65.7",
             "data": [
                 {
@@ -44,7 +44,7 @@
             "SUNSU": "173,245",
             "TUSU": "98,550",
             "TUYUL": "56.9",
-            "GPYUL": "99.98%",
+            "GPYUL": "100.0%",
             "name": 4601,
             "nametxt": "목포시",
             "data": [
@@ -125,7 +125,7 @@
             "SUNSU": "228,239",
             "TUSU": "135,264",
             "TUYUL": "59.3",
-            "GPYUL": "99.99%",
+            "GPYUL": "100.0%",
             "name": 4602,
             "nametxt": "여수시",
             "data": [
@@ -314,17 +314,17 @@
             "WIWID": 4607,
             "WIWNAME": "광양시",
             "SUNSU": "132,358",
-            "TUSU": "81,185",
+            "TUSU": "81,200",
             "TUYUL": "61.3",
-            "GPYUL": "99.98%",
+            "GPYUL": "100.00%",
             "name": 4607,
             "nametxt": "광양시",
             "data": [
                 {
-                    "value": 46.38,
+                    "value": 46.37,
                     "name": "정인화",
                     "party": "더불어민주당",
-                    "pyo": 37069,
+                    "pyo": 37074,
                     "itemStyle": {
                         "color": "#152484"
                     }
@@ -333,7 +333,7 @@
                     "value": 50.23,
                     "name": "박성현",
                     "party": "무소속",
-                    "pyo": 40145,
+                    "pyo": 40154,
                     "itemStyle": {
                         "color": "#8b8b8b"
                     }
@@ -350,28 +350,28 @@
             ],
             "HUBO01": "정인화",
             "JD01": "더불어민주당",
-            "DUGSU01": "37,069",
-            "DUGYUL01": "46.38",
+            "DUGSU01": "37,074",
+            "DUGYUL01": "46.37",
             "HUBO02": "박성현",
             "JD02": "무소속",
-            "DUGSU02": "40,145",
+            "DUGSU02": "40,154",
             "DUGYUL02": "50.23",
             "HUBO03": "박필순",
             "JD03": "무소속",
             "DUGSU03": "2,708",
             "DUGYUL03": "3.38",
             "WINNUM": 2,
-            "WINDUGSU": "40,145",
+            "WINDUGSU": "40,154",
             "WINDUGYUL": "50.23",
             "WINHUBO": "박성현",
             "WINJD": "무소속",
             "SECNUM": 1,
-            "SECDUGSU": "37,069",
-            "SECDUGYUL": "46.38",
+            "SECDUGSU": "37,074",
+            "SECDUGYUL": "46.37",
             "SECHUBO": "정인화",
             "SECJD": "더불어민주당",
-            "DUGYULCHA": "3.85",
-            "DUGSUCHA": "3,076",
+            "DUGYULCHA": "3.86",
+            "DUGSUCHA": "3,080",
             "value": 9
         },
         {
