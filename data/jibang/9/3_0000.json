@@ -4,7 +4,7 @@
             "name": 0,
             "nametxt": "전국 합계",
             "SUNSU": "44,649,908",
-            "TUSU": "27,228,948",
+            "TUSU": "27,249,245",
             "TUYUL": "61.0",
             "data": [
                 {
@@ -30,15 +30,15 @@
             "value": 2,
             "nametxt": "서울",
             "SUNSU": "8,319,134",
-            "TUSU": "5,264,874",
-            "TOTAL": "5,264,874",
+            "TUSU": "5,285,171",
+            "TOTAL": "5,285,171",
             "MUTUSU": "0",
             "GIGWON": "0",
             "HUBOSU": "5",
-            "TUYUL": "63.3",
+            "TUYUL": "63.5",
             "SDNAME": "서울특별시",
             "WINHUBO": "오세훈",
-            "DUGYULCHA": "1.02",
+            "DUGYULCHA": "1.10",
             "center": [
                 126.735,
                 37.9802
@@ -46,19 +46,19 @@
             "radius": 38,
             "data": [
                 {
-                    "value": 48.13,
+                    "value": 48.09,
                     "name": "정원오",
                     "party": "더불어민주당",
-                    "pyo": 2507130,
+                    "pyo": 2514832,
                     "itemStyle": {
                         "color": "#152484"
                     }
                 },
                 {
-                    "value": 49.15,
+                    "value": 49.19,
                     "name": "오세훈",
                     "party": "국민의힘",
-                    "pyo": 2560590,
+                    "pyo": 2572443,
                     "itemStyle": {
                         "color": "#E61E2B"
                     }
@@ -67,7 +67,7 @@
                     "value": 0.82,
                     "name": "김정철",
                     "party": "개혁신당",
-                    "pyo": 43128,
+                    "pyo": 43293,
                     "itemStyle": {
                         "color": "#FF7920"
                     }
@@ -76,7 +76,7 @@
                     "value": 0.84,
                     "name": "유지혜",
                     "party": "여성의당",
-                    "pyo": 43801,
+                    "pyo": 43939,
                     "itemStyle": {
                         "color": "#8b8b8b"
                     }
@@ -85,7 +85,7 @@
                     "value": 1.03,
                     "name": "권영국",
                     "party": "정의당",
-                    "pyo": 54149,
+                    "pyo": 54296,
                     "itemStyle": {
                         "color": "#ffca05"
                     }
@@ -94,37 +94,37 @@
             "SDID": 1100,
             "SGGID": "0",
             "SGGNAME": "합계",
-            "GPYUL": "99.54%",
+            "GPYUL": "99.93%",
             "HUBO01": "정원오",
             "JD01": "더불어민주당",
-            "DUGSU01": "2,507,130",
-            "DUGYUL01": "48.13",
+            "DUGSU01": "2,514,832",
+            "DUGYUL01": "48.09",
             "HUBO02": "오세훈",
             "JD02": "국민의힘",
-            "DUGSU02": "2,560,590",
-            "DUGYUL02": "49.15",
+            "DUGSU02": "2,572,443",
+            "DUGYUL02": "49.19",
             "HUBO03": "김정철",
             "JD03": "개혁신당",
-            "DUGSU03": "43,128",
+            "DUGSU03": "43,293",
             "DUGYUL03": "0.82",
             "HUBO04": "유지혜",
             "JD04": "여성의당",
-            "DUGSU04": "43,801",
+            "DUGSU04": "43,939",
             "DUGYUL04": "0.84",
             "HUBO05": "권영국",
             "JD05": "정의당",
-            "DUGSU05": "54,149",
+            "DUGSU05": "54,296",
             "DUGYUL05": "1.03",
             "WINNUM": 2,
-            "WINDUGSU": "2,560,590",
-            "WINDUGYUL": "49.15",
+            "WINDUGSU": "2,572,443",
+            "WINDUGYUL": "49.19",
             "WINJD": "국민의힘",
             "SECNUM": 1,
-            "SECDUGSU": "2,507,130",
-            "SECDUGYUL": "48.13",
+            "SECDUGSU": "2,514,832",
+            "SECDUGYUL": "48.09",
             "SECHUBO": "정원오",
             "SECJD": "더불어민주당",
-            "DUGSUCHA": "53,460"
+            "DUGSUCHA": "57,611"
         },
         {
             "name": 26,
