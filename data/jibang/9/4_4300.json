@@ -8,7 +8,7 @@
             "WIWID": 0,
             "WIWNAME": "합계",
             "SUNSU": "1,396,588",
-            "TUSU": "832,618",
+            "TUSU": "832,702",
             "TUYUL": "59.6",
             "data": [
                 {
@@ -35,9 +35,9 @@
             "WIWID": 4301,
             "WIWNAME": "청주시",
             "SUNSU": "734,599",
-            "TUSU": "417,049",
+            "TUSU": "417,099",
             "TUYUL": "56.8",
-            "GPYUL": "99.98%",
+            "GPYUL": "100.0%",
             "name": 4301,
             "nametxt": "청주시",
             "data": [
@@ -45,16 +45,16 @@
                     "value": 52.52,
                     "name": "이장섭",
                     "party": "더불어민주당",
-                    "pyo": 215458,
+                    "pyo": 215486,
                     "itemStyle": {
                         "color": "#152484"
                     }
                 },
                 {
-                    "value": 45.48,
+                    "value": 45.47,
                     "name": "이범석",
                     "party": "국민의힘",
-                    "pyo": 186572,
+                    "pyo": 186594,
                     "itemStyle": {
                         "color": "#E61E2B"
                     }
@@ -71,28 +71,28 @@
             ],
             "HUBO01": "이장섭",
             "JD01": "더불어민주당",
-            "DUGSU01": "215,458",
+            "DUGSU01": "215,486",
             "DUGYUL01": "52.52",
             "HUBO02": "이범석",
             "JD02": "국민의힘",
-            "DUGSU02": "186,572",
-            "DUGYUL02": "45.48",
+            "DUGSU02": "186,594",
+            "DUGYUL02": "45.47",
             "HUBO03": "한현구",
             "JD03": "무소속",
             "DUGSU03": "8,198",
             "DUGYUL03": "1.99",
             "WINNUM": 1,
-            "WINDUGSU": "215,458",
+            "WINDUGSU": "215,486",
             "WINDUGYUL": "52.52",
             "WINHUBO": "이장섭",
             "WINJD": "더불어민주당",
             "SECNUM": 2,
-            "SECDUGSU": "186,572",
-            "SECDUGYUL": "45.48",
+            "SECDUGSU": "186,594",
+            "SECDUGYUL": "45.47",
             "SECHUBO": "이범석",
             "SECJD": "국민의힘",
-            "DUGYULCHA": "7.04",
-            "DUGSUCHA": "28,886",
+            "DUGYULCHA": "7.05",
+            "DUGSUCHA": "28,892",
             "value": 1
         },
         {
@@ -103,9 +103,9 @@
             "WIWID": 4303,
             "WIWNAME": "충주시",
             "SUNSU": "181,990",
-            "TUSU": "108,043",
+            "TUSU": "108,077",
             "TUYUL": "59.4",
-            "GPYUL": "99.96%",
+            "GPYUL": "100.0%",
             "name": 4303,
             "nametxt": "충주시",
             "data": [
@@ -113,7 +113,7 @@
                     "value": 49.94,
                     "name": "맹정섭",
                     "party": "더불어민주당",
-                    "pyo": 52821,
+                    "pyo": 52838,
                     "itemStyle": {
                         "color": "#152484"
                     }
@@ -122,7 +122,7 @@
                     "value": 50.05,
                     "name": "이동석",
                     "party": "국민의힘",
-                    "pyo": 52945,
+                    "pyo": 52962,
                     "itemStyle": {
                         "color": "#E61E2B"
                     }
@@ -130,19 +130,19 @@
             ],
             "HUBO01": "맹정섭",
             "JD01": "더불어민주당",
-            "DUGSU01": "52,821",
+            "DUGSU01": "52,838",
             "DUGYUL01": "49.94",
             "HUBO02": "이동석",
             "JD02": "국민의힘",
-            "DUGSU02": "52,945",
+            "DUGSU02": "52,962",
             "DUGYUL02": "50.05",
             "WINNUM": 2,
-            "WINDUGSU": "52,945",
+            "WINDUGSU": "52,962",
             "WINDUGYUL": "50.05",
             "WINHUBO": "이동석",
             "WINJD": "국민의힘",
             "SECNUM": 1,
-            "SECDUGSU": "52,821",
+            "SECDUGSU": "52,838",
             "SECDUGYUL": "49.94",
             "SECHUBO": "맹정섭",
             "SECJD": "더불어민주당",

@@ -8,7 +8,7 @@
             "WIWID": 0,
             "WIWNAME": "합계",
             "SUNSU": "1,857,239",
-            "TUSU": "1,091,677",
+            "TUSU": "1,091,746",
             "TUYUL": "58.8",
             "data": [
                 {
@@ -35,9 +35,9 @@
             "WIWID": 4417,
             "WIWNAME": "천안시",
             "SUNSU": "570,530",
-            "TUSU": "301,682",
+            "TUSU": "301,751",
             "TUYUL": "52.9",
-            "GPYUL": "99.98%",
+            "GPYUL": "100.0%",
             "name": 4417,
             "nametxt": "천안시",
             "data": [
@@ -45,16 +45,16 @@
                     "value": 53.47,
                     "name": "장기수",
                     "party": "더불어민주당",
-                    "pyo": 159279,
+                    "pyo": 159323,
                     "itemStyle": {
                         "color": "#152484"
                     }
                 },
                 {
-                    "value": 43.9,
+                    "value": 43.89,
                     "name": "박찬우",
                     "party": "국민의힘",
-                    "pyo": 130769,
+                    "pyo": 130788,
                     "itemStyle": {
                         "color": "#E61E2B"
                     }
@@ -63,7 +63,7 @@
                     "value": 2.62,
                     "name": "이성진",
                     "party": "개혁신당",
-                    "pyo": 7818,
+                    "pyo": 7821,
                     "itemStyle": {
                         "color": "#FF7920"
                     }
@@ -71,28 +71,28 @@
             ],
             "HUBO01": "장기수",
             "JD01": "더불어민주당",
-            "DUGSU01": "159,279",
+            "DUGSU01": "159,323",
             "DUGYUL01": "53.47",
             "HUBO02": "박찬우",
             "JD02": "국민의힘",
-            "DUGSU02": "130,769",
-            "DUGYUL02": "43.90",
+            "DUGSU02": "130,788",
+            "DUGYUL02": "43.89",
             "HUBO03": "이성진",
             "JD03": "개혁신당",
-            "DUGSU03": "7,818",
+            "DUGSU03": "7,821",
             "DUGYUL03": "2.62",
             "WINNUM": 1,
-            "WINDUGSU": "159,279",
+            "WINDUGSU": "159,323",
             "WINDUGYUL": "53.47",
             "WINHUBO": "장기수",
             "WINJD": "더불어민주당",
             "SECNUM": 2,
-            "SECDUGSU": "130,769",
-            "SECDUGYUL": "43.90",
+            "SECDUGSU": "130,788",
+            "SECDUGYUL": "43.89",
             "SECHUBO": "박찬우",
             "SECJD": "국민의힘",
-            "DUGYULCHA": "9.57",
-            "DUGSUCHA": "28,510",
+            "DUGYULCHA": "9.58",
+            "DUGSUCHA": "28,535",
             "value": 1
         },
         {
@@ -228,7 +228,7 @@
             "SUNSU": "302,051",
             "TUSU": "163,680",
             "TUYUL": "54.2",
-            "GPYUL": "99.99%",
+            "GPYUL": "100.0%",
             "name": 4404,
             "nametxt": "아산시",
             "data": [

@@ -8,7 +8,7 @@
             "WIWID": 0,
             "WIWNAME": "합계",
             "SUNSU": "1,329,742",
-            "TUSU": "858,162",
+            "TUSU": "858,245",
             "TUYUL": "64.5",
             "data": [
                 {
@@ -90,26 +90,26 @@
             "WIWID": 5202,
             "WIWNAME": "원주시",
             "SUNSU": "313,604",
-            "TUSU": "185,713",
+            "TUSU": "185,796",
             "TUYUL": "59.2",
-            "GPYUL": "99.98%",
+            "GPYUL": "100.0%",
             "name": 5202,
             "nametxt": "원주시",
             "data": [
                 {
-                    "value": 54.02,
+                    "value": 54.01,
                     "name": "구자열",
                     "party": "더불어민주당",
-                    "pyo": 99070,
+                    "pyo": 99107,
                     "itemStyle": {
                         "color": "#152484"
                     }
                 },
                 {
-                    "value": 45.97,
+                    "value": 45.98,
                     "name": "원강수",
                     "party": "국민의힘",
-                    "pyo": 84317,
+                    "pyo": 84362,
                     "itemStyle": {
                         "color": "#E61E2B"
                     }
@@ -117,24 +117,24 @@
             ],
             "HUBO01": "구자열",
             "JD01": "더불어민주당",
-            "DUGSU01": "99,070",
-            "DUGYUL01": "54.02",
+            "DUGSU01": "99,107",
+            "DUGYUL01": "54.01",
             "HUBO02": "원강수",
             "JD02": "국민의힘",
-            "DUGSU02": "84,317",
-            "DUGYUL02": "45.97",
+            "DUGSU02": "84,362",
+            "DUGYUL02": "45.98",
             "WINNUM": 1,
-            "WINDUGSU": "99,070",
-            "WINDUGYUL": "54.02",
+            "WINDUGSU": "99,107",
+            "WINDUGYUL": "54.01",
             "WINHUBO": "구자열",
             "WINJD": "더불어민주당",
             "SECNUM": 2,
-            "SECDUGSU": "84,317",
-            "SECDUGYUL": "45.97",
+            "SECDUGSU": "84,362",
+            "SECDUGYUL": "45.98",
             "SECHUBO": "원강수",
             "SECJD": "국민의힘",
-            "DUGYULCHA": "8.05",
-            "DUGSUCHA": "14,753",
+            "DUGYULCHA": "8.03",
+            "DUGSUCHA": "14,745",
             "value": 1
         },
         {

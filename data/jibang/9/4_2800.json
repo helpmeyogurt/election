@@ -8,7 +8,7 @@
             "WIWID": 0,
             "WIWNAME": "합계",
             "SUNSU": "2,663,459",
-            "TUSU": "1,548,871",
+            "TUSU": "1,548,911",
             "TUYUL": "58.2",
             "data": [
                 {
@@ -145,26 +145,26 @@
             "WIWID": 2812,
             "WIWNAME": "제물포구",
             "SUNSU": "91,508",
-            "TUSU": "55,243",
+            "TUSU": "55,282",
             "TUYUL": "60.4",
-            "GPYUL": "99.92%",
+            "GPYUL": "100.0%",
             "name": 2812,
             "nametxt": "제물포구",
             "data": [
                 {
-                    "value": 49.77,
+                    "value": 49.78,
                     "name": "남궁형",
                     "party": "더불어민주당",
-                    "pyo": 26878,
+                    "pyo": 26904,
                     "itemStyle": {
                         "color": "#152484"
                     }
                 },
                 {
-                    "value": 50.22,
+                    "value": 50.21,
                     "name": "김찬진",
                     "party": "국민의힘",
-                    "pyo": 27121,
+                    "pyo": 27131,
                     "itemStyle": {
                         "color": "#E61E2B"
                     }
@@ -172,24 +172,24 @@
             ],
             "HUBO01": "남궁형",
             "JD01": "더불어민주당",
-            "DUGSU01": "26,878",
-            "DUGYUL01": "49.77",
+            "DUGSU01": "26,904",
+            "DUGYUL01": "49.78",
             "HUBO02": "김찬진",
             "JD02": "국민의힘",
-            "DUGSU02": "27,121",
-            "DUGYUL02": "50.22",
+            "DUGSU02": "27,131",
+            "DUGYUL02": "50.21",
             "WINNUM": 2,
-            "WINDUGSU": "27,121",
-            "WINDUGYUL": "50.22",
+            "WINDUGSU": "27,131",
+            "WINDUGYUL": "50.21",
             "WINHUBO": "김찬진",
             "WINJD": "국민의힘",
             "SECNUM": 1,
-            "SECDUGSU": "26,878",
-            "SECDUGYUL": "49.77",
+            "SECDUGSU": "26,904",
+            "SECDUGYUL": "49.78",
             "SECHUBO": "남궁형",
             "SECJD": "더불어민주당",
-            "DUGYULCHA": "0.45",
-            "DUGSUCHA": "243",
+            "DUGYULCHA": "0.43",
+            "DUGSUCHA": "227",
             "value": 2
         },
         {
@@ -323,14 +323,14 @@
             "WIWID": 2804,
             "WIWNAME": "연수구",
             "SUNSU": "340,276",
-            "TUSU": "214,085",
+            "TUSU": "214,086",
             "TUYUL": "62.9",
-            "GPYUL": "100.00%",
+            "GPYUL": "100.0%",
             "name": 2804,
             "nametxt": "연수구",
             "data": [
                 {
-                    "value": 47.52,
+                    "value": 47.51,
                     "name": "정지열",
                     "party": "더불어민주당",
                     "pyo": 100117,
@@ -339,10 +339,10 @@
                     }
                 },
                 {
-                    "value": 52.47,
+                    "value": 52.48,
                     "name": "이재호",
                     "party": "국민의힘",
-                    "pyo": 110566,
+                    "pyo": 110567,
                     "itemStyle": {
                         "color": "#E61E2B"
                     }
@@ -351,23 +351,23 @@
             "HUBO01": "정지열",
             "JD01": "더불어민주당",
             "DUGSU01": "100,117",
-            "DUGYUL01": "47.52",
+            "DUGYUL01": "47.51",
             "HUBO02": "이재호",
             "JD02": "국민의힘",
-            "DUGSU02": "110,566",
-            "DUGYUL02": "52.47",
+            "DUGSU02": "110,567",
+            "DUGYUL02": "52.48",
             "WINNUM": 2,
-            "WINDUGSU": "110,566",
-            "WINDUGYUL": "52.47",
+            "WINDUGSU": "110,567",
+            "WINDUGYUL": "52.48",
             "WINHUBO": "이재호",
             "WINJD": "국민의힘",
             "SECNUM": 1,
             "SECDUGSU": "100,117",
-            "SECDUGYUL": "47.52",
+            "SECDUGYUL": "47.51",
             "SECHUBO": "정지열",
             "SECJD": "더불어민주당",
-            "DUGYULCHA": "4.95",
-            "DUGSUCHA": "10,449",
+            "DUGYULCHA": "4.97",
+            "DUGSUCHA": "10,450",
             "value": 2
         },
         {
