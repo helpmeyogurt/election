@@ -9,7 +9,7 @@
             "data": [
                 {
                     "name": "더불어민주당",
-                    "value": 116,
+                    "value": 119,
                     "itemStyle": {
                         "color": "#152484"
                     }
@@ -22,55 +22,6 @@
                     }
                 },
                 {
-                    "name": "더불어민주연합",
-                    "value": 0,
-                    "itemStyle": {
-                        "color": "#152484"
-                    }
-                },
-                {
-                    "name": "국민의미래",
-                    "value": 0,
-                    "itemStyle": {
-                        "color": "#E61E2B"
-                    }
-                },
-                {
-                    "name": "녹색정의당",
-                    "value": 0,
-                    "itemStyle": {
-                        "color": "#007C36"
-                    }
-                },
-                {
-                    "name": "새로운미래",
-                    "value": 0,
-                    "itemStyle": {
-                        "color": "#46bbbd"
-                    }
-                },
-                {
-                    "name": "개혁신당",
-                    "value": 0,
-                    "itemStyle": {
-                        "color": "#FF7920"
-                    }
-                },
-                {
-                    "name": "진보당",
-                    "value": 0,
-                    "itemStyle": {
-                        "color": "#D6001C"
-                    }
-                },
-                {
-                    "name": "자유통일당",
-                    "value": 0,
-                    "itemStyle": {
-                        "color": "#E24A49"
-                    }
-                },
-                {
                     "name": "조국혁신당",
                     "value": 2,
                     "itemStyle": {
@@ -78,92 +29,8 @@
                     }
                 },
                 {
-                    "name": "기본소득당",
-                    "value": 0,
-                    "itemStyle": {
-                        "color": "#00D2C3"
-                    }
-                },
-                {
                     "name": "무소속",
                     "value": 11,
-                    "itemStyle": {
-                        "color": "#8b8b8b"
-                    }
-                },
-                {
-                    "name": "국민의당",
-                    "value": 0,
-                    "itemStyle": {
-                        "color": "#EA5504"
-                    }
-                },
-                {
-                    "name": "미래통합당",
-                    "value": 0,
-                    "itemStyle": {
-                        "color": "#EF426F"
-                    }
-                },
-                {
-                    "name": "미래한국당",
-                    "value": 0,
-                    "itemStyle": {
-                        "color": "#EF426F"
-                    }
-                },
-                {
-                    "name": "더불어시민당",
-                    "value": 0,
-                    "itemStyle": {
-                        "color": "#006CB7"
-                    }
-                },
-                {
-                    "name": "정의당",
-                    "value": 0,
-                    "itemStyle": {
-                        "color": "#ffca05"
-                    }
-                },
-                {
-                    "name": "열린민주당",
-                    "value": 0,
-                    "itemStyle": {
-                        "color": "#003E98"
-                    }
-                },
-                {
-                    "name": "소나무당",
-                    "value": 0,
-                    "itemStyle": {
-                        "color": "#1A246B"
-                    }
-                },
-                {
-                    "name": "우리공화당",
-                    "value": 0,
-                    "itemStyle": {
-                        "color": "#009944"
-                    }
-                },
-                {
-                    "name": "한국국민당",
-                    "value": 0,
-                    "itemStyle": {
-                        "color": "#013588"
-                    }
-                },
-                {
-                    "name": "새진보연합",
-                    "value": 0,
-                    "itemStyle": {
-                        "color": "#00d2c3"
-                    }
-                },
-                {
-                    "name": "없음",
-                    "value": 0,
                     "itemStyle": {
                         "color": "#8b8b8b"
                     }
@@ -543,6 +410,18 @@
             "SDNAME": "광주광역시"
         },
         {
+            "name": 2902,
+            "value": 1,
+            "nametxt": "서구",
+            "SDNAME": "광주광역시"
+        },
+        {
+            "name": 2903,
+            "value": 1,
+            "nametxt": "남구",
+            "SDNAME": "광주광역시"
+        },
+        {
             "name": 2904,
             "value": 1,
             "nametxt": "북구",
@@ -613,6 +492,12 @@
             "value": 2,
             "nametxt": "울주군",
             "SDNAME": "울산광역시"
+        },
+        {
+            "name": 4129,
+            "value": 1,
+            "nametxt": "시흥시",
+            "SDNAME": "경기도"
         },
         {
             "name": 4103,
