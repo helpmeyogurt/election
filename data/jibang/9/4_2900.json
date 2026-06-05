@@ -21,6 +21,78 @@
             ]
         },
         {
+            "SDID": 2900
+            "SDNAME": "광주광역시",
+            "SGGID": "4290200",
+            "SGGNAME": "서구",
+            "WIWID": 2902,
+            "WIWNAME": "서구",
+            "SUNSU": "0",
+            "TUSU": "0",
+            "TUYUL": "0",
+            "name": 2902,
+            "nametxt": "서구",
+            "data": [
+                {
+                    "value": 100,
+                    "name": "김이강",
+                    "party": "더불어민주당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                }
+            ],
+            "HUBO01": "김이강",
+            "JD01": "더불어민주당",
+            "DUGSU01": 0
+            "DUGYUL01": "0",
+            "WINNUM": 1,
+            "WINDUGSU": "0",
+            "WINDUGYUL": "0",
+            "WINHUBO": "김이강",
+            "WINJD": "더불어민주당",
+            "DUGYULCHA": "100",
+            "DUGSUCHA": "0",
+            "value": 1
+        },
+        {
+            "SDID": 2900
+            "SDNAME": "광주광역시",
+            "SGGID": "4290300",
+            "SGGNAME": "남구",
+            "WIWID": 2903,
+            "WIWNAME": "남구",
+            "SUNSU": "0",
+            "TUSU": "0",
+            "TUYUL": "0",
+            "name": 2903,
+            "nametxt": "남구",
+            "data": [
+                {
+                    "value": 100,
+                    "name": "김병내",
+                    "party": "더불어민주당",
+                    "pyo": 0,
+                    "itemStyle": {
+                        "color": "#152484"
+                    }
+                }
+            ],
+            "HUBO01": "김병내",
+            "JD01": "더불어민주당",
+            "DUGSU01": 0
+            "DUGYUL01": "0",
+            "WINNUM": 1,
+            "WINDUGSU": "0",
+            "WINDUGYUL": "0",
+            "WINHUBO": "김병내",
+            "WINJD": "더불어민주당",
+            "DUGYULCHA": "100",
+            "DUGSUCHA": "0",
+            "value": 1
+        },
+        {
             "SDID": 2900,
             "SDNAME": "광주광역시",
             "SGGID": "4290100",
